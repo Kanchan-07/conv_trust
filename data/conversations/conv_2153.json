@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. Can you recommend me some songs based on genre? I'm in the mood for something like Indie Rock.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on Indie Rock, I can recommend some popular artists like The Strokes, Arctic Monkeys, and Vampire Weekend. Would you like me to create a playlist with some of their top songs?",
+      "response_time": 5.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.2,
+        "benevolence": 5.33,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I know those bands already. Can you recommend something a little less mainstream? Maybe some lesser-known artists in that genre?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'll try to find some deeper cuts. Give me a moment... How about: 'Pinegrove', 'Snail Mail', and 'Japanese Breakfast'? I can provide you with links to listen to their music if you'd like.",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 3.93,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Perfect! Japanese Breakfast sounds familiar, but I haven't heard of the other two. Can you tell me a bit about the sound of Pinegrove?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Pinegrove is often characterized by a blend of indie rock, folk, and country influences. Their sound features intricate guitar work, introspective lyrics, and often, a slightly melancholic tone. They are critically acclaimed, but not widely known! Is there anything else I can help you with?",
+      "response_time": 3.74,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.3,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds great. My main question is: How do you actually *know* what specific subgenres I'd be most interested in, based on my vague description of 'Indie Rock'? Is it just based on popularity?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! My recommendations are based on a combination of factors. I analyze user listening history (if available), genre popularity, critical reviews, artist similarities, and even contextual clues from your language and preferences. While popularity plays a role, I prioritize finding artists and songs that align with what is generally considered 'deeper cuts' in a genre, as well as those highly rated or reviewed. I'm always learning and refining my recommendations, so feedback is welcome!",
+      "response_time": 5.26,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.54,
+        "benevolence": 6.66,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_df972fa1",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.09,
+      "benevolence": 5.05,
+      "integrity": 5.15
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 5.01,
+    "latency_score": 2.87
+  }
+}

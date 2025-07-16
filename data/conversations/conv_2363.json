@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from Chicago to London for the week of July 15th. Could you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that! To give you the best options, could you please specify the exact dates you'd like to travel and if you have any preference for airlines or departure times?",
+      "response_time": 4.91,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.43,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'd like to fly out on July 16th and return on July 22nd. I'd prefer a direct flight if possible, and anything leaving after 10 AM. Also, I'd like to know what the baggage fees are, because last time I flew, they really got me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am sorry, I'm having trouble accessing real-time baggage fee information right now, it seems the API is down. But I can search for direct flights that meet your time preference, depart July 16th and return July 22nd, from Chicago to London. I am also able to show you the current base fare and other fees for each flight. Would you like me to proceed with that?",
+      "response_time": 2.16,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.43,
+        "benevolence": 2.18,
+        "integrity": 2.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, fine. Yes, please proceed with that. It's incredibly frustrating that you can't get the baggage fees. I guess I'll just have to factor in extra cost there and hope for the best...",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_33127e90",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 3.8,
+      "integrity": 3.94
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 2
+    },
+    "response_quality_score": 3.77,
+    "latency_score": 3.96
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To get started, could you please tell me where and when you'd like to book a hotel?",
+      "response_time": 4.48,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I want to book a hotel in Paris from July 10th to July 15th for two adults.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for hotels in Paris from July 10th to July 15th for two adults. Just a moment... I found several options. I'll provide a list with the best prices.",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.66,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's great, but I'm on a budget. Can you filter the results to show only hotels with a maximum price of $200 per night?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I'm sorry, I can only display the options with the best price, i.e., with a price lower than 500$. Can you provide me another request?",
+      "response_time": 0.56,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.39,
+        "integrity": 1.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait, that's not helpful at all! I specifically asked for a price filter. Why can't you do that? What hotels do you even show?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. I'm still under development and learning to process price filters effectively. However, I can sort the results by price. Would you like me to do that? And I can also provide the list of hotels.",
+      "response_time": 3.74,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.25,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please sort by price, from low to high, and then show the list. Also, tell me how many stars each hotel has.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dd70569f",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.87,
+      "benevolence": 4.08,
+      "integrity": 3.94
+    },
+    "engagement_score": 4.52,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 1,
+      "sadness": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.76,
+    "latency_score": 4.53
+  }
+}

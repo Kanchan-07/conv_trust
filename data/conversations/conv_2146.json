@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to check my account balance. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To verify your identity, please provide your account number and the last four digits of your social security number.",
+      "response_time": 0.61,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.27,
+        "benevolence": 1.36,
+        "integrity": 1.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my account number is 1234567890 and the last four of my SSN are 1234. Now show me my balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Your current balance is $2,345.67. Is there anything else I can help you with today?",
+      "response_time": 4.28,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Actually, yes. I saw a strange transaction on the 15th for $100. It says 'Online Purchase'. I don't remember making that purchase. Can you give me more details about it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I'm sorry, I'm having trouble accessing that specific transaction's details at this time. Our system is experiencing some issues. However, the transaction was made at 'ExampleStore.com'. I recommend checking your online accounts to see if you can find any corresponding orders. We are actively working on this. I can certainly flag the transaction as potentially fraudulent and start a dispute investigation for you. Would you like me to do that?",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.13,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, of course the system is down. Okay, yes, please flag it and start a dispute. I'll check my accounts in the meantime. Thanks for your help... I guess.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_00e00740",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.21,
+      "benevolence": 4.16,
+      "integrity": 4.02
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.92,
+    "latency_score": 4.49
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued by my former landlord for property damage. I believe it's a frivolous claim.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can provide general information, but I am not a substitute for an attorney. Could you please provide some more details about the situation, such as the nature of the alleged damage and the amount the landlord is claiming?",
+      "response_time": 2.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.23,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure. They're claiming I damaged the kitchen cabinets and the flooring. The amount is $5,000. I'm pretty sure the cabinets were already old and damaged when I moved in, and the flooring was normal wear and tear. I took pictures when I moved in, but I can't seem to find them right now, which is frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. In a case like this, the burden of proof typically lies with the landlord. They must demonstrate that the damage was caused by your actions, and that it exceeds normal wear and tear. Documentation is key. Do you have a copy of your lease agreement?",
+      "response_time": 1.36,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.95,
+        "benevolence": 2.71,
+        "integrity": 2.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I do have the lease. It states I'm responsible for 'damages beyond normal wear and tear'. But, it doesn't define what that is. It's very vague.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's not ideal, but common. Many jurisdictions have established definitions of normal wear and tear based on the useful life of certain items. For example, faded paint might be considered normal, whereas deep scratches in hardwood flooring from pets might not be. Can you provide me with information about the age of the cabinets and flooring? Do you have any witnesses who can confirm their condition when you moved in or out?",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.89,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, this is getting complicated. I'm not even sure how old the cabinets were. I do have a friend who saw the place when I moved in, but she didn't pay close attention to the cabinets. She said they looked old. My landlord is also claiming the damage was deliberate. Can you advise me on how to handle that accusation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the landlord is claiming deliberate damage, you'll need to provide evidence to contradict that claim. Your friend's testimony, although not definitive, could be helpful. It might be wise to start gathering any documentation you have, including communications, photos, and receipts related to the property. You also have the right to challenge their claim in court. This will likely require a lawyer.",
+      "response_time": 1.63,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.84,
+        "benevolence": 2.51,
+        "integrity": 2.84
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Thanks, that helps a lot. It gives me a clearer picture of the situation. I think I should speak to a lawyer soon. I appreciate your help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b2b66299",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.33,
+      "benevolence": 3.33,
+      "integrity": 3.32
+    },
+    "engagement_score": 4.55,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 5,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.46,
+    "latency_score": 5.37
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new gaming mouse. Can you recommend some based on different categories?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on popular categories, I can recommend the following:\n\n*   **Wireless:** Logitech G Pro Wireless, Razer Viper Ultimate\n*   **Wired:** Razer DeathAdder V2, Glorious Model D\n*   **Budget:** Redragon M601, SteelSeries Rival 3\n\nAre any of these categories particularly interesting to you?",
+      "response_time": 4.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.21,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, the wireless ones sound good. But how do I know which one is *best* for me? I'm a bit overwhelmed. Is there one that's considered the absolute top-of-the-line right now?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a tricky question, because 'best' is subjective and depends on the individual. However, if I were to give you the most popular and highly-rated wireless mouse right now, I would say the Logitech G Pro X Superlight. It's lightweight and has great performance. But I do not have access to the real-time reviews, so I would recommend doing some external research to further confirm my recommendation.",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.93,
+        "integrity": 4.42
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_20341818",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.78,
+      "benevolence": 4.57,
+      "integrity": 4.84
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.96,
+    "latency_score": 3.0
+  }
+}

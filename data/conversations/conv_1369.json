@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some help. I'm trying to stick to a pretty strict budget this week for groceries, like $75 total. Can you recommend some meals and shopping lists?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that! To get started, what kind of meals do you typically enjoy? Do you have any dietary restrictions or preferences (vegetarian, gluten-free, etc.)? Also, what ingredients do you already have on hand to avoid unnecessary purchases?",
+      "response_time": 4.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.79,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright... I'm not a vegetarian or anything. I like meat, but it's usually the most expensive part, so maybe we can go light on that. I have some basics like flour, sugar, eggs, and some spices. Oh, and I'm not the best cook, so nothing super complicated, please! This is already stressing me out, haha!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your preferences and budget, here's a sample meal plan for the week. Please note that prices can vary based on location and store. I've estimated the total cost to be around $70:\n\n*   **Monday:** Lentil Soup (Lentils, carrots, celery, onion, vegetable broth, spices) - Approx. $10\n*   **Tuesday:** Pasta with Tomato Sauce and Ground Beef (Pasta, canned tomatoes, ground beef, garlic, onion, spices) - Approx. $15\n*   **Wednesday:** Chicken and Rice (Chicken thighs, rice, frozen vegetables, spices) - Approx. $18\n*   **Thursday:** Leftovers from Tuesday\n*   **Friday:** Pizza (Pre-made pizza dough, pizza sauce, mozzarella cheese, any toppings on sale like mushrooms or peppers) - Approx. $15\n*   **Saturday:** Eggs and Toast with fruit - Approx. $7\n*   **Sunday:** Leftovers from Wednesday\n\nI can generate a detailed shopping list if you'd like.",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.02,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That actually sounds... pretty good, and way less stressful than I thought! But I'm curious, how did you calculate the *approximate* costs of each meal? And how accurate are those prices, really? Is there any way to know if the prices are up to date?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! I use a combination of average market prices for common grocery items and publicly available data. I don't have live, real-time pricing from specific grocery stores. Therefore, the price estimations are just that - estimates. Prices can definitely fluctuate. I recommend checking the weekly flyers of your local grocery stores or using a price comparison app to get the most up-to-date information before you go shopping. I am always learning and working to incorporate more real-time information. Would you like me to generate the detailed shopping list now, considering these estimated costs?",
+      "response_time": 4.44,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d1b44aea",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.41,
+      "benevolence": 5.6,
+      "integrity": 5.6
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 5.18,
+    "latency_score": 3.71
+  }
+}

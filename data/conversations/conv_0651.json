@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I've had claim #12345 denied for the third time. The reason given is 'lack of medical necessity,' but the doctor clearly stated it *was* necessary. What gives?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can look into claim #12345 for you. To start, can you please verify the patient's name and date of birth associated with the claim?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, born on January 15, 1978.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I access the claim details. Okay, I see the denial. It looks like the documentation on file doesn't explicitly connect the procedure to the patient's diagnosed condition. The denial reason is indeed 'lack of medical necessity'. I see a note indicating a peer-to-peer review was offered to the doctor. Was that performed?",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm not sure. Probably not, knowing them; they are super busy. But even if it wasn't, shouldn't there be SOME indication in the claim details what specific documentation is missing? 'Lack of medical necessity' is so vague! How are we supposed to know what to send in a corrected claim?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid point. I can see how that would be confusing. While I don't have access to the specific internal notes used by the clinical reviewer, based on the denial reason and common issues, I recommend submitting a detailed letter from the doctor explaining the direct connection between the patient's diagnosis (specifically listing the ICD-10 code if possible) and the procedure performed, referencing specific test results or clinical findings. Also, submitting any updated or previously unsubmitted medical records detailing the patient's condition leading up to the procedure would be beneficial. Did the doctor submit all relevant records previously?",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 3.62,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's actually helpful, thanks. I'll reach out to the doctor's office with that information and see if we can get a more detailed letter and resubmit. I appreciate you looking into it!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cdf801d4",
+    "average_trust_score": 2.0,
+    "trust_category_averages": {
+      "competence": 1.98,
+      "benevolence": 1.87,
+      "integrity": 2.05
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 1.56,
+    "latency_score": 6.26
+  }
+}

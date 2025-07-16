@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some financial planning guidance. I'm feeling a bit overwhelmed with all the options out there.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. Financial planning can seem daunting. I can help. To get started, could you tell me a little about your current financial situation and your goals? For example, what are your income, expenses, and any existing savings or investments?",
+      "response_time": 4.63,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.59,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well... I make about $75,000 a year, but after taxes and expenses, I'm lucky if I save $200 a month. I have a small emergency fund, but I want to start investing for retirement and maybe a down payment on a house eventually. It feels like a mountain to climb, honestly!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for sharing. Based on your situation, it seems like a good starting point would be creating a detailed budget to identify areas where you can increase your savings. We can also explore investment options, considering your risk tolerance. Given your income and savings rate, a Roth IRA or a traditional IRA might be a good place to start for retirement. However, I would need more information about your specific expenses to provide truly customized advice. Could you elaborate on your monthly expenses and the interest rate on your emergency fund?",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.09,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "My expenses are pretty variable, to be honest! That's where I get stuck. One month is fine, the next I'm scrambling. What about the impact of inflation on my investments? It feels like anything I put in now will be eaten up by rising costs.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Inflation is definitely a factor to consider. We'll need to build that into any projections. Generally, the impact of inflation on your investments is mitigated by choosing investments that historically have outpaced inflation. For example, stocks have typically outpaced inflation over the long term. We'll also need to re-evaluate your investment strategy regularly. Regarding your variable expenses, I recommend using budgeting apps like Mint or YNAB (You Need a Budget) to track your spending. Analyzing your spending will help you identify areas to save more. Can you tell me more about your current investment portfolio and your debt situation?",
+      "response_time": 4.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.18,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. No debt, thankfully! I have nothing invested at the moment, just that small emergency fund. This is helpful; thanks for the guidance. I think I can start tracking my expenses and then come back with more specific data. I feel a lot better about getting started now!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_86f2a48d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.36,
+      "benevolence": 5.29,
+      "integrity": 5.42
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "joy": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 5.08,
+    "latency_score": 3.19
+  }
+}

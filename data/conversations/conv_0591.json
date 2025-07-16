@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you check my account balance for my checking account ending in 1234?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. One moment. The current balance for your checking account ending in 1234 is $785.23.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.37,
+        "benevolence": 1.38,
+        "integrity": 1.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, great. And can you tell me what the last five transactions were?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Of course. The last five transactions are: $25.00 to Netflix, $75.00 to Grocery Store, $15.00 to Coffee Shop, $1200.00 direct deposit from Employer, and $30.00 to Gas Station.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that Netflix charge! Anyway, is there a way to set up an automatic transfer of $50 from my checking to my savings account every month?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I can help you set that up. To confirm, you want to transfer $50 from your checking account ending in 1234 to your savings account, starting next month, is that correct?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 4.08,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that's right. But what day of the month will the transfer happen? I need it to be on the 15th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay. I have scheduled a recurring transfer of $50 from your checking account ending in 1234 to your savings account, to occur on the 15th of each month. Is there anything else I can help you with?",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.9,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Actually, yes. This is a bit of a tricky question. If the bank fails, how protected is my money, really? I know there's FDIC insurance, but what does that *actually* mean in a real-world collapse scenario? Are there any limitations or loopholes I should be aware of?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question. While I can provide general information about FDIC insurance, for specific details regarding coverage limitations and scenarios, it is best to consult the FDIC website directly or speak with a financial advisor. They can provide the most accurate and personalized guidance.",
+      "response_time": 5.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.14,
+        "integrity": 5.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c408f0a4",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.05,
+      "benevolence": 3.1,
+      "integrity": 3.35
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "neutral": 9,
+      "disgust": 1
+    },
+    "response_quality_score": 2.8,
+    "latency_score": 4.86
+  }
+}

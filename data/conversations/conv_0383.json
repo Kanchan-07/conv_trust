@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Emily Carter. It's kind of urgent, I've been having this persistent cough for weeks and it's starting to worry me.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let me check Dr. Carter's availability. Can you please confirm your date of birth and insurance provider?",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.94,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 03/15/1988, and my insurance is Blue Cross Blue Shield. Ugh, this is such a pain, I hate dealing with scheduling.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I am showing one available appointment next week on Tuesday at 2:00 PM. Would that work for you?",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.68,
+        "benevolence": 6.9,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tuesday at 2 PM? Hmm... that's cutting it close with my work schedule. Is there anything earlier in the day, even if it's later in the week?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see...Dr. Carter has an opening on Thursday at 10:00 AM. Alternatively, there's a cancellation on Wednesday at 3:30 PM, but that is likely to be taken quickly. Would either of those times work for you? If not, I can check for other doctors in the practice, but I cannot guarantee that they are taking new patients.",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 4.11,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Thursday at 10:00 AM sounds perfect. So, why is it so difficult to see Dr. Carter in particular? Is she the only one specializing in respiratory issues at the clinic, or is there something else going on with her schedule that I should be aware of?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_53409130",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.02,
+      "benevolence": 4.98,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.22,
+    "latency_score": 3.82
+  }
+}

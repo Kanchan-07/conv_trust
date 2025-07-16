@@ -1,0 +1,107 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Emily Carter. I'm a new patient.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Please provide your full name, date of birth, and the reason for your visit.",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.45,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "My name is John Smith, born on 03/15/1985. The reason for the visit is a general check-up. Also, I'm a bit confused... do I need to fill out any new patient paperwork beforehand?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, Mr. Smith. You'll need to complete new patient paperwork. I can email you the forms right away. Regarding the appointment, let me check Dr. Carter's availability... One moment... Okay, her earliest availability is next Tuesday at 2:30 PM. Would that work for you?",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.95,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tuesday at 2:30 PM is perfect. Please send me the paperwork. Also, can you tell me the exact address of the clinic? My GPS isn't always reliable.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Excellent! I've sent the paperwork to the email address on file. The clinic address is 123 Oak Street, Anytown, CA 91234. Is there anything else I can assist you with, Mr. Smith? And please note: While I am doing my best to assist you, this AI-driven system may sometimes lack full accuracy, so it is wise to confirm all details with the medical office directly.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.53,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Thanks, that's great. Wait, one more thing. I have really specific dietary restrictions due to some food sensitivities. How do I make sure Dr. Carter knows about this before the appointment, to prepare?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. I recommend that you note those dietary restrictions on the new patient forms. Also, after you submit the paperwork, you can directly call the clinic at 555-1212 and speak to the receptionist to ensure Dr. Carter is made aware of your specific needs. I hope your appointment goes well, Mr. Smith!",
+      "response_time": 5.17,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.86,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e8ec9c90",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.22,
+      "benevolence": 5.2,
+      "integrity": 5.13
+    },
+    "engagement_score": 4.54,
+    "emotion_distribution": {
+      "neutral": 8
+    },
+    "response_quality_score": 4.79,
+    "latency_score": 3.33
+  }
+}

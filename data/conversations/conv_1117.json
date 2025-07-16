@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Diego for 3 nights, sometime in July. My budget is around $200 a night, give or take.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To clarify, are there any specific dates in July you're considering, and how many guests will be staying?",
+      "response_time": 3.24,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.63,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say July 12th to the 15th. And it's just me. I'd prefer something close to the Gaslamp Quarter, if possible. This is already getting complicated... Ugh.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for hotels near the Gaslamp Quarter in San Diego from July 12th to 15th, for one guest, with a maximum budget of $200 per night. I'm showing a few options:\n\n1.  Hotel Indigo San Diego Gaslamp Quarter - Approximately $189/night\n2.  Courtyard by Marriott San Diego Gaslamp/Convention Center - Approximately $210/night\n3.  Staypineapple, Hotel Z, Gaslamp San Diego - Approximately $175/night\n\nWould you like more information on any of these?",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.53,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me more about the Hotel Indigo. What's their policy on early check-in? My flight gets in at like, 10 am.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Hotel Indigo San Diego Gaslamp Quarter generally allows early check-in based on availability. It's best to contact the hotel directly at (555) 123-4567 to request early check-in and confirm if it's possible on your arrival date. I can also search for their policy online. However, results may not be up to date.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.24,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But what if they're full the night before? Is there a guaranteed way to get early check-in, like if I paid extra or something? I really don't want to lug my suitcase around all day.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d67e4363",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 3.8,
+      "integrity": 3.88
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 3.85,
+    "latency_score": 3.89
+  }
+}

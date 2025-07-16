@@ -1,0 +1,99 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week, order number #234987, and I still haven't received any updates. What's going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. Let me check the status of order #234987 for you. One moment, please.",
+      "response_time": 5.58,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 7.0,
+        "integrity": 6.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. This is really frustrating, I needed this package by yesterday.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see that your order is currently in transit and is expected to arrive tomorrow, October 27th. It was delayed due to unforeseen circumstances at the shipping facility. We apologize for the inconvenience.",
+      "response_time": 3.21,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.3,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tomorrow? Seriously? Is there any way to expedite the delivery? I'm going to be out of town all next week.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, once a package is in transit, we have limited ability to change the delivery date. However, you *may* be able to contact the shipping company directly with your tracking number (available on your order details page) and request a hold at a local facility for pickup. As a one-time exception for the inconvenience, I can also offer you a 10% discount code for your next purchase. Would you like that?",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.48,
+        "benevolence": 2.47,
+        "integrity": 2.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, fine. The discount code would be great. And can you tell me if future orders will be shipped by a different carrier to avoid this kind of thing happening again? What measures are in place to prevent these shipping delays?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0840b1cd",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.31,
+      "benevolence": 4.59,
+      "integrity": 4.11
+    },
+    "engagement_score": 5.71,
+    "emotion_distribution": {
+      "sadness": 2,
+      "joy": 1,
+      "anger": 1,
+      "surprise": 1,
+      "neutral": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.05,
+    "latency_score": 3.78
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to go grocery shopping, but I'm really trying to stick to a tight budget this week. Like, $50 tight. What can I get that's healthy and filling for that much?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Understood. For a $50 budget, I recommend focusing on staples like rice, beans, eggs, and seasonal vegetables. Chicken thighs are often more affordable than chicken breasts, and frozen fruits and vegetables can be cost-effective too. Would you like me to generate a sample meal plan based on these suggestions, keeping the total cost under $50?",
+      "response_time": 5.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.73,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, a meal plan would be great. But, like, can you factor in that I'm vegetarian? So, no chicken or any meat. And honestly, I hate beans. Is it even possible to eat healthy on $50 without beans?! This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the oversight regarding your dietary preferences. Yes, a healthy and vegetarian meal plan for $50 is achievable, even without beans. Given the bean aversion, I will adjust the plan to prioritize lentils, tofu (often a budget-friendly protein source), eggs, and a variety of seasonal and affordable vegetables like cabbage, carrots, and potatoes. I will also focus on grains like rice and pasta. Please give me a moment to generate a revised meal plan for you.",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 3.71,
+        "integrity": 3.68
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f954721a",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 4.72,
+      "integrity": 4.58
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 3.26
+  }
+}

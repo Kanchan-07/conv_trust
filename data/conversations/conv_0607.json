@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to book a table for four at a nice Italian place this Saturday. Somewhere near downtown, preferably. And it needs to be before 8 PM.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can help with that! Let me check for Italian restaurants near downtown with availability for four people this Saturday before 8 PM. Do you have any price range preferences?",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.82,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Not too expensive... I'd say maybe $30-$50 per person max? Oh, and good reviews are a must. I don't want to end up at some tourist trap. Honestly, I'm starving just thinking about it!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for Italian restaurants near downtown, with a price range of $30-$50 per person, good reviews, and availability for four this Saturday before 8 PM... I'm seeing a few options. There's 'Bella Notte' with 4.5 stars and availability at 7:30 PM. Or 'Pasta Paradise' which has 4 stars and availability at 6:00 PM and 7:00 PM. Would either of those work?",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 3.56,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Bella Notte sounds promising. But what does \"good reviews\" actually mean? Like, what are people saying about the service specifically? I've had bad experiences with supposedly good restaurants having terrible service before, which completely ruins the meal. Ugh!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your concern about service. While I can't provide a detailed summary of every review, I can tell you that recent reviews for Bella Notte mention 'attentive and friendly staff' and 'prompt service' in several instances. Some reviewers specifically praised the waitstaff's knowledge of the wine list. Would you like me to proceed with booking a table for four at Bella Notte at 7:30 PM this Saturday?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 3.83,
+        "integrity": 3.83
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fd601750",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 4.8,
+      "integrity": 4.87
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 5.31,
+    "latency_score": 3.65
+  }
+}

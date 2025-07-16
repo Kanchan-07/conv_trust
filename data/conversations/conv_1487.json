@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. My car was damaged in an accident yesterday.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am sorry to hear about the accident. I can certainly help you with your claim. To get started, could you please provide your policy number and a brief description of what happened?",
+      "response_time": 2.96,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.6,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my policy number is ABC123XYZ. The other driver ran a red light and hit me. I have pictures of the damage and the other driver's insurance info.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please upload the pictures and the other driver's information. I will also need a police report if one was filed. Please allow for a few minutes for the upload. Once that is done, I will start an investigation and be in touch to discuss the next steps. Please note, the investigation could take up to 5 business days. But, I will keep you informed. Also, do you have any questions for me?",
+      "response_time": 4.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.98,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Five business days? That seems excessive. What if my car is totaled and I need a rental immediately? Can I get reimbursed for that, and how long will it take to get the reimbursement if so?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. If your vehicle is deemed a total loss, we can certainly arrange for a rental car. Rental coverage is included in your policy, subject to your deductible. Regarding reimbursement time, it can vary. Generally, it takes 7-10 business days after the claim is approved and all necessary documentation, like rental agreements and receipts, are received. I am currently uploading the documentation. Would you like me to provide a list of approved rental companies in the area?",
+      "response_time": 1.38,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.44,
+        "benevolence": 2.36,
+        "integrity": 2.5
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_77c1d11d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.1,
+      "benevolence": 3.98,
+      "integrity": 4.18
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 4.15,
+    "latency_score": 4.64
+  }
+}

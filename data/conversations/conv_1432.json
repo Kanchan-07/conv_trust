@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm applying for a software engineering position. I've got my resume and cover letter ready, but I'm feeling a little overwhelmed. Can you give me some pointers on tailoring my application to the job description?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To tailor your application effectively, I recommend the following steps: 1) Carefully read the job description and identify key skills and requirements. 2) Review your resume and cover letter, highlighting experiences that directly match those requirements. 3) Use the same keywords and phrases from the job description in your application. 4) Quantify your accomplishments whenever possible (e.g., 'Improved system efficiency by 15%'). Do you have a specific section of the application you'd like me to help you with?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.76,
+        "benevolence": 6.7,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "That's all helpful, thanks! But I'm confused about how to quantify my experience when the job description is vague. They say they want someone who's 'a team player' and 'results-oriented', but how do I actually *prove* that in my cover letter without sounding generic? It's frustrating!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right; that's a tricky one. For 'team player,' you could describe a project where you collaborated, mentioning specific team roles and outcomes. For 'results-oriented,' focus on projects where you delivered tangible results, using numbers if possible. For instance, 'Collaborated with a team of five developers to launch X project, resulting in a 10% increase in user engagement within the first quarter.' Alternatively, you could provide a brief anecdote that demonstrates these qualities. While these are generally helpful tips, it is also important to assess the cultural fit with the organization as well. This could involve looking at past reviews or asking questions that may hint at the company's values during an interview. ",
+      "response_time": 2.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.93,
+        "integrity": 4.27
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_983eb053",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.36,
+      "benevolence": 5.32,
+      "integrity": 5.63
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 3.65
+  }
+}

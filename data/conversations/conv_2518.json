@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my checking account balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Please confirm which checking account you'd like the balance for. Is it your primary checking account ending in XXXX?",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.27,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, the primary one. And could you also show me the last few transactions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, your current balance for the primary checking account is $1,250.75. Recent transactions include: \n- ABC Store: -$25.00\n- Online Payment: -$75.50\n- Direct Deposit: +$550.00\nIs there a specific transaction date or amount you're looking for?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.71,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's weird. I made a payment yesterday to 'Utility Company' for about $85, and it's not on that list. What's going on? Did it not go through?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Transactions can sometimes take a business day or two to fully post and appear in your online history. It might still be processing. Can you confirm the exact time you initiated the payment?",
+      "response_time": 3.84,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.14,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "It was definitely yesterday afternoon. But okay, I guess it might be pending. It's just frustrating when things don't show up right away. Anyway, how do I set up a recurring transfer to my savings account?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great way to save! To set up a recurring transfer, you'll typically go to the 'Transfers' section in online banking or the mobile app. You'll select the source account (checking), the destination account (savings), the amount, frequency (weekly, monthly, etc.), and the start date. Would you like me to guide you through that process step-by-step on the website or app?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.21,
+        "benevolence": 1.27,
+        "integrity": 1.13
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Nah, I think I can find it. Thanks. One last thing, I need to update my phone number on file. How do I do that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "To update your contact information, including your phone number, you'll need to go to the 'Profile & Settings' or 'Personal Information' section in your online banking portal. For security, you might be asked to verify your identity. Is there anything else I can assist you with today?",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.04,
+        "integrity": 3.92
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_27a553e2",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.56,
+      "benevolence": 3.49,
+      "integrity": 3.48
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1,
+      "fear": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 3.14,
+    "latency_score": 4.42
+  }
+}

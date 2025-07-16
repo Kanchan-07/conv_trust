@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I want to fly from New York to Los Angeles sometime next month. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that! To get started, could you please provide the specific dates you're looking to travel next month? Also, do you have any preferred airlines or times of day for your flights?",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.97,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I'm flexible, honestly. Let's say sometime between October 10th and October 20th. Early morning is preferred, but I'm open to anything that's not *too* late. And no preference on airlines, just the cheapest option, please.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've searched for flights from New York to Los Angeles between October 10th and October 20th, prioritizing early morning departures and the cheapest fares. I found a flight on October 12th with United Airlines for $250. Would you like me to book that?",
+      "response_time": 2.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.63,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's... surprisingly cheap! Is that price really all-inclusive? Are there any hidden baggage fees or anything like that?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. I am checking the details now... The price includes one carry-on bag. Checked baggage fees are not included and would cost an additional $30. Would you like me to add that to the booking? Also, this flight has a layover in Denver for 2 hours. ",
+      "response_time": 2.27,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.67,
+        "benevolence": 2.6,
+        "integrity": 2.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, add the checked bag. Hmm, 2 hours layover... I suppose that's okay for that price. How do you handle flight changes if the flight gets delayed or canceled? Do you have automatic rebooking?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am unable to provide information about flight delays or cancellations, but you can refer to the United Airlines policy online. I am also unable to book flights. Please follow the link here to continue to the booking process. Thanks!",
+      "response_time": 0.54,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e50279b4",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.12,
+      "benevolence": 3.3,
+      "integrity": 3.44
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.81,
+    "latency_score": 5.2
+  }
+}

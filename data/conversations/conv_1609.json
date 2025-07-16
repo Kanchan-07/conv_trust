@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help creating a resume. I'm applying for a Project Manager role.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To get started, could you provide me with some information? Specifically, please share your relevant work experience, education, skills, and any certifications you have. Also, what kind of Project Manager role are you applying for (e.g., IT, construction, etc.)?",
+      "response_time": 5.1,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.59,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm applying for an IT Project Manager role. I have 5 years of experience, a PMP certification, and a Bachelor's in Computer Science. But honestly, writing about myself feels so awkward. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. It can be challenging to write about yourself! Let's break it down. For your experience section, we can focus on your accomplishments in each role, using the STAR method (Situation, Task, Action, Result). For instance, instead of just stating you 'managed projects,' you could say, 'In a challenging situation X, I was tasked with Y, and took action Z, resulting in A.' Could you provide details on your most recent project and your role?",
+      "response_time": 1.7,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.96,
+        "benevolence": 2.43,
+        "integrity": 2.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That STAR method sounds useful, I'll try it. But I'm also confused about the skills section. Should I list every single software I've ever used, or focus on core project management skills? Also, how do I handle gaps in employment? I took a 6-month break to travel a year ago.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great questions! For your skills section, prioritize the core skills that the job description lists. It's often better to provide a list of specific skills relevant to Project Management (e.g., Agile, Scrum, Budget Management, Risk Management) rather than a comprehensive software list unless the job posting highlights a specific software is key. Addressing employment gaps, you can briefly mention the time off with a simple statement like, 'Career Break - Travel and Personal Development'. This shows you're proactive while not dwelling on the gap. I can help you draft those specific sentences as well, if you want.",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.81,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a lot better. Thanks! This is helping more than I expected. Let's start with my most recent project...",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f0bdf515",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.58,
+      "benevolence": 4.61,
+      "integrity": 4.51
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.58,
+    "latency_score": 3.87
+  }
+}

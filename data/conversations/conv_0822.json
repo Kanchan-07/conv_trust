@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I want to order some food, but I'm not sure what I'm in the mood for. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help with that. To give you the best recommendations, could you tell me what kind of cuisine you're generally interested in (e.g., Italian, Mexican, Asian)? Or, what's the last thing you ate that you really enjoyed?",
+      "response_time": 5.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.42,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I had pizza last night. I'm thinking maybe something... healthier? But also, something quick and easy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your preferences, I would suggest a salad. Would you like to see nearby salad restaurants or maybe other suggestions, such as a quick and easy soup or sandwich?",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.85,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Salad sounds good, I guess. But what about something a little more interesting? Like, I've heard of restaurants using AI to create custom dishes. Can you do that? Can you invent a completely new dish for me based on my preferences?!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's an interesting idea! I am currently unable to create completely novel recipes, as I am trained on existing data. However, I can suggest restaurants that offer customizable bowls or platters where you can choose your ingredients. For instance, there's a Mediterranean place down the street that lets you build your own bowls. Would you like me to find some options like that?",
+      "response_time": 2.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.88,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, yeah, that's probably more realistic. Find me places with build-your-own bowls then. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f7e30045",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.38,
+      "integrity": 4.42
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 3.24
+  }
+}

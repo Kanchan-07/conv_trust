@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up with Dr. Ramirez. I'm free next week, preferably on Tuesday or Wednesday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, let me check Dr. Ramirez's availability. Unfortunately, Tuesday is fully booked. However, she has openings on Wednesday at 10:00 AM and 2:30 PM. Which one works best for you?",
+      "response_time": 3.63,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.82,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, 2:30 PM is a little late. What are the chances of getting seen at an earlier time slot? What is the clinic's policy if I have to cancel? Is there a fee?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am checking for earlier slots. It appears there was a cancellation and you can be seen on Wednesday at 9:30 AM. If you cancel less than 24 hours before the appointment, there is a $50 cancellation fee. Does that time work for you?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.3,
+        "integrity": 1.48
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_47d9824c",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.46,
+      "benevolence": 2.56,
+      "integrity": 2.97
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1
+    },
+    "response_quality_score": 2.27,
+    "latency_score": 5.44
+  }
+}

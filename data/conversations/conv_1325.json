@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling because I'm being charged a fee I don't recognize on my recent bill. It's listed as 'Premium Service' and it's $14.99.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thanks for reaching out. I can certainly help you with that. Could you please provide your account number so I can look into the details of your bill?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 123-456-7890. I really have no idea what this 'Premium Service' is. I'm starting to get frustrated because I feel like I'm being charged for something I don't even use!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check that account... Okay, it appears the 'Premium Service' is for the enhanced music streaming package. It seems you subscribed on the 15th of last month. Do you recall signing up for this?",
+      "response_time": 1.67,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.81,
+        "benevolence": 2.17,
+        "integrity": 2.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, maybe. But how can I be sure? I have no record of signing up. Is there any way to know for sure, like an IP address or device associated with the signup? This is really difficult.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am checking our system. Unfortunately, the specific IP details are not available. However, I can see that the signup was initiated on a mobile device associated with your account. Given the circumstances and your claim, I will credit the $14.99 to your account. Is there anything else I can help you with?",
+      "response_time": 2.24,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.58,
+        "benevolence": 2.1,
+        "integrity": 2.16
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3c63be38",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.13,
+      "benevolence": 3.76,
+      "integrity": 3.92
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "joy": 1,
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 4.33,
+    "latency_score": 4.2
+  }
+}

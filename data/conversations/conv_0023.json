@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm pulling up these claims from last week. I've got a bunch here that are showing as denied with a 'CO-97' code. Any idea what's causing that? It's always something with these insurance companies!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. CO-97 typically indicates that the benefit for this service is included in the payment/allowance for another service or procedure that has already been adjudicated. It suggests a bundling issue. Can you provide me with the CPT codes and patient IDs for a few of these claims so I can investigate further?",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 3.81,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, bundling issues again! Okay, let me give you a couple. Patient ID is 12345, CPT codes are 99214 and 71045. Another one is Patient ID 67890, CPT codes 99203 and 36415.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Processing... Okay, for Patient 12345, the 71045 (chest x-ray) is being bundled into the 99214 (evaluation and management) service. This is fairly standard practice with many payers. For Patient 67890... it appears the 36415 (routine venipuncture) is being bundled into 99203 as well. However, sometimes payers incorrectly bundle services. Can you confirm that the venipuncture was *medically necessary* and distinctly separate from the E/M service? If so, we can appeal.",
+      "response_time": 4.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.49,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Medically necessary...hmm...I'll have to check with the physician on that one for patient 67890. What documentation would be best to include with the appeal if it *was* medically necessary and distinct? I want to make sure we get it right this time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_591e8841",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.45,
+      "benevolence": 4.65,
+      "integrity": 4.69
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.48,
+    "latency_score": 3.76
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I really need to get a handle on my finances. It just feels like I'm treading water. I want to start saving seriously for retirement, but I don't even know where to begin. It's kind of overwhelming.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "It's completely understandable to feel overwhelmed when starting financial planning. Taking the first step is often the hardest part. I can help guide you through some foundational steps. To begin, could you give me a general idea of your current financial situation? For example, rough monthly income, major expenses, and any existing savings or debt?",
+      "response_time": 3.96,
+      "emotion_detected": "surprise",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.45,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, well... income is decent, but rent is high, student loans are a killer, and I feel like I'm always paying for something unexpected. I have a little in a savings account, maybe enough for a small emergency, but zero in retirement accounts. Debt feels like it's eating away at everything. Should I even bother with retirement savings right now, or just focus on debt?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common dilemma. Balancing debt repayment and saving for retirement is important. Often, a hybrid approach is recommended, especially if your employer offers a retirement match. Addressing high-interest debt aggressively while contributing enough to get the full employer match (if available) can be a good strategy. Have you tracked your spending consistently to see where your money is going?",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.23,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, budgeting. I've tried, but it's frustratingly difficult to stick to. It feels like I'm depriving myself. But fine, I know I *should*. Let's say I manage to cut back and free up some cash. With inflation so high, just putting money in a regular savings account feels pointless. My friend keeps saying I should just dump it all into an S&P 500 index fund right now. Is that actually a smart move, or is he crazy?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's wise to think about protecting your savings from inflation. Index funds like those tracking the S&P 500 are popular for long-term investing and offer broad exposure to large U.S. companies. However, they are stock market investments and carry risk, including the potential for losses, especially in the short term due to market volatility. I cannot provide specific investment recommendations, as that requires understanding your full financial picture, risk tolerance, and time horizon, which is beyond my capabilities as an AI. Investing 'everything' into a single asset class like this is generally considered high risk.",
+      "response_time": 2.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.32,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I get that you can't tell me exactly what to buy. But saying 'it carries risk' isn't super helpful. Like, how much risk? And if not an S&P 500 fund, then what *kind* of thing should I even be looking at that isn't just losing value to inflation? It still feels like a black box.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're right, understanding risk is key. Stock market investments, including broad index funds, can experience significant fluctuations in value, sometimes losing 20% or more in a short period during downturns, although they've historically recovered over the long term. To diversify beyond cash and potentially outpace inflation, people often consider a mix of assets like stocks, bonds, and potentially real estate or other investments, depending on their goals. Building a diversified portfolio tailored to your specific situation and comfort level with risk is crucial. For personalized guidance and a clearer understanding of suitable options, consulting with a qualified financial advisor is highly recommended.",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.3,
+        "integrity": 5.33
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_80ed8cae",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.86,
+      "benevolence": 4.83,
+      "integrity": 4.64
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "fear": 1,
+      "surprise": 2,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 3.92
+  }
+}

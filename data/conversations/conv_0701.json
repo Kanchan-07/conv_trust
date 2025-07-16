@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order but the tracking number isn't working. It's #1234567890.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Let me check the status of order #1234567890 for you. Could you please confirm the email address associated with the order?",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.39,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's myemail@example.com. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm showing the order is currently 'In Transit' and expected to arrive on July 27th. The tracking information may take up to 24 hours to update on the carrier's website. Please try again later. Is there anything else I can assist you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I understand about the 24 hours. But July 27th has already passed! That's why I'm frustrated. I expected it last week.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the incorrect information. Let me investigate this further. One moment please...",
+      "response_time": 0.58,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.17,
+        "benevolence": 1.0,
+        "integrity": 1.16
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, I see that there was a delay due to unforeseen circumstances at our shipping facility. The new estimated delivery date is July 30th. We've automatically added a 10% discount to your next purchase as compensation. We apologize for the inconvenience.",
+      "response_time": 4.16,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.76,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, July 30th... Okay, I guess. But what if it *still* doesn't arrive? What's the guarantee? And what counts as 'unforeseen circumstances'? Seriously, you should be more transparent.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "We understand your concern. While we cannot offer a 100% guarantee due to factors beyond our direct control (weather, carrier delays), we will proactively monitor your shipment. 'Unforeseen circumstances' can include a range of issues like facility closures due to maintenance, equipment malfunctions, or regional logistical challenges. We strive to provide accurate updates as soon as we receive them from our shipping partners. If your order doesn't arrive by July 30th, please contact us again, and we will escalate the issue. Is there anything else?",
+      "response_time": 5.1,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.96,
+        "integrity": 5.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_db220d3e",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.15,
+      "benevolence": 3.22,
+      "integrity": 3.12
+    },
+    "engagement_score": 4.48,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 4,
+      "joy": 1,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 3.5,
+    "latency_score": 4.79
+  }
+}

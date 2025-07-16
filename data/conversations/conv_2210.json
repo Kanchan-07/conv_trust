@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm in the mood for some new music. Can you recommend some songs based on a genre?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! What genre are you in the mood for today?",
+      "response_time": 6.0,
+      "emotion_detected": "surprise",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.62,
+        "benevolence": 6.96,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm feeling some classic rock, but I'm kind of picky.  I like bands like Led Zeppelin and Pink Floyd... basically the classics, but nothing too cheesy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely help with that. Based on Led Zeppelin and Pink Floyd, here are a few recommendations:\n\n*   'Whole Lotta Love' - Led Zeppelin\n*   'Comfortably Numb' - Pink Floyd\n*   'Paranoid' - Black Sabbath\n*   'Born to be Wild' - Steppenwolf\n*   'Hotel California' - The Eagles",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.94,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Seriously?  'Whole Lotta Love' and 'Comfortably Numb' are exactly what I mentioned!  And you're recommending the most obvious choices, and 'Hotel California' is kind of overplayed, tbh. Not impressed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies. I am still under development and can sometimes provide generic recommendations. Let me try again. How about these?:\n\n*   'The Rover' - Led Zeppelin\n*   'Shine On You Crazy Diamond' - Pink Floyd\n*   'Iron Man' - Black Sabbath\n*   'Magic Carpet Ride' - Steppenwolf\n*   'Life in the Fast Lane' - The Eagles",
+      "response_time": 5.46,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.44,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's better! I like 'The Rover' and 'Magic Carpet Ride'.  But, what about something a little more obscure, something that isn't on every classic rock playlist?  How do you find songs that are less well-known but still fit the vibe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! To find less popular tracks, I analyze a wider range of data points, including user listening history from various platforms, and identify songs that share musical characteristics (instrumentation, tempo, lyrical themes) with your preferred artists. I also cross-reference this with less-streamed artists. \n\nBased on that, I'd recommend 'Hocus Pocus' by Focus and 'War Pigs' by Black Sabbath. Are those more to your liking?",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.14,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Focus! Yes! That's exactly the kind of thing I was looking for! Thanks, I'm going to check those out. Excellent recommendations!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0216e245",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.47,
+      "benevolence": 5.37,
+      "integrity": 5.38
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "joy": 2,
+      "surprise": 2,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 5.16,
+    "latency_score": 3.09
+  }
+}

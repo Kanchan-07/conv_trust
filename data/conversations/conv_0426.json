@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I have this interview coming up for a Junior Data Analyst position. I'm really nervous, can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you prepare. To start, let's focus on common interview questions. Have you thought about the STAR method for answering behavioral questions?",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.78,
+        "benevolence": 7.0,
+        "integrity": 6.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "STAR method? Ugh, I keep hearing about that. Situation, Task, Action, Result, right? It feels so formulaic, I don't know if I can pull it off without sounding like a robot.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, that's correct. While it is a framework, the key is to tailor it to your own experiences and personality. Let's try an example. Tell me about a time you had to overcome a challenge at work. Use the STAR method.",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 4.21,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, umm... (pauses) Okay, here goes. So, there was this project where... [user explains a scenario]. But honestly, what if they ask me something really technical that I just *don't* know? Like, what if they grill me on some obscure statistical method?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. It's unlikely they'll expect you to know *everything*. If you encounter a question you can't answer, it's best to be honest. Try saying something like, \"That's not something I have direct experience with, but I am familiar with the general concepts and I am eager to learn more. Could you perhaps elaborate on how that's applied in this role?\" This shows honesty and a willingness to learn.",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 4.06,
+        "integrity": 4.06
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0c8547ac",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 5.09,
+      "integrity": 4.73
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 3.29
+  }
+}

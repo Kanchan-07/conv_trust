@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from New York to Los Angeles sometime in the middle of June. I'm flexible on the exact dates, but I'd prefer a non-stop flight if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please specify which airport in New York you'd like to depart from (JFK, LGA, or EWR) and what class of service you're looking for (economy, business, first class)?",
+      "response_time": 3.19,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.91,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oh, right. JFK would be best. And economy is fine. Just the cheapest option really. I am so tired of planning this trip...",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for non-stop, economy flights from JFK to Los Angeles (LAX) between June 10th and June 20th. The cheapest option currently is a JetBlue flight on June 14th, departing at 8:00 AM and arriving at 11:00 AM for $350. Would you like to see other options?",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 3.61,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $350 is not bad. Can you check if the price changes if I shift the departure date by a day or two? Maybe June 16th or 17th?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Checking...Okay, on June 16th, the cheapest non-stop economy flight with JetBlue is $380, and on June 17th it jumps up to $410. There are some connecting flights on June 16th for around $360, but they have a layover in Dallas.",
+      "response_time": 3.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.56,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so what are the chances of the price dropping if I wait a bit longer to book? I've heard prices fluctuate like crazy. Is there a good time to actually buy the tickets for the lowest price?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a tricky question! Flight prices are influenced by many factors, including demand, seasonality, and even fuel costs. While I can't guarantee a price drop, historically, booking 4-6 weeks in advance for domestic flights is often recommended. However, keeping an eye on prices and using fare tracking tools can also help you identify potential deals. Would you like me to set up a price alert for the June 14th JetBlue flight?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.46,
+        "integrity": 5.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_87d16df5",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.41,
+      "benevolence": 4.13,
+      "integrity": 4.38
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1
+    },
+    "response_quality_score": 4.03,
+    "latency_score": 4.3
+  }
+}

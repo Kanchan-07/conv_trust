@@ -1,0 +1,116 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. It's for my annual check-up.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Can you please provide your date of birth and the last four digits of your social security number for verification?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 4.34,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 03/15/1988 and the last four are 4455.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please hold while I access your records. ... Okay, I see you in the system. What day and time are you looking for?",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.88,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I'm pretty flexible. What's the earliest available appointment? I'd prefer a morning appointment, if possible. This whole scheduling thing is always such a hassle!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check. The earliest morning appointment available is on October 26th at 9:00 AM. Would that work for you?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.21,
+        "integrity": 1.22
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "October 26th... that's a bit far out. Is there anything sooner, even if it's in the afternoon?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, there is an appointment on October 12th at 2:30 PM. Alternatively, there is an opening on October 19th at 10:00 AM.",
+      "response_time": 0.61,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.39,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, October 12th at 2:30 PM works. Will I need to fill out any forms beforehand? I know sometimes they require me to do that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cf24008f",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.33,
+      "benevolence": 2.71,
+      "integrity": 2.48
+    },
+    "engagement_score": 4.2,
+    "emotion_distribution": {
+      "neutral": 9
+    },
+    "response_quality_score": 2.28,
+    "latency_score": 5.37
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling because I think there's a mistake on my latest bill. It's much higher than usual.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Can you please provide your account number or the email address associated with your account so I can look into this for you?",
+      "response_time": 5.62,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.85
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's [user's account number]. This is really frustrating, I wasn't expecting such a huge bill!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Okay, I see the bill in question. It appears you had some overage charges this month due to exceeding your data allowance. Our system shows you used 50GB over your plan limit. We sent you a notification about this on the 20th of this month.",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 4.45,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "50GB?! Wow, I didn't get any notification. That's ridiculous. What exactly does this overage even mean? I thought I had unlimited data!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, I'm unable to determine why the notification was not delivered. Regarding the unlimited data, let me check the details of your plan. One moment please... Okay, it seems like the unlimited data applies to on-network usage, while off-network usage is subject to overage charges.",
+      "response_time": 1.83,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.58,
+        "benevolence": 2.02,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait a minute. That's not how it was explained to me when I signed up. What are my options at this point? This is a pretty sneaky practice and I might just switch providers because of this.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me see what I can do. In this instance, as a one-time courtesy, I can waive the overage charges. This will reduce your bill to its usual amount. Regarding the explanation of your plan, I recommend you review the terms and conditions on our website. Is there anything else I can assist you with?",
+      "response_time": 1.33,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.72,
+        "integrity": 2.35
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1c8bf13c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.01,
+      "benevolence": 4.05,
+      "integrity": 4.05
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 2,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.08,
+    "latency_score": 4.39
+  }
+}

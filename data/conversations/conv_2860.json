@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help with an AR denial I just got back. It's for claim number 87654, patient Jane Doe.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can assist with that. Please provide the specific denial reason or code listed on the Explanation of Benefits (EOB) for claim number 87654.",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.28,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, it's denial code PR-96. 'Non-covered charges'. This always frustrates me because the service *was* covered according to the patient's benefits check we did! Why would it be denied?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Denial code PR-96 typically indicates the service was not considered payable under the terms of the patient's policy for that date of service. Reasons can vary, including benefit limitations, specific plan exclusions, or issues with the service itself being deemed non-covered.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I know what the *code* means generally. But *specifically* for *this* claim? We verified eligibility and benefits beforehand. The CPT code billed is usually covered by this payer. What could *specifically* trigger a non-covered denial when the check showed coverage?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid point. While my system can't access the granular details of the patient's specific benefit plan in real-time like the payer's system, common issues even after a verification could include frequency limitations, the patient's deductible or coinsurance exceeding the charge, or perhaps a specific rider on their plan. Have you checked the EOB for any secondary codes or remarks?",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 4.05,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmmm, there *was* a remark code, M80, saying 'Not medically necessary'. Wait, so it's not just 'non-covered' in general, it's 'non-covered because not medically necessary'? That's a totally different denial type and way more common for this service! The PR-96 code was misleading. How do I appeal a medical necessity denial?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Ah, thank you for providing the remark code. That clarifies the situation significantly. A medical necessity denial (often linked to M80) requires an appeal with supporting clinical documentation from the patient's chart that demonstrates the service was indeed necessary based on their condition and the payer's medical policies. You will likely need to submit a written appeal and relevant chart notes to the address specified on the EOB or the payer's website.",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.81,
+        "integrity": 4.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a7b0bec9",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.24,
+      "benevolence": 3.29,
+      "integrity": 3.52
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.39,
+    "latency_score": 5.16
+  }
+}

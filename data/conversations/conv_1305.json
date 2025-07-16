@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm looking to fly from New York to London, sometime in October.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To confirm, you're looking for a flight from New York to London in October. Can you specify the dates you're interested in? Also, do you have a preferred airport in either city?",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.57,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd like to leave on October 15th and return on October 22nd. I prefer JFK in New York and Heathrow in London. Are there any non-stop flights available?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, there are non-stop flights available on those dates from JFK to Heathrow. Please give me a moment while I check the prices and availability. I will be back shortly.",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 3.5,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, great! I'm really hoping for something reasonable. I've looked at flights to London before and they can be ridiculously expensive.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I've found several options. The cheapest non-stop flight is with British Airways, costing $780 for a round trip. There is also a flight with Virgin Atlantic for $850. Other airlines are available too. Would you like me to book one of these for you? Also, do you need any specific baggage allowance?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.82,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that's pretty good. Before I book, can you tell me the cancellation policy for British Airways? I need to be sure I can change the dates if I need to. This is important!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can access some basic cancellation details. However, the complete details on the British Airways cancellation policy can only be found on their website. Generally, the cancellation policy will depend on the fare class you select. I recommend checking their website for detailed information. Would you like me to navigate to their website and provide the information on your behalf?",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.77,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, yes, that would be helpful. Just get me to the cancellation information. But make it quick, I'm a little confused now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Please hold on while I find this information for you. I am sorry, but I am currently experiencing a technical issue and am unable to directly access the British Airways website. I can provide you with a link to their website, which will help you find this information.",
+      "response_time": 3.46,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.72,
+        "integrity": 3.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_135846f7",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.26,
+      "benevolence": 4.08,
+      "integrity": 4.35
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "neutral": 8,
+      "joy": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.04,
+    "latency_score": 4.18
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a hotel room for a trip to Paris. I need something for two adults, arriving on November 10th and leaving on November 15th.  I'd like something near the Eiffel Tower, if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Finding hotels near the Eiffel Tower for November 10th to 15th, for two adults.  Just a moment... I'm searching... I've found a few options. Hotel Plaza Ath\u00e9n\u00e9e Paris and Shangri-La Hotel, Paris are showing availability. Do either of those sound promising?",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.23,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, those are pretty expensive, aren't they? Honestly, I'm on a bit of a budget.  Is there anything more reasonably priced?  Also, what's the actual walking distance from those hotels to the Eiffel Tower?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, those are luxury hotels. Sorry about that. I can filter by price range.  For more budget-friendly options near the Eiffel Tower, I'd recommend checking out Hotel Mercure Paris Centre Eiffel. As for walking distance, the Plaza Athenee is about a 30-minute walk, and the Shangri-La is around 20 minutes. I'm still working on providing exact price quotes, but I can direct you to their booking pages if you want.",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.83,
+        "integrity": 4.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b2e9148a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.8,
+      "benevolence": 4.03,
+      "integrity": 4.3
+    },
+    "engagement_score": 3.83,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 3.73,
+    "latency_score": 4.3
+  }
+}

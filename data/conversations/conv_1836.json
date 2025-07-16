@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm looking to travel from New York to London in late October.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can certainly help with that.  To give you the best options, could you please specify the exact dates you'd like to travel and how long you plan to be in London?",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.91,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I knew I'd forget something.  Let's say I want to leave New York on October 25th and return on November 1st.  Economy class, please.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for flights from New York (NYC) to London (any airport) departing October 25th and returning November 1st, economy class.  Please wait a moment... Okay, I have found several options.  The cheapest flight is with Norwegian Air, but it has a layover in Iceland, is that acceptable?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.19,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Norwegian Air?  Hmm, never flown them before.  And Iceland?  Are you sure there are no direct flights? What's the total travel time for that option?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I am experiencing some technical difficulties retrieving that information at the moment.  Please allow me a few minutes to find the direct flights and travel times. In the meantime, I can see a flight on British Airways that is direct, with a price of $850, would that be acceptable?",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.55,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, let's go with the British Airways flight. $850 sounds good.  Can you book it for me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_78167437",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.02,
+      "benevolence": 3.88,
+      "integrity": 3.76
+    },
+    "engagement_score": 4.56,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 3.85,
+    "latency_score": 4.27
+  }
+}

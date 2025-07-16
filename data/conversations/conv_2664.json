@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm redecorating my living room and need some ideas for accent chairs. Can you show me some options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Looking for accent chairs. Here are a few popular styles currently available on our site: [Link to product 1: Mid-Century Modern Armchair], [Link to product 2: Velvet Club Chair], [Link to product 3: Tufted Wingback Chair].",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.58,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. But those are all pretty different styles. I'm going for more of a minimalist, Scandinavian vibe. And frankly, why *these* three? Did you just pick random bestsellers?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies if those weren't quite right. My initial recommendations were based on a mix of general popularity and diverse styles within the category. For a minimalist, Scandinavian look, you'll want clean lines and natural materials. Here are a few options that might be a better fit: [Link to product 4: Ash Wood Lounge Chair], [Link to product 5: Fabric Slipper Chair with Wood Legs].",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.75,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, okay, the second one is closer, but that first ash wood chair is way out of my budget! I should have mentioned, I'm really trying to keep it under $300 per chair. This is getting frustrating.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies for the frustration. Let's refine the search with your budget in mind. Focusing on minimalist, Scandinavian-style accent chairs under $300, consider these options: [Link to product 6: Minimalist Upholstered Chair], [Link to product 7: Simple Accent Chair with Beech Legs]. These should align better with your style and price range. Please check the dimensions to ensure they fit your space.",
+      "response_time": 2.51,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.17,
+        "integrity": 4.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0b3b3a83",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 4.5,
+      "integrity": 4.36
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.5,
+    "latency_score": 4.11
+  }
+}

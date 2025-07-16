@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, let's try this again. I'm still struggling with understanding how to calculate the area of a trapezoid. I keep getting it wrong.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Let's break it down. The formula for the area of a trapezoid is A = (1/2) * h * (b1 + b2), where 'h' is the height, and 'b1' and 'b2' are the lengths of the two parallel sides (the bases). What part of the formula are you having trouble with?",
+      "response_time": 1.45,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.96,
+        "benevolence": 2.61,
+        "integrity": 2.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's... all of it, honestly. I think it's knowing which side is which. And the height, too. It's not always obvious in the diagrams!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Right, I see. The bases (b1 and b2) are always the parallel sides \u2013 they'll never intersect. The height is the perpendicular distance between these two bases. Imagine a line drawn straight down from one base to the other, forming a right angle. Does that help visualize it?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.46,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I think so... but what if the trapezoid is tilted? Like, one of the non-parallel sides is on the bottom?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good question! Even if the trapezoid is tilted, the height is *still* the perpendicular distance between the two parallel sides. You might need to mentally rotate the image or draw an auxiliary line to clearly see the height. Try focusing on identifying the parallel sides *first*, and then finding the perpendicular distance between them. That will be the height.",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.97,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, let me try one. I'm looking at a trapezoid where the bases are 5 cm and 7 cm, and the height is 4 cm. So, area = (1/2) * 4 * (5+7)? Is that right?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, that's perfect! Now, can you simplify that expression to find the area?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.52,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, so (1/2) * 4 is 2. And 5 + 7 is 12. So, 2 * 12 = 24. The area is 24 square cm! I think I finally get it! But wait... why does this formula work? Where does it come from?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! One way to think about it is to imagine taking two identical trapezoids and rotating one. You can then fit them together to form a parallelogram. The area of that parallelogram is the height times the sum of the bases of the original trapezoid (h * (b1 + b2)). Since you used two trapezoids to create the parallelogram, the area of one trapezoid is half of that, hence the (1/2) in the formula. Does that explanation help?",
+      "response_time": 5.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.14,
+        "integrity": 5.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_81523670",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 5.13,
+      "benevolence": 5.04,
+      "integrity": 4.82
+    },
+    "engagement_score": 4.73,
+    "emotion_distribution": {
+      "neutral": 9,
+      "surprise": 1
+    },
+    "response_quality_score": 4.63,
+    "latency_score": 3.44
+  }
+}

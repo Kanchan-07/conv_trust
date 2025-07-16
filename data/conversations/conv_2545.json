@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help finding a flight.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist with that. To start, could you please tell me your departure and arrival cities, and your desired travel dates?",
+      "response_time": 5.55,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.72,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a round trip flight from Los Angeles to Miami. I want to depart on November 15th and return on November 22nd.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for round trip flights from Los Angeles (LAX) to Miami (MIA) for November 15th returning on November 22nd, 2024. Please wait a moment while I look up the options.",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.73,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks. I'm really hoping to find something under $300 if possible, but I know it's a bit late to book for November. Are there any non-stop options even close to that price?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Finding direct flights for under $300 for those dates may be challenging, but I'll prioritize them in the search. I see a few options, including one on American Airlines for around $350 with one stop, and a potential non-stop on Delta for about $420. Prices can change rapidly.",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.84,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, $420 is more than I wanted to spend. What about that American Airlines flight with the stop? How long is the layover, and can you tell me if that specific fare includes a checked bag or just carry-on?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, checking the details for the American Airlines flight with the stop. The layover appears to be in Dallas (DFW) for approximately 2 hours on the outbound journey. Regarding baggage, policies can vary depending on the specific fare class purchased. Generally, basic economy may not include a free checked bag, but standard economy often does. For the most precise information regarding baggage allowances and fees for that exact fare, I strongly recommend checking American Airlines' official website or the fare rules before booking.",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.65,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's frustrating, I was hoping you could confirm the baggage included. It makes comparing options difficult! Can you at least tell me if there are *any* other airlines flying non-stop for less than $400, even if it's early morning?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_351e334e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.48,
+      "integrity": 4.64
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.82,
+    "latency_score": 3.54
+  }
+}

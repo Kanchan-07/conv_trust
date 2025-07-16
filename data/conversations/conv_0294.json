@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling to follow up on my car insurance claim, number 2023-10-27-Alpha. It's been a week and I haven't heard anything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Good morning. Thank you for calling. Please allow me a moment to access your claim information. Okay, I see claim number 2023-10-27-Alpha. It is currently under review by our claims adjuster. The adjuster is investigating the details of the accident.",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.17,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Investigating? What's there to investigate? I already sent in the police report and photos! The other driver admitted fault at the scene. Honestly, this is frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The adjuster is likely verifying the details with all parties involved, including the other driver and the police department, to ensure accuracy. This is standard procedure. I can see that the adjuster assigned to your claim is Sarah Miller. Her direct line is 555-123-4567, extension 202.",
+      "response_time": 2.19,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.58,
+        "benevolence": 2.29,
+        "integrity": 2.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'll try calling her. In the meantime, could you tell me what the maximum coverage is for rental car reimbursement in my policy? I need a car!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. Based on your policy, you are covered up to $40 per day for a rental vehicle, with a maximum of 30 days.",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 3.91,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "$40 a day? That's barely enough to cover anything! What if I can't find a rental car for that price?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I cannot authorize a higher daily rate, you may submit receipts for any expenses incurred. The claims adjuster will review them to determine if there are any exceptions that can be made. Is there anything else?",
+      "response_time": 4.03,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 4.31,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Well, this might be a dumb question, but if the other driver's insurance is covering the damages, why is *my* deductible involved at all? Shouldn't they just pay for everything directly?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's not a dumb question at all! In cases where the other driver is at fault, your insurance company may still initially cover the damages, less your deductible. They then pursue subrogation, which is the process of recovering those costs, including your deductible, from the at-fault party's insurance. If they are successful, you will be reimbursed your deductible. This allows for faster repairs and avoids delays caused by dealing directly with the other insurance company. Did I explain that clearly?",
+      "response_time": 0.59,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_52fe188c",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.3,
+      "benevolence": 3.34,
+      "integrity": 3.37
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 3,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 3.52,
+    "latency_score": 4.68
+  }
+}

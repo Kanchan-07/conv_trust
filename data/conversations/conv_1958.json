@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that's late. The tracking number is 9876543210.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for providing your tracking number. I'm looking into that for you now. Please hold.",
+      "response_time": 5.34,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.59,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, but it's been delayed for five days now, so I'm already pretty frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. According to the tracking information, the package was last scanned at our distribution center three days ago. There seems to be a delay due to unforeseen circumstances. We are working to resolve this as quickly as possible.",
+      "response_time": 2.42,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.03,
+        "integrity": 3.86
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? What does that even mean? Can you tell me specifically what's causing the delay? Is it lost?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am unable to give you specific details about the cause of the delay, but the package is not marked as lost at this time. We are actively investigating. I can put in a request to have the local hub prioritize the delivery. Would you like me to do that?",
+      "response_time": 1.56,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.37,
+        "benevolence": 2.29,
+        "integrity": 2.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. And, can you give me an estimate of when I might receive it? I really need this package by the end of the week.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I've submitted the request. While I can't provide an exact delivery date, I can tell you that once the package is scanned again, the tracking information should update with an estimated delivery date. I will also keep an eye on this and will follow up if it doesn't get scanned within the next 48 hours. Is there anything else I can help you with?",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.33,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, that's all. Thank you for your help. Hopefully, I'll get it soon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2d799f99",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.28,
+      "benevolence": 4.41,
+      "integrity": 4.32
+    },
+    "engagement_score": 4.53,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.62,
+    "latency_score": 4.38
+  }
+}

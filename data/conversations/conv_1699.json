@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey AI, I'm planning on participating in a hackathon next weekend. Any tips?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! That's great. Hackathons are a fantastic experience. My top tips are: Form a solid team with diverse skills, brainstorm early and thoroughly, and focus on a Minimum Viable Product (MVP). Good luck!",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.98,
+        "benevolence": 6.79,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, team and MVP... check. I'm struggling with the 'brainstorm early' part, though. How do you recommend we go about that, specifically when we don't know the theme yet?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common challenge! Start by researching popular and emerging technologies. Consider problems you personally face and brainstorm solutions. Be ready to adapt your idea to fit the hackathon theme once it's announced. Some effective brainstorming techniques include mind mapping and the '5 Whys' method.",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.02,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's actually pretty helpful. I'll try those techniques. What are some common pitfalls I should avoid?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Definitely avoid scope creep \u2013 trying to do too much in a short time. Also, don't get stuck on perfection; focus on functionality. Ensure you have a clear division of labor. Finally, don't forget to document your process! A good presentation matters.",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.08,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Right, documentation is key. But... what if the theme is something completely obscure and my team and I aren't familiar with the topic? How can we still participate and do well?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a tough one, but it happens! First, do some rapid learning: read up on the theme, find tutorials, and identify the core concepts. Then, try to find an existing problem within the theme. Focus on innovation and a clean, concise solution that's easy to demonstrate. Sometimes just having a working prototype that is relevant to the theme can be enough!",
+      "response_time": 5.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.06,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes me feel a bit better. What if, despite everything, we run into major bugs or technical roadblocks right before the deadline? Feeling frustrated just thinking about it!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Take a deep breath! Prioritize what you can fix. Sometimes the best approach is to clearly present the bug, explain the issue and the attempted solutions, and then demonstrate what does work. Clear communication and a functional (even if incomplete) MVP can still impress the judges. Also, remember that the hackathon is about learning and trying new things - not just winning.",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.18,
+        "integrity": 5.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6523be4d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.33,
+      "benevolence": 5.23,
+      "integrity": 5.42
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 5.62,
+    "latency_score": 2.95
+  }
+}

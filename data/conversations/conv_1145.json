@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a car accident I was in last week. Claim number is 12345ABC. I'm just trying to get an update on the status. Honestly, this whole process is already stressing me out.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. I understand your frustration, and I'll do my best to assist you. I have located claim 12345ABC. The initial assessment is complete, and we are currently awaiting the police report before proceeding further. This usually takes around 7-10 business days from the date of the accident.",
+      "response_time": 6.0,
+      "emotion_detected": "anger",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.96,
+        "benevolence": 7.0,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that's\u2026 somewhat helpful. But what about the damage estimate to my car? I need to know if it's even worth repairing, or if they're just going to total it. I can't be without a car for much longer!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see. I can check for that. Hmmm...It appears an appraiser has been assigned, but the estimate isn't yet available in the system. Can I call you back in 24 hours with that information?",
+      "response_time": 2.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.53,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "24 hours?! Look, I appreciate you checking, but honestly, what is taking so long? My insurance covers a rental, but I can't even start that process until I know if my car is totaled! And what happens if the police report shows I was even partially at fault when the other driver ran a red light? Will that affect what I get?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_40cf6f62",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.69,
+      "benevolence": 5.26,
+      "integrity": 5.55
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 2,
+      "neutral": 1
+    },
+    "response_quality_score": 5.68,
+    "latency_score": 3.14
+  }
+}

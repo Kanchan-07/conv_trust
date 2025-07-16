@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle this financial planning thing. I'm feeling completely overwhelmed though. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be daunting. Let's start with the basics. First, we need to assess your current financial situation. Can you provide me with a general overview of your income, expenses, assets (like savings, investments), and debts (like loans, credit card balances)?",
+      "response_time": 2.78,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.98,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, this is the part I hate. Okay, roughly speaking, I make about $60,000 a year. My rent is $1500, I have a car payment of $300, and probably spend another $1000 on food and other necessities. I have like, $2000 in a savings account and maybe $500 in stocks, nothing fancy. I also have about $5000 in credit card debt. Is that enough?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good starting point. Thanks for sharing that. Now, let's think about your financial goals. What are you hoping to achieve in the short-term (e.g., paying off debt, saving for a down payment) and long-term (e.g., retirement)? Being specific will help us create a plan.",
+      "response_time": 4.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.34,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, short-term, definitely get rid of that credit card debt. Long-term, I guess retirement, but that feels so far away. I'd also like to maybe buy a house in the next 5-7 years. Is that even realistic with my current situation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Buying a house in 5-7 years is potentially achievable, but it will require focused effort on several fronts. Let's create a strategy with an emphasis on debt repayment and savings. Firstly, aggressively tackling your credit card debt should be the immediate priority. Then, we can explore savings strategies and investment options to grow your capital for a down payment. To advise further, I need information about investment risk tolerance. Are you risk-averse, risk-neutral or risk-seeking?",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.66,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, risk tolerance... honestly, I have no idea. What kind of returns could I expect if I'm, say, risk-averse? And how much more could I make if I took on more risk? I feel like everyone says you need to take risks to make money, but I'm also terrified of losing what little I have.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Generally speaking, risk-averse investments (like bonds or CDs) might yield lower returns, historically around 2-4% annually, but offer greater stability. Risk-seeking investments (like stocks or real estate) have the potential for higher returns, perhaps 7-10% or even more, but also carry a greater risk of loss. It's important to note these are estimates and past performance isn't indicative of future results. To determine your ideal risk tolerance, we can use a questionnaire to evaluate your comfort level with market fluctuations and potential losses.",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.49,
+        "integrity": 4.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3b104eea",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.15,
+      "benevolence": 4.37,
+      "integrity": 4.45
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "disgust": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.31,
+    "latency_score": 4.03
+  }
+}

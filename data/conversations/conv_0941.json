@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally ready to actually *do* something about my finances. I'm 35, have about $20,000 in savings, and contribute the max to my 401k (company matches 50% up to 6%). Where do I even start? It's all so overwhelming.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "That's great that you're taking proactive steps! It can definitely feel like a lot at first. Given your age and current contributions, a good starting point is to assess your risk tolerance. Are you comfortable with more aggressive investments that could yield higher returns, or do you prefer a more conservative approach? Also, do you have any debts (student loans, credit card, etc.)?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.28,
+        "integrity": 5.02
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I have about $10,000 left in student loans at 6%. I guess I'm moderately risk-averse. I don't want to lose all my money, but I also know I need it to grow. Is it better to pay off the student loans first, or invest more aggressively with the $20k?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Generally, with a 6% interest rate on your student loans, it is recommended to prioritize paying those off before investing aggressively. This is because the guaranteed return of eliminating that debt is often higher than what you might reasonably expect from investments, especially considering your risk tolerance. Contributing more to your 401k up to the company match should also be prioritized. Consider making extra payments towards the student loan once your 401k match is reached.",
+      "response_time": 3.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.81,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if I *really* wanted to retire early? Like, before 55? Wouldn't I need to invest more aggressively *now* to make that happen? I've seen some people online doing crazy things with crypto and real estate... should I consider that?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_95e2f974",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.54,
+      "integrity": 4.55
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 4.58,
+    "latency_score": 3.73
+  }
+}

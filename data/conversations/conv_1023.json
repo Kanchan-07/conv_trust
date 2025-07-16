@@ -1,0 +1,99 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week, order number 12345, and it still hasn't shipped. What's going on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I understand you're inquiring about order 12345. Let me check on that for you. One moment please...",
+      "response_time": 5.94,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.82,
+        "benevolence": 6.83,
+        "integrity": 6.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm starting to get a little worried because it was supposed to arrive by today.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've reviewed the order. It appears there was a slight delay at our distribution center due to an unexpected staffing shortage. It is now scheduled to ship out tomorrow and should arrive within 2-3 business days after that. I apologize for the inconvenience.",
+      "response_time": 3.23,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.43,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A staffing shortage? Seriously? Is there anything you can do to expedite it? I needed this item for a special event this weekend!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I can't guarantee anything, I've added a note to the order requesting expedited shipping once it leaves the warehouse. You'll receive a tracking number as soon as it ships. As a gesture of apology, I've also applied a 10% discount to your next order. Would you like to know more about return policies?",
+      "response_time": 0.63,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A discount is nice, I guess. But honestly, what are the chances it will *actually* arrive before the weekend? If it's unlikely, I'd rather just cancel the order now. It's a pretty specialized item, so I can't just pick it up at any local store.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_32b643f6",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.08,
+      "benevolence": 4.09,
+      "integrity": 3.81
+    },
+    "engagement_score": 5.71,
+    "emotion_distribution": {
+      "surprise": 2,
+      "joy": 1,
+      "fear": 1,
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.13,
+    "latency_score": 4.23
+  }
+}

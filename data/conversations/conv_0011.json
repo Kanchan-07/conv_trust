@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally tackling this job application. I'm applying for a Marketing Manager position at InnovateTech. Can you help me tailor my resume to the job description?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Please provide me with the job description and your current resume. I can analyze them and suggest improvements to highlight relevant skills and experience.",
+      "response_time": 5.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.19,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, I've uploaded both. I feel like my resume is pretty solid, but I never get any callbacks. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've reviewed the documents. I see a few areas where we can make some improvements. Firstly, the job description emphasizes experience with SEO and content marketing. While your resume mentions marketing in general, it doesn't highlight these specific areas enough. Can you give me some examples of projects where you used SEO strategies or created content that drove engagement?",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.21,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay. Well, at my last job, I led a project where we optimized our website for relevant keywords and saw a 30% increase in organic traffic. I also created a series of blog posts that significantly boosted our social media engagement. Should I just add those as bullet points under my previous role?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, you should definitely add those! Frame them using the STAR method (Situation, Task, Action, Result) to quantify your achievements whenever possible. For example, instead of 'Created a series of blog posts,' try 'Developed and published a series of SEO-optimized blog posts that increased social media engagement by 25% within three months.' Also, the job description mentions familiarity with marketing automation platforms. How does your experience with Mailchimp compare to Marketo or HubSpot, which they seem to prefer? ",
+      "response_time": 5.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.32,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. The STAR method makes sense. As for the marketing automation, I've only used Mailchimp extensively. I've dabbled in HubSpot during a short online course, but I wouldn't say I'm proficient. Should I be honest about that, or try to downplay it? It feels like they're really looking for HubSpot experience...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_466c9d0f",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.26,
+      "benevolence": 4.91,
+      "integrity": 4.68
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 4.69,
+    "latency_score": 2.8
+  }
+}

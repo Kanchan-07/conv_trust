@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I really like sci-fi and fantasy, but I'm open to other genres too. Got any ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! For sci-fi, have you read 'Dune' by Frank Herbert or 'The Martian' by Andy Weir? They are classics. For fantasy, 'The Name of the Wind' by Patrick Rothfuss and 'Mistborn: The Final Empire' by Brandon Sanderson are excellent starting points. Would you like me to provide a brief synopsis of any of those?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.82,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've actually read all of those already! Hmm... what's something *really* unique? Something that blends sci-fi and fantasy in a way that's not just a spaceship with magic... maybe something... philosophical?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a challenging request! Blending genres philosophically is tough. Have you considered 'Ancillary Justice' by Ann Leckie? It's technically sci-fi but deals with complex themes of identity, colonialism, and gender. Or, venturing even further into a conceptual blend, maybe look into the works of China Mi\u00e9ville, like 'Perdido Street Station'. Be warned, it can be a bit dense, though. Sorry if these aren't exactly what you are looking for, but they are unique.",
+      "response_time": 5.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.7,
+        "integrity": 5.2
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_92b03e74",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 5.76,
+      "integrity": 5.21
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 5.25,
+    "latency_score": 2.91
+  }
+}

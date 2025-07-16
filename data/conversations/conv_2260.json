@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm really frustrated. I was recently fired from my job, and I think it was wrongful termination. They gave me some bogus reasons.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can provide some general information. To give you the best advice, could you tell me more about the situation? For example, what state do you live in, what was the stated reason for your termination, and how long were you employed there?",
+      "response_time": 1.63,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.03,
+        "benevolence": 2.71,
+        "integrity": 2.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I live in California. They said it was for \"poor performance,\" but I had a great performance review just a month earlier! And I was there for five years. The main reason I'm suspicious is because I think I was fired for whistleblowing, which I believe is illegal. That is very challenging to prove.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, proving whistleblowing can be challenging. In California, you'd need to demonstrate a causal link between your whistleblowing activities and your termination. Have you consulted the company's employee handbook or any other relevant internal documents? Do you have any documentation of your complaints?",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.05,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've looked at the handbook, but it doesn't give me a clear answer. I complained via email, and I think I still have those emails. Okay, that's a start, this is somewhat helpful, thank you. What would be my next steps?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_48e0e227",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.0,
+      "benevolence": 3.38,
+      "integrity": 3.32
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "anger": 3,
+      "fear": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.16,
+    "latency_score": 4.58
+  }
+}

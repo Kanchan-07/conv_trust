@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I've got a really important interview for a Senior Software Engineer position next week and I'm starting to feel the pressure. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you prepare for your Senior Software Engineer interview. To get started, could you tell me a bit more about the company and the type of engineering they do? Also, are there any specific areas you'd like to focus on, like technical questions, behavioral questions, system design, or coding problems?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.77,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's with a major tech company, one of the FAANGs. They focus heavily on distributed systems. I'm decent at coding problems, but system design is where I feel the weakest. And frankly, I dread those curveball questions. Like, how do you even answer something completely bizarre, like being asked to estimate the number of grains of sand on a beach during a technical interview? It just throws me off completely!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, the classic estimation or 'Fermi' problems! While less common in pure technical rounds, they can appear. The key isn't the exact number, but demonstrating your ability to break down a seemingly impossible problem into smaller, manageable pieces, make reasonable assumptions, and perform estimations using rough calculations. For estimating grains of sand, you'd think about estimating the beach's volume (length x width x depth), estimating the volume of a single grain of sand, and then dividing. Explain your assumptions clearly. Focus on showing your structured thinking and comfort with uncertainty, rather than finding the 'right' answer. For system design, we can focus on common patterns and practice designing scalable systems.",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.89,
+        "integrity": 5.31
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d3bb7eb2",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.18,
+      "benevolence": 6.45,
+      "integrity": 6.15
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 5.9,
+    "latency_score": 2.47
+  }
+}

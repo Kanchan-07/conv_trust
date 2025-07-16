@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. My landlord is trying to evict me, and I think it's unfair. I'm really stressed about this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand you're stressed. Eviction is a serious matter. To give you the best possible advice, I need some more information. Could you tell me why your landlord is trying to evict you and what state you reside in?",
+      "response_time": 3.88,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.47,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, he says I haven't paid rent, which isn't true. I have bank statements showing I paid every month. I'm in California. Honestly, I'm so frustrated right now. This feels completely unjust!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, California law protects tenants in situations like this. If you have proof of payment, that's excellent. The landlord must have a valid reason and follow a specific legal process for eviction. Since you have proof of payment, he has a weak case. I would strongly suggest that you respond in writing to the eviction notice and provide copies of your bank statements as evidence. It is also advisable to seek professional counsel. Would you like me to help you find lawyers in your region?",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 3.85,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! That would be amazing. But what if he claims the bank statements are forged or something? Can he just do that?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While he *could* claim that, it would be difficult for him to prove, especially if they are official bank statements. The court would likely require him to provide substantial evidence to support such a claim. As for finding lawyers, please provide me with your zip code so I can look up relevant services in your locale.",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.77,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, my zip code is 90210. One more thing \u2013 what if the lease said he could evict me for *any* reason, even if I paid rent? Is that even legal? I mean, isn't there some limit to what landlords can put in a lease?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Clauses allowing eviction for *any* reason, even with rent paid, are likely unenforceable in California. California law provides tenants with certain rights, and a lease cannot legally override those rights. This is often referred to as an 'unconscionable' clause. These clauses generally contradict public policy and are not allowed to be enforced by the courts. Landlords have to provide a legal justification for eviction, regardless of what's written in the lease.",
+      "response_time": 0.61,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.43,
+        "integrity": 1.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow, that's a relief! I was really worried about that. Thanks for clarifying. This is really helpful. I still feel anxious, but knowing my rights makes a big difference. So, can you find me those lawyers now?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly! Just one moment while I search for legal aid and attorneys specializing in tenant rights in the 90210 area. Here are a few options, along with their contact information... [provides list of lawyers/legal aid organizations].",
+      "response_time": 5.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.53,
+        "integrity": 5.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_534de0fb",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.69,
+      "benevolence": 3.81,
+      "integrity": 3.68
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "anger": 3,
+      "fear": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 3.95,
+    "latency_score": 4.01
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from New York to London, ideally leaving around the end of October. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly assist you with that! I'll need some more details. What dates in late October are you considering for your departure? Also, are there any preferred airlines or specific times you'd like to fly?",
+      "response_time": 4.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.07,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'd like to leave on October 28th and return on November 4th. No preferred airlines. Just the cheapest option, please, and ideally a direct flight if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I am searching for flights for you. Please hold... Okay, I've found a few options. The cheapest direct flight is with British Airways, departing from JFK at 8:00 PM on October 28th and arriving at Heathrow at 8:00 AM the next day. The round trip ticket is $750. There's also a connecting flight via Icelandair for $600, but that has a 5-hour layover. Do either of these sound suitable?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.01,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $750 sounds reasonable. But wait... what about baggage fees? Does that price include checked baggage for both flights? I'm not seeing that information. I'm also trying to decide if it's worth paying extra for a direct flight and want to see the pros and cons.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, you are correct. That price *does not* include baggage fees. British Airways charges $75 per checked bag, each way. As for the pros and cons of the direct flight: Pros: less travel time, less stress. Cons: more expensive and less time for layovers. The connecting flight is more affordable but has the layover. I can provide a full comparison if you like. Would you like me to book the British Airways flight?",
+      "response_time": 3.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 4.01,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Yes, please book the British Airways flight, including one checked bag each way. And send the booking confirmation to my email address. Also, could you please tell me if I can change it later if I need to change something? ",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2868f7cb",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.36,
+      "benevolence": 4.36,
+      "integrity": 4.29
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "neutral": 7
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 3.88
+  }
+}

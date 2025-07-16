@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm starving. I want to order some Thai food, but I'm not sure what to get. I'm in the mood for something spicy, but not *too* spicy, you know? Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for spicy Thai food that's not overwhelmingly hot, I recommend trying Pad See Ew with a spice level of 3 out of 5. It's a delicious noodle dish with a hint of sweetness that balances the heat. Alternatively, you could try Green Curry with chicken, also at a medium spice level. Would you like me to check if any restaurants nearby offer those dishes?",
+      "response_time": 5.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.72,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Green curry sounds good! But, uh, what if I don't like coconut milk? Does that change the recommendation? I'm actually allergic to coconut, so this is pretty important. I should have mentioned that earlier, sorry!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Since you're allergic to coconut milk, Green Curry is definitely not a good choice. A better option would be Pad Kra Pao (Thai Basil Stir-fry). It's typically made with your choice of protein (chicken, pork, tofu, etc.) and Thai basil, chilies, garlic, and soy sauce. It's flavorful and spicy but doesn't contain coconut milk. I would recommend confirming with the restaurant that there is no coconut oil used. Does that sound like something you'd be interested in, or should I explore other options?",
+      "response_time": 2.02,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.19,
+        "benevolence": 2.67,
+        "integrity": 2.8
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bb4d7c0c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.83,
+      "benevolence": 4.2,
+      "integrity": 4.3
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 3.88,
+    "latency_score": 3.88
+  }
+}

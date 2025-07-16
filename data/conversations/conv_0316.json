@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm completely overwhelmed. I'm trying to figure out a retirement plan, but I have no idea where to even start. I have a 401k through work, but that's it. Help!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be daunting. Let's start with some basics. First, what is your current age and what age are you hoping to retire?",
+      "response_time": 3.33,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.71,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm 35, and I'd like to retire around 60, if that's even realistic. Given the way things are going, I'm not sure I can afford to retire at all! Also, how much risk should I be taking with my investments at my age? I hear conflicting advice all the time.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Retiring at 60 is achievable for many, so let's aim for that! Regarding risk, a general rule for someone your age is to lean towards a higher-risk portfolio with a greater allocation to stocks, as you have a longer time horizon to potentially recover from market downturns. However, your personal risk tolerance is key. I can give you a questionnaire to assess this, or we can schedule a consultation with a financial advisor.",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.6,
+        "integrity": 5.03
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_be8f43fe",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.93,
+      "benevolence": 4.65,
+      "integrity": 4.44
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 1
+    },
+    "response_quality_score": 5.03,
+    "latency_score": 3.98
+  }
+}

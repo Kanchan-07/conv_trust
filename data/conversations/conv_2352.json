@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. I've been browsing for hours and I'm overwhelmed! Can you suggest some?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure, I can help with that. To give you the best recommendations, could you tell me a little about your running habits? For example, how many miles do you run per week, what kind of surfaces do you usually run on, and do you have any preferences for cushioning or support?",
+      "response_time": 5.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.82,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I usually run about 20-25 miles a week, mostly on pavement. I prefer a good amount of cushioning because I have sensitive knees. Honestly, I'm not sure about the specifics, though. This is already sounding complicated!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Based on that, I can recommend a few options. The Hoka Clifton series and the Brooks Glycerin are popular choices known for excellent cushioning. The New Balance Fresh Foam series is another great option. These are all neutral shoes, suitable for road running. Would you like me to elaborate on any of these, or perhaps suggest specific models?",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.08,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, the Brooks Glycerin sounds good. But how do I know which size to get? I've had issues with sizing online before, and returning shoes is such a pain. Is there a way to determine sizing without going to a store?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Unfortunately, without a precise measurement of your feet, it's difficult to guarantee a perfect fit. However, I can provide you with the Brooks size chart and direct you to resources on how to measure your feet at home. Also, many retailers offer a 'try before you buy' option, or offer free returns, which could help alleviate sizing concerns. Would you like me to provide links to the size chart and information about return policies from some of the retailers that sell Brooks Glycerin shoes?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.32,
+        "integrity": 3.61
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b5c8505b",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.09,
+      "benevolence": 5.07,
+      "integrity": 4.73
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.54,
+    "latency_score": 3.31
+  }
+}

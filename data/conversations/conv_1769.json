@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my new smart speaker isn't working. I've plugged it in, but it won't turn on.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am sorry to hear you're having trouble with your smart speaker. Let's troubleshoot this. First, can you confirm that the power outlet you're using is working? Have you tried plugging another device into it to check?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.04,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, yes! Of course, I checked the outlet. I plugged in my phone charger, and it works fine. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. And, just to confirm, you have the correct power adapter plugged into the speaker itself? Sometimes they can get mixed up. Also, could you try pressing and holding the power button for a few seconds? Sometimes a longer press is required.",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.13,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, the correct adapter, and I've held the power button for like a minute! Nothing. The light doesn't even flicker or anything. This thing is a brick.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Okay, let's try something else. Could you tell me the exact model number of the smart speaker? It should be on the bottom or back of the device, or on the original packaging.",
+      "response_time": 1.58,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.87,
+        "integrity": 2.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, it's model number SR-X9000. Now, what's the likelihood this is a software issue, given it's not turning on at all? Surely it can't be completely dead with no signs of life?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. Given the lack of any response from the device, it's more likely a hardware issue, potentially with the power supply or internal components. However, without specialized equipment, it's difficult to say for sure. We could attempt a hard reset, if you have a paperclip we can try pressing the reset button. If that doesn't work, I recommend getting a replacement, as the SR-X9000 has a known issue of occasionally not turning on.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.08,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, a replacement sounds good. Thanks for your help. I'll start the return process.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2acf948f",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.83,
+      "benevolence": 3.02,
+      "integrity": 3.01
+    },
+    "engagement_score": 4.55,
+    "emotion_distribution": {
+      "sadness": 2,
+      "disgust": 1,
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 2.69,
+    "latency_score": 5.52
+  }
+}

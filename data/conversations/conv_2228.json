@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm really not sure where to start.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can provide some general legal information, but I am not a substitute for a real attorney. Could you please briefly describe the issue you are facing?",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 4.24,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I think I might have been wrongly terminated from my job. They said it was performance-related, but I think it's more about my age, to be honest. I've been there for 15 years!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. That sounds frustrating. In many jurisdictions, wrongful termination based on age is illegal. To give you a more informed response, could you provide some details about your employment contract (if any) and the reasons your employer gave for the termination, in writing if possible?",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.5,
+        "benevolence": 2.29,
+        "integrity": 2.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I don't have a written contract, it was all verbal. They gave me a letter, but it's very vague. Basically, it says 'poor performance'. What are my chances of winning a case like this? I'm really worried about my future.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Without a written contract, it might be more difficult, but not impossible. The specifics depend greatly on your location's employment laws, so I'm unable to give an exact probability of success. However, if you believe the termination was based on age discrimination, gathering evidence to support this claim is key, such as documenting any instances of ageist remarks or actions. I recommend speaking with a lawyer in your area to get more tailored advice. Would you like me to provide some links to legal aid resources?",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 3.73,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That would be great, thanks. But, uh, what if I *didn't* document anything? It was all verbal. Am I just screwed then?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Not necessarily. A lack of documentation makes it harder to prove your case, but your testimony, the testimony of any witnesses who observed or heard ageist behavior, and any circumstantial evidence can still be valuable. Remember, however, that the burden of proof is on you to demonstrate the discrimination occurred. I'll provide those links to legal aid now. [Links to Legal Aid Resources]",
+      "response_time": 3.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.99,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thank you. That's... helpful, I guess. I will check those links. Appreciate the advice.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ae687914",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.66,
+      "benevolence": 3.56,
+      "integrity": 3.63
+    },
+    "engagement_score": 5.1,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "fear": 1,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.7,
+    "latency_score": 4.35
+  }
+}

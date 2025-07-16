@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm still really struggling with these quadratic equations. I just don't get how to know which method to use when. Factoring, completing the square, quadratic formula... it's all a mess!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It can be tricky! Let's break it down. Factoring is generally the quickest method *if* the quadratic equation factors easily. Look for two numbers that multiply to give you the 'c' term and add up to the 'b' term in the equation ax\u00b2 + bx + c = 0. If factoring seems difficult or impossible, then completing the square or the quadratic formula are your next options. Completing the square is useful when 'a' equals 1 and 'b' is an even number, or when you need to rewrite the equation in vertex form. The quadratic formula is your reliable fallback \u2013 it *always* works, regardless of the coefficients. Does that clarify things a little?",
+      "response_time": 1.7,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.38,
+        "benevolence": 2.4,
+        "integrity": 2.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that's *slightly* more helpful. But what if 'a' isn't 1 and 'b' isn't even? Completing the square seems like a huge pain then. And honestly, conceptually, I don't even understand *why* the quadratic formula works. Like, where does it even come from?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, completing the square can be more involved when 'a' isn't 1 or 'b' isn't even. In those cases, the quadratic formula is often the easier route. As for where the quadratic formula comes from, it is derived by completing the square on the *general* quadratic equation, ax\u00b2 + bx + c = 0. Would you like me to walk you through the algebraic steps to derive the quadratic formula itself? It might help make the concept clearer!",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.38,
+        "integrity": 3.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f357931f",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.19,
+      "benevolence": 3.39,
+      "integrity": 3.16
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "disgust": 2,
+      "anger": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.15,
+    "latency_score": 4.62
+  }
+}

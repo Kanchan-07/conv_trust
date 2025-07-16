@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I really enjoy sci-fi movies. Got any suggestions?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! For sci-fi, I can recommend a few popular choices and some lesser-known gems. Are you looking for something action-packed, thought-provoking, or maybe a bit of both? Also, do you have any movies in mind you've already seen and enjoyed?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.23,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen most of the popular ones like *Blade Runner* and *Dune*. I'd prefer something a little less mainstream, maybe something with a really unique concept. And it would be a bonus if it has good characters because I'm tired of movies with flat, boring characters.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your preferences for unique concepts and strong character development, I would suggest *Primer* (2004). It's a low-budget, mind-bending time travel film that's very well-regarded, but be warned - it's a bit complex, and some viewers find it a little hard to follow initially. Another option is *Arrival* (2016), which deals with communication with aliens and features compelling character arcs. It has great reviews. How do those sound?",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.69,
+        "integrity": 3.88
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_72c150b4",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.62,
+      "benevolence": 4.46,
+      "integrity": 4.7
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.72,
+    "latency_score": 4.09
+  }
+}

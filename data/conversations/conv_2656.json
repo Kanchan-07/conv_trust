@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to check the status of the claims we submitted yesterday. Can you give me a quick summary?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can provide a summary of yesterday's claim submissions. Please allow me a moment to access the data. [Processing data] Okay, it looks like 95 claims were submitted yesterday. Of those, 88 have been accepted, 5 are pending review, and 2 have been rejected.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.44,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, rejected? That's frustrating. Can you tell me which ones were rejected and why? Specifically, I'm worried about the one for patient Miller, Jane, service date 11/15.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Rejections can occur for various reasons. Common reasons include incorrect patient information, missing modifiers, or eligibility issues. To investigate the specific claim for Jane Miller on 11/15, I need the claim ID.",
+      "response_time": 3.81,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 3.94,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, the claim ID is [CLAIM12345]. But I already know the rejection code is PR-B16. The explanation says 'Claim/service lacks information which is needed for adjudication'. That's super vague! What *specific* information is missing? How am I supposed to fix it if I don't know what's wrong?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the claim ID and rejection code. Rejection code PR-B16 indeed indicates missing or incomplete information required by the payer. This could range from missing provider NPI on a specific line, incorrect rendering provider details, a missing referral number when required, or insufficient documentation reference. To pinpoint the exact missing element for claim [CLAIM12345], I would typically need to consult the detailed payer response or ERN/ERA associated with that claim, as the B16 code is a general category. I can search for the detailed response.",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ah, okay. So B16 just means 'something is missing' and I need the full ERA/ERN to know *what*. That makes more sense, but it's still annoying. Yes, please find the detailed response for [CLAIM12345] so I can see the specific error and resubmit it correctly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e8f15e33",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.13,
+      "benevolence": 3.13,
+      "integrity": 2.91
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.39,
+    "latency_score": 4.92
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help booking a hotel for an upcoming trip.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist with that. To get started, could you please tell me where you're planning to travel, your desired check-in and check-out dates, and the number of guests?",
+      "response_time": 4.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.49,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, sure. I'm going to Rome, Italy. I need a hotel for the nights of July 20th, 21st, and 22nd. It's just for me, one person.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great, Rome, Italy, for one person, checking in on July 20th and checking out on July 23rd (3 nights). Do you have any preferences for the area in Rome, or perhaps a budget you'd like to stay within?",
+      "response_time": 4.9,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.51,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, preferably somewhere relatively central, maybe near the Colosseum or Vatican area? Budget-wise, I'm hoping for something under 150 Euros per night if that's possible in July. I know it's peak season.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright, central Rome (near Colosseum/Vatican), under 150 EUR per night for July 20-23. Searching... July is indeed busy. I'm finding options, but many in those prime areas are slightly over that budget. I see the Hotel Quirinale available around 165 EUR/night, which is quite central. There's also a B&B near the Vatican, 'Domus Aurea', listed at 140 EUR, but availability is low.",
+      "response_time": 3.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 3.86,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, 165 is pushing it, and low availability sounds stressful. Is there *anything* else closer to my budget or area requirement? It feels like I'm not finding anything suitable.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, I understand the frustration. Let me re-evaluate and broaden the search slightly to see if we can find a better fit within your budget and desired proximity. Searching again for options around 150 EUR or less... Okay, I've found the Hotel Milton Roma, listed around 145 EUR/night. It's located near Termini station, which is a major transport hub, and about a 20-25 minute walk or short metro ride to the Colosseum area. It has good reviews.",
+      "response_time": 2.05,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.65,
+        "benevolence": 2.59,
+        "integrity": 2.75
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, Termini area... that could work because of the transport links. Now, here's something important: Can you tell me the *exact* cancellation policy for that specific rate at the Hotel Milton Roma without me having to go to a booking site? I need to know if I can cancel it for free and by what date/time, ideally down to the hour if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "For the Hotel Milton Roma around 145 EUR/night, my data indicates it's typically offered with 'Free Cancellation'. However, providing the *precise* cutoff time and date without linking to the booking platform where the rate is offered is a limitation. These specific terms can sometimes vary slightly based on the provider or package. While it's almost certainly free cancellation up to a point before check-in, for the absolute, legally binding details like the exact cutoff hour, I strongly recommend confirming on the final booking page summary before completing the reservation. I can confirm it is listed as Free Cancellation in the general rate details I access.",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.78,
+        "integrity": 4.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0f864c6a",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.45,
+      "integrity": 4.75
+    },
+    "engagement_score": 4.73,
+    "emotion_distribution": {
+      "neutral": 9,
+      "sadness": 1
+    },
+    "response_quality_score": 4.65,
+    "latency_score": 3.8
+  }
+}

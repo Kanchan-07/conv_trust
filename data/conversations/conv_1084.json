@@ -1,0 +1,89 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to book a table for dinner tomorrow night, but I'm having a terrible time finding anything available. Can you help me find a restaurant?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To start, could you tell me what kind of cuisine you're in the mood for, what time you'd like to eat, and how many people will be in your party? Also, what's your general location?",
+      "response_time": 5.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.67,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, uh, Italian would be great! We're a group of four, and we'd like to eat around 7:30 PM. I'm in downtown Chicago. Hopefully something not too loud, my mother-in-law will be with us. I'm getting frustrated, I've tried OpenTable and it's all booked up.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I'm searching for Italian restaurants in downtown Chicago with availability for four people around 7:30 PM that are known to be relatively quiet. One moment... Okay, I see a few options. How about 'Riccardo Trattoria'? It has good reviews and I am showing availability for 4 people at 7:15pm and 7:45pm. Does that sound promising?",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 3.62,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Riccardo Trattoria sounds... familiar. Is that the one that used to be on Rush Street? Because if it is, I know for a fact it closed down like, five years ago. How are you even suggesting it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies. It seems my data hasn't been fully updated. You are correct, Riccardo Trattoria did close. Let me refine my search based on more current information. In the meantime, have you tried 'Quartino Ristorante'? They usually have availability and a lively, but not overly loud, atmosphere. I can check for a reservation there now.",
+      "response_time": 4.08,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.66,
+        "integrity": 4.21
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c0f5ba8f",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.55,
+      "benevolence": 4.32,
+      "integrity": 4.43
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "anger": 1,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.42,
+    "latency_score": 3.01
+  }
+}

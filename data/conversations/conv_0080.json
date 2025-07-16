@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my current account balance and see if a specific payment went through. It was supposed to be for $150 to 'Acme Corp'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To access your account, can you please verify the last four digits of your social security number and your date of birth?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.73,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's XXXX and my birthday is 05/12/1987. Ugh, I hope that payment went through. They've been hounding me about it.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm showing a current account balance of $784.22. And yes, I see a payment of $150.00 to Acme Corp. processed on 2024-01-26.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great! That's a relief. One more thing, why is my savings account interest rate so low? I saw an ad for a much higher rate for new customers.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Interest rates can vary based on several factors. Generally, promotional rates are for new customers only. However, I can check if you are eligible for any rate increases based on your current account standing. Please hold while I review your account details... Unfortunately, at this moment I am not able to determine any eligibility. Please contact customer service at 1-800-BANK for any potential offers.",
+      "response_time": 2.21,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.44,
+        "benevolence": 2.41,
+        "integrity": 2.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3a857a06",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.52,
+      "benevolence": 2.38,
+      "integrity": 2.71
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1,
+      "joy": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.66,
+    "latency_score": 5.33
+  }
+}

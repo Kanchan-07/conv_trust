@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling to check on the status of my claim, number 2023-495-Alpha. I filed it about two weeks ago after that awful hailstorm.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please give me a moment while I access claim 2023-495-Alpha. Okay, I have it here. I see the claim was received and is currently under review by our claims adjuster. ",
+      "response_time": 5.18,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.58,
+        "benevolence": 5.46,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Under review? That's it? Two weeks and it's *still* just under review? I need my car fixed! I can't get to work without it. This is incredibly frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me see if I can get you a more specific update. The adjuster's notes indicate they are waiting for the estimate from the auto body shop you selected. Have you submitted that yet?",
+      "response_time": 2.25,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.12,
+        "benevolence": 2.39,
+        "integrity": 2.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes! I dropped my car off at Honest Abe's Auto on Monday. They said they'd send the estimate to you guys directly. So why haven't you received it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I'll check on that. Let me send an email to the adjuster requesting they contact Honest Abe's Auto for the estimate. Could you please spell out Honest Abe's Auto for me to ensure I'm sending the request to the correct contact?",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 4.08,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "H-O-N-E-S-T, A-B-E-S, A-U-T-O. Look, I appreciate you doing that, but what happens if the estimate comes in really high? Will my rates go up even though it was a hailstorm and not my fault?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Generally, hail damage claims are considered 'not-at-fault' claims and typically do not impact your insurance premiums. However, this can depend on your specific policy and state regulations. Once the estimate is received, the adjuster will be able to make a determination. I would advise reading your policy details for more specific information about rate increases.",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 4.42,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's...somewhat reassuring, I guess. Please do follow up with Honest Abe's. Thanks.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_080a4fa7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.76,
+      "benevolence": 4.09,
+      "integrity": 3.9
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 3.99
+  }
+}

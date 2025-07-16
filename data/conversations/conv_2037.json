@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately. I'm sleeping okay, but I'm still exhausted. Any ideas what could be wrong?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're feeling tired. There could be several reasons for your fatigue. To get started, could you tell me a little more about your lifestyle? For example, what's your diet like, and do you exercise regularly?",
+      "response_time": 2.15,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.42,
+        "benevolence": 2.59,
+        "integrity": 2.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, my diet isn't the best. I eat a lot of fast food, and I don't exercise at all. Honestly, I'm not sure where to start with improving things. I feel overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand that can be overwhelming. Small changes can make a big difference. Perhaps starting with adding one serving of fruits or vegetables each day, or taking a short walk a few times a week? We could also explore some of the common causes of fatigue like iron deficiency. Have you had a recent blood test?",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.61,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I haven't had a blood test in a while, actually. But... how does iron deficiency even *cause* tiredness? That doesn't make sense to me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Iron is a crucial component of hemoglobin, which is found in red blood cells and is responsible for carrying oxygen throughout your body. If you don't have enough iron, your body isn't able to deliver oxygen efficiently, which can lead to fatigue. Does that explanation help?",
+      "response_time": 4.69,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.05,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that makes perfect sense. Okay, so I guess I should get a blood test then. Thanks, that was actually very helpful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're welcome! I recommend consulting with your doctor for a blood test to rule out any underlying conditions. I am happy to help further if you have additional questions. Please note that I am an AI assistant and this is not medical advice. I hope you feel better soon!",
+      "response_time": 5.85,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.9,
+        "benevolence": 6.99,
+        "integrity": 6.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7761fdc1",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.82,
+      "benevolence": 4.56,
+      "integrity": 4.79
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 2,
+      "surprise": 1,
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 4.35,
+    "latency_score": 3.72
+  }
+}

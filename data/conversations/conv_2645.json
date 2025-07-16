@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I really need help with my resume. It feels so overwhelming trying to update it for these job applications.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand, resume writing can definitely feel daunting. I can help you. To get started, could you tell me a bit about your current situation? For example, are you targeting specific types of roles or industries, and do you have a current draft you'd like to work from?",
+      "response_time": 5.62,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.39,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks! Yeah, I have a draft, but it's old. I'm mainly looking at project management roles, but also some business analyst positions. How do I make sure I'm using the right keywords for both? It feels like a balancing act.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common challenge. For keywords, it's important to review job descriptions for the roles you're interested in. Look for recurring terms related to required skills, responsibilities, and qualifications. Integrate these naturally into your resume's summary, experience bullet points, and skills section. You might need slightly different versions for project management vs. business analyst roles.",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.94,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Right, different versions... Ugh, that sounds like so much extra work. Isn't there a smarter way to build a flexible resume? Like, what are the absolute core parts that *should* be consistent versus the parts that absolutely *must* be tailored for each job? I feel like I'm wasting time starting from scratch every time, and it's frustrating.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I completely understand your frustration with creating multiple versions. A more efficient strategy is indeed to build a comprehensive 'master' resume. This document includes *all* your work history, skills, projects, and achievements in detail. Then, for each application, you create a *new* version by selecting and editing content from your master that is most relevant to that specific job description. Your contact information and basic education details can usually remain consistent. However, your summary or objective statement, specific bullet points under experience, and your list of skills should be carefully tailored using keywords from the job posting.",
+      "response_time": 2.17,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.9,
+        "benevolence": 2.88,
+        "integrity": 2.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a60625fb",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.21,
+      "benevolence": 4.07,
+      "integrity": 4.38
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.89,
+    "latency_score": 4.13
+  }
+}

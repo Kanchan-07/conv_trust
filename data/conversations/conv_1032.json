@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I'm thinking of participating in a hackathon for the first time. Any advice on where to start?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's great! Participating in a hackathon is a fantastic experience. I recommend starting by identifying your interests and skill set. What kind of projects do you enjoy working on, and what technologies are you comfortable with?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.97,
+        "benevolence": 6.68,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'm decent at Python and have dabbled in web development with Javascript, but I'm not sure what kind of problem to tackle. Everything seems so complex!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel overwhelmed. How about focusing on a problem you encounter in your daily life? Even a simple solution can be impressive if well-executed. Think about things that annoy you or tasks you wish were easier.",
+      "response_time": 1.37,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.38,
+        "benevolence": 2.28,
+        "integrity": 2.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay, that's a good starting point. But what about team formation? Should I go solo or try to find a team? I don't know anyone else who's participating.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Joining a team is generally recommended, especially for your first hackathon. It allows you to learn from others and share the workload. Most hackathons have a platform or session for team formation. Be open to meeting new people and discussing project ideas.",
+      "response_time": 5.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.14,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if my team's project idea is terrible? Or if we can't agree on anything? What then? This sounds stressful!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Clear communication is key. Try to have a structured brainstorming session where everyone pitches their ideas and you collectively evaluate them based on feasibility and impact. If disagreements arise, try to find a compromise or vote on the best approach. Don't be afraid to respectfully voice your concerns early on. Worst case, you can leave the team if it's completely dysfunctional, but aim to resolve issues first.",
+      "response_time": 2.37,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.3,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks! That's actually really helpful. I feel a bit more prepared now. Wish me luck!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef8dad62",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.95,
+      "benevolence": 4.6,
+      "integrity": 4.93
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "joy": 3,
+      "neutral": 3,
+      "surprise": 1,
+      "fear": 2
+    },
+    "response_quality_score": 4.55,
+    "latency_score": 3.68
+  }
+}

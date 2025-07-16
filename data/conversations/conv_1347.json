@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new kitchen faucet, and I'm already stuck. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. First, can you tell me what the issue is? Have you disconnected the old faucet yet? What kind of new faucet are you installing (single-handle, two-handle, etc.)?",
+      "response_time": 5.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.86,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've disconnected the old faucet, but the new one doesn't seem to fit properly in the existing holes. The instructions are utterly useless. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your frustration. It's a common problem. Sometimes the new faucet base plate or mounting hardware might not align perfectly with the existing holes. Could you describe the situation in a bit more detail? For example, are the holes too far apart or too close? Are they the correct size?",
+      "response_time": 2.58,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.3,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The holes seem to be the right size, but the base plate on the new faucet is too wide, and the supply lines don't seem long enough to reach the shutoff valves. I was hoping for a quick fix, and now I'm wondering if I need to call a plumber.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let's troubleshoot this. First, measure the distance between your current shutoff valves. Then, measure the length of the supply lines that came with your new faucet. If there's a significant difference, you may need to buy longer supply lines. Regarding the base plate, can you provide the make and model of the faucet? Some manufacturers offer different base plates or trim kits. Without that information, I can't give you more specific advice, but maybe you should consider the implications of the local plumbing codes or if the faucet has a different thread type than your supply valves. It might not be as easy as it seems, and might be best left to the professionals. Would you like me to help you find a local plumber?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 4.45,
+        "integrity": 3.62
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fb8c2736",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.52,
+      "benevolence": 4.87,
+      "integrity": 4.42
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.53,
+    "latency_score": 3.41
+  }
+}

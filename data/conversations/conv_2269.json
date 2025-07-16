@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why a patient's claim was rejected. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly assist with that. Could you please provide the patient's name, date of service, and the claim number?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.04,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient's name is John Smith, date of service was 2024-02-15, and the claim number is ABC123XYZ.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. According to the system, claim ABC123XYZ was rejected due to a coding error. Specifically, the CPT code submitted does not align with the diagnosis code provided.  The error message reads: 'Mismatch of codes found.'",
+      "response_time": 0.58,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.33,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, not again! This happens all the time. What's the correct CPT code then? And which diagnosis code does it match?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on the documentation provided, the correct CPT code should be 99213 and the diagnosis code to match is ICD-10 code M54.5. Please note, I am only providing general information based on the information provided. I suggest checking the specific medical record for definitive codes and a complete understanding.",
+      "response_time": 2.36,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.64,
+        "benevolence": 2.92,
+        "integrity": 2.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, but a little vague. Can you give me the rationale behind the match of those codes? Like, what were the symptoms or the procedure that resulted in those codes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am designed to provide information based on existing claims data. I do not currently have access to the patient's medical records. Therefore, I am unable to provide specific information that supports that code mapping. My apologies.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.11,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, I'll work with the doctor's notes to figure that out. Thanks for pointing me in the right direction with the codes. I appreciate it.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Is there anything else I can help you with regarding this claim or any other claims?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.66,
+        "benevolence": 7.0,
+        "integrity": 6.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_23b625b8",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.38,
+      "benevolence": 3.41,
+      "integrity": 3.31
+    },
+    "engagement_score": 5.48,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 4,
+      "disgust": 1,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.11,
+    "latency_score": 4.78
+  }
+}

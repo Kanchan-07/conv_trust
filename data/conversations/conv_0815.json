@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm having a dispute with my landlord. He's claiming I damaged the property when I moved out, but I have photos proving it was already like that when I moved in! I'm so frustrated; he's trying to keep my security deposit.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. To clarify, you have photographic evidence dated before your move-in date showing the pre-existing damage? If so, that's definitely helpful. What specifically is he claiming you damaged, and what is the cost he's withholding?",
+      "response_time": 1.55,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.11,
+        "benevolence": 2.92,
+        "integrity": 2.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "He says I broke a window and scratched the hardwood floors. He's withholding the entire $2000 deposit! The window was cracked when I moved in (I have a picture!), and the floors, honestly, looked the same to me after I left. Is it even legal for him to do this?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Withholding a security deposit requires a valid reason, and the landlord must provide an itemized list of damages and their associated costs. If the damage existed prior to your tenancy, and you have proof, he cannot charge you for it. Furthermore, claiming the *entire* deposit for what you describe seems excessive. Laws vary by location, but generally, landlords must act in good faith. Let me check the laws regarding security deposits in your state. Could you please provide your state of residence?",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.52,
+        "benevolence": 2.2,
+        "integrity": 2.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm in California. Okay, so what are my options here? What's the best way to approach this? Should I just sue him?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "In California, a landlord can only use a security deposit for unpaid rent, cleaning the unit when a tenant leaves it dirtier than when they moved in, and to repair damages *caused by the tenant* beyond normal wear and tear. Given your evidence, suing might be an option, but before that, I would strongly suggest sending a certified letter demanding the return of your deposit within a reasonable timeframe (e.g., 14 days), citing the relevant California law (Civil Code Section 1950.5) and including copies of your photographic evidence. This demonstrates you are serious and have a valid claim. Document everything.",
+      "response_time": 4.26,
+      "emotion_detected": "anger",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.91,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if he claims the pictures aren't actually from *before* I moved in? How can I *prove* that? I mean, it's my word against his, right? This is getting complicated...",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a fair point. Timestamps on the photos are helpful, but not always conclusive. Do you have any corroborating evidence? Perhaps emails to the landlord mentioning the pre-existing damage upon move-in, or witness statements from anyone who saw the condition of the property before you moved in? If not, you could argue the photos show consistency with 'normal wear and tear,' something landlords can't charge for. A judge would weigh all the evidence. While it's your word against his, a pattern of behavior (withholding deposits unreasonably) could also be considered. Consulting with a local attorney to discuss these nuances specific to your case is always advisable.",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.44,
+        "integrity": 3.5
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a7a1014a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.96,
+      "benevolence": 4.12,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "anger": 6,
+      "neutral": 2
+    },
+    "response_quality_score": 3.55,
+    "latency_score": 4.58
+  }
+}

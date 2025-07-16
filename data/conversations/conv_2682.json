@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I placed an order last week and the tracking hasn't updated. It's still showing 'Label Created, Not Yet In System'.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Could you please provide your order number so I can look it up?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.92,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, sure. It's #ORD789012. I'm getting a bit worried because I need this by the end of the week.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing order #ORD789012. I see the tracking status you mentioned. Sometimes the carrier takes 1-2 business days to scan the package into their system after the label is created. Please continue to monitor the tracking link for updates.",
+      "response_time": 4.61,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.58,
+        "benevolence": 5.61,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "But it's been *four* business days since I got that tracking number. Why isn't it scanned yet? Is it even possible for it to arrive by Friday if it hasn't even been scanned by the carrier by Monday evening?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While delays can occasionally happen with the initial carrier scan, your order was picked up by the carrier on the expected date. There might be a delay in the carrier's system updating the tracking information online. Based on the shipping method selected and typical transit times from our warehouse, it is still likely to arrive by Friday. We will monitor this for you as well.",
+      "response_time": 4.65,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.75,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit reassuring. It would be great if you could keep an eye on it. Thanks for checking.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e5fd323f",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.9,
+      "benevolence": 6.12,
+      "integrity": 6.05
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "fear": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.85,
+    "latency_score": 2.41
+  }
+}

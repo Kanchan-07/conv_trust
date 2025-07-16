@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview coming up for a software engineer position at Google. I'm super nervous! Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can definitely help with that. To get started, what areas of interview prep are you most concerned about? We can work on technical questions, behavioral questions, or general interview skills.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.85,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, all of the above! But I think I'm most worried about the technical questions. I get so flustered under pressure.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Let's start with a coding question then. Try this one: \"Reverse a linked list in place.\" Give it your best shot! Take your time and explain your thought process.",
+      "response_time": 4.94,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.77,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay... (typing sounds). Okay, I think I've got a solution. Here's the code... (sends a code snippet). How does it look?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good start! Your core logic is correct, but there are a few edge cases and a slight inefficiency. For example, consider what happens if the linked list is empty or has only one node. Also, you can optimize the space complexity by...",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.81,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, edge cases! I always forget those. Okay, I see the issue now. I'm going to modify it. (types and resends code). Okay, updated version. Is it better this time?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Much improved! That's a very solid solution. The runtime complexity is O(n) and the space complexity is O(1). Now, to test your understanding, can you tell me what are the tradeoffs between using recursion vs iteration for this type of problem?",
+      "response_time": 4.97,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.63,
+        "integrity": 6.65
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, that's a challenging question. I'm not quite sure how to answer that off the top of my head, can you provide some hints?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly. Consider factors like stack space, readability, and potential for stack overflow errors. Recursion can be more elegant for some people, but iteration often performs better in terms of space and may be easier to debug. Consider the implications of tail-call optimization, and explain if it applies here.",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.95,
+        "integrity": 3.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4daf65ac",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.36,
+      "benevolence": 5.45,
+      "integrity": 5.4
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 7,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.51,
+    "latency_score": 3.47
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm completely stressed out about this job application I'm working on. Can you help me sort things out?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand job applications can be stressful. I'd be happy to assist you. What job are you applying for, and what specific challenges are you facing?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It's for a 'Lead Software Engineer' position at 'Tech Solutions Inc.'. The main problem is tailoring my resume. The job description lists like ten different specific technologies, and I haven't used all of them extensively.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's common. It's important to highlight the technologies you *are* proficient in that align with the requirements, and for others, you can potentially mention exposure, related skills, or your ability to learn new technologies quickly. Could you list the required technologies and maybe share a few bullet points from your current resume?",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.06,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Right. They really emphasize 'Kubernetes' and 'Rust'. I've only tinkered with Kubernetes a little and have ZERO experience with Rust. How on earth am I supposed to make my resume look good for that? I feel like I'm wasting my time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Facing requirements for technologies you lack direct experience with is challenging. Focus on demonstrating your strong foundation in related areas, such as distributed systems or system-level programming languages like C++ or Go if you have experience with those. You can also mention your enthusiasm for learning new tech and relevant personal projects if any. This can sometimes compensate for direct experience.",
+      "response_time": 5.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.53,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmmm, okay. So basically, gloss over the lack of experience and hope they like my other skills? That feels a bit risky. What about the cover letter? Can you help me start a compelling opening paragraph that acknowledges my skill set without highlighting the gaps?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, the cover letter is a great place to connect your existing skills to the role. For a compelling opening, you could start by expressing your enthusiasm for the specific role at Tech Solutions Inc. and immediately highlight 2-3 of your most relevant and strong skills that directly match their key requirements (excluding Rust/Kubernetes for now).",
+      "response_time": 5.91,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.41,
+        "integrity": 5.86
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, let's try that. My strongest relevant skills are 'extensive experience with large-scale Java applications', 'leading cross-functional teams', and 'designing robust APIs'. Can you draft an opening sentence or two using those?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly. Here is a draft opening: 'I am writing to express my strong interest in the Lead Software Engineer position at Tech Solutions Inc. With extensive experience developing large-scale Java applications, a proven ability to lead cross-functional teams, and a solid background in designing robust APIs, I am confident my skills align well with the challenges of this role.' How does that sound as a starting point?",
+      "response_time": 5.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.77,
+        "integrity": 5.5
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8f380763",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.54,
+      "benevolence": 5.55,
+      "integrity": 5.49
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 2,
+      "fear": 1
+    },
+    "response_quality_score": 5.23,
+    "latency_score": 2.16
+  }
+}

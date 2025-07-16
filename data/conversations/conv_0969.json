@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi! I need some fashion advice. I'm trying to revamp my wardrobe but I'm on a pretty tight budget. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely provide fashion recommendations tailored to your budget. To start, could you tell me approximately how much you're looking to spend in total, and what type of clothing you're primarily interested in (e.g., work clothes, casual wear, evening wear)?",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.71,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's say my budget is around $300, maybe a little over if it's really worth it. And I mostly need casual clothes \u2013 jeans, t-shirts, maybe a nice sweater or two. Something I can wear every day.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! For a $300 budget, we can definitely create a versatile casual wardrobe. I recommend checking out stores like H&M, Old Navy, and Target. They often have affordable and stylish options. Look for basic t-shirts (around $10-$15 each), a couple of pairs of jeans (aim for $25-$40 each), and a sweater or two (around $20-$30 each). Don't forget to check their clearance sections for even better deals!",
+      "response_time": 5.83,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, Target? I always feel so overwhelmed when I go there. And the quality can be hit or miss. Are there any other options? Maybe something a little more... curated?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about Target. You could also explore ASOS or Boohoo. They offer a wide range of styles and price points, and you can filter by price to stay within your budget. They often have sales and discount codes available, too.",
+      "response_time": 4.78,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.85,
+        "benevolence": 6.59,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, ASOS sounds promising. But how do I know what's actually going to look good on *me*? I'm short and kind of curvy. It's hard to find clothes that fit well without trying them on.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern! When shopping online, pay close attention to the size charts and read customer reviews to see if items run true to size. Look for clothing with descriptions like 'relaxed fit' or 'A-line' which often flatter curvier figures. High-waisted jeans can also be very flattering for a shorter frame. Unfortunately, I can't provide personalized fitting advice without knowing your specific measurements, but focusing on fit details in product descriptions will help.",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.36,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, thanks. But what about ethical considerations? Fast fashion isn't exactly known for being sustainable or treating its workers well. Is it even possible to be fashionable *and* ethical on a budget?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a very important question! It is challenging, but not impossible. Look for brands that prioritize fair labor practices and sustainable materials, even if they're slightly more expensive. Thrifting and buying secondhand clothing is also a fantastic option. You can find unique and stylish pieces at very low prices, and it's a much more sustainable choice. Consider exploring consignment shops or online marketplaces like Poshmark and ThredUp. You might be surprised by what you find!",
+      "response_time": 2.4,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.74,
+        "integrity": 4.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aea0307a",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.64,
+      "benevolence": 5.48,
+      "integrity": 5.64
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "surprise": 2,
+      "fear": 1
+    },
+    "response_quality_score": 5.05,
+    "latency_score": 3.47
+  }
+}

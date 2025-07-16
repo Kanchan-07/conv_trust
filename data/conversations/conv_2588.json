@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help booking a trip.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Where are you planning to travel, and what are your preferred dates?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I want to go to New York City, flying from Los Angeles. I'm looking at the last week of October, maybe arriving around the 26th and leaving around the 30th. It's just for me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, LAX to NYC, roughly Oct 26th to Oct 30th for one person. Are you looking for flights, hotels, or both?",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.58,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Both, please. And I prefer morning flights if possible, but price is more important. For the hotel, something mid-range, maybe around Times Square or Midtown.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Got it. Searching for the most affordable flights from LAX to NYC arriving around Oct 26th, departing around Oct 30th, with a preference for morning times if the price is right. Also looking for mid-range hotels in or near Times Square/Midtown for those dates. Please wait a moment.",
+      "response_time": 4.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.85,
+        "integrity": 5.87
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Can you make absolutely sure the flight is non-stop? I really hate layovers, even if it costs a little more.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your preference for non-stop. While I prioritize finding options based on your criteria, I cannot guarantee a non-stop flight exists or is available within your preferred price range or dates at this exact moment. Availability changes quickly. I will include non-stop options if they meet the other criteria, but I might also show flights with layovers if they are significantly cheaper or the only ones available.",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.41,
+        "integrity": 5.74
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. I was really hoping for non-stop. Fine, just show me the cheapest ones first, and tell me if any are non-stop. And for the hotel, can you find one with free breakfast? That would be amazing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Okay, I hear you. I will prioritize the cheapest flights, noting if any are non-stop. For the hotel search, I will add the filter for 'free breakfast' while keeping the mid-range and location preferences. I will present the results combining these criteria for your review shortly.",
+      "response_time": 2.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 4.25,
+        "integrity": 3.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_63433a49",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 5.22,
+      "integrity": 5.28
+    },
+    "engagement_score": 4.43,
+    "emotion_distribution": {
+      "neutral": 9,
+      "anger": 1
+    },
+    "response_quality_score": 5.51,
+    "latency_score": 3.6
+  }
+}

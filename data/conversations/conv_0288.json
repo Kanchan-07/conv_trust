@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I was recently fired from my job and I think it was wrongful termination. Can you help?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can provide some general information about wrongful termination. To give you more tailored advice, could you tell me what state you were employed in and the reason your employer gave for your termination?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.43,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I was working in California. They said it was for 'performance issues,' but I consistently exceeded my sales targets! It's ridiculous, I'm so frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. In California, employment is generally 'at will,' meaning an employer can terminate an employee for any reason that isn't discriminatory or retaliatory, or violates a contract. Even if your performance was good, they may have had other valid reasons. However, if you suspect discrimination or retaliation, that changes things. Do you believe either of those factors were involved?",
+      "response_time": 2.28,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 4.17,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, my boss has always seemed to have it out for me ever since I filed a complaint with HR about him making inappropriate jokes. Could that be considered retaliation?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Potentially, yes. If there's a causal link between your HR complaint and your termination, it could be considered retaliation, which is illegal. To confirm, approximately how much time elapsed between your complaint and your firing?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "About three weeks. But proving that... that's going to be hard, right? I don't have any concrete evidence, just a feeling.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Establishing a direct link can be challenging. However, the proximity in time between the complaint and the termination can be suggestive. Other factors, like the nature of the 'performance issues' cited (were they documented? Were you given a chance to improve?), would also be relevant. Unfortunately, I'm unable to help you much further without more information. If your termination was actually due to performance reasons, and not related to the jokes or your complaint, it is most likely valid.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.57,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "So, what should my next steps be? Should I contact a lawyer immediately? What are the typical fees for this sort of thing?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Consulting with an employment lawyer is generally a good idea in these situations. Many offer free initial consultations. They can assess your case in detail and advise you on your options. Attorney fees vary. Some work on a contingency basis (they get paid a percentage of what you win), others charge by the hour. It would be best to research lawyers in your area and compare rates. Good luck!",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 4.45,
+        "integrity": 4.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_31bc2c48",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.43,
+      "benevolence": 3.52,
+      "integrity": 3.59
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "anger": 5,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 3.55,
+    "latency_score": 5.3
+  }
+}

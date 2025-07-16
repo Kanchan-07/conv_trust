@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm stressing about groceries this week. I only have like, $50 to spend and I need to feed myself and my partner for the whole week. Can you help me figure out what to buy?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand budgeting for groceries can be challenging, especially with limited funds. I can definitely help you brainstorm some ideas. To start, are there any dietary restrictions or specific types of meals you'd like to focus on (e.g., easy weeknight dinners, breakfast staples)? Knowing that will help me tailor the recommendations.",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.07,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. No strict restrictions, but we try to eat somewhat healthy, you know? Mostly trying to get dinner ideas, but some lunch/breakfast stuff too. How is it even possible to eat *healthy* on $50 for two people for a week? It feels impossible!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a very common concern, and while it requires careful planning, it is achievable! Focusing on staples like rice, pasta, beans, lentils, oats, and in-season or frozen vegetables and fruits can be very cost-effective. For protein, eggs, canned tuna, and sometimes discounted chicken thighs are budget-friendly options. Would you like me to suggest a sample shopping list focusing on these types of items?",
+      "response_time": 5.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.49,
+        "integrity": 5.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_04b5bd56",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.58,
+      "benevolence": 5.28,
+      "integrity": 5.17
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.93,
+    "latency_score": 2.57
+  }
+}

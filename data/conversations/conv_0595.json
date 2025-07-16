@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really struggling with understanding the concept of opportunity cost in economics. Can you explain it to me like I'm five?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Imagine you have one cookie, but you really want both a cookie and a piece of candy. If you choose the cookie, the opportunity cost is the candy you didn't get! It's what you give up when you choose something else. Does that make sense?",
+      "response_time": 4.19,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.71,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I *think* I get it... but what about in a more complex situation? Like, how does this apply to businesses making decisions about production?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Businesses have limited resources, like money and workers. If a company uses all its resources to make Product A, the opportunity cost is the profit they could have made by making Product B instead. It's all about the best alternative that is foregone. For example: If a company can make tables or chairs, and it chooses to make tables, the opportunity cost is the number of chairs they could have made.",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.83,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but what if they can make both? And how do you even *calculate* that? This is starting to feel impossible. Is there a way to quantify opportunity cost, especially when there are many different options and variables involved?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Quantifying opportunity cost often involves a simplified model or estimation, as it represents a *potential* outcome. One common method is using the Production Possibilities Frontier (PPF) model. This model shows the maximum possible output combinations of two goods or services an economy can achieve when all resources are fully and efficiently employed. By examining the slope of the PPF at a particular production point, you can estimate the opportunity cost of producing more of one good in terms of the other. It gives you a good approximation, but rarely a perfect real-world answer. There are more complex economic models as well, but those are typically case-specific.",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.25,
+        "integrity": 5.37
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4013c77c",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.26,
+      "integrity": 4.29
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "fear": 1,
+      "anger": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.17,
+    "latency_score": 3.61
+  }
+}

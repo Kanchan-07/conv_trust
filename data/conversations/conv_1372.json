@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to file a claim for a car accident. I have my policy number and the accident report number. What do I do?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can help with that. To start, please provide your policy number and the accident report number. Then, I will ask you a few questions regarding the accident. We will gather all the information and open up a claim on your behalf.",
+      "response_time": 4.98,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.98,
+        "benevolence": 7.0,
+        "integrity": 6.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my policy number is ABC12345 and the accident report number is DEF67890. I'm already frustrated with this, as the other driver is disputing liability.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I see your policy and the accident report now. I understand your frustration, but please be assured, we will investigate the matter thoroughly. Could you please describe the accident in your own words, including the time, location, and any injuries sustained, if any?",
+      "response_time": 3.29,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.11,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The accident happened last Tuesday at the intersection of Elm Street and Oak Avenue. The other driver ran a red light and hit me. I had some minor whiplash. But what happens if the other driver's insurance refuses to pay? Am I responsible for their negligence?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a complex legal question, and I am not qualified to give legal advice. However, our claims team will investigate the accident and attempt to determine liability. If the other driver is found at fault, we will pursue recovery of damages. Our legal team will also advise you on your options. Please note, if the other driver's policy does not cover the claim, you may have to take additional steps.  I am sending you some helpful links to resources now.",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 4.12,
+        "integrity": 4.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_91e57007",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.57,
+      "benevolence": 5.41,
+      "integrity": 5.6
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "anger": 3
+    },
+    "response_quality_score": 5.45,
+    "latency_score": 3.86
+  }
+}

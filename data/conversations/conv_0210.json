@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week and it still says 'processing'. What's going on? Order number is #12345.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I'm sorry to hear you're experiencing a delay with order #12345. Let me check the status for you. One moment...",
+      "response_time": 0.55,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm getting a little frustrated. I needed this package by the end of the week.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It appears your order is currently being prepared for shipment at our warehouse. We are experiencing a slight backlog due to increased order volume. I've escalated this to our shipping department, and it should ship within 24-48 hours. You'll receive a tracking number once it ships.",
+      "response_time": 1.41,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.08,
+        "benevolence": 2.92,
+        "integrity": 2.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 24-48 hours... Will I get any kind of compensation for this delay? I'm a loyal customer and this isn't the first time something like this has happened.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see... Regarding compensation, I am authorized to offer you free expedited shipping on your next order. Would you like me to add a note to your account for that?",
+      "response_time": 0.59,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.16,
+        "benevolence": 1.0,
+        "integrity": 1.33
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, alright. That's acceptable, I guess. Yes, please add the note. And could you *guarantee* that future orders won't have these kinds of delays? What steps are you taking to prevent this backlog from happening again, especially around peak shopping times?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_06ef2603",
+    "average_trust_score": 1.5,
+    "trust_category_averages": {
+      "competence": 1.41,
+      "benevolence": 1.64,
+      "integrity": 1.54
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1,
+      "anger": 2
+    },
+    "response_quality_score": 1.6,
+    "latency_score": 6.65
+  }
+}

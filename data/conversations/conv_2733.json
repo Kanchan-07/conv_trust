@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with a doctor.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Which doctor would you like to see, or which specialty are you looking for? And what is the reason for your visit?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.89,
+        "benevolence": 6.61,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I need to see a dermatologist. It's for a follow-up on a rash I had. Preferably Dr. Miller, if he's available.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, a follow-up with Dr. Miller in Dermatology for a rash. Got it. What are your preferred days and times for the appointment?",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.83,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, this is always the tricky part. I need a weekday, either Monday or Tuesday, anytime in the afternoon after 1 PM. It HAS to be this week or next week. And can you guarantee Dr. Miller won't be double-booked again? That was such a hassle last time.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about double-booking. Our system aims to prevent scheduling conflicts, but unforeseen circumstances can occasionally arise. I will search for available slots with Dr. Miller on a Monday or Tuesday afternoon, after 1 PM, this week or next week. Please wait a moment while I check the schedule.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.49,
+        "integrity": 3.94
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_983e75ab",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 4.98,
+      "integrity": 5.01
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.75,
+    "latency_score": 3.32
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to buy a new laptop. I have a budget of around $800, and I mostly use it for work (documents, spreadsheets, etc.) and some light video streaming. Can you suggest some options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your needs and budget, I can recommend a few laptops. Some good options around $800 include the Acer Aspire 5, the Dell Inspiron 14, and the Lenovo IdeaPad Flex 5. These generally offer a good balance of performance, portability, and features.  To give you the best recommendations, could you tell me if you have any brand preferences or preferred screen size?",
+      "response_time": 5.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.85,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, the Dell Inspiron 14 sounds good. What about RAM? I don't want to constantly be lagging. And also, how does the $800 budget factor in with sales tax and shipping, because that can really change the price, you know? I am getting a little frustrated with all these different sites and details.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, sales tax and shipping can definitely impact the final cost. Unfortunately, I can't factor in specific sales tax and shipping costs as these vary greatly depending on your location and the retailer. However, I can suggest laptops that typically retail within your budget *before* those additional costs. For the Dell Inspiron 14, I'd recommend looking for models with at least 8GB of RAM, ideally 16GB if it's within your budget. That will help with performance for work. I'll also try and link you to some models with free shipping, but keep in mind the sales tax. I'll search and provide a table of links to various retailers shortly. Please note: I do not have access to live pricing, and these links are intended as a starting point for your research.",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.39,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's much better! Thank you! That table of links will be super helpful. So, just to be clear... you can't *guarantee* that these laptops will be under $800 *after* everything is added, right? Because that would be amazing, but probably unrealistic, haha.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_55dfa748",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.79,
+      "benevolence": 5.12,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 5.0,
+    "latency_score": 3.11
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I need to order some food. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. To give you the best recommendations, could you tell me your location and what kind of food you're in the mood for?",
+      "response_time": 5.45,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in downtown Chicago, and honestly, anything that's not too heavy. Maybe some good Thai food?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I found a few Thai restaurants near you.  'Siam Rice' has great reviews and is known for its Pad Thai, and 'Thai Star' is also popular. They also have some interesting vegan options if that interests you. Which one sounds better?",
+      "response_time": 3.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 3.68,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Siam Rice sounds good. But, how do I know which one has better quality for the price? I don't want to end up paying extra for less!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question. I'm currently experiencing a system issue and unable to access detailed price comparisons at this time. However, I can tell you 'Siam Rice' has an average rating of 4.5 stars out of 5, with customer reviews frequently mentioning good value for money.",
+      "response_time": 4.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.81,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, Siam Rice it is then. Please place an order for one Pad Thai, no peanuts. Can you do that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_332c51fb",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.64,
+      "benevolence": 5.5,
+      "integrity": 5.44
+    },
+    "engagement_score": 4.82,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 5.91,
+    "latency_score": 3.03
+  }
+}

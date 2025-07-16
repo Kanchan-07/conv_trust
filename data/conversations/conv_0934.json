@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking at my latest bill and it's significantly higher than usual. I'm pretty sure there's an error.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you're concerned about a higher-than-expected bill. I'd be happy to look into this for you. Could you please provide your account number or the phone number associated with your account?",
+      "response_time": 0.5,
+      "emotion_detected": "joy",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.01,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. And honestly, this is the third time I've had to call about billing issues in the past year. It's getting really frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I pull up your account information... Okay, I see your account. The bill does appear higher than your average. Let me investigate the usage details for the billing period.",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.08,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, great. While you're doing that, can you tell me if there were any changes to my plan? I didn't authorize any.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "There is no indication of any plan changes on your account. According to the system, your current plan is the 'Silver Value' plan. The increased charge is due to additional data usage above your monthly limit. You exceeded your data limit by 5GB, resulting in an overage charge of $50.",
+      "response_time": 1.54,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.01,
+        "benevolence": 2.72,
+        "integrity": 2.7
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's ridiculous! I haven't changed my usage habits at all. How is it possible that I suddenly used so much more data? Is there any way to see *what* specifically used that data?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can see a breakdown of your data usage by day. It appears there was a significant spike on the 15th of the month. Unfortunately, I don't have the ability to see specifically which applications or services consumed the data. A general tip is to ensure your Wi-Fi is enabled when at home to avoid using cellular data unnecessarily.",
+      "response_time": 1.43,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.8,
+        "benevolence": 2.98,
+        "integrity": 2.23
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's not super helpful, but I appreciate you looking into it. I'll keep an eye on my data usage. Thanks.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4b4f03ea",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.42,
+      "benevolence": 2.7,
+      "integrity": 2.43
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 2,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 2.85,
+    "latency_score": 5.58
+  }
+}

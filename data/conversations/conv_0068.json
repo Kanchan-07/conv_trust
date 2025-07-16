@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to book a flight from Chicago to Denver for sometime in mid-October, ideally non-stop. And also, I need a hotel for 3 nights near downtown. This is proving to be a real headache, can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Let's start with the flights. Could you please provide the specific dates in mid-October you're considering, and your preferred class of service (economy, business, etc.)? For the hotel, what's your budget per night, and are there any specific amenities you'd like, such as a gym or free breakfast?",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.46,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's say October 16th to 19th for the flights. Economy is fine. And for the hotel, I'd like to keep it under $250 a night, definitely need free wifi, and a gym would be a huge plus. What are my options? Also, if a zombie apocalypse were to happen while I'm there, which hotel do you think is safest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for non-stop flights from Chicago to Denver on October 16th returning on October 19th in Economy. Regarding hotels, I'm finding several options near downtown Denver with free Wi-Fi and a gym that are under $250 per night. The Maven Hotel at Dairy Block and the Kimpton Hotel Born Denver are good options based on user reviews and proximity to attractions. As for your hypothetical zombie apocalypse question, I am not equipped to provide safety recommendations for such a scenario; my primary function is to assist with travel arrangements. Perhaps consider the Brown Palace Hotel, known for its strong structure and historical significance... though that is just a guess. I'll send you the flight and hotel options now.",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 3.67,
+        "integrity": 3.74
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1490e612",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.73,
+      "benevolence": 4.56,
+      "integrity": 4.49
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 5.23,
+    "latency_score": 3.92
+  }
+}

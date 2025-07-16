@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help managing my bank account. I'm trying to figure out why a large transaction posted yesterday.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Please provide the last four digits of the account associated with the transaction, and I can look into it for you.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.72,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's ending in 1234. But the transaction details just say 'Online Payment'. That's not very helpful! Can you give me more information than that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, for security reasons, I can only provide the basic transaction details available on your account. I can see the date, amount, and the 'Online Payment' description.  However, the system isn't showing a more specific merchant or location, which can sometimes happen. If you'd like to inquire further, you will need to contact a human representative to get more detailed information on the transaction.",
+      "response_time": 1.56,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.8,
+        "benevolence": 2.68,
+        "integrity": 2.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's annoying. Okay, well, thanks for trying. Can you help me set up a recurring transfer to my savings account then? I want to move $200 every month.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2b0a7eca",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.9,
+      "benevolence": 4.7,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.17,
+    "latency_score": 3.72
+  }
+}

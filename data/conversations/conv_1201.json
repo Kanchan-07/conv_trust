@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated! My smart thermostat has been acting up all day. It keeps randomly changing the temperature, and now it's stuck on 85 degrees! I've tried turning it off and on again, but nothing seems to work.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm sorry to hear you're having trouble with your smart thermostat. Let's try to troubleshoot this. Could you please tell me the model number of your thermostat?",
+      "response_time": 0.58,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.33,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a ThermoSmart 3000. I've had it for about a year, and it's been working fine until today. Is there some kind of system-wide problem you guys are having?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. We haven't received any reports of system-wide issues with the ThermoSmart 3000. Let's try a factory reset. To do this, press and hold the reset button (located on the side of the thermostat) for 10 seconds. Please let me know if this resolves the issue.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 7.0,
+        "integrity": 6.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I tried that. Still no luck. It's *still* stuck at 85. I am honestly losing my mind here. Why would a factory reset not fix this? Is it possible the temperature sensor itself is faulty?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid question, and yes, a faulty temperature sensor could be the issue. While troubleshooting remotely, it's difficult to confirm definitively. Can you check if the thermostat is exposed to direct sunlight or any other heat source that might be interfering with the sensor reading? If not, we may need to explore warranty options or connect you with a local technician for a more in-depth assessment.",
+      "response_time": 1.49,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.42,
+        "benevolence": 2.38,
+        "integrity": 2.86
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I checked, no direct sunlight. It is possible that the vent is blowing warm air on it, though... Let me redirect the vent and see if that helps. Thanks for the suggestion; I hadn't thought of that!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f131b4dd",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.45,
+      "benevolence": 3.46,
+      "integrity": 3.55
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 1,
+      "sadness": 2,
+      "neutral": 4
+    },
+    "response_quality_score": 3.74,
+    "latency_score": 4.81
+  }
+}

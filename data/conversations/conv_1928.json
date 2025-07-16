@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really tired lately. I'm sleeping a lot but I'm still exhausted. Any ideas what might be wrong?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am programmed to give health advice, and I am not a medical professional. However, I can provide some general information. Feeling tired despite adequate sleep can be due to several factors including stress, poor diet, lack of exercise, or underlying medical conditions like anemia or thyroid issues. To give you the best advice, could you tell me a bit more about your lifestyle and any other symptoms you're experiencing?",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.31,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I guess. Well, I've been super stressed with work lately. I eat a lot of junk food because I don't have time to cook, and I barely exercise. I also sometimes get headaches. Ugh, I'm probably just a mess, aren't I?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's understandable to feel that way given your current lifestyle. Based on what you've described, the fatigue could be linked to the stress, poor diet, and lack of exercise. Headaches can also be related to stress, dehydration, or other factors. However, I am also programmed to tell you that it is possible for other things to cause these symptoms, and I recommend seeing a doctor to check for anemia or thyroid issues. Is there anything else I can help with?",
+      "response_time": 5.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.89,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's all helpful, thanks. But how can I be sure it's not something more serious, like a vitamin deficiency, if I *don't* go to the doctor? Isn't there some way to check at home?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f147c2bc",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.88,
+      "benevolence": 5.1,
+      "integrity": 5.09
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.2
+  }
+}

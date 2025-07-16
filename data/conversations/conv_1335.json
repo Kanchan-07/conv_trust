@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new faucet in my bathroom, but I'm completely lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. Installing a faucet can be a bit tricky, but we can break it down. First, do you know what kind of faucet you have and if you have the necessary tools?",
+      "response_time": 4.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.96,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Uh, I think it's a two-handle widespread faucet? And no, I'm not even sure what tools I need. This is already overwhelming!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, a widespread faucet. That's helpful. For tools, you'll likely need an adjustable wrench, plumber's tape (Teflon tape), a basin wrench (for the nuts under the sink), possibly a screwdriver, and maybe some towels. Let me find a helpful diagram for you...",
+      "response_time": 3.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.05,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait, a basin wrench? I've never even heard of that. Is this going to be much harder than I thought?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It can be, but don't worry too much! A basin wrench is specifically designed to reach the nuts that hold the faucet in place. It makes the job much easier. Here's a link to a video showing how to use one: [Insert Link to Basin Wrench Video Here]. And honestly, it can be intimidating at first. Just take it slow and steady.",
+      "response_time": 5.64,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.1,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the video helped a bit. But my biggest issue is removing the old faucet. The nuts are incredibly corroded. Any tips there? I'm already getting frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Corroded nuts are a common problem! Try spraying them with a penetrating oil like WD-40 and letting it sit for about 15-20 minutes. Then, try the basin wrench again. If that doesn't work, you might need to use a rust penetrant and a little heat (carefully!). Make sure to turn off the water supply and put down towels to catch drips. If it is really bad, you might need to cut the pipes. Do you know if your shut off valves work?",
+      "response_time": 0.63,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.14,
+        "benevolence": 1.35,
+        "integrity": 1.49
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Woah, cut the pipes? I'm not sure I can handle that. My shut off valves are probably 20 years old. What are the chances of those working reliably? Is there a less complicated option for the nuts?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "The shut-off valve reliability depends heavily on its usage and quality. Sometimes, if they haven't been touched in a while, they won't work. Another option for the nuts, though less effective, is a nut splitter tool. It can split the nut rather than turning it. You'll have to replace the valve, but it eliminates the need for heat or pipe cutting. I'd recommend the nut splitter, but be aware that it still may not work if the nuts are extremely corroded. Always shut off the water supply before attempting any of these options.",
+      "response_time": 1.72,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.41,
+        "benevolence": 2.41,
+        "integrity": 2.38
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9a6c8b1b",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.8,
+      "benevolence": 3.77,
+      "integrity": 3.66
+    },
+    "engagement_score": 6.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "surprise": 3,
+      "fear": 1,
+      "anger": 2
+    },
+    "response_quality_score": 3.95,
+    "latency_score": 4.28
+  }
+}

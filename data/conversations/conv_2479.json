@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my smart speaker isn't connecting to the internet anymore. It was working fine yesterday.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're having trouble with your smart speaker. Can you please tell me the model number of your speaker and confirm if you've tried restarting both the speaker and your Wi-Fi router?",
+      "response_time": 0.53,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, it's a model XYZ-2000. I've restarted both the speaker and the router, like I always do when something goes wrong. It's still not connecting. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the model number and confirming those steps. Let's try checking the network status on the speaker itself. Does it have any indicator lights? What color are they, and are they solid or blinking?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.05,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, let me look... It has one light, and it's a solid orange. The manual says solid orange means 'not connected'. Great, I knew that already.  But why isn't it connecting? Could there be an IP address conflict issue on my network, or is that less likely with these devices?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "A solid orange light indeed confirms a network connection issue. While an IP address conflict is possible in some network setups, smart speakers like the XYZ-2000 are generally designed to handle dynamic IP assignment smoothly. It's usually less common than issues like incorrect Wi-Fi password or signal strength problems. Have you recently changed your Wi-Fi password?",
+      "response_time": 5.91,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.74,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "No, the password hasn't changed. It's still the same.  Hmmm, I'm confused why it suddenly stopped working then.  Thanks for explaining about the IP addresses though, that's helpful information even if it doesn't fix it yet.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1e97a4e7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.76,
+      "benevolence": 3.93,
+      "integrity": 3.8
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 4
+    },
+    "response_quality_score": 3.52,
+    "latency_score": 4.04
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! What should I order for dinner tonight? I'm in the mood for something...spicy, I guess.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Based on your location, I see a few options. We have 'Spice Route' which offers Indian cuisine, 'El Fuego' for Mexican, and 'Thai Delight'. Do any of those sound appealing?",
+      "response_time": 4.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.24,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Thai Delight sounds good. What are their most popular dishes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Their most popular dishes are Pad See Ew, Green Curry, and Tom Yum soup. Many customers also enjoy their spring rolls as a starter.",
+      "response_time": 4.83,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.74
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, green curry sounds good. But I'm also trying to eat healthy... how many calories are in their green curry? And what ingredients do they use?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I do not have the exact calorie count for their green curry. However, it typically includes coconut milk, green curry paste, vegetables like bamboo shoots and bell peppers, and your choice of protein (chicken, tofu, shrimp, etc.). Calorie counts can vary based on the specific preparation and portion size.",
+      "response_time": 2.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.58,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's annoying. Why can't you just tell me the calories? Okay, forget the health thing, just give me the spiciest thing on the menu at Thai Delight. I want my mouth to BURN!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright! Based on customer reviews, the 'Jungle Curry' is rated as the spiciest dish. Be warned, it's made with extra chili peppers and a unique blend of spices designed to bring the heat! Would you like to add that to your order?",
+      "response_time": 2.52,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.43,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes! Jungle Curry it is. Thanks for the recommendation.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0272160e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.81,
+      "integrity": 4.8
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "joy": 4
+    },
+    "response_quality_score": 5.01,
+    "latency_score": 3.92
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm really confused about this situation with my landlord. Can you help?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly provide some general information and guidance. To best assist you, please tell me about your situation with your landlord. The more details you provide, the better I can understand your problem. Please keep in mind that I am an AI and cannot provide legal advice.",
+      "response_time": 2.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.55,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, my landlord is trying to evict me, but I've paid rent on time every month, and I'm not violating any terms of the lease. I don't understand what's going on, and I'm getting really frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It sounds like you have a potential claim for wrongful eviction. Many jurisdictions require landlords to have a valid reason, or 'cause', to evict a tenant, even if a lease is at-will. Is there a written eviction notice? If so, what specific reasons are cited? Please provide details about the notice and any communication you've had with your landlord. This information is crucial.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.35,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, there is a notice. It just says \"breach of contract\". But the lease doesn't specify anything I've breached, and I haven't received any prior warnings or complaints from my landlord. What kind of 'contract breach' could it be if I'm paying rent and following the rules?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Based on the information you have provided, and without more details about your lease, this seems suspicious, and you may have grounds to fight the eviction. You may want to seek clarification from your landlord and/or consult with a lawyer regarding the specifics of your lease and the validity of the eviction notice. Did you receive this notice by mail, or in person, or some other method?",
+      "response_time": 2.28,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.95,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful. Thank you. One last question: If I *do* end up in court, what are the typical costs associated with a lawyer, just in general? I need to know if this is even feasible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8ce879b6",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.1,
+      "benevolence": 2.83,
+      "integrity": 3.0
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 3,
+      "anger": 2
+    },
+    "response_quality_score": 3.08,
+    "latency_score": 5.67
+  }
+}

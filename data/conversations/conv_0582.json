@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for some new shoes. I'm kind of all over the place style-wise, so this might be tough. I like both really classic looks and some more modern, edgy stuff. Any suggestions based on that extremely vague description?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "No problem! To give you some tailored recommendations, could you tell me a bit more about what you're looking for? For example, what kind of occasions are you buying shoes for (work, casual, formal)? And what's your budget range?",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.96,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, details! Sorry. Okay, mostly casual wear, maybe something I could wear to a semi-casual office. Budget... let's say under $200. I'm really liking the chunky sneaker trend, but I also appreciate a good Chelsea boot. Is that even possible?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it! For a chunky sneaker that leans towards a more classic style, you might like the Adidas Ozweego or the New Balance 530. They offer a retro vibe with modern comfort. As for Chelsea boots under $200, Clarks offers some good options. They have a variety of styles, from classic suede to more contemporary leather versions. Would you like me to look for specific links or images of any of those?",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.34,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Links to the Chelsea boots, please. I'm actually a little confused... how do you reconcile 'classic' with 'chunky sneaker trend'? Aren't those opposites? I'm not trying to be difficult, just genuinely curious about your internal logic.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Here are a couple of Chelsea boot options from Clarks within your budget: [link to Clarks suede boot], [link to Clarks leather boot]. Regarding the 'classic' and 'chunky sneaker' pairing, I was referring to the overall aesthetic. While chunky sneakers are a modern trend, some models, like the Adidas Ozweego or New Balance 530, draw inspiration from retro running shoes and thus possess a 'classic' design language despite being chunky. It's about finding a balance between a trendy silhouette and a timeless design. Hope that clarifies things!",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.96,
+        "integrity": 5.92
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a3b00fab",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.75,
+      "integrity": 5.78
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.65,
+    "latency_score": 3.62
+  }
+}

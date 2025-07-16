@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have a big job interview next week and I'm super nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you prepare. To get started, could you tell me a bit about the role you're interviewing for and the company? Knowing those details will help me tailor the advice.",
+      "response_time": 5.58,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks! It's for a Senior Software Engineer role at TechCorp. It's a really competitive company and I feel like I need to nail this. What are some typical behavioral or technical questions I should expect?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! For a Senior Software Engineer role at a company like TechCorp, you should prepare for questions covering data structures, algorithms, system design, and object-oriented programming. Behavioral questions might include 'Tell me about a time you failed' or 'How do you handle conflict?'",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.59,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I figured those basics would come up, but I was hoping for something a bit more... specific? Like, how would you approach a question about designing a fault-tolerant, distributed system? I'm worried about getting stuck on a really hard technical problem, and listing general topics isn't really helping my anxiety.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, okay, I understand. For designing a fault-tolerant, distributed system, you'd typically start by clarifying requirements and constraints. Then, you'd discuss key components like data partitioning, replication strategies (e.g., leader-follower, multi-leader), consensus mechanisms (like Raft or Paxos if needed), handling failures (node failures, network partitions), and ensuring consistency models. You'd also touch on monitoring and scalability. Is there a specific type of distributed system you have in mind?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 3.52,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That breakdown is much more helpful, thanks! I wasn't sure where to even start with that kind of broad question. No specific system in mind yet, just trying to get a framework. Could you maybe suggest a common system design problem I could practice detailing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1005d410",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 6.01,
+      "benevolence": 5.84,
+      "integrity": 5.97
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 6.44,
+    "latency_score": 2.25
+  }
+}

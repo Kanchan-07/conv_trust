@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to buy a new laptop, but I'm on a pretty tight budget. Can you help me find some options?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! I can definitely help with that. To get started, what's your maximum budget for the laptop?",
+      "response_time": 4.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.11,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'd like to keep it under $600. I've been looking around, and it's frustrating how expensive everything is!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Finding good tech on a budget can be tricky. Based on your budget of $600, I've found a few options. One popular choice is the Acer Aspire 5. It generally has good performance for the price, and is available at various retailers like Amazon and Best Buy. Another option could be a Chromebook. They're often very affordable and great for basic tasks. Would you like me to provide specific models and their features?",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.98,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Acer Aspire 5 sounds interesting. Are there any major downsides I should know about at that price point? Like, is the battery life terrible or something?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question! Generally, the battery life on the Acer Aspire 5 is decent, usually around 7-8 hours with typical usage. However, it really depends on the specific configuration and the type of tasks you're performing. High-performance activities like gaming or video editing will drain the battery faster. Also, the quality of some components might be lower than in more expensive laptops, like the screen quality and keyboard feel. I can search for specific models within your budget and provide you with more precise battery and performance specifications if you'd like.",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 3.61,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, thanks! Can you also suggest some good laptop brands for under $600? I'm confused by all the different brands out there, to be honest.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_007ec1c5",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.55,
+      "benevolence": 4.23,
+      "integrity": 4.59
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 4.04
+  }
+}

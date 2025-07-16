@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really stressed about this interview. Can you help me prepare? I'm applying for a Senior Software Engineer role at Google.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you prepare for your Senior Software Engineer interview at Google. To start, what areas are you most concerned about? Technical questions, behavioral questions, or questions *you* should ask the interviewer?",
+      "response_time": 3.39,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.06,
+        "integrity": 5.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, all of it! But I think the technical questions scare me the most. They're known for really difficult algorithm problems. How can I best prepare for those? I've been doing LeetCode, but it feels like I'm just memorizing solutions and not actually *understanding* them.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "LeetCode is a good start! To move beyond memorization, try these strategies: 1) Focus on understanding the *underlying data structures and algorithms* for each problem. Can you explain why a certain approach works best in terms of time and space complexity? 2) After solving a problem, try to solve a *similar* problem without looking at the solution. 3) Practice *explaining* your solutions out loud, as if you were teaching someone else. Can you give me a specific example of a LeetCode problem you recently struggled with, and we can walk through it together?",
+      "response_time": 5.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.3,
+        "integrity": 5.51
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_186427d9",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.33,
+      "benevolence": 5.18,
+      "integrity": 5.42
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 1
+    },
+    "response_quality_score": 5.11,
+    "latency_score": 3.29
+  }
+}

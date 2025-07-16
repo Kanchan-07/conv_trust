@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally getting around to this financial planning thing. I'm completely overwhelmed. I have a 401k through work, a small savings account, and... that's about it. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand it can feel overwhelming! Let's break it down. To give you the best advice, I need a bit more information. Could you tell me your approximate annual income, your age, and what your primary financial goals are (e.g., retirement, buying a home, etc.)?",
+      "response_time": 1.53,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.14,
+        "benevolence": 2.43,
+        "integrity": 2.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, uh, income is around $60,000. I'm 32. And my main goal is definitely retirement, but I'd also like to be able to afford a down payment on a house in the next 5 years. Is that even possible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Given your income and timeframe, reaching both goals will require careful planning and consistent saving. A common strategy is to prioritize retirement savings while simultaneously building a down payment fund. For retirement, make sure you are taking full advantage of any employer matching in your 401k. For the down payment, consider opening a high-yield savings account or a low-risk investment account.",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.44,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, high-yield savings account, got it. But what about...inflation? I keep hearing that my savings are just losing value sitting there. Shouldn't I be investing in something riskier to actually *grow* my money, especially for retirement, but I'm scared of losing it. How do I balance that?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very valid concern, and a common dilemma. For long-term goals like retirement, investing *is* generally recommended to outpace inflation. However, the level of risk you take should align with your risk tolerance. A good starting point might be a diversified portfolio of low-cost index funds or ETFs. These offer exposure to the stock market without the high risk of individual stocks. Would you like me to provide some examples of well-regarded index funds and ETFs and explain the concept of asset allocation?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.07,
+        "integrity": 3.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c589b6b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.69,
+      "benevolence": 3.98,
+      "integrity": 3.78
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 3,
+      "fear": 1
+    },
+    "response_quality_score": 3.91,
+    "latency_score": 4.6
+  }
+}

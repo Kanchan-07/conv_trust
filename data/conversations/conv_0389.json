@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to schedule an appointment with Dr. Ramirez, but the website is giving me fits. It keeps looping back to the login page. So frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try another way. Can you provide me with your full name, date of birth, and the reason for your visit so I can check Dr. Ramirez's availability for you?",
+      "response_time": 0.57,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, DOB is 01/15/1988. I need a check-up and want to discuss some concerns about fatigue I've been experiencing. Also, how is it that the website still has these issues? It's been like this for months!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. I have noted your concerns regarding the website. I see Dr. Ramirez has an opening on Tuesday, November 7th at 10:00 AM or Thursday, November 9th at 2:30 PM. Which one works best for you? I will also forward your website feedback to our IT department.",
+      "response_time": 0.62,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.14,
+        "benevolence": 1.42,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6d21c7cb",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.07,
+      "benevolence": 1.21,
+      "integrity": 1.14
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 1,
+    "latency_score": 6.91
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to plan for retirement, but honestly, it's overwhelming. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Retirement planning can seem daunting. A good starting point is to assess your current financial situation. This includes calculating your net worth, reviewing your income and expenses, and identifying your existing assets and debts. Then, we can estimate your retirement needs and develop a plan to achieve them. Would you like me to walk you through a basic net worth calculation?",
+      "response_time": 3.36,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 4.17,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that sounds good, I guess. But what if I have fluctuating income? I'm a freelancer, and my income is all over the place. How can I even plan for that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question. For fluctuating income, we can utilize a few strategies. Firstly, we'll focus on creating a budget with a buffer for lean months. We should also prioritize building a significant emergency fund to cover unexpected expenses. Finally, we could explore investment strategies that offer more stability, such as conservative portfolios. Would you like me to elaborate on these points further, or should we focus on calculating your net worth first?",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.39,
+        "integrity": 3.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_46fd07f9",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.28,
+      "integrity": 3.98
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 3.76
+  }
+}

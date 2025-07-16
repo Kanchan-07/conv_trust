@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have an interview for a data analyst position at a tech company next week. I'm so nervous! Can you help me prepare? Specifically, I'm worried about the technical questions.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you prepare. Let's start with common technical questions for data analyst roles. How comfortable are you with SQL and data manipulation?",
+      "response_time": 4.44,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.77,
+        "benevolence": 6.63,
+        "integrity": 6.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd say I'm fairly comfortable with SQL. I can write basic queries, joins, and aggregations, but I sometimes struggle with more complex window functions. Also, can you give me some questions regarding algorithms that I should know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. For algorithms it's useful to review sorting algorithms (like merge sort or quicksort, and their time complexities) and search algorithms like binary search. You may also want to review basic data structures like trees and hash tables. To improve your SQL skills, you can try working on practice queries on platforms such as LeetCode or HackerRank.",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.01,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that sounds like a lot! But thanks, I guess. One last question: if the interviewer asks me about a time I failed, how should I answer that? I always feel like I'm making myself look bad no matter what I say!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2e4f48df",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.51,
+      "benevolence": 5.32,
+      "integrity": 5.31
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.66,
+    "latency_score": 3.75
+  }
+}

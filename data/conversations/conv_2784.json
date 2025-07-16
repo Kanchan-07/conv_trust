@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some fashion recommendations, but I'm on a tight budget. Can you help me find some affordable outfits?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you with that. To give you the best recommendations, could you tell me a bit more about what you're looking for? For example, are you shopping for casual wear, work clothes, or a special occasion? And do you have a specific budget range in mind, like per item or for a whole outfit?",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.69,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. I guess I need more casual everyday stuff, maybe a couple of outfits for going out too. Let's say... I really don't want to spend more than $50 per item, ideally closer to $30-40. It's just frustrating trying to find stylish things without breaking the bank.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Finding stylish pieces on a budget can be tricky, but it's definitely possible! For casual everyday wear under $50, consider exploring retailers known for fast fashion and affordable basics like H&M, Zara (their sales section), Forever 21, or online marketplaces like ASOS or Shein. Look for versatile pieces like basic tees, affordable denim, simple sweaters, and versatile dresses that can be styled multiple ways.",
+      "response_time": 5.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.85,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those are the usual suspects, but I'm also trying to be more mindful about where my clothes come from. How am I supposed to find affordable, *ethically sourced* clothing within that $30-50 per item budget? It feels impossible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a challenging goal within that specific budget range for new items, as ethical and sustainable production often increases costs. Some brands are making efforts, but truly sustainable options under $50 are limited. You might find some items within sales from brands focusing on ethics, or look into second-hand options like thrift stores or online resale platforms such as Poshmark or Depop, where you can often find higher-quality items at lower prices.",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.18,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, I figured. Thrift stores are great, but it's so hit-or-miss finding what you need. Thanks anyway, I guess I'll just have to keep searching the sale racks at those other places.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bb7ae941",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.86,
+      "benevolence": 5.24,
+      "integrity": 4.96
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 5.46,
+    "latency_score": 3.4
+  }
+}

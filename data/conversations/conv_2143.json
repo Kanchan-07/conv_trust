@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a hotel for my family in Orlando, Florida. We need a room with two queen beds, and it has to be somewhere kid-friendly. Dates are July 10th to July 17th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me search for hotels in Orlando with two queen beds available from July 10th to July 17th that are also kid-friendly. One moment... Okay, I have a few options. Would you prefer hotels with a pool, a playground, or maybe a specific theme?",
+      "response_time": 3.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.29,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Pool is a must. Playground would be a bonus. Honestly, I'm overwhelmed with options! Are there any that offer free breakfast and have decent reviews?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. I've filtered by hotels with pools, free breakfast, and good reviews. Now, the system is showing me several options. The first one seems to be the 'Grand Floridian Resort & Spa at Walt Disney World'. It has a pool and a playground. I am unsure about the breakfast at this moment, but I recommend checking the Disney website for that information.",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.08,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's... not helpful at all! The Grand Floridian is crazy expensive! I need something more budget-friendly. Can you sort by price from low to high? And can you tell me what the *actual* kid-friendly activities are at each hotel besides just 'pool'?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I am still learning to tailor the results to your requirements. Sorting by price, the system shows a few options. I am also pulling up details for each hotel that highlight kid-friendly activities beyond just the pool. One moment... Okay, here are a few recommendations with both price and activities. Please review and let me know if you need help.",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.09,
+        "integrity": 4.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_055dd4a8",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.39,
+      "benevolence": 4.49,
+      "integrity": 4.63
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 2
+    },
+    "response_quality_score": 4.73,
+    "latency_score": 3.35
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm feeling really lost. I've been working in marketing for five years, but I'm just not excited about it anymore. I don't even know where to start looking for something new. It's all so overwhelming!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Feeling lost and overwhelmed is common when considering a career change. Let's start by identifying your skills and interests. What aspects of your current marketing role do you enjoy, if any? And what are some activities or hobbies outside of work that genuinely excite you?",
+      "response_time": 1.51,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.73,
+        "benevolence": 2.86,
+        "integrity": 2.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'm good at data analysis and presenting findings. I guess I like that part. Outside of work, I really enjoy volunteering at the animal shelter and I'm also into photography. But how can I turn *that* into a career? It seems impossible to make a living doing those things!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's excellent information! Combining your analytical skills with your interests could open some interesting doors. For example, many non-profits need data analysts to help with fundraising and program evaluation. Your photography skills could also be valuable for their marketing materials. Let's explore roles in the non-profit sector that utilize both data analysis and visual storytelling. How does that sound as a starting point?",
+      "response_time": 5.4,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 6.93,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d50ff262",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.83,
+      "benevolence": 4.89,
+      "integrity": 4.77
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "surprise": 1,
+      "joy": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.63,
+    "latency_score": 4.04
+  }
+}

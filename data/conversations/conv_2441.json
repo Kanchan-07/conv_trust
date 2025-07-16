@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have a big interview coming up next week and I'm feeling really stressed about it. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you get ready. To start, could you tell me what role you're interviewing for and the company name? That way, I can tailor the preparation specifically for you.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.52,
+        "benevolence": 7.0,
+        "integrity": 6.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for a Product Manager position at Innovate Solutions Inc. It's my first time interviewing for a senior role, so I'm extra anxious.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it, Senior Product Manager at Innovate Solutions Inc. For a PM role, you'll likely face questions about product strategy, technical understanding, execution, leadership, and behavioral aspects. We can practice common questions or focus on specific areas you find challenging. How would you like to begin?",
+      "response_time": 4.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.76,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That list is helpful, but it still feels overwhelming. My biggest fear is the tricky behavioral questions, like 'Tell me about a time you failed.' How do I answer that honestly without completely sinking my chances? It feels like a trap!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very common question, and it's not a trap! Interviewers want to see how you handle setbacks, what you learned, and how you apply those lessons. When discussing a failure, focus on the situation, your role, the outcome, and most importantly, the specific actions you took afterward or the key takeaway you gained. Avoid blaming others and emphasize growth and learning. You can use the STAR method: Situation, Task, Action, Result/Reflection.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.67,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the STAR method part makes sense. But finding a *good* failure that shows learning without making me look incompetent... that's the hard part. Do I pick something small, or something significant? I'm confused about the 'right' level of failure to share.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3e1d9065",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.88,
+      "benevolence": 6.14,
+      "integrity": 5.94
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 4,
+      "fear": 2
+    },
+    "response_quality_score": 6.43,
+    "latency_score": 2.67
+  }
+}

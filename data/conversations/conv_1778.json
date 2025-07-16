@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling overwhelmed about my finances. I need help creating a financial plan, but I don't know where to start.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. We can begin by gathering some information about your current financial situation. This includes your income, expenses, debts, and assets. Would you like to start there?",
+      "response_time": 5.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.87,
+        "benevolence": 5.89,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I guess so. But honestly, just thinking about it makes me anxious! I'm pretty bad at managing money. Where do I even find all that information?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. It's alright to feel a little anxious; it's a common feeling. You can gather the info from bank statements, credit card statements, pay stubs, and any investment or loan documents you have. We can also use budgeting apps to track spending. What are your typical monthly expenses?",
+      "response_time": 2.4,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.88,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "This is still tough, and I'm a little confused. Let's say I have a decent income, but a lot of debt. How do I prioritize paying it down *and* still save for retirement at the same time? It feels impossible.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! It's a balancing act, for sure. The general recommendation is to prioritize paying off high-interest debt, like credit cards, while also contributing to your retirement plan, even if it's a small amount. Some financial advisors suggest a hybrid approach, allocating some money to debt reduction and some to savings. We can look at your specific debt and savings rates to determine the best allocation strategy for you.",
+      "response_time": 5.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.45,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds more manageable. Let's say I have a student loan, a car loan, and some credit card debt. Can you help me model different payoff scenarios based on different interest rates?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that. Please provide me with the loan amounts, interest rates, and minimum payment amounts for each debt. I will create a model showing how long it will take to pay off each debt, as well as the total interest paid, under different repayment scenarios. I will then provide an estimate on how much you should save. We can then adjust those scenarios to explore faster payoff options.",
+      "response_time": 4.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.79,
+        "integrity": 5.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8b474862",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.12,
+      "benevolence": 5.25,
+      "integrity": 5.1
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 4,
+      "fear": 3
+    },
+    "response_quality_score": 5.06,
+    "latency_score": 3.08
+  }
+}

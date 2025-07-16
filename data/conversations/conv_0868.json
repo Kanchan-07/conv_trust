@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I placed an order last week (Order #12345) and it still says 'processing'. How long does it usually take to ship? I need this by next Friday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thanks for reaching out. Let me check on Order #12345 for you. One moment, please... Okay, I see your order. Due to a high volume of orders, processing times are currently longer than usual. I'll check with our shipping department for an estimated dispatch date.",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.94,
+        "integrity": 5.86
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. It said 2-3 business days for processing when I ordered. Is there any way to expedite it? I really need it by next Friday.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I've sent a request to our shipping team to see if expediting the order is possible. Could you please provide the specific date you need the order by?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.34,
+        "benevolence": 1.07,
+        "integrity": 1.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Next Friday is the 27th. Also, what happens if it *doesn't* arrive by then? It's a gift, so it'll be useless if it's late.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you for confirming the date. If the order doesn't arrive by the 27th, you can refuse delivery and we will process a full refund upon its return. Alternatively, if you still want the item, we can offer a partial refund to compensate for the delay. I will update you within 24 hours regarding the possibility of expediting your order.",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.38,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds reasonable. One more thing \u2013 I saw a similar item on another site for a lower price. Do you guys have any kind of price matching policy?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Our policy on price matching is complex and determined on a case-by-case basis. Factors such as the competitor's status as an authorized reseller, the item's condition and availability, and shipping costs all play a part in determining if we can honor a price match.",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.59,
+        "benevolence": 5.41,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks for the information. I appreciate it. Hopefully, I'll hear back about the shipping soon.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a057dfbf",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.48,
+      "benevolence": 3.36,
+      "integrity": 3.28
+    },
+    "engagement_score": 5.45,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.75,
+    "latency_score": 5.22
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To get started, could you please tell me your destination city, dates of travel, and how many guests will be staying?",
+      "response_time": 4.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.17,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm looking for a hotel in New York City, from October 26th to October 29th. It's for two adults.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for hotels in New York City for those dates and the number of guests. Do you have any preferences regarding the area of the city, the hotel star rating, or any specific amenities?",
+      "response_time": 2.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.83,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, I'd like to be in Manhattan, ideally near Times Square, and I'd prefer a hotel with a gym and free Wi-Fi. Nothing too fancy, maybe a 3- or 4-star hotel. And please, no hotels with a reputation for being infested with bed bugs.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, but I cannot guarantee the absence of bed bugs. I can filter for hotels with a 3- or 4-star rating, located in or near Times Square, that offer a gym and free Wi-Fi. Would you like me to proceed with those parameters?",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.28,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. Okay, yes, proceed with the other parameters. But how can I even *know* about the bedbugs?! That's a terrible omission.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies, I am still under development and am learning how to incorporate that level of detail. I will still show reviews that might offer hints on cleanliness. Here are a few hotels that match your criteria: [Hotel Listings with basic info, links, and brief reviews]",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.67,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, the prices look decent. The 'Hotel Beacon' looks interesting. The reviews say it's clean. Can you book that for me? And do I need to pay now, or later?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly! Let me check the Hotel Beacon's availability. [Processing]. Yes, it's available. For the price, it's a pay-later situation. Before I proceed, are you sure you want me to make this booking?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.15,
+        "integrity": 3.52
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_56ccf644",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.62,
+      "integrity": 4.75
+    },
+    "engagement_score": 4.43,
+    "emotion_distribution": {
+      "neutral": 9,
+      "disgust": 1
+    },
+    "response_quality_score": 5.04,
+    "latency_score": 4.01
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with understanding the concept of the quadratic formula. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. The quadratic formula is a fundamental tool for solving quadratic equations. Let's start with the basics. Do you remember what a quadratic equation looks like?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.93,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, not really. I remember something about ax^2 + bx + c = 0, but I'm not sure what it all means.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's the standard form! In the equation ax^2 + bx + c = 0, 'a', 'b', and 'c' are coefficients (numbers), and 'x' is the variable we're trying to solve for. The quadratic formula is x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / 2a.  We use it to find the values of 'x' that satisfy the equation. Let's work through an example: What is the quadratic formula for the equation x^2 + 5x + 6 = 0?",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.33,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I get it. So a = 1, b = 5, and c = 6. Then I plug those values into the formula, right?  (-5 \u00b1 \u221a(5\u00b2 - 4 * 1 * 6)) / (2 * 1). This part makes sense!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Exactly! And if you simplify that correctly, you should get x = -2 and x = -3.  Great job!  Do you want to try another one, or should we move on to discussing the discriminant (the part inside the square root) and its implications for the solutions?",
+      "response_time": 4.9,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.6,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I understand the basic process. But what if the discriminant (b\u00b2 - 4ac) is negative? What does that even mean? That's where I get confused.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Ah, that's a great question! If the discriminant is negative, it means the quadratic equation has no real solutions.  The square root of a negative number results in a complex number. This indicates the parabola (the graph of the quadratic equation) doesn't intersect the x-axis. So, in that case, you have complex roots. Would you like me to explain complex numbers and how they relate, or shall we look at some examples?",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.58,
+        "integrity": 2.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That makes sense now! Thank you. I think I'm good for now. I'll come back if I need more help, but this was a huge help! Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_072a70db",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.86,
+      "integrity": 4.76
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "joy": 2
+    },
+    "response_quality_score": 4.52,
+    "latency_score": 3.85
+  }
+}

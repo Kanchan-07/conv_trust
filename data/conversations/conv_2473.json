@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, I'm looking for a movie recommendation tonight. What's good in the thriller genre right now?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! For a highly-rated thriller, you might consider 'Parasite' (2019). It's a South Korean film that blends thriller elements with social commentary.",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.25,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oh, yeah, Parasite is excellent! But I've seen that. How about something a bit more traditional? Like a psychological thriller, maybe from the last few years?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. For a recent psychological thriller, 'The Invisible Man' (2020) is a popular choice. It offers a suspenseful and intense experience.",
+      "response_time": 5.47,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.93,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, seen that one too. It feels like you're just recommending the biggest hits. Can you suggest something lesser-known, maybe an indie gem or something from a streaming service's original section that isn't widely advertised, specifically a thriller with a really unexpected twist?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Finding less-advertised titles with specific plot points like an 'unexpected twist' across various streaming services can be challenging for my current capabilities. While I can't guarantee a truly 'unknown' film with that exact requirement, have you considered 'Prisoners' (2013)? It's a well-regarded thriller with complex layers and turns, though not exactly 'indie' or 'obscure'.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 4.15,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Prisoners is fantastic, but again, seen it. Okay, maybe the 'obscure' part was too much. I appreciate the effort though, thanks for trying.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b52a27d2",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.78,
+      "integrity": 4.44
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.47,
+    "latency_score": 3.27
+  }
+}

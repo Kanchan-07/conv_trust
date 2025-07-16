@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #12345. It was supposed to arrive three days ago, and the tracking hasn't updated in 48 hours. I'm getting a bit frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me look into order #12345 for you. One moment, please.",
+      "response_time": 0.52,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.24,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I really needed this package by now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see that order #12345 is currently showing as 'in transit' at our regional distribution center. It appears there's been a slight backlog due to unforeseen circumstances. We are working diligently to get your order to you as quickly as possible.",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 3.51,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? Can you be more specific? I chose express shipping and paid extra! What does 'backlog' actually mean in this case?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While I don't have the exact details regarding the nature of the delay, a backlog typically refers to a larger than usual amount of packages awaiting processing at a specific location. This may be due to staffing shortages or technical difficulties, though the specifics are not always available to me. I can assure you that your express shipping charges will be refunded if the delay exceeds one week from the original delivery date.",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.58,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "One week?! That's ridiculous. Is there *anything* you can do to expedite this? Like, contact the distribution center directly or something?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, I can submit a request to prioritize your package at the distribution center. It's not a guarantee, but it often helps. I'll also set up proactive tracking, which means I'll personally monitor the progress of your package and email you with updates every 24 hours until it's delivered. Would you like me to proceed with that?",
+      "response_time": 5.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.56,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, proactive tracking sounds good. Please do that. Thank you. Hopefully, I'll see some movement soon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ad61845c",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.73,
+      "benevolence": 3.47,
+      "integrity": 3.66
+    },
+    "engagement_score": 4.56,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.85,
+    "latency_score": 4.03
+  }
+}

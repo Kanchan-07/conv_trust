@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice regarding a potential breach of contract. I signed an agreement with a vendor for software development, and they haven't delivered anything in six months. I'm incredibly frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. To best advise you, I need more information. Could you please provide details about the contract, specifically the delivery timelines, payment terms, and any clauses related to delays or non-performance? Also, what steps, if any, have you taken to communicate with the vendor about the delays?",
+      "response_time": 1.59,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.63,
+        "benevolence": 2.33,
+        "integrity": 2.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the contract stated delivery within three months of the initial payment, which was six months ago. We've paid 50% upfront. There's a clause about 'reasonable delays,' but it doesn't define what's considered reasonable. I've sent multiple emails and made several phone calls, all unanswered. Is this even worth pursuing legally?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on the information provided, it appears you may have grounds for a breach of contract claim. The undefined 'reasonable delays' clause presents a challenge, but six months beyond the agreed-upon timeframe, with no communication, is unlikely to be considered reasonable. Pursuing legal action is a viable option, but the best course of action depends on several factors, including the cost of litigation versus the potential recovery. Do you wish to pursue a cease and desist letter?",
+      "response_time": 1.64,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.86,
+        "benevolence": 2.97,
+        "integrity": 2.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A cease and desist letter sounds good. What are the chances of actually recovering the money we already paid them? And what if they just declare bankruptcy to avoid paying us back?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The likelihood of recovering your money depends on the vendor's financial situation and assets. A cease and desist letter may prompt them to fulfill the contract or negotiate a settlement to avoid legal action. Regarding bankruptcy, if the vendor declares bankruptcy, you would become a creditor in the bankruptcy proceedings. Recovering funds in bankruptcy can be complex and the recovery rate often low. We can explore options like securing your claim or pursuing a preference claim if applicable.",
+      "response_time": 1.98,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.1,
+        "integrity": 2.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A preference claim? I've never heard of that. What exactly is that, and does it even apply in my case? This is all so confusing.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "A preference claim is a legal action a bankruptcy trustee can take to recover payments a debtor made to a creditor before filing for bankruptcy, under certain conditions. It aims to ensure fair distribution of assets among creditors. Whether it applies in your case depends on factors like when the payment was made relative to the potential bankruptcy filing and whether it meets other legal requirements. We would need to investigate the vendor's financial situation and payment history to determine if a preference claim is a viable option.",
+      "response_time": 5.91,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.44,
+        "integrity": 5.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ee7b3e2f",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.48,
+      "benevolence": 3.21,
+      "integrity": 3.28
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.69,
+    "latency_score": 4.72
+  }
+}

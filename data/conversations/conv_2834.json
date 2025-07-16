@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help checking the status of a medical claim we submitted. It seems like it's taking a long time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can assist you with that. Please provide the patient's full name and date of birth, or the claim number if you have it.",
+      "response_time": 4.58,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.25,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient's name is Sarah Johnson, DOB 09/22/1975. The date of service was 02/10/2024. I don't have the claim number right in front of me. This is getting frustrating, it's been over 30 days!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the details. I have located a claim for Sarah Johnson, DOB 09/22/1975, with a date of service on 02/10/2024. The current status shows as 'Pending Payer Review'.",
+      "response_time": 0.53,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.48,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'Pending Payer Review'? What exactly does that mean? Is something missing? And why is it taking so long if it's just 'pending'? Can you tell me the *specific* reason for the delay?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "'Pending Payer Review' status indicates that the claim has been successfully submitted to the insurance payer and is currently under their internal processing review. This phase can involve verifying benefits, medical necessity, and other internal checks. I cannot access the specific internal reasons for the duration of their review process.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So you're telling me you just know it's 'pending' but can't tell me anything useful about *why* or give an estimated timeframe? That's incredibly unhelpful. Is there any way to escalate this or find out more specific information?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My current capabilities allow for general status updates as provided by the system. For more detailed information regarding the payer's review or potential escalation options, I recommend contacting the insurance payer directly. You can find their contact information on the patient's insurance card or the Explanation of Benefits (EOB) once it is processed.",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.41,
+        "integrity": 5.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0b0c986f",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.42,
+      "benevolence": 3.29,
+      "integrity": 3.23
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 6,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.37,
+    "latency_score": 5.14
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to install a new light fixture in my dining room, but I'm totally lost.  I turned off the breaker, but I'm still scared I'll mess something up. Any advice?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Safety first. Since you've turned off the breaker, the next step is to confirm the power is off with a non-contact voltage tester. This is a small device you can use to check the wires before you touch them. Do you have one of those?",
+      "response_time": 4.69,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.95,
+        "benevolence": 6.91,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No, I don't have a voltage tester.  What do I do if I don't have one of those?  And why are there so many wires?! I'm getting frustrated already!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, it can be overwhelming. Without a voltage tester, the best course of action is to call a licensed electrician. However, if you are set on doing it yourself, you *must* treat every wire as if it is live. Carefully identify the wires from the old fixture. Typically there will be a black (hot), white (neutral), and a ground wire (usually green or bare copper). If you can get me some pictures of your wires and the fixture, I can try to provide further assistance, but again, safety is paramount. There are safety precautions that MUST be followed. Do you want me to walk you through the basics?",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 4.01,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I'll get an electrician. Thanks for the advice! It was a challenging question about what to do without the voltage tester. I appreciate the guidance. ",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_78a22169",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.5,
+      "benevolence": 5.46,
+      "integrity": 5.58
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.66,
+    "latency_score": 3.52
+  }
+}

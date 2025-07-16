@@ -1,0 +1,89 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with my landlord. My heating hasn't been working properly for a few days now, and it's getting cold. What are my rights as a tenant when it comes to heating?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. Landlord-tenant laws generally require landlords to maintain rental properties in a habitable condition, which typically includes providing adequate heating during cold seasons. Your specific rights and the definition of 'adequate' heating can vary significantly based on your lease agreement and the laws in your state or city. I can provide general information, but please remember that I am an AI and cannot provide legal advice. For personalized guidance, consulting with a local attorney or tenant's rights organization is advisable.",
+      "response_time": 3.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.68,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I understand you're not a lawyer. But I'm getting really frustrated because I've told him about it, and he's just ignoring me! He just says he's busy. Can I do anything to force him to fix it? Like, can I hire someone myself and deduct it from the rent?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Taking action like hiring a repair person and deducting the cost from rent, often referred to as 'repair and deduct,' is an option in some jurisdictions when a landlord fails to make necessary repairs that affect habitability. However, this remedy usually comes with very strict legal requirements that must be followed precisely, such as providing written notice, allowing a specific amount of time for the landlord to respond, and ensuring the repair is necessary and reasonable in cost. Failing to follow these steps can jeopardize your standing and potentially lead to legal issues, including eviction. It's really crucial to know the exact rules in your specific location before attempting this.",
+      "response_time": 4.02,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.28,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that sounds way more complicated than I thought. So basically, if I mess up one step, I could get in trouble? What if I just... stop paying rent until he fixes it? Isn't that easier? This is all so confusing and stressful!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Withholding rent entirely without following the proper legal procedures is generally not recommended and can have serious consequences, including potential eviction. While some areas have provisions for rent withholding in specific circumstances, they typically require formal notification and often depositing the rent with the court or an escrow account rather than simply not paying. Because of the complexity and potential legal risks involved in both 'repair and deduct' and rent withholding, your best course of action is to contact a local tenant's rights group or an attorney. They can review your specific situation, explain the exact laws and procedures in your area, and help you determine the safest and most effective way to address the issue.",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 4.1,
+        "integrity": 4.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c2e18c9",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.82,
+      "benevolence": 4.02,
+      "integrity": 4.08
+    },
+    "engagement_score": 5.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.84,
+    "latency_score": 3.81
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have a job interview next week for a marketing specialist role, and I'm feeling really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely, I can assist with your interview preparation. Feeling nervous is normal, but good preparation can boost your confidence. To start, could you tell me a bit about the company and the specific skills or experiences highlighted in the job description? This will help tailor our practice.",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.55,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's a mid-sized tech company, focusing on SaaS. The role is mostly about digital marketing, content creation, and some SEO. I'm pretty confident about the technical stuff, but the behavioral questions always trip me up. I hate talking about my weaknesses or failures!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Behavioral questions are very common! Interviewers use them to understand how you handle situations and fit within a team. For questions about weaknesses, it's good to mention a real weakness you are actively working to improve. Avoid clich\u00e9 answers that are actually strengths. The STAR method (Situation, Task, Action, Result) is useful for structuring these responses.",
+      "response_time": 4.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.91,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I know about STAR, but what about those really awkward, off-the-wall questions? Like, I saw someone got asked 'If you were a tree, what kind would you be and why?' How in the world do you answer something like that without sounding completely ridiculous? I just freeze up thinking about it.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, those abstract questions! They aren't common in every interview, especially for standard roles, but they do pop up sometimes. The interviewer is usually looking to see your creativity, ability to think on your feet, and how you relate abstract concepts back to relevant qualities. For the tree example, you could connect traits of a certain tree (like resilience, growth, providing shade/support) to your own professional attributes. The key is to stay calm and try to find a link, however abstract, that reflects positively on you.",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.53,
+        "integrity": 3.76
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9b87f29a",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.11,
+      "benevolence": 5.48,
+      "integrity": 5.39
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "fear": 2,
+      "anger": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.17,
+    "latency_score": 3.16
+  }
+}

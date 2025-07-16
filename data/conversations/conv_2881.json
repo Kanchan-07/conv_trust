@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check the status of my insurance claim. It's for a recent car accident.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. To access your claim information, could you please provide your claim number or policy number?",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 6.73,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is XYZ98765. It was filed three days ago. I'm a bit stressed about getting my car fixed, honestly.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing claim number XYZ98765. I see this claim is active and was initiated recently. It is currently in the initial review phase.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Initial review? What does that even mean? I gave you all the details and photos already. Why isn't someone looking at it right away? This feels unnecessarily slow!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about the timeline. The initial review phase involves assigning the claim to an adjuster and performing a preliminary assessment of the reported incident and documentation received to ensure everything is in order before proceeding to the next steps, such as damage assessment or investigation. This process helps ensure accuracy.",
+      "response_time": 5.49,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.21,
+        "integrity": 5.32
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "But *how long* does that preliminary assessment take? Can't you give me any estimate? Saying 'initial review' tells me nothing about when I can expect a decision or even an adjuster to contact me. I'm completely in the dark here.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize that I cannot provide an exact timeframe for the initial review phase through this interface. Review timelines can vary based on current claim volume and the complexity of the case. However, I can confirm that your claim is in queue for assignment and review.",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.66,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's not very helpful. So, there's nothing you can do to speed it up or even give me a rough idea? This is frustrating. Is there someone I can talk to who *can* give me more specific information or an estimated date?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I cannot provide a precise date, I can elevate a request for your claim to be prioritized for adjuster assignment due to the urgency you've expressed. A representative or your assigned adjuster should contact you directly within the next 1-2 business days with further information or next steps. Would you like me to submit that request?",
+      "response_time": 1.75,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.74,
+        "benevolence": 2.78,
+        "integrity": 2.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ee58afd1",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.24,
+      "benevolence": 5.08,
+      "integrity": 5.07
+    },
+    "engagement_score": 5.48,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "disgust": 2,
+      "fear": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.73,
+    "latency_score": 3.06
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to apply for a job, but I'm really struggling with my cover letter. Can you help me? I'm not sure where to even start.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! To get started, tell me about the job you're applying for. What's the company, and what's the role? Also, could you tell me a little about your experience and qualifications relevant to the position? The more information you give me, the better I can assist you in crafting a compelling cover letter.",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.5,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for a software engineer position at 'InnovateTech'. I have a degree in computer science and have worked as a software developer for three years, focusing on web development. But honestly, I have no idea how to translate all of that into a cover letter that will actually impress anyone. I've looked at some templates online, but they all seem so generic and boring. How do I make it stand out?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! To make your cover letter stand out, focus on three key areas: 1) **Personalization**: Address the hiring manager by name if possible (research on LinkedIn is a great start!). 2) **Highlight Relevant Skills**: Tailor the skills to the specific job description. Don't just list them; give examples. 3) **Quantify Your Achievements**: Use numbers to show the impact of your work (e.g., 'Improved website loading speed by 20%'). Regarding the generic templates, they can be a starting point but definitely personalize and adapt them. Show them how your experience and skills align with InnovateTech's needs. But... I'm still under development and am not able to actually *write* the cover letter for you, but hopefully this advice helps! If you'd like, I can generate some bullet points based on a job description to assist in identifying key skills. Also, do you have the job description?",
+      "response_time": 5.62,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.01,
+        "integrity": 5.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_14e7df14",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.82,
+      "benevolence": 5.25,
+      "integrity": 5.39
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.34,
+    "latency_score": 2.84
+  }
+}

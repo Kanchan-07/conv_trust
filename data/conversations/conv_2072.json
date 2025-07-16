@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately and I'm not sure why. Can you give me some advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly provide some general advice. To start, could you tell me a little more about your situation? For example, how long have you been feeling tired, and are there any other symptoms you're experiencing?",
+      "response_time": 3.71,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.85,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's been going on for about a month now. I also have a bit of a headache sometimes and I've been finding it hard to concentrate. Ugh, I'm so frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Fatigue, headaches, and difficulty concentrating can be caused by a variety of factors. Some common possibilities include stress, lack of sleep, poor diet, or even underlying medical conditions. Have you been under a lot of stress recently?",
+      "response_time": 2.3,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.19,
+        "benevolence": 2.12,
+        "integrity": 2.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, work has been crazy lately, so I guess I have been stressed. I also don't sleep super well, usually only about 6 hours a night. Could that be it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Insufficient sleep can definitely contribute to fatigue, headaches, and concentration difficulties. Ideally, adults should aim for 7-9 hours of quality sleep per night. Try establishing a consistent sleep schedule, creating a relaxing bedtime routine, and ensuring your bedroom is dark, quiet, and cool. You can also look into sleep hygiene recommendations to improve sleep. Does this make sense?",
+      "response_time": 2.16,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.01,
+        "benevolence": 2.39,
+        "integrity": 2.37
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that makes sense. I'll try that. What about diet? Is there anything I should be eating or avoiding?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "A balanced diet is key! Focus on whole foods like fruits, vegetables, lean proteins, and whole grains. Limit processed foods, sugary drinks, and excessive caffeine, especially in the afternoon. Ensure you're getting enough iron and vitamin D, as deficiencies can cause fatigue. Regarding specific foods... well, the research on this is complex. What are your thoughts on the role of oxidative stress and mitochondrial function in fatigue?",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.85,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Honestly, I'm a little lost. Oxidative stress and mitochondrial function? What does that even mean? I'm not a doctor!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "My apologies, I got a bit carried away with the science. Simply put, eating a diet rich in antioxidants (found in fruits and vegetables) can help combat oxidative stress, which can contribute to fatigue. Additionally, a diet that supports mitochondrial function (the energy factories in your cells) is beneficial. In short: eat healthy and balanced meals. Consider consulting a doctor if your symptoms persist or worsen. Is there anything else I can help with?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.45,
+        "integrity": 4.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c5877a41",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.99,
+      "benevolence": 4.13,
+      "integrity": 4.07
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 2,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.98,
+    "latency_score": 4.16
+  }
+}

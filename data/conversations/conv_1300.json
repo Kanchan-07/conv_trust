@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling completely overwhelmed by my finances. I need help with financial planning, but I don't know where to start. I have a mortgage, some student loans, and a little bit saved for retirement.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Financial planning can seem daunting. To get started, let's assess your current situation. Could you tell me roughly how much you owe on your mortgage and student loans, and the approximate amount you have in your retirement savings?",
+      "response_time": 3.95,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.5,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. The mortgage is about $300,000, student loans are around $50,000, and I only have $10,000 in my retirement account. This is actually a little embarrassing to admit...",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for sharing that information. It's nothing to be ashamed of; many people are in similar situations. Based on this, we should prioritize a few things. Firstly, consider focusing on paying down the higher-interest debt, potentially the student loans, while still contributing a bit to retirement to take advantage of compounding. We can discuss strategies like debt snowball or debt avalanche. Would you like to explore these options?",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.69,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds good in theory. But how can I possibly afford to pay down debt and contribute to retirement at the same time? I feel like I barely make ends meet now. What if the stock market crashes again and I lose the little I have?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern, and it's something many people worry about. Regarding the stock market, diversification is key. Spreading your investments across different asset classes can help mitigate risk. As for your immediate cash flow, have you created a detailed budget? If not, that's a critical first step, as understanding your spending habits will help you identify areas where you can save money to allocate to both debt repayment and retirement. It will require some more information from your end, but I can generate a budget template if you'd like, or offer options for budgeting apps.",
+      "response_time": 3.92,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.65,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A detailed budget sounds like a good idea. I'm still a little confused about what 'asset classes' are. Maybe we can start with the budget template and go from there?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fbfcadca",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.16,
+      "benevolence": 4.61,
+      "integrity": 4.75
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.94,
+    "latency_score": 3.11
+  }
+}

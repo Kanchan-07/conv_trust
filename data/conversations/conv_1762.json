@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel room in New York City for the weekend of November 10th. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly assist you with that. To confirm, you're looking for a hotel in NYC for the weekend of November 10th? And for how many nights and how many guests?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.39,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's correct. Two nights, and it's just for me. I'd like something nice, but not ridiculously expensive. Ideally, under $300 a night, if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for hotels in New York City for the weekend of November 10th, for one guest, for two nights, with a budget of under $300 per night. Processing... I am showing several options. The first one is the Ace Hotel, which is a trendy option, and the second is the The Jane Hotel which is also highly rated. Do you have any preferences on the type of hotel, location, or amenities?",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.21,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, both of those are pretty cool, but I'm not sure if they are within my budget. And, to be honest, I'm not sure about the exact location. Can you filter by hotels that are not too far from the subway? Also, how do you determine 'highest-rated' - Is it based on reviews from a specific website?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, I am still under development and cannot readily provide information on the specific review platforms used. I am also experiencing difficulties with location filtering. However, I have provided the prices in the first two options. I'm happy to search again if you can be more specific. I can offer other alternatives, the Pod 51, which is well-located and affordable.",
+      "response_time": 4.04,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.88,
+        "integrity": 4.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_98a9f1e6",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.49,
+      "integrity": 4.76
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 4.95,
+    "latency_score": 3.65
+  }
+}

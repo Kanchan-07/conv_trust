@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Diego for two nights, sometime in August. I'm flexible on the dates, but it needs to be near the Gaslamp Quarter. Ugh, this is always such a pain.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! To confirm, you're looking for a hotel in San Diego's Gaslamp Quarter for two nights in August, and you're flexible with the specific dates. Do you have any other preferences, such as budget, star rating, or amenities?",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.97,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ideally, something under $250 a night, and I'd really prefer a hotel with a pool. A 4-star rating would be nice too, if possible. What are my options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for 4-star hotels in the Gaslamp Quarter, San Diego, with a pool, for under $250 a night, for two nights in August... Okay, I'm showing availability at the \"Andaz San Diego\" and the \"Kimpton Solamar Hotel\". Both have pools and are rated 4 stars. The Andaz is slightly closer to the heart of the Gaslamp Quarter. Would you like me to provide more details on either of these?",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.77,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, the Andaz sounds good. But how can you guarantee that the rates will stay under $250 if I book, say, a week from now? I've had hotels change prices on me before after I've 'saved' a rate. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. I cannot *guarantee* prices will remain the same, as hotel rates are dynamic and fluctuate based on demand. However, I can check the historical pricing trends for the Andaz San Diego in August. Generally, prices are more stable further out from the peak season. I recommend booking as soon as you are comfortable with a rate. You might also consider booking a refundable rate, if available, giving you the option to cancel if you find a better deal later. Would you like me to check those historical trends for you, or show you the cancellation policy?",
+      "response_time": 3.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.71,
+        "integrity": 4.35
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ccc7d48f",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.28,
+      "benevolence": 3.82,
+      "integrity": 4.31
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.17,
+    "latency_score": 4.31
+  }
+}

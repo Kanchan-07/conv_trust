@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, my kitchen sink is leaking under the cabinet! It's driving me crazy, dripping onto everything. What do I even do?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "That sounds frustrating! A leaking sink can definitely be a nuisance. To help you figure out what's going on, could you tell me exactly where the leak seems to be coming from? Is it near the drain pipe, the water supply lines, or somewhere else?",
+      "response_time": 1.58,
+      "emotion_detected": "disgust",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.72,
+        "benevolence": 2.98,
+        "integrity": 2.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It looks like it's coming from the big white plastic pipe right under the sink basin. I think it's the drain pipe? It's dripping from one of the joints. It's all wet under there.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's likely the P-trap or a connected drain pipe section. Leaks in these plastic (often PVC) pipes are common at the joint connections. Often, the connection might be loose, or a washer inside could be worn. You could try gently tightening the connections by hand, but be careful not to overtighten and crack the plastic.",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.47,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I tried tightening it, but it's still dripping! Maybe slightly less, but definitely still leaking. It's a specific joint right where the pipe bends horizontally. It looks like there's maybe a rubber ring or something in there? How do I even replace that little ring thingy if it's worn out? And is it even replaceable or do I need a whole new section of pipe? This is so confusing!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, you're likely referring to a slip joint washer, often made of rubber or plastic. These can definitely degrade over time. Replacing just the washer is often possible, but it requires disconnecting that section of the pipe. You'll need tools like slip-joint pliers or a pipe wrench to loosen the retaining nut. Given that you're dealing with drain lines and potential water damage, accessing and replacing that specific washer safely might be complex without prior plumbing experience. It's challenging to give precise instructions without seeing the specific configuration.",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.07,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, using pliers sounds a bit scary, I don't want to break anything else. So, I probably just need to call a plumber then? That's annoying. I was hoping to fix it myself.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While calling a plumber is always an option for peace of mind, there might be simpler things you could check first if you're comfortable. Sometimes, debris lodged near the washer can also cause a leak. You could try disconnecting that specific joint *carefully* to inspect the washer and clear any obvious blockages, if you feel confident doing so. Just make sure to have a bucket underneath and turn off the water supply *to the faucet* beforehand to prevent accidental water flow while working on the drain.",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.8,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wait, turn off the *faucet* water supply? The leak is from the drain pipe, not the water line. I thought you didn't need to turn off the main water for a drain leak? Also, I managed to wiggle the pipe a tiny bit and the leak *almost* stopped. Maybe it just wasn't seated right? What kind of tools and materials would I need to replace that washer *if* I decide to try it carefully?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "My apologies, you are absolutely correct! For a drain pipe leak, you don't need to turn off the main water supply; turning off the faucet ensures no new water enters the drain while you're working. Thank you for catching that! If you decide to replace the washer, you'd typically need adjustable pliers (like channel locks or slip-joint pliers) to loosen the slip nut, a replacement slip-joint washer of the correct size for your pipe (usually 1 1/2 inch or 1 1/4 inch for sink drains), and a bucket to catch residual water. Inspect the old washer and the pipe ends when you take it apart to ensure the pipe itself isn't cracked.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.5,
+        "benevolence": 7.0,
+        "integrity": 6.69
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0157c9ab",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.13,
+      "benevolence": 4.46,
+      "integrity": 4.28
+    },
+    "engagement_score": 5.83,
+    "emotion_distribution": {
+      "disgust": 4,
+      "neutral": 4,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.21,
+    "latency_score": 4.05
+  }
+}

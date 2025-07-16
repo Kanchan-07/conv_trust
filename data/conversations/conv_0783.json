@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a software engineering role at Google. I'm really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely assist you with your interview preparation. To start, let's focus on the types of questions you might encounter. These generally fall into a few categories: technical questions (coding, algorithms, system design), behavioral questions, and questions about your experience. Which area would you like to focus on first?",
+      "response_time": 4.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.6,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, the technical questions are what scare me the most. Let's do those. Specifically, system design. I always blank on those.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's tackle system design. A common question is: 'Design a URL shortening service like TinyURL.' Can you describe your initial thoughts on how you would approach this problem? Consider factors like data storage, handling collisions, and scalability.",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.92,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so I'd probably use a database...maybe a NoSQL database because it needs to scale...and I'd hash the URLs... but I'm not sure how to handle the collisions efficiently at that kind of scale! Any ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "For collision handling, you could consider several strategies. One common approach is to use a longer hash. Increasing the length of the hash dramatically reduces the probability of collisions. Another approach involves using a counter or timestamp as part of the hash input. You could also implement a retry mechanism where, if a collision occurs, a new hash is generated until a unique one is found.",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.38,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that helps a bit. But how would I actually *test* something like that at scale to know if my collision handling is good enough? That feels like a pretty open-ended question.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5feedbb6",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.22,
+      "benevolence": 4.97,
+      "integrity": 4.77
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 4.6,
+    "latency_score": 3.29
+  }
+}

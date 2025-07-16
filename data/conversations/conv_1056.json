@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I've been having these weird headaches for about a week now. They're mostly in the back of my head, and sometimes I get dizzy. I'm starting to get really worried!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Headaches and dizziness can be unsettling. To help me understand your situation better, could you describe the headaches in more detail? For example, are they constant, throbbing, or sharp? Also, can you rate the pain on a scale of 1 to 10, and what activities seem to trigger them or make them worse?",
+      "response_time": 2.82,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 3.62,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, they're more of a dull ache, and I'd say maybe a 5 or 6 on the pain scale. They seem to get worse when I'm staring at my computer for too long, which is kind of unavoidable with my job. I also feel like they might be related to my neck being stiff. Is it possible to get headaches *just* from neck stiffness?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, it is certainly possible to get headaches from neck stiffness; these are often referred to as cervicogenic headaches. Given that the headaches are worse when using the computer and you are experiencing neck stiffness, that is the most likely cause. I still recommend consulting with a medical professional to rule out any other potential causes. In the meantime, try taking frequent breaks from the computer, stretching your neck, and ensuring your monitor is at eye level. Over-the-counter pain relievers like ibuprofen or acetaminophen may also help manage the pain.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.3,
+        "integrity": 5.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_301b61e1",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 4.46,
+      "integrity": 4.9
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "fear": 2,
+      "sadness": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.52,
+    "latency_score": 4.24
+  }
+}

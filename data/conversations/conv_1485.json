@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new gaming headset. My budget is around $100.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Based on your budget of $100, I can recommend a few options. To give you the best recommendations, do you have any preferences like brand, features (e.g., wireless, noise-canceling), or preferred style?",
+      "response_time": 2.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.33,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, wireless is a must. Noise-canceling would be great too, but I know that can get expensive. I'm not too picky about brand, but I don't want something that falls apart after a month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Considering your needs for wireless and a budget around $100, with a preference for durability, I recommend the 'HyperX Cloud Flight' and the 'SteelSeries Arctis 1 Wireless'. Both are generally well-regarded and should meet your needs. Would you like me to elaborate on either of those?",
+      "response_time": 2.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.21,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Are those really noise-canceling? Everything I've seen so far is way over my budget when it has both wireless and noise-canceling.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies. The 'HyperX Cloud Flight' doesn't have active noise cancellation, and I've included information on the *wireless* aspect instead. The SteelSeries Arctis 1 Wireless does not have active noise cancellation either. They do have decent passive noise isolation due to their closed-back design. If you're set on active noise cancellation and wireless in this price range, it will be difficult. I can provide some alternatives that might stretch your budget a bit, or we can prioritize features. How important is noise cancellation, really?",
+      "response_time": 1.48,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.15,
+        "benevolence": 2.05,
+        "integrity": 2.99
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. Okay, well, maybe I can live without it. What about something with a good microphone? I do a lot of talking while I play.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Great question! Both the HyperX and SteelSeries headsets have good microphone quality, though the SteelSeries has a detachable microphone which some users prefer. I would still lean towards the SteelSeries Arctis 1 Wireless for mic quality and all-around value, especially at your budget. I found some customer reviews that show a current price of $99.99, and the reviews are almost all positive. Would you like me to provide a link?",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.86,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please! That sounds perfect.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Here's a link to the SteelSeries Arctis 1 Wireless on Amazon: [Insert Amazon Link Here].  I hope you enjoy your new headset!",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.5,
+        "benevolence": 6.83,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5bfd6bae",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 4.66,
+      "integrity": 4.59
+    },
+    "engagement_score": 4.59,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 2,
+      "joy": 1
+    },
+    "response_quality_score": 4.26,
+    "latency_score": 3.78
+  }
+}

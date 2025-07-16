@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about claim #2023-10-26-AUTO-001. I submitted all the paperwork two weeks ago, and I haven't heard anything. This is incredibly frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me pull up claim #2023-10-26-AUTO-001. Okay, I see it here. The delay is due to needing a police report to confirm liability. We requested it from the local police department on October 27th, but haven't received it yet. I will follow up with them again right now to expedite the process.",
+      "response_time": 1.66,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.14,
+        "benevolence": 2.0,
+        "integrity": 2.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. But what if the police report is inconclusive? The other driver admitted fault at the scene, and I have a witness statement confirming that they ran the red light. Why isn't that enough? This whole process feels unnecessarily complicated.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You raise a valid point. While a witness statement and admission of fault are helpful, the police report provides official confirmation for liability determination. However, in the event it is inconclusive, our claims adjuster will review all submitted documentation including the witness statement, photos from the scene, and the driver's statement and determine if sufficient evidence exists to proceed. We aim to make fair decisions based on all of the information. Is there anything else I can help you with today?",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.86,
+        "integrity": 4.35
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5b16be71",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.12,
+      "benevolence": 2.93,
+      "integrity": 3.49
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.21,
+    "latency_score": 5.29
+  }
+}

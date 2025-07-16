@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm still really confused about how to calculate the area of a composite figure. I just don't get it!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Composite figures can be tricky! Let's break it down. Remember, a composite figure is made up of simpler shapes like rectangles, triangles, and circles. The key is to identify those shapes, find their individual areas, and then add them together. Do you have a specific example we can work through?",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.03,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, this one has a rectangle with a semicircle on top. The rectangle is 8cm by 5cm, and the semicircle's diameter is 5cm. I don't know where to even start.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Let's tackle the rectangle first. What's the formula for the area of a rectangle?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.78,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Length times width... so 8 times 5, which is 40 cm squared. Okay, I got that part.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Exactly! Now, for the semicircle. Remember that the area of a full circle is pi * r squared, where r is the radius. Since we have a semicircle, we need to divide that result by 2. The diameter is 5cm, so what's the radius?",
+      "response_time": 4.93,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.96,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, radius is half the diameter, so 2.5cm. So... pi times 2.5 squared, then divided by 2? That's a lot of steps. My calculator is spitting out some crazy long number.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're on the right track! Yes, pi * (2.5)^2 / 2. Rounding to two decimal places, the area of the semicircle is approximately 9.82 cm squared. Now, add that to the area of the rectangle.",
+      "response_time": 1.66,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.68,
+        "benevolence": 2.87,
+        "integrity": 2.95
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "So 40 plus 9.82 is 49.82 cm squared. Is that the final answer? But wait... why can't we just treat the semicircle as part of a whole circle and like, move it around to make the rectangle bigger? Wouldn't that be easier sometimes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, 49.82 cm squared is correct! That's a really insightful question. While you can sometimes rearrange shapes within a composite figure if they perfectly fit and complete another shape (like fitting two semicircles together to form a whole circle), it's not always possible or practical. In those cases, calculating the individual areas and adding them is generally the more reliable method. Are there any other composite figure problems you'd like to try?",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.37,
+        "integrity": 3.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_225594b0",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.9,
+      "benevolence": 5.05,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "disgust": 2,
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.88,
+    "latency_score": 3.83
+  }
+}

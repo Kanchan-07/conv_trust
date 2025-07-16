@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with my new smart thermostat. It keeps displaying an error message and won't connect to the Wi-Fi.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're experiencing issues with your smart thermostat. Could you please tell me the exact error message you are seeing?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.23,
+        "benevolence": 1.46,
+        "integrity": 1.34
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It says 'E10: Wi-Fi connection failed'. I've tried restarting it a bunch of times, but nothing works. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. E10 usually indicates a problem with the Wi-Fi credentials or the router. First, could you please ensure you've entered the correct Wi-Fi password? Double-check capitalization and any special characters.",
+      "response_time": 2.13,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.55,
+        "benevolence": 2.67,
+        "integrity": 2.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I've triple-checked the password. I even tried forgetting the network on my phone and reconnecting to make sure I knew the password. It's definitely correct.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. Next, please try moving the thermostat closer to your Wi-Fi router. Sometimes, the signal strength isn't sufficient. Also, is your router broadcasting on the 2.4 GHz band? The thermostat doesn't support 5 GHz networks.",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.46,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "The router is pretty close already, but I'll try moving it closer. And yes, I'm using the 2.4 GHz band. Okay, it seems to be connecting now! Wow, I'm so relieved. Thank you!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Excellent! I'm glad to hear it's working now. Is there anything else I can assist you with?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.72,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Actually, yes. Now that it's connected, I'm trying to set up a schedule, but it's not letting me set different temperatures for different days of the week. Is that even possible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, the thermostat does allow for different temperatures on different days. You will need to access the advanced settings menu. However, depending on the model, the specific menu structure can vary. I'll need the exact model number of your thermostat to provide more specific instructions. Please locate this information on the device itself or its packaging.",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.7,
+        "integrity": 4.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4d3f16a2",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.65,
+      "benevolence": 3.8,
+      "integrity": 3.67
+    },
+    "engagement_score": 4.63,
+    "emotion_distribution": {
+      "sadness": 3,
+      "anger": 1,
+      "neutral": 4,
+      "joy": 2
+    },
+    "response_quality_score": 3.67,
+    "latency_score": 4.56
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Anya Sharma. It's been a real pain trying to get through on the phone!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help with that. Can you please provide your full name and date of birth to verify your identity?",
+      "response_time": 3.94,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 3.64,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Michael Davis, and my birthday is 03/15/1988.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Davis. I see your information. What is the reason for your appointment today?",
+      "response_time": 5.52,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's for my annual physical. What days does Dr. Sharma have available next week?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check Dr. Sharma's availability. She has openings on Tuesday at 10:00 AM and Thursday at 2:30 PM next week. Which one works best for you?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, Thursday at 2:30 PM should work. But, out of curiosity, why is it so hard to get an appointment with her? Is she the only primary care physician taking new patients?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, Thursday at 2:30 PM is confirmed. Regarding your question, Dr. Sharma is a popular physician within our network, and demand for appointments with her is high. Other primary care physicians are accepting new patients, and I would be happy to provide you with a list if you desire. Do you want me to confirm the Thursday appointment?",
+      "response_time": 3.25,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.35,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please confirm the Thursday appointment. Thanks for your help!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_382baa5b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 4.0,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.56,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 4.43,
+    "latency_score": 4.2
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help managing my bank account. I want to see my transaction history.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To view your transaction history, please specify the account you'd like to view and the date range you're interested in.",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.64,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I want to see the transactions for my checking account for the last month. But this website is so slow, it's making me crazy!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Please allow a moment while I retrieve the information. Can you confirm the last four digits of your account number? Also, while you wait, I should tell you that the current system is experiencing a slightly higher load than usual, which might be the reason for the delay.",
+      "response_time": 2.34,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.31,
+        "benevolence": 2.99,
+        "integrity": 2.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "My account number ends in 1234. Also, I was wondering... why do I get charged a monthly maintenance fee? My balance is always above the minimum required.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you. I have pulled up your transaction history. Regarding the maintenance fee, I am unable to access the terms and conditions of your account. I recommend you contact our customer support or check the documents you received when opening the account.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c9ce2ec8",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.32,
+      "benevolence": 5.66,
+      "integrity": 5.61
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 5.17,
+    "latency_score": 3.21
+  }
+}

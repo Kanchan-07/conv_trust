@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to plan my groceries for the week but my budget is pretty tight. Can you help me figure out what to buy for around $50?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely help you brainstorm some budget-friendly grocery options for a $50 weekly budget. To give you the best recommendations, could you tell me if you have any dietary restrictions or preferences (like vegetarian, allergies, etc.), and roughly how many meals you need to cover?",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.82,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No real restrictions, I eat pretty much anything. I need to cover lunches and dinners for myself for about 5-6 days. It just feels impossible to get enough food for $50 these days, prices are crazy!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with rising prices. For a $50 budget covering 5-6 days of lunches and dinners, focusing on versatile and inexpensive staples is key. Think about dried goods like rice, pasta, or lentils, and looking for sales on protein sources and produce. Planning meals will also help avoid waste.",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.76,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but that's still pretty general. Can you give me actual item suggestions? Like, what specific things are cheap and filling? How am I supposed to get protein that isn't super expensive? It just seems like I'm going to end up eating plain pasta all week at that price point!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair point. Let's get more specific. For inexpensive and filling options, consider dried beans (like black beans or chickpeas) or lentils \u2013 they are very affordable protein sources. Eggs are also relatively cheap and versatile. For carbs, oats, rice, potatoes, and pasta are staples. Look for frozen vegetables which are often cheaper than fresh and last longer (peas, corn, broccoli). Canned tuna or sardines are also budget-friendly protein. A simple list could include: a bag of rice or pasta, a bag of dried lentils or beans, a carton of eggs, frozen vegetables, potatoes, oats, and perhaps chicken thighs or drumsticks if on sale, or a few cans of tuna. You can build various meals from these.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.7,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's much better! Dried beans and lentils... I always forget how cheap they are. And frozen veggies make sense. Thanks, that gives me a much clearer idea of where to start. It doesn't feel quite as impossible now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_84f4717b",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.52,
+      "benevolence": 4.43,
+      "integrity": 4.47
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.82,
+    "latency_score": 4.53
+  }
+}

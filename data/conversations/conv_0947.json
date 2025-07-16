@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from New York to Los Angeles sometime in mid-October. I'm flexible with the dates, but ideally, I'd like a non-stop flight.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please specify the dates you're considering in mid-October? Also, do you have a preferred airline or a budget in mind?",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.45,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say between October 15th and October 20th. Budget is...under $400 if possible. I don't really care about the airline as long as it's not some super sketchy budget one, you know? I've had bad experiences before...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Searching for non-stop flights from New York (any airport?) to Los Angeles between October 15th and 20th, under $400, excluding airlines with very low customer satisfaction ratings. One moment... Okay, I'm seeing a few options on JetBlue and United. However, prices for non-stop flights within your specified dates and budget are hovering around $420-$450. Would you be open to adjusting your dates slightly, perhaps looking at flights departing on October 21st or 22nd? Or consider a flight with one layover?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.93,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I was really hoping to stay under $400 *without* a layover. Let me ask a tricky question: what factors are causing the ticket prices to be higher during those specific dates? Is it a particular event or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question! Analyzing publicly available data, it appears that demand is slightly elevated due to a combination of factors: the tail end of the fall foliage season attracting tourists to the east coast, and several tech conferences scheduled in Los Angeles during that week. This generally leads to increased travel volume and consequently, higher airfares. Travel on weekdays is typically more expensive than weekends. To save money, travelling on the 15th or the 20th, the extreme ends of the date range you gave, will likely offer better deals. Should I refine the search with those days only?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.77,
+        "integrity": 3.57
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2e1651db",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.87,
+      "benevolence": 4.05,
+      "integrity": 4.04
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 4.05,
+    "latency_score": 4.18
+  }
+}

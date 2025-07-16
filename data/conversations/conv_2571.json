@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment. Trying to call is just impossible these days.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you with that. Which doctor or specialty would you like to schedule the check-up with, and do you have any preferred days or times?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's just for a standard physical, so any general practitioner is fine. I'd prefer something next week. Before I give specific days, can you just show me *what's* available next week for *any* GP? I hate providing all my info only to find out there's nothing that works.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "To provide you with relevant availability, I need to narrow down the search. My system requires either a specific doctor's name or a precise date range, like 'Monday, July 15th' or 'between July 15th and July 19th', to check for openings.",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.31,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's exactly what I mean! It's so frustrating. I just want to get a general idea! Can't you *at least* tell me if there are *any* slots for *any* GP next week if I just tell you which days I'm free? Let's say Tuesday or Wednesday next week?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for the frustration. While I can't display a full calendar without more specifics, I *can* search for availability for *any* GP on those particular days. Let me check for general practitioner appointments available on Tuesday, July 16th or Wednesday, July 17th. One moment please.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3f82b583",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.96,
+      "benevolence": 4.1,
+      "integrity": 4.09
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 3.62,
+    "latency_score": 4.55
+  }
+}

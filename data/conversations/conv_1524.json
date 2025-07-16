@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help planning a grocery list. My budget this week is $75.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. To give you the best recommendations, what types of meals do you typically enjoy? Any dietary restrictions or preferences (vegetarian, allergies, etc.)?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.23,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I usually eat meat, but I'm trying to eat healthier. I'm not a fan of seafood, and I don't want to spend too much time cooking. I'm also lactose intolerant, so no dairy, please!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Considering your preferences, I recommend the following: chicken breast ($15), sweet potatoes ($5), broccoli ($4), brown rice ($3), canned beans ($2), and some fruits like apples ($5) and bananas ($3). This leaves you with about $38 for other items like condiments, eggs (if you eat them), and snacks. Does this sound good?",
+      "response_time": 5.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.07,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmmm, that sounds a bit boring, honestly. Can you suggest something with a little more variety? Maybe some pre-made options to save time, or something that could make leftovers for lunch?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are right! My apologies. Let me adjust that. Okay, how about this: pre-cooked rotisserie chicken ($8), pre-made salad mix ($6), some whole-wheat tortillas ($4), salsa ($3), avocado ($2), a can of black beans ($1), a bag of frozen vegetables ($5), and some fruit. These ingredients can be used to make chicken tacos, and the leftovers are perfect for lunch. This leaves you with a larger amount for other items, like snacks.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.58,
+        "integrity": 6.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's better. How am I supposed to know how much fruit and snacks to buy without knowing how much money is left in the budget?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies for the incomplete information. Considering the above recommendations, you have approximately $46 left. This is enough for a carton of eggs ($3), and a bag of your favorite snacks like chips or nuts ($5-10). You can then use the rest of your budget on your favorite fruits, such as berries. You may also consider buying some basic spices to add flavor to your meals.",
+      "response_time": 0.52,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.35,
+        "integrity": 1.16
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that's much better! Thanks. One last question: how many meals does this cover roughly?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Assuming you make chicken tacos for dinner a few nights and have leftovers for lunch, and including breakfast, this should cover you for about 5-7 days, depending on your portion sizes and snack habits. Enjoy your meals!",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.77,
+        "integrity": 5.48
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f6d32042",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.64,
+      "benevolence": 4.6,
+      "integrity": 4.56
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 8,
+      "disgust": 1
+    },
+    "response_quality_score": 5.08,
+    "latency_score": 3.74
+  }
+}

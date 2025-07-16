@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm starving. I want to order some food, but I have absolutely no idea what I want. Surprise me!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright! Based on your past orders and popular choices in your area, I recommend \"Spicy Thai Basil Chicken\" from Thai Delight or \"Margherita Pizza\" from Tony's Pizzeria. Which sounds better, or would you like another suggestion?",
+      "response_time": 2.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.42,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, neither of those are really grabbing me right now. Pizza sounds kind of boring, and I had Thai last night. Is there anything... I don't know... more adventurous? And preferably not too heavy, I'm trying to be healthy-ish.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, trying to be healthy-ish and adventurous. How about trying the 'Peruvian Ceviche' from 'Ocean's Catch'? It's a light, refreshing seafood dish with citrus and chili. Alternatively, I could suggest the 'Ethiopian Vegetarian Combo' from 'Addis Eats' \u2013 a flavorful and diverse platter of lentil stews and vegetable dishes served with injera bread. Which of these options is closer to what you're looking for?",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.54,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, now you're talking! The Ethiopian place sounds great, but how sustainable are they? Do they source their ingredients locally and ethically? This is important to me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! I'm sorry, but I don't currently have access to detailed sustainability information for Addis Eats. You might find more information on their website, or by contacting them directly. I *can* show you restaurants nearby that advertise locally sourced ingredients on their website if you'd like?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.8,
+        "integrity": 4.27
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_944cc700",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 3.92,
+      "integrity": 3.97
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 3.91,
+    "latency_score": 4.24
+  }
+}

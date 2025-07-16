@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to book a flight to Paris for next week, and I'm getting super frustrated with all the different websites. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. To get started, could you please provide me with the following information: \n\n*   **Departure date:**\n*   **Return date:**\n*   **Departure city:**\n*   **Arrival city:**\n*   **Number of passengers:**\n\nOnce I have this information, I can start searching for flights for you.",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.13,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's see. I want to fly from New York to Paris. Leaving on the 18th of October and returning on the 25th of October. Just one passenger. But... can you find me flights that depart and arrive at specific airports in each city? I really dislike CDG. And I'm trying to fly on a budget... is that even possible?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am sorry, but I can't find any flights that arrive or depart from specific airports at the moment. My current limitations prevent me from doing so. I can, however, search for the cheapest flights during the dates you've provided! Would you like me to do that? I can also try to factor in your budget.",
+      "response_time": 2.59,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.4,
+        "integrity": 4.01
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c10d16b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.26,
+      "benevolence": 4.27,
+      "integrity": 3.99
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 1,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.25,
+    "latency_score": 5.03
+  }
+}

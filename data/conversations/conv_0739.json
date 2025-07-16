@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about my latest bill. It seems significantly higher than usual, and I'm not sure why.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting support. I can certainly help you with that. Can I please have your account number or the phone number associated with the account?",
+      "response_time": 5.31,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. I usually pay around $80, but this bill is showing $150! What's going on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I access your account information... Okay, I see the bill here. It appears there was a one-time charge for an upgrade to our premium streaming package. Do you recall authorizing this change?",
+      "response_time": 0.65,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Upgrade? No! I definitely did *not* authorize any upgrade. I'm on a fixed income; I would never agree to something like that without knowing about it. This is ridiculous!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me investigate this further. Looking at the account activity, it seems the upgrade was added online two weeks ago. Could someone else in your household have made the change?",
+      "response_time": 1.38,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.17,
+        "benevolence": 2.14,
+        "integrity": 2.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "No, I'm the only one who uses this account. And I'm the only one who lives here! Is it possible someone hacked my account or something? What security measures do you guys have in place to prevent unauthorized changes like this?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That is a valid concern. Our system does employ security measures; however, I will need to speak with a supervisor about potential account compromise. In the meantime, I can remove the premium streaming package and revert you to your previous plan. This will reflect on your next bill. Would you like me to do that?",
+      "response_time": 3.4,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.43,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please remove it immediately! But what about *this* bill? I can't afford to pay $150! Will I get a refund for the unauthorized charge?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, I can credit your account for the difference. I've applied a $70 credit to your account. Please allow 2-3 business days for it to be reflected in your online account or statement. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.04,
+        "benevolence": 1.0,
+        "integrity": 1.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1529ddca",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.01,
+      "benevolence": 3.11,
+      "integrity": 3.14
+    },
+    "engagement_score": 5.78,
+    "emotion_distribution": {
+      "surprise": 2,
+      "joy": 1,
+      "neutral": 3,
+      "anger": 3,
+      "fear": 1
+    },
+    "response_quality_score": 3.11,
+    "latency_score": 5.25
+  }
+}

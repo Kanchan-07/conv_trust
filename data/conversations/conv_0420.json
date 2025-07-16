@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered three days ago. The tracking number is 1Z999AA1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Let me look into that tracking number for you. One moment please... Okay, I see that package 1Z999AA1234567890 was originally scheduled for delivery on November 8th. It appears to be delayed.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.27,
+        "benevolence": 1.31,
+        "integrity": 1.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Delayed?! Yes, I know it's delayed! That's why I'm calling! Do you know *why* it's delayed and when I can actually expect it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check the details. According to the system, the package is currently at our regional distribution center and experiencing unexpected delays. We are working to resolve the issue as quickly as possible. The estimated delivery date is now showing as November 12th.",
+      "response_time": 1.74,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.12,
+        "benevolence": 2.77,
+        "integrity": 2.86
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "November 12th?! That's almost a week later than promised! This was a birthday present, and now it's going to be late. Is there anything you can do to expedite the delivery? Like, at all?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I can definitely look into that for you. Let me see if I can submit a request to prioritize the package. However, I cannot guarantee that it will arrive sooner than the 12th. Is there anything else I can help you with?",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.01,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Well, what caused the delay in the first place? I mean, 'unexpected delays' is pretty vague. Was there a weather event? A truck breakdown? Did someone just forget about it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. I'm showing that the delay was due to a higher than normal volume of packages being processed at the distribution center. This has caused a backlog, which is affecting several shipments in the area.",
+      "response_time": 2.34,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.49,
+        "benevolence": 2.28,
+        "integrity": 2.48
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I guess that's\u2026 somewhat understandable. So, you're prioritizing it? Can I get some kind of confirmation that you've done that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, I have submitted a request to prioritize your package. The reference number for the request is PX12345. You can use this number if you need to inquire about the status of the prioritization request in the future. Is there anything else I can assist you with today?",
+      "response_time": 0.51,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.39,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3b677472",
+    "average_trust_score": 2.2,
+    "trust_category_averages": {
+      "competence": 2.17,
+      "benevolence": 2.27,
+      "integrity": 2.36
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 3,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.14,
+    "latency_score": 5.99
+  }
+}

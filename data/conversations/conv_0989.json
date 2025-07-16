@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a car insurance claim I filed last week. Claim number is 2024-10-26-Alpha-7.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Good morning. Thank you for calling. Please hold one moment while I pull up your claim, 2024-10-26-Alpha-7. Okay, I have it here. Can you verify your date of birth for me?",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.04,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's 03/15/1988. So, what's the status? I really need my car fixed, it's been a week and I'm starting to get pretty frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. According to the notes, your vehicle is currently at the approved repair shop, and the adjuster is awaiting the final estimate for damages before proceeding with approval. We're working diligently to get this resolved for you.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but 'awaiting the estimate'\u2026 that's what you told me three days ago! Is there any way to speed things up? I need my car for work!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can send a follow-up request to the adjuster to prioritize the estimate review. However, I cannot guarantee a specific timeframe. Would you like me to do that?",
+      "response_time": 1.72,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.76,
+        "benevolence": 2.38,
+        "integrity": 2.68
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. And also, this may be a silly question, but what exactly does the adjuster *do*? I thought the repair shop gave you the estimate.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The adjuster reviews the estimate provided by the repair shop to ensure the charges are reasonable and align with the damage reported in the accident. They also verify that the repairs are covered under your policy. The adjuster also negotiates with the repair shop if needed.",
+      "response_time": 5.6,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.16,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. So, when should I expect to hear back? Is there a number I can call directly to the adjuster or someone to speed things along?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I've sent a follow-up request to the adjuster. You should receive an update within 24-48 hours. Unfortunately, I am unable to provide direct contact information for the adjuster, but I can assure you that any updates will be promptly communicated to you. Is there anything else I can assist you with today?",
+      "response_time": 3.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.46,
+        "integrity": 3.87
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4616d8db",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 4.81,
+      "integrity": 4.97
+    },
+    "engagement_score": 5.03,
+    "emotion_distribution": {
+      "neutral": 8,
+      "anger": 2
+    },
+    "response_quality_score": 4.5,
+    "latency_score": 3.25
+  }
+}

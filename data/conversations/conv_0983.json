@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to schedule an appointment with Dr. Ramirez. I've been on hold for ages, and it's driving me nuts! Can you help?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help you schedule an appointment with Dr. Ramirez. To start, can you please provide me with your full name, date of birth, and insurance information?",
+      "response_time": 1.98,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.61,
+        "benevolence": 2.04,
+        "integrity": 2.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my name is Jane Doe, date of birth is January 1, 1980, and my insurance is Blue Cross Blue Shield, member ID is 123456789. What's her earliest availability? I need something relatively soon. Also, does she specialize in sports injuries? I think I might have a torn meniscus.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. I have your information now. Dr. Ramirez does have some experience with sports injuries, but she is a general practitioner. As for availability, her earliest appointment is next Tuesday at 2:00 PM. Would that time work for you? If not, I can check for cancellations. I will also note your concern about a potential torn meniscus for her review. If it's a sports injury you might want to book an appointment with a sports medicine doctor instead.",
+      "response_time": 5.34,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.59,
+        "integrity": 5.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bcb5969c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.07,
+      "benevolence": 3.81,
+      "integrity": 4.17
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.31,
+    "latency_score": 3.84
+  }
+}

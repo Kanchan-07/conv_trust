@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight to Denver sometime in mid-October. I'm flexible on the exact dates, but it needs to be a round trip from Chicago. And preferably non-stop, I'm so tired of layovers.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please specify what 'mid-October' means to you in terms of date ranges? Also, do you have any preferred airlines or a budget in mind?",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.68,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's say between October 12th and October 20th for departure, and returning before the 27th. No preferred airlines really, whatever's cheapest, ideally under $400.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for round-trip, non-stop flights from Chicago to Denver departing between October 12th and 20th, and returning before October 27th, with a maximum price of $400.  One moment...",
+      "response_time": 3.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 3.98,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thanks. While you're at it, what's the weather usually like in Denver in late October? I need to pack appropriately.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, the average temperature in Denver in late October is between 40 and 65 degrees Fahrenheit. It is also possible you could see some snow so plan accordingly.",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.75,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Right, snow. That's what I was afraid of. So, flights... anything good come up? And, just out of curiosity, what contributes most to the environmental impact of a flight? Is it the distance, the size of the plane, or something else?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, I found a few options! A United Airlines flight departing on October 15th and returning on October 22nd is currently priced at $385. Another option on Southwest is departing on the 16th and returning on the 23rd for $392. Regarding your question about environmental impact, the distance of the flight is generally the largest factor, followed by the type of aircraft and its fuel efficiency. Filling seats also reduces the impact per person.",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.43,
+        "integrity": 4.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_77cba953",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.1,
+      "benevolence": 3.96,
+      "integrity": 4.04
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 7,
+      "fear": 1
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 4.38
+  }
+}

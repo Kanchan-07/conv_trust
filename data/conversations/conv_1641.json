@@ -1,0 +1,72 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel. I'm looking for a place in downtown Chicago for three nights, from October 27th to the 30th. Something nice, not too expensive.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can certainly help with that. Can you give me a budget range per night, and what kind of amenities are important to you? For example, do you need free breakfast, a pool, or parking?",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.65,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I knew I'd forget something. Okay, budget is flexible, let's say under $300 a night, preferably. Free breakfast would be great, and parking is a must. A pool would be a bonus. Anything with a good view would be amazing, but not required. Oh, and I'd prefer it to be fairly close to Millennium Park.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Let me see what I can find... (pauses) Okay, I've found a few options. The first is the Hyatt Centric The Loop Chicago. It has breakfast included, but parking is valet only and pretty pricey. The second is The Kinzie Hotel, which is slightly further from the park but offers free parking and breakfast. The third option is a bit more of a stretch, the Radisson Blu Aqua Hotel Chicago, which has a pool and great views, but it\u2019s a little over your budget. Are any of these a good fit, or should I refine the search?",
+      "response_time": 2.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.0,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, the Radisson sounds tempting but expensive. The Kinzie sounds the best so far, but before I decide, can you tell me about the Kinzie's noise levels at night? I'm a light sleeper and that's often the deal-breaker for me, no matter how good the other amenities are!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d5709abd",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.83,
+      "benevolence": 3.83,
+      "integrity": 4.02
+    },
+    "engagement_score": 3.67,
+    "emotion_distribution": {
+      "neutral": 5
+    },
+    "response_quality_score": 3.71,
+    "latency_score": 4.88
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why a claim was rejected. Can you help me with medical billing?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can. Please provide the claim number and the patient's name, and I will look into the rejection reason.",
+      "response_time": 4.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.78,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890, and the patient is John Smith. I'm really frustrated, this is the third claim rejected this month.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am sorry to hear that you are experiencing issues with the claim rejections. I see the rejection reason is 'Missing/Invalid Modifier'. Please review the documentation and re-submit the claim.",
+      "response_time": 0.63,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.44,
+        "benevolence": 1.27,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Missing/Invalid Modifier? What does that even mean? Can you explain that in plain English?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. It means the procedure code on the claim requires an additional code to explain why the procedure was performed. This additional code gives the payer more details about how to process the claim. For John Smith's claim, the specific procedure code might need a modifier indicating which side of the body the procedure was performed on. More information can be found on our billing guidelines webpage.",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.64,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I understand. But how do I know which modifier to use? There are so many!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a challenging question. It depends on the specific procedure code. The best resource is the CPT code book or your specialty's coding guidelines. You can also check the insurance payer's website for specific modifier requirements for the codes you're billing. I don't have the capability to look up that information for you at this time, but I can provide links to some relevant resources.",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.94,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that helps. Thanks for the info and the links. I'll get right on it. Finally, some progress!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! If you have further questions, feel free to ask. I'm glad I could assist.",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.57,
+        "integrity": 6.77
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2c32d967",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.37,
+      "benevolence": 4.24,
+      "integrity": 4.33
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "anger": 1,
+      "surprise": 2,
+      "joy": 2
+    },
+    "response_quality_score": 4.57,
+    "latency_score": 4.17
+  }
+}

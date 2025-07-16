@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining a hackathon but I'm a bit overwhelmed. I don't even know where to start!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Hackathons can definitely seem daunting at first, but they're also a lot of fun. To help you get started, could you tell me a little more about what you're hoping to get out of the experience? Are you looking to learn new skills, build your portfolio, or just have a good time?",
+      "response_time": 3.26,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.64,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "All of the above, I guess! Mostly, I want to learn something new and maybe have a project I can show off. But I don't have any good project ideas. That's my main problem.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Finding the right project idea is crucial. A great approach is to brainstorm problems you face daily or observe in your community, then consider how technology could offer a solution. Alternatively, you could explore trending technologies like AI or blockchain and see if any use cases spark your interest. To give you some examples, previous hackathons have seen projects focusing on smart home automation, personalized education platforms, or even sustainable agriculture solutions. Does this help at all?",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.76,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's still pretty broad. Let's say the hackathon focuses on sustainability. What's something *unique* I could build? Everyone always does the same old recycling app!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, trying to think outside the box for a sustainability-focused hackathon... How about a system that leverages machine learning to optimize energy consumption in buildings based on real-time occupancy and weather data? Or perhaps a platform that connects local farmers with consumers to reduce food waste and promote local agriculture. Another idea could be a tool that analyzes the carbon footprint of different products and helps consumers make more informed purchasing decisions. It may also be valuable to search through hackathon-specific websites to find what others have built in the past to inspire you.",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.06,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those are actually pretty good. The carbon footprint analyzer is interesting. One last question, though: how do I make sure my project idea is actually *feasible* within the limited time of a hackathon? I always overestimate what I can do. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_538ca232",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.49,
+      "integrity": 4.63
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 4.02
+  }
+}

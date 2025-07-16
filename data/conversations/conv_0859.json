@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week, order number #12345, and it still says \"Processing.\" What's going on? This is ridiculous!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I understand your frustration regarding order #12345. Let me check the status for you. One moment please.",
+      "response_time": 0.57,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.42,
+        "benevolence": 1.0,
+        "integrity": 1.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I need this order soon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see that your order is currently being prepared for shipment. There was a slight delay due to a high volume of orders, but it is scheduled to ship out tomorrow. You should receive a tracking number then. Apologies for the delay.",
+      "response_time": 3.17,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.07,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tomorrow? Ugh. Is there any way to expedite the shipping once it ships out? I really needed this earlier. Also, what happens if it doesn't ship tomorrow?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I cannot expedite the shipping once it has been sent. I can guarantee that it will be shipped tomorrow. If it does not ship out tomorrow, please contact us again and we will see to it that you are refunded the shipping fee.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.42,
+        "integrity": 1.32
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I guess that's fair. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_902c6fcf",
+    "average_trust_score": 2.0,
+    "trust_category_averages": {
+      "competence": 2.06,
+      "benevolence": 2.16,
+      "integrity": 2.43
+    },
+    "engagement_score": 4.45,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2,
+      "sadness": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 1.6,
+    "latency_score": 6.09
+  }
+}

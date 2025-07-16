@@ -1,0 +1,121 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking hasn't updated in days and it was supposed to be delivered yesterday.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I am happy to help. Can I get your tracking number please?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.51,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 9876543210.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm looking up the tracking information now... Okay, it seems the package is currently in transit and was last scanned at a distribution center two days ago. Unfortunately, it is delayed due to unforeseen circumstances. We are working to get it to you as soon as possible. I apologize for any inconvenience.",
+      "response_time": 4.88,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.92,
+        "integrity": 5.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? Seriously? What does that even mean? And when can I expect it? I really needed this by yesterday!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, the exact reason for the delay is not specified in the tracking details. Based on the current information, I estimate it will be delivered within 3 business days, but I don't have a guaranteed delivery date. I can set up email alerts to keep you informed.",
+      "response_time": 1.63,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.17,
+        "benevolence": 2.91,
+        "integrity": 2.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So you're telling me you don't know why it's delayed, or when it's coming? This is incredibly unhelpful. What kind of customer service is this? Can you at least give me a discount code for my next purchase?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am truly sorry for the inconvenience this has caused. While I cannot provide a discount code directly, I can escalate your case to a supervisor to explore options for compensation. Would you like me to do that?",
+      "response_time": 0.62,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.26,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please. Thank you for offering to do that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0643cd73",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.76,
+      "benevolence": 4.27,
+      "integrity": 3.97
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 3,
+      "joy": 1,
+      "neutral": 2,
+      "surprise": 1,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.0,
+    "latency_score": 4.22
+  }
+}

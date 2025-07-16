@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately, and I'm not sure why. I've also been experiencing headaches. Could you give me some advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am programmed to provide general health advice. Please note that I am not a medical professional and this information should not substitute professional medical advice. Based on your symptoms of fatigue and headaches, it's possible you may have a variety of conditions. Are there any other symptoms you're experiencing?",
+      "response_time": 2.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.31,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, now that you mention it, I've also been unusually thirsty and having to go to the bathroom a lot, which is annoying. What could this be? I'm getting a little frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your symptoms (fatigue, headaches, excessive thirst, and frequent urination), it's possible you have diabetes. I recommend you consult with a doctor as soon as possible to get your blood glucose levels checked. This is the best course of action.",
+      "response_time": 5.17,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit scary, but good to know. I'll do that. But if it is diabetes, what should I expect in terms of lifestyle changes? Will I have to completely change how I eat? What if I don't want to?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The extent of lifestyle changes depends on the type and severity of diabetes. For many, dietary adjustments, increased physical activity, and medication are necessary. Specific dietary changes often involve controlling carbohydrate intake and focusing on whole foods. I suggest you wait for your doctor's advice and then ask him/her these detailed questions.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.53,
+        "integrity": 4.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_91d7110d",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.11,
+      "benevolence": 4.95,
+      "integrity": 5.19
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.35,
+    "latency_score": 3.68
+  }
+}

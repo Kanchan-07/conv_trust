@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so indecisive. I'm looking to buy something new for my kitchen, but I don't even know where to start. Can you recommend some popular products based on kitchen categories?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, let's break down the kitchen into a few categories. Are you interested in cooking tools, bakeware, appliances (like blenders or mixers), storage solutions, or perhaps something for dining and serving?",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.9,
+        "integrity": 5.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I think I need something for baking. Maybe some new pans? I'm tired of everything sticking to my current ones. But how do I know which brands are actually good quality and won't break the bank? There are so many!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, baking pans. Based on customer reviews and ratings, some highly-regarded and affordable brands include Nordic Ware, Wilton, and Amazon Basics. For a step up in quality, consider USA Pan or OXO. Many reviewers praise Nordic Ware's natural aluminum pans for even heating and durability. Would you like me to filter based on specific pan types, like cake pans, muffin tins, or baking sheets?",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.85,
+        "integrity": 4.38
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_430ba2a3",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.88,
+      "integrity": 4.72
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.81,
+    "latency_score": 3.92
+  }
+}

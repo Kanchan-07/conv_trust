@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle this whole financial planning thing. Honestly, it feels so overwhelming. I have a decent job, but I'm not sure where to even start with saving and investing. Can you give me some guidance?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I understand it can seem daunting. Let's start with a basic overview. First, we need to assess your current financial situation. Could you provide some information on your monthly income, expenses, and any existing debts or assets?",
+      "response_time": 2.85,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.69,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, expenses... the worst part. Okay, roughly, I make about $5,000 a month after taxes. My rent is $1,500, utilities are around $200, and I have a car payment of $400. Credit card debt is... embarrassing. Let's say $5,000 with a ridiculously high interest rate. I also have about $2,000 in a savings account. Is that enough info?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good start! Thank you for sharing that. Based on this information, a crucial first step would be to aggressively tackle that credit card debt due to the high interest. We could explore options like the debt avalanche or debt snowball method. Would you like me to explain those?",
+      "response_time": 5.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.87,
+        "benevolence": 5.98,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please explain! And also... I keep hearing about index funds and ETFs, but honestly, I have no clue what the difference is or if they're even a good idea for someone like me. Are they safe? Because I'm terrified of losing money. Is there something safer I should do? Should I pay off all my debt before investing?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, a lot of good questions! Both debt avalanche and debt snowball are methods to pay off debt with different strategies. Index funds and ETFs are both types of investment funds that can offer diversification and are generally considered suitable for long-term investing, and while no investment is entirely without risk, they are generally seen as safe. Given your current situation with high-interest debt, it's generally advisable to prioritize paying that down before heavily investing, as the interest savings will likely outweigh any investment gains in the short term. However, contributing a small amount to a retirement account, especially if your employer offers a match, could still be beneficial. Let's explore the debt snowball versus avalanche method first, and then we can discuss investment options further. We can also discuss risk tolerance if you'd like, because that is important to think about!",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.65,
+        "integrity": 3.74
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3d0741c7",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.44,
+      "integrity": 4.26
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "disgust": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 3.59
+  }
+}

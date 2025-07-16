@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from Chicago to Los Angeles next month.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Can you please tell me the exact dates you'd like to travel?",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.39,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I want to fly out on November 10th and return on November 17th.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for flights from Chicago (ORD) to Los Angeles (LAX) for November 10th to November 17th. Please wait a moment... I found several options. The cheapest round trip is currently $350 with Spirit Airlines. Would you like to see a list of all options?",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 4.18,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Spirit?! Ugh, are there any other airlines? I really don't want to fly Spirit. I'm willing to pay a bit more for a better experience.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, of course. Let me filter out Spirit. Okay, with other airlines, the prices start at $450.  Do you have a preferred airline or time of day you'd like to fly?",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.82,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "American Airlines or United would be great. And I prefer morning flights, ideally departing before 9 AM. Also, can you tell me what the baggage allowance is for the cheapest American Airlines option?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me check... Searching for American Airlines flights departing before 9 AM on November 10th and returning on November 17th. I am still gathering that baggage information for you. Unfortunately, it appears there are no American flights that meet your criteria at this moment. The closest is a United flight that departs at 9:15 AM. It allows one carry-on and one personal item. Checked bags are an additional cost.",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.42,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, fine. I guess the 9:15 AM United flight will have to do. What's the total cost, including potential baggage fees?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "The total cost for the United flight, including estimated baggage fees (based on one checked bag each way), comes to $610. Would you like to proceed with booking? I can also send the baggage details to your email.",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.09,
+        "benevolence": 1.0,
+        "integrity": 1.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1815adbb",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.58,
+      "benevolence": 3.76,
+      "integrity": 3.7
+    },
+    "engagement_score": 5.22,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "joy": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.39,
+    "latency_score": 4.38
+  }
+}

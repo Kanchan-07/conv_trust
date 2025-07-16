@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. My old one finally died. I'm hoping you can suggest some good options, but I'm on a pretty tight budget. Ideally, under $500.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To clarify, you're looking for a laptop priced under $500. What will you primarily be using the laptop for? (e.g., schoolwork, general use, gaming)",
+      "response_time": 3.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.92,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly general use, some schoolwork, browsing, streaming videos... nothing too intense. Definitely no gaming.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Based on your needs and budget, I recommend checking out the Lenovo Chromebook Duet 5. It typically retails for under $400, offers good battery life, and is great for general use and streaming. Alternatively, the Acer Aspire 3 series often has configurations within your budget. I suggest comparing specs for the Aspire 3, as they vary widely. ",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.75,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A Chromebook? I've heard those are pretty limited. Can I even install regular programs on them, like Microsoft Office?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While Chromebooks don't run traditional Windows/Mac applications natively, you can use web-based versions of Microsoft Office (like Office 365) or Google's equivalent (Docs, Sheets, Slides). Many other popular programs also have web versions. However, if you absolutely need to install traditional software, the Acer Aspire 3 would be a better choice, though you might have to compromise on some features within your budget. Let me refine my recommendations.",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.59,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But how much faster would a laptop need to be for me to notice a difference in everyday tasks like opening a browser or loading a YouTube video? What specs should I be looking at specifically?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a complex question, and the perceived speed difference is subjective. Generally, look for a processor with a clock speed of at least 2.0 GHz and 8GB of RAM for a smoother experience. However, SSD storage will also significantly impact loading times compared to a traditional HDD. For noticeable improvement, aim for a CPU benchmark score that is at least 20% higher than what you are used to, available on sites like PassMark. Due to the budget constrains, getting these specs might not be possible but try to get as close as you can!",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.34,
+        "integrity": 4.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef4c6bc3",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.05,
+      "benevolence": 4.4,
+      "integrity": 4.32
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7
+    },
+    "response_quality_score": 3.88,
+    "latency_score": 4.21
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle painting my living room. I've got the paint, but I'm a little overwhelmed about where to start. Any advice?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Let's break it down. First, proper preparation is key. Start by thoroughly cleaning the walls to remove any dust, dirt, or grease. Then, use painter's tape to protect trim, windows, and the ceiling. After that, apply a primer, especially if you're painting over a dark color or bare drywall.",
+      "response_time": 2.21,
+      "emotion_detected": "disgust",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.18,
+        "benevolence": 2.3,
+        "integrity": 2.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Primer, right. I keep forgetting that step. What kind of primer should I use? My walls are currently a light beige, and I'm going with a light gray.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For going from a light beige to a light gray, a standard latex primer should be sufficient. Brands like Kilz or Zinsser offer good options. Make sure it's interior primer.",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.2,
+        "integrity": 3.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, great. Now, here's the part I always mess up \u2013 cutting in. I can never get a straight line! Any tips beyond just \"go slow\"?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, cutting in is tricky! Try using a high-quality angled brush, about 2-3 inches wide. Dip only the tips of the bristles into the paint. Load the brush evenly, and then apply the paint in a smooth, controlled motion. It also helps to maintain a wet edge to avoid lap marks. Some people find using an edger tool helpful, though it can sometimes leave a slightly uneven texture.",
+      "response_time": 4.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.6,
+        "integrity": 5.33
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A wet edge... I think that's where I'm going wrong. So, like, don't let it dry before I roll the rest, right? But what if I'm interrupted? Kids, you know? What's the maximum dry time before it becomes a problem?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Ideally, you want to roll the wall within an hour or two of cutting in, depending on the humidity. If it dries completely, you may see a difference in sheen between the cut-in area and the rolled area. If you're interrupted for longer, you might need to lightly sand the cut-in area before rolling to ensure a smooth, uniform finish.",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.91,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's actually really helpful. Thanks! Wish me luck; I'm going to need it. At least now I feel like I have a plan of attack!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1b3ac254",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 3.98,
+      "benevolence": 4.5,
+      "integrity": 4.43
+    },
+    "engagement_score": 5.45,
+    "emotion_distribution": {
+      "surprise": 1,
+      "disgust": 1,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 4.65,
+    "latency_score": 4.19
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a project manager role, and I'm super nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help. To start, what are some of your biggest concerns about the interview? Knowing that will help me tailor our preparation.",
+      "response_time": 4.59,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I always struggle with the behavioral questions, like 'Tell me about a time you failed'. I freeze up! Ugh.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Many people find those challenging. Let's brainstorm a few situations from your past projects where things didn't go as planned. We can then craft a compelling narrative around each, focusing on what you learned and how you grew. How does that sound?",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.81,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds good. But, like, what if they ask me something I *really* don't know? What if they ask a super technical question about project management methodologies that I'm not familiar with?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's perfectly acceptable to admit you don't know something. However, you can turn it into an opportunity. You could say something like, 'That's not something I've had direct experience with, but I am familiar with the general principles behind [related concept]. I'm also a quick learner and would be eager to research and understand that methodology if it's something used in this role.' Does that help?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.22,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that's... alright. It still feels a little weak. Can you give me a *really* tough technical project management question, the kind that would throw anyone, and then tell me how *you* would answer it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, here's a challenging one: 'Describe a scenario where you had to integrate Agile methodologies into a project that was initially planned using a Waterfall approach. What were the major obstacles, and how did you overcome them, ensuring minimal disruption to the project timeline and deliverables?' I would begin by acknowledging the inherent difficulties in transitioning between methodologies mid-project. I would then highlight the importance of stakeholder communication and gaining buy-in. Key actions would include: (1) Conducting a thorough assessment of the current project status and identifying areas where Agile could be most effectively implemented. (2) Developing a hybrid approach that combines the strengths of both methodologies. (3) Providing training and support to the team to ensure they understand the Agile principles and practices. (4) Implementing iterative development cycles with frequent feedback loops. (5) Closely monitoring progress and making adjustments as needed. A potential obstacle is resistance from team members accustomed to Waterfall. To overcome this, I'd emphasize the benefits of Agile, such as increased flexibility and responsiveness to change, and actively solicit their input and feedback. The goal is a collaborative adaptation, ensuring project goals remain paramount.",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 3.62,
+        "integrity": 3.57
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8e528405",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.61,
+      "benevolence": 5.41,
+      "integrity": 5.34
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.46,
+    "latency_score": 3.51
+  }
+}

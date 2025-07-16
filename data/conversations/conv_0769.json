@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with Dr. Emily Carter. I've been trying to call for days, but I can never get through! It's incredibly frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help with that. Could you please provide your full name and date of birth so I can access your records?",
+      "response_time": 3.83,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.28,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's John Smith, and my birthday is July 12, 1988. What's Dr. Carter's availability looking like in the next couple of weeks? Ideally, I'd like a morning appointment if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Mr. Smith, one moment while I check Dr. Carter's schedule. It appears she has an opening on August 8th at 10:00 AM and another on August 15th at 2:00 PM. Would either of those work for you? Alternatively, could you tell me why are you scheduling an appointment? That might help me find other options.",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 4.22,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "August 8th at 10:00 AM sounds perfect. Wait, why do you need to know *why* I'm scheduling the appointment? Isn't that a bit intrusive? I just need a check-up. But yes, let's go with the 8th at 10am. ",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d1bc6863",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.05,
+      "benevolence": 4.25,
+      "integrity": 4.21
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 3.7
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with Dr. Emily Carter. I've been trying to call for days, but the line is always busy!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, I understand. I can certainly help you with that. To schedule an appointment with Dr. Carter, can you please provide your full name and date of birth?",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.01,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's John Smith, and my date of birth is 03/15/1988. I'm hoping to get in sometime next week if possible. I have a really bad cough that just won't go away.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, John Smith, date of birth March 15, 1988. Let me check Dr. Carter's availability for next week. Just one moment... Okay, it looks like she has an opening on Tuesday at 2:00 PM or Thursday at 10:00 AM. Which works best for you?",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 4.28,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Thursday at 10:00 AM sounds better. But if I may ask, why is it so difficult to get through on the phone? Is there something wrong with your phone system?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thursday at 10:00 AM it is. Your appointment is now scheduled. Regarding the phone lines, we have been experiencing a higher than usual call volume recently due to the flu season. We are working to improve the situation. Is there anything else I can assist you with today?",
+      "response_time": 5.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.77,
+        "integrity": 5.54
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6085d8b5",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.67,
+      "benevolence": 5.02,
+      "integrity": 5.25
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.48
+  }
+}

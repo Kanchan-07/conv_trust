@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some product recommendations. I'm browsing your 'Home Decor' section but it's so huge! Anything you can suggest?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on popular demand in the 'Home Decor' category, I can recommend our best-selling Moroccan-style lanterns and our range of minimalist wall art. Are you interested in either of those, or would you like me to narrow down the suggestions further based on a specific subcategory within Home Decor?",
+      "response_time": 5.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.03,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Wall art sounds good! But are these recommendations personalized to *me* at all? I bought a tapestry last week, and I definitely don't need more wall hangings.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the feedback! I am still under development, and currently, my recommendations are based on overall category popularity and not individual purchase history. I apologize that my suggestion overlaps with a recent purchase. Would you like me to filter out wall hangings and recommend other types of wall art, such as framed prints or canvas art?",
+      "response_time": 5.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.42,
+        "integrity": 5.74
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Framed prints would be great. But what algorithm are you actually *using* to determine 'popularity'? Is it just number of sales, or are you factoring in customer ratings, or what?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Currently, the 'popularity' metric primarily considers the number of sales within a given timeframe, weighted slightly by average customer rating. We are exploring incorporating more sophisticated metrics, such as customer reviews and return rates, in the future. I can now show you the most popular framed prints in the 'Home Decor' section.",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.23,
+        "integrity": 5.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_677a06a6",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.49,
+      "benevolence": 5.23,
+      "integrity": 5.67
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 5.88,
+    "latency_score": 2.48
+  }
+}

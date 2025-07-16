@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, this is so frustrating. We just got another batch of denials for claims submitted to payer X for CPT code 99213. The reason is 'not medically necessary'. How can that be? It's a standard established patient visit!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Denials for medical necessity can occur if the documentation submitted does not fully support the service billed according to the payer's clinical policies. For CPT 99213, common reasons might include lack of documented history, exam, or medical decision making complexity to justify that level of service for the patient's reported condition.",
+      "response_time": 2.26,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.83,
+        "benevolence": 2.19,
+        "integrity": 2.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, but shouldn't your system *catch* that *before* submission? Why is it only telling us *after* the denial? And more importantly, how can we prevent this *specific* 'not medically necessary' denial on future 99213 claims for *this payer*? Is there a flag or a rule I can set up?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Our system performs automated checks based on common edits, but predicting payer-specific medical necessity decisions requires interpretation of clinical notes against potentially complex and subjective payer policies, which isn't always feasible during initial processing. To address this payer's specific medical necessity denials for 99213, we recommend reviewing the payer's detailed medical policy for that code. While we don't have a direct pre-submission 'medical necessity' flag linked *specifically* to their subjective criteria, ensuring your documentation clearly supports all elements required for 99213 is key. We can assist with running reports on past denial patterns for that payer to identify trends.",
+      "response_time": 5.01,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.2,
+        "integrity": 5.35
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c3f47272",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.39,
+      "benevolence": 3.7,
+      "integrity": 3.75
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "disgust": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.61,
+    "latency_score": 3.87
+  }
+}

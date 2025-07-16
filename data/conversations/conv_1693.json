@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately, with a persistent headache. I'm also struggling to sleep. Can you give me some advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're experiencing fatigue, headaches, and sleep difficulties. While I can offer general health information, I'm not a medical professional, and this isn't a substitute for a doctor's visit.  Could you tell me more about your headache?  For example, how long have you had it, and where is the pain located?",
+      "response_time": 0.63,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.19,
+        "benevolence": 1.17,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "The headache started about a week ago, it's mostly in my forehead, and it feels like a dull ache. I've been taking over-the-counter pain relievers, but they barely touch it. I'm getting really frustrated!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. A persistent headache combined with fatigue and sleep problems can be very disruptive. Have you noticed anything that seems to trigger the headache, or make it worse? Also, could you describe your sleep patterns \u2013 how many hours do you usually sleep, and do you wake up feeling rested?",
+      "response_time": 1.91,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.35,
+        "benevolence": 2.37,
+        "integrity": 2.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I don't think there are any triggers, and I'm usually asleep for around 7-8 hours, but I always wake up feeling tired. My brain just feels foggy, and I can't concentrate. It's affecting my work. What could this be?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Based on your symptoms, it could be a number of things, including stress, dehydration, or even a vitamin deficiency. It's difficult to say definitively without a medical examination. However, some general advice includes ensuring adequate hydration, managing stress through relaxation techniques, and reviewing your diet to make sure you are consuming enough vitamins and minerals. Have you experienced any recent changes in your life that might be causing stress?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.69,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I've had a really challenging project at work, but it's not something new. Also, I know you're not a doctor, but if I told you all my symptoms and my medical history, would you be able to definitively tell me what's wrong?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Unfortunately, no. I am not able to definitively diagnose medical conditions, as I do not have access to your medical records and I am unable to conduct physical examinations or order tests. Diagnosis requires a professional with the ability to examine patients and analyse complex medical data. My responses are based on general health information and are not intended to replace professional medical advice. I strongly advise you to consult with a doctor to receive a diagnosis and discuss appropriate treatment options. They can assess all factors and provide a personalized treatment plan.",
+      "response_time": 1.61,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.2,
+        "benevolence": 2.7,
+        "integrity": 2.57
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I understand. Thanks for the information and for helping me to understand my symptoms better. I'll schedule a doctor's appointment. Appreciate it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5b6b16f8",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.42,
+      "benevolence": 2.48,
+      "integrity": 2.49
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 5,
+      "fear": 1
+    },
+    "response_quality_score": 2.82,
+    "latency_score": 5.6
+  }
+}

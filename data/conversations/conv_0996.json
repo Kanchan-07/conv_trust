@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about my bill. I was charged $150 this month, but my usual plan is only $100. I'm really confused and a little frustrated because this has happened before.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, I understand your frustration. I can definitely look into that for you. Can I please have your account number or the phone number associated with the account?",
+      "response_time": 0.56,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, one moment while I access your account. ... Alright, I see here that there was an additional charge of $50 for exceeding your data limit. It appears you used 10GB of data over your allotted amount.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 4.24,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's ridiculous! I haven't changed my usage habits at all. How can I be suddenly using so much more data? Is there any way to get that charge waived? This is really upsetting, I'm considering switching providers.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Let me check if there are any promotions or options to reduce your bill. ... Okay, I see that we can offer you a one-time credit of $25 towards the overage fee. Also, would you be interested in upgrading to a plan with more data to avoid future overage charges? We have a plan with 50% more data available for only $20 more per month.",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.84,
+        "benevolence": 2.53,
+        "integrity": 2.89
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, the $25 credit is helpful. I'm still annoyed about the extra charge, but I appreciate you finding a solution. I'll think about the plan upgrade. Thanks for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7cf23c90",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.5,
+      "benevolence": 2.59,
+      "integrity": 2.66
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "surprise": 2,
+      "anger": 1,
+      "neutral": 3,
+      "joy": 1
+    },
+    "response_quality_score": 2.94,
+    "latency_score": 5.28
+  }
+}

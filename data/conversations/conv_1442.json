@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, my smart coffee maker just completely stopped working. The screen is blank, and it won't respond to anything. I've tried unplugging and plugging it back in multiple times, but nothing. I'm so frustrated! I need my coffee!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try a few troubleshooting steps. First, can you confirm that the outlet you're using is functioning correctly? Try plugging another device into it to see if it powers on. Also, check the power cord for any visible damage.",
+      "response_time": 2.15,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.93,
+        "benevolence": 2.17,
+        "integrity": 2.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, the outlet works fine. I plugged in a lamp, and it lit right up. The power cord looks fine too, no visible damage. But still, the coffee maker is dead. Is there a hidden reset button or something? I've looked everywhere.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I am checking our knowledge base. There is no hidden reset button on your model. Have you tried holding the power button for a prolonged period, say 10-15 seconds? Sometimes that can initiate a hard reset. If that doesn't work, it's likely a hardware issue. Can you provide the model number so I can confirm the warranty status?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.3,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I did try holding the power button for that long, and nothing. Model number is CM-5000. Seriously, what are the chances of a brand new coffee maker just dying like this? And what about the water filter? Would a clogged filter cause the entire machine to stop working? It's a relatively new filter.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2a82fd4c",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.43,
+      "benevolence": 3.23,
+      "integrity": 3.29
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.64,
+    "latency_score": 4.54
+  }
+}

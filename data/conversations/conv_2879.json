@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to find a new laptop for my daughter for school. She needs something reliable for basic tasks like writing papers and browsing. My budget is pretty tight, maximum $500. It's so overwhelming trying to compare everything online, I just don't know where to start.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you find a suitable laptop within your $500 budget. For schoolwork like document editing and web browsing, you don't necessarily need high-end specifications. I'll look for options that offer good value and reliability in that price range. Based on our current inventory, some models that fit this description include the 'Chromebook Model X', the 'ValueBook 14', and the 'StudentLite'. These are typically well under $500. Would you like me to provide more details on any of these?",
+      "response_time": 5.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.43,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, those sound like possibilities. But what about storage? Some of these cheaper ones seem to have really small hard drives. Will 64GB or 128GB be enough for school papers and saving some photos or videos? And honestly, how long do these budget laptops *really* last? I'd hate to buy one and have it die in a year. Are you sure these recommendations aren't just the cheapest ones you have, not necessarily the best value?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Those are very good questions. For typical school tasks and document storage, 64GB or 128GB is often sufficient, especially if cloud storage services are used. However, if there's a need to store large video files or many photos locally, a model with at least 128GB would be preferable, or considering external storage later. Regarding longevity, budget laptops can vary. While we select models known for decent build quality at their price point, component lifespan can sometimes be shorter than premium devices. We aim to recommend options that balance cost and typical usage needs. The 'ValueBook 14', for instance, generally receives positive feedback for its durability in that price category. We prioritize options that meet your specified criteria while aiming for reliable performance, not just the lowest price.",
+      "response_time": 5.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.0,
+        "benevolence": 5.19,
+        "integrity": 5.82
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_79df6170",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.19,
+      "benevolence": 5.31,
+      "integrity": 5.52
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 5.7,
+    "latency_score": 1.75
+  }
+}

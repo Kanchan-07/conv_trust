@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #789456. The tracking hasn't updated in three days and it was supposed to be delivered yesterday. I'm getting really frustrated because I needed this package for a trip I'm taking tomorrow.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration. Let me look into order #789456 for you. One moment please... Okay, I see here that your package is currently at our regional sorting facility and is experiencing a slight delay due to unforeseen circumstances. I apologize for any inconvenience this may cause.",
+      "response_time": 0.56,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? That's not very helpful. Can you be more specific? And more importantly, can you guarantee it will arrive before I leave tomorrow morning? Otherwise, it's completely useless to me. What are my options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. While I cannot give specific details about the delay, I can offer to expedite the shipping once it leaves the facility, but I am unable to guarantee that it will arrive before your departure tomorrow. I can issue a refund for the shipping costs. Would that be acceptable?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.54,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, it's not ideal, but I guess a refund for the shipping is something. Yes, please go ahead and do that. And please, make sure it's actually expedited when it leaves the facility. Thank you.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ac3f678d",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.52,
+      "benevolence": 2.27,
+      "integrity": 2.25
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 2.99,
+    "latency_score": 5.58
+  }
+}

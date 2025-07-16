@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated. My landlord is trying to charge me for repairs that were definitely not my fault when I moved out. It feels completely unfair. What are my rights regarding this? Can they just do that?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand this is a frustrating situation. As an AI, I cannot provide legal advice. However, I can give you general information about tenant rights regarding security deposits and deductions for repairs. Laws vary significantly by location, so the specifics would depend on your state or local regulations. Could you tell me which state you're in?",
+      "response_time": 1.34,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.45,
+        "benevolence": 2.68,
+        "integrity": 2.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm in California. Specifically, Los Angeles. The worst part is, they sent me a list of deductions but it was way past the 21-day deadline the law mentions for California. Doesn't the landlord automatically lose the right to keep ANY of the deposit if they miss that deadline for sending an itemized list, even if the damage *was* legitimate? I read something about that online, but it was confusing.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "In California, Civil Code Section 1950.5 does generally require landlords to return a security deposit or provide an itemized statement of deductions within 21 days after the tenant vacates. Failure to comply with this timeframe can have consequences for the landlord. While a significant delay or failure to provide the statement *can* result in the landlord forfeiting the right to deduct for damages and owing the full deposit back, the exact outcome can sometimes depend on specific details of the case and the judge's interpretation. It's a complex area.",
+      "response_time": 1.34,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.3,
+        "benevolence": 2.46,
+        "integrity": 2.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, 'complex area' is not very helpful. So you're saying they *might* lose the right, but maybe not? That's frustrating, I just wanted a clear yes or no based on missing the deadline. But I guess the fact that missing the deadline *can* lead to them forfeiting it is useful to know. How do I even go about finding a lawyer who specializes in tenant issues like this without spending a fortune just on consultations?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_48f34bed",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.38,
+      "benevolence": 2.57,
+      "integrity": 2.75
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 2,
+      "disgust": 2
+    },
+    "response_quality_score": 2.59,
+    "latency_score": 6.16
+  }
+}

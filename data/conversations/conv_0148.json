@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week, order number #234987, and it still says 'processing'. What's going on? I need this package soon!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting support. I can certainly look into that for you. One moment while I access your order information. Okay, I see order #234987. It looks like it's currently being prepared for shipment and is estimated to ship out tomorrow. You should receive a tracking number then.",
+      "response_time": 3.32,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.83,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Tomorrow? Ugh, seriously? The website said 2-3 business days and it's already been 5! Is there any way to expedite the shipping once it finally ships?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, once the order has shipped, we are unable to expedite the shipping speed. However, I can add a note to your order that it's time-sensitive. This might prompt the shipping carrier to prioritize it, but I cannot guarantee faster delivery. Alternatively, if you are within our return window, you could refuse the shipment and place another order with expedited shipping options. Would you like me to add the note?",
+      "response_time": 1.66,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.94,
+        "integrity": 2.91
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, fine, add the note. But if it doesn't arrive by the end of the week, I'm returning it. Also, what's your policy on returns for damaged items? Just in case...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Understood. I've added a note to your order indicating it's time-sensitive. Regarding damaged items, we offer a full refund or replacement upon return of the damaged item with photographic evidence. Please see our detailed returns policy on our website under 'Returns & Exchanges'.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.02,
+        "benevolence": 1.0,
+        "integrity": 1.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I appreciate the help... I guess. Let's hope it gets here on time.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_04381fbb",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.31,
+      "benevolence": 2.59,
+      "integrity": 2.66
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "surprise": 2,
+      "joy": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 2.66,
+    "latency_score": 5.67
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready to start planning my retirement. I'm 35, make about $75,000 a year, and currently have about $10,000 in a 401k. Where do I even begin? This is so overwhelming!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your feelings; retirement planning can seem daunting at first. Let's break it down. First, we need to establish some goals. What age would you ideally like to retire, and what kind of lifestyle do you envision in retirement? Also, are you contributing the maximum amount that your employer will match to your 401k?",
+      "response_time": 4.11,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 4.3,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ideally, I'd like to retire around 60, but realistically, maybe 65. As for lifestyle, just comfortable \u2013 nothing extravagant. Traveling a bit, maybe. And no, I'm not maxing out my employer's match. I'm only contributing about 5%, which is what they match. Should I be doing more?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Generally, yes, contributing enough to get the full employer match is highly recommended; it's essentially free money! Based on your salary and desired retirement age, and assuming a fairly conservative investment strategy, you'll likely need to save significantly more to achieve your goals. Have you considered opening a Roth IRA in addition to maximizing your 401k match? Also, what is your risk tolerance when it comes to investment?",
+      "response_time": 4.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.74,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so more 401k contributions and a Roth IRA...got it. But what happens if the market crashes right before I retire? All my savings will disappear! How can I protect against that, and still have my investments grow enough?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c9a304d6",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 5.02,
+      "integrity": 4.88
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.77,
+    "latency_score": 3.28
+  }
+}

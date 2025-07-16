@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why a claim was denied for my patient, John Smith. The denial code is CO-29.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can certainly help you with that. CO-29 typically indicates the service isn't covered because it's considered experimental or investigational. Can you please provide the date of service and the specific CPT code for the denied service?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 4.18,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the date of service was 2024-03-15, and the CPT code is 99214. I'm frustrated because this is a routine office visit and it should be covered!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check the patient's insurance policy details for you. Based on the information provided, the policy doesn't have any indication of exclusion for routine office visits. However, the denial could be due to prior authorization requirements that weren't met. Can you confirm if prior authorization was obtained?",
+      "response_time": 2.27,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.97,
+        "benevolence": 2.17,
+        "integrity": 2.49
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, I'm pretty sure prior authorization isn't needed for a 99214. But, I'm unsure. What about the diagnosis code? Could that be the problem? The diagnosis code was M54.5 (Low back pain).",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good question. Let me cross-reference the CPT and diagnosis codes with the payer's guidelines. *Processing...* Okay, the combination of CPT 99214 and diagnosis code M54.5 does not appear to have any specific coverage restrictions. I'm not finding anything obvious. Are there any other claims from that same date?",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.85,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, actually. There was also a claim for physical therapy on the same date. The CPT code was 97110. Now, that's when it gets tricky... the patient had multiple appointments for this reason. Could the insurance be flagging the frequency? I am still a bit confused though.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question. It's possible the denial relates to the frequency of physical therapy sessions, especially if the policy has a limit on the number of visits covered within a certain timeframe. Reviewing the physical therapy claim details and the patient's treatment plan is crucial. Could you provide those details? Also, I recommend you contact the payer directly to inquire about the specific reason for denial of the office visit and any potential frequency limitations related to the physical therapy. This will give the clearest answer, and I cannot resolve this. However, I can help with the research and data analysis.",
+      "response_time": 4.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.22,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_292490a6",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.17,
+      "benevolence": 3.85,
+      "integrity": 4.0
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 6,
+      "anger": 2
+    },
+    "response_quality_score": 3.77,
+    "latency_score": 3.91
+  }
+}

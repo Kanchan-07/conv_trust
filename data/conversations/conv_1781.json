@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving. Any good food recommendations nearby? Preferably something not too expensive.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you share your current location? Also, what kind of food are you in the mood for?",
+      "response_time": 4.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.94,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in downtown and I'm open to anything, but really craving some good pasta. Something other than the usual chains. And, something affordable please! I just spent all my money on rent!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I have a few suggestions. There's 'Luigi's Little Italy' a few blocks from you. It's a local favorite with great reviews and affordable pasta dishes. I also see 'Pasta Paradise' offering a lunch special that might fit your budget. Alternatively, I can also look for other options that fit your criteria if neither of these options suit you.",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.87,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Pasta Paradise? I've never heard of it. What are the odds that the reviews online are actually real and not just a bunch of paid bots? I've been burned before with online reviews, you know?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair concern. I analyze reviews from multiple sources and try to filter out suspicious activity. For Pasta Paradise, the reviews are generally positive, with a mix of detailed feedback and mentions of specific dishes. However, I cannot guarantee that there are no fake reviews. The rating is 4.2 stars from 200+ reviews across different platforms. Would you like me to show you the detailed ratings?",
+      "response_time": 4.78,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.37,
+        "integrity": 5.92
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_420c746e",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 5.06,
+      "integrity": 5.17
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.13,
+    "latency_score": 3.21
+  }
+}

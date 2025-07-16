@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new games to play. I really enjoy RPGs, but I'm finding it hard to find anything new that catches my eye. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for RPGs, I can suggest a few titles. Have you played any of the following: The Witcher 3: Wild Hunt, Elden Ring, or Baldur's Gate 3?  I can provide more personalized recommendations if you tell me about games you've already enjoyed.",
+      "response_time": 5.18,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.0,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, yes, I've played all of those! And loved them, obviously. It's hard to find something that good again. I also like action RPGs and games with a good story. Something a bit more... unique? Not just the same old fantasy tropes.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that helps narrow it down. Considering you like action RPGs and unique stories, how about *Disco Elysium*? It\u2019s a detective RPG with a very distinct art style and narrative focus. Alternatively, *NieR:Automata* offers a very different take on action RPGs with a compelling story. Finally, are you interested in strategy RPGs? If so, *Divinity: Original Sin 2* or the *XCOM* series might appeal to you.",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.48,
+        "integrity": 3.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_33dbf152",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.02,
+      "benevolence": 4.74,
+      "integrity": 4.4
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.71,
+    "latency_score": 3.25
+  }
+}

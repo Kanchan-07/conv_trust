@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York (JFK) to Los Angeles (LAX) sometime in the middle of June. I'm flexible, but ideally I'd like to arrive in LA before June 20th. Help!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Understood. Let me check flights from JFK to LAX with arrival dates before June 20th. Do you have any preferred airlines or a budget in mind?",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.78,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No preferred airlines, and let's say... under $400 if possible. I'm starting to get a headache just thinking about this.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for flights from JFK to LAX arriving before June 20th, under $400. I'm seeing a few options with Spirit and JetBlue on June 15th and 16th that fit your budget. However, they may have additional fees for baggage. Would you like me to show you those?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.62,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Baggage fees... of course. Okay, show me the JetBlue options. And hey, while you're at it, how are these flights affected by potential air traffic controller shortages that are being talked about? That's the million-dollar question, isn't it?!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, displaying the JetBlue options for June 15th and 16th. Regarding potential air traffic controller shortages, it's difficult to predict the exact impact on specific flights. However, I can tell you that JetBlue is generally working to mitigate potential delays. It's advisable to check your flight status closer to the departure date for the most up-to-date information. Would you like me to show you the details of these flights, including potential change fees in case of delays?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.06,
+        "integrity": 4.17
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a58e298b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.26,
+      "benevolence": 3.82,
+      "integrity": 4.3
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.48,
+    "latency_score": 3.76
+  }
+}

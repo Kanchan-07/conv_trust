@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I'm looking for a new book recommendation. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you find a great book. To give you the best suggestion, could you tell me what genres you typically enjoy?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, right. I usually read thrillers. Like, psychological thrillers or suspense. But I'm kind of tired of the same old 'missing person' plot. Ugh, it's getting predictable. Anything fresh in that space, maybe something with a really clever twist?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. It can be frustrating when plots feel too familiar. For a psychological thriller with clever twists that go beyond the typical missing person storyline, I would recommend 'Before I Go to Sleep' by S.J. Watson or 'The Silent Patient' by Alex Michaelides. Both feature unique narrative structures and surprising reveals.",
+      "response_time": 2.28,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.0,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 'The Silent Patient'... I've seen that everywhere. Isn't that one of those books where the twist is so crazy it doesn't actually make logical sense when you think about it later? I hate that. Are these recommendations actually *grounded*?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Critical reception can vary regarding the plausibility of twists in psychological thrillers. While 'The Silent Patient' was very popular, opinions on its twist's execution differ. 'Before I Go to Sleep' focuses more on an amnesia plotline which some readers find quite compelling within its own logic.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.75,
+        "integrity": 4.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b34ce57d",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.14,
+      "benevolence": 4.92,
+      "integrity": 5.09
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "neutral": 2,
+      "joy": 1,
+      "disgust": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.64,
+    "latency_score": 3.94
+  }
+}

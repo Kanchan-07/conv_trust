@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into classic rock, but I'm getting bored of the same old stuff. Can you recommend some bands?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your interest in classic rock, I can recommend a few bands. Have you heard of The Black Keys, Rival Sons, or Greta Van Fleet? They all have a classic rock influence with a modern twist.",
+      "response_time": 4.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.91,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of The Black Keys, but not the others. I'll check them out. But, how do you define 'classic rock' anyway? That term feels so broad these days, and I get frustrated when recommendations are too generic.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question! My definition of 'classic rock' in this context is music primarily influenced by rock and roll of the 1960s and 70s, incorporating elements of blues, hard rock, and early forms of heavy metal. It's tricky, I agree. To refine your search, what aspects of classic rock appeal to you most? Is it the guitar riffs, the vocals, the song structures, etc. Knowing that will help me provide more tailored suggestions.",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.3,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. I really enjoy great guitar riffs and strong vocals. Anything with that focus is usually a winner for me. And I'm open to anything that *sounds* like it's got that classic rock energy, even if it's not strictly the 'classic rock' genre. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a79c49eb",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.61,
+      "integrity": 5.48
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.84,
+    "latency_score": 2.93
+  }
+}

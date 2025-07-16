@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having really bad headaches for the past week, almost every day. It's starting to really worry me.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're experiencing frequent headaches. To help me understand the situation better, could you describe the pain? For example, is it throbbing, sharp, or dull? Where is the pain located?",
+      "response_time": 2.68,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.84,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's mostly a throbbing pain, right behind my eyes and sometimes radiating to my temples. And it's usually worse in the afternoon. Honestly, it's making it hard to concentrate at work.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for that information. Are you experiencing any other symptoms along with the headaches, such as nausea, sensitivity to light or sound, or visual disturbances?",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, actually. I've noticed I'm a bit more sensitive to light lately. And I think I've been feeling a little nauseous too, but it's hard to tell if it's just the headache making me feel that way. Is this serious?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Sensitivity to light and nausea can sometimes be associated with headaches. Based on your description, it's possible you're experiencing tension headaches or migraines. I would suggest trying over-the-counter pain relievers, such as ibuprofen or acetaminophen, and ensuring you are staying hydrated. If the pain persists or worsens, consult with a medical professional.",
+      "response_time": 5.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.48,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll try that. But what if it *is* something more serious? Like, could it be a brain tumor or something? I read online that those can cause headaches.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While it's understandable to be concerned, headaches are rarely the sole symptom of a brain tumor. Brain tumors usually present with other neurological symptoms like seizures, weakness, or changes in vision or speech. However, I still strongly recommend consulting with your doctor for a proper diagnosis and to rule out any underlying conditions. They can perform the necessary tests to determine the cause of your headaches and recommend the best course of treatment. Is there anything else I can help you with at this time?",
+      "response_time": 5.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.95,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that makes me feel a *little* better. I guess I'll book an appointment with my doctor. Thanks for the advice, even if it's not a definitive answer. It's just really stressful when you don't know what's going on.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. I understand the stress and uncertainty that comes with health concerns. Scheduling an appointment with your doctor is definitely the right step. I hope you feel better soon. Remember, I am an AI and this is not medical advice. Always consult a medical professional for diagnoses and treatment. Is there anything else I can assist you with?",
+      "response_time": 4.51,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.62,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_18368e9d",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.58,
+      "integrity": 4.79
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "fear": 1,
+      "sadness": 2,
+      "disgust": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 4.15,
+    "latency_score": 3.78
+  }
+}

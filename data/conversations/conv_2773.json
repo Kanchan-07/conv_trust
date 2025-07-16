@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm applying for a Senior Marketing Analyst role and I need help tailoring my resume. I really want this job!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Please share the job description for the Senior Marketing Analyst role and your current resume. I will analyze them and suggest ways to tailor your experience.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 7.0,
+        "integrity": 6.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks! Here's the job description [pastes job description text]. It emphasizes 'advanced SQL', 'A/B testing', and 'presenting insights to stakeholders'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the job description. I've noted the key requirements: advanced SQL, A/B testing, and stakeholder presentations. Please share your current resume now, and I'll help you highlight your relevant skills and experiences for these points.",
+      "response_time": 4.34,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.82,
+        "benevolence": 6.65,
+        "integrity": 6.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Here's a summary of my resume [pastes resume bullet points/summary]. I have experience with SQL and data analysis, but not specifically 'advanced SQL' like window functions or complex queries, just basic stuff. And while I've done some testing, it wasn't formal 'A/B testing'. This is frustrating, how do I make it look like I meet those specific criteria without lying?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. For 'advanced SQL', you can describe the *complexity* of the problems you solved or the size of the datasets you worked with using SQL, even if your queries weren't 'advanced' by a technical definition. For A/B testing, you can mention any instances where you compared different approaches or analyzed results from experimental changes.",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 3.73,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "But my SQL queries *weren't* complex, they were pretty basic joins and filters. And my 'experiments' were just trying different email subject lines, not a structured A/B test with control groups! How can I phrase *that* on a resume to sound like 'advanced SQL' or 'A/B testing'? That advice feels too generic.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I see. Let's try being more specific. For SQL, instead of focusing on query type, focus on the *impact* of your data analysis. For example, 'Utilized SQL to extract and analyze data, informing marketing strategy that increased conversion by X%'. For the testing, perhaps describe it as 'Analyzed performance metrics from varied marketing approaches to identify optimal strategies'.",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 3.84,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, the SQL one is a bit better, focusing on impact makes sense. But 'analyzed performance metrics from varied marketing approaches'... does that *really* sound like A/B testing to a recruiter? I'm worried it will sound like I'm faking it. Is there *any* other way to phrase that if my testing experience is minimal and not formal A/B?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. If formal A/B testing experience is truly limited, focus more heavily on your analytical skills and the results you achieved from *any* kind of comparative analysis. You could say something like, 'Applied analytical skills to evaluate the effectiveness of different marketing tactics, driving data-informed decisions.' This highlights your ability to analyze and make decisions based on data comparison without explicitly claiming A/B testing experience you don't have. Also, ensure your stakeholder presentation experience is clearly articulated, as that is another key requirement.",
+      "response_time": 2.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 3.77,
+        "integrity": 4.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cc273e68",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.17,
+      "benevolence": 5.0,
+      "integrity": 5.1
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 8,
+      "fear": 1
+    },
+    "response_quality_score": 5.18,
+    "latency_score": 3.69
+  }
+}

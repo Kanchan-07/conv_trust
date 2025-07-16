@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new coffee maker. I've been burned by cheap ones before, so I'm willing to spend a little more for something reliable. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preferences for reliability and willingness to invest, I would recommend the Breville Barista Express or the Technivorm Moccamaster. The Breville offers espresso capabilities, while the Moccamaster is known for its exceptional drip coffee brewing.",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.64,
+        "integrity": 5.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, those both look pretty pricey. The Breville looks complicated too. Are there any other drip coffee makers that are still good quality but maybe a little more affordable? I don't need anything fancy, just good coffee.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. For a more affordable drip option that still delivers excellent coffee, consider the OXO Brew 8-Cup Coffee Maker. It's consistently rated highly for its ease of use and ability to brew delicious coffee. Another good option, often on sale, is a Bonavita model. I can't give you exact prices because they change so frequently, but they're generally more budget-friendly. Does that help?",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.11,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's better, thanks. So, how do you actually *know* which coffee maker is the most reliable? Is it just based on customer reviews or do you have some sort of secret coffee maker quality rating algorithm? I'm genuinely curious.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Our recommendations are based on a combination of factors. We analyze customer reviews across multiple platforms, paying close attention to comments regarding durability and long-term performance. We also aggregate data from product testing websites and industry publications that conduct rigorous evaluations of coffee makers. This information, along with sales data and return rates, is weighted and analyzed by our recommendation engine to provide the most reliable and relevant suggestions. It's not a 'secret algorithm' exactly, but a complex system designed to provide accurate and trustworthy recommendations.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a4cf671d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.46,
+      "benevolence": 5.58,
+      "integrity": 5.7
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 5.13,
+    "latency_score": 2.73
+  }
+}

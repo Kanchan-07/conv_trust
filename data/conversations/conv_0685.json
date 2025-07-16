@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with Dr. Ramirez.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Are you an existing patient?",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.48,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I am. My name is John Smith.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, Mr. Smith. And what is the reason for your visit today?",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 4.43,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's for my annual check-up and I've been feeling a bit more tired than usual lately.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I see. Let me check Dr. Ramirez's availability. One moment please... Okay, she has an opening on Tuesday the 15th at 10:00 AM or Thursday the 17th at 2:30 PM. Does either of those work for you?",
+      "response_time": 2.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.45,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, those are both terrible. Is there anything else, maybe later in the month? I really can't miss work.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me see... Dr. Ramirez has availability on the 29th at 11:00 AM. Will that work?",
+      "response_time": 0.65,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, the 29th at 11:00 AM is perfect. Quick question - Does Dr. Ramirez usually run on time? Last time I waited over an hour!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "While we always strive to keep appointments on schedule, unexpected delays can sometimes occur. We appreciate your patience. I have scheduled you for November 29th at 11:00 AM. You will receive a confirmation email shortly. Is there anything else I can help you with today?",
+      "response_time": 4.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.87,
+        "benevolence": 5.96,
+        "integrity": 5.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ed5e4af3",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.7,
+      "benevolence": 4.06,
+      "integrity": 3.5
+    },
+    "engagement_score": 4.44,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.92,
+    "latency_score": 4.45
+  }
+}

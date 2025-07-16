@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'd like to schedule an appointment with Dr. Ramirez.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Are you an existing patient of Dr. Ramirez?",
+      "response_time": 2.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 4.03,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I am. My name is Jane Doe, and my date of birth is 01/15/1988.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. One moment while I pull up your record... Okay, I see it here. What is the reason for your visit today?",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I need a check-up and also want to discuss some concerns about persistent fatigue. It's been going on for months now, and I'm getting worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Let me check Dr. Ramirez's availability for the next few weeks. We have an opening on October 26th at 10:00 AM, or November 2nd at 2:30 PM. Would either of those work for you?",
+      "response_time": 1.65,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.9,
+        "benevolence": 2.58,
+        "integrity": 2.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, those are both bad days for me. Anything earlier in October? I'd really like to see her sooner rather than later.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me see... unfortunately, those are the only two general check-up slots available for the next month with Dr. Ramirez. We do have an opening with Dr. Lee on October 18th at 9:00 AM. Would you like me to check that for you?",
+      "response_time": 2.45,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.7,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, okay, October 18th at 9:00 AM with Dr. Lee... is Dr. Lee familiar with my medical history, or will I have to explain everything from scratch?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Dr. Lee will have access to your full medical record from our system. They'll be able to review everything before your appointment. Does that time work for you then?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.55,
+        "integrity": 5.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dc8bfa2c",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.28,
+      "benevolence": 3.37,
+      "integrity": 3.49
+    },
+    "engagement_score": 4.51,
+    "emotion_distribution": {
+      "neutral": 7,
+      "fear": 1,
+      "sadness": 2
+    },
+    "response_quality_score": 3.58,
+    "latency_score": 5.32
+  }
+}

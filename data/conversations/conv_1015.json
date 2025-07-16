@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight and hotel for a trip to Cancun. I'm getting so overwhelmed looking at all these websites!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you with that. To get started, could you tell me your desired travel dates and the number of travelers?",
+      "response_time": 5.21,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure. I'm looking to go from December 15th to December 22nd. And it will be two adults.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, December 15th to December 22nd for two adults. Do you have any preferences regarding airlines or hotel type? For example, do you prefer non-stop flights or a specific hotel chain?",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.71,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Non-stop flights would be ideal, and I'd like to stay at an all-inclusive resort, preferably one that's adults-only. I saw one called Excellence Playa Mujeres, but it seems pricey. Is there anything comparable?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, understood. I'm checking for non-stop flights and adult-only all-inclusive resorts comparable to Excellence Playa Mujeres. One moment... Okay, I'm finding a few options. How about Secrets The Vine Cancun? It's showing as slightly less expensive and has similar reviews. Alternatively, there is Live Aqua Beach Resort Cancun, but I am not sure if this is adults-only or not.",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.05,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Live Aqua isn't adults-only, I already looked at that one. What's the price difference between Excellence Playa Mujeres and Secrets The Vine? And can you tell me, if I book now, what the cancellation policy is like, given everything that's been going on with travel lately?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright, checking the price difference and cancellation policies... Excellence Playa Mujeres for those dates is coming in at approximately $4500 total. Secrets The Vine is around $3800. The cancellation policy varies depending on the specific package and booking site. In most cases, you can get a full refund if you cancel at least 30 days prior to your arrival. However, some discounted rates may be non-refundable. Could you tell me where you would like me to check for the best cancellation policy?",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.36,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, $700 is a pretty big difference. Okay, check Expedia for the cancellation policy on Secrets The Vine. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Okay, checking Expedia for Secrets The Vine Cancun, December 15th to 22nd, for two adults... On Expedia, it appears they are offering free cancellation until November 15th. After that, you'd be charged one night's stay. Does this sound acceptable to you? Is there anything else I can assist you with at this time?",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.61,
+        "integrity": 3.74
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cfa92a93",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.55,
+      "integrity": 4.53
+    },
+    "engagement_score": 4.43,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 9
+    },
+    "response_quality_score": 5.01,
+    "latency_score": 3.7
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight and hotel for a vacation. I want to go somewhere warm in January. I'm flexible on the location, but I'd prefer something with a nice beach.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! To narrow things down, what's your budget like for this trip, and how many days are you planning to travel for?",
+      "response_time": 2.86,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.47,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd like to keep it under $3000 total for two people, including flights and hotel. And we're thinking of a 5-night trip. Somewhere easy to get to from Chicago would be ideal.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Based on your preferences, I see some good options in Cancun, Mexico and Punta Cana, Dominican Republic. I'm showing packages at all-inclusive resorts in Punta Cana for around $2500 for 5 nights including flights. Would you like me to explore those further?",
+      "response_time": 5.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.28,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds promising! But are there any hidden resort fees I should be aware of? I've been burned by those before. And what's the cancellation policy like in case something comes up?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Resort fees can be tricky. I am showing that the resorts in this package do not list any mandatory resort fees, but fees for certain activities (like motorized water sports) might apply. I would recommend contacting the resort directly to confirm. As for cancellation, that depends on the specific package you choose; generally, there's a fee for cancelling closer to the date of travel, but this is package dependent. Can you give me the name or ID of a package you would like me to check?",
+      "response_time": 4.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.65,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see one that's called \"Luxury Getaway at Excellence Punta Cana\". Can you check the cancellation policy for that one? This is getting a little confusing... all the different options are making it hard to decide.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly! For the \"Luxury Getaway at Excellence Punta Cana\" package, cancellations made more than 30 days prior to arrival receive a full refund, minus a $50 processing fee. Cancellations made between 15 and 29 days prior incur a penalty of one night's stay plus the $50 fee. Cancellations made within 14 days are non-refundable. Does this help you make a decision, or would you like me to provide additional options to consider?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.14,
+        "integrity": 1.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c8915555",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.39,
+      "benevolence": 4.13,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "joy": 1,
+      "anger": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 4.26,
+    "latency_score": 4.17
+  }
+}

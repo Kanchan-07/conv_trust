@@ -1,0 +1,121 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hello, I'm having trouble with my new smart toaster. It won't toast the bread properly, and it keeps giving me error messages.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I am sorry to hear you're having issues with your smart toaster. Could you please provide me with the specific error messages you're seeing? Also, what kind of bread are you using?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "The error message says 'Heating element failure'. I've tried white bread, wheat bread, even bagels \u2013 nothing works! This is incredibly frustrating, it's a brand new toaster!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on the error message, it sounds like there might be a problem with the heating element. Let's try a quick reset. Unplug the toaster from the power outlet, wait for 60 seconds, and then plug it back in. Does that resolve the issue?",
+      "response_time": 0.57,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.46,
+        "benevolence": 1.0,
+        "integrity": 1.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've done that. Still getting the same error. Ugh. Is there anything else I can try, or is this thing just broken?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me consult my knowledge base... Okay, if the reset didn't work and you're still getting the 'Heating element failure' error, it's likely a hardware issue. To confirm, can you check the serial number on the bottom of the toaster? I'll need that to check your warranty status and explore replacement options.",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 3.72,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, the serial number is TST-42-Alpha-789. What are my options now? And why is the heating element failing in a brand new product? Is there a common manufacturing defect with these?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the serial number. It seems your toaster is still covered under warranty. Regarding the heating element failure, it's possible there was a manufacturing defect, or it could be due to a power surge. To proceed, we can offer a full replacement. Would you like me to initiate that process for you? I am afraid I do not have information on specific manufacturing defects.",
+      "response_time": 2.29,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.68,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please initiate the replacement. Thank you for your help! That's a relief.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_44fe96ab",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.47,
+      "benevolence": 2.35,
+      "integrity": 2.67
+    },
+    "engagement_score": 5.35,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 2,
+      "disgust": 1,
+      "neutral": 2,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.58,
+    "latency_score": 5.61
+  }
+}

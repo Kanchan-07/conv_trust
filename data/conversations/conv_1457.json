@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm hoping to get some legal advice regarding a potential breach of contract. I'm not sure where to start.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can certainly provide some general information and guidance. To start, can you please briefly describe the contract and the nature of the alleged breach?",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.64,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I hired a contractor to renovate my kitchen. The contract specified a completion date, but they're way behind schedule, and the quality of their work is terrible. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on your description, you may have grounds for a breach of contract claim due to failure to perform and potentially, substandard workmanship. Did the contract outline any specific remedies for delays or poor quality? For instance, were there penalty clauses?",
+      "response_time": 0.63,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, there was a clause about a penalty for each day past the completion date. But honestly, I'm more concerned about getting the kitchen finished properly. What are my options in terms of, like, getting the contractor to actually fix things?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Your options include several paths. You could send a formal 'Notice of Breach,' outlining the specific deficiencies and demanding they be rectified within a reasonable timeframe. If they fail to do so, you could pursue legal action. However, before doing so, consider mediation or arbitration, which are often more cost-effective. Keep records of all communications and the issues with the work. ",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.9,
+        "integrity": 5.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But what if the contractor simply refuses to cooperate, even after I send a formal notice? What legal recourse do I have then? I'm worried about the cost of pursuing legal action.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the contractor fails to remedy the breach after being notified, you could file a lawsuit. Depending on the amount of damages, this could be in small claims court or a higher court. Damages you could claim include the cost to repair or complete the work, any expenses incurred because of the delay (such as eating out), and potentially, any consequential damages outlined in the contract. However, I am not able to provide the cost of this legal action. This can fluctuate.",
+      "response_time": 1.62,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.78,
+        "benevolence": 2.48,
+        "integrity": 2.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, that's a lot to consider. It sounds complex. What would be the difference between mediation and arbitration, practically speaking?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Mediation is a non-binding process where a neutral third party helps facilitate a settlement. Arbitration is more formal, and the arbitrator's decision is typically binding, like a judge's. Think of mediation as more collaborative and arbitration as more decisive. Consulting with a lawyer would be the best way to assess your situation.",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.81,
+        "integrity": 4.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9954879c",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.51,
+      "benevolence": 3.37,
+      "integrity": 3.4
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "anger": 2,
+      "fear": 1
+    },
+    "response_quality_score": 3.07,
+    "latency_score": 5.04
+  }
+}

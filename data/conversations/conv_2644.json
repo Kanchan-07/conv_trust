@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a follow-up appointment.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Which doctor would you like to see, and for what reason is the follow-up?",
+      "response_time": 5.32,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's with Dr. Evans for my annual check-up review. I need something in the next two weeks, preferably in the late afternoon or early evening.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for Dr. Evans' availability for an annual check-up review appointment within the next two weeks, focusing on late afternoon or early evening slots. I see an opening on Tuesday, [Date + 8 days], at 4:30 PM and another on Thursday, [Date + 10 days], at 5:15 PM. Do either of those work for you?",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 4.29,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Tuesday is really difficult, I have a standing meeting. And Thursday at 5:15 is cutting it close. Is there anything available the following week? Or maybe a bit earlier on Thursday?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, those times didn't suit you. Let me check the following week for Dr. Evans' availability in the late afternoon/early evening. Looking at the week starting [Date + 14 days]... I see an opening on Monday, [Date + 15 days], at 3:45 PM and Friday, [Date + 19 days], at 4:00 PM.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.4,
+        "benevolence": 1.23,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Monday at 3:45 is too early. Friday at 4:00 PM is possible, I guess. But honestly, Dr. Evans used to have evening hours until 6 or 7 PM sometimes. Why are there never any appointments after 5 PM showing up anymore?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Doctor schedules can change over time due to various factors including clinic capacity and patient demand distribution. The times I am showing you are the currently available slots loaded into the system for your requested criteria. Would you like me to explore other doctors who might have later availability for an annual review?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.77,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, I really prefer Dr. Evans. Okay, let's look at that Friday at 4:00 PM slot again. Is that definitely the latest available with him in the next two weeks? And just for an annual review, nothing requiring special equipment or anything?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Confirming the details. Yes, the Friday, [Date + 19 days], at 4:00 PM slot is currently the latest available appointment with Dr. Evans within the next two weeks for an annual review. It is a standard slot and should not require special equipment beyond a typical check-up. Shall I proceed with booking this appointment for you?",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.69,
+        "integrity": 6.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_40e6f7a5",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.47,
+      "benevolence": 4.4,
+      "integrity": 4.23
+    },
+    "engagement_score": 4.73,
+    "emotion_distribution": {
+      "neutral": 9,
+      "sadness": 1
+    },
+    "response_quality_score": 4.22,
+    "latency_score": 4.26
+  }
+}

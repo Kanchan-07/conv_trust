@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated! I ordered a new coffee maker last week, and the tracking still says 'label created.' Has it even shipped yet?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me look into that for you. Could you please provide your order number?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.11,
+        "benevolence": 1.0,
+        "integrity": 1.27
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #12345ABC. While you're at it, can you tell me why your shipping is so slow these days? I thought I paid for express shipping.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've located order #12345ABC. It appears there was a slight delay at our distribution center due to unforeseen circumstances. The package was shipped earlier today and is now en route. The tracking should update within 24 hours. Regarding the shipping speed, let me check the order details to confirm the shipping method selected. Unfortunately, I am not able to confirm if express shipping was selected. Would you like to request a refund for the shipping cost?",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.79,
+        "integrity": 3.88
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7040b913",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.44,
+      "benevolence": 2.4,
+      "integrity": 2.58
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 2.52,
+    "latency_score": 5.23
+  }
+}

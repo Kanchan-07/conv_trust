@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help writing a resume. I've been out of work for a while and I'm feeling a bit lost.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To start, what industry are you targeting, and what kind of roles are you hoping to apply for? Knowing your desired job type will help me tailor the resume advice effectively. We can start with a template or revise an existing one. Also, do you have a current resume you can share?",
+      "response_time": 4.51,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.67,
+        "integrity": 6.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm aiming for project management positions, ideally in tech. I have a resume, but it's really old and I'm not sure it's any good. The formatting is awful, and I'm not sure what keywords to even include anymore. Can you help with that?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, I can help! Project management in tech is a competitive field. Keywords are crucial, so let's work on that. Please provide your current resume if you have it. If not, let's start by identifying common keywords and skills. Here are some examples:\n\n*   Agile\n*   Scrum\n*   Budget Management\n*   Risk Management\n*   Stakeholder Management\n\nDo any of those apply? What are your key project management accomplishments? Also, how do you feel about creating a skills section? Do you want to put a summary section at the top?",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.2,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, this is helpful. I have all of those skills. My biggest frustration is that my employment history has gaps. I was unemployed for a year while I was taking care of a family matter. How do I explain that without making it sound like I was lazy or someone will automatically dismiss my application?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Addressing employment gaps effectively is key. Here's a strategy: \n\n1.  **Be Honest, but Concise:** In a cover letter or a resume's summary section, you can briefly explain the gap. For example, \"Career break to focus on family responsibilities.\" Avoid providing extensive personal details. \n2.  **Focus on Skills:** Highlight how your skills remain relevant. Frame your responsibilities as being similar to project management (e.g., managing household budgets, scheduling, and conflict resolution). \n3.  **Emphasize Professional Development:** If you used the time to take courses, volunteer, or upskill, be sure to list that on your resume. This demonstrates your continued interest and engagement in your field. If the interviewer asks about the gap, frame it as a choice to take care of a family matter and focus on your preparedness to rejoin the workforce. Let me know if that's helpful. ",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.54,
+        "integrity": 5.53
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5abc6cfa",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 6.09,
+      "benevolence": 5.8,
+      "integrity": 6.1
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 6.23,
+    "latency_score": 3.71
+  }
+}

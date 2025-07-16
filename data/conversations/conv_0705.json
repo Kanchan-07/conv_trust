@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week and it still hasn't shipped. Order number is #12345.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. I'm looking into order #12345 for you now. Can you please confirm the email address associated with the order?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.6,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's myemail@example.com. This is really frustrating, I needed this package by today.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see your order. It appears there was a slight delay due to a backlog in our warehouse. It is scheduled to ship out tomorrow. You should receive it within 2-3 business days after that.",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.25,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tomorrow? That's not good enough! Is there anything you can do to expedite the shipping? I'm paying for Prime shipping, after all.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I cannot guarantee expedited shipping beyond what Prime already offers, I can offer you a 10% discount on your next purchase as compensation for the delay. Would that be acceptable?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.13,
+        "benevolence": 1.0,
+        "integrity": 1.21
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, I guess that's something. Okay, but how does that discount work? Will it automatically apply?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, a discount code will be generated and sent to your email address (myemail@example.com) within the next few minutes. You can apply it at checkout on your next order. The code will be valid for 6 months. Is there anything else I can help you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.04,
+        "benevolence": 1.0,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "I think that's all. Thanks for the help... I hope the package actually ships tomorrow!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_53ec1fc7",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.26,
+      "benevolence": 3.21,
+      "integrity": 3.36
+    },
+    "engagement_score": 4.56,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 4,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.32,
+    "latency_score": 5.36
+  }
+}

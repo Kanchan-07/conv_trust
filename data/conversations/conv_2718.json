@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm feeling like watching a sci-fi movie tonight. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Sci-fi is a great choice. Here are a few popular and critically acclaimed sci-fi movies: 'Dune' (2021), 'Blade Runner 2049' (2017), and 'Inception' (2010). Have you seen any of those?",
+      "response_time": 4.38,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.67,
+        "benevolence": 6.98,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen all those, unfortunately. Good suggestions, but I was hoping for something a bit less mainstream, maybe? Like something really thought-provoking, maybe older or more niche? Definitely no superhero stuff.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, exploring deeper cuts. How about 'Brazil' (1985), 'Solaris' (1972), or 'Primer' (2004)? These are known for being quite unique and thought-provoking within the genre.",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 4.19,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 'Brazil' and 'Solaris' are classics, but 'Primer'... I tried watching that once and just got completely lost. It was kinda frustrating how confusing it was! How do you even recommend something like 'Primer' based on 'thought-provoking'? It feels more like 'intentionally opaque'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies if 'Primer' was too dense! It's often recommended for its complex narrative, which some find thought-provoking, but I understand it can also be challenging. Recommending based on subjective terms like 'thought-provoking' or 'niche' can be difficult as perception varies greatly. Let's try a different angle: focused on psychological sci-fi. Have you seen 'Gattaca' (1997) or 'Ex Machina' (2014)?",
+      "response_time": 2.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.4,
+        "integrity": 3.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f60296f8",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 5.19,
+      "integrity": 5.09
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.68,
+    "latency_score": 4.01
+  }
+}

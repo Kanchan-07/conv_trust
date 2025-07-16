@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some grocery recommendations for the week. My budget is pretty tight, only about $50 for one person. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! A $50 budget for groceries for one person for a week is definitely achievable. To give you the best recommendations, could you tell me a little more about your dietary needs or preferences? Are there any foods you absolutely want to include or avoid? Do you plan on cooking most meals at home?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.3,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I just need general ideas right now, I didn't expect a whole questionnaire! Just assume a standard diet, no major restrictions, and yes, I'll be cooking. My main struggle is figuring out how to get enough protein and vegetables without blowing the budget. It feels impossible sometimes.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand the frustration! Balancing cost and nutrition can be tricky. For protein on a budget, consider options like lentils, beans, eggs, and chicken thighs, which are typically cheaper than other cuts. For vegetables, look for seasonal produce, root vegetables like potatoes and carrots, or frozen vegetables which are often more economical and last longer. Planning meals around these staples can help stretch your budget while ensuring you get necessary nutrients. Focus on simple, versatile ingredients.",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.96,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's... helpful, I guess. 'Focus on simple, versatile ingredients' feels a bit vague though. Like, what *specifically* should I buy to make, say, 5 dinners, 5 lunches, and 7 breakfasts within that $50? I need more concrete examples, not just categories.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9434d088",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 5.13,
+      "integrity": 4.65
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.01,
+    "latency_score": 3.95
+  }
+}

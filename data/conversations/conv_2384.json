@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Smith. I'm a bit frustrated; I keep getting sent to voicemails when I call the clinic directly.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration. I can certainly help you schedule an appointment with Dr. Smith. To start, can you please confirm your full name and date of birth?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.45,
+        "benevolence": 1.25,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, and my date of birth is 01/15/1980. But, uh, I actually had a question. I'm also due for some blood work. Can I get that done during the check-up, or do I need a separate appointment?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question, Jane. Let me check. *pauses* Okay, it looks like Dr. Smith typically orders blood work as part of the annual check-up. However, to confirm, are you requesting any *specific* blood tests? Also, please note that depending on availability, the duration of the appointment might be affected.",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.99,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, nothing specific, just the usual. Okay, sounds good. Let's book it then. What dates and times are available? I'm usually free after 2 PM on weekdays.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5cbff67c",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.65,
+      "benevolence": 2.62,
+      "integrity": 2.45
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 2.59,
+    "latency_score": 5.5
+  }
+}

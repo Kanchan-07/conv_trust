@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner. Somewhere with good food, but not too pricey. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. To give you the best recommendations, could you please tell me what kind of cuisine you enjoy and the date and time you'd like to book for? Also, how many people will be dining?",
+      "response_time": 5.4,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I'm flexible on the cuisine, but Italian or maybe something Mediterranean would be nice. It's for two people, this Saturday, around 7:30 pm. Somewhere in the city center ideally.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. I found a couple of Italian restaurants with availability for Saturday at 7:30 pm for two people in the city center. One is 'Luigi's' and the other is 'Bella Notte'. Would you like me to check which one has the better reviews?",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.46,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Luigi's sounds familiar. I vaguely remember reading something negative about their service... What's the most recent review data available? And can you somehow guarantee their tables aren't packed with other bookings?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I can provide you with the most recent reviews for Luigi's, which seem to be mixed. However, I cannot guarantee their table availability, as it changes by the minute. Please allow me a moment to check availability. If you'd like to proceed, I will book you a table.",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.74,
+        "integrity": 4.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a23047e1",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.87,
+      "benevolence": 5.07,
+      "integrity": 5.03
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 5.44,
+    "latency_score": 4.13
+  }
+}

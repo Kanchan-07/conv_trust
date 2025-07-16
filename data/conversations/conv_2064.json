@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm incredibly frustrated. My bill this month is way higher than usual, and I have no idea why. Can someone please help me understand this?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely help you with that. Can you please provide your account number so I can access your billing details and investigate the charges?",
+      "response_time": 4.32,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.73,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my account number is 1234567890. The bill shows a charge for 'premium services' that I definitely didn't sign up for. How can I get this removed, and more importantly, how can I prevent this from happening again? What's the actual cost breakdown?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. Upon review, it appears you were inadvertently subscribed to the premium service. I've removed the charge and issued a refund for the current month. To prevent future issues, I've also unsubscribed you from this service and will set up a notification for you regarding your subscription. Regarding the breakdown, there appears to be a small error on the bill itself, the charges are calculated as: Standard rate $25.00 + Premium services $15.00. - $15 Refund. - This gives you a total of $25.00. Is there anything else I can assist you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.4,
+        "integrity": 1.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1a0b7d0a",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.23,
+      "benevolence": 3.57,
+      "integrity": 3.66
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 2.86,
+    "latency_score": 5.09
+  }
+}

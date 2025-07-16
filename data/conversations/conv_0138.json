@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really struggling with this calculus problem. It's asking me to find the derivative of f(x) = (x^2 + 1) / (x - 2). I keep getting it wrong.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It looks like you'll need to use the quotient rule. Do you remember the formula for that?",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 3.89,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, vaguely. I think it's something like (u'v - uv') / v^2, but I always mix up which one comes first. And what's u and v in this case anyway?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're close! The quotient rule is actually (v*u' - u*v') / v^2. In your function, let u = x^2 + 1 and v = x - 2. So, what's the derivative of u (u') and the derivative of v (v')?",
+      "response_time": 1.72,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.25,
+        "benevolence": 2.72,
+        "integrity": 2.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, if u = x^2 + 1, then u' is 2x. And if v = x - 2, then v' is just 1. So... ( (x-2)(2x) - (x^2 + 1)(1) ) / (x-2)^2 ? Is that right? It still looks kinda messy...",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, that's correct! Now you can simplify the numerator by expanding and combining like terms. Let me know what you get after simplifying.",
+      "response_time": 2.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.45,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, after expanding and simplifying, I got (2x^2 - 4x - x^2 - 1) / (x-2)^2, which simplifies further to (x^2 - 4x - 1) / (x-2)^2. Phew! I think I finally got it. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fd0aa74d",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.37,
+      "benevolence": 3.69,
+      "integrity": 3.39
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 2,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.55,
+    "latency_score": 5.1
+  }
+}

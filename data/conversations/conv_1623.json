@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some fashion recommendations, but I'm on a really tight budget. Think, like, $100 total for an outfit. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! To give you the best recommendations, could you tell me what kind of outfit you're looking for? Casual, work, something else? And what's your general style preference?",
+      "response_time": 5.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.81,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I need something for a casual date night. Something cute, but also not too fussy. And, honestly, I have no idea what my style is! I just want to look good without spending a fortune. I'm so confused by all the options.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, date night, casual, cute, under $100. That's doable! Based on average prices, you could probably get a top, bottoms, and maybe even some accessories. Would you prefer jeans, a skirt, or something else for the bottoms? And what stores do you usually shop at? Also, how can I factor in different sizes and body types? My recommendations might be off if I don't know this crucial information.",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 3.8,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a really good point! I'm a size 6, and I usually shop at H&M or Target. I'd lean towards jeans, maybe a cute top, and if there's room, some earrings. Surprise me! And thanks for acknowledging the size thing, it makes this process a lot easier.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9ad40c1a",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.79,
+      "benevolence": 4.8,
+      "integrity": 4.95
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.94,
+    "latency_score": 2.86
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some financial planning advice. I'm a bit overwhelmed, to be honest.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. Financial planning can seem daunting. I can certainly help guide you. To start, what are your primary financial goals? Are you saving for retirement, a home, or something else?",
+      "response_time": 2.64,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.15,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Retirement is definitely a big one. I'm in my late 30s and haven't saved nearly enough. Also, maybe a down payment on a house eventually. Ugh, it feels like I'm starting from scratch.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's a common situation. We can create a plan. First, let's assess your current financial situation. Could you provide some information about your income, debts, and current savings?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.73,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I make about $80,000 a year. I have about $5,000 in savings and $20,000 in student loan debt. Also, a car loan with about $10,000 remaining. It's all a bit embarrassing, to be honest.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you for sharing that information. Based on the data provided, here is an overview of some personalized advice: Firstly, we need to address your debt situation. Consider focusing on the student loan with a higher interest rate first. Then, build an emergency fund, ideally with 3-6 months of living expenses. After that, let's start contributing to a retirement account. Let me know if you have any questions about these steps.",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.8,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That all sounds good, but how do I even start saving for retirement with my current debt load and small savings? I feel like I'm missing something.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. The key is to balance debt repayment with retirement savings. This involves budgeting carefully to identify areas where you can reduce expenses. Perhaps we can develop a budget outline. Also, can you provide details about your employer's 401k matching policy if any?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 4.48,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "My employer matches 50% of contributions up to 6% of my salary. So, if I put in 6%, they match 3%? Wow, that changes things. I wasn't doing that before because of the debt. Okay, I think I get it now. I feel a bit better, thanks!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, that is correct. Contributing up to the match is crucial. Remember, compounding is a powerful tool in retirement planning. I recommend reviewing the available funds in your 401k. We can discuss investment options further if you'd like. I'm glad I could help! Please let me know if any other questions arise.",
+      "response_time": 3.57,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.81,
+        "integrity": 5.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_58b321bb",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.79,
+      "integrity": 4.67
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 1,
+      "sadness": 3,
+      "neutral": 3,
+      "joy": 1
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 4.15
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm getting really nervous about this interview. Can you help me prepare? I'm interviewing for a project manager position.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can definitely help. Let's start with some common interview questions. How would you describe your project management style?",
+      "response_time": 4.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.87,
+        "integrity": 5.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's a tough one. I guess I'd say I'm pretty collaborative, but also results-oriented. Is that too generic?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's a good start! To make it more impactful, try providing a specific example of a time you demonstrated those qualities. Perhaps a project where your collaborative approach led to a successful outcome and how it impacted results.",
+      "response_time": 5.32,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.13,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if they ask me about a time I failed? I always blank on those. What's a good way to answer that without sounding completely incompetent?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Frame it as a learning experience. Briefly describe the situation, acknowledge your role in the failure, and then focus on what you learned and how you applied that lesson to future projects. For example, you could say: 'While working on project X, we missed a key deadline because of Y. I learned the importance of Z, and since then, I've implemented A in my workflow to prevent similar issues.' Does that clarify things?",
+      "response_time": 5.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.41,
+        "integrity": 5.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4203b9f1",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.47,
+      "integrity": 5.16
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.51,
+    "latency_score": 2.34
+  }
+}

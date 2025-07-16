@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some career advice. I'm feeling a bit lost and unsure what direction to take.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. It's completely normal to feel that way. To best assist you, could you tell me a little about your current situation? For example, what kind of work experience do you have and what are you passionate about?",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.64,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I've been working in customer service for the past five years, which I'm honestly pretty burnt out on. It's just not challenging and I feel like I'm not using my potential. I'm interested in something more creative, maybe something with writing or design, but I don't know where to start!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see. Customer service can be demanding. Based on your interests, it sounds like you're looking for a career change.  Let's explore some options. Have you considered fields like technical writing, UX writing, or even graphic design? These often require strong communication and problem-solving skills that you likely developed in customer service.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.13,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "UX writing sounds interesting. But how do I even begin to transition into a field like that? I have zero experience and I'm worried I'd be starting from scratch.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Transitioning to a new field can be daunting. A good starting point would be to build a portfolio. You could create sample UX writing projects, perhaps redesigning the user interface of a website or app. There are also online courses and bootcamps that can provide foundational skills. Would you like me to provide some links to relevant resources?",
+      "response_time": 4.16,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.26,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds helpful. But honestly, how realistic is it that I'll get a job in UX writing without a relevant degree or any real experience?  It seems like it might be a long shot.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a fair question and a very important one. While a degree can certainly help, it's not always a deal-breaker. Building a strong portfolio showcasing your skills, networking within the UX community, and highlighting transferable skills from your customer service background (such as communication, problem-solving, and user empathy) will significantly increase your chances. It's also about demonstrating a genuine passion for the field. It won't be easy, but it's definitely achievable with effort and persistence. Would you like me to research companies hiring junior UX writers to understand their requirements?",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.55,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cc1d00de",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.14,
+      "benevolence": 4.39,
+      "integrity": 4.25
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "fear": 2
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 4.03
+  }
+}

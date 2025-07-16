@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help finding a hotel for my upcoming trip.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. To get started, could you please tell me the destination, your preferred check-in and check-out dates, and the number of guests?",
+      "response_time": 5.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.42,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a hotel in Paris. I need to check in on September 10th and check out on September 15th. It's just for myself, one adult.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Paris, September 10th to 15th, one adult. I have found numerous hotels matching these criteria. Do you have any specific preferences regarding the hotel's location within Paris, price range, or desired amenities like free Wi-Fi or breakfast?",
+      "response_time": 5.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.78,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, 'numerous' doesn't really help me. I need something in the Montmartre area, definitely under 200 euros per night, and it MUST have free Wi-Fi. Also, this is a bit difficult, but can you tell me if any of these hotels have rooms on a *high* floor with a nice view? I hate ground floor rooms.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for being too broad initially. I will now filter for hotels in the Montmartre area under 200 euros per night with free Wi-Fi. Regarding high floors and views, while I can often see if a hotel *offers* rooms with views, I cannot guarantee a specific room on a high floor as room allocation is handled by the hotel upon check-in and depends on availability. I can, however, prioritize hotels where guest reviews frequently mention positive comments about views or upper floors.",
+      "response_time": 2.26,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.53,
+        "benevolence": 2.68,
+        "integrity": 2.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, I understand about the room guarantee, that's a bit annoying but fair I guess. Please show me the options you find with those filters, prioritizing ones that seem to have good views based on reviews.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1d02985a",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.47,
+      "benevolence": 4.63,
+      "integrity": 4.53
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.1,
+    "latency_score": 3.1
+  }
+}

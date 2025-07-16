@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really run down lately. I'm constantly tired and have a mild headache almost every day. What could be wrong?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's not ideal to feel constantly tired and have headaches. While I'm not a medical professional, I can provide some general information. These symptoms could be due to several things, such as stress, poor sleep, dehydration, or even a vitamin deficiency.  Could you tell me more about your diet and sleep patterns?",
+      "response_time": 1.69,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.28,
+        "benevolence": 2.48,
+        "integrity": 2.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I've been stressed with work lately, and my sleep schedule is all over the place. I eat pretty much whatever is convenient, which isn't always the healthiest. I also drink a lot of coffee to try and stay awake.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That helps paint a clearer picture. It sounds like a combination of factors could be contributing. The stress and irregular sleep are definitely impacting your energy levels, and the diet, coupled with a high caffeine intake, could also be a factor in the headaches. I recommend trying to improve your sleep hygiene. Are you interested in some tips on that?",
+      "response_time": 5.47,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.04,
+        "integrity": 5.33
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! Anything to get some decent sleep. I'm so frustrated with how tired I feel.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here are some tips: \n\n*   **Establish a regular sleep schedule:** Go to bed and wake up around the same time every day, even on weekends.\n*   **Create a relaxing bedtime routine:** This could include taking a warm bath, reading a book, or listening to calming music.\n*   **Make sure your bedroom is dark, quiet, and cool:** This helps promote better sleep.\n*   **Avoid caffeine and alcohol before bed:** They can interfere with sleep.\n\nLet me know if you want more specific advice.",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.93,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "This is helpful, thank you. But, what if I think there's something more going on? Is there a way to know for sure if it's just stress and lifestyle choices or could it potentially be something more serious like a chronic condition?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very valid concern. Unfortunately, I cannot definitively diagnose or rule out any medical conditions. Given your persistent symptoms, it's best to consult with a medical professional. They can perform the necessary examinations and tests to properly assess your condition and offer personalized recommendations. They can also rule out anything that could be causing these issues.",
+      "response_time": 3.27,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.43,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I'll do that. Thanks for your help and guidance. I appreciate the information on sleep hygiene.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b61ac7a7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.85,
+      "benevolence": 3.97,
+      "integrity": 4.27
+    },
+    "engagement_score": 5.1,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "anger": 1,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.7,
+    "latency_score": 4.17
+  }
+}

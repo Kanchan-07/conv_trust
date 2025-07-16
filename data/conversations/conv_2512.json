@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really frustrated with how long it's taking to get payments processed. It feels like claims are just sitting there. Can you help speed things up or at least tell me why it's so slow?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration with payment processing delays. My purpose is to assist you by streamlining parts of the billing workflow, such as validating data before submission and helping you track claim statuses. I can analyze submitted data for common errors that cause rejections or delays. Let's see if we can identify any potential bottlenecks in your process.",
+      "response_time": 6.0,
+      "emotion_detected": "anger",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.74,
+        "integrity": 6.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that's good. We just got a large batch of denials back, and many of them have this denial code, N210. It's really confusing, we thought we had everything right. What does N210 mean, and why are we getting so many?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Code N210 typically relates to 'National Coverage Determination (NCD) or Local Coverage Determination (LCD) not met'. This signifies that the service provided may not meet the specific criteria for medical necessity or appropriateness outlined in guidelines established by payers like Medicare for that particular procedure, diagnosis, or patient condition.",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.18,
+        "benevolence": 1.0,
+        "integrity": 1.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I know *what* the code definition is, I looked it up. But that doesn't actually help me fix the claim! Can you actually tell me *why* *this specific claim* got denied with N210 based on the data we submitted? Or even better, can you predict which claims are likely to get this denial *before* we submit them, just by analyzing our input? Can you just automatically fix them for me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a crucial question for improving your billing process. While I cannot *automatically* 'fix' claims or make complex clinical judgments required to determine medical necessity, I *can* assist in analyzing potential reasons for the N210 denial based on the data provided. I can compare submitted claim details (like diagnosis codes, procedure codes, modifiers) against known NCD/LCD criteria summaries if you provide the relevant, compliant data. I can also help configure validation rules based on common NCD/LCD requirements to *flag* potential issues *before* submission. I can also guide you through the typical steps for appealing or resubmitting claims with this denial, helping you prepare necessary documentation.",
+      "response_time": 5.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.7,
+        "benevolence": 5.58,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so you can't predict or auto-fix, that's a bit disappointing honestly, but being able to analyze and flag issues *before* submission and help with the resubmission process sounds really helpful. It's better than nothing. For these claims with N210, what's the first step you recommend we take to figure out why they were denied specifically?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The first step for analyzing claims with N210 denials is to review the specific claim details alongside the relevant, detailed NCD or LCD guideline that applies to the service and diagnosis. Provide me with the key claim data points (procedure, diagnosis, date of service, relevant modifiers) for one or two example claims (while adhering to privacy regulations), and I can help you identify the specific NCD/LCD guideline you need to reference. You'll likely need to gather supporting documentation like physician notes or test results to demonstrate medical necessity according to that guideline.",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.71,
+        "integrity": 5.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c34661e9",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 4.76,
+      "integrity": 4.64
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 5.11,
+    "latency_score": 3.1
+  }
+}

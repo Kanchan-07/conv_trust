@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have an interview coming up next week for a software engineer role, and honestly, I'm feeling pretty stressed about it. I haven't done one in a while. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can definitely help you prepare for your software engineer interview. We can cover various aspects, such as reviewing common technical questions, behavioral questions, refining your resume, or practicing mock interviews. Where would you like to start?",
+      "response_time": 5.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.03,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks. Yeah, I'm mostly worried about the technical parts, especially explaining complex project architecture under pressure. Like, how do you articulate the trade-offs of using a microservice vs. a monolith architecture in a way that's clear and concise in just a few minutes, without getting bogged down in jargon, especially when the interviewer keeps interrupting? It feels impossible sometimes.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question, and it's common to find explaining complex topics challenging, especially technical architecture. To articulate trade-offs concisely, focus on the key benefits and drawbacks of each approach relevant to typical business drivers like scalability, maintainability, cost, and development speed. Use high-level examples rather than deep dives into specific technologies. If the interviewer interrupts, listen actively and then tie your response back to their question or interruption before continuing your explanation. Practice explaining these concepts out loud, maybe even timing yourself, to improve conciseness.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.89,
+        "integrity": 5.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7e805e01",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.32,
+      "benevolence": 5.46,
+      "integrity": 5.22
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.22,
+    "latency_score": 2.86
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my bill. I was charged $75 for data overage, but I have unlimited data!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your concern. I'm sorry for the trouble this has caused. Can I get your account number or phone number associated with the account, please?",
+      "response_time": 0.5,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.07,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. This is really frustrating, I've been a loyal customer for years and never had this issue before.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please give me a moment to review your account... Okay, I see the data overage charge. Let me check your data usage details.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.03,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but how could I possibly go over my data limit if it's unlimited? What exactly am I paying for then?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I see that you're on the unlimited plan. There might have been an error in the billing system. I will submit a request to have the data overage charge removed from your bill. It should be reflected in your next statement. Is there anything else I can help you with?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.82,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, the charge will definitely be removed? I don't want to have to call back about this again next month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, the request has been submitted, and I've added a note to your account. You should see the adjustment on your next bill. If you still see the charge, please don't hesitate to contact us again. We appreciate your patience!",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.87
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ad56304f",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.2,
+      "benevolence": 3.98,
+      "integrity": 4.09
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "sadness": 2,
+      "fear": 2,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 3.63,
+    "latency_score": 4.4
+  }
+}

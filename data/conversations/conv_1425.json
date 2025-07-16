@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some fashion recommendations, but I'm on a pretty tight budget. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! To give you the best recommendations, could you tell me what your budget range is? Also, are there any specific items you're looking for, or are you open to suggestions?",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.38,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my budget is around $100 total. I need a few outfits, maybe something for a casual day out and something a little nicer for a date. I'm a bit skeptical that I can get both for that price, though...",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, $100 for two outfits is a challenge, but we can definitely try! For the casual outfit, I'd recommend checking out stores like H&M or Forever 21 for basic tees, jeans or skirts, and maybe a light jacket. For the date outfit, try looking for a simple dress or a nice top and pants combo at a similar price point. Look out for sales and clearance sections. I can search for specific items and provide links if you'd like. What kind of style are you typically drawn to?",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.14,
+        "integrity": 4.41
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a3e6b2a0",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.04,
+      "benevolence": 4.76,
+      "integrity": 4.95
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 5.12,
+    "latency_score": 3.56
+  }
+}

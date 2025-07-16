@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm having a terrible time with my landlord. He's trying to evict me after I complained about a massive leak in my apartment. This feels so unfair, I don't know what to do!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. It sounds like you're in a very stressful situation. Please remember that I am an AI and cannot provide legal advice. However, I can offer general information about landlord-tenant issues based on common legal principles. To give you relevant general information, could you tell me more about the eviction notice? What reason did he state, and how much notice did he give you?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 3.61,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "He just gave me a letter yesterday saying I have 30 days to leave because I 'violated the lease agreement.' He didn't say how! The only thing different is I sent him certified letters about the leak that's causing mold. I've lived here for three years and always paid rent on time. I'm so confused and worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing those details. In many jurisdictions, landlords are required to provide a specific, valid reason for eviction, especially if it's not for non-payment of rent. Retaliatory evictions, where a landlord tries to evict a tenant for asserting their legal rights (like requesting necessary repairs), are often illegal. A 30-day notice is common for month-to-month tenancies or lease violations, but the *reason* for eviction is crucial. If he didn't specify the violation and it seems related to your repair requests, it might be considered retaliatory.",
+      "response_time": 4.23,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.24,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. So, if it IS retaliatory, does that mean the notice is invalid? Can I just ignore it? Or... this is a bit extreme, but can I sue him for this? He's putting my health at risk with this mold, and now this!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "A notice based on unlawful retaliation may be challenged, but you generally cannot simply ignore an eviction notice. Ignoring it could lead to a default judgment against you in court. Whether you can sue depends on the specific laws in your area regarding tenant rights, landlord retaliation, and the habitability of your unit due to the mold. Pursuing legal action like suing requires filing a complaint and navigating court procedures. There are steps you can take, such as documenting everything and potentially using the retaliation defense if he files in court. Legal action is complex.",
+      "response_time": 3.57,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 3.99,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so ignoring it is bad, got it. But 'potentially using the retaliation defense if he files in court' and 'Legal action is complex'... that's not very clear on what I *should* do right now. Should I wait for him to file? Should I find a lawyer immediately? What's the practical next step if I think it's retaliation?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies if that was unclear. The most practical and recommended next step when facing potential retaliatory eviction and significant habitability issues like mold is to seek actual legal counsel specific to your location. Do not wait for him to file in court before consulting someone. An attorney specializing in landlord-tenant law can review your lease, the notice, and your documentation (repair requests, photos of mold/leak) to advise you on the validity of the notice and your best course of action, which might include sending a formal response to the notice or preparing to defend in court. Resources like local Legal Aid societies, tenant unions, or your state's bar association referral service can help you find an attorney.",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.4,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's much clearer, thank you. It's frustrating that I can't get definitive answers instantly, but I understand I need real legal advice for this. I'll look into Legal Aid and tenant unions in my area right away. Thanks for pointing me in the right direction.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_02431c6e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.78,
+      "benevolence": 4.56,
+      "integrity": 4.98
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "anger": 5,
+      "neutral": 3,
+      "fear": 1
+    },
+    "response_quality_score": 4.97,
+    "latency_score": 3.62
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to buy a new electronic gadget but I'm on a tight budget. Can you help me find something?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you with that. To give you the best recommendations, could you tell me what kind of gadget you're looking for and what your approximate budget is?",
+      "response_time": 5.91,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay. I need a new pair of wireless headphones, mainly for listening to music and podcasts while commuting. My budget is strictly under $100.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, wireless headphones under $100. That's a popular category with many options. For commuting, features like decent battery life and comfort are usually important. I can recommend looking at models like the Anker Soundcore Life Q20 or the Sony WH-CH510. They generally offer good value for the price and fit within your budget.",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.71,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Anker Soundcore... I've heard of Anker. What about active noise cancellation? The commute is pretty noisy. And how's the sound quality on those? Sometimes budget headphones sound really tinny, and I really hate that. It's frustrating trying to find something that sounds good AND blocks noise without spending a fortune!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about sound quality and noise. The Anker Soundcore Life Q20 *does* feature Active Noise Cancellation (ANC), which is quite effective for its price range at reducing ambient noise like bus engines or train rumbles. The Sony WH-CH510, however, does *not* have ANC, but it's known for a balanced sound profile for its cost. Sound quality is subjective, but both are generally well-regarded for not being 'tinny' compared to very cheap alternatives. The Anker might have a slightly bassier profile.",
+      "response_time": 3.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.8,
+        "integrity": 3.94
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so Anker has ANC, Sony doesn't. That's a key difference. But is the Anker's ANC actually *good*, or is it just a marketing term at this price point? I've read reviews where people say the ANC on cheaper headphones barely does anything. I need something that makes a real difference, otherwise, what's the point?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a fair question. At the sub-$100 level, ANC performance won't be on par with premium headphones costing several hundred dollars. However, the Anker Soundcore Life Q20's ANC is generally considered effective for low-frequency noises typical of commuting, making a noticeable difference compared to having no ANC at all. It won't block out voices or sudden sounds completely, but it significantly reduces background hums. It's one of the better implementations you'll find in this specific budget.",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.84,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that explanation helps manage expectations. It sounds like the Anker is probably the better fit for the noise issue, even if the ANC isn't perfect. Thanks for clarifying that!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fb4b0294",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.67,
+      "benevolence": 4.59,
+      "integrity": 4.79
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 3.42
+  }
+}

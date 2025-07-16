@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to plan my grocery shopping for the week, but I'm on a really tight budget. Can you recommend some cheap and healthy meals and the ingredients I'll need? My budget is $50.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! For a $50 budget, we can focus on affordable staples. I recommend trying meals like lentil soup, black bean burgers, pasta with marinara and vegetables, and chicken and rice. For ingredients, you'll need lentils, beans, pasta, rice, canned tomatoes, onions, garlic, some frozen vegetables (broccoli or mixed veggies are budget-friendly), and chicken thighs (usually cheaper than breasts). Would you like me to provide a sample shopping list with approximate prices?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.36,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, please! A shopping list would be amazing. But also, how do you actually *know* that's cheaper? Grocery prices are insane right now and vary so much. Do you have some sort of constantly updating database or something?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, a sample shopping list based on national averages could include: 1 lb Lentils ($2), 1 can Black Beans ($1), 1 lb Pasta ($1.50), 1 lb Rice ($1), 1 can Diced Tomatoes ($2), 1 Onion ($0.75), Garlic ($1), Frozen Vegetables ($3), 1 lb Chicken Thighs ($4). This totals around $16.25, leaving room for adjustments and other essentials. \n\nRegarding your question about pricing, I am trained on a massive dataset of text and code, which includes information about average grocery prices. While I don't have a real-time, constantly updating database, I use sophisticated algorithms to estimate costs based on the latest available information. It's always a good idea to check your local store's prices before shopping, as variations are common.",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.85,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, and the shopping list is a great start! Thanks! It's still going to be tight, but at least I have a plan now.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_11a118ba",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.04,
+      "benevolence": 4.61,
+      "integrity": 4.96
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 3.71
+  }
+}

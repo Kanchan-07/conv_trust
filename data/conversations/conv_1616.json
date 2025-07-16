@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately and I keep getting headaches. It's been going on for a few weeks now, and I'm starting to get worried. What do you think could be wrong?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am programmed to provide general health information, and I am not a substitute for professional medical advice. The symptoms you describe, fatigue and headaches, can be caused by many things. Some possibilities include dehydration, stress, lack of sleep, or even underlying medical conditions. I recommend you consult a doctor to find the cause of your symptoms and get appropriate treatment.",
+      "response_time": 5.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.6,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I know, I know, see a doctor. But I just started a new job and can't get in to see my primary care physician for another month! Is there anything I can *do* in the meantime, though? What could cause these headaches? I'm really frustrated and I don't want to just suffer for a month.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I am not able to give medical advice, it is important that you consult your doctor. That being said, common causes for headaches include tension headaches, migraines, and cluster headaches. You could try improving your sleep schedule, drinking plenty of water and reducing stress. Avoid or reduce any known triggers like alcohol or certain foods. If the symptoms worsen or include other symptoms, seek professional medical attention immediately. If you are having serious problems with the headaches such as vision change, then you should also go to the emergency room.",
+      "response_time": 1.6,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.55,
+        "benevolence": 2.5,
+        "integrity": 2.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_683ef021",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.92,
+      "benevolence": 4.05,
+      "integrity": 3.66
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 1,
+      "anger": 2
+    },
+    "response_quality_score": 3.58,
+    "latency_score": 4.09
+  }
+}

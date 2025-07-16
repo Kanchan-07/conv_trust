@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday, but it hasn't arrived. Order number is 12345.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Let me pull up the details for order number 12345. Okay, I see the tracking information. It does indeed show a delay. The package is currently at our distribution center in Anytown. It appears there was a problem with the delivery truck yesterday, which caused the delay. We expect delivery by end-of-day today. I apologize for the inconvenience.",
+      "response_time": 3.15,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 3.67,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "End of day? Seriously? I needed this package yesterday! What exactly happened with the truck? And why wasn't I notified about this delay?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, the specific details about the truck issue are not available to me. However, I do see that a notification should have gone out, and I am not sure why you didn't get one. Let me investigate that for you. One moment. Okay, it seems the notification system had a brief outage. Again, I am very sorry for the lack of communication. I'll make sure you get a notification as soon as the package is out for delivery, which should be in the next few hours. As a further apology, I can offer you a 10% discount on your next order.",
+      "response_time": 1.79,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.79,
+        "benevolence": 2.04,
+        "integrity": 2.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "So, I can't get any specifics on the truck, and the notification system was down? That's not very reassuring. What are the chances of this happening again? And if it does, what's to stop you from *not* notifying me again?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair question. I am unable to give definite probabilities of future issues. However, I can assure you that we are working to improve our notification systems. Should such a situation arise again, we have implemented automatic escalation procedures to ensure prompt communication. Your account has been flagged to ensure you get priority notifications. Please accept our sincere apologies once more for the trouble. We appreciate your patience and understanding.",
+      "response_time": 5.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.93,
+        "integrity": 5.54
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_74978ac7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.99,
+      "benevolence": 3.88,
+      "integrity": 4.06
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 3,
+      "surprise": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.65,
+    "latency_score": 4.01
+  }
+}

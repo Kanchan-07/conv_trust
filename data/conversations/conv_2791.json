@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I feel really stuck in my current job and honestly have no idea what else I could even do. I just feel lost and frustrated. Can you help me figure things out?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! It's completely understandable to feel that way, many people go through periods of career uncertainty. Let's see if we can explore some options together. To start, could you tell me a bit about your current role, what you like or dislike about it, and any skills or interests you have outside of work?",
+      "response_time": 3.7,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.64,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well I'm in admin right now, which is just... dull. I like organizing things, I guess, but that's it. Outside work, I really enjoy creative writing and also, oddly, fiddling with spreadsheets and analyzing data. I know they sound totally different, but how do you even combine writing and data into a career? Or like, find a job doing *both*? It just seems impossible, especially since I don't have formal 'experience' in either, just hobbies or tasks from my current job.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great mix of skills and interests! You're right, they might seem separate at first glance, but there are definitely roles that value both analytical rigor and creative communication. Consider fields like content marketing, data journalism, market research analysis, or potentially roles in UX writing or technical documentation. Many positions require understanding information and explaining it clearly.",
+      "response_time": 3.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.82,
+        "integrity": 5.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay. Those sound... interesting in theory? But honestly, how do I *actually* get one of those jobs when my resume just says 'admin assistant' and has nothing about data journalism or content writing? It feels totally impossible to even apply, let alone get an interview. I'm getting more frustrated just thinking about the gap between my current job and those potential roles.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand that transitioning can feel daunting without direct experience in the target field. However, the skills you mentioned \u2013 organizing, analysis, writing, creativity \u2013 are highly valuable and transferable. You can start by highlighting these transferable skills prominently on your resume and cover letters, framing your admin experience to showcase these abilities. Additionally, consider building a portfolio through personal projects (like analyzing public datasets and writing up findings), taking online courses to formalize your skills, or targeting entry-level roles or internships that value your foundational abilities and willingness to learn.",
+      "response_time": 5.55,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.43,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, transferable skills... I hear that a lot, but it's hard to see how my admin 'organizing' skill helps me in, say, data journalism. And how would I even build a portfolio for something I haven't done professionally? Like, analyze *what*? It still feels abstract.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a fair point. 'Organizing' from admin can translate to skills like 'attention to detail,' 'data management,' or 'project management' if you managed tasks or information flows. For a data journalism portfolio, you can find publicly available datasets online (government sites, non-profits, data repositories), analyze them using tools you know (even spreadsheets initially), and then write articles or create visualizations based on your findings. This demonstrates both your analytical and writing skills in a concrete way, even if it's not from a paid job.",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 3.6,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ah, okay! Analyzing public data and writing about it... that actually makes a lot more sense than just 'build a portfolio'. It still seems like a big step, but I can see *how* I could start doing that. That's genuinely helpful, thank you.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're very welcome! Breaking it down into manageable steps like building a portfolio with personal projects can make the path clearer. Remember to also explore networking opportunities in your fields of interest and tailor your applications to showcase relevant skills and enthusiasm. Don't hesitate to reach out again if you have more questions or want to explore specific resources. You've got a unique combination of skills that many roles need!",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4796494c",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.37,
+      "benevolence": 5.5,
+      "integrity": 5.62
+    },
+    "engagement_score": 5.78,
+    "emotion_distribution": {
+      "sadness": 1,
+      "fear": 3,
+      "neutral": 4,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.78,
+    "latency_score": 3.25
+  }
+}

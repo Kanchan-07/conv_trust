@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I need to figure out why my account balance is so low. Can you show me my recent transactions for the last month?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can display your recent transactions. Please confirm the account you'd like to view. Is it your checking account ending in 1234?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.61,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's the one. And can you filter it to only show transactions over $50? I think that's where the problem lies.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, filtering transactions for the checking account ending in 1234, showing only transactions greater than $50 within the last month. Here are the results: [List of transactions over $50]. Is there anything specific that stands out to you?",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.18,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I see a charge here from 'MegaCorp' for $200. I don't recognize that. What information do you have about that transaction? Specifically, could that possibly be a fraudulent charge, and if so, what are the steps to dispute it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_48f43303",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.74,
+      "benevolence": 3.89,
+      "integrity": 3.66
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.07,
+    "latency_score": 4.5
+  }
+}

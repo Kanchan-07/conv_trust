@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I want to order some food, but I have no idea what to get.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help with that. Do you have any cuisines or types of food in mind that you're generally in the mood for? Or any dietary restrictions?",
+      "response_time": 4.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.79,
+        "integrity": 5.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, not really. I guess something\u2026 not too heavy? And maybe something with a bit of spice? But not *too* spicy. This is harder than I thought!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your preferences, I recommend trying Thai green curry or perhaps some Szechuan noodles. Both are flavorful but can be adjusted for spice levels. Would you like me to find restaurants near you that offer either of these?",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 3.85,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Szechuan noodles sound good. But how do I know which restaurant makes them *well*? There are like, five Szechuan places near me. I've had some pretty bad noodles before, and I really don't want a repeat experience.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your concern. Based on user reviews and ratings, 'Szechuan House' and 'Spicy Panda' seem to have the highest ratings for their noodles, with 'Szechuan House' having slightly more reviews mentioning the authenticity of their dishes. I also see 'Spicy Panda' has a 20% off promotion running currently.",
+      "response_time": 3.84,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 3.98,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, Spicy Panda it is! Authenticity is great, but 20% is hard to ignore. Can you pull up their menu for me? Oh, and do they deliver, or is it just pickup?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly! Here's a link to Spicy Panda's online menu. And yes, they offer both delivery and pickup. Delivery usually takes around 30-45 minutes based on current order volume. Let me know if you need help placing the order or have any other questions.",
+      "response_time": 4.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.55,
+        "integrity": 5.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5370739d",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.88,
+      "benevolence": 4.79,
+      "integrity": 4.98
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.33,
+    "latency_score": 3.31
+  }
+}

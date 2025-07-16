@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help with a job application. I'm applying for a marketing manager position at a tech company. Any suggestions on where to start?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with that. To get started, I recommend focusing on a few key areas: reviewing the job description carefully, tailoring your resume and cover letter to highlight relevant skills and experience, and practicing for potential interview questions. Do you have the job description readily available?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.63,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I do. It's pretty demanding, actually. They want someone with 5+ years of experience, a proven track record of successful campaigns, and expertise in social media, SEO, and content creation. Ugh, I'm feeling a bit overwhelmed already.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. It can seem daunting. Let's break it down. Regarding your resume and cover letter: Can you provide me with the basics of your past experiences? I can then help you tailor those to the specific job requirements and highlight accomplishments using the STAR method (Situation, Task, Action, Result) to quantify your impact. Also, do you know what the company does?",
+      "response_time": 2.35,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.02,
+        "benevolence": 2.35,
+        "integrity": 2.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds helpful. But how do I address a potential salary expectation question? I don't want to lowball myself, but I also don't want to scare them off. It's a competitive industry.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Research the average salary range for similar marketing manager roles in that specific geographic location. Glassdoor and Salary.com are good resources. When asked, provide a range, not a specific number, like, \"Based on my research and experience, I'm looking for a salary in the range of $X to $Y.\" Make sure your range aligns with your research and the value you bring. This allows for negotiation. Are you familiar with the STAR method or would you like me to provide an example?",
+      "response_time": 4.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.37,
+        "integrity": 5.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dbc54789",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.48,
+      "benevolence": 4.45,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1,
+      "fear": 2
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 3.7
+  }
+}

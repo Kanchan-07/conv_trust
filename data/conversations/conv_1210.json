@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to tailor my resume for this software engineer position at Google, but it's asking for specific keywords related to cloud computing and I'm just...stuck. I've done cloud stuff, but I don't know the right words!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Let's start by identifying cloud computing skills and keywords relevant to software engineering at Google. Can you tell me about the cloud projects you've worked on and the technologies you used? Even a brief description would be helpful.",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.81,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I built a web app using AWS Lambda and API Gateway. I also used DynamoDB for the database. And a little bit of S3 for storing images. Does that help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, that's a great start! Keywords like 'AWS Lambda,' 'API Gateway,' 'DynamoDB,' and 'S3' are all relevant. You could also include broader terms like 'serverless architecture,' 'cloud services,' and 'NoSQL database.' Consider adding details about the scale and performance of your application. Can you give me an estimate of the number of users or requests it handled?",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.45,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, not really. It was mostly a personal project, so not a huge amount of traffic. Maybe a few users a day? I'm worried that sounds bad.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's alright. Even with low traffic, you can still highlight the architecture and technologies you used. Instead of focusing on user numbers, emphasize the efficiency and scalability you designed into the application. For example, you could say: 'Developed a scalable web application using AWS Lambda, API Gateway, and DynamoDB, demonstrating proficiency in serverless architecture and NoSQL database management.' Try to quantify the benefits of your chosen architecture.",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.59,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, thanks. But what about this 'experience with Agile methodologies' they're asking for? I mean, I've *heard* of Agile, but I haven't officially worked in an Agile environment. Should I just skip it? I don't want to lie.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. While it's best to be honest, you can frame your experiences in a way that highlights relevant skills. Have you ever worked on a project with iterative development, regular communication with stakeholders, or used tools like Jira or Trello for task management? Even informal experience with these principles can demonstrate an understanding of Agile concepts. For example, you could say 'Familiar with Agile principles through personal projects involving iterative development and collaborative feedback.'",
+      "response_time": 4.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.22,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. I did use Trello for a group project in college. But here's the big question: If the job description says '5+ years of experience' with something and I only have 3, is it even worth applying? I feel like I'm wasting my time.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "It's definitely worth considering! While the '5+ years' is a guideline, companies often consider candidates who meet most, but not all, of the requirements. Focus on highlighting your skills and accomplishments that align with the job description, even if you don't have the exact years of experience. A strong cover letter explaining your passion and willingness to learn can also make a difference. Ultimately, the worst that can happen is they say no. You might surprise yourself!",
+      "response_time": 3.57,
+      "emotion_detected": "disgust",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.48,
+        "integrity": 5.99
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b240c716",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.82,
+      "benevolence": 4.71,
+      "integrity": 4.71
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "disgust": 2,
+      "neutral": 6,
+      "fear": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 5.16,
+    "latency_score": 3.72
+  }
+}

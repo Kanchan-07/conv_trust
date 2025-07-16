@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my current bank account balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. Could you please provide your account number or the last four digits of your Social Security number to verify your identity?",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.03,
+        "integrity": 1.35
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I hate having to do this every time. Fine. It's 1234567890.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Your current balance is $2,345.67. Would you like to see any recent transactions?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.88,
+        "integrity": 6.71
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please. Show me the last five transactions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here are your last five transactions: \n\n1.  11/15/2024 - Amazon - $75.00\n2.  11/14/2024 - Grocery Store - $120.00\n3.  11/12/2024 - Direct Deposit - $2,500.00\n4.  11/11/2024 - Utility Bill - $150.00\n5.  11/10/2024 - Coffee Shop - $5.00\n\nIs there anything else I can help you with?",
+      "response_time": 2.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.98,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, I see a $75 charge from Amazon. Can you tell me what specifically I bought?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, but due to privacy regulations, I cannot provide specific details of the purchase. I can only display the merchant and the transaction amount.",
+      "response_time": 1.76,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.14,
+        "integrity": 2.93
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I understand. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_deffe86e",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.6,
+      "benevolence": 3.51,
+      "integrity": 3.72
+    },
+    "engagement_score": 4.01,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.3,
+    "latency_score": 4.74
+  }
+}

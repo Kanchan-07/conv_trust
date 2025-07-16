@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately. I'm tired all the time and just generally unwell. Can you give me some advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am designed to provide general health advice. To give you the best recommendations, could you provide some more details? For example, what are your typical eating and sleeping patterns? How much exercise do you get?",
+      "response_time": 5.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.52,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I guess... I usually sleep about 7 hours a night, sometimes less. I eat pretty healthy, lots of veggies and lean protein, but I definitely don't exercise as much as I should.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. Based on this information, I recommend increasing your exercise to at least 30 minutes of moderate-intensity activity most days of the week. This could be walking, jogging, or anything that elevates your heart rate. It might also be worth considering a multivitamin to address potential nutritional gaps.",
+      "response_time": 5.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.03,
+        "integrity": 5.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, exercise, of course. I hate that answer! But okay, I'll try. What kind of multi-vitamin would you suggest?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am not able to provide specific medical advice, including recommending specific brands of vitamins. To receive that information, consult your doctor. However, in general, look for a multivitamin that includes a good amount of B vitamins, Vitamin D, and iron, especially if you're a woman.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.38,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's not very helpful. Okay, let's say I already take a multivitamin. I still feel exhausted. Could it be something more serious?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "It's possible. Persistent fatigue can be a symptom of several underlying conditions, such as anemia, thyroid problems, or even depression. Given your concerns and the lack of improvement, it's important to consult a doctor for a thorough evaluation and blood work.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.84,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. I'll do that. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. I hope you feel better soon! Remember, early diagnosis and treatment are crucial. Let me know if I can provide further general information.",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.78,
+        "integrity": 5.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5d387b87",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.91,
+      "integrity": 4.94
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 4.87,
+    "latency_score": 3.07
+  }
+}

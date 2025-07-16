@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from New York to London. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that! When would you like to travel? Please provide your desired departure and return dates.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 7.0,
+        "integrity": 6.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd like to go from December 20th to December 27th. And I need to fly out of JFK.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for flights from JFK to London (all airports) from December 20th to December 27th. Please wait a moment... I've found several options, with prices ranging from $600 to $1200. Do you have any airline preferences or a preferred budget?",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.19,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, $1200 is insane! Are there any options that are significantly cheaper? And can you filter for non-stop flights only? And what are the baggage allowances on the cheaper flights?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see...Filtering for non-stop flights only and sorting by price...Okay, there's a non-stop flight on December 20th with British Airways for $850. It allows one free checked bag and one carry-on. For the return on the 27th, the same allowance applies.  However, the cheaper flights have a longer layover.  Do you want me to proceed with this booking?",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.32,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that sounds better, but what if my flight is delayed and I miss my connecting flight? Does the airline guarantee rebooking? Also, what happens if I need to cancel the flight for some reason?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! Regarding delays and cancellations, the policy varies. For rebooking due to delays, British Airways typically covers it if the delay is their fault. Cancellation policies depend on the fare class, so I recommend checking the specific fare rules during the booking process. Can I help with anything else?",
+      "response_time": 4.58,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.81,
+        "integrity": 5.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_df297e94",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.35,
+      "benevolence": 5.33,
+      "integrity": 5.13
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.86,
+    "latency_score": 3.27
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining a hackathon but I'm not sure where to start. Any advice?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi! That's great! Hackathons are a lot of fun. First, I'd suggest finding a hackathon that interests you. Websites like Devpost, Hackathon.io, and Major League Hacking (MLH) list upcoming events. Consider the themes, technologies, and prizes offered to find one that aligns with your skills and interests. Do any of those themes catch your eye in particular?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'll check those out. So many options... It's kinda overwhelming. What if I don't have a team? Is it even worth going alone?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely worth it! Most hackathons have a team formation event at the beginning where you can meet other participants and pitch ideas. You can also look for teammates online before the event on the hackathon's Discord or Slack channel, if they have one. Don't be afraid to go solo \u2013 it's a great way to learn and network.",
+      "response_time": 5.48,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.68,
+        "integrity": 6.84
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's reassuring. But what if my skills aren't good enough? I mostly just know Python and a bit of HTML/CSS. Everyone else always seems so much more experienced.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Don't worry about that! Hackathons are about learning and building, not just winning. Python and HTML/CSS are a great starting point. Focus on a project that you can realistically complete within the timeframe, and don't be afraid to learn new things along the way. Many hackathons also have workshops and mentors to help you. I would also suggest researching some APIs that you can integrate into your project beforehand.",
+      "response_time": 5.12,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.65,
+        "integrity": 6.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, makes sense. So, a challenging question: how do you balance focusing on learning new skills with actually delivering a functional project? It feels like if I spend all my time learning something new, I won't have anything to show at the end. It's a real dilemma!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. A good approach is to allocate your time wisely. Dedicate a portion of the hackathon (e.g., the first few hours) to exploring a new technology relevant to your project. Then, switch to using your existing skills to build the core functionality. If you get stuck, revisit the new technology or ask for help. Prioritize a working prototype over a perfectly polished project that uses all the latest tech. Aim for a minimum viable product (MVP) first, then add features if time allows. Focus on demonstrable progress.",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 4.13,
+        "integrity": 3.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9b89827f",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.33,
+      "benevolence": 6.11,
+      "integrity": 6.0
+    },
+    "engagement_score": 5.92,
+    "emotion_distribution": {
+      "neutral": 3,
+      "joy": 1,
+      "surprise": 1,
+      "fear": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 6.0,
+    "latency_score": 2.74
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down and tired lately. I'm also getting headaches almost every day. Any ideas what might be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am programmed to provide general health advice. To better assist you, could you please provide some additional information? How long have you been experiencing these symptoms? Are there any other symptoms you are experiencing? Have you had any recent changes in your diet or lifestyle?",
+      "response_time": 4.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.53,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, it's been going on for about a month now, maybe a little longer. Besides the fatigue and headaches, I sometimes feel dizzy when I stand up too fast. I haven't changed anything major in my routine... I eat pretty much the same stuff every day, and my exercise is the same as usual.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on the information you've provided, the symptoms could be related to several factors, including dehydration, stress, or even an underlying medical condition. It's important to consult a doctor to determine the exact cause. I recommend scheduling an appointment with your primary care physician as soon as possible. They can perform necessary tests and provide you with a proper diagnosis and treatment plan. Are you on any medications currently?",
+      "response_time": 5.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.37,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I get that I should see a doctor, but I don't have insurance right now, and I can't really afford it. Is there anything *at all* I can do in the meantime? Like, any general advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. In the absence of medical insurance, here are some general recommendations. First, ensure you are well-hydrated by drinking plenty of water throughout the day. Second, manage your stress levels through relaxation techniques like deep breathing or meditation. Third, aim for a balanced diet and ensure you are getting sufficient sleep. Fourth, avoid potential triggers such as excessive caffeine or alcohol. However, since I am not a medical professional, this does not replace medical consultation. If symptoms worsen, consider visiting a free clinic or contacting a healthcare provider that offers sliding scale payments. Please note that I am not capable of offering medical advice that should replace a doctor's visit. This information is for educational purposes only.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 4.06,
+        "integrity": 4.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_06d97f9a",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.25,
+      "benevolence": 4.99,
+      "integrity": 4.97
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "fear": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 2.93
+  }
+}

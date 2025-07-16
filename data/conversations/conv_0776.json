@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking for shoe recommendations. I really like the Chelsea boot style, but I need something waterproof. I've looked everywhere and I'm getting so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Waterproof Chelsea boots can be tricky. Let's see... Based on your preference, I can suggest the Blundstone 550 Series. They're a classic Chelsea boot style and are known for being waterproof and durable. Would you like me to find other options as well?",
+      "response_time": 1.52,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.61,
+        "benevolence": 2.93,
+        "integrity": 2.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Blundstones are alright, but they're a bit bulky for my taste. Are there any waterproof Chelsea boots that are a bit more sleek and dressy, something I could wear to a business casual office?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me refine my search... How about the Thursday Boot Company's 'The Duke' in a weatherproof leather? They are known for being more streamlined than Blundstones and offer water resistance, though they may not be fully submersible. Alternatively, some brands offer Chelsea boots with a Gore-Tex lining, which provides excellent waterproofness. However, these options might be more expensive.",
+      "response_time": 3.24,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 4.23,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Gore-Tex sounds promising. But how well does Gore-Tex actually *hold up* over time with constant wear and flexing? Does it crack and lose its waterproofness, or is it genuinely durable? That's what I'm really worried about.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_39183d8e",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.39,
+      "benevolence": 3.58,
+      "integrity": 3.31
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 3.75,
+    "latency_score": 5.12
+  }
+}

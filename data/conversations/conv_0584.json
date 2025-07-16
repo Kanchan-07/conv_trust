@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new laptop, but I'm on a pretty tight budget. Ideally, I'd like to spend no more than $600. What are my best options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of $600 or less, I can recommend a few laptops. For general use, the Acer Aspire 5 series is a popular choice, often available within that price range. It usually features an AMD Ryzen processor or an Intel Core i3. Alternatively, you might find a Chromebook, like the Lenovo Chromebook Duet, which is very affordable and great for browsing and light productivity. Would you like me to provide more specifics on either of these, or are you looking for something with particular features?",
+      "response_time": 5.01,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.48,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I do need to run some pretty demanding software sometimes. Will those laptops be able to handle that, or are they likely to lag? I'm not doing anything crazy like video editing, but I do use large spreadsheets and some statistical software.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For demanding software, a Chromebook may not be suitable due to its reliance on web-based applications. The Acer Aspire 5 with a Ryzen 5 or a newer generation i3 processor would be a better bet, *if* you can find one within your budget. Performance may be acceptable but not optimal. Another thing to consider is a refurbished laptop. You can sometimes find higher-spec machines for a lower price this way.",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.56,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Refurbished, huh? Okay, that's an interesting thought. How much of a performance hit am I typically taking with refurbished models? Is it just cosmetic damage, or are there usually underlying hardware issues that lead to problems down the line? I'm a little wary...",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. The performance impact of a refurbished laptop depends entirely on the seller and the specific reason for refurbishment. Reputable sellers often thoroughly test and repair any issues, and they'll often provide a warranty. The performance should be comparable to a new model if the core components haven't been downgraded. Be sure to check the seller's return policy and warranty details carefully before making a purchase. Always read reviews to understand the seller's reputation. Are there any retailers you would like me to check for reputable refurbished laptops?",
+      "response_time": 1.78,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.57,
+        "benevolence": 2.68,
+        "integrity": 2.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3dce0f0d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.12,
+      "benevolence": 3.91,
+      "integrity": 4.05
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "fear": 1
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 4.34
+  }
+}

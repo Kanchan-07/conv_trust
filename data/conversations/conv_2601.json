@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Which doctor would you like to see and what is the reason for your visit?",
+      "response_time": 5.17,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need to see Dr. Eleanor Vance for a follow-up regarding my blood pressure. It's been a few months.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Dr. Vance for a blood pressure follow-up. Let me check her availability. I see openings on Wednesday at 2:00 PM or Friday at 10:30 AM. Do either of those times work for you?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.67,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Wednesday at 2 is tough because of work, and Friday morning is also tricky. Ugh, is there anything next week? Or maybe later in the afternoon on either of those days?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I can check next week, but actually, could I see a different doctor for this? Like maybe Dr. Chen? I know she's also in the practice, and her schedule might be better. Is that even possible for a follow-up like this?",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.06,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "agent",
+      "utterance": "Our system typically schedules follow-ups with the original treating physician for continuity of care. Seeing a different doctor for the same issue may require a new patient consultation or could be subject to physician approval.",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.96,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 8,
+      "speaker": "user",
+      "utterance": "Wait, so I *have* to see Dr. Vance? Even though it's just a quick blood pressure check? That seems a bit rigid. Can you just tell me if Dr. Chen has any appointments, and maybe I can ask when I get there?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 9,
+      "speaker": "agent",
+      "utterance": "Apologies for the confusion. While it's standard practice to follow up with the original physician, I can check Dr. Chen's general availability. However, please be aware the clinic may prefer you see Dr. Vance for this specific issue. Checking Dr. Chen... she has an opening next Tuesday at 3:30 PM. Would you like to book that, understanding the potential need to discuss this with the clinic staff?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.07,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 10,
+      "speaker": "user",
+      "utterance": "Okay, that time next Tuesday works much better. Let's book the appointment with Dr. Chen for next Tuesday at 3:30 PM. I'll take my chances and discuss it with the receptionist when I arrive.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a80e2732",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 5.08,
+      "benevolence": 4.95,
+      "integrity": 4.85
+    },
+    "engagement_score": 4.43,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 8
+    },
+    "response_quality_score": 5.29,
+    "latency_score": 3.77
+  }
+}

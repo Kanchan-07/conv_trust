@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some good sci-fi books? I'm in the mood for something new.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me what kind of sci-fi you enjoy? For example, do you prefer space operas, dystopian novels, cyberpunk, or something else?",
+      "response_time": 5.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.81,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I guess I like a mix. I recently enjoyed 'Dune' and 'Neuromancer'. So something along those lines?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on your enjoyment of 'Dune' and 'Neuromancer,' I'd recommend 'Hyperion' by Dan Simmons. It's a complex and beautifully written space opera. Another option would be 'Snow Crash' by Neal Stephenson, which is a cyberpunk classic like 'Neuromancer'.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.43,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've heard of Hyperion, but it's pretty long. Is there anything a bit shorter, maybe something a little less... intense?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You could try 'A Fire Upon the Deep' by Vernor Vinge. It's still space opera, but perhaps a bit more accessible than 'Hyperion' in terms of plot complexity, though some might still find it intense. It won a Hugo award and is generally well-regarded.",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.4,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds interesting. But quick question - why do you think certain books become so much more popular than others, even if they are all good quality and similar genres?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very complex question! Popularity often depends on a confluence of factors. Things like marketing and publicity play a big role. Early reviews and word-of-mouth are also critical. Sometimes, a book hits the market at just the right cultural moment, tapping into anxieties or interests that are already present. And of course, luck is a factor too! There's no single answer, and even experts struggle to predict which books will truly take off.",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.73,
+        "integrity": 2.61
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow, that's actually a really good answer. I'll check out 'A Fire Upon the Deep'. Thanks!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! I hope you enjoy it. Let me know if you need any other recommendations in the future.",
+      "response_time": 5.45,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.84,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_22b86b8a",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.79,
+      "benevolence": 5.04,
+      "integrity": 4.91
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 6,
+      "surprise": 2
+    },
+    "response_quality_score": 5.08,
+    "latency_score": 3.36
+  }
+}

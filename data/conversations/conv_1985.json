@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order but the link in the confirmation email isn't working. What should I do?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're having trouble with the tracking link. Could you please provide your order number so I can look into this for you?",
+      "response_time": 0.64,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #123456789. I'm getting pretty frustrated because I need to know when this package is going to arrive.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I see the order. The tracking information appears to be updated. Please try this alternative tracking link: [new tracking link].  It should work now. Also, the estimated delivery date is October 26th.",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 3.99,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that link works! Thanks. But the delivery date seems a little optimistic. It's supposed to arrive in my town on the 25th. Why the change?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for any confusion. The estimated delivery date on the order confirmation email is what you should go by. The link I provided has the accurate delivery information. Sometimes, there are minor delays due to carrier logistics. Let me check the carrier's current status for your order....",
+      "response_time": 3.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.07,
+        "benevolence": 5.32,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Fine... but if I have a problem with the delivery, who do I contact? The carrier or you guys?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For any delivery-related issues, you should contact us directly first. We can assist you in resolving any problems with the carrier. We will do our best to help you. You can reach us via the chat or by calling [phone number]. How can I assist you further?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.23,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, good to know.  One more thing - the website said I could return the item within 30 days. What's the return process if I need to do that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly! To initiate a return, please log in to your account and navigate to your order history. Select the item you wish to return and follow the on-screen instructions. You'll be able to print a return label. Should there be any issues, please contact us and we'll guide you through it. Is there anything else I can help you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bbc81aa3",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.38,
+      "benevolence": 3.31,
+      "integrity": 3.48
+    },
+    "engagement_score": 5.52,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 3.13,
+    "latency_score": 4.97
+  }
+}

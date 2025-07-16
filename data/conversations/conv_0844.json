@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having persistent headaches for the past few weeks, almost every day. It's really starting to bother me.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you've been experiencing persistent headaches. To help me understand the situation better, can you describe the type of headache? For example, is it a throbbing pain, a constant pressure, or something else? Also, where is the pain located?",
+      "response_time": 2.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.09,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's more of a constant pressure, mostly around my forehead and temples. Sometimes it feels like my eyes are straining too. Ugh, it's so annoying.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. And have you noticed any triggers that seem to bring on the headaches, such as stress, certain foods, or lack of sleep?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.96,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, I've been pretty stressed at work lately, so that's probably it. I also haven't been sleeping great. What can I even do about it though? Telling me to 'reduce stress' isn't exactly helpful!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I can't offer medical diagnoses or prescribe treatment, some general recommendations for stress management and better sleep include practicing relaxation techniques like deep breathing or meditation, ensuring a regular sleep schedule (even on weekends), and limiting screen time before bed. If the headaches are severe or persistent, I strongly recommend consulting with a doctor for a proper evaluation.",
+      "response_time": 1.48,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.64,
+        "integrity": 2.86
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if it's not just stress? I've read online that constant headaches can be a sign of something really serious. Should I be worried about, like, a brain tumor or something? Now I'm really freaked out!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While I understand your concern, it's important to avoid self-diagnosing based on information found online. While headaches can sometimes be associated with more serious conditions, they are far more commonly caused by less serious factors like stress, tension, or dehydration. However, given your persistent symptoms, it's still a good idea to consult with a healthcare professional. They can conduct a thorough examination and determine the underlying cause of your headaches.",
+      "response_time": 3.59,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.3,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, alright. You're right, I'll make an appointment with my doctor. Thanks for the advice, I guess. I feel a little better knowing I should just go get it checked out.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_25eb2152",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.76,
+      "integrity": 4.89
+    },
+    "engagement_score": 5.1,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1,
+      "anger": 2,
+      "fear": 2
+    },
+    "response_quality_score": 5.03,
+    "latency_score": 4.02
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new books to read. I really enjoy science fiction and fantasy. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preferences, I can suggest some titles. Have you read 'Dune' by Frank Herbert or 'Mistborn: The Final Empire' by Brandon Sanderson? Those are generally well-regarded within the genre.  Additionally, 'The Martian' by Andy Weir is a fantastic Sci-Fi read.",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.09,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've read all of those, unfortunately. Do you have any suggestions that are less mainstream or maybe a bit more\u2026 experimental? Something thought-provoking, even if it's not necessarily 'fun' to read.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for something a bit more experimental, have you considered 'Hyperion' by Dan Simmons? It's considered a classic but not quite as widely read as some of the others. In terms of 'thought-provoking,'  you could also explore the works of Ursula K. Le Guin, particularly 'The Dispossessed.' It offers a complex examination of societal structures. Another, less-known novel is 'Roadside Picnic' by Arkady and Boris Strugatsky; a Russian Sci-Fi book with lots of thought-provoking themes, although, it is not your typical sci-fi.",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.45,
+        "integrity": 3.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f4fd3ff4",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.77,
+      "integrity": 4.71
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.27,
+    "latency_score": 4.25
+  }
+}

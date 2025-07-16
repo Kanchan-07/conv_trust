@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a doctor's appointment. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can. To get started, could you please provide your name and date of birth?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.15,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's John Smith, and my date of birth is 05/10/1980. I need to see a general practitioner.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, John Smith, born May 10, 1980. Searching for available GP appointments... Do you have any preferred days or times?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.67,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Actually, I need to be seen ASAP. Preferably tomorrow, and if possible, in the morning. I'm not feeling too well, and I don't want to wait.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, but I cannot provide a time earlier than tomorrow afternoon. Would you like me to look for afternoon appointments? Also, what is the reason for your visit?",
+      "response_time": 2.44,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.13,
+        "benevolence": 2.14,
+        "integrity": 2.02
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. Why is it so hard to get a morning appointment? Fine, afternoon works, but what's the shortest wait time for a new patient like me? And will they even be able to fully assess me in one afternoon appointment?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The shortest wait time would be on Tuesday afternoon, 2:30 PM. As a new patient, the doctor will allocate extra time to assess your health and provide appropriate treatment. If further tests are needed, they will be scheduled accordingly. Would you like me to book this appointment for you?",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 3.86,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please. Book it for Tuesday at 2:30 PM. Can you send me a confirmation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e8c72dda",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.65,
+      "benevolence": 3.46,
+      "integrity": 3.55
+    },
+    "engagement_score": 4.89,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 3.43,
+    "latency_score": 4.25
+  }
+}

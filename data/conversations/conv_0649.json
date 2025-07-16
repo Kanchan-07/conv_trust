@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a software engineering role at Google. I'm really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely assist you with your interview preparation. To start, what areas are you most concerned about? For example, are you worried about the technical questions, behavioral questions, or something else?",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Definitely the technical questions. I always freeze up! I know the theory, but applying it under pressure is tough. What kind of technical questions should I expect?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For a software engineering role at Google, you can expect questions on data structures and algorithms (like arrays, linked lists, trees, graphs, sorting, searching), system design, and potentially some coding challenges. Brush up on your knowledge of time and space complexity. I can provide examples if you'd like.",
+      "response_time": 5.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.13,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please give me some examples! I'm also wondering, how important are the 'Googleyness' questions? I feel like they're just trying to see if I'm a good culture fit, but I don't know how to answer them authentically. It feels so forced!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here's a common data structures question: 'Implement a function to reverse a linked list.' As for the 'Googleyness' questions, while technical skills are crucial, Google also values cultural fit. These questions are designed to assess your teamwork skills, leadership potential, and how you handle challenging situations. Think of specific examples from your past experiences that demonstrate these qualities. Star method (Situation, Task, Action, Result) is your friend.",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 4.41,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, linked lists. I always mess those up. Okay, I'll try that example. But what if I haven't *led* a team before? I'm applying for an entry-level position!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid point! They're not necessarily looking for you to have managed a large team. Instead, they want to see if you can take initiative, guide a group towards a solution (even in a small project), or demonstrate leadership qualities in other ways, like mentoring a junior developer or taking ownership of a difficult task. Even leading a group project in college counts.",
+      "response_time": 2.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.6,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes more sense. This is actually really helpful. But what's the *most* challenging question I could possibly be asked during the technical interview? Like, something that would really throw me for a loop.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's hard to say definitively, as it depends on the specific team and interviewer. However, a particularly challenging question might involve designing a system with complex constraints and trade-offs under ambiguity. For instance, 'Design a distributed caching system for Google Maps with high availability and low latency, considering factors like data consistency, eviction policies, and scalability.' These questions test your ability to think critically, communicate your ideas clearly, and make informed decisions under pressure. Focus on outlining your approach and rationale, rather than aiming for a perfect, complete solution.",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 4.0,
+        "integrity": 3.89
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_58784823",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.85,
+      "benevolence": 4.83,
+      "integrity": 4.81
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 6,
+      "disgust": 2
+    },
+    "response_quality_score": 5.33,
+    "latency_score": 3.19
+  }
+}

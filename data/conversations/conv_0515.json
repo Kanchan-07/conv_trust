@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a project manager role. I'm feeling pretty nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help. Let's start with some common interview questions. Tell me, what are your greatest strengths?",
+      "response_time": 4.51,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.72,
+        "benevolence": 7.0,
+        "integrity": 6.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's always such a tough one! I guess I'm good at problem-solving and communication? But everyone says that, right?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "While common, they are valuable strengths. To make your answer stand out, try to quantify them with specific examples. Can you think of a time you successfully solved a problem at work? Describe the situation, your actions, and the results using the STAR method (Situation, Task, Action, Result).",
+      "response_time": 4.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.71,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I have one. But here's a curveball: How would you answer the question, 'Tell me about a time you failed' without sounding completely incompetent? I always stumble over that one.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Focus on what you learned from the failure. Frame it as a growth opportunity. Describe the situation briefly, honestly acknowledge the mistake, and then spend the majority of your answer detailing what steps you took to improve and prevent similar issues in the future. Show self-awareness and a commitment to learning.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.88
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's actually really helpful! Thanks! So, basically, spin it into a positive. Got it. Can we go over some questions they might ask about my project management experience specifically?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9b3621e3",
+    "average_trust_score": 6.5,
+    "trust_category_averages": {
+      "competence": 6.5,
+      "benevolence": 6.57,
+      "integrity": 6.3
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 6.82,
+    "latency_score": 2.48
+  }
+}

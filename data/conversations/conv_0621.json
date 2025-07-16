@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to book a restaurant for Saturday night. It's proving impossible! Can you help?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. What city are you looking to dine in, and what kind of cuisine are you in the mood for?",
+      "response_time": 5.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.77,
+        "integrity": 5.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, sorry. I'm in Chicago. And... Italian, I think. Nothing too fancy, just good, solid Italian.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for Italian restaurants in Chicago for Saturday night. I see a few options. How about 'Pasta Palazzo'? It has excellent reviews and seems to fit your description.",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 3.63,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Pasta Palazzo... I think I've heard of it. What time slots are available? And how many people can they accommodate?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, for Pasta Palazzo on Saturday, I see availability at 6:00 PM, 7:30 PM, and 9:00 PM. They can accommodate groups of up to 6 people. Anything larger than that, and they require a call to the restaurant directly.",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.45,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 7:30 for 4 people sounds perfect. One last thing - is it wheelchair accessible? My mother-in-law will be with us.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me check on that... It appears that Pasta Palazzo does have wheelchair access. Would you like me to go ahead and book a table for you at 7:30 PM for 4 people?",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 4.06,
+        "integrity": 3.52
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b8eccac7",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.48,
+      "integrity": 4.0
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 3.89,
+    "latency_score": 3.64
+  }
+}

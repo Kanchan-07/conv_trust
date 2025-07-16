@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm writing to inquire about the status of my order, #4592-2957-1028. It was supposed to arrive 3 days ago, and I haven't received any updates.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. Let me check on order #4592-2957-1028 for you. One moment, please. Okay, it appears your package is currently at our regional sorting facility in Dallas, TX. It's showing a slight delay due to unforeseen weather conditions. We expect it to be delivered within the next 24-48 hours. I apologize for any inconvenience this may cause.",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.46,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, weather I understand, but 24-48 *more* hours? Honestly, that's pretty frustrating. Is there any guarantee it will actually arrive then? And what are the 'unforeseen weather conditions', exactly? Because the weather here has been perfectly fine for the last week, and Dallas is also reporting clear skies. Is there something else going on?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I cannot give a 100% guarantee due to factors outside of our immediate control, I can assure you we are doing everything we can to get your package to you as quickly as possible. Regarding the weather conditions, the internal notes indicate brief but severe thunderstorms caused temporary delays at the Dallas facility which impacted package processing. I will also escalate this issue to our delivery team to see if they can expedite the delivery. Would you like me to set up email updates every 12 hours?",
+      "response_time": 2.4,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.05,
+        "integrity": 4.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_025c3d3c",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.75,
+      "integrity": 4.67
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 5.02,
+    "latency_score": 4.55
+  }
+}

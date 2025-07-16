@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some book recommendations. I really enjoy reading fantasy and science fiction.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Based on your preferences for fantasy and science fiction, I can offer a few suggestions. To get started, are there any specific subgenres you enjoy within those categories, or any authors you particularly like?",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.75,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, that's a good question. I like epic fantasy, but I'm not so keen on high fantasy, with all the elves and magic systems. For sci-fi, I prefer space opera and cyberpunk. I'm pretty open to different authors though, as I'm trying to expand my horizons.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on those preferences, I'd recommend the following:\n\n*   **For Epic Fantasy:** 'The Name of the Wind' by Patrick Rothfuss.\n*   **For Space Opera:** 'Dune' by Frank Herbert. It's a classic, but essential for any sci-fi fan.\n*   **For Cyberpunk:** 'Neuromancer' by William Gibson.\n\nDo any of those sound interesting?",
+      "response_time": 2.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.82,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've already read all of those! And I'm looking for *new* books to read, so this isn't very helpful. What about something a bit more obscure? I'm trying to find lesser-known books, but it's difficult. Can you recommend some that aren't on the typical 'best-of' lists?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies. Finding truly obscure recommendations is challenging. Based on your tastes, I can suggest these, though they may still be somewhat known:\n\n*   **Epic Fantasy:** 'The First Law' trilogy by Joe Abercrombie - a bit grimdark, but well-regarded.\n*   **Space Opera:** Consider 'Revelation Space' by Alastair Reynolds. It's often listed, but less widely read than 'Dune'.\n*   **Cyberpunk:** 'Snow Crash' by Neal Stephenson - a bit more tongue-in-cheek than Gibson, but still good.\n\nI hope those are more helpful! Let me know what you think.",
+      "response_time": 4.15,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.33,
+        "integrity": 5.12
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_647d3867",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.02,
+      "benevolence": 4.97,
+      "integrity": 4.76
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 4.97,
+    "latency_score": 3.85
+  }
+}

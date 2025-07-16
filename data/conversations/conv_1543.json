@@ -1,0 +1,121 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with medical billing. I'm completely lost with this claim rejection.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can certainly assist you with medical billing inquiries. To get started, could you please provide the claim number and the reason for rejection as stated by the insurance provider?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 12345ABC and the rejection reason is 'missing documentation'. Honestly, I thought I sent everything!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on the rejection reason, you'll need to submit the missing documentation. This typically includes items like the patient's medical records, the superbill, or possibly prior authorization forms. Can you confirm what documents were sent initially?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.49,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I *think* I sent the superbill and the patient's chart notes... but I'm not 100% sure. Is there a way to find out exactly what documentation was requested in the first place? The rejection notice just says 'missing documentation', which is so vague!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a challenging question. Unfortunately, the information on exactly *which* documents were missing isn't always clear in the denial explanation, and depends on the insurance provider. To find out, you could try: \n1.  Contacting the insurance provider directly and asking for the specific missing documents. \n2.  Checking the original claim submission documentation to see what was initially sent.\n3. Reviewing the explanation of benefits (EOB), if available, for more detailed information.",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.52,
+        "benevolence": 2.36,
+        "integrity": 2.83
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, contacting the insurance company sounds like a nightmare. But I guess I have to. Thanks for the advice. What's the best way to resubmit the claim once I gather the documents?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're welcome. Resubmitting depends on the insurance provider's process. Usually, this involves sending the corrected claim, along with the missing documents, either electronically through their portal, by mail, or sometimes via fax (though this is less common now). Be sure to include the original claim number on the resubmission. Some providers may require a specific resubmission form; check their website. Is there anything else I can help you with?",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.74,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's perfect, that's all I needed. Thanks for your help, I feel a lot more prepared now!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_739b2c80",
+    "average_trust_score": 2.12,
+    "trust_category_averages": {
+      "competence": 2.1,
+      "benevolence": 2.15,
+      "integrity": 2.25
+    },
+    "engagement_score": 5.35,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "surprise": 1,
+      "anger": 1,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.08,
+    "latency_score": 5.64
+  }
+}

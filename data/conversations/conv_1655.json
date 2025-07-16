@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner this Friday. Can you help me find something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Could you please provide me with the following information: the city, the desired cuisine, the number of people, and the preferred time?",
+      "response_time": 5.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.98,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for two people in New York City. We're flexible on cuisine, but something with a nice ambiance would be great. Friday at 7 pm, preferably.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I've found a few options. Firstly, there's 'The Gilded Lily' which is known for its romantic atmosphere. Then, there's 'Little Italy Trattoria', which is Italian and usually quite lively. Finally, 'The Shimmering Pearl' offers seafood with waterfront views. Unfortunately, all three restaurants appear to be fully booked at 7 pm on Friday. Shall I try a different time?",
+      "response_time": 3.58,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.24,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. Are there *any* restaurants with available reservations around that time? Even if it's not my first choice. How about 7:30 pm or 8 pm? And what if I *really* want to go to one of these places, is there a way to be put on a waiting list? Because those sound amazing. What if I offered them a kidney?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Yes, I can check for availability at 7:30 pm or 8 pm. Also, I can check if any of the restaurants have a waiting list option. As for offering a kidney, I would strongly advise against that. Let me get back to you with those alternatives in the next minute or two.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a19c8be9",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.68,
+      "benevolence": 3.74,
+      "integrity": 3.53
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.6,
+    "latency_score": 4.22
+  }
+}

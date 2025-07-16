@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having this persistent cough for about 3 weeks now, and it's starting to worry me. It's worse at night, and sometimes I feel a bit breathless. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you've been experiencing a cough and some breathlessness. To give you the best possible advice, I need to gather a bit more information. Have you had any fever, chest pain, or other symptoms? Are you a smoker or have any pre-existing conditions like asthma or allergies?",
+      "response_time": 5.56,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.17,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No fever or chest pain. I don't smoke, but I do have seasonal allergies \u2013 they've been acting up lately, actually. Maybe it's just that? It's just frustrating because I can't sleep well.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's possible your symptoms are allergy-related, especially since your allergies are acting up. Try over-the-counter antihistamines and see if that improves things. If not, or if the breathlessness worsens, consult a doctor.",
+      "response_time": 2.78,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 3.86,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'll try that. But is it possible it could be something more serious, like bronchitis or even pneumonia, given the duration and breathlessness? I'm just a bit anxious.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It is difficult to make a definitive diagnosis without a physical examination. Bronchitis and pneumonia are possibilities, particularly given the persistent cough and breathlessness. Other possibilities include post-nasal drip exacerbating the cough, or even acid reflux. If the antihistamines do not improve your condition within a few days, or if you develop new symptoms like fever, discolored mucus, or worsening shortness of breath, it's important to seek medical attention promptly.",
+      "response_time": 2.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.46,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But what if I *do* have pneumonia and just ignore it? What's the worst that could happen?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Ignoring pneumonia can lead to serious complications, including sepsis (a life-threatening response to infection), lung abscesses, and difficulty breathing that requires hospitalization and respiratory support. Please, if you suspect pneumonia, seek medical attention immediately.",
+      "response_time": 0.5,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.36,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9e650ddf",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.75,
+      "benevolence": 3.71,
+      "integrity": 3.53
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "fear": 5,
+      "sadness": 1,
+      "neutral": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.41,
+    "latency_score": 4.62
+  }
+}

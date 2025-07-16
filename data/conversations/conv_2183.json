@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. I had a car accident last week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I'm sorry to hear about the accident. I can help you with that. To begin, can you please provide your policy number and the date of the accident?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, my policy number is ABC123XYZ, and the accident happened on the 7th of November. I'm really frustrated because the other driver is disputing liability.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. We'll investigate the details. Could you please provide the police report number or any witness statements you have? Also, what's the other driver's insurance information?",
+      "response_time": 1.87,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.96,
+        "benevolence": 2.45,
+        "integrity": 2.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I have the police report, yes. But, I don't have the other driver's insurance info - isn't that something you folks usually handle with the police report? And, what happens if the police report is inconclusive about who was at fault?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are correct, in some cases we can obtain the other driver's insurance information. We will need to review the police report first. Regarding your question, if the police report is inconclusive, we'll conduct our own investigation, which might involve reviewing photos, videos, and interviewing witnesses. If liability cannot be determined, it may impact how the claim is processed. I will now look at the police report. Please provide the report number. Thanks!",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.13,
+        "integrity": 4.43
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_62d8a84e",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.56,
+      "benevolence": 2.53,
+      "integrity": 2.94
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 2.86,
+    "latency_score": 5.85
+  }
+}

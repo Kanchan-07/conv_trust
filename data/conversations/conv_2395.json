@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of noise-canceling headphones. My budget is around $200, can you help me find some?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. Based on your budget of $200, I recommend checking out the Sony WH-CH710N or the Anker Soundcore Life Q30. Both are well-regarded for their noise-canceling capabilities and come in around your price range. I can provide more details if you'd like.",
+      "response_time": 5.69,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.69,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks, that's helpful. But I've heard mixed reviews on both of those. Do you have any recommendations that are specifically good for travel, and are even better at noise cancelling?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Finding the absolute *best* noise cancellation at that price point for travel is a bit tricky, as the truly top-tier options often go over $200. However, the Jabra Elite 45h are frequently praised for their performance-to-price ratio, and are quite compact for travel. Though, be warned, the noise cancellation is likely a bit less strong than the ones I originally mentioned. Can you accept an inferior level of noise cancelling, if it means you can get a pair of headphones that are better suited for travel, without going over budget?",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.98,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I'm a little frustrated. I guess I'll need to make a compromise. Let's go with the Jabra Elite 45h. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5efd4b5d",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.57,
+      "benevolence": 4.83,
+      "integrity": 4.71
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.35,
+    "latency_score": 2.73
+  }
+}

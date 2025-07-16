@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so lost. I've been applying for jobs for months and getting nowhere. I have a degree in History, but I don't want to be a teacher. What *can* I even do?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. A history degree can actually open doors to various career paths. Have you considered roles in archival work, museum curation, research, journalism, or even historical consulting? We could explore these options and see what aligns with your skills and interests. Perhaps try taking a skills assessment test?",
+      "response_time": 1.52,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.9,
+        "benevolence": 2.12,
+        "integrity": 2.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, those sound... interesting, I guess. But wouldn't I need further qualifications or experience to get into any of those? How do I even get my foot in the door if every entry-level job requires 5 years of experience? It's infuriating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Many entry-level roles do seem to require substantial experience. To address this, we can focus on identifying internships, volunteer opportunities, or entry-level certificate programs that could bridge the gap. Also, we can tailor your resume and cover letter to highlight transferable skills you gained during your degree, such as critical thinking, research, and communication. Let's start by looking at internships related to archival work and museum curation in your area. Would you like me to search for those?",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.7,
+        "integrity": 4.15
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6efe6ba2",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.41,
+      "benevolence": 2.91,
+      "integrity": 3.4
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 2,
+      "neutral": 1
+    },
+    "response_quality_score": 3.11,
+    "latency_score": 4.82
+  }
+}

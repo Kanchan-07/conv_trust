@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I need some help finding some outfits. I'm going to a conference next month and I'm on a pretty tight budget. Think you can help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! To get started, what kind of conference is it, and what's your budget for the outfits? Breaking it down by item (e.g., tops, bottoms, shoes) would also be helpful.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.19,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a tech conference, so I want to look professional but not overly formal. My total budget is $200. I'd ideally need at least 2-3 outfits. Maybe $50 for tops, $75 for bottoms, and $75 for shoes? This seems impossible though...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's a bit challenging, but doable! Considering the tech conference setting, I'd suggest focusing on a mix of blazers, nice tops, and comfortable but stylish pants. For the tops, I'd recommend looking at brands like H&M or ASOS for affordable options. For bottoms, try checking out Old Navy or Target. And for shoes, you might find some great deals on clearance at stores like DSW. I can start looking for specific items if you like.",
+      "response_time": 2.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.1,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds like a plan! But here's the problem: I'm plus-size. Does your search consider sizes? Also, can you guarantee the quality of these suggestions? I've had bad experiences buying cheap clothes that fall apart after one wash.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, I am still under development and don't have access to real-time inventory or size availability from specific retailers. I can provide a list of brands that offer plus-size options (e.g., Torrid, Eloquii, Lane Bryant). Regarding quality, I can only suggest brands known for a decent price-to-quality ratio based on general information and user reviews. I recommend reading customer reviews before purchasing to ensure a good fit and quality.",
+      "response_time": 2.26,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.61,
+        "benevolence": 2.56,
+        "integrity": 2.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay. That's a bit disappointing. I guess I'll do some research and try to use your brand suggestions as a starting point. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_33c0eb62",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 3.95,
+      "integrity": 3.97
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 4.07,
+    "latency_score": 4.72
+  }
+}

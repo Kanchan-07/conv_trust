@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! Claim #48729 for Mr. Henderson was denied again. This is the third time! The reason is 'lack of medical necessity.' Can you pull up the claim details and tell me what's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I have claim #48729 for Mr. Henderson here. It appears the denial is indeed for 'lack of medical necessity' for the requested procedure, CPT code 27447 - Total knee arthroplasty. The notes indicate that the documentation submitted did not adequately demonstrate the patient's conservative treatment attempts or severity of symptoms to justify the procedure at this time.",
+      "response_time": 0.62,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.38,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, but the doctor *did* submit notes about his physical therapy and pain management. How much detail do they need? It feels like they're asking for the impossible. What specifically was missing?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "According to the denial details, the documentation lacked specific information regarding the duration and frequency of physical therapy, as well as the patient's response to it. It also lacked documentation outlining the specific pain medications used, dosages, and their effectiveness in managing Mr. Henderson's pain. Detailed records are crucial to demonstrate that less invasive options have been exhausted. We can also check the specific payer guidelines for total knee arthroplasty if you want me to.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.29,
+        "integrity": 2.26
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please check the payer guidelines. This is Medicare Advantage, plan number H5420. And honestly, why isn't this information readily available *before* we submit the claim? It would save everyone a lot of time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You raise a valid point. Access to payer-specific guidelines can vary depending on the system and agreements in place. Let me check the Medicare Advantage, plan H5420 guidelines for CPT code 27447. Okay, it appears the guidelines specify a minimum of 6 weeks of documented physical therapy, including specific exercises, as well as detailed records of at least two different pain management strategies attempted over a three-month period. Does this align with the information that was initially submitted?",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.55,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see. I don't think the original submission had all of that detail. Thanks, that's actually really helpful. I'll ask the doctor to resubmit with the specific information you mentioned. Hopefully, that will do the trick!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_400b84a3",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.53,
+      "benevolence": 2.41,
+      "integrity": 2.31
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 2.74,
+    "latency_score": 5.56
+  }
+}

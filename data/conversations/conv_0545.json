@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My SmartScent diffuser isn't working. I plugged it in, but the power light isn't on, and it's not diffusing anything. I just bought it last week!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting SmartScent support. I understand your diffuser isn't powering on. Could you please verify that the power outlet you're using is functioning correctly by testing it with another device?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I already tried that. The outlet works fine. I even tried a different outlet just to be sure. Still nothing. This is getting frustrating.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Can you please confirm the model number of your SmartScent diffuser? It should be printed on a sticker on the bottom of the device.",
+      "response_time": 2.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 3.88,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's SS-D420. Look, I've already done basic troubleshooting. Is there some kind of internal fuse or reset button I'm missing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you. For the SS-D420, there is no user-serviceable internal fuse. However, can you try pressing and holding the power button for 30 seconds? This sometimes resets the internal system. Let me know if this resolves the issue.",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.13,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I tried holding the power button for 30 seconds...and...it's working! The light's on! Thank you! What exactly does that do, though? Why isn't that in the manual?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Great! I'm glad to hear it's working. The 30-second power button hold performs a soft reset of the device's internal microcontroller, clearing any temporary software glitches. We are currently updating our manuals to include this troubleshooting step. Is there anything else I can assist you with today?",
+      "response_time": 4.38,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.5,
+        "benevolence": 6.57,
+        "integrity": 6.88
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fec75857",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.29,
+      "benevolence": 4.14,
+      "integrity": 4.44
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 4.15,
+    "latency_score": 4.57
+  }
+}

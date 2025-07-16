@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in New York City for the weekend of November 10th. I need something relatively close to Times Square.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Let me check for hotels near Times Square for the weekend of November 10th. Just to confirm, that's November 10th to November 12th, correct? And how many guests will be staying?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.8,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's right. And it's for two adults. I've already checked a few sites, but I'm getting overwhelmed by all the options. I'm looking for something with a decent view if possible, but my budget is around $300 per night, give or take.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I see. Based on your criteria, I recommend the following hotels: The Knickerbocker Hotel, The Time New York, and The Chatwal, New York. All offer views and are near Times Square, however, your budget may be a problem for some. The average price for a weekend stay at The Chatwal will likely be around $450 per night. The other two may be closer to your budget. Would you like me to check real-time availability and pricing for these hotels?",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.06,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $450 is definitely outside my budget. The Knickerbocker and The Time New York sound promising. Before you do that, can you tell me which of those two has the better reputation for service and guest reviews? I've had some pretty terrible hotel experiences in the past and really want to avoid that this time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check that for you... Okay, according to recent guest reviews, The Knickerbocker generally receives slightly higher ratings for service and overall experience, with guests frequently praising the staff's attentiveness. The Time New York still has good reviews, but there are some mentions of inconsistent service. Would you like me to proceed with checking availability and pricing for The Knickerbocker?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.38,
+        "integrity": 4.24
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_16b64f28",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.08,
+      "benevolence": 4.08,
+      "integrity": 3.97
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.25,
+    "latency_score": 3.93
+  }
+}

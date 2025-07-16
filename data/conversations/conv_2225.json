@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling because I was just charged a really high amount on my last bill and I don't understand why.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear that. I can definitely help you look into this. Can I please get your account number or the email address associated with your account?",
+      "response_time": 6.0,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.88,
+        "benevolence": 7.0,
+        "integrity": 6.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's account number 1234567890. Honestly, I'm really frustrated because I've never seen a bill this high. It's like, three times my usual amount!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I pull up your account details... Okay, I see the bill in question. It looks like there was an unusual usage charge for data. Do you recognize any of the extra data usage on your recent bill? It seems like there are some very large file downloads listed.",
+      "response_time": 3.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 4.03,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I don't recall downloading any large files. But, if there's a lot of data usage listed, is it possible for me to get a breakdown of *what* services or downloads are contributing to the high data usage? I mean, can you give me a list or some kind of itemized detail?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I can access a detailed log for you. However, please be aware that the level of detail available varies depending on the services in question. I can provide a listing of the data usage, including dates and approximate amounts of data used. Would you like me to proceed with that, or would you prefer something else?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.41,
+        "integrity": 4.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d45d3657",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.88,
+      "benevolence": 5.15,
+      "integrity": 5.07
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "surprise": 1,
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.73,
+    "latency_score": 3.03
+  }
+}

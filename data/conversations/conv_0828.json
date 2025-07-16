@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm calling to follow up on my car insurance claim, claim number is 2023-10-26-4472. I submitted it last week after that minor fender bender.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please allow me a moment to access your claim. Okay, I have claim number 2023-10-26-4472 in front of me. It appears it's currently under review by our claims adjuster. Is there something specific I can help you with today?",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.68,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, yeah! I need to know when I can expect to get my car fixed! It's been a week, and I'm having to Uber everywhere. This is getting expensive and inconvenient. What's taking so long?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The delay is likely due to the need to assess the damage estimates and verify the details of the incident. I will send a message to the adjuster handling your case requesting an update on the estimated completion timeline. You should hear back from them within 2 business days.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.47,
+        "integrity": 1.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Two business days? Seriously? That's ridiculous! Can't you just tell me roughly how much they're likely to approve? The damage wasn't *that* bad, mostly cosmetic.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I cannot provide an estimated approval amount at this time, as this is entirely at the discretion of the claims adjuster after review of all evidence. Multiple factors play a role, including repair shop rates and policy deductibles. However, I can confirm that your policy deductible for collision is $500.",
+      "response_time": 2.2,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.6,
+        "benevolence": 2.93,
+        "integrity": 2.36
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, $500 deductible, I knew that. But what if the other driver was mostly at fault, even though we didn't get a police report? Would that affect my rates even though I'm filing the claim through my insurance?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_622d6d36",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.73,
+      "benevolence": 2.69,
+      "integrity": 2.55
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 2.12,
+    "latency_score": 5.84
+  }
+}

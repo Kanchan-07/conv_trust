@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help planning groceries for the week. I only have about $50 to spend for one person.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely help with that! $50 for one person for a week is manageable with careful planning. To get started, do you have any dietary restrictions or foods you particularly like or dislike?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 3.87,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No major restrictions, thankfully. I really like chicken and pasta. I need enough food for breakfast, lunch, and dinner for 7 days. Oh, and I want to make sure I get some vegetables in there, not just carbs!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, chicken, pasta, and veggies for a week on $50. You could focus on versatile items. Think about buying a whole chicken or chicken thighs, which are often cheaper per pound. Pasta is very budget-friendly. For veggies, carrots, potatoes, frozen mixed vegetables, and cabbage are usually affordable options. You can plan meals like chicken and pasta, maybe a vegetable soup, or pasta salad.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.41,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's a start, but honestly, how do I make those few things last all week and not get bored? And how do I know I'm *actually* staying within $50? It feels really tight. Also, how can I find out which stores near me have the best prices *right now*?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question about finding current prices. Unfortunately, I don't have access to real-time, store-specific price data or sales flyers for every location. You'd typically need to check store websites, apps, or local flyers yourself. However, to stay within budget and vary meals, focus on ingredient multi-tasking. For instance, a large pack of chicken thighs can be used in pasta one night, maybe shredded for tacos or sandwiches another, and some added to soup. Buying staples like rice, dried beans, oats (for breakfast) is cost-effective and they last. Look for sale items on non-perishables or produce that's in season.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.8,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I understand about not having the real-time price data, that makes sense. But trying to think of *specific* meals from just a few ingredients and making them different enough is still hard. Like, how exactly do I turn chicken thighs, pasta, and maybe some frozen peas and carrots into *different* meals for several nights?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Absolutely, let's get more specific with examples using chicken thighs, pasta, and frozen peas/carrots. You could make: \n1. **Chicken & Veggie Pasta:** Simple pasta with saut\u00e9ed chicken and mixed frozen veggies in a light sauce.\n2. **Chicken & Vegetable Soup/Stew:** Use some chicken pieces (bones if you have them) for broth, add all the veggies and pasta, or maybe a cheaper grain like rice if you buy that too.\n3. **Cold Pasta Salad:** Use leftover chicken and cooked pasta, mix with the thawed frozen veggies, and a simple vinaigrette (oil/vinegar).\n4. **Chicken & Veggie Stir-fry (simplified):** Saut\u00e9 chicken and veggies, serve over rice or pasta, using a cheap soy sauce or broth base.\n5. **Chicken Sandwiches/Wraps:** Shred leftover chicken, mix with mayo or a cheap sauce, add some veggies for crunch, serve on inexpensive bread or tortillas. \nFocusing on recipes that use similar base ingredients but change the preparation or sauce method is key for variety on a budget.",
+      "response_time": 5.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.41,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow, okay, that's much more helpful! The soup idea is smart for using the chicken bones too, I wouldn't have thought of that. Thanks, I feel a lot better about tackling this grocery list now.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ab575d75",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.07,
+      "benevolence": 4.37,
+      "integrity": 4.2
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 1,
+      "surprise": 2
+    },
+    "response_quality_score": 3.96,
+    "latency_score": 3.32
+  }
+}

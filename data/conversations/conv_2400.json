@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with my physics homework. Can you help me understand projectile motion?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! Projectile motion can be a bit tricky. Let's start with the basics. Do you have a specific problem in mind, or would you like a general overview of the concepts?",
+      "response_time": 4.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.25,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm really confused about how to calculate the range of a projectile given its initial velocity and launch angle. My teacher's explanation didn't really click.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's break that down. The range (R) can be calculated using the formula: R = (v\u2080\u00b2 * sin(2\u03b8)) / g, where v\u2080 is the initial velocity, \u03b8 is the launch angle, and g is the acceleration due to gravity (approximately 9.8 m/s\u00b2). We need to remember the angle must be doubled due to the mathematical derivation. Do you want me to walk you through an example with some numbers?",
+      "response_time": 2.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.17,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! Actually... Can you explain *why* we use sin(2\u03b8) in the formula? That's what I don't get.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! The derivation involves using kinematic equations for both horizontal and vertical motion.  The sin(2\u03b8) comes from the trigonometric identity relating to the time of flight, which in turn is tied to how long the projectile stays airborne. Essentially, it simplifies the equation by combining the effects of the launch angle on both the horizontal and vertical components of the motion. It's a consequence of the symmetry of the projectile's trajectory. Although I can provide a mathematical derivation, it's quite involved, and may require a deeper dive into trig identities that might be confusing. Would you prefer a more simplified explanation or should we continue working through examples?",
+      "response_time": 5.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.83,
+        "integrity": 5.42
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dd4f3ff4",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 5.08,
+      "integrity": 5.01
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.74,
+    "latency_score": 2.92
+  }
+}

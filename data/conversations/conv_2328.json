@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. I've been browsing for hours and feel overwhelmed. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure, I can help! To give you the best recommendations, I need a little more information. What will you primarily be using the laptop for (e.g., work, gaming, general use)? What's your budget? Are there any specific brands or features you prefer? ",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.28,
+        "integrity": 5.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, good questions. It's mostly for work - documents, spreadsheets, video conferencing. I'd like a good screen. My budget is flexible, but ideally under $1500. I'm not sure about specific brands, but are there any that prioritize sustainability? I'm trying to be more eco-conscious and it's hard to tell which ones are actually \"greenwashed\".",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great consideration! Analyzing the sustainability claims of various brands and models is complex, and I don't have real-time access to all certifications to guarantee accurate assessments of \"greenwashing\". However, based on your needs, I can provide recommendations. The Dell XPS series and Lenovo ThinkPads often have configurations suitable for your needs and are known for focusing on sustainable materials and manufacturing processes. I can search for models that align with your budget and include features like long battery life and high-quality screens.",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.05,
+        "integrity": 5.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d161b034",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.22,
+      "benevolence": 5.17,
+      "integrity": 5.72
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.93,
+    "latency_score": 3.85
+  }
+}

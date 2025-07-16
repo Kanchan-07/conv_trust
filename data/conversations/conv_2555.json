@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really annoyed. My package with tracking number 1234567890 has been stuck on 'in transit' for three days now and was supposed to be delivered yesterday. What is going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand your frustration regarding the delay of your package with tracking number 1234567890. I've looked it up, and the last scan shows it departed our distribution center on the expected date. Delays can sometimes occur due to unforeseen circumstances. We anticipate the next update will be when it reaches the local delivery facility.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.2,
+        "benevolence": 1.31,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? That's not very helpful. It was supposed to be a gift! How can you not know where it is right now? Can't you just find it and tell me when it will *actually* arrive? This is unacceptable.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize that the information provided wasn't satisfactory. While our system shows the last known location based on scans, pinpointing the exact real-time location of an individual package between scan points can be challenging for our system. We cannot provide a guaranteed precise delivery time until it reaches the final delivery stage. We recommend keeping an eye on the tracking updates for the most current status.",
+      "response_time": 2.16,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.98,
+        "benevolence": 2.17,
+        "integrity": 2.44
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c5a35eee",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 2.09,
+      "benevolence": 1.74,
+      "integrity": 1.72
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 1.86,
+    "latency_score": 6.17
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help booking flights and potentially accommodation for a trip next month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'd be happy to assist with your travel plans. Where are you looking to go, and what are your preferred travel dates?",
+      "response_time": 4.65,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.54,
+        "integrity": 6.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, great. I'm thinking of going to Rome. I'd like to fly from London Heathrow around October 18th and return around October 25th. I'm trying to keep the cost reasonable, but I *really* don't want a flight that leaves before 8 AM or arrives after 9 PM. Oh, and can you tell me which airlines on that route have the best on-time performance history? I've had terrible delays lately and I'm frankly a bit fed up.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with delays. Searching for flights from London Heathrow to Rome for October 18th to 25th, prioritizing reasonable cost and avoiding early morning departures or late evening arrivals is certainly achievable. Regarding on-time performance, while I can show you typical flight schedules, specific historical punctuality data for individual routes and airlines isn't always something I have readily available in a comparative format during the initial search. I recommend checking individual airline websites or dedicated flight tracking services for the most detailed performance statistics.",
+      "response_time": 2.41,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.33,
+        "benevolence": 2.57,
+        "integrity": 2.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, seriously? I was hoping you could just tell me which airline is usually on time for that specific route. That's not very helpful. So, just focus on the dates, cost, and the time restrictions then? Can you show me the cheapest one-stop or direct options you find that fit the time criteria?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, I understand that information would be very useful. I will focus on finding the most cost-effective direct or one-stop flights from London Heathrow to Rome for October 18th to 25th, strictly adhering to your departure time after 8 AM and arrival time before 9 PM. Please wait a moment while I generate those options for you.",
+      "response_time": 5.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.79,
+        "integrity": 5.17
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c7d45591",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.98,
+      "benevolence": 4.97,
+      "integrity": 4.85
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 2,
+      "joy": 1,
+      "disgust": 2,
+      "anger": 1
+    },
+    "response_quality_score": 5.28,
+    "latency_score": 3.37
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to install a new kitchen faucet, but I'm already completely lost. The instructions are terrible! Any tips?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Faucet installations can be tricky. First, ensure you've turned off the water supply under the sink. Then, remove the old faucet. Can you tell me if you're encountering problems with any specific part of the installation, like the connections or the mounting hardware?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.14,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes! Actually, the mounting hardware is the problem. The new faucet's base doesn't seem to fit the existing holes in the countertop. What are my options? Do I need to drill new holes? That sounds terrifying...",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common issue. First, carefully measure the distance between the holes on the new faucet and the existing ones. If the difference is small, you might be able to use a 'faucet adapter plate' which can often compensate for minor variations. If the holes are significantly different, or if you need to create new holes, I recommend consulting a professional. Drilling into countertops can be complex and requires the right tools to avoid damage. I can help you find local contractors if you'd like.",
+      "response_time": 3.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.45,
+        "integrity": 3.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4ecb42ee",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.12,
+      "benevolence": 4.29,
+      "integrity": 3.81
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.73
+  }
+}

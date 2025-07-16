@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help writing a resume. I've been out of work for a while and feel completely lost. Where do I even begin?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. First, we can start by outlining your work history, education, and skills. We can then format the information into a professional and ATS-friendly resume. To begin, could you provide me with your most recent job title, company name, and dates of employment?",
+      "response_time": 4.89,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.61,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, but I'm worried about the gaps in my employment. How do I explain those without it looking bad?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question. Many people have employment gaps. You can address them by being honest and concise. You can frame them as a period of personal development (e.g., focused on family care, volunteering, further education, or a career break for travel). Emphasize any skills you gained during that time. For example, if you were a stay-at-home parent, you can highlight skills like time management, project management (related to family activities), and communication skills.",
+      "response_time": 5.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.17,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, that makes sense. Now, I have a really tough question: I worked in a field that is very different from what I'm applying for now. How do I make my previous experience relevant?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a challenging but common situation. The key is to identify transferable skills. Analyze the job descriptions for the positions you're interested in and identify the skills the employer is looking for. Then, examine your past experiences and identify any instances where you've demonstrated those skills, even if the context was different. For instance, if you're switching from retail to project management, highlight any projects you managed, deadlines you met, or customer service skills you utilized. We can work through the resume together to properly format and highlight these transferable skills.",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.07,
+        "integrity": 4.2
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9645c1e4",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.88,
+      "benevolence": 4.95,
+      "integrity": 5.02
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 5.16,
+    "latency_score": 2.66
+  }
+}

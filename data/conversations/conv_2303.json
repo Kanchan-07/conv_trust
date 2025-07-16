@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Ramirez. Are you able to help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help you with that. To start, can you please confirm your full name and date of birth?",
+      "response_time": 5.23,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.45,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, and my birthday is June 10, 1980. But honestly, this is already frustrating. Why do you need my birthday *again*? I gave it to the receptionist last time.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience, Mr. Smith. I am a separate system from the receptionist. I am confirming your identity now. Please give me a moment to access Dr. Ramirez's schedule... Okay, I see availability on Tuesday at 2:00 PM and Thursday at 10:00 AM. Which time works best for you?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.45,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, let me see. Tuesday at 2 is probably better. But can you tell me, what kind of check-up is scheduled? And what will it cover?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The system shows a 'routine check-up' scheduled. It typically involves a general physical examination, a review of your medical history, and possibly some basic screenings like blood pressure and a discussion of your overall health. However, I don't have specifics on *exactly* what Dr. Ramirez plans to cover during the visit, or which screening tests might be done. You'd need to confirm that directly with the doctor's office staff. Can I book Tuesday at 2:00 PM for now?",
+      "response_time": 2.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 4.36,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's frustrating, but I understand. Yes, please book me for Tuesday at 2:00 PM. Can I get a confirmation email with all the details?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Absolutely, Mr. Smith. I have scheduled your appointment with Dr. Ramirez for Tuesday at 2:00 PM. A confirmation email including the date, time, location, and any pre-appointment instructions has been sent to your registered email address. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.24,
+        "benevolence": 1.08,
+        "integrity": 1.28
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4bdd3247",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 3.06,
+      "benevolence": 2.97,
+      "integrity": 3.02
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 2
+    },
+    "response_quality_score": 2.99,
+    "latency_score": 5.34
+  }
+}

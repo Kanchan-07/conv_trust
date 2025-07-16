@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm still really struggling with these quadratic equations. I just don't understand when to use the quadratic formula versus factoring. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It can be tricky! Factoring is generally faster, but it only works if the quadratic equation can be easily factored into two binomials with integer coefficients. The quadratic formula *always* works, even when factoring is difficult or impossible. A good first step is to try factoring. If you can't find the factors relatively quickly, then switch to the quadratic formula. Does that make sense?",
+      "response_time": 3.68,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.54,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I guess. But what about when the 'a' value in ax^2 + bx + c is something other than 1? Factoring gets even harder then. Is there a good trick for that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "When 'a' is not 1, one strategy is to use the 'ac method'. You multiply 'a' and 'c', then find two factors of that product that add up to 'b'. Let's say you have 2x^2 + 5x + 3. a*c is 6. The factors of 6 that add to 5 are 2 and 3. You then rewrite the middle term: 2x^2 + 2x + 3x + 3. Then you factor by grouping. Does this help, or would you prefer I explain a different method?",
+      "response_time": 3.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.18,
+        "integrity": 4.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0c0a0a9a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.99,
+      "benevolence": 3.86,
+      "integrity": 4.08
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.34,
+    "latency_score": 3.75
+  }
+}

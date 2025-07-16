@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to figure out what to have for dinner tonight. Any suggestions near me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Based on your location, popular choices tonight include Italian, Mexican, and Thai cuisine. Are you in the mood for anything specific?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.7,
+        "benevolence": 5.43,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, those are... fine. I was hoping for something a bit more unique or maybe just really highly-rated. What's the absolute best-reviewed restaurant that delivers to me right now, regardless of cuisine?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Determining the *absolute* best-reviewed restaurant involves aggregating many factors and ratings across various platforms, which isn't something I can provide as a single definitive answer. However, I can show you a list of highly-rated restaurants in your delivery area, perhaps filtered by a minimum rating of 4.5 stars? Would that be helpful?",
+      "response_time": 4.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.28,
+        "integrity": 5.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, seriously? Can't you just tell me which one has the highest average score? This is frustrating. Okay, fine. Just show me the menu for that Thai place you mentioned earlier, the one everyone likes.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f304f1aa",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.36,
+      "integrity": 5.12
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.26,
+    "latency_score": 3.15
+  }
+}

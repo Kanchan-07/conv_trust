@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated with these medical bills! I received a bill for $500 for a doctor's visit that I thought was fully covered by my insurance. Can you help me figure out what's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely help you investigate this. To start, could you please provide me with the patient's name, date of birth, insurance information, and the date of the doctor's visit in question? Also, the provider's name would be helpful.",
+      "response_time": 3.41,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.91,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient name is Jane Doe, DOB is 01/01/1980. Insurance is Blue Cross Blue Shield, policy number is BX123456789. The visit was on March 15th, 2024, and the provider was Dr. Smith at ABC Medical Group. I thought preventative care was supposed to be fully covered? Why am I getting billed?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, I have that information. Processing... One moment. Okay, according to our system, the charge was initially rejected by Blue Cross Blue Shield due to a coding error. The claim was submitted with code Z00.00 (Encounter for general adult medical examination without abnormal findings). However, the notes from Dr. Smith indicate that you also discussed and were treated for a minor skin rash during the appointment, which falls under a different billing code. This additional service is subject to your deductible and co-insurance.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "So, because I mentioned a rash, suddenly the whole visit isn't considered preventative and I get charged $500? That seems ridiculous! Is there anything I can do to appeal this, or get it re-categorized? Is it even legal for them to bill me like this?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e2a5143d",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.31,
+      "benevolence": 3.46,
+      "integrity": 3.11
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "anger": 3,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.26,
+    "latency_score": 5.54
+  }
+}

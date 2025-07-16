@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I really enjoy fantasy novels. Got any suggestions?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. To give you the best recommendations, could you tell me a bit more about what kind of fantasy you enjoy? For example, do you prefer epic fantasy, urban fantasy, high fantasy, etc.?",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.15,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm not really sure about all the subgenres. I guess I like the classic stuff, like dragons, magic, quests... stuff like Lord of the Rings, you know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, so you're into epic/high fantasy. Based on that, I recommend the following:\n\n*   *The Way of Kings* by Brandon Sanderson\n*   *The Lies of Locke Lamora* by Scott Lynch\n*   *Jonathan Strange & Mr Norrell* by Susanna Clarke\n\nWould you like summaries or further details on any of these?",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.79,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Those all sound interesting. Give me a quick rundown on *The Lies of Locke Lamora*.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. *The Lies of Locke Lamora* is the first book in the *Gentleman Bastards* series. It's a bit of a heist story, with clever con artists operating in a fantasy Venice-like city. Think witty banter, complex plots, and a lot of backstabbing. It's very well-regarded.",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.66,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds amazing! Actually, now I'm a little confused. What's the difference between high fantasy and epic fantasy, and which one is more popular, generally speaking?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a good question! High fantasy is often used to describe any fantasy that takes place in a separate world, as opposed to urban fantasy, which occurs in our world. Epic fantasy is a subgenre that emphasizes a grand scope, often with world-altering stakes, multiple points of view, and significant length. In practice, the terms are often used interchangeably, especially by the public. Epic fantasy is probably more popular, but both are extremely popular, with plenty of crossover. Does that clear things up?",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 6.0,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, absolutely. Thanks for the help! I'm going to check out that *Lies of Locke Lamora* book for sure. Very satisfied with these recommendations.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1350eb32",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.15,
+      "benevolence": 5.15,
+      "integrity": 5.13
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 6,
+      "surprise": 1
+    },
+    "response_quality_score": 5.3,
+    "latency_score": 3.52
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my current balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To verify your identity, please provide the last four digits of your Social Security number and your date of birth.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.63,
+        "benevolence": 6.61,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my SSN ends in 1234 and my birthday is 01/01/1990. Now, what is my current balance?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Your current balance is $2,345.67. Is there anything else I can assist you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.23,
+        "benevolence": 1.0,
+        "integrity": 1.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I'm trying to figure out why I was charged a $35 fee. I don't remember making any unusual transactions. Can you tell me what it was for?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I am unable to look into the details of that transaction at this time, as that functionality is unavailable. You can view your transaction history by logging into your account on the bank website. We are constantly working to improve your experience!",
+      "response_time": 0.56,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.33,
+        "benevolence": 1.32,
+        "integrity": 1.26
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. Fine, I'll do that. Thanks anyway.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a50c1dfc",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.06,
+      "benevolence": 2.98,
+      "integrity": 3.19
+    },
+    "engagement_score": 4.11,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.09,
+    "latency_score": 5.15
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have an interview for a software engineer position at Google next week. I'm super nervous! Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely assist with interview preparation. To get started, what areas are you most concerned about? Technical questions, behavioral questions, or perhaps something else?",
+      "response_time": 4.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.58,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, all of it! But maybe the technical questions first. I've been practicing leetcode, but I always get tripped up on the really complex algorithm questions. Any tips on how to think through those?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For complex algorithm questions, try breaking them down into smaller, manageable parts. Identify the key data structures and algorithms that might be relevant. Consider the time and space complexity implications of different approaches. Can you explain, for example, the difference between a linked list and an array? I find this type of questioning is useful for understanding the interviewee's knowledge.",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.29,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's a good starting point. But, what if the interviewer asks something like 'Explain the halting problem'? I mean, how do you even begin to answer *that*? I'd be completely lost!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9766ca8c",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.58,
+      "benevolence": 4.94,
+      "integrity": 4.56
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.25,
+    "latency_score": 3.38
+  }
+}

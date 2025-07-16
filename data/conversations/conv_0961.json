@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining this hackathon, but I'm feeling super overwhelmed. I've never actually participated in one before. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Participating in a hackathon for the first time can definitely feel overwhelming, but it's also a great learning experience. First, I recommend carefully reviewing the hackathon's theme and rules. Then, consider what skills you have and what kind of project you'd like to work on. Do you have any specific areas of interest within the theme?",
+      "response_time": 5.66,
+      "emotion_detected": "surprise",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.96,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the theme is 'Sustainable Future.' I'm decent at Python and have some experience with web development. I guess something related to environmental data analysis or maybe a web app promoting eco-friendly practices? But honestly, I'm drawing a blank on concrete ideas. It all feels so broad!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Considering the 'Sustainable Future' theme and your skills, a web app focusing on local recycling initiatives could be a good fit. You could use Python for data processing related to recycling rates in different areas and then build a user-friendly interface with web development skills to display information and connect users to local recycling resources. Another option is a tool to calculate individual carbon footprint with personalized suggestion. Does this help?",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.7,
+        "benevolence": 5.67,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The recycling app idea is interesting! But how would I even get the data for different areas? I imagine that's going to be a massive headache, and I only have 24 hours for the hackathon. Ugh, I'm already stressed!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid point. Publicly available datasets might be fragmented or require extensive cleaning. As a potentially easier alternative, consider focusing on a specific city or region where recycling data might be more readily accessible. You could also limit the scope of the data analysis and focus on providing a platform to connect residents to existing recycling facilities rather than trying to create new metrics or analysis yourself. Does that make the task more achievable?",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.51,
+        "integrity": 4.29
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6762976b",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.04,
+      "benevolence": 5.05,
+      "integrity": 5.18
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "surprise": 3,
+      "neutral": 3
+    },
+    "response_quality_score": 5.05,
+    "latency_score": 2.4
+  }
+}

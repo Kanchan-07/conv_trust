@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to buy a new pair of headphones. I don't want to spend too much, maybe around $50. Can you recommend some?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your budget, I can suggest a few options.  We have the 'AudioTech Pro X20' for $45 and the 'SonicBliss E30' at $52.  Both are highly rated.  Would you like to know more about either of those?",
+      "response_time": 4.44,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.52,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the SonicBliss is a bit over budget, but the AudioTech sounds good. What are the main differences in features?  And are they wired or wireless?  I *hate* wires.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies, the previous information was a bit incomplete.  The AudioTech Pro X20 are wired, whereas the SonicBliss E30 are wireless and offer a better overall sound quality.  Given your preference for wireless, the E30 at $52 is probably the better fit.  Unfortunately, I don't have information on any wireless headphones *significantly* below that price point with comparable features.",
+      "response_time": 3.01,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 4.46,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, okay. So, you're saying the cheaper wireless options are all garbage then?  That's a pretty big price jump for a decent pair of headphones. Can you give me *any* alternatives, even if they're not top of the line?  I'm getting frustrated.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are correct; the jump in price for decent wireless options is significant. Let me search again with more relaxed quality parameters... Okay, I can suggest the 'SoundWave Go' for $40. It's wireless, though the battery life and sound quality aren't as good as the SonicBliss. Alternatively, you could consider looking at wired headphones with a Bluetooth adapter if the budget is a major constraint. Would you like more details on the SoundWave Go or information on Bluetooth adapters?",
+      "response_time": 2.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.42,
+        "integrity": 4.43
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_76a68a06",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 4.8,
+      "integrity": 4.78
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.56,
+    "latency_score": 4.07
+  }
+}

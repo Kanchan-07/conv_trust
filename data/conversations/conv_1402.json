@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into indie rock, but I'm open to other stuff. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your love for indie rock, I can suggest some related genres and artists. How about alternative rock, post-punk revival, or even some dream pop?  For specific artists, you might enjoy The Strokes, Arctic Monkeys, or Tame Impala.  Would you like me to elaborate on any of those?",
+      "response_time": 5.2,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.51,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've heard of those. But what if I'm looking for something a little *different*? Something that blends indie rock with, say, electronic music? Is there a good way to find something like that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! Finding that precise blend can be tricky. You might explore subgenres like 'indietronica' or 'synth-pop'. Also, I can search for artists that are tagged with indie rock and electronic music keywords. I am working to refine the recommendations from my search, but for now, some artists to check out include: MGMT, Glass Animals, and Hot Chip. I hope those work well for you!",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.51,
+        "integrity": 5.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b92ddb39",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.58,
+      "benevolence": 5.51,
+      "integrity": 5.76
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 5.46,
+    "latency_score": 3.12
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule a medical appointment.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Which doctor would you like to see and what is the reason for your visit?",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.15,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need to see Dr. Emily Carter for a follow-up on my knee pain.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check Dr. Carter's schedule for a follow-up appointment. I see some availability next month, specifically on November 15th at 10:00 AM or November 22nd at 2:30 PM.",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.89,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, November is quite far out. Is there anything sooner? I'm really hoping for something in October, if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Looking at Dr. Carter's current schedule, those are the earliest available slots for a follow-up of that type. Waitlist options may be available, but aren't guaranteed.",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.94,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's frustrating. Can you check if Dr. Carter has *any* openings *at all* in late October, even if it's for a shorter visit or a different reason? I'm flexible on the reason code if it gets me in sooner.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can only book appointments for specific reasons you provide. Searching for 'any opening' across different visit types isn't something I can do directly. My system requires a valid visit type for scheduling.",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 4.01,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's confusing. So I have to pick a reason first? Even if I just want to see if she has a gap? What if I just pick 'Consultation' as the reason?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, a visit type is required to search. I can check availability for 'Consultation' in late October for Dr. Carter. One moment... I see an opening on October 28th at 11:00 AM. Would you like to book this 'Consultation' appointment?",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.19,
+        "integrity": 3.62
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f4ca03ec",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.24,
+      "benevolence": 4.44,
+      "integrity": 4.33
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 8,
+      "sadness": 1
+    },
+    "response_quality_score": 4.26,
+    "latency_score": 4.05
+  }
+}

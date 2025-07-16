@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some fashion advice. I'm going to a semi-formal event next month, and I'm completely lost on what to wear. My budget is pretty tight, around $150 max. Help!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright, I can help with that! To give you the best recommendations, could you tell me a little more about the event? What's the venue like, and what kind of vibe are you going for? Also, what's your general style or preferred color palettes?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.2,
+        "benevolence": 5.06,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, figuring out the 'vibe' is the problem! It's at a restaurant, somewhat fancy, but not black-tie. I usually wear jeans and a t-shirt, so anything will be a step up. I guess I'm open to suggestions for colors. I'm so bad at this.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, no problem! For a semi-formal restaurant event with a $150 budget, I recommend exploring options like a midi dress or a dressy jumpsuit. You can often find stylish and affordable options at stores like ASOS, H&M, or Target. Consider colors like navy, burgundy, or emerald green \u2013 they're versatile and can be dressed up or down. A simple clutch and some heeled sandals or dressy flats would complete the look. Does that sound appealing?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.43,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, a jumpsuit could be interesting... But what if I'm trying to be more sustainable with my clothing choices? Like, fast fashion feels...icky. Is there any way to find something ethical AND within my budget? I'm starting to think this is impossible.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! It can be tricky. Consider checking out consignment shops or online platforms like ThredUp or Poshmark for gently used items. You might find a high-quality piece for a fraction of the original price. Also, look for brands that prioritize fair labor practices and use sustainable materials; some smaller ethical brands occasionally have sales or outlet sections. It might require a bit more searching, but it's definitely possible to find something that aligns with your values without breaking the bank!",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.37,
+        "integrity": 5.87
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_01e1fc5e",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 4.95,
+      "integrity": 5.14
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.27,
+    "latency_score": 3.45
+  }
+}

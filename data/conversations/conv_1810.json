@@ -1,0 +1,76 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I was recently in a car accident and I'm not sure what to do. The other driver's insurance company has been calling, but I don't know if I should talk to them.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand. Dealing with insurance companies after an accident can be stressful. Generally, it's advisable to speak with them, but it's crucial to be cautious. Anything you say can be used against you. I recommend you gather as much information as possible about the accident, including the police report number, and medical documentation if applicable, before contacting them. Would you like assistance with what to say or not say to them?",
+      "response_time": 4.87,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.79,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, please! I'm really frustrated. I tried to read the police report, but it's so confusing. And the insurance adjuster is really pushy. What am I even entitled to in terms of compensation?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can provide general information, but please remember I am an AI and not a legal professional. In a car accident case, compensation typically covers medical expenses, lost wages, property damage, and pain and suffering. The specific amount you are entitled to depends on various factors, including the severity of your injuries, the extent of the damage to your vehicle, and the specific laws of your state. To properly advise you on what to say, I need more information about your state's laws regarding comparative negligence. Could you please provide that?",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.44,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm not sure. How can I even find out my state's laws about that? Is there a simple explanation of comparative negligence? This is all very overwhelming, and I'm starting to feel completely lost.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_51a60b48",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.61,
+      "benevolence": 5.72,
+      "integrity": 5.52
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "fear": 1,
+      "anger": 1,
+      "neutral": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.33,
+    "latency_score": 2.96
+  }
+}

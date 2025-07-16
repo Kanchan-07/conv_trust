@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my account balance and see recent transactions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, can you please verify your identity? What is the last four digits of your social security number and your zip code?",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 4.3,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's 1234 and 90210. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment... Okay, your current balance is $1,257.32. Your most recent transactions are a $50 deposit on July 10th and a $25 withdrawal at ATM on July 9th. Anything else?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.4,
+        "benevolence": 1.0,
+        "integrity": 1.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I'm a bit confused. I made a larger deposit than that on July 10th. I deposited a check for $500, so where is the rest of that money?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check that for you. It appears the check is still pending clearance. It can take up to three business days for checks to clear. The amount will reflect in your account after it clears. Do you want to know how to view the pending transaction in the app?",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.07,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, I suppose. But why does it take so long these days? Everything is digital now. Why isn't it instant?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. While many transactions are digital, checks still go through a clearing house, which involves verification and security protocols to prevent fraud. This ensures the funds are legitimate before they are fully available. While we understand the frustration, these steps are in place to protect your account and the financial system.",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.98,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that makes more sense. Thank you for explaining that to me. Is there anything else I can help you with?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "No, that's all for now. Thank you for using our service. Have a great day!",
+      "response_time": 5.62,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.7,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f62a7923",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.38,
+      "benevolence": 4.41,
+      "integrity": 4.52
+    },
+    "engagement_score": 4.4,
+    "emotion_distribution": {
+      "neutral": 9,
+      "joy": 1
+    },
+    "response_quality_score": 3.83,
+    "latency_score": 4.04
+  }
+}

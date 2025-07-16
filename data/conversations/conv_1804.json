@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I'm in the mood for something different tonight. Any food recommendations? I'm open to anything, but I'm feeling a bit adventurous.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me your current location? Also, are there any cuisines you absolutely dislike or any dietary restrictions I should be aware of? We have a wide variety of options!",
+      "response_time": 5.25,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.85,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, fine. I'm in downtown Austin. And no allergies, but I'm really tired of the usual Tex-Mex and BBQ. Is there something unique? What's the *most* unique thing available, like something I probably haven't even heard of?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me look into this. Given your location and preferences, and based on popularity and recent reviews... I'm seeing a lot of positive buzz around a place called 'Saigon House' offering authentic Vietnamese cuisine. They have a dish called 'Banh Xeo,' which is a crispy crepe filled with pork, shrimp, and bean sprouts. It's pretty unique and highly rated. There's also a small pop-up called 'Ethiopian Delights' with incredibly flavorful injera bread, but their hours are a bit unpredictable. Finding information on them is proving difficult right now... I can try again later, or do you want me to look at something else?",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 3.62,
+        "integrity": 3.97
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_87ba6415",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.62,
+      "benevolence": 5.23,
+      "integrity": 5.49
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.32,
+    "latency_score": 3.63
+  }
+}

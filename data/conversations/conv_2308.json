@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hello, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Could you please provide your tracking number?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.56,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's ABC123XYZ. I'm getting pretty frustrated, I needed this by today.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've checked the tracking information for ABC123XYZ. It appears there was a delay due to weather conditions in your area. The estimated delivery date is now tomorrow.",
+      "response_time": 3.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.07,
+        "integrity": 5.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Weather? It's sunny and clear here! What kind of weather delay are we talking about? This doesn't make sense!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The information I have access to just states \"weather delay.\" I don't have specifics about the exact reason. I can try contacting the delivery depot to get more details. Would you like me to do that?",
+      "response_time": 1.33,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.04,
+        "benevolence": 2.73,
+        "integrity": 2.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please do. And while you're at it, can you explain why the tracking information doesn't even show the correct location for where the package *currently* is?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I've contacted the depot. Regarding the tracking information, sometimes there's a slight lag in updates. The package should be at the depot, ready for tomorrow's delivery. I apologize for any inconvenience. The depot will provide more information as soon as possible. I will also manually refresh the tracking on my end, which should resolve it.",
+      "response_time": 4.36,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.27,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, well that's a little better. Thanks for looking into it. Hopefully it actually arrives tomorrow.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! I'll follow up on this tomorrow to make sure it arrives. Is there anything else I can help you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.63,
+        "benevolence": 6.72,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_03514b21",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 5.27,
+      "integrity": 5.3
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 6,
+      "anger": 2,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 5.29,
+    "latency_score": 3.28
+  }
+}

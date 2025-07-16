@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to get groceries but I'm on a pretty tight budget this week. Can you recommend some affordable meal ideas?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me what your weekly grocery budget is, and if you have any dietary restrictions or preferences?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.73,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm aiming for about $75 this week. I'm vegetarian, and I really dislike tofu, so nothing with that please. I get so frustrated when I can't find good vegetarian options that are actually budget-friendly!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Based on your $75 budget and vegetarian preference (no tofu), I can recommend a few options. For example: Lentil soup with crusty bread ($15), bean and cheese burritos ($10), pasta with vegetables ($20). These are suggestions, of course. But how am I supposed to determine what ingredients are available or what the prices of those ingredients are at your local grocery store? The price of groceries varies greatly!",
+      "response_time": 5.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.15,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's... a good point about local pricing. Alright, let's try this: Can you give me suggestions that are generally very affordable, assuming I shop smart (e.g., buying in bulk when it makes sense, and checking for sales)? And, what would a good breakfast idea be?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a1f251d6",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.07,
+      "benevolence": 5.94,
+      "integrity": 6.45
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 6.63,
+    "latency_score": 1.75
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to install a new light fixture in my dining room, but I'm a complete beginner. Any advice?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help with that. First, safety is key. Turn off the power to the circuit at the breaker box. Then, can you describe the existing wiring situation? How many wires are coming out of the ceiling?",
+      "response_time": 4.98,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.77,
+        "integrity": 6.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, power off, check. There's a black wire, a white wire, and a copper wire. I'm already a little confused by all this.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No worries, that's normal. The black wire is typically the hot wire, the white is neutral, and the copper is ground. Make sure you understand how to identify the wires for your new fixture. What type of fixture are you installing? Does it have a ground wire?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 4.38,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, the new fixture has a ground wire. Okay, so I connect black to black, white to white, and the copper to... something? The instructions aren't super clear.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Exactly! Connect black to black, white to white. The copper (ground) wire from your house should connect to the green ground wire on the fixture, or to the ground screw on the fixture's mounting bracket. Use wire connectors (wire nuts) to secure the connections. This is the most important step to ensure your safety. Do you have wire nuts?",
+      "response_time": 5.03,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.72,
+        "benevolence": 6.69,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, I have wire nuts. Alright, I think I've got it so far. But what if the wires in the ceiling are aluminum instead of copper? Someone told me that's a whole different ballgame, and I'm now terrified.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a really good question. Aluminum wiring does present some potential hazards if not handled properly. You'll want to consult with a qualified electrician in that case. Trying to provide you with specific instructions for that type of wiring would be irresponsible of me. Aluminum wiring is definitely a different situation. Would you like me to help you find a local electrician?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.5,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's what I was afraid of. Okay, yes, please. Finding a good electrician who doesn't overcharge is harder than it seems.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Here are some highly-rated electricians in your area based on online reviews and ratings. I will also provide some tips on how to get competitive quotes...",
+      "response_time": 2.08,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.24,
+        "integrity": 2.65
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c27f8455",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.8,
+      "benevolence": 4.92,
+      "integrity": 4.93
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "neutral": 7,
+      "fear": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.58,
+    "latency_score": 3.64
+  }
+}

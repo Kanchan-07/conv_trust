@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to figure out why my checking account balance is so low. Can you help me check my recent transactions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. To access your account information, please verify your identity. What is the last four digits of your social security number and your date of birth?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.24,
+        "benevolence": 1.0,
+        "integrity": 1.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's XXXX and 03/15/1988. Ugh, I hate giving out that information.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I access your account. Okay, I'm showing recent transactions. Do you want me to list them, or are you looking for something specific, like a certain date or amount?",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.03,
+        "benevolence": 1.08,
+        "integrity": 1.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Just list them, please. I'm looking for anything unusual, maybe a fraudulent charge.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. Recent transactions include a debit card purchase at 'Joe's Gas' for $45.22 on 2024-11-03, a credit from 'Acme Corp' for $1200 on 2024-11-02, a withdrawal from ATM ending in 1234 for $200 on 2024-11-01, and a charge from 'Netflix' for $14.99 on 2024-10-31. Anything stand out?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.73,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait a minute... 'Joe's Gas'? I haven't been to Joe's Gas in months! How could that possibly happen? Is my card compromised? What kind of security measures do you guys even have?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. We take security very seriously. It appears there was a transaction at Joe's Gas. I recommend freezing your card immediately to prevent further unauthorized charges. I can do that for you now. Then, we can initiate a fraud investigation. Would you like me to proceed with freezing your card and opening a fraud case?",
+      "response_time": 0.52,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e4ed617a",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.93,
+      "benevolence": 1.7,
+      "integrity": 1.84
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.17,
+    "latency_score": 6.27
+  }
+}

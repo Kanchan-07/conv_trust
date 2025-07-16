@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with Dr. Ramirez. It's been difficult getting through on the phone.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. I can definitely help you with that. Do you have a preferred date or time frame in mind?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.64,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I wish I did. My schedule is kind of crazy. Anything in the next two weeks would be ideal, preferably in the afternoon.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me check Dr. Ramirez's availability. One moment... It looks like she has an opening on Tuesday the 18th at 2:30 PM and Friday the 21st at 3:00 PM. Would either of those work?",
+      "response_time": 2.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 3.82,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The 18th at 2:30 works perfectly! Thank goodness.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great! And for what reason is this appointment scheduled?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.87,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "It's a follow-up for my blood work. Actually, on that note, how long are you guys planning to keep my medical data for? What safeguards are in place to ensure my information isn't compromised?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Your follow-up appointment is scheduled for Tuesday the 18th at 2:30 PM. Regarding your data, we adhere to HIPAA regulations and retain medical records for the legally required period, which varies depending on the type of record and state laws. We employ robust security measures, including encryption and access controls, to protect patient information. We also conduct regular security audits. More detailed information about our data retention and security policies is available on our website under the 'Privacy Policy' section.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.84,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's reassuring. Thank you for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d151594f",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.25,
+      "benevolence": 6.17,
+      "integrity": 6.33
+    },
+    "engagement_score": 4.35,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "joy": 3
+    },
+    "response_quality_score": 6.11,
+    "latency_score": 2.34
+  }
+}

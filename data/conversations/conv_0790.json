@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, let's start processing these claims. I have a stack of medical bills here from last week. Is there a way to upload them in bulk or do I have to do each one separately?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Good morning! You can upload claims in bulk. Please ensure all files are in a compatible format such as .csv, .txt, or .edi. We also support PDF uploads with OCR processing. What format are your bills in?",
+      "response_time": 5.64,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.85,
+        "integrity": 6.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Most of them are PDFs. I'll try the bulk upload. Ugh, it's saying 'Error: Invalid File Format'. But they're PDFs!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. Please ensure that the PDFs are not password-protected or corrupted. Also, our system is optimized for PDFs that are generated from text. Scanned images may have lower processing accuracy. Could you try uploading one PDF individually to see if that works?",
+      "response_time": 2.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.07,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I tried uploading one individually and it went through. That's progress, I guess. But seriously, I have hundreds of these things! Is there a size limit on the bulk upload, maybe that's the problem?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, there is a limit of 100MB for bulk uploads. Also, the maximum number of files that can be uploaded in a single batch is 50. Try splitting the PDFs into smaller batches and uploading again.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 4.27,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I split them up. Seems to be working better now. But I'm still getting some rejections \u2013 reason code 27: 'Missing Subscriber ID'. Is there any way to automatically populate that field from a database, or do I have to manually enter it for every single claim?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, our system supports automated subscriber ID population. You can link your account to our secure patient database. Once linked, the system will automatically attempt to retrieve and populate the Subscriber ID field for each claim. Would you like me to guide you through the linking process or send you to the relevant documentation?",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.45,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising. But what happens if the database contains inaccurate or outdated information? What liability do you guys have if claims are rejected because of incorrect data from *your* linked database?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While our database is regularly updated and we strive for accuracy, it's ultimately the responsibility of the user to verify the information before submitting claims. Our terms of service, available on our website, outline the limitations of our liability in such cases. However, we do provide tools to easily review and edit the populated data before submission, and we strongly encourage you to utilize them. We also have mechanisms in place to report any inaccurate data you find, which helps us improve the accuracy of our database for all users.",
+      "response_time": 4.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.88,
+        "integrity": 5.28
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f84b3eb",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.18,
+      "benevolence": 5.3,
+      "integrity": 5.16
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "neutral": 8,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.27
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to arrive three days ago. The tracking number is 1Z999AA1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. Let me check the status of that package for you. One moment, please... Okay, I see it here. The tracking information indicates it's currently 'in transit' and experiencing an unexpected delay. I apologize for the inconvenience.",
+      "response_time": 2.65,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.56,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "An unexpected delay? That's not very helpful! I needed that package for a presentation today! Can you tell me *why* it's delayed? And when will I actually receive it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I don't have the exact reason for the delay, the system indicates it's likely due to unforeseen circumstances at a regional sorting facility. The estimated delivery date has been updated to tomorrow by the end of the day. ",
+      "response_time": 2.11,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.56,
+        "benevolence": 2.23,
+        "integrity": 2.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tomorrow? But I paid extra for expedited shipping! What's the point of paying for faster delivery if it's just going to arrive whenever it feels like it? Can I get a refund for the shipping costs at least?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely assist you with that. I've initiated a refund request for the shipping costs. You should see the credit reflected in your account within 7-10 business days. Is there anything else I can help you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.25,
+        "integrity": 1.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7f6c2b8d",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.49,
+      "benevolence": 2.35,
+      "integrity": 2.81
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 2,
+      "sadness": 1,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 2.39,
+    "latency_score": 5.75
+  }
+}

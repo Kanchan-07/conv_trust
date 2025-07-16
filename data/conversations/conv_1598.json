@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I'm planning to participate in a hackathon next month, and I'm completely lost. I've never done this before. Any tips?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Congratulations on planning to join a hackathon! That's exciting. Absolutely, I can help. First things first, what's your area of interest? Knowing this will help me tailor the advice. Also, do you have any existing projects or experience in software development?",
+      "response_time": 4.59,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.92,
+        "benevolence": 6.89,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'm interested in AI, specifically in image recognition, but my coding experience is... basic. I know Python, but that's about it. Ugh, I'm already feeling overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, image recognition with Python is a great starting point, and many hackathons focus on that area. Regarding feeling overwhelmed, that is completely normal! Let's break it down. First, research hackathons in your area or online. Then, find one with beginner-friendly workshops. Next, try finding a team or a mentor. Finally, start planning your project with a focus on something manageable. What's the most confusing part for you right now?",
+      "response_time": 3.43,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 4.0,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks! But, realistically, how much can one person, with my experience, achieve in, say, 24-48 hours? I see these advanced projects online, and it's discouraging.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question. The truth is, it's about learning and applying your knowledge. In 24-48 hours, even with basic experience, you can create a functional prototype. Focus on a clear problem, a simple solution, and a well-documented codebase. Don't aim for perfection, aim for functionality. Good luck!",
+      "response_time": 1.74,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.3,
+        "benevolence": 2.77,
+        "integrity": 2.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0e80af70",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.43,
+      "benevolence": 4.55,
+      "integrity": 4.55
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "surprise": 3,
+      "joy": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.31,
+    "latency_score": 4.25
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a software engineer position. I'm really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you prepare. To start, what type of software engineering role is it (e.g., front-end, back-end, full-stack)? Knowing the specialization will allow me to tailor the preparation questions.",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.36,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a full-stack position. I'm mostly worried about the technical questions. I always freeze up!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Let's start with some common full-stack questions. First, describe the difference between cookies, sessionStorage, and localStorage.",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 3.6,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, these definition questions always get me. Okay, let me try... Cookies are small text files that websites store on a user's computer, sessionStorage is for one session, and localStorage is persistent... is that right?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good start! You're correct about the persistence of localStorage. For cookies, you might want to also mention their typical use case (tracking) and size limitations. SessionStorage is indeed for one session but specifically refers to browser tab.",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 3.5,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. So, cookies are for tracking, sessionStorage is for a tab, and localStorage is like long-term storage. But how do you decide *which* one to use in a real-world application? That's what I struggle with.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's an excellent question! The choice depends on the data's sensitivity, lifespan, and scope. If you need to store sensitive data for a short period and specific to a single session (e.g., shopping cart data), sessionStorage is ideal. For user preferences that need to persist across sessions (e.g., theme settings), localStorage is suitable. Cookies are best for tracking user behavior and storing small amounts of data that need to be accessible across multiple domains, but keep in mind security concerns, like potential of XSS attacks.",
+      "response_time": 4.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.35,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's really helpful, thank you! What about more complex topics, like design patterns? I know about them in theory, but I struggle to explain them in an interview setting.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Okay, let's consider the Singleton pattern. Can you describe what it is and a use case where it might be useful in a full-stack application?",
+      "response_time": 2.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.83,
+        "integrity": 4.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d98998ce",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.57,
+      "benevolence": 4.33,
+      "integrity": 4.64
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 6,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.35,
+    "latency_score": 3.72
+  }
+}

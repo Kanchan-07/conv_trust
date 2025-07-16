@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Smith. I'm free next week.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Let me check Dr. Smith's availability for next week. Could you please provide your full name and date of birth for verification?",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.25,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's John Doe, born on January 1st, 1980. But also, can I request the appointment be scheduled at a specific time? I prefer mornings, like around 9 or 10 am, if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Doe. I've checked Dr. Smith's schedule. Unfortunately, the only available appointment that fits your criteria next week is at 2:30 PM on Thursday. Would that work for you, or should I look for an opening with another doctor?",
+      "response_time": 0.63,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.11,
+        "integrity": 1.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_46374cc7",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.68,
+      "benevolence": 2.68,
+      "integrity": 2.83
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1
+    },
+    "response_quality_score": 2.36,
+    "latency_score": 5.96
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some movie recommendations. I like action movies, what can you suggest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. For action movies, have you seen the *Mission: Impossible* series? Or perhaps *Mad Max: Fury Road*?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.39,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen both. Anything a little less mainstream? I'm looking for something I haven't heard of.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me check my database. Based on your preference for less mainstream action films, I recommend *The Raid: Redemption*. It's a highly acclaimed Indonesian action film with incredible fight choreography. Also, perhaps *Dredd* (2012), a gritty and underrated adaptation of the Judge Dredd comic.",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.19,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ooh, I've heard of *The Raid*. Never heard of *Dredd*, though. What's it about?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "In a dystopian future, law enforcers called 'Judges' serve as judge, jury, and executioner. Dredd, the most feared Judge, takes a rookie on a mission to confront criminals in a high-rise building. Its stylish and action-packed, great for a quick watch!",
+      "response_time": 5.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.89,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Sounds interesting! But... I'm more in the mood for something a little lighter. Do you have any recommendations for action comedies?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, of course! For action comedies, I can recommend *Hot Fuzz*, which is very popular. Other good choices are *21 Jump Street* and *Shaun of the Dead*.",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.24,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm... I've seen all of those, too. Okay, here's a tricky one: can you suggest an action comedy that has a strong female lead, and isn't something super popular like *Kill Bill* or *Atomic Blonde*?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! Let me see... considering your criteria, I'd recommend *Gunpowder Milkshake* with Karen Gillan, or *Kate* with Mary Elizabeth Winstead. Both feature strong female leads in action-comedy settings and might be less well-known to you.",
+      "response_time": 5.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.72,
+        "integrity": 5.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b2d8cd10",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 5.09,
+      "integrity": 4.82
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "neutral": 9,
+      "surprise": 1
+    },
+    "response_quality_score": 4.42,
+    "latency_score": 3.25
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated! I can't seem to find where to download my bank statements from last year on your website. It's always so confusing.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help with that. To download your bank statements from last year, please log in to your online banking portal. Once logged in, navigate to the 'Accounts' section, then select the relevant account. From there, you should see a 'Statements' or 'Documents' option where you can specify the date range, including last year. Let me know if you need further assistance after that!",
+      "response_time": 1.32,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.8,
+        "benevolence": 2.66,
+        "integrity": 2.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I did that. But the 'Statements' section only goes back 18 months. I specifically need statements from January to March of last year. What do I do now? And why isn't this easier?!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For statements older than 18 months, you might need to submit a request. Please provide your account number and the specific date range (January to March of last year), and I can initiate that process for you. Note that there may be a small fee associated with retrieving statements older than 18 months, depending on your account type. Would you like me to proceed with initiating the request?",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.95,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait a minute... I thought all banks are required to keep records for at least 5 years. Why isn't this info readily available to me online? And what are the fees associated with that request? Seriously, this is ridiculous.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are correct, banks are required to retain records for a certain period, often longer than what's available online for immediate download. While the records are retained, making them readily available online for extended periods presents storage and security challenges. Regarding the fees, it depends on your specific account type; typically, it ranges between $5 to $10 per statement. To confirm the exact fee for your account, could you please provide your account number so I can check? Alternatively, you could review your account agreement document, which should outline any fees associated with accessing archived statements.",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.06,
+        "integrity": 3.99
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_676ac32a",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.47,
+      "benevolence": 3.56,
+      "integrity": 3.69
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "anger": 3,
+      "surprise": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.18,
+    "latency_score": 5.03
+  }
+}

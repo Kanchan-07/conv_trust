@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi! I have an interview coming up next week for a software engineering position at Google. I'm super nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, of course! I can definitely help with that. I can provide information on common interview questions, suggest practice coding problems, and even help you practice answering behavioral questions. To start, what areas are you most concerned about?",
+      "response_time": 4.84,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.69,
+        "integrity": 6.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm pretty comfortable with the technical stuff, like data structures and algorithms, but I'm really bad at explaining my thought process out loud. And I always get tripped up on the 'tell me about a time you failed' questions. Any tips?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely. For explaining your thought process, try practicing the 'think-aloud' method while solving problems. Verbally narrate your approach, assumptions, and any roadblocks you encounter. For the 'tell me about a failure' question, use the STAR method (Situation, Task, Action, Result) to structure your answer. Can you give me an example failure you've experienced at work, and I can assist you in crafting a STAR response?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 7.0,
+        "integrity": 6.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I can do the STAR method. I once messed up a project by not fully understanding the client's requirements, resulting in a lot of rework. I can tell you more if you want, but what if the failure isn't entirely my fault? What do I do then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! When the failure isn't entirely your fault, you should still take ownership for what you *could* have done better. Acknowledge the contributing factors, but focus on your actions. For example, you could say, \"While there were initial misunderstandings of the requirements, *I* could have been more proactive in clarifying them through more frequent check-ins and validating my understanding with the client.\" You can still use the STAR method, but make sure you're highlighting what you learned, and how you would prevent a similar situation in the future. Does that make sense?",
+      "response_time": 4.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.5,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that is super helpful! I get it now. Thank you so much. Now I actually feel a little less stressed. Can you suggest some practice problems now? Something related to dynamic programming, please?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Excellent! I'm glad I could help. Regarding dynamic programming practice, try the \"Longest Common Subsequence\" problem on LeetCode or HackerRank. There are many similar problems which build on this. This is a classic and demonstrates your understanding of the core DP principles. Good luck with your interview!",
+      "response_time": 5.11,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.77
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_46961ab5",
+    "average_trust_score": 6.62,
+    "trust_category_averages": {
+      "competence": 6.46,
+      "benevolence": 6.55,
+      "integrity": 6.55
+    },
+    "engagement_score": 5.92,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 6.77,
+    "latency_score": 2.46
+  }
+}

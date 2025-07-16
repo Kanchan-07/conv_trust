@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking at this Explanation of Benefits, and it says I owe $300 for a doctor's visit, but I thought my deductible was met last month. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. To investigate this further, could you please provide me with your member ID and the date of service in question? I can then check the status of your deductible and the details of the claim.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, my member ID is 1234567890, and the date of service was July 15th, 2024. I also had bloodwork done that day. I really thought this would all be covered.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please wait a moment while I access your claim details... Okay, I see the claim for the office visit and bloodwork on July 15th. It appears that while you *did* meet your individual deductible, the claim was processed under your family deductible, which has not yet been met. The $300 is being applied toward the remaining family deductible.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, the family deductible. Of course. But how does that even work? Is it based on who uses the insurance first, or is it some other complicated formula?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The family deductible is the total amount your entire family needs to pay before the insurance starts covering eligible expenses for all family members. Each individual's expenses count towards the family deductible. Once the family deductible is met, all covered family members receive in-network benefits, regardless of whether or not an individual has met their *individual* deductible. It is not necessarily based on the order in which people use the insurance.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.14,
+        "integrity": 1.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I understand. So, all medical expenses by family members get counted towards the family deductible and when the family deductible is met, everyone's claims are then paid normally under our plan? I guess I'll just have to keep track of everything. Thanks for explaining that!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_96d3c2ee",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.0,
+      "benevolence": 1.05,
+      "integrity": 1.06
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 1,
+    "latency_score": 7
+  }
+}

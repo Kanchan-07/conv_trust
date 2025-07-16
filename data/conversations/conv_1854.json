@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have an interview for a software engineer position at Google next week. I'm completely swamped with prepping. Can you help me with some interview practice questions?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! I can provide you with practice questions related to data structures, algorithms, system design, and behavioral questions. To get started, what areas are you most concerned about, or where do you feel your knowledge is weakest?",
+      "response_time": 5.84,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.08,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, system design is a huge weak spot. I can usually code up a solution, but designing the entire system from scratch\u2026 that's where I struggle. Give me a tough one, please!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, try this: Design a URL shortener service. Consider aspects like scalability, availability, and data consistency. Think about the different components, their interactions, and the trade-offs involved. I can provide more specific guidance if you'd like after you've outlined a solution.",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.22,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I think I understand the basic concepts, but what about how Google handles massive scale?  Specifically, how do they deal with the potential for a single point of failure in their sharding strategy, and how do they guarantee data consistency when updating links across different shards?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very good and challenging question. Google employs several strategies. For single-point-of-failure mitigation, they typically use redundancy at multiple layers (hardware, network, and software). Sharding strategies often involve consistent hashing and failover mechanisms to redirect traffic. Ensuring data consistency across shards is complex, and Google likely uses a combination of techniques, including eventual consistency for certain operations, and potentially transactions/2-phase commit where stronger consistency is required, and also monitoring to address inconsistencies as they occur. Would you like more detail on any of these specific points?",
+      "response_time": 4.23,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.77,
+        "integrity": 5.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_226739cd",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 5.02,
+      "integrity": 5.33
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 4
+    },
+    "response_quality_score": 4.79,
+    "latency_score": 3.02
+  }
+}

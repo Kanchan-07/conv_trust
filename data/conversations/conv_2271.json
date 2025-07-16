@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm trying to fly from Chicago to London sometime in October.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To get started, could you please provide the specific dates you're looking to travel in October, or at least a range of dates?",
+      "response_time": 5.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.82,
+        "integrity": 5.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I'm flexible, that's the problem! Let's say anytime between October 10th and October 25th. I need to be in London for at least a week, maybe two. And I'd prefer a direct flight if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can work with that. Searching for flights from Chicago (ORD) to London (any airport) between October 10th and 25th, with a stay of 7-14 days, and direct flights preferred... Please give me a moment while I check for availability. (Processing...)",
+      "response_time": 2.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.87,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. While you're at it, can you tell me how far in advance airlines typically release their prices? I'm wondering if it's worth waiting for prices to drop if I book now.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Generally, airlines release flight prices about 11 months to a year in advance. However, pricing strategies vary greatly depending on the airline, the route, and market conditions. While waiting *might* get you a better deal, there's also a risk that prices could go up. Based on my current search, I'm finding some direct flights with prices ranging from $700 to $900, depending on the specific dates. Some indirect flights are cheaper, around $500-600. What do you think about the general prices?",
+      "response_time": 3.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 4.29,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, $700-$900 sounds reasonable. Let's book a direct flight for around October 12th to the 19th, if that works for the price. Can you check the specific flight details?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, I'm showing a direct flight on United Airlines departing Chicago (ORD) on October 12th and returning from London (LHR) on October 19th for $780. The flight numbers are UA929 and UA928. Would you like me to proceed with booking this flight for you? ",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.71,
+        "integrity": 3.54
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_05ff7ee4",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.27,
+      "benevolence": 4.42,
+      "integrity": 4.56
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "surprise": 1
+    },
+    "response_quality_score": 4.01,
+    "latency_score": 4.22
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my recent bill. I was charged $75 when my monthly subscription is supposed to be $50. I'm pretty frustrated about this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you're calling about a billing discrepancy. I can definitely help with that. Could you please provide me with your account number or the phone number associated with your account?",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.72,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I pull up your account information... Okay, I see the $75 charge. It looks like a promotional discount expired this month. Are you aware of any promotions that you may have had when you first signed up?",
+      "response_time": 0.53,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.1,
+        "benevolence": 1.11,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A promotional discount? Nobody told me it was going to expire! Why wasn't I notified? Is there anything you can do to honor the original price, since I was never told about it expiring?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check what options are available to me... Okay, I can offer you a one-time credit of $25 to cover the difference this month as a courtesy. Would that be acceptable?",
+      "response_time": 1.85,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.79,
+        "benevolence": 2.41,
+        "integrity": 2.5
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds great, thank you so much! Will my bill go back to $50 next month automatically, or do I need to do something to ensure that happens?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e8057647",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.02,
+      "benevolence": 3.08,
+      "integrity": 2.89
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 3.23,
+    "latency_score": 5.3
+  }
+}

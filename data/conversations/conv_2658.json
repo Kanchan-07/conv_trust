@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, can you help me find some recommendations for headphones?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. To give you the best recommendations, could you tell me what type of headphones you're looking for? For example, over-ear, in-ear, wireless, or noise-cancelling?",
+      "response_time": 5.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.87,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Uh, I guess wireless. And something that sounds really good but isn't crazy expensive, maybe under $150? I'm feeling a bit overwhelmed by all the options out there.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Wireless headphones under $150 with good sound quality are a popular request. Based on those criteria, consider checking out models like the Anker Soundcore Q30, Sony WH-CH710N, or Audio-Technica ATH-M20xBT. These generally receive good reviews for their audio performance and value within your budget.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.03,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, thanks. I've seen the Sony mentioned, but I heard those Ankers have amazing noise cancelling, even better than some much more expensive ones. Are you sure the Soundcore Q30 fits under $150? And why isn't the Sennheiser HD 350BT on that list? Everyone seems to recommend those too!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for the confusion. While the Anker Soundcore Q30 often dips below $150 during sales, its regular price can sometimes be slightly over. Regarding the Sennheiser HD 350BT, it's also a good option, but based on aggregate user reviews focusing specifically on 'sound quality' and 'value' under $150 at this moment, the others slightly outperformed it in our current recommendation model. Availability and price fluctuations can also affect which specific models are highlighted.",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.85,
+        "integrity": 3.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_83d1b474",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 4.58,
+      "integrity": 4.21
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 2
+    },
+    "response_quality_score": 4.81,
+    "latency_score": 3.41
+  }
+}

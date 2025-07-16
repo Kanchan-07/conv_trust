@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help managing my bank account. I want to see my recent transactions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Please confirm your identity by providing your account number and the last four digits of your social security number.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 6.88,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my account number is 1234567890, and the last four digits of my SSN are 1234. Now show me the transactions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment... Okay, here are your recent transactions. However, due to a system error, I am unable to display the transaction descriptions at this time. I can only show the amounts and dates. I apologize for any inconvenience.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.07,
+        "integrity": 1.26
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, this is frustrating! Can you tell me how secure the bank's systems are, considering these kinds of errors? I'm not sure I feel safe keeping my money here anymore.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Our bank employs state-of-the-art security measures, including encryption, multi-factor authentication, and regular security audits, to protect your financial information. We are committed to maintaining the highest levels of security. Regarding the error, it's an isolated incident, and our IT team is working diligently to resolve it. I can provide more specific details regarding our security protocols if you'd like. Would you also like me to report the issue with the transaction descriptions to the technical team for a faster resolution?",
+      "response_time": 4.72,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.24,
+        "integrity": 5.57
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4e1f4af6",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.25,
+      "benevolence": 4.4,
+      "integrity": 4.61
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.66,
+    "latency_score": 3.76
+  }
+}

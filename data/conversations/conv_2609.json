@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help planning my grocery list for the week. My budget is pretty tight, like $50 for one person.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely help with that! Planning meals on a budget can be tricky, but it's definitely doable. To give you the best recommendations for a $50 weekly budget for one person, could you tell me if you have any specific dietary restrictions, preferences, or types of meals you usually like to make?",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.41,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, yeah, it's a struggle. No real restrictions, just trying to eat somewhat healthy, you know? Nothing too complicated to cook. Quick and easy meals would be great.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. For a $50 budget focusing on quick and easy, healthy meals, you could consider staples like rice, pasta, eggs, and beans. For proteins, chicken thighs or canned tuna are often budget-friendly. Veggies like carrots, onions, potatoes, and frozen vegetables can also be economical. Try planning meals around these items.",
+      "response_time": 5.01,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.8,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's a start. But how do I *actually* make meals out of that for a whole week? And what about things like spices or cooking oil if I don't already have them? That adds up fast! It feels impossible to stay under budget with those hidden costs.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very good point about hidden costs like spices or oil. If you're starting from scratch, it can indeed be challenging. For initial stocking, look for small sizes or sales, or consider buying staples like oil/salt/pepper in larger containers if you plan on cooking regularly, as the cost per unit is lower over time. As for meal ideas with the mentioned staples, you could make dishes like rice and beans with frozen veggies, pasta with canned tuna and a simple tomato sauce, or scrambled eggs with saut\u00e9ed onions and carrots. Planning 2-3 core meals and having leftovers can stretch your budget significantly. Focusing on versatile ingredients helps.",
+      "response_time": 5.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.67,
+        "integrity": 5.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e6855981",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.24,
+      "benevolence": 5.29,
+      "integrity": 4.91
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 2
+    },
+    "response_quality_score": 4.9,
+    "latency_score": 2.8
+  }
+}

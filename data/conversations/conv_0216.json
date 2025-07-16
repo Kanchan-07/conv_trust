@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to go grocery shopping, but I'm really trying to stick to a tight budget this week. Like, $50 tight. Can you suggest some meals I can make and what ingredients I'll need? I'm so tired of eating ramen!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on a $50 budget, here are a few meal ideas and corresponding shopping lists. We'll focus on staples and affordable options. First, consider a lentil soup. Ingredients: 1 lb lentils (approx. $2), 1 onion ($1), 2 carrots ($1), 2 celery stalks ($0.75), vegetable broth ($2), canned diced tomatoes ($1). Second, Pasta with tomato sauce: Pasta ($1.50), canned tomato sauce ($2), garlic ($0.50), onion ($1). These two meals should leave you with about $37.25 for the rest of the week. What kind of food do you prefer?",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.43,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that's a start, but how do you know the prices you're listing are accurate? Prices vary so much from store to store! What if my local grocery store is way more expensive?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, prices do vary significantly. I use national averages from a database that is updated quarterly. To get more accurate estimates, I recommend checking the online flyers for your local grocery stores before you shop and adjust the meal plan accordingly. Would you like me to help you find the online flyers for stores near you?",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.47,
+        "integrity": 5.21
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a995bfcd",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.95,
+      "integrity": 4.5
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.22,
+    "latency_score": 4.37
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up and I'm super nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you prepare. To start, what type of role is the interview for, and what company is it with? Knowing this will allow me to tailor the preparation to your specific needs.",
+      "response_time": 5.49,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.74,
+        "benevolence": 7.0,
+        "integrity": 6.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a Senior Software Engineer position at Google. I'm mostly worried about the technical questions. I always freeze up!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. For Senior Software Engineer roles at Google, you can expect questions on data structures, algorithms, system design, and object-oriented programming. Let's start with a common algorithm question: Describe the difference between a breadth-first search and a depth-first search.",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 4.35,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I knew you'd ask that! I *always* get those mixed up. I think breadth-first searches level by level? But then I get stuck on the details...",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're on the right track! Breadth-first search explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level. Depth-first search explores as far as possible along each branch before backtracking. Think of it like this: breadth-first is exploring all your friends on Facebook, and depth-first is exploring the family tree of one friend really, really deep.",
+      "response_time": 5.6,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that... actually helps a lot! But what about system design questions? Those are terrifying. How can I possibly prepare for 'design Twitter' in an hour?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "System design questions are indeed challenging. While designing an entire platform like Twitter in an hour is impossible, the interviewer is assessing your ability to think through the problem, consider trade-offs, and articulate your design choices. Focus on the key components like data storage, user authentication, and feed generation. A good approach is to clarify assumptions, discuss high-level architecture, and then dive deeper into one or two specific components based on your strengths. I can help you break down potential system design questions and identify key areas to focus on.",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.35,
+        "integrity": 6.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_60c433b4",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.76,
+      "benevolence": 5.93,
+      "integrity": 6.06
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.81,
+    "latency_score": 3.04
+  }
+}

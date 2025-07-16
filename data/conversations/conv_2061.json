@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really frustrated. I'm trying to understand this Explanation of Benefits I just got, and it says my claim for a knee MRI was denied. The reason code is, like, a mile long, and I have no idea what it means.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Denials can be confusing. To help me assist you, could you please provide the denial reason code? Alternatively, you can upload a redacted copy of your Explanation of Benefits (EOB) so I can analyze it.",
+      "response_time": 2.02,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.44,
+        "benevolence": 2.45,
+        "integrity": 2.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, the code is 'PR-101: Diagnostic testing not deemed medically necessary.' I'm pretty sure my doctor *did* deem it medically necessary, though. How do I even start to figure this out?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, PR-101 indicates the insurer did not find the testing necessary based on the information submitted. The first step is to review your medical records to see if the documentation submitted by your doctor clearly supports the medical necessity of the MRI. This includes the diagnosis, symptoms, and any prior treatments. We can guide you through how to gather this documentation.",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 4.09,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if my doctor's notes *do* support it, and they just didn't submit the right information? Can I appeal, and what are my chances of success? Honestly, this seems really complicated.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, you can definitely appeal. If the documentation was not correctly submitted or if additional medical information is required, you can submit an appeal. The appeal process involves submitting a letter outlining the reasons for the appeal, accompanied by all supporting medical records. Regarding your chances of success, it is difficult to give a precise number without fully reviewing the details. The success rate varies based on the reason for denial, the quality of the supporting documentation, and the specific insurance plan's policies. However, a well-documented appeal with supporting medical records can often lead to a successful reversal of the denial.",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.41,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that gives me a little hope. Thanks for the information. I feel a little less overwhelmed now. I'll start gathering those records.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d6faf534",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.54,
+      "benevolence": 3.65,
+      "integrity": 3.11
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 3.98,
+    "latency_score": 4.85
+  }
+}

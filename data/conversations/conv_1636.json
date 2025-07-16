@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner tonight for 2 people. Somewhere nice, preferably Italian.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that.  To get started, could you tell me what time you'd like to dine and in what city are you located?",
+      "response_time": 5.08,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.92,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in New York City and ideally, around 7:30 PM tonight. I've tried calling a few places already and everything seems booked up! Getting a bit frustrated here.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration! Let me check availability at some popular Italian restaurants in NYC for you. I'm searching now... Okay, I found a table available at 'Luigi's Little Italy' for 7:45 PM tonight. Would you like me to book it?",
+      "response_time": 1.68,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.99,
+        "benevolence": 2.6,
+        "integrity": 2.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Luigi's... I've heard mixed reviews. What's the cancellation policy in case we need to change our plans?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I'm still under development, and don't have access to each restaurants cancellation policies. However, the restaurant's website usually has this information or you can call them directly. Would you like me to help you find their website?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.5,
+        "integrity": 3.89
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_32da83bd",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.18,
+      "benevolence": 4.01,
+      "integrity": 3.84
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 2
+    },
+    "response_quality_score": 4.27,
+    "latency_score": 3.97
+  }
+}

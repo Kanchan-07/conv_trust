@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to get ready for this hackathon, but I'm totally overwhelmed! There's so much to learn, and I don't even know where to start.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Hackathons can be intense. To help, could you provide some details? What's the hackathon's theme or focus? What's your current skill set, and what areas are you hoping to develop during the event?",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.45,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the theme is \"AI in Healthcare.\" I know a little Python, but I'm a total beginner with machine learning.  And honestly, how do I even *find* datasets that I can use?  That's been the biggest source of frustration so far!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Finding suitable datasets can indeed be a challenge. For AI in healthcare, start with resources like Kaggle, UCI Machine Learning Repository, and Google Dataset Search. Some publicly available healthcare datasets could include patient records (de-identified), medical images, or research publications. Regarding your Python skills, there are numerous online tutorials and libraries (like scikit-learn, TensorFlow, and PyTorch) that can help you get started with machine learning. Would you like me to provide links to tutorials or datasets?",
+      "response_time": 4.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.39,
+        "integrity": 5.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f3b9590",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.58,
+      "benevolence": 4.92,
+      "integrity": 4.62
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 5.22,
+    "latency_score": 3.65
+  }
+}

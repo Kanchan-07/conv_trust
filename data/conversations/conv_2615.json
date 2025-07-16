@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, I'm looking for some book recommendations. Could you suggest some good sci-fi books?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Science fiction is a great choice. Some popular and well-regarded sci-fi books include 'Dune' by Frank Herbert, 'Foundation' by Isaac Asimov, and 'The Hitchhiker's Guide to the Galaxy' by Douglas Adams. Have you read any of those?",
+      "response_time": 5.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.65,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've read all of those, actually. They're classics, but I was hoping for something a bit newer, maybe less well-known? Or perhaps something specifically hard sci-fi?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, newer or hard sci-fi. Okay, how about 'Project Hail Mary' by Andy Weir, 'The Martian' also by Weir, or perhaps 'Children of Time' by Adrian Tchaikovsky? These are relatively recent and popular.",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.03,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I loved Project Hail Mary. But The Martian and Children of Time are also pretty well-known. It feels like I'm just getting a list of bestsellers I already know. It's a little frustrating. How exactly do you decide what books to recommend? Do you actually read the books yourself to know if they're hard sci-fi?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. My apologies if the suggestions haven't been quite right yet. To clarify, I don't 'read' books in the human sense. My recommendations are based on processing and analyzing information from a vast dataset of text, including summaries, reviews, genre classifications, and common themes, to find patterns and relevant titles. To provide more tailored suggestions, could you tell me what aspects of hard sci-fi you enjoy most? Is it the scientific accuracy, the focus on technology, or the exploration of potential future societies?",
+      "response_time": 1.64,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.78,
+        "benevolence": 2.49,
+        "integrity": 2.9
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes more sense. It's not so much about the accuracy, more the intricate world-building driven by a scientific concept and the philosophical questions that arise from it. Less space battles, more 'what does this technology/discovery *mean* for society?'",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you, that's very helpful criteria! For intricate world-building based on scientific concepts and philosophical implications, consider 'Ancillary Justice' by Ann Leckie (explores identity and consciousness), 'The Space Between Worlds' by Micaiah Johnson (multiverse travel and social commentary), or 'Recursion' by Blake Crouch (deals with memory and time).",
+      "response_time": 4.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.11,
+        "integrity": 5.85
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow, these sound much better! 'Ancillary Justice' and 'The Space Between Worlds' especially sound right up my alley. I haven't heard of these before. This is great! Thanks! Can you give me just one more suggestion similar to 'Ancillary Justice'?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Excellent! I'm glad those suggestions are better suited. If you enjoyed the themes of identity and societal structure in 'Ancillary Justice,' you might also like 'A Memory Called Empire' by Arkady Martine, which features complex political maneuvering and cultural immersion within a vast space empire.",
+      "response_time": 4.26,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c4330175",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.91,
+      "benevolence": 4.86,
+      "integrity": 5.07
+    },
+    "engagement_score": 6.08,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.37,
+    "latency_score": 3.63
+  }
+}

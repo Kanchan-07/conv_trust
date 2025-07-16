@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking about joining a hackathon, but I'm feeling a bit overwhelmed. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's understandable. Hackathons can seem daunting at first. A good starting point is to identify your interests and skill set. What kind of projects are you generally interested in, and what technologies are you familiar with?",
+      "response_time": 3.14,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.56,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm pretty comfortable with Python and a little bit of web development. I'm interested in AI and machine learning, but I don't know where to find hackathons focused on that, or if my skills are even good enough. This is stressing me out a little...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No worries! There are definitely AI/ML-focused hackathons out there. Websites like Devpost, Hackerearth, and Major League Hacking (MLH) often list upcoming events. Filter by keywords like \"AI\", \"Machine Learning\", or related technologies. Don't worry too much about your current skill level; hackathons are a great place to learn and collaborate. Many have beginner-friendly tracks or mentors available.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.97,
+        "benevolence": 6.95,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But here's my big question: how do I come up with a *good* idea? I always feel like all the 'good' ideas are already taken. And how do I make sure my project is feasible within the limited time?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Coming up with ideas can be tough. One approach is to look for real-world problems that you personally face, or that you observe in your community. Think about how AI/ML could provide a solution. Don't aim for perfection or groundbreaking innovation in 24-48 hours. Focus on building a functional prototype that demonstrates your idea. Break down your project into smaller, manageable tasks and prioritize the core functionality. To ensure feasibility, create a basic project plan with time estimates before you start coding.",
+      "response_time": 1.98,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.07,
+        "benevolence": 2.29,
+        "integrity": 2.96
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. So, focus on a problem I care about, plan it out, and don't try to solve world hunger in a weekend. Thanks, that's actually a lot less intimidating now!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_64733b63",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.23,
+      "benevolence": 4.27,
+      "integrity": 4.73
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 3,
+      "joy": 1
+    },
+    "response_quality_score": 4.6,
+    "latency_score": 3.79
+  }
+}

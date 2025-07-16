@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately, constantly tired, and I'm getting headaches almost every day. Any ideas what could be causing it?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're experiencing fatigue and headaches. These can be caused by various factors, including stress, poor sleep, dehydration, or even underlying medical conditions. To provide better guidance, could you tell me more about your daily routine? For example, what's your diet like, how much sleep do you get, and do you have any known allergies?",
+      "response_time": 2.23,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.28,
+        "benevolence": 2.62,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I try to eat pretty healthy, lots of fruits and veggies, and I aim for 7-8 hours of sleep. I'm pretty stressed from work, so I figured that's it. But, I don't know, my friend mentioned something about iron deficiency, and I'm suddenly worried that it might be something serious. How do I know if I have iron deficiency?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Iron deficiency can cause fatigue and headaches. Common symptoms include weakness, pale skin, and shortness of breath. To accurately determine if you have an iron deficiency, a blood test is necessary. The best course of action would be to consult with your doctor. They can assess your symptoms, order the necessary tests, and provide a proper diagnosis and treatment plan. While I can provide general information, I am not a medical professional and cannot provide medical advice.",
+      "response_time": 2.0,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.11,
+        "integrity": 2.54
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_996ee7bc",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.17,
+      "benevolence": 2.37,
+      "integrity": 2.58
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 2.65,
+    "latency_score": 5.38
+  }
+}

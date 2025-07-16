@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking at my latest bill and there's a charge for $75 that I don't recognize at all. It says 'Service Upgrade Fee' but I didn't upgrade anything! What is this for?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you have a question about a charge on your bill. I can definitely look into this for you. Could you please provide your account number or the email address associated with your service so I can access your billing details?",
+      "response_time": 4.33,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my email is [user's email here]. But seriously, I'm pretty annoyed. I'm on a fixed plan, I haven't made any changes or clicked any upgrade buttons. How could this charge even appear? Are you telling me I was automatically upgraded and now have to pay? That doesn't seem right at all.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing your email address. I've accessed your account. The 'Service Upgrade Fee' typically applies when a user opts into a feature or service tier that is not part of their standard package. While automatic upgrades without consent should not occur, sometimes trial periods or specific feature accesses can trigger a charge if not cancelled within a certain timeframe. I can see the charge posted on [Date]. To determine the exact cause and explore options like a credit, I would need to initiate a formal billing investigation which can take 3-5 business days. Would you like me to start that process?",
+      "response_time": 4.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.07,
+        "integrity": 5.37
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d75b5d58",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.42,
+      "benevolence": 6.04,
+      "integrity": 6.19
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 5.91,
+    "latency_score": 2.89
+  }
+}

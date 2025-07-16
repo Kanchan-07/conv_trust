@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. I don't want to spend more than $800. Can you recommend some options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of $800, I can recommend a few laptops. I'll need a moment to gather some options for you, please wait.",
+      "response_time": 4.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.61,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, but I'm getting frustrated with the slow performance of my current laptop. It's really important that the new one is fast and responsive. Can you factor that in?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely. I'll prioritize laptops with fast processors and sufficient RAM. I can look for options with solid-state drives (SSDs) as those greatly improve responsiveness within your budget. However, since prices fluctuate, the exact specifications will vary, so the available models will depend on what's in stock right now. I've found a few decent models, ranging in price from $650 to $780. The Dell Inspiron 15, the Acer Aspire 5, and the HP 15-ef series all are generally well-reviewed and frequently fall within your budget. Would you like me to provide more specific details, including links to the product pages?",
+      "response_time": 4.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.55,
+        "integrity": 5.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's great, but how do you know which model is *actually* fast? Can you compare the processing speeds and hard drive read/write speeds across different brands?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right to ask about performance specifics! I can try to incorporate this, but my capabilities are limited. I primarily focus on pricing, availability, and general specifications. While I can access some basic performance metrics (like CPU and RAM) for a given model, providing detailed comparisons of read/write speeds or other granular performance details would require a much more sophisticated system than I currently have. I'd recommend you browse the manufacturers' websites to access such detailed specifications and benchmarks. As for my recommendations based on the criteria provided, would you like me to include links?",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.44,
+        "integrity": 4.33
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fe7bbad6",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.7,
+      "benevolence": 5.2,
+      "integrity": 5.03
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 5.4,
+    "latency_score": 3.72
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm prepping for this interview for a Senior Data Scientist role at TechCorp, and I'm feeling overwhelmed. Can you help me with some potential behavioral questions and how to answer them? I always stumble on those!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Let's tackle those behavioral questions. A common one is: 'Tell me about a time you failed.' The key here is to be honest, but focus on what you learned and how you improved. Can you give me an example of a time you failed at work? Don't worry about perfection; we'll refine it together.",
+      "response_time": 5.88,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.5,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, failure. Okay, um... once I rolled out a new machine learning model for fraud detection, and it initially flagged a ton of legitimate transactions as fraudulent. It caused a huge mess with customer service having to deal with angry customers. It was a stressful week. I eventually fixed it, but still... what a disaster!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good starting point. You could phrase it like this: 'In a previous role, I led the deployment of a new fraud detection model. Initially, the model had a high false positive rate, leading to customer dissatisfaction and increased workload for customer service.' Now, focus on the 'learn' part. What specific steps did you take to resolve the issue and what did you learn from the experience regarding model validation and deployment procedures?",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.08,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. So, follow-up questions... What if they ask me something like, 'Why should we hire you instead of someone else?' Everyone has those skills listed on their resume. How do I answer *that* without sounding arrogant or generic?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_35165062",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 4.79,
+      "integrity": 4.58
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "disgust": 1,
+      "neutral": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.95,
+    "latency_score": 2.77
+  }
+}

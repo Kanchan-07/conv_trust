@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately, even after sleeping for what feels like a full night. Any ideas what might be causing this?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. It's understandable to be concerned about persistent fatigue. There could be several factors contributing to your tiredness. Some common causes include insufficient sleep, poor diet, stress, and underlying medical conditions. To get a better understanding, could you tell me more about your daily routine, including your diet and exercise habits?",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 3.92,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I knew you'd ask about diet and exercise! I'm honestly not great in those areas. I try to eat healthy-ish, but I'm always short on time. I barely exercise, but I thought I was doing better than some people. How much does that really affect it? I mean, what if it's a vitamin deficiency or something? How do you know which one is it?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, it's difficult to say with certainty without a physical examination or lab tests. Both diet and exercise play significant roles, and it's difficult to quantify precisely without additional information. Some signs could point to nutritional deficiencies, like feeling weak, dizzy, or experiencing frequent headaches. These could possibly stem from an iron or vitamin D deficiency, for instance. However, it's essential to consult a doctor to get a proper diagnosis and tailored advice. They can review your medical history, conduct a physical examination, and order tests if necessary.",
+      "response_time": 4.17,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.13,
+        "integrity": 5.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_44186ba1",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.16,
+      "benevolence": 4.53,
+      "integrity": 4.58
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 1,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.79
+  }
+}

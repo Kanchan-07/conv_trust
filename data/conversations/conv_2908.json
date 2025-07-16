@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I need help with a denied claim. It's claim number 123456789.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. What is the denial code you received for claim 123456789?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.39,
+        "integrity": 1.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, it's denial code PR-24. Again. This is the third time this month for this code on different claims, and I can't figure out what's wrong. It says 'Payment is adjusted because the code is inconsistent with the modifier used'.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the claim number and denial code PR-24. This code typically indicates that the procedure code submitted is not compatible with the modifier appended, or that the modifier is not appropriate for the service rendered according to payer guidelines. Can you confirm the CPT code and modifier used on this specific claim?",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.29,
+        "integrity": 1.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, it's CPT 99214 with modifier 25. It was an E/M visit on the same day as a minor procedure. We use this combination all the time, and it's usually paid. I'm really frustrated because I double-checked the documentation, and it clearly supports a separate E/M. Why is this getting denied now?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Modifier 25 is indeed used to indicate a separately identifiable E/M service on the same day as a procedure. Denials like PR-24 can sometimes occur due to specific payer edits or if documentation requirements weren't fully met. Ensure your documentation clearly supports the medical necessity and distinct nature of the E/M service.",
+      "response_time": 5.01,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.83,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I *know* what modifier 25 is for, and I *know* about documentation. I'm telling you the documentation is solid on this one! How can a payer deny a perfectly valid and documented 99214-25? Is there some new rule I'm missing? Or is the payer just being difficult? This feels wrong.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While modifier 25 is widely accepted, some payers have very specific, sometimes nuanced, rules or bundled payment logic that can trigger denials even with proper documentation. It's possible there's a recent policy update from this specific payer, or an automated edit is flagging it incorrectly. Could you tell me which insurance payer this claim was submitted to?",
+      "response_time": 2.18,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.04,
+        "benevolence": 2.58,
+        "integrity": 2.3
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "It was submitted to Blue Cross Blue Shield of [State]. Specifically, their PPO plan. I haven't seen any specific policy updates from them regarding 99214-25 lately, but maybe I missed something. This is such a headache.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the payer information. BCBS policies can vary by state and plan. Given the recurring issue and your detailed documentation, I recommend two steps: First, review the payer's most recent provider manual or website for any specific policy changes on modifier 25 usage with E/M services. Second, I can initiate an appeal process for claim 123456789 on your behalf, attaching a note about the strong supporting documentation. Would you like me to proceed with the appeal?",
+      "response_time": 5.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.8,
+        "integrity": 5.29
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_211cc2e7",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.06,
+      "benevolence": 3.38,
+      "integrity": 3.07
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "disgust": 1,
+      "anger": 3
+    },
+    "response_quality_score": 2.83,
+    "latency_score": 4.79
+  }
+}

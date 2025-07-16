@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order but the tracking information isn't updating. It's been stuck on 'shipped' for like, a week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your order number so I can look into the status for you?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.98,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #12345. Thanks for your help, I'm getting a little worried about it.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm looking at order #12345 now. It appears the package is currently in transit. The last scan was performed on the 15th. I'm not seeing any immediate red flags, but I'll monitor the tracking and keep you updated if there are any delays. Give it another 2-3 days.",
+      "response_time": 4.25,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 7.0,
+        "integrity": 6.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay... two to three *more* days? That's frustrating. What happens if it doesn't update by then? And why is the tracking information so delayed in the first place? Is this a common issue?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. If the tracking doesn't update within the next few days, please reach back out. We can then investigate further with the shipping carrier. As for why the tracking is delayed, it can be due to a variety of factors, including carrier workload and potential logistical issues. Unfortunately, it can be somewhat common. ",
+      "response_time": 1.76,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.74,
+        "benevolence": 2.56,
+        "integrity": 2.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright. One more question: I saw a 'damaged in transit' notification on a similar order. What is the procedure for a damaged item? Do I get a replacement or a refund?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If an item is damaged during transit, the procedure depends on the item and our inventory. Generally, we offer a replacement if the item is still in stock. If a replacement isn't available, or if you prefer, we will issue a full refund, including shipping costs. Please contact us immediately with photos of the damage, and we'll initiate the claim.",
+      "response_time": 2.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.69,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, sounds good. Thanks for the info! Hopefully, my order will arrive safely.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6c73e3b6",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.81,
+      "integrity": 4.92
+    },
+    "engagement_score": 5.1,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "fear": 1,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.18,
+    "latency_score": 4.3
+  }
+}

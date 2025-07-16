@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop, but I'm on a tight budget. Can you help me find some options?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me your budget range?",
+      "response_time": 6.0,
+      "emotion_detected": "surprise",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'd like to stay under $500 if possible. Lower is better!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Based on your budget of under $500, here are a couple of laptops that might fit your needs: the Acer Aspire 5 and the Lenovo Chromebook Duet. Both are generally well-regarded in that price range.",
+      "response_time": 5.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.68,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A Chromebook? Really? I need something that can run regular programs, not just web apps. Ugh, this is more difficult than I thought.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies. I understand. Let's focus on laptops that can run standard applications. The Acer Aspire 5 is still a good option. Also, you might find some refurbished laptops from brands like Dell or HP within your budget that offer more power. Would you like me to look for some specific models?",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.74,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, can you check for refurbished Dells or HPs? But here's the thing \u2013 how do I know the battery on a refurbished laptop will still be good? I don't want to have to replace it immediately.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern regarding refurbished devices. Reputable sellers of refurbished laptops often have a grading system, and many offer warranties that cover battery health. I'll prioritize searching for options with a battery warranty or a 'like new' battery condition. I will focus on certified refurbished models from Dell and HP directly to ensure you receive a warranty.",
+      "response_time": 2.08,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.73,
+        "benevolence": 2.08,
+        "integrity": 2.47
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising! Thanks for the help. Let's see what you can find.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1afec8cb",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.77,
+      "benevolence": 4.62,
+      "integrity": 4.63
+    },
+    "engagement_score": 5.3,
+    "emotion_distribution": {
+      "sadness": 1,
+      "surprise": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.24,
+    "latency_score": 3.37
+  }
+}

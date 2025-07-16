@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle painting my living room. But I'm so overwhelmed. There are so many different types of paint! What kind should I use? I'm aiming for a light, airy feel, and the room gets decent sunlight.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "For a living room with decent sunlight and a desire for a light, airy feel, I recommend an eggshell or satin finish in a light color like off-white, light gray, or pale blue. Eggshell is good for hiding imperfections, while satin is slightly more durable and easier to clean. For the type of paint, I suggest a high-quality acrylic latex paint. It's durable, washable, and low in VOCs (volatile organic compounds), which is better for indoor air quality.",
+      "response_time": 5.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.24,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Acrylic latex, got it. But here's the thing... my walls are textured. Like, *really* textured. Think orange peel, but maybe even a bit worse. Will I need a special kind of primer or something to make the paint look decent? Honestly, I'm afraid it's going to look terrible no matter what I do.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, with heavily textured walls, preparation is key. I recommend using a high-build primer. These primers are thicker and designed to fill in some of the texture, creating a smoother surface for the paint to adhere to. Apply it in thin, even coats, allowing each coat to dry completely before applying the next. You might need two or even three coats depending on the severity of the texture. Alternatively, you could consider skim coating the walls to completely smooth them out, but that is a much more involved process.",
+      "response_time": 5.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.79,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, high-build primer it is. But what about painting technique? Should I use a roller with a thicker nap to get into all the crevices of the texture, or will that just make it worse? This is so stressful!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4a818232",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 5.52,
+      "integrity": 5.95
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "disgust": 2
+    },
+    "response_quality_score": 5.09,
+    "latency_score": 1.67
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new laptop. My budget is around $800, give or take $50. What are some good options for me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of around $800, I can recommend a few laptops. The Acer Aspire 5, the Lenovo IdeaPad Flex 5, and the HP Pavilion 15 are all good options in that price range. They generally offer a good balance of performance and features. Would you like me to provide more details on any of those?",
+      "response_time": 5.44,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.15,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard mixed reviews about the HP Pavilion. Also, can you tell me, with this budget, am I realistically going to be able to run any modern games, even on low settings? I know it's a stretch, but I'm curious.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While the HP Pavilion is a popular choice, performance can vary depending on the specific configuration. As for gaming, realistically, running modern AAA titles smoothly at low settings on an $800 laptop will be challenging. You might be able to play some older titles or less demanding indie games, but for newer games, you'd likely experience low frame rates and reduced graphical fidelity. If gaming is a priority, you might need to consider increasing your budget or looking at dedicated gaming laptops, even if they are entry-level.",
+      "response_time": 3.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 3.72,
+        "integrity": 4.27
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e895fc50",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.58,
+      "benevolence": 4.44,
+      "integrity": 4.92
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.88,
+    "latency_score": 3.04
+  }
+}

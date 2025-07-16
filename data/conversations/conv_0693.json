@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm in the mood for something... thrilling. Maybe suspenseful? I don't know, something that will keep me on the edge of my seat.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I understand. For thrilling and suspenseful movies, I would recommend 'Prisoners', 'Parasite', or 'Se7en'. Have you seen any of those?",
+      "response_time": 2.76,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.56,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen Se7en, great movie. Prisoners sounds familiar, but Parasite isn't really my thing. Anything else? I'm not really into foreign films, to be honest. Are there any thrillers that have a similar feel to Se7en, but maybe a bit less...dark?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "If you liked 'Se7en' and want something less dark, you might enjoy 'Zodiac' or 'The Silence of the Lambs'. Both are crime thrillers with a strong investigative element but perhaps a slightly lighter tone than 'Se7en'. What do you think?",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 4.08,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'Silence of the Lambs' is a classic! I've seen that one too. Okay, 'Zodiac' sounds interesting. But this always makes me wonder... how do you actually *know* what movies I'll like? What's the algorithm based on exactly? Is it just keyword matching on genre, or do you use something more sophisticated like sentiment analysis of reviews or something?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bd882c83",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.81,
+      "benevolence": 3.82,
+      "integrity": 3.88
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "fear": 2,
+      "sadness": 1,
+      "neutral": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.27,
+    "latency_score": 4.13
+  }
+}

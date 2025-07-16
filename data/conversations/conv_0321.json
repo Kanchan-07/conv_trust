@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm having a dispute with my landlord over my security deposit. They're claiming damages that I don't believe are legitimate. Where do I even start with this?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. The first step is to review your lease agreement carefully. Pay close attention to the clauses regarding security deposits, damages, and the process for claiming against the deposit. Do you have a copy readily available?",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.89,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've got it. I've read through it, but it's all legal jargon. It says they can deduct for 'reasonable wear and tear,' but they're charging me for repainting the entire apartment! That seems excessive.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "\"Reasonable wear and tear\" is indeed a key phrase here. Generally, that refers to the natural deterioration of a property over time due to normal use. Repainting might not fall under that category unless the damage was beyond normal wear and tear, such as significant staining or damage to the walls beyond what could be expected with regular living. Can you provide details on the 'damages' listed by the landlord?",
+      "response_time": 1.64,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.23,
+        "benevolence": 2.35,
+        "integrity": 2.55
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so they're charging me for repainting (as I said), cleaning fees even though I cleaned the apartment thoroughly, and replacing a section of carpet they say was 'irreparably stained.' I feel like they're just trying to squeeze every last penny out of me! What are my options if I disagree with these charges?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If you disagree, you can dispute the charges in writing to your landlord. State clearly which charges you believe are unfair and why, referencing the lease agreement. Include photos or any evidence you have supporting your claims. If that doesn't work, you might consider taking them to small claims court. Before you do that, you could try mediation. However, I cannot offer legal advice, and you should consult a qualified attorney for advice specific to your situation.",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Small claims court sounds intimidating. Realistically, how likely am I to win a case like this? And what kind of evidence do I *really* need? The landlord has photos, but they could have easily doctored them.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The likelihood of success in small claims court depends on several factors, including the strength of your evidence, the specific laws in your jurisdiction, and the judge's interpretation. Evidence like your own photos (taken when you moved in and out), witness testimony (if anyone saw the condition of the apartment), and receipts for cleaning supplies could be helpful. As for the landlord's photos, you can argue that they are not representative of the apartment's condition when you vacated. A judge would weigh all the evidence to make a decision. To get a better idea of your chances and the best course of action, it's advisable to consult with a legal professional who can review your specific circumstances and relevant laws.",
+      "response_time": 2.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.77,
+        "integrity": 4.42
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cc38f25a",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.71,
+      "benevolence": 2.75,
+      "integrity": 3.07
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.67,
+    "latency_score": 5.69
+  }
+}

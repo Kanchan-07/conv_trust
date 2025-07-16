@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally getting around to this financial planning thing. I'm completely overwhelmed. I have a 401k through work, a small savings account, and some student loan debt. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be overwhelming! Let's break it down. The first step is to get a clear picture of your current financial situation. Could you provide me with approximate balances for your 401k, savings account, and student loan debt? Also, what's the interest rate on your student loans?",
+      "response_time": 2.02,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.95,
+        "benevolence": 2.84,
+        "integrity": 2.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, fine. My 401k has about $15,000. Savings is pathetic, only like $1,000. And the student loans...brace yourself...it's $40,000 at 6.8%. Is there any hope for me? And what are the tax implications of contributing more to my 401k?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely, there's hope! Many people are in similar situations. Given your debt interest rate, prioritizing paying down your student loans while still contributing enough to your 401k to get any employer match is generally advisable. As for the tax implications, contributions to a traditional 401k are typically made pre-tax, reducing your current taxable income. This means you'll pay less in taxes now, but you'll pay taxes on the distributions in retirement. The exact amount of tax savings depends on your individual tax bracket. Please note that I am an AI and this is not financial advice; you may wish to consult a professional for personalized recommendations.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.11,
+        "benevolence": 1.08,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_133c4973",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 2.03,
+      "benevolence": 1.96,
+      "integrity": 1.77
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 2,
+      "sadness": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 1.34,
+    "latency_score": 6.24
+  }
+}

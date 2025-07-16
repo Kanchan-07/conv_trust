@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I have a big job interview coming up next week and I'm feeling pretty stressed. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely, I can help you with your interview preparation. To get started, could you tell me a bit about the role you're interviewing for and the company? Knowing the specifics will help me tailor my assistance.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.62,
+        "benevolence": 7.0,
+        "integrity": 6.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a Senior Data Scientist role at 'Innovate Solutions'. I'm really excited about the company, but the technical interviews sound tough, and I always struggle with behavioral questions.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, a Senior Data Scientist at Innovate Solutions. That's a great target. We can definitely work on both technical concepts relevant to data science and behavioral questions. Would you like to start with common behavioral questions, or maybe review some technical topics?",
+      "response_time": 3.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.45,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Let's do behavioral first. Specifically, I dread the 'tell me about a time you failed' question. I never know how to answer it without sounding completely incompetent. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a common challenge, but it's actually an opportunity to show self-awareness and resilience. A good approach is the STAR method: Situation, Task, Action, Result. Describe the situation, explain your task, detail the actions you took, and crucially, explain the positive result or what you learned from the failure.",
+      "response_time": 5.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.22,
+        "benevolence": 5.29,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, STAR. I get the concept. But what if the 'result' isn't positive at all? Like, the project totally failed and got shut down. How do I make that sound good using STAR? It feels impossible to fit a complete disaster into a neat framework.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Even if the project was shut down, the 'Result' part focuses on the learning. You can describe the outcome of the project, but then emphasize the lessons you learned from the experience, how it changed your approach going forward, or what you would do differently next time. The key is demonstrating growth.",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.45,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, that's... okay. But how do I tailor these answers not just to the standard framework, but to the specific company's values, like 'collaboration' or 'innovation'? And how do I anticipate the *real* reason they're asking the question and what kind of follow-up they might have that isn't just about the framework?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question! To tailor answers to company values, research their mission and values thoroughly. When crafting your STAR stories, select experiences that naturally highlight these values. For instance, use a story involving teamwork for 'collaboration' or problem-solving for 'innovation'. To anticipate their underlying intent and follow-ups, consider *why* they ask certain questions \u2013 usually to assess key competencies like problem-solving, leadership, handling conflict, or learning from mistakes. Think about the core skill each question is probing and be ready to elaborate on your thought process, alternatives you considered, or how you influenced others. Practicing articulating your thinking process is key.",
+      "response_time": 5.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.88,
+        "integrity": 5.53
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7d7e111a",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.43,
+      "benevolence": 5.61,
+      "integrity": 5.33
+    },
+    "engagement_score": 5.48,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "surprise": 1,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.76,
+    "latency_score": 2.29
+  }
+}

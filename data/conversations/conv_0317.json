@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally getting around to this financial planning thing. I'm completely overwhelmed. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be daunting. Let's start with the basics. Could you tell me a bit about your current financial situation? Specifically, your approximate annual income, any existing debts (student loans, credit cards, etc.), and if you have any savings or investments already?",
+      "response_time": 3.79,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.18,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, so I make around $60,000 a year. I have about $15,000 in student loans and maybe $2,000 on a credit card. I have a little bit in a 401k from my job, maybe $5,000, and like... $500 in a savings account. It's pretty pathetic, I know.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for sharing. Don't worry, everyone starts somewhere. Given your income and debts, a good first step would be to focus on paying down that credit card debt, as the interest rates are usually quite high. Then, we can look at building up your emergency fund. After that, we can optimize your 401k contributions.",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.22,
+        "benevolence": 5.58,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what about investing outside of my 401k? I keep hearing about how important it is to invest early, but I'm so nervous about losing money. And honestly, I don't even know where to begin with stocks and bonds and all that jargon.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Investing outside of your 401k is a great goal for long-term growth. However, before jumping into individual stocks and bonds, it's wise to build a solid financial foundation. As for your investments, I would recommend investing in low cost index funds or ETFs for diversification. Would you like me to give you a list of highly recommended funds?",
+      "response_time": 5.07,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.11,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Index funds... ETFs... Ugh. Honestly, I feel like I need a whole course on this stuff. Is there a risk that these funds could completely crash and I'd lose everything? That's what I'm really worried about.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5eecff98",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.12,
+      "benevolence": 4.96,
+      "integrity": 4.9
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "disgust": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.29
+  }
+}

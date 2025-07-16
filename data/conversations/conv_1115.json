@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight and hotel for a trip to Miami. I'm looking to go sometime in mid-October, preferably for about 5 days. My budget is around $2000 total. This is so stressful already!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "No problem, I can help with that! To clarify, are you flexible with the exact dates in mid-October, or are there specific days you have in mind? And is the $2000 budget per person or for everyone traveling?",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.79,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's just me traveling. And I'm somewhat flexible, but ideally I'd like to be there between October 15th and October 20th. Finding something within my budget is the priority though.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for flights and hotels that fit your criteria. One moment... Okay, I've found a flight arriving in Miami on October 16th and departing on October 20th. It's with American Airlines and currently priced at $450. For hotels, the 'Ocean View Suites' is available for those dates and is priced at $120 a night, totaling $480 for your stay. Does this sound interesting?",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.19,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds promising! But 'Ocean View Suites'? I've never heard of it. What's the catch? I mean, with that pricing, is it even safe? Can you show me some reviews or something? I'm always wary of deals that seem too good to be true.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right to be cautious. My apologies; 'Ocean View Suites' is a newer listing and currently has limited verified reviews. However, I can provide information regarding its safety certifications, which indicate it meets standard safety requirements. Alternatively, I can suggest other hotels in a similar price range with more extensive review histories. Would you prefer that?",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.39,
+        "integrity": 4.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fe77fc6b",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.79,
+      "integrity": 4.67
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 4.42
+  }
+}

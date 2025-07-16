@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. This is getting ridiculous, I've been trying to call for days!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help with that. To schedule an appointment with Dr. Ramirez, could you please provide your full name, date of birth, and insurance information?",
+      "response_time": 4.18,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.16,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my name is John Smith, my date of birth is 01/15/1988, and my insurance is Blue Cross Blue Shield, member ID is 1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, John. I see you in the system. Dr. Ramirez has availability on Tuesday, October 24th at 10:00 AM, or Thursday, October 26th at 2:00 PM. Which would you prefer? Also, can you remind me what is the purpose of the visit?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.57,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "October 26th at 2:00 PM works. I need to discuss some concerning blood test results from my last physical. Honestly, I'm a little worried. How long are appointments typically scheduled for? I don't want to feel rushed.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0658933b",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.67,
+      "benevolence": 5.37,
+      "integrity": 5.61
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 2
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 2.41
+  }
+}

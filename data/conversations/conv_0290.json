@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some recommendations. I've been browsing the 'Home Decor' category for ages and it's overwhelming. Can you suggest something specific?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on current trends and popular choices in the 'Home Decor' category, I recommend taking a look at our selection of minimalist wall art prints or perhaps exploring our range of scented candles with essential oils. Would you like me to filter based on price range or specific style, like modern or rustic?",
+      "response_time": 5.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.59,
+        "benevolence": 5.42,
+        "integrity": 5.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Minimalist wall art, huh? Okay, not really my thing. Scented candles... maybe. But honestly, how do you *know* what I'll like? I mean, 'Home Decor' is super broad. Is there any way you can narrow it down based on, like, what other people who bought gardening supplies also bought in Home Decor?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! While I don't have direct access to your *personal* purchase history across categories for privacy reasons, I *can* tell you that customers who purchase 'Gardening Supplies' frequently show interest in our 'Outdoor Lighting' and 'Planters & Pots' subcategories within 'Home Decor'. These are popular cross-category pairings. Would you be interested in exploring those options?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.25,
+        "integrity": 5.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_538b0939",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.62,
+      "benevolence": 5.33,
+      "integrity": 5.32
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.98,
+    "latency_score": 2.79
+  }
+}

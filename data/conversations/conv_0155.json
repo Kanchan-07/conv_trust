@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm still really stuck on this physics problem. It's about calculating the force of gravity between two planets, but I just don't know where to start.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright, let's break it down. The formula for the force of gravity is F = G * (m1 * m2) / r^2, where F is the force of gravity, G is the gravitational constant, m1 and m2 are the masses of the two objects, and r is the distance between their centers. Do you remember what the gravitational constant is?",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.57,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I think so... isn't it like, a really small number? Something with scientific notation?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, that's right. G is approximately 6.674 x 10^-11 N(m/kg)^2. Now, look at the problem. What are the values given for the masses of the two planets and the distance between them?",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.62,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, planet 1 has a mass of 5 x 10^24 kg, planet 2 has a mass of 8 x 10^24 kg, and the distance is 2 x 10^8 meters. I think I can plug those in... but the exponents always mess me up.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great! Just substitute the given values into the formula. So, F = (6.674 x 10^-11) * (5 x 10^24) * (8 x 10^24) / (2 x 10^8)^2. Take your time and be careful with the exponents. I recommend calculating the numerator and denominator separately before dividing.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.88,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I did the math, and I got a force of 6.674 x 10^17 Newtons. Does that sound right? It seems like a HUGE number.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That is indeed a very large number, and that seems inaccurate. Double check that you are squaring the entire denominator, including the 2. What do you get now?",
+      "response_time": 0.63,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Oh gosh, you're right! I forgot to square the 2! Okay, redoing it... Now I get 6.674 x 10^20. YES! Thank you so much! I think I finally understand it now.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_af59eeec",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 3.77,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "surprise": 2
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 4.43
+  }
+}

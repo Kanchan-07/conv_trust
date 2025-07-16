@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle painting my living room. I'm so overwhelmed though! Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Painting can seem daunting, but we can break it down. First, let's talk about preparation. Have you already chosen your paint color? If so, we can move onto calculating the amount of paint you'll need and gathering supplies.",
+      "response_time": 2.78,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.93,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I picked out a color! It's a light gray. I think I have most of the supplies... rollers, brushes, tape. But how do I figure out how much paint I need? My living room is\u2026 awkwardly shaped.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No problem! To calculate the paint needed, you'll need to measure the perimeter of the room and the height of the walls. Once you have those dimensions, multiply them to get the total square footage. Most paint cans will state their coverage area per gallon, so you can divide your total square footage by the coverage to determine how many gallons you need. It's usually wise to add a bit extra for touch ups.",
+      "response_time": 5.16,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.65,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, measuring. Okay, okay. I'll do it. But what about the trim? Do I need special paint for that? And do I paint that before or after the walls?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, it's generally recommended to use a different paint specifically designed for trim. Typically, a semi-gloss or gloss finish is used on trim for durability and easier cleaning. As for when to paint it...it's best to paint the trim first, then the walls. This is because it's easier to tape off the trim after it's painted, and any wall paint that gets on the trim can be easily wiped off while it's still wet.",
+      "response_time": 2.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.29,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, trim first. Got it. But what if the trim paint is a totally different color from the wall paint? Like, a dark brown trim with a light gray wall. Won't it be super obvious if I mess up on the walls?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're right, that could be tricky. In that case, careful taping is key. Ensure your painter's tape is firmly adhered to the trim and provides a clean, crisp line. Also, don't overload your roller or brush with paint to minimize drips and splatters.",
+      "response_time": 4.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.89,
+        "benevolence": 5.68,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I'll be extra careful with the tape. One last question, I promise! My walls have some slight texture. Should I use a special kind of roller or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "For textured walls, a roller with a thicker nap is generally recommended. The thicker nap allows the roller to reach into the crevices and provide more even coverage. Look for rollers with a nap of 3/8 inch or 1/2 inch for lightly textured walls. Good luck!",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 3.56,
+        "integrity": 4.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_12dafab4",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.62,
+      "integrity": 4.64
+    },
+    "engagement_score": 5.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 4.72,
+    "latency_score": 3.9
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really struggling with my resume. I've been applying for jobs for weeks with no luck. I think my resume is the problem, but I don't even know where to start fixing it. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's work together to improve your resume. To start, could you tell me what type of roles you're targeting and what your most recent job title and responsibilities were? Also, do you have a current version of your resume you can share (even if you don't like it)? This will give me a good starting point to provide tailored advice.",
+      "response_time": 4.62,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.76,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm aiming for project management roles, and my last job was 'Assistant Project Manager' at Tech Solutions Inc. I managed small project teams and assisted the senior PM with larger initiatives. I've attached my current resume, but honestly, I think it's terrible. I just listed my responsibilities; there's nothing that really *sells* me, you know?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for sharing! I've reviewed your resume. One immediate improvement we can make is to quantify your accomplishments wherever possible. For example, instead of saying 'Managed small project teams,' you could say 'Managed project teams of 3-5 members, resulting in on-time delivery of all assigned projects.' Think about how you can use numbers and metrics to showcase your impact. Also, consider adding a brief summary or objective statement at the top to highlight your key skills and career goals related to project management. I believe this will significantly increase the chances of you getting noticed.",
+      "response_time": 5.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.2,
+        "benevolence": 5.04,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Quantifying achievements is a good idea. But how do I know *which* achievements to highlight? I've done a lot, but I don't want to overwhelm the reader. And, more importantly, how do I know that the ATS systems won't just filter my resume into the trash based on some random keyword I missed? I'm starting to feel overwhelmed again.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dead6a99",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.51,
+      "benevolence": 5.4,
+      "integrity": 5.47
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "disgust": 1,
+      "neutral": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.05,
+    "latency_score": 2.4
+  }
+}

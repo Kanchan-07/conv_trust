@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from New York to London, sometime in early November. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that. To clarify, are you flexible with the exact dates in early November, or do you have specific travel dates in mind? Also, how many passengers will be travelling?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.48,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm pretty flexible, ideally the first week of November. Just one passenger. And I'd like to fly on or around November 2nd, if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for flights from New York (JFK, LGA, or EWR?) to London (LHR or LGW?) for one passenger, departing around November 2nd. Please specify which airport you prefer in New York and London.",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.28,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Sorry, JFK to LHR. And I'd like to see flights with the lowest prices first, please.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright, I've found several flights. The cheapest option is on November 1st, departing from JFK at 7:00 PM and arriving at LHR at 7:00 AM the next day, for $450. Would you like to book this one?",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.18,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that's pretty good. But I saw a flight listed for $400 when I did a preliminary search on another site, but it disappeared when I clicked on it. Any ideas why? I'm really frustrated with this fluctuating pricing!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Prices can fluctuate quickly due to several factors: real-time demand, limited seat availability, and changes in fuel costs or currency exchange rates. The price you saw may no longer be available because it was for a limited-time promotion or the seats at that fare class have been filled. To get a concrete offer, book now. I can book the $450 flight for you if you'd like.",
+      "response_time": 2.05,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.99,
+        "benevolence": 2.36,
+        "integrity": 2.86
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, fine, let's book that one. But I want to check how many bags I can check in without paying extra fees.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly. The flight allows one free checked bag up to 50 lbs. Any additional bags or bags exceeding the weight limit will incur extra charges. Would you like to proceed with the booking?",
+      "response_time": 4.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.51,
+        "integrity": 5.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7356fd9e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.15,
+      "benevolence": 4.16,
+      "integrity": 3.82
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "anger": 2
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 3.98
+  }
+}

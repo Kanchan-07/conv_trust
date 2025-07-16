@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm really in the mood for a good strategy game. Can you recommend some popular or highly-rated ones?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Strategy is a great genre. Some top-rated strategy games include Civilization VI (turn-based), StarCraft II (real-time), and Crusader Kings III (grand strategy). Have you played any of those?",
+      "response_time": 5.72,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, Civ VI is fantastic, I've sunk hundreds of hours into that. StarCraft is too fast-paced for me, gives me anxiety! Crusader Kings III sounds interesting but... is it really complicated? I'm looking for something deep but not *so* overwhelming that it feels like I need a degree to play it. Does that make sense? Like, deep mechanics but maybe with a smoother learning curve than CKIII seems to have?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Crusader Kings III *can* be complex. For a deep strategy experience with potentially a smoother on-ramp, you might consider XCOM 2, which is turn-based tactical strategy, or maybe Age of Empires IV if you prefer real-time but with a different pace than StarCraft. There's also Endless Legend, which is another good turn-based option with a strong focus on faction asymmetry.",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.93,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, XCOM 2 is definitely intriguing, I liked the first one but totally forgot about the sequel. Age of Empires IV... I'm still wary of real-time honestly. Endless Legend sounds okay, but I've heard mixed things about its late game. Ugh, it's tough finding that perfect balance! XCOM 2 seems like the closest fit though, I'll check that out. Thanks.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_49b0b61e",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.66,
+      "benevolence": 5.46,
+      "integrity": 5.24
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 2,
+      "fear": 2
+    },
+    "response_quality_score": 5.76,
+    "latency_score": 3.39
+  }
+}

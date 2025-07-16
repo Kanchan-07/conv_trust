@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from New York to London for a trip in October. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! To get started, could you please specify the dates you'd like to travel in October? Also, are your dates flexible?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.79,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd like to fly out on October 10th and return on October 17th. Those dates are pretty firm.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Just to clarify, you want a round trip flight from New York to London departing on October 10th and returning on October 17th. Let me check for available flights. One moment...\n\nI am finding some options. The cheapest one is with Norwegian Air, but there is a long layover. Would you like to see the details of this option, or would you prefer something with a shorter travel time?",
+      "response_time": 3.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 3.85,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, a long layover is the worst. What about something with a reasonable travel time, even if it costs a bit more? Also, what are the baggage allowances for Norwegian Air anyway?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me adjust the search. Regarding baggage allowances for Norwegian Air, they vary based on the fare purchased. Typically, you'll need to pay extra for checked baggage. Please give me a moment to provide alternative options with shorter travel times. \n\n...Okay, I see several options with British Airways and Virgin Atlantic. The cheapest of these is with British Airways for $750.00 per person.",
+      "response_time": 2.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 3.98,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, $750 is a little more than I was hoping to spend. Can you find any flights that are significantly cheaper, even if they're not direct? And how does the price change if I fly out a day earlier, on October 9th?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, checking for options on October 9th and looking for cheaper flights. The cheapest option I'm finding now is $680.00 per person with Icelandair, but the layover is a bit lengthy in Reykjavik. Alternatively, the flights with British Airways on the 9th remain around the same price as previously quoted.\n\nDo any of these options appeal to you?",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 4.47,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. Thanks! I'll need to think about it and get back to you. Can you send me those flight details for the Icelandair option and the British Airways one, along with their baggage policies?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_16c1465d",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.52,
+      "integrity": 4.18
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.59,
+    "latency_score": 4.33
+  }
+}

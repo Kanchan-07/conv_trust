@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for some new camping gear. What do you recommend in the 'tents' category?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on popularity and customer reviews, I recommend the 'Coleman Sundome 4-Person Tent' and the 'REI Co-op Half Dome 2 Plus Tent'. Both are highly rated and suitable for different needs. The Coleman is a budget-friendly option for casual camping, while the REI tent is more durable and weather-resistant for backpacking.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 6.8,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, interesting. Those sound alright, but what about something more...ultralight? I'm really trying to minimize weight. Also, how do you *really* determine 'popularity'? Is it just sales numbers?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, for ultralight tents, I'd suggest looking at the 'Big Agnes Copper Spur HV UL2' or the 'Zpacks Duplex Flex'. As for popularity, it's a weighted score based on a few factors: sales data, customer reviews (both rating and sentiment analysis of the text), and the number of times the product has been added to wishlists or registries. It's not *just* sales figures.",
+      "response_time": 3.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 4.05,
+        "integrity": 4.38
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bbcc966c",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.42,
+      "integrity": 5.69
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 5.36,
+    "latency_score": 2.9
+  }
+}

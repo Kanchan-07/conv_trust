@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my current account balance and see if a payment I was expecting went through. I'm getting a bit worried, it's already a day late.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To access your account, could you please provide your account number or the email address associated with your account?",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.0,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's myemail@example.com.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. To verify your identity, please answer your security question: What is your mother's maiden name?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.02,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's Smith. Okay, now can you please just tell me if the payment from 'Acme Corp' went through? It's really important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, one moment... I see a deposit from Acme Corp for $1,200 posted to your account today at 10:15 AM. Your current available balance is $2,547.89.",
+      "response_time": 3.44,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.25,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Oh, great! Finally! Thank you. But why the delay? Is there any record of why it was late? This is the second time they've been late, and it's causing me problems.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I do not have access to the specific reason for the payment delay. However, it could be due to processing times at the sender's bank. I recommend contacting Acme Corp directly to inquire about the delay. Is there anything else I can assist you with today?",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.35,
+        "integrity": 3.99
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c5530820",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.08,
+      "benevolence": 3.4,
+      "integrity": 3.22
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.77,
+    "latency_score": 5.13
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with stoichiometry. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. Stoichiometry can be tricky. To start, what specifically are you having trouble with? Are you struggling with balancing equations, calculating mole ratios, or something else?",
+      "response_time": 5.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.12,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Balancing equations is fine, but I get completely lost when it comes to figuring out the mole ratios and using them in calculations. I just don't understand how to set up the problems.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's break that down. Let's say you have the balanced equation: 2H2 + O2 -> 2H2O.  The mole ratio between H2 and O2 is 2:1, meaning for every 2 moles of hydrogen, 1 mole of oxygen is needed. Do you understand that basic concept?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.41,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I think so... But how do you *use* that to calculate the amount of product you'll get? For example, if I have 5 moles of O2, how many moles of H2O will I produce?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Excellent question! That is a good test of your understanding. Using the mole ratio from the balanced equation (2 moles H2O / 1 mole O2), you would multiply the given moles of O2 (5 moles) by this ratio:  5 moles O2 * (2 moles H2O / 1 mole O2) = 10 moles H2O. You would produce 10 moles of water. Does that make sense?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I get it! That was actually super helpful! Thanks! I'm going to try some practice problems now, and I'll reach out if I get stuck again.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8c0c3725",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.46,
+      "benevolence": 5.51,
+      "integrity": 5.49
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 5.34,
+    "latency_score": 2.56
+  }
+}

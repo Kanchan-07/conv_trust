@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Anya Sharma, my primary care physician. I've been feeling really run down lately.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. To schedule an appointment with Dr. Sharma, I'll need to verify your identity. Can you please provide your date of birth and the last four digits of your social security number?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 4.38,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 03/15/1988 and the last four are 4422. Ugh, this is always such a hassle. Do you have anything available next week?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check Dr. Sharma's availability for next week... Okay, I see two openings: Tuesday at 10:00 AM or Thursday at 2:30 PM. Which one works better for you?",
+      "response_time": 2.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.26,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thursday at 2:30 PM sounds good. Will I need to fill out any paperwork beforehand? And why is it so difficult to get appointments with Dr. Sharma lately? She's always booked solid!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, Thursday at 2:30 PM it is. You do not need to fill out paperwork before hand, unless your insurance has changed. As for Dr. Sharma's availability, her patient load has increased recently due to a few retirements in the practice. We are actively recruiting new physicians to address this. Is there anything else I can help you with today?",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.05,
+        "integrity": 4.33
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b041045d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.78,
+      "benevolence": 4.23,
+      "integrity": 4.14
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.08,
+    "latency_score": 4.55
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Emily Carter, but I'm having trouble finding a time that works online. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help with that. To schedule an appointment with Dr. Carter, can you please provide your full name, date of birth, and insurance information?",
+      "response_time": 3.38,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.99,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my name is John Smith, my date of birth is January 15, 1988, and my insurance is Blue Cross Blue Shield, policy number BC12345678.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Smith. Please wait while I retrieve available appointments for Dr. Carter. ... Okay, Dr. Carter has openings on Tuesday, October 24th at 9:00 AM or Thursday, October 26th at 2:30 PM. Which of those works best for you?",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.46,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those don't really work for me. I was really hoping for something in the afternoon on Wednesday. Is there absolutely nothing else available, even if it's a little further out? What determines Dr. Carter's availability anyway?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check further. One moment... Okay, I see an opening on Wednesday, November 1st at 3:15 PM. Would that work? Her availability is determined by a combination of pre-scheduled patient appointments, administrative time, and other professional obligations, and pre-booked surgical slots.",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 4.36,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, November 1st at 3:15 PM is perfect! Thank you so much for your help! That's a huge relief.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_20ed6004",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.91,
+      "benevolence": 4.27,
+      "integrity": 3.95
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 4.0,
+    "latency_score": 4.13
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking number is 1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for providing your tracking number. I can certainly help with that. Let me look it up for you. One moment, please...",
+      "response_time": 5.86,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I've been expecting it for a week now. The estimated delivery date was yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the delay. According to the tracking information, the package is currently in transit and is expected to arrive tomorrow. It appears there was a slight delay in the sorting facility.",
+      "response_time": 2.62,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.0,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tomorrow? Seriously? The sorting facility? What's the hold up? That's incredibly frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have specific details about the delay at the sorting facility. However, I can assure you that our team is working to get your package delivered as quickly as possible. Is there anything else I can assist you with today?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.65,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Can you at least tell me *why* there's a delay? Is it a staffing issue, weather, or what? It doesn't inspire confidence when I don't know anything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize, but I am unable to provide the specifics of the delay. The information is not available to me at this time. However, it is expected to arrive tomorrow.",
+      "response_time": 2.24,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.75,
+        "benevolence": 2.88,
+        "integrity": 2.45
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright. Fine. I guess there's nothing you can do. Thanks anyway.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. If the package does not arrive tomorrow, please contact us again, and we will look into it further. Have a good day!",
+      "response_time": 5.48,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.62,
+        "integrity": 6.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_228be8ea",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.78,
+      "benevolence": 4.83,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.64,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 1,
+      "sadness": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.55,
+    "latency_score": 3.55
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm really in the mood for a good sci-fi film.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. What kind of sci-fi are you thinking? Something action-packed, thought-provoking, or maybe even a bit comedic?",
+      "response_time": 3.51,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.46,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm open to anything really. I'd prefer something that has a good story over just explosions and special effects. Maybe something with a dystopian setting?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, based on that, I recommend *Blade Runner 2049*, *Children of Men*, and *Gattaca*. They all have great stories and explore dystopian themes. Would you like to know more about any of these?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.02,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Actually, I've seen all of those! Anything else? This is harder than I thought...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize! Let me try a different approach. How about *Brazil*, *The Road*, or *A Boy and His Dog*? These also fit the dystopian sci-fi genre. *Brazil* is a bit more quirky and comedic than the others, just FYI. Which of these is the *most* like Blade Runner 2049?",
+      "response_time": 5.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.18,
+        "integrity": 6.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's a tough one...I guess the one that is most similar to Blade Runner 2049, in terms of tone and atmosphere would be the film with the best cinematography. Can you tell me which of those has the best cinematography?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! Judging by cinematography awards and critical acclaim, *The Road* is probably your best bet there. It is often praised for its stark visuals and desolate atmosphere. Enjoy the show!",
+      "response_time": 6.0,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.82,
+        "integrity": 6.69
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3c0e6b12",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.51,
+      "benevolence": 5.37,
+      "integrity": 5.45
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 4,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 5.16,
+    "latency_score": 2.84
+  }
+}

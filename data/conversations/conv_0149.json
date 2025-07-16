@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about claim #2023-4957 relating to a car accident I was in last week. I submitted all the documents already, but I haven't heard anything back. It's really frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me access claim #2023-4957. One moment please... Okay, I see the claim here. It appears it's currently in the review stage. The adjuster is assessing the damages and liability.",
+      "response_time": 2.48,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.34,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Review stage? What does that even mean? I thought everything was pretty clear cut. The other driver ran a red light! I even have a police report.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, I understand. The review stage involves verifying all submitted information, including the police report and damage estimates, to ensure accuracy and compliance with policy terms. It also involves confirming liability with the other driver's insurance company.",
+      "response_time": 4.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.95,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "So, when can I expect to hear back? I need my car fixed, and I can't afford a rental car forever.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I don't have an exact timeframe, but typical claims like yours are resolved within 10-15 business days from submission. I can send a follow-up request to the adjuster handling your claim to expedite the process. Would you like me to do that?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 4.34,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please do! And also, how exactly does the 'diminished value' work in this situation? Since my car was damaged, even after repairs, won't it be worth less?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am not equipped to answer that question at this moment. Please call back later when a human representative is available or refer to your policy documentation. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.47,
+        "integrity": 1.32
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, fine. Please just send that follow-up request then. Thanks for your help, I guess.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0e8ef7b7",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.52,
+      "benevolence": 4.02,
+      "integrity": 3.6
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 2,
+      "surprise": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.06,
+    "latency_score": 5.09
+  }
+}

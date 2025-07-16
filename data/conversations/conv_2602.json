@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm looking to fly to Paris on October 25th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To find the best options, could you please tell me your departure city, the return date, and how many passengers will be traveling?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.0,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, departing from London Heathrow (LHR), returning on November 1st, and it's for just me, one adult. What kind of options are there?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Searching for flights from London Heathrow to Paris for one adult, departing October 25th and returning November 1st. I've found several options. Prices range significantly, from around \u00a385 to \u00a3450. Do you have any preference for airline, departure time, or price range?",
+      "response_time": 2.0,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.04,
+        "benevolence": 2.43,
+        "integrity": 2.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wow, that's a massive range. I need to arrive in Paris by 2 PM on October 25th. Also, I'm really confused about baggage. How much checked baggage is included on British Airways economy flights to Paris? It's so unclear online!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Understood. I will refine the search to show options arriving in Paris by 2 PM on October 25th. Regarding British Airways economy baggage for flights to Paris, generally, it allows one checked bag up to 23kg. However, it can sometimes depend on the specific fare class purchased. Always double-check the fare rules during the booking process for the exact allowance.",
+      "response_time": 5.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.01,
+        "integrity": 5.66
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "'Generally'? That's not very reassuring! I need to be sure if I can bring a suitcase without paying extra. And the options arriving by 2 PM seem quite expensive. Are there any earlier flights that might be cheaper, even if they arrive before 2 PM?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies for the vague response on baggage. For standard British Airways Euro Traveller (economy) fares on this route, one checked bag up to 23kg IS typically included. I will now search for all flights departing LHR on October 25th (regardless of arrival time before 2 PM) to find potentially cheaper options.",
+      "response_time": 1.66,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.25,
+        "integrity": 2.13
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that clarifies the baggage, thanks! Yes, please show me the earlier, cheaper options then. I'll look through those.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6f9eab3b",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.5,
+      "benevolence": 3.42,
+      "integrity": 3.66
+    },
+    "engagement_score": 4.65,
+    "emotion_distribution": {
+      "neutral": 8,
+      "surprise": 1
+    },
+    "response_quality_score": 3.35,
+    "latency_score": 4.32
+  }
+}

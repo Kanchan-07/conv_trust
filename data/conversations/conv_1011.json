@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having a really bad headache for the past few days, and it's not going away with over-the-counter pain relievers. I'm also feeling really tired. I'm getting worried.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand you're concerned. Persistent headaches and fatigue can be unsettling. To give you the best advice, could you tell me a bit more about the headache? Where is the pain located, what does it feel like (throbbing, sharp, dull), and what makes it better or worse? Also, can you rate the pain on a scale of 1 to 10, with 10 being the worst pain imaginable?",
+      "response_time": 1.91,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.29,
+        "integrity": 2.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the pain is mostly behind my eyes and in my temples. It feels like a dull throbbing, and bright lights make it worse. Honestly, nothing really seems to help it completely. On a scale of 1 to 10, I'd say it's usually a 6 or 7. Is this maybe just a migraine? I've never had one before.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your description, a migraine is a possibility. However, I am an AI and cannot provide a diagnosis. Other possible causes of your symptoms include tension headaches, sinus infections, or even dehydration. I recommend consulting with a medical professional for an accurate diagnosis and treatment plan. In the meantime, try to stay hydrated, get plenty of rest, and avoid potential triggers like bright lights and loud noises.",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.06,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I understand. But, if it *is* a migraine, and I see a doctor, what kind of medication are they likely to prescribe? I'm asking because I'm worried about side effects. I've heard some migraine meds are really strong and make you feel even worse! This is so frustrating; I just want the headache to go away!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b41d3c45",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 2.88,
+      "benevolence": 3.17,
+      "integrity": 3.02
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 2,
+      "fear": 1,
+      "neutral": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.51,
+    "latency_score": 5.37
+  }
+}

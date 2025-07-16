@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I desperately need help with my resume. I'm applying for a Project Manager role tomorrow and I just feel like my current resume isn't strong enough for this specific job description.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with tailoring your resume for the Project Manager role. To get started, could you please share the job description with me? Knowing the specific requirements and keywords will help us optimize your resume effectively.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, great. Here's the job description (imagine a link or text is inserted here). I'm just so frustrated because I feel like I have the right experience, but I'm not getting calls back. Is there some kind of secret to writing bullet points that actually get noticed by hiring managers, not just pass through bots? Like, what *really* makes a difference beyond just saying 'managed projects'?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration; it's a common challenge. Beyond just listing duties, successful resume bullet points quantify your achievements and demonstrate impact. Use strong action verbs like 'Spearheaded', 'Implemented', or 'Delivered'. Structure them using the CAR (Challenge, Action, Result) or STAR method mentally. For instance, instead of 'Managed project timelines', you could say 'Reduced project delivery time by 15% by implementing agile methodologies, resulting in earlier product launch'.",
+      "response_time": 4.26,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.38,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay, the quantifying part makes sense, though sometimes it's hard to find hard numbers. But you didn't really address the 'secret' to impressing the *human* hiring manager specifically, beyond just quantifying. Are there structural things, or ways of phrasing that feel less robotic and more impactful to a person reading quickly?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_277a0e25",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.09,
+      "benevolence": 6.19,
+      "integrity": 6.42
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 2
+    },
+    "response_quality_score": 6.37,
+    "latency_score": 2.37
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. Can you recommend some based on the 'laptops' category?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on the 'laptops' category, I can recommend a few popular models. What's your budget and what will you primarily use the laptop for? This will help me narrow down the best options.",
+      "response_time": 4.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.22,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, good point. I'm looking for something for general use, like web browsing, email, and some light video editing. My budget is around $1000, give or take.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Considering your budget and use case, I'd suggest you look at the Apple MacBook Air M1. It offers great performance and battery life for under $1000. Alternatively, the Dell XPS 13 is another excellent option, but might be slightly above budget. You could also consider the Acer Aspire 5, which is a more budget-friendly alternative with solid performance. Would you like me to provide links to these products?",
+      "response_time": 3.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 4.07,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The MacBook Air M1 sounds interesting, but I'm a little hesitant about Macs. Are there any other Windows laptops that offer similar performance within that price range?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely! The Dell Inspiron 14 is a solid contender. It typically offers competitive specs within that price range and often comes with good reviews. You might also find similar performance in some of the HP Envy models. Please note that prices fluctuate, so check the current market for the most accurate figures.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.78
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Dell Inspiron 14... okay. Wait, are the prices you're giving me based on current discounts? Because the prices I'm seeing online are significantly different. I'm seeing some Inspirons advertised at more than $1500!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies! I am not connected to real-time pricing data, and my information might not be fully up-to-date. Prices do fluctuate considerably based on sales, specific configurations, and retailers. I primarily base my recommendations on general performance and features for the category. I recommend checking current prices from reputable retailers directly. Apologies for the confusion.",
+      "response_time": 2.44,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.94,
+        "benevolence": 2.33,
+        "integrity": 2.69
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks for clarifying. That makes more sense. So, based on my needs and a rough price range, what would you say is the *best* option *overall*, if you had to choose one?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Given your stated needs, if I *had* to choose, I'd suggest the Dell Inspiron 14, if you can find a configuration within your budget. It generally balances performance and features well for everyday tasks and light video editing. But again, I would advise you to check prices and specific configurations at your preferred retailers to verify they fit your budget and needs.",
+      "response_time": 3.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.56,
+        "integrity": 3.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1e176dec",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.44,
+      "integrity": 4.51
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "neutral": 7,
+      "fear": 1,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.65,
+    "latency_score": 3.71
+  }
+}

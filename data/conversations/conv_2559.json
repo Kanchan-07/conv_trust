@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a doctor's appointment please.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. To assist you, could you please provide the patient's full name, the doctor you'd like to see, and the reason for your visit?",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.48,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for me, Sarah Johnson. I need a follow-up appointment with Dr. Evans regarding my recent lab results. It's important to get in soon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Sarah. I am checking Dr. Evans' availability for follow-up appointments. I see openings next week on Tuesday at 10:30 AM, Wednesday at 2:00 PM, and Friday at 9:00 AM. Do any of those times work for you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, seriously? None of those work at all. I have unavoidable commitments during all those slots. This is really frustrating! Are there any other options with Dr. Evans next week or maybe the week after?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, Sarah. Let me expand the search. I can look for other times in the next two weeks with Dr. Evans. Are you flexible with the day or time of day at all?",
+      "response_time": 2.07,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.13,
+        "benevolence": 2.82,
+        "integrity": 2.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I can be somewhat flexible the week after, but it has to be in the afternoon. Also, can you confirm if a follow-up for lab results is covered under my insurance, which is BlueCross BlueShield PPO? I don't want to book it if it's not.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can check Dr. Evans' schedule for afternoon appointments the week after next. Regarding your insurance coverage, while follow-up visits are often covered, I cannot definitively confirm your specific policy's benefits or deductible status. It's recommended to contact BlueCross BlueShield directly or check your plan documents for precise coverage details for a lab results follow-up.",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 4.0,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, that's a bit confusing, I was hoping you could tell me directly. Okay, well, let's just find a time then. What afternoon slots does Dr. Evans have the week after next?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Thank you for clarifying. Looking at the week after next, Dr. Evans has afternoon openings on Monday the 18th at 3:30 PM and Thursday the 21st at 2:00 PM. Would either of those work for your follow-up appointment?",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.8,
+        "integrity": 4.48
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_58b1994b",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.2,
+      "benevolence": 4.42,
+      "integrity": 4.29
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 3.96
+  }
+}

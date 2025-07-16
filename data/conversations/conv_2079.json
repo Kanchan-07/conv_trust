@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help writing a resume. I haven't updated mine in years and I'm completely lost. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! To get started, can you tell me a bit about the type of job you're applying for and your work experience? We can work on the format, content, and keywords to make your resume stand out.  Also, do you have a current resume, even an outdated one, that I can work from?",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.3,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to apply for a Project Manager position. I have a resume from a few years ago, but it's... well, it's terrible. It's just a list of my previous job duties. I don't think it highlights my accomplishments at all. Can you help me fix that?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely! Rewriting your job duties to include accomplishments is crucial. Provide me with your previous work experience, focusing on specific projects you managed, results you achieved, and any relevant skills used. I can then help you formulate those into strong bullet points. I can also assist with tailoring your resume to meet ATS systems requirements. However, as I am a large language model, I cannot *guarantee* your resume will get past every single ATS; some are sophisticated and complex.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.53,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a fair disclaimer. How do I actually convey those accomplishments? Like, what kind of language is best? Should I use action verbs, or is there some kind of formula I should follow? I'm completely clueless about this part.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f21ae4b",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.35,
+      "benevolence": 5.92,
+      "integrity": 6.47
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.88,
+    "latency_score": 2.83
+  }
+}

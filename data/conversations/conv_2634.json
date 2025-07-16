@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My printer isn't working. It just won't print anything I send to it.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're having trouble with your printer. I can help with that. To start, could you please tell me the make and model of your printer, and what operating system your computer is using?",
+      "response_time": 0.53,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.39,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. It's an HP Envy 5000 series, and I'm on Windows 10. It was working fine yesterday! So annoying.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. A common first step to resolve printing issues is to power cycle the devices. Could you please turn off your printer, wait about 30 seconds, and then turn it back on? While you wait, please also restart your computer if possible.",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.94,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I already tried turning both off and on. It didn't fix it. Still nothing. What else could it be?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, thank you for letting me know you've already tried that. Next, let's check the basics: Is the printer showing any error messages on its display? Is it properly connected to your computer (via USB or Wi-Fi)? Are there any paper jams, and does it have enough ink/toner?",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.62,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "No errors on the screen, it's connected to my Wi-Fi which seems fine, no paper jam, ink levels look okay on the printer display. Everything looks normal but it just won't print! This is so frustrating. Could it be a driver issue? How do I even check or update drivers? That sounds complicated.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "It's understandable to feel frustrated when things aren't working as expected. Yes, a driver issue is definitely a possibility. Drivers are essentially the software that allows your computer to communicate with the printer. On Windows 10, you can check or update drivers through the Device Manager. You would typically search for 'Device Manager' in the Windows search bar, find your printer listed under 'Printers' or 'Print queues', right-click it, and select 'Update driver'.",
+      "response_time": 2.89,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.12,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I found Device Manager. I see the HP Envy listed. I right-clicked and clicked 'Update driver'. It says 'The best drivers for your device are already installed.' But it still won't print! Why would it say the drivers are fine if the printer isn't working?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a7ea0a65",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.78,
+      "benevolence": 3.77,
+      "integrity": 3.51
+    },
+    "engagement_score": 5.4,
+    "emotion_distribution": {
+      "sadness": 2,
+      "disgust": 1,
+      "neutral": 3,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 3.86,
+    "latency_score": 4.95
+  }
+}

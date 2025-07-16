@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately. Constant fatigue, headaches... it's been going on for weeks. Any ideas what might be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am sorry to hear that you are feeling unwell. Based on your symptoms, the possible causes could be numerous: stress, poor diet, lack of sleep, or perhaps an underlying medical condition. Have you recently had any changes in your routine, diet, or sleep schedule? Have you visited a doctor recently?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No doctor visit, but I've been trying to eat better and sleep more. The fatigue is just brutal though! Honestly, how can I know if it's something serious, like a thyroid issue, versus just stress? I'm starting to get really worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Differentiating between stress and medical conditions can be challenging. Certain symptoms are more indicative of thyroid problems. For example, are you experiencing weight changes, either loss or gain, or changes in your bowel habits? If you are, it is recommended to consult a medical professional, they can conduct blood tests for a definitive diagnosis.",
+      "response_time": 4.17,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 4.24,
+        "integrity": 4.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a17b84ea",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.31,
+      "benevolence": 2.62,
+      "integrity": 2.57
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 2,
+      "fear": 2
+    },
+    "response_quality_score": 2.49,
+    "latency_score": 5.17
+  }
+}

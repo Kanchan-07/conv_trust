@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new laptop, but I'm really trying to stick to a budget. Can you recommend some options under $700? I'm mainly going to use it for browsing, writing, and maybe some light photo editing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your needs and budget of under $700, I can recommend a few models. The Lenovo IdeaPad 3 and the Acer Aspire 5 are often good choices in that price range. They are generally reliable for everyday tasks and can handle light photo editing. I'd recommend checking their current configurations on Amazon or Best Buy to see what suits you best. Would you like me to provide links?",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.62,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, links would be great. But I've heard the IdeaPad's screen isn't very bright. Is there anything with a better display, even if it means sacrificing a bit on, say, storage? And honestly, I'm so tired of navigating all these tech specs. What *really* matters for photo editing besides screen quality? I'm so confused!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. While the IdeaPad's screen isn't the best, for a brighter display in that budget, you might consider a used or refurbished MacBook Air (older model). They often have excellent displays. As for what *really* matters for light photo editing besides screen quality, RAM (at least 8GB) and the processor are key. Look for an Intel i5 or Ryzen 5 processor or better if possible. These determine how quickly your editing software will run and how smoothly you can handle multiple tasks. Here are some links to refurbished MacBook Airs that might fit the bill, as well as some more detailed guides to processors and RAM for photo editing: [Link to refurbished MacBooks] [Link to RAM guide] [Link to Processor Guide].",
+      "response_time": 2.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.73,
+        "integrity": 4.21
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_052782c6",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.69,
+      "benevolence": 4.67,
+      "integrity": 4.79
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.87
+  }
+}

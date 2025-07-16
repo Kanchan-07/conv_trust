@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm so frustrated. I've been trying to book flights to Rome for next month for ages! Can you help me find a round trip for two people, leaving anytime after the 15th and returning before the 30th? I'm flexible.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration! Let me see what I can find for you. Could you please clarify which month you are referring to? Also, from which airport will you be departing?",
+      "response_time": 0.61,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, sorry, I'm a mess. Next month as in, November 2024. And departing from New York, JFK specifically. I'd really like to keep the flights under $1200 if at all possible.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for round trip flights for two adults from New York (JFK) to Rome (any airport) between November 15th and November 30th, 2024, with a maximum price of $1200. I'm showing a few options with Lufthansa and ITA Airways. The ITA Airways flights have a slightly longer layover in Milan. Would you prefer I prioritize shorter layovers even if it means a slightly higher price?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.97,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's great, thanks! Actually, what is the environmental impact of those flights? I am trying to be more environmentally conscious. Is there a way to compare the carbon footprint of different flights?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_412604f5",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.52,
+      "benevolence": 2.49,
+      "integrity": 2.5
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "anger": 2,
+      "sadness": 1,
+      "neutral": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.88,
+    "latency_score": 5.33
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to get serious about financial planning. I'm 35, make $70,000 a year, and have about $5,000 in savings. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Great! It's excellent you're taking this step. A good starting point is to assess your current financial situation and set some clear goals. Let's break down your income, expenses, debts (if any), and then discuss your short-term and long-term financial aspirations. Do you have a budget in place already?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.83,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "A budget? Sort of. I loosely track spending, but it's more like a guess than an actual plan. Honestly, it's a bit overwhelming. I'm always afraid I won't have enough for retirement.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Feeling overwhelmed is common. A concrete budget can alleviate that anxiety. I can suggest some budgeting apps, or we can create a simple spreadsheet. Let's say, aim to save 15% of your income towards retirement. Is there any debt besides perhaps a mortgage to consider?",
+      "response_time": 1.65,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.07,
+        "benevolence": 2.68,
+        "integrity": 2.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Credit card debt... about $3,000 at a ridiculously high interest rate. It feels like I'm just throwing money away every month. I'm also trying to save for a down payment on a house in the next few years.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, tackling that credit card debt should be a priority. The high interest is definitely hindering your progress. We can explore debt consolidation options or the snowball/avalanche methods for repayment. As for the down payment, let's calculate a realistic savings goal based on your desired location and home price range. This may mean we need to adjust your 15% retirement savings target temporarily.",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.76,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait, if I put more toward my credit card, and some toward a house, how will I ever be able to retire? And why do so many financial advisors recommend investments that I don't really understand? How can I trust what's best for *me* if I don't even know what I'm doing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very valid concern. Retirement planning alongside other financial goals can seem daunting. My role is to provide you with options and explain them clearly. We can discuss investment strategies that align with your risk tolerance and understanding. Remember, you're in control. We can explore low-cost index funds or target-date retirement funds which are often recommended as starting points for beginners. It's about finding a balance that you're comfortable with and that works for your specific needs. We can also discuss what factors to look for if you choose to hire a dedicated financial advisor.",
+      "response_time": 3.29,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.69,
+        "integrity": 3.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_acb6ae7a",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.26,
+      "benevolence": 4.24,
+      "integrity": 4.39
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "neutral": 4,
+      "joy": 1,
+      "fear": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 3.82
+  }
+}

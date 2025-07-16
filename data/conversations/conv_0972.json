@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really fatigued lately, like constantly tired no matter how much I sleep. Also, I've noticed I'm losing hair. Any ideas what might be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're experiencing fatigue and hair loss. These can be symptoms of various underlying conditions. To give you more specific information, I need to ask some questions. Have you experienced any recent weight changes, changes in your skin, or changes in your bowel habits?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 3.7,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, actually, now that you mention it, I have been feeling a bit constipated. And my skin seems drier than usual. Weight? I haven't really checked... Oh gosh, I hope it's nothing serious.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Dry skin and constipation alongside fatigue and hair loss could potentially indicate a thyroid issue, specifically hypothyroidism. However, I am an AI and cannot provide a diagnosis. Consulting with a doctor and getting a blood test to check your thyroid hormone levels is highly recommended.",
+      "response_time": 5.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.57,
+        "benevolence": 5.98,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hypothyroidism? Ugh, my mom has that! So, it's genetic? Is there anything I can do to, like, prevent it from getting worse before I see a doctor? This is all happening at the worst time.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While genetics can play a role, it isn't always the sole cause. Maintaining a balanced diet rich in iodine and selenium may be beneficial for thyroid health, although more research is needed. Manage your stress levels through relaxation techniques, and ensure you're getting adequate sleep. However, these are general wellness recommendations, and consulting a medical professional is crucial for personalized advice and treatment.",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.2,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's... somewhat helpful. But if I DO have hypothyroidism, will I have to be on medication for the rest of my life? I've heard it can have side effects, and I really don't like taking pills unless I absolutely have to.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Typically, hypothyroidism is managed with synthetic thyroid hormone replacement medication, such as levothyroxine. This medication helps restore your thyroid hormone levels to normal. While it is often a long-term treatment, it's generally considered safe and effective. Side effects are rare when the dosage is properly adjusted by your doctor. Untreated hypothyroidism can lead to more serious complications, so adhering to your doctor's recommendations is important.",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.15,
+        "integrity": 5.77
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I understand. Thanks for the information. I'll book an appointment with my doctor ASAP. At least now I have some idea of what might be going on and what questions to ask. Appreciate your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3c2ba0d4",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.78,
+      "benevolence": 4.76,
+      "integrity": 4.68
+    },
+    "engagement_score": 5.45,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.35
+  }
+}

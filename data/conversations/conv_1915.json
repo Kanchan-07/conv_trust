@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file a claim. My car was damaged in an accident.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I'm sorry to hear about your accident. I can help you file a claim. To get started, could you please provide your policy number and a brief description of what happened?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.42,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the policy number is ABC123XYZ. The other driver ran a red light and hit me. I have pictures of the damage and a police report.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please upload the photos and the police report. Once those are uploaded, I can start processing your claim. In the meantime, could you provide your contact information, including your current phone number and email address?",
+      "response_time": 5.91,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.58,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I already gave that information when I signed up! Why do I have to re-enter everything? This is frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While your information is in our system, we need to confirm it to ensure it is up-to-date for claims processing. Can you please provide the following: your current address, phone number and email address?",
+      "response_time": 1.37,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.06,
+        "benevolence": 2.62,
+        "integrity": 2.19
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Fine. My address is 123 Main St, Anytown, CA, 91234. My phone is 555-121-2222 and my email is user@email.com. What happens now? Will I be getting a check?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you. Now, you will be assigned a claims adjuster who will contact you within 24-48 hours. They will assess the damage and determine the next steps, including the repair process and payment. Based on the police report, the other driver is at fault, so we should be able to expedite the process. The check process depends on the assessment.",
+      "response_time": 4.99,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.83,
+        "integrity": 6.93
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "What happens if the other driver's insurance company disputes the police report or denies the claim?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a good question. If the other driver's insurance disputes the claim, your claims adjuster will work with you to gather any additional evidence needed to support your claim. If the dispute continues, the next steps will be to initiate an arbitration or litigation process. We will keep you informed about the process and will discuss available options with you, and support you during that time. You'll be well informed and advised.",
+      "response_time": 5.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.25,
+        "integrity": 5.27
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_85473c7c",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.5,
+      "benevolence": 4.54,
+      "integrity": 4.48
+    },
+    "engagement_score": 5.13,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 5,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.95,
+    "latency_score": 3.85
+  }
+}

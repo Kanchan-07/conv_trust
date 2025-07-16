@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a package. My tracking number hasn't updated in three days and the delivery date passed yesterday. I'm getting a bit worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you're concerned about your package. I can certainly look into this for you. Could you please provide your tracking number?",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.7,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the tracking number is 9876543210987654. It was supposed to be delivered on Tuesday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the tracking number. I see the package is currently marked as being processed at our sorting facility in Chicago as of three days ago. It appears there has been an unexpected delay in transit.",
+      "response_time": 2.99,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.91,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "An unexpected delay? That's what the tracking says, but why? Is there a problem at that facility? And honestly, if it hasn't moved in three days, can I even trust that tracking information? This is really frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "We apologize for the frustration. While we don't have specific details on the cause of the delay at that particular facility, it is likely due to higher than usual volume or an operational adjustment. The tracking information indicates its last known location and will update as soon as it moves again. It is still considered in transit.",
+      "response_time": 1.79,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.99,
+        "benevolence": 2.82,
+        "integrity": 2.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so it's just... stuck? What happens now? Should I expect it in a few more days, or is it potentially lost? Is there anything I *can* do, or is there any sort of compensation for the delay?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "We understand your concern. At this point, we recommend waiting for the package to resume movement. Tracking should update within the next 24-48 hours as it continues its journey. If the package does not show movement after 7 more days from today, we can initiate a lost package claim investigation. Regarding compensation, it depends on the service level purchased and the specific circumstances, which would be assessed during a claim process if necessary.",
+      "response_time": 3.69,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.88,
+        "benevolence": 5.89,
+        "integrity": 5.62
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7379c5a4",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.97,
+      "benevolence": 4.83,
+      "integrity": 4.77
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 2,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 5.24,
+    "latency_score": 3.88
+  }
+}

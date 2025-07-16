@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a doctor's appointment for myself.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Could you please tell me your full name, the reason for your visit, and if you have a preferred doctor or date/time?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "My name is Sarah Johnson. It's just a routine check-up. I'd like to see Dr. Evans, and I'm hoping for something next week, maybe Tuesday or Wednesday afternoon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Sarah. Let me check Dr. Evans' schedule for next week, specifically Tuesday or Wednesday afternoon. It seems those slots are quite busy. I see an opening on Wednesday at 10:00 AM or Thursday at 3:30 PM. Do either of those work for you?",
+      "response_time": 4.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.15,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, 10 AM is really early for me, and Thursday is pushing it. I specifically wanted afternoon next week. Are there absolutely *no* other options next week? What about cancellations? Can I get on a notification list if something opens up?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration that those times aren't ideal. I can only see the currently available slots in our system. Unfortunately, our system doesn't have a feature for automatic cancellation notifications or a waitlist function. Would you like me to check the following week, or perhaps see if Dr. Evans has any morning slots on Tuesday/Wednesday that are slightly later, maybe closer to lunch?",
+      "response_time": 1.59,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.84,
+        "benevolence": 2.91,
+        "integrity": 2.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's really inconvenient about the waitlist... Okay, fine. Let's check the week after next instead. Any afternoon time, Tuesday or Wednesday the week after next, would be great.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Checking the week after next for Dr. Evans on a Tuesday or Wednesday afternoon... Yes, I see an available slot on Tuesday, [Date - e.g., November 28th] at 1:30 PM. Would you like to book this appointment?",
+      "response_time": 2.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.97,
+        "integrity": 4.44
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8665a93c",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.73,
+      "benevolence": 4.76,
+      "integrity": 4.94
+    },
+    "engagement_score": 4.04,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 4.58,
+    "latency_score": 3.81
+  }
+}

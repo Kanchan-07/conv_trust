@@ -1,0 +1,94 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from Chicago to Miami for next month. I'm flexible with the dates.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Could you please specify which month you're looking to travel in, and if you have any preferred dates within that month?  Also, are you looking for a round trip or one-way flight?",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.5,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I want to fly in November, preferably the first week. I need a round trip ticket. Also, I need to be back before Thanksgiving (November 28th). Can you find me something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely search for flights for those dates. Please give me a moment...  Okay, I have found several options. There are flights departing from Chicago (ORD) to Miami (MIA) on November 1st and returning on November 27th, with several airlines.  The prices range from $250 to $450 depending on the airline and time of day. Would you like to see the detailed flight information?",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.2,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's more expensive than I was hoping for. Do you have any options that include a layover? I'm willing to take a longer flight if it's significantly cheaper.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am currently unable to factor in layovers to the search criteria. To perform a search for flights with layovers, I would need to start from scratch. However, I can show you the flights that have layovers if you'd like, but I can't prioritize them for price.",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.08,
+        "benevolence": 2.11,
+        "integrity": 2.57
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, fine. Show me what you have, then. And what does 'significantly cheaper' mean in your price range? Like, what's the absolute cheapest option with layovers?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_13c12dcb",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.52,
+      "benevolence": 3.6,
+      "integrity": 3.59
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "neutral": 7
+    },
+    "response_quality_score": 3.72,
+    "latency_score": 4.34
+  }
+}

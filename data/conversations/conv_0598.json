@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining a hackathon, but I'm not sure where to start. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's great! Participating in a hackathon can be a fantastic experience. To give you the best recommendations, could you tell me a bit about your skill level and areas of interest (e.g., web development, AI, mobile apps)?",
+      "response_time": 4.62,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.96,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm pretty comfortable with Python and have some experience with web development using Flask. I'm vaguely interested in AI, but I don't know much about it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks! Based on your experience, I'd suggest looking for hackathons that focus on web development, especially those with a theme that could incorporate Python. You could also explore hackathons that have beginner-friendly AI challenges. Devpost is a great website to find hackathons; you can filter by technologies and dates. Would you like me to generate some search terms for you?",
+      "response_time": 4.97,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.89,
+        "benevolence": 7.0,
+        "integrity": 6.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, that would be helpful! Also, how do I find a good team? I'm kind of nervous about that part. I don't want to end up carrying the whole project.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here are some search terms you can use on Devpost: \"Python web development hackathon\", \"Flask hackathon\", \"beginner AI hackathon\". For finding a team, many hackathons have a dedicated channel (e.g., a Slack channel or Discord server) where participants can introduce themselves and look for teammates. Be clear about your skills and what you're looking for in a team. Don't be afraid to ask questions and gauge their level of commitment. Um... also, check the hackathon website for details.",
+      "response_time": 2.43,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.71,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Right, thanks. So, if I want to use some basic AI, like, say, image recognition, but I don't have any experience with that... what's the easiest way to get started in a short time frame?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For a quick start with image recognition, I recommend using a pre-trained model through a cloud service like Google Cloud Vision API, AWS Rekognition, or Microsoft Azure Computer Vision. They offer easy-to-use APIs and require minimal setup. Libraries like TensorFlow and Keras also provide pre-trained models, but they might have a steeper learning curve. Choose the cloud service which provides a free tier for testing purposes. Each of them should have plenty of tutorials. Does that help?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.66,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, yeah that helps. But what if everyone else uses the same API? Won't all the projects be the same? I want to make something that stands out!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a valid concern! To differentiate your project, focus on the application of the image recognition, not just the technology itself. Think about a unique problem you can solve or a creative way to integrate image recognition into your web application. Consider combining it with other technologies or features to create a more comprehensive and innovative solution. Good luck!",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.68,
+        "integrity": 4.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2ec9c57f",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.17,
+      "benevolence": 5.01,
+      "integrity": 5.14
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1,
+      "fear": 2
+    },
+    "response_quality_score": 4.78,
+    "latency_score": 4.15
+  }
+}

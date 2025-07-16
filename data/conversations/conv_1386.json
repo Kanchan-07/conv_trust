@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up with a general physician. Preferably someone in network with UnitedHealthcare.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To start, can you provide your name and date of birth? I'll also need your insurance member ID to confirm in-network providers.",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.19,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. Fine. My name is Sarah Miller and my birthday is 03/15/1988. My member ID is UHC1234567890. Why do I have to give you all this information? Can't you just look me up?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience, Sarah. For security and privacy reasons, we require verification of your identity before accessing your protected health information. I have found several in-network physicians in your area. However, I cannot guarantee the accuracy of those providers' availability. Would you like me to list some and their current appointment slots?",
+      "response_time": 2.19,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.79,
+        "benevolence": 2.75,
+        "integrity": 2.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please. But, I work full-time and need appointments after 5 pm, or on weekends. Do any of them offer those times? Also, what if I need to see a specialist later on? Can you help me find one then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c29bf68b",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.27,
+      "benevolence": 3.47,
+      "integrity": 3.32
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 3.51,
+    "latency_score": 4.82
+  }
+}

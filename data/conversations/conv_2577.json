@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I really need some help with my personal finances. It feels like I'm just treading water and I have no idea how to get ahead. Can you give me some guidance?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand that managing personal finances can feel overwhelming sometimes. I can definitely help provide some guidance and resources to get you started. To begin, could you tell me a little bit about your current situation or what specific areas you're finding most challenging?",
+      "response_time": 4.21,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.5,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I guess the biggest challenge is just knowing where my money is going. I feel like I make decent money, but at the end of the month, there's not much left. And I want to save for a down payment on a house, but that seems impossible right now. It's honestly pretty frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, tracking your spending is a common starting point. Establishing a clear budget is often the first step towards understanding your cash flow and identifying areas where you can save. We could also look at setting financial goals and exploring potential savings strategies. What would you like to focus on first?",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.39,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, a budget sounds right, but honestly, how do you even *make* a budget that you'll actually stick to? I've tried before and just gave up. It feels like a huge chore, and I'm confused about the best way to track everything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Creating a budget doesn't have to be complicated! A simple approach is to first track all your income. Then, list your fixed expenses (rent, mortgage, loan payments) and variable expenses (groceries, utilities, entertainment). Compare your total income to your total expenses to see where you stand. You can use apps, spreadsheets, or even pen and paper. The key is consistency and finding a method that works for you.",
+      "response_time": 5.48,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That makes sense. Thanks. But let's say I manage to free up some money. What should I do with it? With all the talk about inflation and potential recessions, is it even safe to invest right now? Like, should I put it in stocks, or crypto, or what? How do I know what's the 'right' move in this crazy market?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very important question about investing, but it touches on areas where I must be cautious. As an AI, I cannot provide specific investment advice or recommend particular assets like stocks, crypto, or any others, especially considering market volatility. Investment decisions depend heavily on your individual risk tolerance, time horizon, and financial goals, and the market is constantly changing. It's crucial to do thorough research or consult with a qualified financial advisor who can provide personalized recommendations based on your unique situation.",
+      "response_time": 2.92,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.61,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, okay, I understand you can't give specific advice. That's a bit disappointing, but I get it. So, if not specific tips, can you at least explain the *types* of things people usually consider when deciding where to put money, besides just checking accounts?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Absolutely. Beyond basic savings or checking accounts, common options people consider include high-yield savings accounts (for accessible savings), Certificates of Deposit (CDs) for fixed terms, bonds (loans to governments or corporations), mutual funds or exchange-traded funds (ETFs) which bundle various investments, and retirement accounts like 401(k)s or IRAs. Each has different levels of risk, return potential, and accessibility. Researching these categories can be a good starting point.",
+      "response_time": 5.3,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.67,
+        "integrity": 6.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d50b8b9a",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.5,
+      "benevolence": 5.43,
+      "integrity": 5.26
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "neutral": 7,
+      "fear": 2,
+      "sadness": 1
+    },
+    "response_quality_score": 5.03,
+    "latency_score": 3.12
+  }
+}

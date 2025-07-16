@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. Can you recommend some songs based on genre?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! What genres are you interested in? I can recommend songs from a wide range of genres like Pop, Rock, Hip-Hop, Electronic, and many more.",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.29,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm in the mood for some indie rock. Maybe something upbeat and catchy. Give me a few recommendations.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, here are a few indie rock recommendations that are generally considered upbeat and catchy:\n\n*   **'Pumped Up Kicks' by Foster the People**\n*   **'Little Talks' by Of Monsters and Men**\n*   **'Lisztomania' by Phoenix**\n\nHope you enjoy them!",
+      "response_time": 2.51,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.84,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I know all of those already! That's kind of disappointing. Can you give me some more obscure indie rock? Like, stuff that isn't on every playlist ever.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies. I will try to suggest some less mainstream options:\n\n*   **'Oblivion' by Grimes**\n*   **'Cough Syrup' by Young the Giant**\n*   **'Shelter Song' by Temples**\n\nI hope these are a better fit. I am still under development and learning the nuances of user preferences. Let me know what you think!",
+      "response_time": 5.94,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.92,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those are much better! I like the Grimes and Temples songs. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a02b057c",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.19,
+      "benevolence": 5.02,
+      "integrity": 4.94
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "neutral": 3,
+      "joy": 2,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.77,
+    "latency_score": 3.51
+  }
+}

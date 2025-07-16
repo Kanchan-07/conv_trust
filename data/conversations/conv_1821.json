@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from Chicago to London for the week of July 15th. Could you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you with that. Please specify the exact dates you would like to travel, and if you have any preferred airlines or times. Also, is this a round trip?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.84,
+        "integrity": 5.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, it's a round trip. Let's say departing Chicago on July 16th and returning on July 23rd. I'd prefer a morning flight to London, ideally arriving before noon. Now, here's the tricky part: I need to know which airline has the best record of on-time arrivals at Heathrow for that specific week, considering the average weather conditions and airport congestion. Can you find that out for me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize, but I don't have access to real-time historical weather data or specific airline performance metrics that are this granular. I can access general information about average on-time performance, but providing data for that specific week, including weather and congestion, is beyond my current capabilities. I can, however, suggest airlines known for better on-time performance and give you some potential flights based on the dates you provided. Would you like me to proceed with that?",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.54,
+        "integrity": 4.04
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_07b9daa8",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.38,
+      "benevolence": 4.69,
+      "integrity": 4.9
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 4.3
+  }
+}

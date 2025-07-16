@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued by my neighbor over a tree that fell on his property. He claims it was my tree, and I'm liable for the damages. What are my options?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can certainly provide some general information about your situation, but please remember I am an AI and this is not legal advice. To start, it sounds like you are facing a property dispute. Your options depend on various factors, including local ordinances, the type of tree, and how the tree fell. The first step is to review any documentation you have regarding the tree and the incident. Do you have any such documents?",
+      "response_time": 1.79,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.26,
+        "benevolence": 2.51,
+        "integrity": 2.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, this is so frustrating! I've got the lawsuit papers, but I don't have any documents about the tree itself. I don't even know if it was actually *my* tree! What happens if I didn't own the tree?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "If you did not own the tree, then you may not be held liable. To determine ownership, you'll likely need to consider property lines, surveys, and perhaps local ordinances. Proving this can be challenging if you lack documentation. You might need to present photographic evidence or even hire a surveyor to help you with this. Unfortunately, I am unable to provide specific legal strategies for proving ownership at this time, as that requires more data analysis.",
+      "response_time": 1.74,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.18,
+        "benevolence": 2.34,
+        "integrity": 2.75
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if the tree *was* mine and it fell due to natural causes like a storm? Am I still liable? That seems unfair.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a challenging question, and the answer varies. Generally, if the tree fell due to a natural event and there was no evidence of negligence on your part (e.g., failing to maintain a diseased or unstable tree), you may not be liable. However, some jurisdictions have specific laws about trees. You should research the ordinances specific to your location. Consider searching for local property law experts to review your case in detail. Good luck.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.99,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Thanks, that gives me a good starting point. I'll look into local ordinances and consider consulting a lawyer. I appreciate your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f0b25f25",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.9,
+      "benevolence": 2.95,
+      "integrity": 3.19
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.82,
+    "latency_score": 5.01
+  }
+}

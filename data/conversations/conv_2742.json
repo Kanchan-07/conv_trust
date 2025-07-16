@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking about getting some food delivered tonight. What are some good options in my area? I'm craving something comforting.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To give you the best recommendations, could you please share your current location or zip code?",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 4.32,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oh, right. Sorry, I'm at zip code 90210. And I'm really hoping for something relatively healthy but still comforting, you know? Like, not a greasy burger, but maybe a nice soup or a wholesome bowl? The last time I asked for comfort food, you suggested fried chicken, which was NOT what I had in mind. I was pretty annoyed.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies for the previous inaccurate recommendation. Let me refine the search for comforting *and* wholesome options near 90210. Based on recent reviews and typical menu items, I see a few highly-rated places: 'The Daily Bowl' specializes in healthy grain and vegetable bowls, and 'Soup & Salad Spot' offers a variety of hearty soups. Would either of those sound appealing?",
+      "response_time": 1.72,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.02,
+        "benevolence": 2.23,
+        "integrity": 2.33
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 'The Daily Bowl' sounds promising. But how can I be sure it's actually healthy? Like, what's their average calorie count per dish, and can you filter their menu for low sodium options across *all* their offerings simultaneously? It's frustrating trying to guess from just the descriptions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question, and it can be challenging. Unfortunately, I don't have access to real-time, detailed nutritional information like average calorie counts or the ability to filter *all* menu items for low sodium across every restaurant's entire menu database. Nutritional information varies greatly by dish and preparation. Your best bet for specific dietary details would be to check 'The Daily Bowl's' official website or their page on the delivery app you plan to use, as they often list ingredients or nutritional facts there. I can provide a link if you'd like.",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.04,
+        "integrity": 4.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bfd063ce",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.11,
+      "benevolence": 3.53,
+      "integrity": 3.49
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 3.13,
+    "latency_score": 5.33
+  }
+}

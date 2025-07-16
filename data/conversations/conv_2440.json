@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. Can you show me some options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! We have a great selection of running shoes. Here are a few popular models that are highly rated by runners: [Link to Shoe A - Brooks Ghost], [Link to Shoe B - Hoka Clifton], [Link to Shoe C - Nike Pegasus]. These are versatile options. Do you have any preferences on cushioning, terrain (road, trail), or brand?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.76,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, those look... fine? But I run pretty long distances, like half marathons, and I need something with really good support for flat feet. Those seem like pretty standard neutral shoes, and frankly, Shoe C looks a bit too flashy for my taste. I'm a bit frustrated, I thought asking for 'running shoes' would get me closer.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies for the initial recommendations not being quite right. For long distances and flat feet, stability and maximum cushioning are usually key. Let's refine the search. Consider these options which are specifically designed for support and comfort over many miles: [Link to Shoe D - Asics Gel-Kayano], [Link to Shoe E - Saucony Guide]. These offer enhanced arch support and stability features.",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.56,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Shoe D looks much more promising for support. But why wasn't 'support' or 'distance' a primary filter when I just said 'running shoes'? It feels like the basic category isn't enough for this system to understand common needs. And how do I know if these are actually *the best* for long distance flat feet, or just *some* options? It's kind of confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_00e9e9fd",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 5.16,
+      "integrity": 5.4
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 2.71
+  }
+}

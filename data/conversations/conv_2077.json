@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to file an insurance claim for a car accident. I'm feeling pretty overwhelmed right now.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I'm here to help. To start, can you please provide your policy number and a brief description of the accident?",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.72,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my policy number is ABC123XYZ. The accident happened last Tuesday. Another car ran a red light and hit me. I'm pretty sure it's the other driver's fault, but I'm not sure about the details for the claim.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Based on the information provided, I've started a claim under your policy. Please provide the police report number. Also, for the claim, you will be required to provide photographic evidence of the damage, and a statement of the incident. We will need the other driver's insurance information as well. It's all pretty standard procedure. Are there any immediate concerns?",
+      "response_time": 4.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.14,
+        "integrity": 5.66
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I've got the police report number. But how does the process work if the other driver is uninsured? Does my insurance cover it? What happens then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid question. If the other driver is uninsured, and you have uninsured motorist coverage, your policy should cover the damages. This can sometimes be a complicated area, and the exact steps and coverage depend on your specific policy details. I would recommend that you consult the full details of your policy document. Or, you can call our customer service line for clarification on how your policy will function. Would you like me to provide the customer service number?",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.98,
+        "integrity": 4.43
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_33544399",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.0,
+      "benevolence": 4.95,
+      "integrity": 5.13
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 5.45,
+    "latency_score": 2.96
+  }
+}

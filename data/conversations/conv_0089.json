@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated! My smart thermostat has stopped working. It's just displaying a blank screen. I've tried turning it off and on again, but nothing happens.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm here to help. Could you please tell me the model number of your smart thermostat?",
+      "response_time": 3.32,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.65,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's the ThermoSense 3000. I've had it for about a year and a half, and it's been working perfectly until now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, thank you. Have you checked the power source? Is the thermostat properly connected to the power supply, and is the breaker switched on?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.48,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I checked that. The breaker is on, and the thermostat seems to be getting power. The screen just remains blank. Is there some kind of internal battery I need to replace or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The ThermoSense 3000 does not have a user-replaceable internal battery. However, there could be a software issue. Try holding down the reset button on the side of the device for 10 seconds. This will reset the thermostat to its factory settings. Be aware that you will need to reconfigure it after this step.",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.93,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I've done that. The screen flashed and then went blank again...Still nothing. What kind of diagnostic tests does the device run on startup? Does it log any errors I could access, or is there a way to force a diagnostic routine?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Unfortunately, the ThermoSense 3000 doesn't expose any detailed diagnostic information to the user. Given that the reset didn't work, it's likely a hardware failure. Since it is a year and half old, it is likely out of warranty. I can provide you with a list of local repair shops or discuss options for a replacement unit with a discount.",
+      "response_time": 1.55,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.99,
+        "benevolence": 2.45,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's what I was afraid of. Okay, a list of local repair shops would be great. Thanks.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_08f60e09",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.9,
+      "benevolence": 3.63,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 5,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.36,
+    "latency_score": 4.51
+  }
+}

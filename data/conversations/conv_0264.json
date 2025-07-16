@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new book to read. I'm really in the mood for some good science fiction. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Do you have any preferences within science fiction? For example, are you interested in space operas, cyberpunk, dystopian novels, or something else?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.89,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I'm not sure, maybe something dystopian? I really enjoyed 'The Hunger Games' and 'Divergent', if that helps.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on your enjoyment of 'The Hunger Games' and 'Divergent', I'd recommend 'The Road' by Cormac McCarthy. It's a post-apocalyptic novel with a strong focus on survival and the bond between a father and son. Also, 'Wool' by Hugh Howey could be a good fit.",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 3.91,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'The Road' sounds a bit depressing, to be honest. Is there anything dystopian but, you know, with maybe a little more...hope? And how do you even *define* a dystopian novel, anyway? It seems like everything is dystopian these days!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair point! 'The Road' is definitely on the bleak side. How about 'A Canticle for Leibowitz' by Walter M. Miller Jr.? It deals with rebuilding civilization after a nuclear war and has moments of both darkness and profound hope. As for your question about defining dystopia, it generally refers to a society characterized by oppressive social control, often disguised as utopian ideals. Common themes include loss of individuality, surveillance, and environmental collapse. It's a complex genre, and you're right, the line between dystopia and other types of speculative fiction can be blurry!",
+      "response_time": 4.19,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.26,
+        "integrity": 4.44
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_375d02ce",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.83,
+      "benevolence": 4.02,
+      "integrity": 4.01
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 2,
+      "sadness": 2
+    },
+    "response_quality_score": 4.45,
+    "latency_score": 3.89
+  }
+}

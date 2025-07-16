@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm feeling kind of tired and don't want to cook. Can you recommend some dinner options for delivery near me? Something comforting, maybe Italian or Thai?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Based on your preference for Italian or Thai comfort food for delivery in your area, I've found a few options: 'Luigi's Pasta House' (Italian, known for lasagna) and 'Taste of Bangkok' (Thai, pad see ew is popular). Both offer delivery. Would you like to see estimated delivery times or popular dishes for either?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 3.79,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Luigi's is usually great but honestly, their delivery takes FOREVER. And Taste of Bangkok is good but I had Thai last night! Ugh, this is frustrating. Is there anything else, maybe something with really reliable, fast delivery that's still comforting? Like, do you know which restaurants generally have the quickest delivery times in my area, regardless of cuisine?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration about delivery times! While I don't have real-time data on *which* specific restaurant is fastest right this second, I can filter options by average historical delivery speed. Would you like me to show you restaurants tagged with 'Fastest Delivery' in your area? This might include different cuisines, but should prioritize speed.",
+      "response_time": 3.29,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.44,
+        "integrity": 4.03
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1b7bc45d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.97,
+      "benevolence": 4.12,
+      "integrity": 4.05
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 1,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.04,
+    "latency_score": 4.33
+  }
+}

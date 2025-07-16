@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered yesterday. The tracking info hasn't updated and I'm getting a little worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your tracking number? I'll look into the status of your package right away.",
+      "response_time": 4.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.34,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 9876543210. Honestly, I'm a bit frustrated. I needed this package for a project this week. The tracking just says 'in transit' for like, three days now. What's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've checked the tracking details. It appears there was an unexpected delay due to severe weather in the destination area. The estimated delivery date has been adjusted to tomorrow. I apologize for the inconvenience. We are doing everything possible to get your package to you as soon as possible. Unfortunately, there's no way to expedite the delivery at this time. I can also submit a formal inquiry with the carrier to get more specific information. Would you like me to do that?",
+      "response_time": 0.51,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6e92f907",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.6,
+      "benevolence": 3.17,
+      "integrity": 3.08
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 1,
+      "anger": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 2.97,
+    "latency_score": 4.97
+  }
+}

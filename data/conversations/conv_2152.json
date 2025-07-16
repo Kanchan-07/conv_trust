@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can certainly help with that. Can you please provide your tracking number?",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.3,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 92748361027346. I'm getting a little frustrated because I need the package for a presentation tomorrow.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've located your package. It appears to be delayed due to unforeseen circumstances. The estimated delivery date is now showing as tomorrow.",
+      "response_time": 0.62,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? What does that even *mean*? Is it lost? Damaged? Why wasn't I informed?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have specific details about the nature of the delay. However, the system does note the delivery driver experienced an issue at the local depot. I apologize for the lack of notification.",
+      "response_time": 2.34,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.28,
+        "benevolence": 2.81,
+        "integrity": 2.2
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I guess that's a little helpful. Will I get a refund if it doesn't arrive tomorrow? And if it arrives damaged, what do I do then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Regarding a refund, please contact the seller directly as our role is only with the delivery. If the package arrives damaged, please take pictures of the damage and contact both the seller and our customer service department, and we will get the ball rolling for a claim. ",
+      "response_time": 0.65,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.43,
+        "integrity": 1.3
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that sounds good. Thanks for the help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. I'm glad I could assist. Is there anything else I can help you with today?",
+      "response_time": 4.63,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c52f9432",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 2.99,
+      "benevolence": 3.31,
+      "integrity": 3.05
+    },
+    "engagement_score": 4.94,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1,
+      "surprise": 1,
+      "sadness": 1,
+      "joy": 2
+    },
+    "response_quality_score": 2.76,
+    "latency_score": 5.13
+  }
+}

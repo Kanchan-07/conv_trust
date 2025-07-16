@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm seriously frustrated. My smart toaster oven, the 'ToastMaster 5000', just stopped working. I pressed the button, and nothing. The screen is blank. I've got bagels to toast!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's troubleshoot this. First, can you please confirm that the toaster oven is plugged into a working outlet? Have you tried unplugging it, waiting a minute, and then plugging it back in? Sometimes a simple reset helps.",
+      "response_time": 1.63,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.38,
+        "benevolence": 2.04,
+        "integrity": 2.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, of course, I checked the outlet! It's plugged in and the outlet is working. I did the unplug-wait-replug thing too. Still nothing. Honestly, this is pathetic for a device that costs this much. Is there some sort of master reset button or something hidden on this thing?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize that those steps didn't resolve the issue. Unfortunately, the ToastMaster 5000 doesn't have a physical master reset button. Regarding your query on how to troubleshoot it further, I need to consult our more advanced documentation to diagnose the problem fully. Could you provide the serial number located on the bottom of the device? This will assist in providing you with more specific, technical support.",
+      "response_time": 1.74,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.95,
+        "benevolence": 2.25,
+        "integrity": 2.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, give me a second... Okay, the serial number is TM5000-SN7890. Hopefully you can figure this out, because I'm not sure what to do now!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fbcd48d4",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.67,
+      "benevolence": 2.15,
+      "integrity": 2.23
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 2,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 2.45,
+    "latency_score": 5.81
+  }
+}

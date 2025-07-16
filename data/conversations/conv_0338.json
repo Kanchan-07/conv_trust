@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm so frustrated with this cover letter. I've been staring at it for hours, and it still feels generic. Can you help me tailor it to this specific job posting for a marketing specialist at InnovateTech?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Tailoring a cover letter can be tricky. Please provide me with the job description and your current cover letter. I'll analyze both and suggest specific improvements to align your skills and experience with InnovateTech's needs.",
+      "response_time": 2.42,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.17,
+        "benevolence": 2.5,
+        "integrity": 2.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Great! Okay, I've pasted both below:\n\n[Job Description] Marketing Specialist - InnovateTech... [Cover Letter] To Whom It May Concern...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. I've analyzed the documents. A key area to focus on is quantifying your achievements. For example, instead of saying \"Managed social media campaigns,\" say \"Managed social media campaigns resulting in a 15% increase in engagement and a 10% boost in lead generation.\" Also, the job description emphasizes 'data-driven marketing'. Where in your past experiences have you shown this capability?",
+      "response_time": 4.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.7,
+        "benevolence": 5.75,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, good point about the quantifiable achievements. But about the 'data-driven marketing' part... honestly, most of my experience is more on the creative side. I can analyze reports, but I haven't really built any complex models or anything. Should I even bother applying if I don't have that skill as strongly as they seem to want? I don't want to waste my time...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_84640f91",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.94,
+      "benevolence": 4.12,
+      "integrity": 4.08
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 4.01
+  }
+}

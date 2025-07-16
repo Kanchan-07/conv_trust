@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some new clothes, but I'm on a pretty tight budget. Can you give me some fashion recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me your budget range? Also, what kind of clothes are you looking for (e.g., work, casual, specific items like jeans or dresses)?",
+      "response_time": 4.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.48,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, my budget is about $200, and I need mostly casual stuff - jeans, t-shirts, maybe a light jacket. It's for everyday wear. But honestly, I want to look stylish, not just cheap. Is that even possible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely! Looking stylish on a budget is definitely achievable. Based on your needs and budget, I recommend focusing on versatile basics. For example, a few well-fitting pairs of jeans (around $50-70 each), a selection of plain t-shirts in neutral colors (around $15-20 each), and a lightweight jacket (around $50-70) like a denim jacket or a bomber jacket. You can shop at stores like H&M, Old Navy, or Target for these items. They often have sales. How does that sound?",
+      "response_time": 5.43,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds good, in theory... but I'm a bit skeptical about finding *stylish* jeans for under $70. All the cheap ones I've bought in the past have fallen apart after a few washes. Can you actually suggest *specific* brands or styles that would work within that budget and not look awful?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, quality is important! For jeans, I'd suggest looking at styles from the brand 'Old Navy' \u2013 their 'High-Waisted Wow' or 'Power Slim' jeans often get good reviews and are frequently on sale for under $60. 'Levi's' has some basic jeans in the $70-80 range which can also be worth the investment, especially if you find a good fit. Check online stores like ASOS and Boohoo too; they often have sales. For t-shirts, I'd say Uniqlo is your best bet for basic, affordable, and durable choices. Good luck!",
+      "response_time": 5.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.4,
+        "integrity": 5.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f08fbc58",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.89,
+      "benevolence": 5.96,
+      "integrity": 6.16
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 6.22,
+    "latency_score": 2.3
+  }
+}

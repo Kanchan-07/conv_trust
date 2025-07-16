@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm starving! I want to order some food, but I'm not sure what I'm in the mood for. Maybe something Italian? What are my options near me?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright! I see three Italian restaurants within a 5-mile radius. There's 'Luigi's Pizzeria', 'Pasta Paradise', and 'Bella Notte Trattoria'. Luigi's is known for its quick delivery, Pasta Paradise has great reviews for its lasagna, and Bella Notte is a bit more upscale with a broader menu. Would you like to see menus or specials for any of these?",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.4,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, lasagna sounds good, but I'm also trying to be somewhat healthy. Does Pasta Paradise have any lighter options or maybe a salad with grilled chicken or something? Also, how do you ensure the restaurants you recommend are ethically sourced and treat their workers fairly? That's important to me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Pasta Paradise does offer a grilled chicken salad with a light vinaigrette. It has around 450 calories. As for your question about ethical sourcing, I am still under development and don't have the capability to verify that information for restaurants at this time. I primarily rely on user reviews and publicly available information about sourcing, which may not always be accurate. I recommend checking the restaurant's website or contacting them directly to inquire about their practices. Would you like to order the chicken salad from Pasta Paradise?",
+      "response_time": 2.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 3.64,
+        "integrity": 4.44
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5fda41eb",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.27,
+      "benevolence": 4.02,
+      "integrity": 4.28
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 4.36
+  }
+}

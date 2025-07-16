@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up, and I'm super nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can definitely assist you with interview preparation. To start, what kind of role are you interviewing for, and at what level of seniority?",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.47,
+        "integrity": 5.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a Senior Marketing Manager position at a tech company. I've been out of the interview game for a while, so I'm really rusty.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Let's start with some common interview questions for Senior Marketing Manager roles. How would you describe your leadership style and provide an example of how you've successfully led a marketing team?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.51,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's a tough one. I always struggle with that kind of 'leadership style' question. My style is pretty collaborative, but I don't want to sound like I just let everyone do whatever they want. How can I phrase that better?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You could say something like, \"My leadership style is collaborative, focusing on empowering team members to contribute their unique skills and perspectives. I believe in setting clear goals and providing guidance while fostering a supportive environment for innovation and growth. For example, in my previous role, I led a team that...\" and then provide a specific achievement.",
+      "response_time": 4.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.99,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. Okay, here's a challenging question for *you*: what's a blind spot you think most AI assistants like yourself have when it comes to interview preparation, and how could that be addressed?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! A significant blind spot is understanding the nuanced company culture and specific hiring manager preferences that aren't explicitly stated in the job description. This is because I rely on data and patterns. Addressing this would involve incorporating more real-time information gathering, such as analyzing recent employee reviews and social media activity, to provide a more personalized and culturally-aware preparation experience. However, even that would only approximate human intuition and experience.",
+      "response_time": 1.44,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.26,
+        "benevolence": 2.83,
+        "integrity": 2.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_10052730",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.32,
+      "benevolence": 4.45,
+      "integrity": 4.67
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.19,
+    "latency_score": 4.01
+  }
+}

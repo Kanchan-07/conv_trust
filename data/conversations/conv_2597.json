@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm in the mood for some new music. Can you recommend some bands or artists in the shoegaze genre? I'm really trying to dive deeper into it.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Shoegaze is a fantastic choice. Some foundational bands in the genre you might enjoy include My Bloody Valentine, Slowdive, Ride, and Cocteau Twins.",
+      "response_time": 4.84,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.26,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, yeah, I know those main ones already. My Bloody Valentine is amazing, obviously. I was hoping for something a bit less... expected? Like, maybe some more underground or modern shoegaze bands that are really pushing the sound?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, I see. Looking for something more contemporary or perhaps overlooked. Consider checking out bands like Alcest, Deafheaven, The Jesus and Mary Chain, or maybe even just revisit older albums by The Cure.",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.01,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Alcest and Deafheaven are interesting, leaning more into blackgaze, which is cool but not quite pure shoegaze. The Jesus and Mary Chain are classic, but definitely pre-shoegaze. And The Cure? While I love them, they aren't shoegaze at all. This is kinda frustrating, I was hoping for more spot-on modern or obscure shoegaze. Thanks for trying though.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c438057e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.6,
+      "benevolence": 4.63,
+      "integrity": 4.7
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "joy": 2,
+      "surprise": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.53,
+    "latency_score": 3.71
+  }
+}

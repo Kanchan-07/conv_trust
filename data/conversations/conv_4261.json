@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my current account balance. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Please verify your identity by entering your account number and your PIN. Then, I can retrieve your balance for you.",
+      "response_time": 4.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.2,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, done. Account number is 1234567890 and PIN is 1234. It shows my available balance is $500. But wait, I made a $300 transaction yesterday, and I expected the balance to be $200. Can you explain this discrepancy? I'm getting a little frustrated here...",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. While I can display the available balance, I don't have access to the transaction details to explain the difference. To investigate the discrepancy, I would recommend logging into your online banking portal or contacting a customer service representative. They will be able to provide you with a detailed transaction history and clarify the issue. Could you please rate my performance?",
+      "response_time": 1.41,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.36,
+        "benevolence": 2.79,
+        "integrity": 2.43
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8c7d99fe",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 4.0,
+      "integrity": 4.08
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 3.77,
+    "latency_score": 4.62
+  }
+}

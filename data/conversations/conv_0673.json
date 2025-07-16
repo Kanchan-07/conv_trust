@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with Dr. Ramirez. I'm a new patient.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Let me pull up Dr. Ramirez's availability for new patients. Do you have a preferred date or time of day?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.6,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Preferably sometime in the afternoon, next week. I'm pretty flexible, though. Honestly, I've been putting this off for too long.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, checking... I see an opening next Tuesday at 2:30 PM and another on Thursday at 3:00 PM. Would either of those work for you?",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.17,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tuesday at 2:30 works. Now, about insurance\u2026will you need my insurance information at the time of scheduling, or when I arrive? And which insurance providers does Dr. Ramirez accept?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "We can take your insurance information now to speed things up, or you can provide it at the appointment. Dr. Ramirez accepts most major insurance plans, including Blue Cross Blue Shield, Aetna, and UnitedHealthcare. Can you confirm which provider you're with?",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.22,
+        "benevolence": 5.72,
+        "integrity": 5.33
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, good, I have Blue Cross Blue Shield. Let's do it now then. My member ID is BX123456789. Is there anything else I need to know before the appointment? Like, where should I park?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Great! I've added your insurance information. For parking, there's a parking garage attached to the building; we validate tickets. Please arrive 15 minutes early to fill out some paperwork. See you Tuesday!",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.6,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f887a93a",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.08,
+      "benevolence": 5.02,
+      "integrity": 5.06
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.66,
+    "latency_score": 3.26
+  }
+}

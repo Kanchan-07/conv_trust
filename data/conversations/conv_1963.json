@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really tired and I've been having headaches for a few weeks now. What could be wrong?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am programmed to provide helpful information, but I am not a medical professional and cannot give medical advice. It's important to see a doctor for a proper diagnosis. However, some common causes of fatigue and headaches can include stress, lack of sleep, dehydration, or even underlying medical conditions. Are there any other symptoms you're experiencing?",
+      "response_time": 1.71,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.27,
+        "benevolence": 2.72,
+        "integrity": 2.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, yes. I've also been feeling a bit nauseous, and I've noticed I'm thirstier than usual. This is all so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. The nausea and increased thirst, combined with fatigue and headaches, could potentially indicate several things. I strongly recommend consulting a doctor as soon as possible. They can run tests to rule out various possibilities, such as a viral infection, diabetes, or other medical conditions. Do you have any other information about your lifestyle, such as diet or exercise habits?",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.8,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I haven't been eating very well lately, lots of processed foods. And I barely exercise, I know, I know, it's bad. Could that be contributing?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely. Poor diet and lack of exercise can definitely contribute to fatigue and headaches. A balanced diet, rich in fruits, vegetables, and lean proteins, along with regular exercise, can improve overall health. However, since you also have other symptoms, a medical evaluation is essential to rule out anything serious. Are you currently taking any medications or supplements?",
+      "response_time": 1.68,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.17,
+        "integrity": 2.41
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I am taking some supplements, but I don't see how that would cause these issues. Should I stop taking them, even though they were recommended by my doctor?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That is a very good question, and a more complex one. I'd highly recommend you consult your doctor directly to discuss the supplements. They know your medical history and can best advise you. They might want to check for any interactions, or if they think the supplements could be related. I can generate a list of common supplement interactions if you like, but it's best to get medical advice.",
+      "response_time": 4.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.16,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks for the help. I'll book an appointment with my doctor. I appreciate your insights.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b63579a0",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.42,
+      "benevolence": 3.46,
+      "integrity": 3.51
+    },
+    "engagement_score": 5.4,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "disgust": 1,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.25,
+    "latency_score": 4.65
+  }
+}

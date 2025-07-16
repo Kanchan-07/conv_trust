@@ -1,0 +1,129 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm completely swamped with medical bills. Can you help me process a batch of them? I have them all scanned and ready to go.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Please upload the scanned documents, preferably in a single PDF file if possible, or a zipped folder. I will then begin processing them and extract relevant information.",
+      "response_time": 5.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.02,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Great, I just uploaded 'Medical_Bills_October.zip'. How long will it take to process, roughly?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Processing time depends on the volume and complexity of the documents. I estimate approximately 2-3 hours for this batch. I will notify you when it is complete.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.17,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 2-3 hours... that's a little longer than I hoped, but fine. Will it automatically identify and flag any potential coding errors or duplicate billings?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The system can identify potential coding errors based on standard coding guidelines and common discrepancies. Duplicate billing detection is also enabled and will flag any matching claims across the uploaded documents. However, it's always recommended to review the results carefully for accuracy.",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.86,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, what happens if it *does* find a potential coding error? Does it just highlight it, or can it suggest corrections? Because honestly, I'm not a coding expert.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "When a potential coding error is detected, the system will highlight the relevant code and provide a brief explanation of the potential issue. In some cases, it may suggest alternative codes based on the diagnosis and procedure descriptions in the bill. However, it cannot guarantee a correct replacement. The final decision on code accuracy always rests with a qualified professional.",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.06,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I understand. One last question \u2013 how secure is this process? I'm uploading sensitive patient data, and I need to know it's protected. What kind of encryption and security measures are in place to comply with HIPAA?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Data security is our top priority. All data transmitted to and from our servers is encrypted using industry-standard TLS 1.3 encryption. We adhere to HIPAA regulations by implementing strict access controls, audit trails, and data residency requirements. The servers are hosted in a HIPAA-compliant environment. Furthermore, we do not store any PHI data longer than necessary for processing, and all data is securely wiped following completion of the billing cycle. A full summary of our security practices can be found at [link to security policy].",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.51,
+        "benevolence": 7.0,
+        "integrity": 6.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8df82c8b",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.24,
+      "benevolence": 5.22,
+      "integrity": 5.12
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 10
+    },
+    "response_quality_score": 5.55,
+    "latency_score": 3.14
+  }
+}

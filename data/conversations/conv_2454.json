@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I've got a kitchen faucet that's started dripping pretty badly. It's constant and really annoying. What are the first steps I should take?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! A dripping faucet can certainly be frustrating. The first step is to identify the source of the leak. Is the water coming from the spout, the handle, or somewhere else? Before you do anything, ensure you locate and turn off the water supply valves under the sink to prevent flooding while you inspect it.",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.27,
+        "integrity": 1.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I found the shut-off valves and turned them off. It looks like the drip is coming from right under the handle, not the spout itself. It feels like it might be something inside the faucet body near where the handle connects. Ugh, I thought this would be simple, but there are so many different types of faucets!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That sounds like it might be an issue with the internal cartridge or valve. Faucets use various types, but replacing the cartridge is a common fix for leaks near the handle. Once the water is off, you'll typically need to remove a decorative cap on the handle, unscrew the handle, and then access the cartridge underneath. You might need a specific tool depending on the faucet brand and model.",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 3.77,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Right, I removed the handle, and it looks like there's some kind of plastic or ceramic cylinder in there \u2013 I assume that's the cartridge? How on earth do I figure out which replacement cartridge I need? There are no visible markings on the old one, and I don't have the original faucet box or receipt. This is incredibly frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Identifying the correct replacement cartridge without clear markings can be tricky. Your best bet is usually to try and identify the faucet manufacturer or model number, which might be etched somewhere on the faucet body itself, possibly underneath. If you can find that, you can check the manufacturer's website for parts diagrams. Alternatively, you can take the old cartridge to a plumbing supply store, and they might be able to match it based on its appearance and dimensions.",
+      "response_time": 5.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.55,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Checking the faucet body for a number is difficult because it's installed, and taking the old cartridge to a store means another trip and hoping they can match it. That doesn't seem like a very reliable process. Isn't there a better way to identify these things online or using some kind of universal guide? That answer wasn't as helpful as I hoped...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, you're right, those methods can be inconvenient. A more direct approach online might be to carefully take clear photos of your faucet from different angles and the old cartridge you removed. Many plumbing forums or DIY communities online can help identify the faucet type and potential cartridge based on photos. Some manufacturers also offer online tools where you can upload photos to help identify parts. It requires a bit more effort on your end, but it can be quite effective.",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.29,
+        "integrity": 4.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9494b9d9",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.78,
+      "benevolence": 3.72,
+      "integrity": 3.66
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "disgust": 3,
+      "neutral": 5
+    },
+    "response_quality_score": 3.51,
+    "latency_score": 4.08
+  }
+}

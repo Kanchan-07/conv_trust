@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, AI, I'm completely lost. I need to install a new faucet in my bathroom, and I've never done any plumbing before. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "No worries! Replacing a faucet is a manageable DIY project. First, you'll need to gather your tools: a basin wrench, adjustable wrench, pliers, screwdriver, plumber's tape, a bucket, and a towel. Then, turn off the water supply under the sink (there should be shut-off valves). After that, disconnect the old faucet and water lines. Finally, install the new faucet following the manufacturer's instructions.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.72,
+        "integrity": 6.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that sounds... like a lot. What if there aren't shut-off valves under the sink? I haven't checked.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "If there are no shut-off valves, you'll need to turn off the main water supply to your house. This is usually located near your water meter, often in the basement or a utility closet. Be sure to have a plan for what you will do during the time your water is shut off. You may want to contact a plumber if you are uncomfortable with this step.",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.45,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I found the shut-off valves. But I'm looking at the instructions for the new faucet, and they're terrible! They're just pictures with no words. What does 'connect the supply lines to the hot and cold water inlets using the provided compression fittings' *actually* mean?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration; those instructions can be a pain! Essentially, the supply lines (the flexible tubes) have nuts on the ends. You'll screw these nuts onto the threaded inlets on the faucet. The compression fittings are the parts that create the watertight seal. Make sure you use plumber's tape on the threads before tightening the nuts. Tighten them snuggly with an adjustable wrench, but don't overtighten. Overtightening can damage the fittings.",
+      "response_time": 1.65,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.11,
+        "benevolence": 2.03,
+        "integrity": 2.61
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that helps a lot, thank you! What's the likelihood of me messing something up and flooding my bathroom?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The risk is relatively low if you follow the instructions carefully and take your time. Ensure all connections are tight but not over-tightened, and double-check for leaks after turning the water back on. Also, it is a good idea to have a bucket and towel handy to soak up any spills that might occur. If any issues arise you can always reach out to a plumber for a consultation.",
+      "response_time": 5.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.74,
+        "integrity": 5.24
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0219631c",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.86,
+      "benevolence": 4.73,
+      "integrity": 4.63
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.43,
+    "latency_score": 3.62
+  }
+}

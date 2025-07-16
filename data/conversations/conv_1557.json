@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a table for dinner for 2 people this Saturday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. What city are you in and what time would you like to dine?",
+      "response_time": 3.58,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.03,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in London and I'm flexible, but ideally, around 7:30 PM.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Let me check for restaurants available around that time in London. One moment... Okay, I've found a few options. First, 'The Ivy' has availability, but only at 6:00 PM or 9:00 PM. Second, 'Bocca di Lupo' has 7:45 PM available. Third, 'Padella' has nothing. Which do you prefer?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 4.48,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 'The Ivy' is too early or late. 'Bocca di Lupo' sounds good. How's the ambiance there?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Bocca di Lupo has a lively, bustling atmosphere, often described as romantic. I can't give you a specific ambiance description; I only have access to booking information, not real-time restaurant reviews.",
+      "response_time": 1.67,
+      "emotion_detected": "joy",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.03,
+        "benevolence": 2.28,
+        "integrity": 3.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, fair enough. But... is there a dress code? I don't want to turn up underdressed.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, I don't have information about the dress code. Perhaps you could check the restaurant's website or give them a call?",
+      "response_time": 0.51,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.17,
+        "integrity": 1.44
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, fine. I'll do that. Book the table at Bocca di Lupo for 7:45 PM for two people, please.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Alright, you're all set. Your reservation at Bocca di Lupo for 2 people at 7:45 PM this Saturday is confirmed. You'll receive a confirmation email shortly. Is there anything else I can assist you with?",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.26,
+        "integrity": 3.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_54c45479",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.04,
+      "benevolence": 3.24,
+      "integrity": 3.27
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 6,
+      "anger": 1,
+      "joy": 1,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 2.77,
+    "latency_score": 4.75
+  }
+}

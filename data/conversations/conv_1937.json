@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I think I was wrongfully terminated from my job. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can provide general information and guidance on wrongful termination. However, I am an AI and cannot provide legal advice. I can help you understand the basics, though. To start, could you please describe the situation, including when you were terminated and the reasons given?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.82,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I was fired last week. They said it was due to 'restructuring,' but I think it's because I complained about some illegal activities at the company. I have proof! This is so frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on your description, you may have a case for wrongful termination, potentially as retaliation for whistleblowing. However, to assess the strength of your claim, I need more details. Specifically, can you describe the nature of the illegal activities you reported, and when and how you reported them? Also, do you have a written contract?",
+      "response_time": 1.79,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.08,
+        "benevolence": 2.55,
+        "integrity": 2.77
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The illegal activity was related to fraudulent accounting practices. I reported it to my supervisor and also sent an email to the compliance department a few months ago. I have a copy of the email. And yes, I do have a contract. But it's full of confusing legal jargon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you. Having documentation of your report and a contract are helpful. If you'd like, I can assist you in understanding some of the jargon in your contract, but remember, I can't interpret it legally. Additionally, have you contacted an attorney yet? It would be advisable to consult a legal professional for a full assessment of your situation and advice on how to proceed. It is imperative to do so as soon as possible to ensure you don't miss filing deadlines.",
+      "response_time": 5.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.64,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I haven't contacted a lawyer yet. I thought I could get some basic information here first. My question is: What are the typical steps I need to take, like what do I do next?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Given your situation, here's a general overview of what you should do next, which is not legal advice and for informational purposes only: 1. Consult with an attorney specializing in employment law. They can evaluate your case. 2. Gather all relevant documents: your contract, the termination notice, the email you sent, any performance reviews, and any other evidence. 3. Your lawyer may advise you on a demand letter to the company. 4. Be prepared for potential litigation or settlement negotiations. Seek professional legal advice to understand the specifics. Is there anything else I can help clarify?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.54,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "This has been somewhat helpful. Thanks for the information. I guess I'll look for a lawyer. Bye.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b72ec06e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.14,
+      "benevolence": 3.89,
+      "integrity": 4.28
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "anger": 1
+    },
+    "response_quality_score": 3.79,
+    "latency_score": 3.84
+  }
+}

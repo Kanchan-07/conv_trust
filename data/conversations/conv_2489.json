@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, I'm trying to find some new music. I've been listening to a lot of rock lately, mostly classic rock and grunge, and I'm getting a bit tired of my playlists. Can you recommend some other genres I might enjoy, maybe something a bit heavier or more energetic?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand you're looking to explore beyond classic rock and grunge for something heavier or more energetic. Based on those preferences, you might enjoy genres like Hard Rock, Heavy Metal, or even some Post-Hardcore. Would you like me to provide some artist examples for one of those genres?",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.76,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Metal sounds interesting. I've always found it a bit intimidating, like there are SO many subgenres. I don't even know where to start! Can you recommend a specific *subgenre* of metal that might be a good entry point for someone who likes powerful riffs but isn't into super aggressive screaming or super fast blast beats? I just don't want to get completely overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely! For someone transitioning from rock and grunge and seeking powerful riffs without the extreme aggression, I would suggest exploring **Stoner Metal** or **Doom Metal**. These subgenres often feature slower tempos, heavy, distorted guitar tones, and bluesy or psychedelic influences. Bands like Black Sabbath (often credited as pioneers), Electric Wizard, or Sleep could be good starting points.",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.77,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Black Sabbath I know, obviously. But the others sound promising! Stoner Metal, huh? That's a subgenre I've never even heard of. It's kind of confusing how many there are. How do you even differentiate between all these niche metal subgenres? Is there a clear definition for each one, or is it more subjective?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ffb2e6ed",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.31,
+      "benevolence": 5.26,
+      "integrity": 5.3
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 5.12,
+    "latency_score": 3.64
+  }
+}

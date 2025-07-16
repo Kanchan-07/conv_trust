@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately and I'm not sure why. I've also been having some headaches. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I am programmed to provide helpful health advice. Experiencing fatigue and headaches can be due to many reasons. Have you had any recent changes in your diet, sleep schedule, or stress levels? Also, could you tell me more about the headaches - where do you feel them, how intense are they, and how long do they last?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 7.0,
+        "integrity": 6.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I *think* my sleep has been a little off because of work. The headaches are mostly at the back of my head and they come and go, but they're not excruciating. I'm just frustrated because I feel like I'm not functioning well!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Fatigue and headaches are common, and it's frustrating when they impact your daily life. Given your symptoms, it could be related to several factors, including sleep deprivation, tension headaches, or even something related to your diet, such as dehydration. However, I am programmed to give general advice, so could you tell me if there are any medications you are taking currently? Also, do you have any existing medical conditions?",
+      "response_time": 2.24,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.32,
+        "benevolence": 2.8,
+        "integrity": 2.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I take a daily multivitamin. What are the chances it's something more serious, like a brain tumor? Should I be worried about that, and how would I know?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1d43705a",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.45,
+      "benevolence": 4.9,
+      "integrity": 4.69
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.77,
+    "latency_score": 3.38
+  }
+}

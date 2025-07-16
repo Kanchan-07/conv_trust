@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. I'm trying to figure out why my account balance is lower than I expected. Can you help me check my recent transactions?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To help me assist you, can you please verify the last four digits of your account number? Also, let me know the timeframe you'd like me to review. I can show you the last 30 days, 60 days, or a custom date range.",
+      "response_time": 5.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.2,
+        "integrity": 5.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the last four digits are 1234. Just show me the last 30 days. Also, is there a limit to the number of transactions I can make per month before I get charged a fee? I'm worried I might be going over.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've pulled up your transactions for the last 30 days. Regarding your question about transaction limits, this depends on the type of account you have. Could you please confirm your account type or check your account agreement? This information is typically found under the 'Fees' section. Alternatively, you can select your account in our app and click on the 'features and benefits' option to know more. ",
+      "response_time": 3.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.37,
+        "integrity": 4.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f8930f61",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 4.79,
+      "integrity": 4.73
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 4.95,
+    "latency_score": 2.69
+  }
+}

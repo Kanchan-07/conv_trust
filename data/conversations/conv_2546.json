@@ -1,0 +1,134 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my smart thermostat. It suddenly went blank, the screen is completely black and it's not responding to anything. It was working fine this morning, now nothing. Ugh, this is frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear your smart thermostat screen is blank. Let's try a few steps to get it working again. First, could you please confirm if the thermostat is securely attached to its baseplate on the wall, and if the breaker for your HVAC system is currently on?",
+      "response_time": 0.52,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.41,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, it's on the wall fine, always has been. I checked the breaker too, it's definitely on, nothing tripped. My AC is still working, just the thermostat screen is dead. Isn't there supposed to be some kind of battery backup or something? Why would it just completely die like this?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for confirming the breaker and baseplate. While some thermostats have a small backup battery for settings, they typically require consistent power from the HVAC system to operate the screen and main functions. A complete blank screen often indicates a power interruption to the thermostat itself. Could you please try carefully removing the thermostat from the baseplate and then reattaching it? This can sometimes help reset the connection.",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.22,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I took it off and put it back on... still nothing. Completely dead. No lights, no sound, zero response. It feels like it's just bricked. Is there anything else I can do myself, or is this thermostat just toast? I only got it last year!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern, especially with it being a relatively new device. Since reconnecting it didn't restore power, and you've confirmed the breaker is on, there might be an issue with the wiring connection on the baseplate or potentially the thermostat unit itself. Further troubleshooting would require checking the low-voltage wiring behind the thermostat, which can be complex. For safety and a thorough assessment, I recommend contacting a qualified HVAC technician or our customer support for advanced diagnostics or potential warranty options.",
+      "response_time": 2.66,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.38,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "An HVAC technician? Ugh, that sounds expensive. So basically, I'm stuck unless I pay someone or try contacting support again? This is not the easy fix I was hoping for.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand that's not the ideal outcome, and I apologize that the issue wasn't resolved with basic steps. Contacting our support team directly would be the next recommended step, as they can guide you through warranty checks or advanced troubleshooting specific to your model if possible, before needing to involve a technician. Would you like me to provide you with the contact information for our support?",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.87,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yeah, okay, give me the support number then. Hopefully they can figure something out without me having to spend a fortune. Thanks for trying, I guess.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand completely. I'm glad I could assist with the initial steps. Please wait one moment while I retrieve the best contact information for our customer support team for your region. You can reach them at [Support Phone Number] or visit [Support Website Link]. They will be able to assist you further with this power issue. Is there anything else I can help you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.72,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_49b83cd4",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.16,
+      "benevolence": 4.24,
+      "integrity": 4.07
+    },
+    "engagement_score": 5.73,
+    "emotion_distribution": {
+      "sadness": 2,
+      "surprise": 2,
+      "neutral": 3,
+      "fear": 1,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.11,
+    "latency_score": 3.96
+  }
+}

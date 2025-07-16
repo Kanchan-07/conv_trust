@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have a job interview coming up for a software engineer position. I'm a bit nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely assist with that. To start, what specific areas of preparation would you like help with? We can cover common interview questions, technical concepts, or even practice mock interviews.",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.28,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's start with common interview questions. I'm always stumbling on the 'Tell me about a time you failed' type questions. I never know what to say!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. That's a common challenge. For questions about failure, the STAR method (Situation, Task, Action, Result) is often helpful. Think about a situation where something didn't go as planned, the task you were trying to accomplish, the specific actions you took, and the result (what you learned or the outcome). Can you give me an example, and I can help you structure a response?",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.93,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay. Well, once I messed up a database migration and caused a minor outage. The situation was we were migrating a table. The task was to move a table to a new database with minimal downtime. I ended up running a script that caused a deadlock. Ugh, the result was a brief outage and a lot of stress. What should I say?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good example. Focus on what you learned from the experience. For the 'Action' part, describe what you did *specifically* to recover from the situation and prevent it from happening again. For the 'Result,' emphasize the steps you took to prevent a repeat of the outage. Be specific, mentioning things like: 'I immediately rolled back the changes,' 'I then identified the root cause and...'. I can help you refine a complete answer using your example.",
+      "response_time": 5.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.27,
+        "integrity": 5.77
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, thanks. But let's say the interviewer asks a more technical question, like 'Explain the difference between a hash map and a hash table' - I sometimes blank out under pressure.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're right, technical questions can be tricky. Let's break that down. In Java, the main difference, while subtle, is synchronization. Hash tables are synchronized, meaning they're thread-safe; hash maps are not. This has implications for performance in multithreaded environments. Would you like a deeper dive into synchronization concepts?",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.48,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, a deeper dive into those concepts would be great. And thank you, I'm feeling much better prepared now. This was super helpful!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_baae84ef",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.71,
+      "benevolence": 4.74,
+      "integrity": 4.75
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 6,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.17,
+    "latency_score": 3.72
+  }
+}

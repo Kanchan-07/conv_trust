@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey AI, I'm planning to participate in a hackathon this weekend. I'm feeling a bit overwhelmed, any advice?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! That's great! Hackathons can be a lot of fun. My first piece of advice is to choose a project you're passionate about, this will make it easier to get through the long hours. Do you have any ideas in mind yet?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.55,
+        "benevolence": 6.6,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Not really, I have a few vague ideas, but they're all really ambitious, and I'm worried I won't be able to finish anything useful in such a short time. Ugh!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand the feeling. It's crucial to scope down your project. Start with a Minimum Viable Product (MVP). What's the absolute core functionality you want to achieve? Break down your ambitious ideas into smaller, manageable tasks. Focus on demonstrating that core functionality.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.85,
+        "benevolence": 7.0,
+        "integrity": 6.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, MVP sounds like a good plan. But how do I even choose which idea is feasible? I have a chatbot idea and a web app idea, both sound kinda hard, and I only know basic Python and Javascript...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Given your current skill set, the web app might be more accessible. Javascript and Python are both applicable in web development. For the chatbot, you may need to learn a new library or framework. Also, consider the APIs available; do your ideas rely on any APIs? Check the hackathon's guidelines and any available resources or APIs to help you make a more informed decision.",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.53,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, web app it is. Let's say I'm building a simple to-do list app. Can you give me some guidance on the technologies I should use? Backend and Frontend.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For the frontend, HTML, CSS, and Javascript are essential. For the backend, Python with a framework like Flask or Django would be good choices, or you could use Node.js if you're more comfortable with Javascript. You'll also likely need a database, something like SQLite or PostgreSQL might be suitable for this project. Do some research on the trade-offs between the technologies I suggested, and choose the ones that best fit your interests.",
+      "response_time": 4.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.63,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's a good starting point. Thanks! One more tough question: How do I handle potential security vulnerabilities during the hackathon, given I'll be rushing to build something? I want to make sure I don't make any stupid mistakes.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! Since time is limited, focus on the most critical vulnerabilities. First, validate all user inputs to prevent injection attacks. Second, don't hardcode sensitive information like API keys or database passwords, use environment variables instead. Finally, use established libraries and frameworks because they are usually designed with security in mind. Remember, quick-and-dirty is acceptable in a hackathon, but secure-enough is key! Good luck with the hackathon!",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_63938015",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.81,
+      "benevolence": 4.75,
+      "integrity": 4.91
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "surprise": 1,
+      "joy": 1,
+      "sadness": 1,
+      "neutral": 7
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.23
+  }
+}

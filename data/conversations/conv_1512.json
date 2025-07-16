@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand a charge on my recent bill. It's much higher than usual.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Could you please provide your account number so I can access your billing information?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.79,
+        "integrity": 6.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 1234567890. Honestly, I'm a bit frustrated because I haven't changed my plan or anything.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm looking into your account now. Ah, I see a charge related to international calls. Can you confirm if you made any international calls during the billing cycle?",
+      "response_time": 5.76,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I don't think so! Not that I can recall. Is there a detailed log of the calls? I need to know exactly what the charge is for - maybe it's a scam call.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely provide you with the call logs. However, the system is experiencing a slight delay at the moment. I am currently able to see the destination numbers and call durations, but not the exact time. It will take a few moments to generate the full details. I apologize for the inconvenience.",
+      "response_time": 2.81,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.86,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's fine. Please send the detailed log once it's available. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8225255b",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.97,
+      "benevolence": 5.88,
+      "integrity": 6.02
+    },
+    "engagement_score": 4.04,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 6.37,
+    "latency_score": 2.64
+  }
+}

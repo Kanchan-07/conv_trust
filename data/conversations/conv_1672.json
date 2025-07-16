@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I'm looking for some book recommendations. I really enjoy reading fantasy books.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. To give you the best recommendations, could you tell me a little more about what you like in your fantasy? For example, do you prefer epic fantasy, urban fantasy, high fantasy, etc.? And are there any specific authors or books you've enjoyed in the past?",
+      "response_time": 3.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.87,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I guess I'm a fan of epic fantasy, like *The Lord of the Rings* and *The Wheel of Time*. I'm also open to trying new things, but I'm not really into anything with too much magic or romance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, based on that, I recommend checking out *The Stormlight Archive* series by Brandon Sanderson. It's a well-regarded epic fantasy series with a complex magic system and compelling characters. You might also enjoy *The First Law* trilogy by Joe Abercrombie, which offers a darker, grittier take on epic fantasy. Let me know if those sound interesting, or if you'd like me to suggest something else.",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 3.87,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Those both sound good! But I have a question for you. Since I liked *The Wheel of Time*, are there any books or series similar in terms of worldbuilding and scope, but that haven't been recommended a million times online?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a tough one! Finding something exactly like *The Wheel of Time* is difficult. Considering your preferences, you might find *The Realm of the Elderlings* series by Robin Hobb to be an excellent option, though it has a different tone. It offers rich worldbuilding and deep character development, though it focuses more on character-driven plot. Alternatively, *Malazan Book of the Fallen* by Steven Erikson is another massive series, similar to *The Wheel of Time* in scope and complexity, though it is considered more challenging. I hope these suggestions are helpful!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.62,
+        "integrity": 5.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d7ed0356",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.68,
+      "benevolence": 4.45,
+      "integrity": 4.55
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.73,
+    "latency_score": 3.06
+  }
+}

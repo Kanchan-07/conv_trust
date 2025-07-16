@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some movies? I'm in the mood for something good, but I'm not sure what I want to watch.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! To help me narrow it down, do you have any preferred genres? Perhaps action, comedy, drama, sci-fi, or something else?",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.11,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm thinking something in the sci-fi genre, but not too heavy, if that makes sense? Like, nothing too philosophical, please!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. How about 'Guardians of the Galaxy'? It's sci-fi with plenty of humor and action, without getting bogged down in complex themes.",
+      "response_time": 4.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.5,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I've already seen that one, like, a million times. Anything else? Maybe something a little more obscure?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me see... How about 'Arrival'? It's a sci-fi film with a unique premise about communication with extraterrestrials. While it has deeper themes, it's presented in a very engaging and accessible way. Or, alternatively, 'Source Code' - a more action-oriented thriller with time travel elements.",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.13,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'Source Code' sounds interesting. What makes that movie stand out from other sci-fi action movies? I'm trying to avoid something super generic.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a80f7e9d",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.58,
+      "integrity": 4.47
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 3.6
+  }
+}

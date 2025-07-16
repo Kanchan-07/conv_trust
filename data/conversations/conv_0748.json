@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to schedule an appointment with Dr. Ramirez, but your automated system is giving me the runaround. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help with that. To schedule an appointment with Dr. Ramirez, could you please provide your full name and date of birth?",
+      "response_time": 2.8,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.98,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, date of birth is 01/15/1988. What's Dr. Ramirez's availability like next week? And also, does she still accept my insurance, Blue Cross Blue Shield PPO?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Ms. Doe. Let me check Dr. Ramirez's availability for next week. Regarding your insurance, I don't have access to real-time insurance verification. I recommend contacting Blue Cross Blue Shield directly to confirm Dr. Ramirez is in-network. As for availability, she has an opening on Tuesday at 2:00 PM and Thursday at 10:00 AM. Would either of those times work for you?",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.93,
+        "integrity": 4.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_87213470",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 3.96,
+      "integrity": 4.01
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 4.37
+  }
+}

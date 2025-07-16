@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new games to play. I'm really in the mood for something in the RPG genre, but I'm overwhelmed by all the options. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To give you the best recommendations, what kind of RPGs do you typically enjoy? For example, do you prefer action RPGs, turn-based RPGs, open-world, story-driven, etc.?",
+      "response_time": 5.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.5,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's the problem, I like them all! I've played Skyrim, Fallout, Baldur's Gate 3, and even some more niche ones like Disco Elysium. Basically, anything with a good story and character development. But I'm also getting tired of the same old fantasy settings. Got anything that's maybe sci-fi or a bit different?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on your preferences, I would recommend checking out 'Cyberpunk 2077'. While it had a rocky launch, it's been heavily patched and offers a compelling story, extensive character customization, and a detailed cyberpunk setting. Another option could be 'The Outer Worlds', it is a sci-fi RPG with a focus on player choice and a satirical story.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.46,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard mixed things about Cyberpunk. How do you know that the recommendations you provide are unbiased and not just based on popularity or advertising revenue? I want to trust your suggestions, but it's hard to know what's genuine these days. But thanks for the recommendations, I'll check them out!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1c1f44a0",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.11,
+      "benevolence": 4.98,
+      "integrity": 4.79
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 3.36
+  }
+}

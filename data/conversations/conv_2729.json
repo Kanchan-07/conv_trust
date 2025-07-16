@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to expand my music library. Can you give me some recommendations for rock music?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Rock music is a broad category. To give you the best recommendations, could you tell me if there are any specific rock subgenres you enjoy, like classic rock, alternative rock, hard rock, or perhaps something else?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.1,
+        "integrity": 5.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, okay. I guess I'm leaning towards something like alternative rock, maybe with a bit of an indie feel. Not too heavy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! For alternative rock with an indie touch, you might like bands such as The Shins, Vampire Weekend, or maybe even some older Death Cab for Cutie. They offer that blend of catchy melodies and distinct indie sensibilities.",
+      "response_time": 5.12,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.61,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I know The Shins and Death Cab, they're cool. But what about bands that sound really atmospheric and a bit melancholic, but still have that indie/alt rock structure? Is there even a name for that kind of sound?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Atmospheric and melancholic sounds can certainly be found within alternative and indie rock. Bands like The Cure or Joy Division are often cited for that mood, though they are historically significant. Modern artists might also incorporate these elements.",
+      "response_time": 2.4,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.39,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, but The Cure is pretty old school. I was hoping for something more current. And yeah, I get that it's a mood, but it's frustrating not knowing what keywords to even use to find bands like that now!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While there isn't one single perfect genre name for that specific blend, you might find success exploring bands categorized as 'dream pop,' 'shoegaze' (which can be heavier but has atmospheric elements), or even 'indie folk' with darker tones. For more current artists with a melancholic, atmospheric alt-rock feel, consider checking out The National or Daughter.",
+      "response_time": 1.54,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.09,
+        "integrity": 2.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3d0c8bfa",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.34,
+      "benevolence": 4.3,
+      "integrity": 4.42
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "joy": 1,
+      "sadness": 4
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 4.35
+  }
+}

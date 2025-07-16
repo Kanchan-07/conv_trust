@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm in the mood for some music but not sure what. Can you suggest some genres based on my mood?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can certainly help with that! To give you the best recommendations, could you tell me a bit more about your mood? Are you feeling energetic, relaxed, nostalgic, or something else?",
+      "response_time": 3.28,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.23,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I guess I'm feeling kind of upbeat but also a bit thoughtful. Not super high energy like pop, but something with a good rhythm and maybe some interesting lyrics. Like, could be good for a walk outside on a sunny day.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, upbeat and thoughtful with good rhythm for a sunny walk. Based on that, I'd recommend exploring genres like Indie Pop, Alternative Rock, or perhaps some upbeat Folk Pop. These genres often feature catchy melodies, thoughtful lyrics, and a good pace.",
+      "response_time": 2.29,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 3.98,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Indie Pop sounds promising. Can you give me a couple of specific artists or albums in that genre that fit that vibe? I feel like Indie Pop can range from really bubbly to quite mellow, and I want something in that upbeat-but-thoughtful sweet spot you mentioned. Sometimes the suggestions are way off, which is a bit frustrating.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand! It can be challenging to hit that specific nuance. For upbeat yet thoughtful Indie Pop that's great for a walk, consider artists like The 1975 (their earlier albums), Vampire Weekend, or Chvrches. An album like 'Contra' by Vampire Weekend or 'The Bones of What You Believe' by Chvrches might be a good starting point. Do any of those resonate or sound interesting?",
+      "response_time": 3.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.98,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, Vampire Weekend is a good shout! 'Contra' sounds exactly like the kind of vibe I was aiming for. Thanks, that's actually really helpful. I'll check that out.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_475e89e3",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.8,
+      "benevolence": 4.4,
+      "integrity": 4.78
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "neutral": 2,
+      "joy": 5
+    },
+    "response_quality_score": 4.73,
+    "latency_score": 4.48
+  }
+}

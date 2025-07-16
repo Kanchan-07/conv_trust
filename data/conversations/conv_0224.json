@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm applying for this Project Manager role, and the job description says they want someone 'proficient in Agile and Waterfall methodologies, with demonstrable experience in leading cross-functional teams.' I'm feeling a bit overwhelmed on how to showcase that in my resume. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Let's break it down. For 'Agile and Waterfall methodologies,' instead of just listing them as skills, try to quantify your experience. For example: 'Led 3 Agile projects, resulting in a 15% reduction in time-to-market' or 'Managed a Waterfall project with a budget of $500,000, delivering on time and within budget.' For 'leading cross-functional teams,' use action verbs and specify the team size and composition. Something like 'Successfully led a 10-member cross-functional team including engineers, designers, and marketers to launch a new product feature.'",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.03,
+        "integrity": 2.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks! But what if my experience is more... indirect? Like, I participated in a large Agile project, but I wasn't *leading* it. How do I make my contributions sound significant without overstating them? This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You can phrase it to highlight your specific contributions and the impact they had. For instance: 'Contributed to a large-scale Agile project by [specific task], resulting in [positive outcome, e.g., improved code quality, faster iteration cycles].' Focus on quantifiable results whenever possible. If you don't have exact numbers, estimate. For example, instead of saying 'significantly improved,' say 'improved by an estimated 10% based on internal metrics.'",
+      "response_time": 5.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.57,
+        "integrity": 5.62
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b395f13c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.91,
+      "benevolence": 3.8,
+      "integrity": 3.89
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 3.62,
+    "latency_score": 3.38
+  }
+}

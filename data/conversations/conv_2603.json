@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there! So, I'm thinking about joining my first ever hackathon next month. I'm really excited but also feeling a bit overwhelmed. Any advice for a complete beginner?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "That's fantastic! Participating in a hackathon is a great experience. For a beginner, I'd recommend focusing on a few key things: familiarize yourself with the tools and technologies you plan to use, try to attend any pre-hackathon workshops, and definitely prioritize sleep and staying hydrated during the event itself. Also, networking is key \u2013 don't be afraid to talk to other participants!",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks! Sleep... yeah, I've heard the horror stories. What about finding a team? I don't know anyone else going, and the idea of just joining random strangers and trying to build something cool in 48 hours sounds incredibly stressful. How do people actually make that work effectively without it turning into a disaster?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Team formation can definitely be a challenging part, but also very rewarding! Most hackathons have dedicated time for team formation at the beginning. Look for people who seem enthusiastic and have complementary skills to your own \u2013 maybe someone good at design if you're a developer, or vice versa. Discuss project ideas openly and try to find a common ground that excites everyone. Setting clear expectations upfront about roles and goals can help prevent issues later.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.86,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, complementary skills makes sense intellectually, but how do you really tell in like, a 5-minute chat whether someone's actually a good fit to intensely collaborate with for two straight days? It feels like such a toss-up. Like, is there any *quick* way to spot red flags or genuinely promising teammates in that chaotic initial phase?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_652e627f",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.39,
+      "benevolence": 6.43,
+      "integrity": 6.33
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 6.38,
+    "latency_score": 2.56
+  }
+}

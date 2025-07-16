@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. I've been applying for jobs for months and getting nowhere. I think my resume is the problem. Can you help me make it better?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely assist you in improving your resume. To start, could you please tell me what kind of roles you are targeting and what your current level of experience is? Also, if you have your current resume handy, that would be helpful.",
+      "response_time": 3.49,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.17,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, great! I'm targeting project management roles, mostly in the tech industry. I have about 5 years of experience. I've attached my current resume. I'm just not sure how to best highlight my accomplishments. It all feels so generic.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for providing that information and your resume. I've reviewed it, and I see some areas we can improve. Specifically, the bullet points under your previous roles are quite vague. Instead of just stating your responsibilities, try quantifying your achievements whenever possible. For example, instead of 'Managed project budgets,' try 'Managed project budgets up to $500,000, consistently delivering projects under budget and on time.'",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.02,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Quantifying is good... but what if I don't have specific numbers for *everything*? Some of my contributions were more qualitative. Like, I improved team communication or something. How do I make *that* sound good on a resume?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid point! For qualitative improvements, you can focus on the impact of your actions. For example, instead of saying 'Improved team communication,' you could say 'Implemented daily stand-up meetings and a centralized communication platform, resulting in a reported 15% increase in team collaboration and a reduction in project-related delays.' Even if the number is an estimate, it demonstrates a positive outcome. Or, if you don't have numbers, use strong action verbs and describe the *effect* of your actions: 'Facilitated cross-departmental communication, resolving key roadblocks and accelerating project timelines.'",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.68,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, that's really helpful! I feel a lot more confident about revising my resume now. Thanks so much for the tips! I especially appreciate the examples.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d390f1b4",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.71,
+      "benevolence": 4.62,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.97,
+    "latency_score": 3.65
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. It's kind of urgent; I've been having these awful headaches for days.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let me check Dr. Ramirez's availability. Could you please provide your full name and date of birth for verification?",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.27,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, DOB is 01/15/1988. Ugh, I hate giving out my info all the time, but I guess it's necessary.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. I see that Dr. Ramirez has appointments available on Tuesday at 2:00 PM and Thursday at 9:00 AM. Which would you prefer?",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.61,
+        "integrity": 6.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, neither of those really work. Are there *any* other options, even if it's with a different doctor in the same practice? These headaches are really debilitating, and I'd like to be seen sooner rather than later. Also, why is it so difficult to see a doctor these days?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check for availability with other doctors in the practice. One moment... Okay, Dr. Lee has an opening tomorrow at 10:00 AM. Would that work for you? Regarding your question about appointment availability, it is influenced by factors such as increased patient volume, staffing shortages, and insurance requirements, unfortunately. I hope this helps.",
+      "response_time": 3.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 4.15,
+        "integrity": 3.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_03b697fe",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.87,
+      "benevolence": 5.01,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.44,
+    "latency_score": 3.31
+  }
+}

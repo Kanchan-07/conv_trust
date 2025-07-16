@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm hungry! Can you recommend some good restaurants nearby?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! To give you the best recommendations, I need to know your location. Can I access your location data?",
+      "response_time": 5.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.66,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, sure. I'm at 123 Main Street, Anytown. I'm in the mood for something... Italian, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've found a few Italian restaurants nearby. 'Luigi's' has great reviews and is a 5-minute walk. 'Bella Roma' is a bit further, about a 15-minute drive, but known for its authentic dishes. Would you like me to provide more details on either?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.51,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Luigi's sounds convenient. But is it any good, really? I had a terrible experience at an Italian place last week.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Luigi's has an average rating of 4.5 stars based on 300 reviews. Many reviewers praise their pasta dishes and friendly service. However, I don't have access to data on *every* experience, so it's possible there are some less positive reviews that I am unable to share. I can pull up the menu if you'd like.",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.92,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, show me the menu. And does it offer delivery?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Here is the menu. Yes, Luigi's offers delivery. It appears they partner with GrubHub and DoorDash. Would you like me to help you place an order through one of those platforms?",
+      "response_time": 4.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.77,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Actually, wait. Do you know what the environmental impact is of GrubHub vs DoorDash in terms of delivery emissions? I care about that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a challenging question. Unfortunately, I don't have real-time, specific data on the environmental impact of each delivery service for this particular restaurant. That kind of information is difficult to get precisely. However, I can provide a general overview based on averages for each service, if you'd like. Would you like me to look that up and then get you the menu again? Or can I help you with something else?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.08,
+        "integrity": 3.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_140784fe",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 5.16,
+      "benevolence": 4.99,
+      "integrity": 4.63
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 9,
+      "fear": 1
+    },
+    "response_quality_score": 4.62,
+    "latency_score": 3.1
+  }
+}

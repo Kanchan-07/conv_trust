@@ -1,0 +1,94 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music to listen to. I'm really into the indie rock genre, any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on indie rock, I recommend checking out these artists: The Strokes, Arctic Monkeys, and Tame Impala. Would you like me to provide some more recommendations based on similar artists?",
+      "response_time": 5.04,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.8,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, those are all great, I already listen to them a lot. Can you dig a little deeper and suggest something less mainstream? Maybe some newer, more obscure bands?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your refined preferences, you might enjoy: Fontaines D.C., Dry Cleaning, and Black Country, New Road. I've also included some links to their Spotify pages. Do these look more promising?",
+      "response_time": 3.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 4.46,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Fontaines D.C. is good but the others... not so much. Dry Cleaning sounds like spoken word with a drum machine, and Black Country, New Road is... a lot. How does the AI even decide this? Is there a specific algorithm?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My recommendations are based on a combination of factors, including user preferences, artist popularity within a genre, and similarities in musical characteristics (like instrumentation, tempo, and lyrical themes). Unfortunately, I am not able to provide specific details about the exact algorithm used. Would you like me to try a different approach? Perhaps focusing on subgenres of indie rock?",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.18,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, let's try that. Maybe something shoegaze or dream pop? Those subgenres are pretty interesting.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3f4574ba",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.51,
+      "benevolence": 4.81,
+      "integrity": 4.33
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 7
+    },
+    "response_quality_score": 4.47,
+    "latency_score": 3.76
+  }
+}

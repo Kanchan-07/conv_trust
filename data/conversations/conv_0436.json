@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, let's try this again. I'm still really struggling with understanding how to calculate the area of a composite figure. Can you walk me through it one more time?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. A composite figure is made up of two or more basic shapes. To find the area, you need to identify those shapes, calculate the area of each individual shape, and then add them together. For example, if you have a figure that looks like a rectangle with a triangle on top, you'd find the area of the rectangle and the area of the triangle, and then add those two areas to get the total area of the composite figure. Do you have a specific example in mind that we could work through together?",
+      "response_time": 3.24,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.75,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, there's one in my textbook. It's kind of shaped like a house \u2013 a square with a triangle on top. The square is 5cm on each side, and the triangle has a base of 5cm and a height of 3cm. I just keep messing up the triangle part, I think.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. So, the area of a square is side * side. Therefore the area of the square is 5cm * 5cm which is 25cm^2. The area of a triangle is 1/2 * base * height. Therefore the area of the triangle is 1/2 * 5cm * 3cm which is 7.5cm^2. Finally we add them together: 25cm^2 + 7.5cm^2 = 32.5cm^2. Therefore, the total area is 32.5 cm^2.",
+      "response_time": 2.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.59,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I follow... But what if the triangle wasn't sitting perfectly on top of the square? What if it was off to the side a bit, so they only shared part of a side? How would that change things?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If the triangle was positioned off to the side and only partially shared a side with the square, you'd still calculate the area of each shape independently in the same way. The shared side doesn't inherently change the area calculation. You would however need to know the dimensions of the triangle (base and height). The base would now be the length of the side of the triangle that is joined with the rest of the figure.",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.59,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see! So the position doesn't actually matter, just the dimensions of each shape. That makes so much more sense. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Exactly! I'm glad I could help. Is there anything else I can assist you with regarding composite figures or any other math topics?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4724e016",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.48,
+      "integrity": 5.0
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 2
+    },
+    "response_quality_score": 4.71,
+    "latency_score": 3.7
+  }
+}

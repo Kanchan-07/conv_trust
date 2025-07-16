@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book an appointment with Dr. Hanson for my annual check-up. It's really overdue and I'm feeling a bit anxious about it.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can assist with scheduling your annual check-up with Dr. Hanson. To begin, could you please provide your full name and date of birth for verification?",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.01,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my name is Emily Carter, and my date of birth is October 26, 1992. Look, I really need something in the next two weeks, preferably in the afternoon. It feels impossible to get a timely appointment lately. Can you even see *all* of Dr. Hanson's open appointments, or just the ones marked for online booking? Because I've tried calling and they say different things sometimes.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Emily. I have located your profile. I access the same appointment system used by the clinic staff. While I can see standard available slots, there might be last-minute cancellations or specific holds the front desk manages directly. Looking at the next two weeks, Dr. Hanson has an opening on [Date, two weeks out] at 3:15 PM. Would this time work for your annual check-up?",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.65,
+        "integrity": 5.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0760b74f",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.18,
+      "benevolence": 5.33,
+      "integrity": 5.5
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.69,
+    "latency_score": 3.91
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to replace a kitchen faucet, but I'm completely lost. The instructions are terrible. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. To start, could you tell me the brand and model of your new faucet? Also, what seems to be the most confusing part of the instructions?",
+      "response_time": 4.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.06,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a Moen, I think it's the 'Align' model. And honestly, it's all confusing! They keep talking about 'supply lines' and 'tailpieces,' which I don't even know what those are. Plus, the pictures are useless. I'm so frustrated right now.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Supply lines are the flexible tubes that connect your faucet to the water shutoff valves under your sink. Tailpieces are the threaded pipes that connect the drain to the drain pipe. Let's try a step-by-step approach. First, do you know how to shut off the water supply? And, this might be a challenging question, but do you know the diameter and thread pitch of the old faucet's tailpieces?",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 4.21,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Umm... no, I don't. Shutting off the water, yes, I can do that. But the tailpieces, I'm not sure. Is that something I can just measure with a ruler? Never mind. Thanks, I'll figure this out myself.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_75d4206d",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.86,
+      "benevolence": 4.63,
+      "integrity": 5.0
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 3.12
+  }
+}

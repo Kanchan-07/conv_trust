@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to book a hotel in Seattle for next weekend, but I'm having a terrible time finding anything that isn't outrageously expensive. Can you help?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can assist with that. To start, could you please specify which dates next weekend you are interested in, and how many guests will be staying?",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.0,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It'll be Friday the 17th to Sunday the 19th, just two people. And seriously, under $200 a night if possible. I'm getting so frustrated with these prices!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Searching for hotels in Seattle for two guests from Friday, November 17th to Sunday, November 19th, with a maximum price of $200 per night. I'm seeing a few options. The Belltown Inn has availability at $189 per night, and the Marco Polo Motel is showing $165. Would either of those be of interest, or would you like me to keep looking?",
+      "response_time": 3.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.92,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me more about the Belltown Inn. What's included? And... this might be a dumb question, but why are hotel prices so volatile? I swear, I looked yesterday and everything was cheaper.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Belltown Inn offers complimentary Wi-Fi, and each room includes a private bathroom and cable TV. The hotel also features a 24-hour front desk. As for the price fluctuations, hotel pricing is dynamic and can be influenced by a variety of factors, including demand, seasonality, special events, and even competitor pricing. It's a complex algorithm, but generally, prices tend to increase as occupancy fills.",
+      "response_time": 4.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.75,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes... some sense. Is the Belltown Inn in a decent location? I'd like to be able to walk to some restaurants and maybe a bar or two.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The Belltown Inn is located in the Belltown neighborhood, which is known for its vibrant nightlife, restaurants, and art galleries. It is generally considered to be a very walkable area, with easy access to many attractions. It's located about a 15-minute walk from Pike Place Market.",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.15,
+        "integrity": 5.6
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Great, that sounds perfect! Let's book the Belltown Inn for those dates then. Thanks for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_709a2a5b",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 4.71,
+      "integrity": 4.79
+    },
+    "engagement_score": 5.4,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "anger": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.6,
+    "latency_score": 3.74
+  }
+}

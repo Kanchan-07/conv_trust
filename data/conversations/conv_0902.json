@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Anya Sharma. It's been difficult getting through on the phone.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To start, can you please provide your full name and date of birth?",
+      "response_time": 3.24,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.64,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Michael Davies, and my birthday is 03/15/1988.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Davies. I see your information in the system. What is the reason for your visit today?",
+      "response_time": 5.18,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.84,
+        "integrity": 6.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's for a follow-up on my blood pressure. The last reading was a little high, so Dr. Sharma wanted to check it again in a month. Honestly, I'm a bit worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern, Mr. Davies. Let me see what appointment times are available. Dr. Sharma has openings on Tuesday the 22nd at 10:00 AM, or Thursday the 24th at 2:30 PM. Which of those works best for you?",
+      "response_time": 2.67,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.95,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, the 22nd at 10:00 AM works, but what if my blood pressure is still high? Will she prescribe something right away, or will I need *another* appointment?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That would depend on Dr. Sharma's assessment during your appointment. She will evaluate your condition and discuss the best course of action with you. I am unable to provide specific medical advice.",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.83,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's fair enough. Let's go with the appointment on the 22nd at 10:00 AM. Thanks for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_70f826d8",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.56,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "fear": 2,
+      "joy": 1
+    },
+    "response_quality_score": 5.25,
+    "latency_score": 3.75
+  }
+}

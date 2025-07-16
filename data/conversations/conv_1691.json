@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why my recent medical claim was denied. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly try. To help you best, could you please provide me with your claim number and date of service?",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.68,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890 and the date of service was 2024-03-15. I'm so frustrated because I really needed that procedure!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm retrieving the details for claim 1234567890 from 2024-03-15. The denial reason appears to be 'lack of pre-authorization'. Please wait a moment while I gather further details.",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.73,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Lack of pre-authorization? But I was told by my doctor that this was covered! What are my options now? And, realistically, how long will it take to appeal this? This is really bad.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are correct in that if your doctor provided information to you about coverage then that is important. Unfortunately, I do not have all of the details right now about the process. Let me redirect you to a human agent for further assistance. Please wait while I connect you.",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.05,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Hopefully, they can help me sort this out. I appreciate your initial help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3051b8dd",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.49,
+      "integrity": 4.6
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.86,
+    "latency_score": 3.33
+  }
+}

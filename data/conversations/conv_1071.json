@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I keep getting denials for CPT code 99213 from Blue Cross. I've submitted claims with the same documentation for months and they were always approved. What's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's investigate. Can you provide me with the denial codes listed on the Explanation of Benefits (EOB) for these claims? Also, what diagnosis codes are you typically submitting with CPT 99213 for these patients?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.24,
+        "benevolence": 1.0,
+        "integrity": 1.2
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let me see... The denial code is CO-97, which I think means 'The benefit for this service is included in the payment/allowance for another service/procedure that has already been adjudicated.' And the diagnosis codes are usually something like E11.9 (Type 2 diabetes mellitus without complications) or I10 (Essential [primary] hypertension). But how can it be included in another service when it's just a standard follow-up visit? This makes no sense!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CO-97 often indicates a bundling issue. Blue Cross might be considering CPT 99213 as included in another service rendered on the same day. To confirm, could you check if any other procedures were billed for these patients on the same date of service? If so, it may be necessary to appeal the denial, emphasizing the distinct nature of each service provided and justifying the medical necessity of both. I can provide appeal template examples if needed.",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.27,
+        "integrity": 4.35
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_693b1652",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.48,
+      "benevolence": 2.63,
+      "integrity": 2.77
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 2.25,
+    "latency_score": 5.97
+  }
+}

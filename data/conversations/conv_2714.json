@@ -1,0 +1,89 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My wireless mouse suddenly stopped working! It was fine yesterday, now it won't connect or anything. I'm really frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear your wireless mouse isn't working. I can help with that. Could you please tell me the brand and model of the mouse? Also, have you tried replacing the batteries?",
+      "response_time": 0.64,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.4,
+        "benevolence": 1.0,
+        "integrity": 1.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a Logitech MX Master 3. Yes, I *just* put in brand new batteries, like, five minutes ago. Still nothing. No lights, no movement. The computer doesn't even detect it. What could possibly cause it to fail so suddenly like this?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the information. Sudden failures can sometimes occur due to driver conflicts, firmware issues, or even physical damage that isn't immediately visible. Since you've replaced the batteries, let's try a few more steps. Please ensure the unifying receiver (USB dongle) is securely plugged into a USB port on your computer. Try a different USB port if possible. Also, check if the power switch on the bottom of the mouse is definitely in the 'on' position.",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.05,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I moved the dongle to a different USB port, and yes, the switch is on. Still nothing. It's like it's completely dead. Drivers? Firmware? It was working perfectly! Is there some kind of hard reset button I'm missing? This is so confusing and annoying, I need this mouse for work.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The MX Master 3 doesn't have a conventional hard reset button in the way some devices do. The steps we've taken, like checking power and the receiver connection, are the primary troubleshooting steps for this kind of issue. Given that new batteries didn't help and there are no lights, it might indicate a deeper internal problem. For the MX Master 3, sometimes re-pairing the mouse with the receiver using the Logitech Options software can help, but if the mouse itself isn't powering on, that might not be possible. Based on the lack of power indicators, it may require repair or replacement. Would you like me to look up options for warranty service or support for your specific region?",
+      "response_time": 2.11,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.72,
+        "benevolence": 2.28,
+        "integrity": 2.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7db08ca0",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.78,
+      "benevolence": 2.44,
+      "integrity": 2.89
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "anger": 1,
+      "sadness": 1,
+      "surprise": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 2.72,
+    "latency_score": 5.77
+  }
+}

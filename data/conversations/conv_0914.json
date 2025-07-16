@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to book a table for four people at a restaurant in downtown Chicago next Saturday night. Somewhere nice, maybe Italian or something similar. It's for a bit of a special occasion.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To confirm, you're looking for a restaurant in downtown Chicago for four people next Saturday night, with a preference for Italian or similar cuisine. Could you please tell me what time you'd like the reservation for?",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.75,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say around 7:30 PM. Oh, and ideally, somewhere with a decent wine list, if possible. This is getting complicated, isn't it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I am searching for Italian restaurants with a decent wine list in downtown Chicago for four people on Saturday at 7:30 PM. One option is 'Bella Notte', they have excellent reviews and a comprehensive wine selection. Would you like to consider this restaurant?",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 3.74,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Bella Notte\u2026 Hmm, I think I've heard of it. What's their price range like? And more importantly, do they have any vegetarian options? One of us doesn't eat meat.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Bella Notte is in the $$$ price range (expensive). As for vegetarian options, my information indicates they have several vegetarian pasta dishes, as well as a grilled vegetable platter. I would recommend checking their online menu for a complete list.",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.37,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that sounds promising! Can you tell me, theoretically, if the restaurant were to close down suddenly between now and Saturday, would my reservation still be valid, or would I just be out of luck? Just curious how that kind of thing works.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a difficult hypothetical! Generally, if a restaurant were to close unexpectedly, your reservation would be automatically canceled. You would likely not receive direct notification depending on the system the restaurant uses for reservations, so it's a good idea to double-check your reservation a day or two beforehand. Would you like me to proceed with booking at Bella Notte for you?",
+      "response_time": 2.12,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.7,
+        "benevolence": 2.58,
+        "integrity": 2.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_670f76e6",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.15,
+      "benevolence": 4.11,
+      "integrity": 4.08
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 4.0,
+    "latency_score": 4.36
+  }
+}

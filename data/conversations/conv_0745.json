@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I ordered a new coffee maker last week, order number is #234987, and it still hasn't shipped! What's going on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. I've located order #234987. It appears your coffee maker is currently being processed and is expected to ship within the next 24-48 hours. You will receive a tracking number via email once it ships. I apologize for the slight delay.",
+      "response_time": 5.83,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.61
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's what happened last time too! It said it would ship in 24-48 hours then it took another week. Is there anything you can do to actually expedite it this time?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I've flagged your order for priority processing and contacted the shipping department to see if we can get it out sooner. I will update you if I get any further information. Is there anything else I can assist you with at this time?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.07,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. While you're at it, I saw a discount code for new customers only yesterday, can I apply that retroactively to my order?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Typically, promotional codes cannot be applied retroactively. However, I can check if that specific promotion is still active and see if I can manually apply a discount to your order. Can you tell me which discount code you are referring to?",
+      "response_time": 2.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 4.43,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "It was on your front page, something like 'WELCOME15' or 'NEWCUSTOMER15'. I can't remember exactly. But here's the tricky question: if it's really for *new* customers, how does your system verify that? Couldn't someone just make a new account every time?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. I was unable to locate an active discount code using that name. Regarding your question about new customer verification: Our system uses a combination of factors, including email address, shipping address, billing address, and credit card information to identify potential duplicate accounts. While it's not foolproof, it helps to prevent widespread abuse of the new customer discount. If you believe you are eligible for a new customer discount, please try a different email address and confirm the promotion's details before placing your order. Is there anything else I can help you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.78
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ce1b4be3",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.88,
+      "integrity": 4.59
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "surprise": 2,
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.63,
+    "latency_score": 3.8
+  }
+}

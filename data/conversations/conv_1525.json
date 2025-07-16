@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. My car was damaged in an accident last week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I'm sorry to hear about your accident. I can help you file a claim. To get started, can you please provide your policy number and a brief description of what happened?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, the policy number is ABC123XYZ. The other driver ran a red light and hit me. I have pictures of the damage and the police report.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please upload the pictures and the police report. Also, can you tell me the make and model of your car and the date of the accident?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded those documents. The car is a 2020 Honda Civic, and the accident happened on October 26th. This is really frustrating, I'm stuck without a car!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I've received your documents and they're currently under review. The estimated processing time is 7-10 business days. We'll be in touch regarding the next steps and the assessment of the damage. Would you like information on rental car coverage?",
+      "response_time": 4.67,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.58,
+        "integrity": 5.14
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please! Also, the other driver's insurance company is already trying to contact me. Do I have to speak with them at this point? Can I just focus on your company handling things?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Regarding the other insurance company, it's usually best to refer them to us, or consult with a legal professional if you feel uncertain. As for rental car coverage, based on your policy details, you do have it. I will provide a list of approved rental agencies in your area, and you can set up a rental. I will also add a note about the other insurer to your claim. I'm happy to further assist with any other questions.",
+      "response_time": 4.05,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.9,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, great! Thanks for your help. The rental car info is much appreciated. Hopefully this all goes smoothly.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d8e17a39",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 4.87,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.8,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 3,
+      "anger": 1,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.26,
+    "latency_score": 3.7
+  }
+}

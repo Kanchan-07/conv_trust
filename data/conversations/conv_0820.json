@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered two days ago. The tracking number is 1Z999AA1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. Please allow me a moment while I look up the tracking information for 1Z999AA1234567890. Okay, I see the package. It appears to be delayed. What would you like to know?",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.5,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Delayed? That's it? I needed that package! What's the reason for the delay and when will I actually get it? I'm getting pretty frustrated here.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check for more details. It seems the package is currently being held at a regional distribution center due to unforeseen circumstances. I'm showing a new estimated delivery date of tomorrow, October 27th, by the end of the day.",
+      "response_time": 2.2,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.58,
+        "benevolence": 2.15,
+        "integrity": 2.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? Is that all you can tell me? Could you be more specific? Is it weather, mechanical failure, what? If it arrives tomorrow, will it be before noon? I need to be home to sign for it.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I don't have specific details regarding the cause of the delay. As for the delivery time tomorrow, I can't guarantee a specific time window, but you can sign up for delivery notifications on our website to get updates. Just enter your tracking number.",
+      "response_time": 3.18,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.17,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I already signed up for notifications, and they haven't been helpful! I was told it would arrive two days ago! Can I at least request that the driver call me before they arrive so I can make sure I'm home?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, I can add a note to your delivery instructions requesting the driver to call you before arrival. However, please note that while the drivers do their best to comply with these requests, it is not always possible due to their schedules.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.75,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, well, it's better than nothing, I guess. What happens if it *doesn't* arrive tomorrow? At what point do I get my money back? Because frankly, this is ridiculous.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand. If the package isn't delivered by the end of the day tomorrow, please contact us again. At that point, we can initiate a trace on the package and explore options for compensation, which may include a refund of your shipping fees. Is there anything else I can assist you with today?",
+      "response_time": 1.74,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.35,
+        "benevolence": 2.21,
+        "integrity": 2.44
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4d03eebc",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.28,
+      "benevolence": 3.16,
+      "integrity": 3.47
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 3,
+      "surprise": 2,
+      "sadness": 1
+    },
+    "response_quality_score": 3.69,
+    "latency_score": 5.01
+  }
+}

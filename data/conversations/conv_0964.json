@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. I've been applying for jobs for months and haven't even gotten an interview. I think my resume is the problem, but I don't even know where to start fixing it.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. A well-crafted resume is crucial for getting noticed. I can definitely help you with that. To start, could you tell me what kind of roles you're applying for and what your current resume highlights as your key skills and experience?",
+      "response_time": 2.8,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.51,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm aiming for project management roles, ideally in tech. My resume emphasizes my organizational skills and experience leading small teams. But honestly, I'm not sure if I'm describing things well. Maybe I'm using the wrong keywords?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, project management in tech is a competitive field, so keywords are important. Based on the job descriptions you're looking at, can you identify some of the skills or tools they frequently mention? Incorporating those strategically can help your resume get past applicant tracking systems (ATS). Also, can you give me some specific examples of how you've demonstrated your organizational skills and leadership? Quantifiable results are always a plus.",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.95,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Quantifiable results...that's where I always get stuck. I managed a project that improved team efficiency, but how do I actually measure that? I don't have hard numbers to put down. Is it okay to estimate? Also, how important is the 'skills' section? Should I list every single software I've ever touched, or just the relevant ones?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Estimating is acceptable as long as it's reasonable and you can back it up if asked. For example, if the project led to fewer errors and saved time, you could estimate the time saved per week and extrapolate that into a monthly or yearly figure. As for the skills section, focus on relevance. Listing every software you've used might dilute your qualifications. Prioritize the tools and technologies that are most frequently mentioned in the job descriptions and that you're proficient in. It demonstrates a clear understanding of the requirements.",
+      "response_time": 4.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.89,
+        "integrity": 5.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e0a6980e",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.24,
+      "benevolence": 4.45,
+      "integrity": 4.55
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4
+    },
+    "response_quality_score": 4.63,
+    "latency_score": 3.73
+  }
+}

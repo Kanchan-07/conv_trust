@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in Chicago for next weekend, October 27th to 29th. It's for two adults.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for hotels in Chicago for October 27th to 29th, for two adults. Do you have any specific preferences regarding price range, neighborhood, or amenities?",
+      "response_time": 2.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.55,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'd prefer something downtown, preferably near the Magnificent Mile, and under $300 a night. A pool would be great too. This is so stressful!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for hotels in downtown Chicago near the Magnificent Mile, under $300 a night, with a pool, for the specified dates. One moment... I found a few options. The 'Hotel Lincoln' and 'The Gwen, a Luxury Collection Hotel, Michigan Avenue Chicago' seem to fit your criteria. Would you like more information about either of these?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.07,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me more about The Gwen. Also, how does its sustainability rating compare to other hotels in the area? I'm trying to be more eco-conscious.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Gwen is a luxury hotel located right on Michigan Avenue. It features a rooftop lounge, fine dining, and an indoor pool. Regarding sustainability, I am still under development and do not have access to real-time sustainability ratings for hotels. I recommend checking resources like Green Key or TripAdvisor's GreenLeaders program for that information. Would you like me to check availability for your dates at The Gwen?",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.9,
+        "integrity": 5.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_557b53cd",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.51,
+      "integrity": 4.22
+    },
+    "engagement_score": 3.75,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 4.31,
+    "latency_score": 3.91
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking at a bunch of denials today, specifically a CO45. It's the 'charge exceeds fee schedule' denial. Honestly, it feels like I get this one constantly even when our charges seem correct. What's the best approach to tackle these efficiently?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration with CO45 denials. This code indeed indicates that the billed amount is higher than the payer's allowed amount based on their fee schedule. To handle these efficiently, you typically need to verify the billed CPT/HCPCS code, check the date of service against any fee schedule updates, and compare your billed amount to the payer's expected reimbursement for that specific code and date. Do you have a specific claim number or patient you're looking at right now?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.01,
+        "benevolence": 1.37,
+        "integrity": 1.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I'm looking at claim 789012 for patient Jane Doe. The code is 99213. The confusing part is, our internal fee schedule is *supposed* to be up-to-date with this payer. How can it still be getting denied for exceeding their fee when our system matches? Is there something else this denial code could mean?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the details for claim 789012. While CO45 primarily relates to fee schedule maximums, it *can* sometimes be triggered by related issues such as incorrect modifiers, place of service discrepancies impacting the fee, or even a payer processing error where their system didn't apply the correct fee schedule. For this specific claim, double-check the modifiers used, confirm the place of service code, and verify that the date of service falls within the effective dates of your matched fee schedule. If all those appear correct, it might warrant contacting the payer for clarification on why their system returned this denial.",
+      "response_time": 0.62,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7dfe97e6",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.0,
+      "benevolence": 1.19,
+      "integrity": 1.16
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 1,
+    "latency_score": 6.94
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm still trying to get my head around this new medical billing system. I have a claim here, patient ID 12345, that was rejected. The reason given is 'Invalid ICD-10 code.' I thought I entered it correctly! Ugh.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's take a look. Can you tell me which ICD-10 code you used for patient ID 12345?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.42,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It was M54.50 - low back pain, unspecified. I've used that one a million times.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, the system is showing that M54.50 is a valid code. However, it might require a more specific code depending on the payer. Could you please provide the payer ID for this claim?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.95,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's BCBS123. Is there seriously a different code for low back pain just for Blue Cross Blue Shield? That's insane!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. Let me check the BCBS123 payer-specific guidelines. ...Okay, it appears for this specific plan, they require laterality \u2013 meaning they need to know which side the pain is on. Try M54.51 for low back pain on the right side, M54.52 for the left side, or M54.59 if it is unspecified.",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.87,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. It was on the right side. So, M54.51. Thanks! But, out of curiosity, how often does the system update its payer-specific guidelines? We bill to hundreds of different insurance companies, so keeping up with those changes manually is impossible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Our system automatically updates its payer-specific guidelines every 24-48 hours through a direct feed with most major insurance companies. However, smaller or regional payers might have a slightly longer update window. We recommend checking their websites directly for the most current information in those cases. Is there anything else I can assist you with today?",
+      "response_time": 4.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.18,
+        "integrity": 5.83
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_733eb356",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.65,
+      "benevolence": 3.6,
+      "integrity": 3.79
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "disgust": 1,
+      "anger": 1,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.42,
+    "latency_score": 4.19
+  }
+}

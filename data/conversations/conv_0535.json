@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle this financial planning thing. I'm so overwhelmed, I don't even know where to start.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can definitely feel overwhelming at first. Let's start with the basics. What are your primary financial goals? For example, are you saving for retirement, a down payment on a house, or something else?",
+      "response_time": 1.34,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.37,
+        "integrity": 2.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, all of the above, eventually! But right now, I'd say my main goal is paying off my credit card debt. It's just suffocating me.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, tackling credit card debt is a great first step. To give you the best advice, I need some information. What's the total amount of your credit card debt, and what are the interest rates on each card?",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.65,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, okay, let me pull that up. It's about $8,000 total, with interest rates ranging from 18% to 24%. It's ridiculous, I know.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thanks for providing that information. One strategy would be the debt avalanche method, where you prioritize paying off the card with the highest interest rate first, while making minimum payments on the others. Another is the debt snowball method, which focuses on paying off the smallest balance first for a psychological boost. Which sounds more appealing to you?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.07,
+        "benevolence": 5.94,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, I guess the avalanche method makes more sense financially, but I think I'd feel better seeing one of the smaller balances disappear first. But what if I can't even afford the minimum payments some months? What happens then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If you are unable to make minimum payments, it's important to contact your credit card company as soon as possible. They may be able to work with you on a hardship program. Missed payments will negatively impact your credit score and could lead to even higher interest rates or fees. Furthermore, explore options like a balance transfer to a card with a lower interest rate, or even a personal loan to consolidate your debt, if those are viable options for you.",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.67,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Balance transfer, got it. And a personal loan...but aren't those hard to get if your credit is already bad from the credit card debt? Seems like a catch-22.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're right, it can be a challenge. While it is true that a lower credit score can make it more difficult to qualify for the best interest rates on a personal loan, it's still worth exploring your options. Look into credit unions or online lenders that may offer loans to individuals with less-than-perfect credit. Comparison shopping is key here. Even if the interest rate isn't ideal, it could still be lower than your current credit card rates. Just be sure to read all the terms and conditions carefully before committing to anything.",
+      "response_time": 5.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.55,
+        "integrity": 5.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3e32c759",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.17,
+      "benevolence": 4.24,
+      "integrity": 4.45
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "surprise": 2,
+      "disgust": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 3.71
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm feeling a bit overwhelmed. I want to start financial planning, but I have no idea where to begin. I have some debt, a mortgage, and a little bit of savings. Help!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Financial planning can seem daunting. Let's break it down. First, we need to assess your current financial situation. Can you provide details on your income, debts (amounts, interest rates), mortgage details, and the amount in your savings?",
+      "response_time": 2.84,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.75,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, I guess. Income is $80k a year. I have $20k in student loan debt at 6%, a mortgage with $250k remaining at 4%, and about $5k in savings. The part I'm really confused about is this whole 'investment' thing. How do I even start thinking about that given my debt?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question. Given your debt situation, it's generally recommended to prioritize paying down high-interest debt, like your student loans, before aggressively investing. The 6% interest on your student loans is likely higher than any returns you'd get in the short term with low risk investments. Once that's under control, we can develop an investment strategy aligned with your risk tolerance. Regarding your mortgage, the 4% interest is relatively low so paying extra might not be the best use of funds. I can provide a detailed debt repayment plan and explore investment options once we've established a solid budget and paid down some of that high-interest debt. Does that sound like a good first step?",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.38,
+        "integrity": 4.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fed6e577",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.09,
+      "benevolence": 4.06,
+      "integrity": 4.19
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.96,
+    "latency_score": 4.82
+  }
+}

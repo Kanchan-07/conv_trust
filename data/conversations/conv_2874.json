@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need an update on my pending car insurance claim. It's been a week since I filed it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To access your claim information, could you please provide your claim number or your policy number and date of birth?",
+      "response_time": 4.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.69,
+        "integrity": 5.61
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is [CLAIM_NUMBER]. Frankly, I'm getting a bit anxious because the repair shop needs approval to start work, and I need my car back.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the claim number. Please give me a moment while I retrieve the details... I have located claim [CLAIM_NUMBER] regarding your recent incident. The current status shows it is 'Under Review' and assigned to an adjuster.",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.57,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Under review? What does that even mean specifically? Are you waiting for police reports? Photos? Why is 'under review' taking so long? I submitted everything immediately. It's just a minor collision, not a complicated case!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The 'Under Review' status indicates that the assigned adjuster is evaluating all submitted documentation and information related to the incident to determine coverage and next steps. This process involves multiple internal checks.",
+      "response_time": 5.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.09,
+        "integrity": 5.2
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's still incredibly vague. So you can't tell me if you have *all* the information needed? Or *when* this review might be finished? I'm starting to feel quite frustrated by the lack of clear information.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration and apologize for the lack of specific detail. While I cannot give an exact timeframe, I can see that the adjuster is awaiting one final estimate document. I can make a note to flag your claim for priority review once that document is received and request the adjuster provide a status update within 24-48 business hours. Would you like me to do that?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.35
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a0607206",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.2,
+      "benevolence": 4.34,
+      "integrity": 4.35
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "fear": 1,
+      "surprise": 1,
+      "anger": 2
+    },
+    "response_quality_score": 4.09,
+    "latency_score": 3.96
+  }
+}

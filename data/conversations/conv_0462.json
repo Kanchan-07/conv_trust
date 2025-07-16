@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a good movie to watch tonight. I'm in the mood for something... exciting. Maybe something action-packed?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. How about 'Mad Max: Fury Road'? It's a highly-rated action film with intense visuals and a gripping story. Would that be of interest?",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 4.27,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've already seen that one. It was awesome, but I was hoping for something a little less... mainstream, maybe? And, honestly, how does your recommendation engine really *know* what's exciting anyway? What algorithm do you use?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Okay, based on your preference for action but something less mainstream, how about 'Dredd'? It's a gritty, action-packed film set in a dystopian mega-city. As for your question, my recommendations are based on a collaborative filtering algorithm that analyzes user ratings, reviews, and genre preferences to identify movies that are likely to appeal to similar users. Additionally, I incorporate keyword analysis and sentiment analysis of movie synopses and user comments to further refine my suggestions. Would you like to know more?",
+      "response_time": 2.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.58,
+        "integrity": 4.35
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d3368bda",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.68,
+      "benevolence": 3.92,
+      "integrity": 4.06
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.07,
+    "latency_score": 4.31
+  }
+}

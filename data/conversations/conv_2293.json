@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help with my calculus homework. I'm really struggling with related rates problems.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with related rates. Let's start with a basic example. Can you tell me which problem you're working on, or would you like me to provide a sample question?",
+      "response_time": 5.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.11,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's start with a sample question. I think I get the concept, but I keep messing up the algebra. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's try this one: A ladder 10 feet long rests against a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 1 ft/sec, how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 feet from the wall? Let's start with the Pythagorean theorem to relate the sides. Do you want me to show you the steps, or would you like to work through it?",
+      "response_time": 3.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.18,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Walk me through it, please. I'm pretty sure I'll mess it up otherwise. I've got the Pythagorean theorem part, I think.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright. We have x^2 + y^2 = 100, where x is the distance from the wall and y is the height of the ladder on the wall. Now, differentiate both sides with respect to time (t). This gives us 2x(dx/dt) + 2y(dy/dt) = 0. We are given dx/dt = 1 ft/sec and we want to find dy/dt when x = 6 ft. When x = 6, y = 8 (using the Pythagorean theorem).  Can you try solving for dy/dt from here?",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.78,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I *think* I got it... so dy/dt = -0.75 ft/sec. Is that right? And, what if the ladder was sliding *towards* the wall? Would the answer just be positive? Also, I'm still confused about the negative sign.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, your answer is correct. And regarding the negative sign, it indicates the rate of change is decreasing. If the ladder was sliding towards the wall, the value of dx/dt would be negative, thus the answer for dy/dt would turn out to be positive, indicating the ladder is moving upward. Does that make sense? Also, the negative sign in the first case is because the height is decreasing as the bottom slides away. It's related to the direction of movement along the y-axis.",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.75,
+        "integrity": 3.61
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8fd0f258",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.29,
+      "benevolence": 4.21,
+      "integrity": 4.38
+    },
+    "engagement_score": 4.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 1
+    },
+    "response_quality_score": 3.91,
+    "latency_score": 3.76
+  }
+}

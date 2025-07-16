@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I mostly listen to electronic music, but I'm open to trying new subgenres. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for electronic music, I can recommend some subgenres. How about these: Techno, House, Trance, Drum and Bass, or Ambient? Do any of these sound interesting to you?",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.41,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I know some of those, but I'm not super familiar with all of them. Tell me more about Drum and Bass. I've heard the name but never actually listened to it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Drum and Bass (DnB) is a subgenre characterized by fast tempos (typically 160-180 beats per minute) and complex, syncopated drum patterns. It often features heavy basslines and can incorporate elements of other genres like jazz, funk, and reggae. I can give you some popular artists if you'd like, like Goldie or Netsky. Would you like that?",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.17,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds interesting, but I'm a little confused. It's hard to imagine what that sounds like based on your description. Do you have any *specific* track recommendations that exemplify the genre so I can actually listen to something?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, of course. For Drum and Bass, I recommend checking out 'Midnight Request Line' by DJ Zinc, 'Innocence' by Netsky, or 'Tarantula' by Pendulum. These are good starting points. Let me know what you think!",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.47,
+        "integrity": 5.12
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_56459aba",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.68,
+      "benevolence": 4.68,
+      "integrity": 4.38
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 4.22
+  }
+}

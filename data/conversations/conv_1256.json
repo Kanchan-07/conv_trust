@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some fashion advice. I have a budget of $200, and I need a new outfit for a business-casual work event. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of $200 and the business-casual dress code, I can suggest a few options. For example, you could consider: \n\n*   A blazer ($60-80)\n*   A pair of well-fitting chinos or dress pants ($50-70)\n*   A button-down shirt or a nice blouse ($40-60)\n\nThis leaves some room for accessories like a belt or a simple necklace. Would you like me to find some specific examples from online retailers?",
+      "response_time": 5.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.2,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that sounds reasonable, but I'm not sure about the blazer. What if I hate blazers? Can you give me alternative suggestions that are still suitable for a business-casual environment, but without a blazer? And also, can you show me specific items I can buy that are within the budget? I\u2019m a little frustrated with general suggestions.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Apologies that my first response wasn't quite tailored to your preferences. Here are some blazer alternatives, while still staying within budget and business casual guidelines:\n\n*   A fitted cardigan or a lightweight sweater.\n*   A stylish top, perhaps a nice silk blouse or a patterned top with a more structured fit. \n\nUnfortunately, providing specific links to items that are currently available and within your budget is beyond my current capabilities. I can help you locate retailers that you can check yourself, and I can provide examples of the types of items to look for, which will keep you in the budget.",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.05,
+        "integrity": 3.8
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4bd11603",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.62,
+      "integrity": 4.44
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 2.76
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand a charge on my bill. It doesn't seem right.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Could you please provide your account number?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.52,
+        "integrity": 6.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 1234567890. The charge I'm questioning is for $75 under 'Premium Services'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I review your account... Okay, I see the charge. It appears to be for a premium content subscription you signed up for on the 15th of last month.",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.07,
+        "integrity": 1.12
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I did NOT sign up for anything! I'm really frustrated right now. How can this even happen?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check the details of the subscription and verify the sign-up method. Can you give me a moment?",
+      "response_time": 0.57,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.47,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. And, just out of curiosity, how secure is your system if this sort of thing can happen?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am unable to discuss internal security procedures. However, I have reviewed the subscription details. It appears the subscription was initiated through a third-party website. I've refunded the $75 charge to your account. You should see the credit reflected within 7-10 business days. I will also send you an email detailing how to secure your account.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.93,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's a relief! Thanks for resolving that so quickly. Can you confirm the email address the security details will be sent to?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! The email will be sent to the address on file: example@email.com. Is there anything else I can help you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b4fb112c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.01,
+      "benevolence": 4.0,
+      "integrity": 3.91
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 2,
+      "joy": 1
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 4.1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a huge interview coming up for a Software Engineer position at Google, and I'm really stressed. Can you help me prepare? I'm worried about the technical questions especially.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can definitely help. To start, what kind of technical questions are you most concerned about? Are you worried about data structures and algorithms, system design, or something else entirely? Also, what level of Software Engineer is the position (e.g., entry-level, mid-level, senior)?",
+      "response_time": 4.45,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.29,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, it's mid-level, and honestly, *all* of it scares me! I'm strongest with data structures and algorithms, but I've never been asked about system design in a formal interview setting. I'm particularly concerned about questions related to scaling and distributed systems... I've worked with them, but explaining the concepts concisely is tough. Like, how do you even BEGIN to design a system that can handle millions of requests per second?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, mid-level SWE roles at Google often include system design questions focusing on trade-offs and reasoning. To address scaling to millions of requests per second, you'd typically start by discussing the core components: load balancers, caching mechanisms (like CDNs or in-memory caches), database sharding or replication, and asynchronous processing (e.g., message queues). You should also consider network latency and bandwidth limitations. We can delve deeper into each of these, or if you prefer, we can start with some practice questions to identify your weak points?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.16,
+        "integrity": 3.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c4e699f9",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.72,
+      "integrity": 4.76
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 1
+    },
+    "response_quality_score": 5.04,
+    "latency_score": 3.96
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking at an Explanation of Benefits here, and it says this claim for my daughter's physical therapy was denied. The reason given is 'non-covered service'. What does that even mean? We have great insurance!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. A 'non-covered service' denial typically means the service isn't included in your specific insurance plan's benefits package. To clarify, can you provide the claim number and your daughter's date of birth?",
+      "response_time": 1.45,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.44,
+        "benevolence": 2.05,
+        "integrity": 2.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, the claim number is 12345-ABC and her birthday is 01/15/2010. This is ridiculous, we pay so much for this insurance!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please allow me a moment to access your account and review the claim details. Okay, according to your plan details, physical therapy is covered, but there's a limit of 20 visits per year. It appears your daughter has already reached that limit. ",
+      "response_time": 3.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.35,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Twenty visits? Seriously? That's it? She still needs therapy! Is there any way we can get more visits approved? What if her doctor writes a letter saying it's medically necessary? I\u2019m getting so stressed out about this.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Yes, a letter of medical necessity from your daughter's physician could potentially support an appeal for additional visits. It should clearly explain why continued therapy is essential for her specific condition and what the expected outcomes are. You can submit this along with an appeal form, which can be found on our website under 'Claims and Appeals'.",
+      "response_time": 5.87,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.57,
+        "benevolence": 5.15,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's... somewhat helpful, I guess. But what if they still deny it even with the doctor's letter? What are our options then? Is there like, an independent review we can request or something? I've heard of that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid question. If your appeal is denied, you typically have the right to request an independent external review. This is conducted by a third-party organization that specializes in medical claim reviews. The details on how to request an external review will be included in the denial letter you receive following the appeal. Keep in mind there may be a time limit for requesting this review, so it's important to act promptly. Is there anything else I can assist you with today?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.99,
+        "integrity": 4.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_547b3ae8",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.94,
+      "benevolence": 3.89,
+      "integrity": 3.98
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 3,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 3.76,
+    "latency_score": 3.94
+  }
+}

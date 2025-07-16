@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why my recent medical claim was denied. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly assist you with that. To get started, could you please provide your claim number and the date of service?",
+      "response_time": 2.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 4.4,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890 and the date of service was 2024-03-10.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I am accessing the information now. The denial reason provided is 'Lack of pre-authorization'. This means the service required prior approval, which was not obtained before the service was rendered. Would you like me to elaborate?",
+      "response_time": 5.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.29,
+        "integrity": 5.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. I swear I called for pre-authorization. Is there any way to know if it was actually requested and denied, or just missed?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can check the pre-authorization records associated with your claim. Please give me a moment... It appears a request was made, but it was denied on 2024-03-08. The denial reason was 'missing medical necessity documentation'. I can provide more details if you'd like.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.39,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that helps, I guess. My doctor's office should have sent that, so now I need to figure out what happened there. Can you tell me *specifically* what documentation was missing? Like, the exact codes or details?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can access the denial letter for that specific pre-authorization, but it may contain information that is difficult for me to parse clearly. The missing documentation per the denial letter was the lack of supporting diagnosis codes and supporting clinical notes from the physician's office that justified the medical necessity of the procedure. Please note this may include specific codes for the diagnosis and procedure. I recommend retrieving this information from your doctor's office, as they should have a copy of the full documentation.",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 3.72,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that's a lot of information. Thanks for your help. I think I have a better understanding of what to do now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_400026a1",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 3.7,
+      "integrity": 3.67
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.7,
+    "latency_score": 4.71
+  }
+}

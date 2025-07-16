@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really stuck in my career right now. I've been in the same role for a few years and I'm just not feeling challenged or happy anymore. Can you help me figure out what to do next?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you explore some options. To start, could you tell me a bit more about your current role, what specifically you dislike, and what kind of things you *would* find challenging or fulfilling? Knowing more about your background and preferences will help us brainstorm potential paths.",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.12,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so I'm a project manager in tech, which I used to enjoy, but the constant pressure and bureaucracy are just killing my motivation. I feel burnt out. I'm not even sure if I want to stay in tech. How do I even figure out if I should completely switch industries, maybe to something totally different like non-profit or creative arts, when I feel so exhausted and have no energy to research anything new?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Experiencing burnout is tough, and it's understandable that researching feels daunting right now. Deciding on a career change, especially a significant industry switch, is a big decision. It's important to consider your transferable skills from project management, as these are valuable in many fields. You could try reflecting on what aspects of project management you *did* enjoy, or what values are important to you in a workplace, which might hint at suitable new environments.",
+      "response_time": 3.59,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 4.47,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, reflecting is fine in theory, but it doesn't really give me concrete answers about *what* industries or roles might be a good fit. And transferable skills... honestly, when I'm feeling this low, I just see everything I've done as 'stuff that burnt me out.' How am I supposed to leverage skills I don't even feel good about anymore? Is there a way to explore options that doesn't feel like doing more 'work' or research when I'm already running on empty? Like, a truly different way to approach this when motivation is zero?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very real challenge when you're feeling depleted. Instead of focusing on traditional job research or leveraging current skills, perhaps we can approach it differently. Can you think about activities or subjects you've enjoyed *outside* of work, maybe hobbies or things you liked learning about years ago? Sometimes identifying your core interests or natural inclinations, even if they don't seem 'career-related' at first glance, can spark ideas for paths that feel more energizing. We can also look into simple exercises like value sorting or brainstorming desired daily tasks rather than job titles.",
+      "response_time": 3.29,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.6,
+        "integrity": 3.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a802738f",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.51,
+      "benevolence": 4.4,
+      "integrity": 4.28
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 1,
+      "sadness": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.84,
+    "latency_score": 3.7
+  }
+}

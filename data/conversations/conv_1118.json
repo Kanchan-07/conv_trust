@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in Chicago for next weekend, from Friday to Sunday. Preferably something downtown.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for hotels in downtown Chicago for next Friday to Sunday. Do you have any preferences regarding price range or amenities?",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.12,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Under $200 a night would be great. And it needs to have free Wi-Fi. A gym would be a nice bonus, but not essential.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for hotels in downtown Chicago, Friday to Sunday, under $200 with free Wi-Fi. Let me see... I'm finding a few options. The 'Magnificent Mile Hotel' is available for $180 a night and includes free Wi-Fi. It does have a gym. There's also the 'City Center Inn' for $160 a night, free Wi-Fi, but no gym.",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.82,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, could you check if the Magnificent Mile Hotel has parking available? That's pretty important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Checking the Magnificent Mile Hotel for parking availability... Yes, they do offer valet parking for $45 per night.",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.98,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "$45 a night for parking?! That's outrageous! Are there any other options with cheaper parking, even if it's not valet?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me refine my search. Hotels in downtown Chicago, Friday to Sunday, under $200, free Wi-Fi, with on-site parking costing less than $30 a night... Okay, I'm not finding anything matching *all* of those criteria. However, the 'River North Suites' is coming up. It's $190 a night, has free Wi-Fi, and while they don't have on-site parking, there's a public parking garage one block away that charges $25 a night.",
+      "response_time": 3.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.49,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that sounds much better. Let's go with the River North Suites. Can you book that for me, please?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4c42c37f",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.47,
+      "benevolence": 4.6,
+      "integrity": 4.27
+    },
+    "engagement_score": 4.77,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 4.09,
+    "latency_score": 3.79
+  }
+}

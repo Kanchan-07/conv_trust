@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to go grocery shopping, but I'm trying to stick to a really tight budget this week \u2013 like, $50 max. Can you give me some meal ideas and a potential shopping list? I'm so tired of eating ramen!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand! Let's see... For a $50 budget, we can focus on meals that use inexpensive staples. How about these options? 1) Lentil soup (very budget-friendly and nutritious), 2) Chicken and rice with roasted vegetables (chicken thighs are cheaper than breasts), and 3) Pasta with a simple tomato sauce and canned beans. I can generate a sample shopping list focusing on these options if you'd like.",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.6,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, a shopping list would be great. But how do you know the prices at *my* local grocery store? Prices vary *so* much. It's infuriating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, prices do vary significantly. Unfortunately, I don't have access to real-time pricing data for specific stores. My shopping list will be based on average national prices for common grocery items. I will be sure to recommend some price comparison tools available online. Keep in mind to adjust quantities to what you think you need based on your hunger level and leftovers. I'll focus on pantry staples so you can use what you already have.",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.87,
+        "integrity": 4.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6b4c4caa",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 3.74,
+      "integrity": 3.91
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.5,
+    "latency_score": 3.61
+  }
+}

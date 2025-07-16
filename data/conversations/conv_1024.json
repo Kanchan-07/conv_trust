@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to arrive three days ago. The tracking number is 1Z999AA1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for providing your tracking number. Please allow me a moment to look into the status of your package. Okay, I see it here. It appears your package is currently listed as 'in transit' with an expected delivery date that has passed. I apologize for the delay.",
+      "response_time": 2.47,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 3.93,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "In transit? It's been 'in transit' for five days! I needed this package earlier this week. Is there any update on when I'll actually receive it? This is really frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check for more detailed information. According to the system, there was a slight weather delay in Memphis, which may have impacted the delivery schedule. We are working to get your package to you as quickly as possible.",
+      "response_time": 2.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.24,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A slight weather delay? Memphis is nowhere near me, and the weather here has been perfectly fine. Why would that affect my package? Is that really the reason, or is something else going on?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair question. The package's route may have included a stop in Memphis. Let me see if I can get more specifics on the routing and what caused the delay there, and if that is the real issue. One moment, please... Okay, it appears there was also a temporary backlog at the Memphis distribution center unrelated to the weather. My apologies for the initial misdirection.",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.56,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, what does that mean for me? When can I expect my package? I'm starting to lose faith that I'll ever see it.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can understand that. I am escalating this issue to our delivery management team to prioritize your package. While I can't give you a guaranteed delivery date at this moment, I expect to have an updated estimate for you within 24 hours. Would you like me to call you back tomorrow with that information, or would you prefer an email?",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 4.11,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, a call would be great. My number is the same one I'm calling from. Please make sure it's a real update this time and not just more 'in transit' nonsense. Thanks.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're very welcome. I will ensure that you receive a concrete update tomorrow. Thank you for your patience, and I apologize again for the inconvenience. Have a good day.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.94,
+        "integrity": 6.52
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_539f4535",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.56,
+      "integrity": 4.33
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "surprise": 2
+    },
+    "response_quality_score": 4.64,
+    "latency_score": 4.18
+  }
+}

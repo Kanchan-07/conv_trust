@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my latest bill. It seems unusually high. I was charged $150, but my usual bill is around $100. I'm really frustrated; I don't know why it's so high.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, I understand your frustration. I can definitely look into that for you. Could you please provide me with your account number or the phone number associated with the account?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.32,
+        "benevolence": 1.22,
+        "integrity": 1.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please give me a moment while I access your account information... Okay, I see your account. I'm showing a charge for $150. Let me investigate the details.",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.51,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, please do. I haven't made any major changes to my service, so I'm really confused about where this extra $50 came from.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It appears there was a temporary promotional discount that expired last month. The standard rate has been applied this billing cycle. In addition, you incurred data overage charges.",
+      "response_time": 5.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.46,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Data overage charges? Seriously? How much data did I supposedly go over? I thought I had unlimited data. And why wasn't I notified? Isn't that standard practice?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You exceeded your data threshold by 2GB. While we do offer unlimited data plans, yours is a 'capped unlimited' plan, which means that after a certain amount of data usage, your speeds may be slowed, and you could incur overage charges. We send notification emails to our customers, but perhaps it went to your spam folder? Can I confirm your email address to make sure our records are correct?",
+      "response_time": 2.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.45,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "My email is john.doe@email.com. So, what are my options now? Is there anything you can do to waive the overage fee, or maybe upgrade me to a truly unlimited plan without capping? Because this is ridiculous. Why aren't these 'capped unlimited' plans advertised more clearly?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Thank you. I've confirmed your email. Let me see what I can do. I can offer you a one-time credit of $25 towards your bill as a courtesy. I can also upgrade you to a truly unlimited plan for $10 more per month. This new plan guarantees no overage charges, regardless of your data usage. Does either of these options sound acceptable? I'm very sorry for the confusion regarding the limitations of your prior plan.",
+      "response_time": 0.59,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b51e563e",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.22,
+      "benevolence": 3.13,
+      "integrity": 3.11
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 5,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 2.74,
+    "latency_score": 5.1
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My StellarX SmartHub keeps disconnecting from the Wi-Fi. It's incredibly frustrating, especially when I'm trying to stream a movie!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm sorry you're experiencing connectivity issues with your StellarX SmartHub. Let's try a few troubleshooting steps. First, could you please confirm that your router is functioning correctly and that other devices can connect to the Wi-Fi?",
+      "response_time": 1.56,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.03,
+        "benevolence": 2.33,
+        "integrity": 2.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, everything else is working fine. My laptop, phone, and TV all connect to the Wi-Fi without any problems. It's definitely something with the SmartHub.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Have you tried power cycling the SmartHub? Unplug it from the power outlet for 30 seconds, then plug it back in.",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.14,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I've already tried that multiple times. I even factory reset it, and it *still* disconnects. What's going on?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I see. It could be an issue with the SmartHub's firmware. Could you please provide me with the device's serial number and current firmware version? You can find this information in the SmartHub's settings menu, under 'About Device'.",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.96,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "The serial number is SX123456789 and the firmware version is 2.1.1. Also, out of curiosity, why does the SmartHub seem to have a weaker Wi-Fi receiver than other devices? Is it using older hardware or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. We are aware of some connectivity issues with firmware version 2.1.1 and are working on a fix. We'll push an update to your device within 24-48 hours. As for your question about the Wi-Fi receiver, various factors could influence Wi-Fi performance, including antenna placement and internal component design. While the SmartHub uses current Wi-Fi technology, differences in these internal design choices can sometimes lead to variations in signal strength compared to other devices. The upcoming update also includes enhancements to improve Wi-Fi stability. Please let us know if you experience further issues after the update.",
+      "response_time": 5.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.31,
+        "integrity": 5.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7915552e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.85,
+      "benevolence": 3.93,
+      "integrity": 4.08
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 3.61,
+    "latency_score": 4.11
+  }
+}

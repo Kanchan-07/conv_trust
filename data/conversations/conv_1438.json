@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm in the mood for a good action film. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for action films, I can recommend a few. Have you seen 'Mad Max: Fury Road' or 'John Wick'? Both are highly rated and full of action. Alternatively, for a more classic feel, 'Die Hard' is always a solid choice.",
+      "response_time": 4.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.04,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've seen all of those! I guess I should have been more specific. How about something that's action, but also has a bit of a mystery element? And maybe something that isn't super well-known?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a bit trickier, but I can try. Hmm... considering action and mystery with some obscurity, I might suggest 'Upgrade' from 2018, or perhaps 'The Guest'. They blend action and suspense well. Regarding less-known films in the same vein... finding accurate data on obscurity is difficult, but I believe these fit the bill. Let me know what you think!",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.49,
+        "integrity": 4.38
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e63d7337",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.98,
+      "benevolence": 4.77,
+      "integrity": 4.74
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 4.6,
+    "latency_score": 3.85
+  }
+}

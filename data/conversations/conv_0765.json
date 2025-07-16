@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle my finances. I'm feeling completely overwhelmed. I have debt, some savings, and I want to start investing, but I don't know where to begin.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel overwhelmed when starting financial planning. Let's break it down. First, could you give me a general overview of your current financial situation? Things like your income, debts (types and amounts), and current savings.",
+      "response_time": 1.53,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.31,
+        "benevolence": 2.36,
+        "integrity": 2.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, here goes. My annual income is around $60,000. I have about $5,000 in credit card debt, a $20,000 student loan, and I've managed to save about $3,000. Is that even enough to bother investing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "$3,000 is a great starting point! It's definitely enough to begin investing. We can discuss strategies for both paying down debt and investing simultaneously. A common approach is the debt avalanche or debt snowball method. Which would you prefer to learn more about?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.59,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Debt avalanche sounds scary... but also maybe effective? Tell me about that one first. Also, what kind of return on investment could I realistically expect if I started with, say, $500?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The debt avalanche method focuses on paying off debts with the highest interest rates first, which can save you money in the long run. As for ROI, it's difficult to predict a specific return. It depends heavily on the investment type, market conditions, and your risk tolerance. With $500, you could consider investing in low-cost index funds or ETFs. Historical data shows average annual returns of around 7-10% for the S&P 500, but past performance is not indicative of future results. It is important to remember this. Let me know if you want more specific investment recommendations.",
+      "response_time": 2.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.02,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense, but I'm still confused about something. If I'm paying down high-interest debt, shouldn't *all* my extra money go towards that instead of investing? It feels counterintuitive to invest when I owe so much.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very valid point! It's a balancing act. Contributing to investment, even a small amount, can get you into the habit. There is also opportunity cost for not investing at all. Often it depends on the specific interest rates of debts vs potential investment gains. A general rule is if debt interest is above 8% prioritizing debt payment is ideal.",
+      "response_time": 5.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.16,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that 8% rule is helpful. But here's the thing: what if the market crashes right after I invest? Won't I lose everything? That's what I'm really scared of.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Market crashes are a real concern for investors, and the possibility of a downturn should always be considered. The key strategy is diversification, meaning you spread your investments across different asset classes. This reduces the impact of any single investment performing poorly. Also, investing is generally a long-term game. Market downturns are often followed by recoveries, so staying invested, even during difficult times, is crucial.",
+      "response_time": 2.21,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.03,
+        "benevolence": 2.25,
+        "integrity": 2.51
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_013acdbf",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.16,
+      "benevolence": 4.16,
+      "integrity": 4.43
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 4,
+      "fear": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 3.92
+  }
+}

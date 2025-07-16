@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have a job interview next week for a Software Engineer position. I'm super nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help. To start, what company are you interviewing with and what specific technologies are mentioned in the job description?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 6.67,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's with 'Innovate Solutions'. They want someone proficient in Java, Python, and cloud technologies like AWS. Ugh, I'm still learning AWS. This is already overwhelming.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No worries! Let's break it down. First, let's focus on Java and Python. I can provide you with common interview questions for those languages, along with example answers. Would you like to start there?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! That sounds like a good place to start. Give me some of the most frequently asked Java questions. And try to give me good answers - not just generic ones.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here's a question, along with a potential answer: Question: 'Explain the difference between an Interface and an Abstract Class in Java.' Answer: 'An interface provides a blueprint of methods that a class must implement. All methods in an interface are implicitly abstract. An abstract class can have both abstract and concrete methods. A class can implement multiple interfaces, but can only inherit from one abstract class.' How does that sound?",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.41,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's good, but... honestly, a little basic. What if the interviewer asks a trickier question? Like, 'Explain how you'd handle a race condition in a multi-threaded Java application, and give an example.' That one always stumps me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're right, that's a more advanced question. Okay, here's a response: 'Race conditions occur when multiple threads try to access and modify the same shared resource concurrently. To handle it, you can use synchronization mechanisms like 'synchronized' blocks or 'locks'. Example: to protect a shared counter, you would use a 'synchronized' block around the increment and decrement operations. This ensures that only one thread can access and modify the counter at a time, preventing inconsistent states.' Does that clarify things for you?",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 3.91,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, that's MUCH better! Thanks! I feel a little more prepared now. Let's go over some Python questions next.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2c4d762a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.05,
+      "benevolence": 4.0,
+      "integrity": 4.15
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 4.31,
+    "latency_score": 4.26
+  }
+}

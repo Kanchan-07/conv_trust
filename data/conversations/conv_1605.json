@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need help with a job application. I'm applying for a software engineer role at Google, and I'm feeling a bit overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Applying to Google can be daunting. I can help with various aspects of your application, such as resume and cover letter review, interview preparation, and finding relevant job postings. What do you need help with first?",
+      "response_time": 3.06,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.46,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's start with my resume. I've attached the latest version. Can you give me some feedback? I'm particularly worried about my lack of direct experience with their specific technologies.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I have reviewed your resume. Overall, it's well-structured and highlights your skills. However, you're right, the lack of direct experience with Google's tech stack is a potential issue. I recommend emphasizing transferable skills and any projects where you used similar technologies. Also, quantifying your accomplishments with numbers would make it stronger. Let me know if you would like a more detailed breakdown.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.2,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! A more detailed breakdown would be great. I'm a bit frustrated because I feel like I'm always tailoring my resume and cover letter to each company and job description.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I seem to be experiencing a slight technical issue. My detailed feedback feature is temporarily unavailable. However, as a stop-gap, here are some general pointers for improving your resume:\n\n1.  **Highlight relevant skills**: Emphasize skills that are transferable and relate to the job description\n2.  **Quantify achievements**: Use numbers and metrics to show the impact of your work.\n3.  **Tailor your resume**: Customize it for each application.\n\nI should have the detailed breakdown working again shortly. In the meantime, does this help, or would you like suggestions on cover letter writing?",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 4.24,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those general tips are helpful, I guess. Thanks. But now I'm a bit concerned. How do you handle situations where the job description asks for 5 years of experience in a technology I only have 2 years of experience with? Should I just not apply?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a challenging situation. First, don't automatically rule yourself out. Many companies have 'wish lists' in job descriptions. Focus on demonstrating equivalent skills or relevant experiences. You can also address the discrepancy in your cover letter, emphasizing your eagerness to learn and how your existing skills make you a good fit. It\u2019s ultimately up to you, but it's often worth applying if you meet a significant portion of the requirements and believe you'd be a good fit.",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 3.88,
+        "integrity": 4.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e22b94ef",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.87,
+      "benevolence": 4.2,
+      "integrity": 3.92
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 4.13
+  }
+}

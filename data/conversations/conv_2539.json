@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a flight for a trip next month. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely, I can assist you with finding flights. To start, could you please tell me your departure city, destination, desired travel dates, and how many passengers will be traveling?",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for one adult, flying from London Heathrow (LHR) to Rome Fiumicino (FCO). I want to depart on July 18th and return on July 25th. It's for a leisure trip.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. London Heathrow to Rome Fiumicino for one adult, departing July 18th and returning July 25th. I am searching for options now. I'm finding several flights available, including options on British Airways and easyJet. Prices seem to be starting around \u00a3250.",
+      "response_time": 5.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.23,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, \u00a3250 seems a bit high for easyJet! Is that including baggage? It's so annoying when the initial price looks cheap but doesn't include a checked bag. What are the baggage rules typically for that price range on easyJet?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration regarding baggage fees. The \u00a3250 price for easyJet is likely for their standard 'Standard' fare, which typically includes a small cabin bag (45x36x20cm). A larger cabin bag (56x45x25cm) or checked baggage would indeed be an additional cost. The exact fee depends on the bag size, weight, and route, and can vary. I can look up specific baggage fees if you'd like to explore a particular flight option.",
+      "response_time": 1.59,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.57,
+        "benevolence": 2.04,
+        "integrity": 2.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5a2ed0f6",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.93,
+      "benevolence": 4.76,
+      "integrity": 5.17
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 5.36,
+    "latency_score": 3.32
+  }
+}

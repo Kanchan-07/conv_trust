@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I ordered a pair of running shoes last week and they still haven't shipped. My order number is #1234567. What's going on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. I have located your order #1234567. It appears there was a slight delay due to unexpectedly high demand for that particular shoe model. It is now scheduled to ship tomorrow, and you will receive a tracking number via email. We apologize for the inconvenience.",
+      "response_time": 0.64,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.27,
+        "benevolence": 1.23,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, tomorrow? I needed them for a race this weekend! Is there any way to expedite the shipping?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me see what I can do. Unfortunately, I cannot guarantee expedited shipping at this point as the package is already being processed for shipment. However, I can offer you a 10% discount on your next purchase as compensation for the delay. Would that be acceptable?",
+      "response_time": 1.8,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.2,
+        "benevolence": 2.05,
+        "integrity": 2.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, fine, a discount is better than nothing. But what if they still don't arrive tomorrow? What's the latest date I can expect them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The estimated delivery date, once shipped, is 2-3 business days. So, you should receive them by the end of next week at the latest. Please monitor the tracking information once you receive it, as that will provide the most accurate updates.",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.97,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright. One more thing - your website says you have a price match guarantee. I saw the same shoes on another site for $20 less. Can I get that price difference refunded?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "To process a price match, could you please provide a link to the website where you found the lower price? Also, please ensure that the shoes are the exact same model, size, and color, and that the website is an authorized retailer. Once I verify this information, I can initiate the refund for the price difference.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.12,
+        "benevolence": 1.0,
+        "integrity": 1.15
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9af1d371",
+    "average_trust_score": 2.12,
+    "trust_category_averages": {
+      "competence": 2.2,
+      "benevolence": 2.06,
+      "integrity": 2.12
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "sadness": 1,
+      "disgust": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 2.34,
+    "latency_score": 5.85
+  }
+}

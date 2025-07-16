@@ -1,0 +1,89 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my order. It says 'processing' but I placed it three days ago. My order number is #123456789.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help you with that. Thank you for providing your order number, #123456789. Let me check the status for you. One moment.",
+      "response_time": 5.61,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 6.92,
+        "integrity": 6.85
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm just getting a bit worried because it's usually shipped by now. Is there any issue with it?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Checking the system... For order #123456789, the status is still showing as 'processing'. This means it is being prepared for shipment. Please allow for standard processing times, which can sometimes take a few business days, especially during busy periods. You will receive a shipping confirmation email with tracking once it ships.",
+      "response_time": 4.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.54,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A few business days? It's been three already! And my estimated delivery window is only 2 more days away. If it doesn't even ship today, it won't arrive on time. What happens if it's late? Can I get a refund on shipping or something?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about the estimated delivery window. While the current status is still 'processing', we make every effort to meet estimated delivery dates. If your order is significantly delayed past the estimated delivery date due to our processing, please contact us again, and we can review options like adjusting shipping fees based on our service level guarantees, if applicable to your original shipping method. However, refunds are typically processed after an item is returned or confirmed lost, not for minor delays within standard variations.",
+      "response_time": 2.28,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.06,
+        "integrity": 3.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_db5fea29",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.51,
+      "integrity": 5.4
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "joy": 1,
+      "fear": 2,
+      "neutral": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.77,
+    "latency_score": 3.27
+  }
+}

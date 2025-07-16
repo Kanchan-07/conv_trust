@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I've been really into indie rock lately. Can you recommend some artists or albums?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! If you like indie rock, you might enjoy bands like The Strokes, Arctic Monkeys, or Tame Impala. For albums, check out \"Is This It\" by The Strokes, \"Whatever People Say I Am, That's What I'm Not\" by Arctic Monkeys, or \"Currents\" by Tame Impala. Do any of those sound appealing?",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.07,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know those bands already. I was hoping for something a little less mainstream, something a bit more...obscure, I guess? It's frustrating when recommendations are always the same big names.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let me dig a little deeper. How about checking out bands like Car Seat Headrest, Pavement, or Built to Spill? For a slightly different vibe, maybe try some early Modest Mouse. Are any of those familiar?",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.95,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I know Pavement and Modest Mouse. Car Seat Headrest is interesting, but Built to Spill is new to me. What is it about their sound that makes them 'indie rock', exactly? I mean, aren't genres kinda subjective anyway? How does the algorithm decide?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! The 'indie rock' label for Built to Spill comes from a combination of factors: their independent record label history, their guitar-driven sound with unconventional song structures (compared to mainstream rock), and their influence on other bands that are widely considered 'indie.' You're right, genres are subjective, and the algorithm identifies artists based on keywords in reviews and descriptions, similar artist connections, and listening patterns of users who also enjoy indie rock. It's not a perfect system, but it tries to capture the essence of the genre through data analysis. Would you like to hear some popular tracks by Built to Spill?",
+      "response_time": 4.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.43,
+        "integrity": 5.03
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0c84d3d9",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.68,
+      "benevolence": 4.48,
+      "integrity": 4.19
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.75,
+    "latency_score": 4.2
+  }
+}

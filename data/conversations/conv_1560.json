@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. Can you recommend some based on the 'Running Shoes' category?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on the 'Running Shoes' category, I can recommend a few popular options. Firstly, there's the Nike Air Zoom Pegasus, a great all-around choice. Then, the Brooks Ghost is known for its comfort and durability. Finally, the Hoka Clifton is popular for its cushioning. Would you like me to provide links to these products?",
+      "response_time": 5.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.2,
+        "integrity": 5.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks, those sound good. But, I have a really wide foot. How can you recommend shoes for me, knowing nothing about my foot size or pronation type? Aren't recommendations supposed to be personalized?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You are absolutely right, and I apologize for the lack of personalization. My current product recommendation system is based primarily on category popularity. For a more tailored recommendation, you can tell me your foot size (including width), pronation type (overpronation, supination, neutral), and preferred running distance/surface. I can then access more specific product data and provide a refined list.  Do you want to give me that information now, or should I just provide links to the shoes I mentioned earlier?",
+      "response_time": 4.9,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 7.0,
+        "integrity": 6.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6caf6e96",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.03,
+      "benevolence": 6.1,
+      "integrity": 5.91
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 6.25,
+    "latency_score": 2.4
+  }
+}

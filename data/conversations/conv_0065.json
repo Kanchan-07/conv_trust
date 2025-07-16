@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some recommendations. I want to buy something for my kitchen.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. To narrow things down, are you looking for cookware, appliances, gadgets, or something else specifically for your kitchen?",
+      "response_time": 4.04,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.17,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's say gadgets. I'm trying to find something that will make my life easier, you know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Based on that category, popular choices include vegetable choppers, digital kitchen scales, and immersion blenders. Would you like me to provide more details on any of those, or perhaps suggest some other top-rated kitchen gadgets?",
+      "response_time": 5.73,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.87,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me more about the vegetable choppers. I've seen some that look awful and break easily... I want to make sure it's actually good.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. We have several highly-rated vegetable choppers. One popular option is the 'Fullstar Vegetable Chopper.' It has multiple interchangeable blades and boasts high durability. It currently has a 4.5-star rating with over 10,000 reviews. Another highly regarded option is the 'Mueller Pro-Series Onion Chopper.' This one focuses on chopping onions and other tougher vegetables efficiently. Is there anything specific you are looking for in a vegetable chopper to help me narrow down the options further?",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.15,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so how does the Fullstar one handle, like, really hard vegetables? Sweet potatoes, butternut squash... that kind of thing. Does it actually work, or is it just for soft stuff?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! While the Fullstar is quite durable, several user reviews indicate that it may struggle with very hard vegetables like raw sweet potatoes and butternut squash *without* pre-softening. It works best if you microwave or partially cook those types of vegetables beforehand. For truly hard vegetables, a heavy-duty manual chopper or even a good knife and cutting board would be more effective.",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.03,
+        "integrity": 3.53
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ea0cd1ba",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.67,
+      "benevolence": 4.84,
+      "integrity": 4.57
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "joy": 2,
+      "anger": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.62,
+    "latency_score": 3.46
+  }
+}

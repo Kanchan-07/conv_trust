@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a package that hasn't moved in days. My tracking number is 9876543210.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. I see you're inquiring about tracking number 9876543210. Let me pull up the details for you. One moment, please.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It says it was last scanned in 'Transit' three days ago and hasn't updated since. This is really frustrating, I expected it much sooner.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. My system shows the last scan was indeed three days ago with a status of 'In Transit'. Sometimes, there can be delays in scanning or movement due to various factors like volume or transportation issues. The estimated delivery date is currently still showing as 'Pending'.",
+      "response_time": 3.48,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 4.34,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "But 'Pending' doesn't help me! Can you tell me *why* it hasn't moved? Is it stuck somewhere? Is it lost? I need to know what's actually happening.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, but as an AI assistant, I only have access to the same tracking information you see. I cannot determine the specific operational reason for the delay or confirm if a package is lost until a significant amount of time has passed without updates. The system does not provide detailed internal logistics visibility for individual packages.",
+      "response_time": 2.23,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.87,
+        "benevolence": 2.9,
+        "integrity": 2.09
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's not very helpful. So what *can* you do? Just tell me to wait? Can I open an investigation or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your disappointment. Yes, we can initiate a formal trace or inquiry for packages with no movement after a certain period. For your tracking number, we can start this process now. This typically takes 5-7 business days to get an initial update. Would you like me to proceed with opening an inquiry?",
+      "response_time": 1.59,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.2,
+        "integrity": 2.57
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_827bc410",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.1,
+      "benevolence": 4.11,
+      "integrity": 3.93
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "fear": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.68,
+    "latency_score": 4.17
+  }
+}

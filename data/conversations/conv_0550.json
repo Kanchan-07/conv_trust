@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated with medical billing. I got a bill for $500 for a doctor's visit that I thought my insurance covered! Can you help me figure out what's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Medical billing can be confusing. To help me investigate this, could you please provide me with your insurance information (insurance company name, policy number, and group number) and the date of service for the doctor's visit in question? Also, the name of the doctor or clinic would be helpful.",
+      "response_time": 1.44,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.62,
+        "benevolence": 2.12,
+        "integrity": 2.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my insurance is Blue Cross Blue Shield, policy number is ABC12345, group number is XYZ987. The date of service was August 15th, and it was with Dr. Jane Doe at the Main Street Clinic. Ugh, I hate dealing with this.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. I am now checking the claim status with Blue Cross Blue Shield for the service you received on August 15th with Dr. Jane Doe at Main Street Clinic under policy ABC12345, group number XYZ987. Please allow me a moment to retrieve the details.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.54,
+        "benevolence": 6.89,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks. While you're doing that, can you explain why sometimes I get a bill even though I have insurance? I always thought insurance was supposed to cover everything, minus the copay.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a common misconception. There are several reasons why you might receive a bill even with insurance. For example, the service might not be covered under your specific plan, you may have a deductible that needs to be met, or the provider might be out-of-network. Sometimes, it could also be a billing error. I will have more specific information regarding *your* claim shortly.",
+      "response_time": 1.94,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.57,
+        "benevolence": 2.27,
+        "integrity": 2.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes a little more sense. So many possibilities! I really appreciate you looking into this for me. Hopefully, it's just a simple coding error or something. Let me know what you find!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_750c42ac",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.91,
+      "benevolence": 3.76,
+      "integrity": 3.89
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "disgust": 1,
+      "neutral": 2,
+      "joy": 2
+    },
+    "response_quality_score": 3.65,
+    "latency_score": 4.37
+  }
+}

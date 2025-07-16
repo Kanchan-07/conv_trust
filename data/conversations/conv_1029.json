@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Diego for a few nights. Preferably near the Gaslamp Quarter. Something reasonably priced, if possible!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. What dates are you looking at, and how many guests will be staying?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 3.58,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, this is always a pain... Let's say from July 12th to the 15th, and it'll just be me.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. I'm showing a few options near the Gaslamp Quarter for those dates. There's the \"Andaz San Diego\", the \"Omni San Diego Hotel\", and the \"Hard Rock Hotel San Diego\". They vary in price, of course. Would you like me to filter these further based on price or other amenities?",
+      "response_time": 4.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.59,
+        "benevolence": 5.62,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, the Hard Rock sounds cool, but probably out of my budget. What's the cheapest option out of those three, and does it have free Wi-Fi?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Omni San Diego Hotel appears to be the most affordable of the three for your dates. As for free Wi-Fi, I am unable to confirm at this moment. You should check the website for the hotel directly.",
+      "response_time": 4.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.63,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, that's a bit annoying. If you can't confirm that, can you at least tell me *why* you can't? Is it a limitation of your system?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, you're right. I can access general information like availability and pricing from my database, but real-time amenity details like specific Wi-Fi policies are often subject to change and best verified directly with the hotel to ensure accuracy. I apologize for the inconvenience.",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.94,
+        "integrity": 3.63
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4d84fe22",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.67,
+      "benevolence": 4.69,
+      "integrity": 4.81
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 3.31
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from New York to Los Angeles sometime in mid-October. I'm flexible on the exact dates, but ideally, I'd like to leave after the 15th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Do you have any preferred airlines, or a preferred time of day for your departure from New York?",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.82,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No real preference on airline. As for time, leaving in the afternoon would be great. And I'd like to return sometime the following week, before the 25th. Also, is there a way to see flights where the layover isn't more than, say, 3 hours? I hate long layovers.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for flights from New York to Los Angeles departing after October 15th, returning before October 25th, with afternoon departures and layovers no longer than 3 hours. One moment...",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.37,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great! While you're at it, could you also tell me what the average carbon footprint is for a flight of that distance? I'm trying to be a bit more conscious about my travel.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. I am still compiling flight options, but according to current estimates, the average carbon footprint for a one-way flight from New York to Los Angeles is approximately 0.49 tonnes of CO2 per passenger. Keep in mind that this is an average and can vary slightly based on the specific aircraft and other factors. I will include the footprint for each flight in the list that I am generating. Would you like me to include only direct flights in the result?",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 3.99,
+        "integrity": 3.8
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4048df9a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.91,
+      "benevolence": 4.06,
+      "integrity": 3.73
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 4.21,
+    "latency_score": 4.45
+  }
+}

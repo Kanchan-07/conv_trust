@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to buy a new laptop, but my budget is pretty tight. Can you help me find some options?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely, I can help you search for laptops within your budget. To start, what is your maximum price range for the new laptop?",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.8,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, um... I really can't spend more than $500. Ideally, I'd like something closer to $400 if possible. It's for general use, like browsing and documents.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood, a budget of under $500, aiming for closer to $400 for general use. That's a common budget for basic needs. Let me pull up some suitable options available right now. Here are a few models that fit that price range and typical usage:",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.59,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I see those... but they all seem to have really small storage drives, like 128GB. That doesn't seem like much. Is it even possible to get a laptop with decent storage, like 256GB or more, under $500? It feels like a rip-off for that price.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, 128GB SSDs are very common in that price bracket to keep costs down. Finding 256GB or more storage on a *new* laptop reliably under $500 can be challenging, especially if you also need other decent specs. Sometimes you might find a specific model on sale, but it's not the norm for standard models. Let me refine the search to prioritize storage, but options might become limited.",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 6.0,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's frustrating. Why is it so hard to find a basic laptop that isn't completely barebones for under $500? I don't need gaming performance, just space! What if I look at refurbished ones? Would that help?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Refurbished laptops are indeed an excellent way to get better specifications, including larger storage drives, within a tighter budget. Often, you can find refurbished models that originally sold for $600-$800, now available under $500. We can certainly look at certified refurbished options from reputable sellers if you'd like?",
+      "response_time": 1.66,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.29,
+        "benevolence": 2.93,
+        "integrity": 2.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_70676651",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.57,
+      "benevolence": 4.88,
+      "integrity": 4.74
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "surprise": 1
+    },
+    "response_quality_score": 4.97,
+    "latency_score": 4.13
+  }
+}

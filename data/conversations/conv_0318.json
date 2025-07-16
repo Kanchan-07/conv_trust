@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really feeling lost. I've been working as a project manager for five years, but I'm just...bored. Unfulfilled. I don't even know where to start looking for something else.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel that way after a few years in a role. Let's start by identifying your interests and skills. What aspects of your current job do you enjoy, and what are you naturally good at? Don't worry if it doesn't immediately relate to your current field.",
+      "response_time": 5.32,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.87,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's the problem! I don't *enjoy* much about it anymore. I'm good at organizing and keeping things on track, I guess, but it feels so... meaningless. Like I'm just pushing papers around. I used to like the problem-solving aspect, but now it's just the same problems over and over.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, so organization and problem-solving are key skills. You also mentioned feeling like your work lacks meaning. Let's consider careers where those skills are valuable but the impact is more tangible. Have you ever considered fields like social work, non-profit management, or even urban planning?",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 3.52,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Social work? I don't have any training for that! How would I even make that leap? I mean, wouldn't I have to go back to school for years? I'm not sure I can afford that, either financially or time-wise. Honestly, this is all just making me feel even more overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Not all career changes require extensive retraining. We can explore options that leverage your existing project management skills in related fields. For example, many non-profits need project managers. Or, we could investigate shorter certificate programs that could open doors to more fulfilling roles. Let's look at some bridge programs and skills gap analyses.",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.86,
+        "integrity": 3.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bbafbdea",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.8,
+      "benevolence": 4.42,
+      "integrity": 4.48
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 2,
+      "fear": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.26,
+    "latency_score": 3.04
+  }
+}

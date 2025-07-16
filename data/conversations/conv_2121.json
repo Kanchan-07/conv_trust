@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi! I have an interview for a software engineering role next week and I'm freaking out a little. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist with interview preparation. I can help with common interview questions, technical concepts, and even behavioral questions. To start, what kind of company is it and what's the role's focus?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 6.6,
+        "integrity": 6.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a cloud infrastructure company. I'm a bit confused about the difference between microservices and serverless architecture. Can you explain that simply?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's a great question. Briefly, microservices are an architectural approach where an application is built as a collection of small, independent services. Each service handles a specific business capability and communicates via APIs. Serverless, on the other hand, is a deployment model where the cloud provider dynamically manages the allocation of machine resources. Think of microservices as the building blocks, and serverless as a way to manage those building blocks without you having to worry about the underlying server infrastructure. Does that make sense?",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.19,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, that's much clearer, thank you! What if I'm asked about the trade-offs between using them? This is where I get really stuck...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright, here's a summary of trade-offs. For microservices: Pros: Increased scalability, technology diversity, faster deployment. Cons: Increased complexity, distributed debugging, operational overhead. Serverless: Pros: Reduced operational overhead, pay-per-use pricing, automated scaling. Cons: Vendor lock-in, debugging can be tricky, limited execution time and resources.  It is important to provide specific examples based on the company's tech stack, if available. Good luck with your interview!",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.78,
+        "integrity": 4.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ce98c6aa",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.97,
+      "benevolence": 4.86,
+      "integrity": 4.84
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 5.45,
+    "latency_score": 3.56
+  }
+}

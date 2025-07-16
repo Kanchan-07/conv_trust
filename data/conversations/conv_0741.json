@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a claim I filed last week. The claim number is 20231027-4815.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please wait one moment while I access claim 20231027-4815. Okay, I have it here. This is for water damage to your kitchen, is that correct?",
+      "response_time": 2.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 3.51,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's right. I sent in all the photos and the plumber's report. What's the status? It's been over a week, and I haven't heard anything. I'm getting pretty frustrated, to be honest. I can't use my kitchen!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I see here that we received the documentation. The claim is currently under review by our claims adjuster. It typically takes 7-10 business days for the initial review. We should have an update for you within the next two business days.",
+      "response_time": 1.41,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.17,
+        "benevolence": 2.54,
+        "integrity": 2.96
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, two business days... What exactly are they reviewing? I mean, the pipe burst, it caused damage, I filed the claim with all the evidence. What else is there to review? Also, what if the adjuster denies my claim? What recourse do I have?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The adjuster is reviewing the extent of the damage, validating the cause against your policy coverage, and confirming the estimated repair costs. In the event of a denial, you have the right to appeal the decision. The details of the appeals process will be included in the denial letter. Would you like me to send you a link to the general claims appeal process now?",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.53,
+        "integrity": 5.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c585ebb4",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.88,
+      "benevolence": 3.86,
+      "integrity": 4.26
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 3
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 4.75
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately. I'm tired all the time and just generally not feeling well. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I am sorry to hear that you are feeling unwell. To provide the best advice, could you tell me a little more about your symptoms? For example, how long have you been feeling this way, and what specific symptoms are you experiencing?",
+      "response_time": 4.08,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.04,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, it's been going on for a few weeks now. I'm constantly exhausted, even after a full night's sleep. I also have a mild headache most days, and I sometimes feel a bit dizzy when I stand up too quickly. It's really frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your symptoms, you could be experiencing several things such as fatigue, dehydration, or other health issues. However, I am an AI, and this is not medical advice. It is important to see a doctor. Have you considered making an appointment?",
+      "response_time": 3.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 3.84,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I was hoping to avoid a doctor's visit if possible. I've been busy. Is there anything I can try at home in the meantime? Like, maybe some vitamins or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While I cannot provide medical advice, some people find that taking a multivitamin can help with their energy levels. However, it's crucial to understand the potential side effects of supplements and whether your specific symptoms might indicate a need for a different approach. It might be a good idea to research vitamin supplements, talk to a pharmacist, and continue to monitor your symptoms.",
+      "response_time": 2.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 4.42,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a little confusing. How would I know if my symptoms are serious or not? What are some 'red flags' that would mean I *need* to see a doctor, like, *right now*?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very important question. Red flags that require immediate medical attention include severe chest pain, difficulty breathing, sudden vision changes, slurred speech, or any loss of consciousness. If you experience any of these symptoms, seek immediate medical care.",
+      "response_time": 1.73,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.45,
+        "integrity": 2.48
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, thanks for the info. I'll keep an eye out for those red flags. I'll think about making a doctor's appointment too. Appreciate your help!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a2626c2b",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.35,
+      "benevolence": 3.69,
+      "integrity": 3.66
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 2,
+      "surprise": 1,
+      "neutral": 4,
+      "fear": 2
+    },
+    "response_quality_score": 3.17,
+    "latency_score": 4.5
+  }
+}

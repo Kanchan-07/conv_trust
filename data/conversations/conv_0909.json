@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I've been having persistent headaches for the past week, especially in the mornings. I've tried over-the-counter pain relievers, but they only provide temporary relief. I'm getting really frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Persistent headaches can be quite debilitating. To better understand your situation, could you describe the type of headache you're experiencing? Is it throbbing, constant, or something else? Also, where is the pain located, and are there any other symptoms you're experiencing, such as nausea, sensitivity to light, or vision changes?",
+      "response_time": 1.37,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.25,
+        "benevolence": 2.23,
+        "integrity": 2.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's mostly a throbbing pain, concentrated behind my eyes and sometimes in my temples. I haven't had any nausea, but I have noticed I'm a bit more sensitive to bright light than usual. Could it be a migraine? I've never had one before, so I'm not sure.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Sensitivity to light and throbbing pain behind the eyes and temples can sometimes be associated with migraines, but it could also be tension headaches, or something else entirely. Given the persistence and new onset, it would be best to consult with a doctor for a proper diagnosis and to rule out anything serious. Would you like me to help you find some doctors in your area?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.79,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But hypothetically, if it *was* a migraine, what are some of the more unusual treatment options that my doctor might suggest, beyond just medication? I'm curious about alternative approaches.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While medication is a common approach, alternative therapies for migraines can include acupuncture, biofeedback, cognitive behavioral therapy (CBT) to manage stress, and lifestyle changes such as maintaining a regular sleep schedule and identifying trigger foods. Some studies also suggest that certain supplements like magnesium and riboflavin might be beneficial, but it's important to discuss these options with your doctor before trying them, as they may interact with other medications or have side effects.",
+      "response_time": 5.15,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.15,
+        "integrity": 5.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_485fb096",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.7,
+      "benevolence": 3.72,
+      "integrity": 3.88
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "anger": 2,
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 4.15
+  }
+}

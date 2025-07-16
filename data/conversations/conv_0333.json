@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! We've had a bunch of AR denials lately, all related to coding errors. I need to figure out what's going on. Can you help me analyze the denials?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help with that. To start, could you provide me with some example denial codes you're seeing, along with the CPT and ICD-10 codes used for those claims? The more information you give me, the better I can assist.",
+      "response_time": 3.04,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.75,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let me see... Here's one: denial code is CO-97. The CPT code was 99214, and the ICD-10 code was I10.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CO-97 often indicates that the benefit for the service is included in the payment or allowance for another service/procedure that has already been adjudicated. This suggests a potential bundling issue. Was another procedure performed on the same date of service that could encompass the 99214?",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.66,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's a good question. I'll have to check the patient's chart. But sometimes these denials seem completely random. Is there a way to proactively identify potential coding errors *before* we submit the claims?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, many coding audit tools can analyze claims data and flag potential errors based on coding guidelines and payer rules. They often have built-in logic to identify common bundling and coding sequence errors. Would you like me to provide a list of potential coding audit tools and resources?",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.81,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That would be great! Also, this might be a tough one, but is there any way to predict which payers are most likely to deny certain codes, based on historical data? We're getting hit particularly hard by [Payer Name] lately.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Predicting payer behavior with certainty is difficult, but analyzing your historical claims data for [Payer Name] and comparing it to other payers can reveal patterns. Look at denial rates per CPT/ICD-10 code combination. You can also research [Payer Name]'s specific coding policies and compare them to national guidelines. I can't access private payer policies directly, but I can provide links to general coding guidelines websites which may be helpful to compare to [Payer Name]'s policies when you find them.",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.42,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's a good starting point. The coding audit tool list and the links would be helpful. Thanks for pointing me in the right direction; I was feeling completely overwhelmed before.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Here are some links to coding guidelines websites: [List of links]. Also, here are a few popular coding audit tools: [List of Tools]. Remember to always verify information with the specific payer's guidelines. Let me know if you have any further questions or need additional assistance.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.83
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a0c6f458",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.47,
+      "benevolence": 4.53,
+      "integrity": 4.69
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 4.56,
+    "latency_score": 3.76
+  }
+}

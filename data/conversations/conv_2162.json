@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel room.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To get started, could you please tell me your desired location, check-in and check-out dates, and any preferences you have, such as the number of guests or desired amenities?",
+      "response_time": 5.23,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.89,
+        "benevolence": 5.37,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I need a room in Paris, France, from October 26th to October 30th, for two adults. A nice view would be great, and breakfast included would be a plus. Oh, and I'm on a tight budget, so something reasonable.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am searching for hotels in Paris, France, for October 26th to 30th, for two adults. I am also taking your preference for a nice view and breakfast into consideration. I have found a few options. However, to clarify 'reasonable' - could you provide a budget range? This will help narrow down the search.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.19,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I thought that would be clear enough. Fine, let's say under 200 euros per night. Also, are there any hotels near the Eiffel Tower that fit the bill?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I am currently searching for hotels that meet your criteria, including those near the Eiffel Tower, while staying within your budget of under 200 euros per night. Unfortunately, the search results are not producing many options near the Eiffel Tower with included breakfast and views at that price point. Can I suggest extending your budget or perhaps considering hotels a bit further out? Or maybe we could find something without breakfast?",
+      "response_time": 2.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.95,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, let's try a hotel without breakfast then. And please, try to find something within a reasonable walking distance to a metro station, I don't want to have to walk too far.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8a4bdd72",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.5,
+      "integrity": 4.42
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.35,
+    "latency_score": 4.17
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have a job interview next week and I'm really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! I can assist with common interview questions, provide tips on body language, and even help you practice answering. To start, what kind of role are you interviewing for?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.73,
+        "benevolence": 6.76,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a Software Engineer position at a tech company. I'm most worried about the technical questions.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great! For Software Engineer roles, you can expect questions about data structures, algorithms, and specific technologies like Java or Python depending on the requirements. I can provide some example questions. Would you like some?",
+      "response_time": 5.13,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.68,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! Give me some example questions, but also, how should I answer the dreaded 'Tell me about a time you failed' question? I always stumble on that one!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright. For the \"Tell me about a time you failed\" question, use the STAR method: Situation, Task, Action, Result. Briefly describe the *Situation*, the *Task* you needed to accomplish, the *Action* you took to address it, and the *Result* of your actions. Ensure to highlight what you learned from the experience. Here are some example technical questions: \n\n1. Explain the difference between a stack and a queue.\n2. Describe the benefits of using version control.\n3. How would you optimize a slow-running algorithm?\n\nIs this helpful?",
+      "response_time": 4.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.26,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "The STAR method is great! Thank you! But honestly, for that algorithm question, I'm still confused. Can you give me a specific example of how I could optimize an algorithm?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, I seem to be experiencing an error and can't access a detailed explanation at this time. However, a general approach would be to identify the bottleneck in your algorithm, and look at improving its time complexity, space complexity, or both. If you want, I can look up some techniques, like using more efficient data structures or implementing memoization.",
+      "response_time": 1.46,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.75,
+        "benevolence": 2.64,
+        "integrity": 2.03
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_efad34a1",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.59,
+      "benevolence": 4.83,
+      "integrity": 4.57
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 3.33
+  }
+}

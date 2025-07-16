@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I want to order some food, but I'm not sure what I want. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help with that. What kind of cuisine are you in the mood for? Do you have any dietary restrictions or preferences, like vegetarian, vegan, or gluten-free?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.68,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I'm not feeling anything too heavy. Maybe something light and healthy? And yeah, I'm trying to cut back on carbs.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. How about a Mediterranean salad with grilled chicken or fish? Many restaurants offer low-carb options with plenty of fresh vegetables and lean protein.",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.19,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds pretty good. Are there any places nearby that you'd recommend that deliver and have that kind of thing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I'm checking restaurants within a 5-mile radius that offer Mediterranean cuisine and deliver. Based on user reviews, 'The Olive Branch' and 'Mediterranean Delights' are highly rated. 'The Olive Branch' is slightly closer and tends to have faster delivery times. Would you like me to show you their menus?",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.91,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, show me The Olive Branch's menu. Wait, can you also tell me how The Olive Branch ensures their food is actually low-carb? Like, what specific ingredients do they avoid to minimize carb content in their salads, for example? That's important to me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can display their menu for you. Regarding your question about their low-carb practices, that's a bit more difficult for me to answer definitively. I can access customer reviews which sometimes mention dietary preferences, or I can direct you to their website or customer service line for more detailed information about their specific ingredients and preparation methods. Which would you prefer?",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.91,
+        "integrity": 5.57
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9624555b",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.92,
+      "integrity": 4.93
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7
+    },
+    "response_quality_score": 4.7,
+    "latency_score": 3.79
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered three days ago. The tracking number is 1Z999AA1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the tracking number. Let me check on the status of your package. One moment please... Okay, I see that your package is currently listed as 'in transit' at our regional distribution center. It was originally scheduled for delivery on the 15th. Can you confirm that?",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.74,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, the 15th! That was three days ago! I needed that package for a project I'm working on, and now I'm behind schedule. What's going on? And more importantly, WHEN am I actually going to get it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm showing that the package experienced an unforeseen delay at the distribution center. The estimated delivery date is now showing as the 20th. I can offer you a 20% discount on your next purchase for the inconvenience. Would that be acceptable?",
+      "response_time": 0.57,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.13,
+        "benevolence": 1.0,
+        "integrity": 1.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The 20th?! That's another two days! A discount is nice, I guess, but what caused this delay? And how can you be sure it will actually arrive on the 20th? I've heard that before with other companies and the date just keeps getting pushed back. What guarantee do I have this time?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a3fb3a0c",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.39,
+      "benevolence": 2.37,
+      "integrity": 2.7
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 2,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 2.61,
+    "latency_score": 5.16
+  }
+}

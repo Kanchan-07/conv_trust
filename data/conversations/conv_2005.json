@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to replace a light fixture in my hallway, but I'm completely lost. There are so many wires! Can you help me?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! Replacing a light fixture can seem daunting. First, can you please turn off the breaker that controls the light you're working on? Then, take a picture of the wiring in the existing fixture and the wires coming out of the ceiling, and send it to me. Also, what kind of new fixture are you installing?",
+      "response_time": 5.81,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.57,
+        "integrity": 5.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay, breaker is off. Here's the picture. I'm trying to install a simple flush mount LED. The old one was just a basic incandescent. The picture probably isn't very good, I have terrible lighting in the hallway. Also, there are like, four wires from the ceiling? And only two from the new fixture. This is more complicated than I thought!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see the picture. Based on the image, it looks like you have a white wire (neutral), a black wire (hot), and a ground wire (likely green or bare copper) from the ceiling. The fourth wire may be a second hot wire for a switch or another circuit. The LED fixture should have a white and black wire. The white from the fixture connects to the white from the ceiling (neutral), the black from the fixture connects to the black from the ceiling (hot). Connect the ground wires together as well. Now, the trickier part: what do I do with the other hot wire, if it exists? It's not always easy to tell based on a picture, but sometimes it's a completely separate circuit. Do you have a multimeter to check for voltage? If not, it might be best to call an electrician, as there are some safety considerations I can't really advise on here.",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.45,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's a good question about the other hot wire. I don't have a multimeter, and honestly, I'm getting a bit nervous. I think I'll call an electrician. Thanks for your help, though! I really appreciate the initial advice. At least I know the basics!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3480ff55",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 5.01,
+      "integrity": 4.81
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.12
+  }
+}

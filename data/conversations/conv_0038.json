@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to schedule an appointment with Dr. Ramirez, but your online system is giving me fits. I've been clicking around for 20 minutes! Can you help?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely assist you with scheduling an appointment with Dr. Ramirez. To start, could you please provide me with your full name and date of birth?",
+      "response_time": 1.62,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.42,
+        "integrity": 2.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, and my birthday is January 15, 1988. What's the soonest I can see her? And, just out of curiosity, why *is* the online system so awful? Is it being updated or something?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. The soonest available appointment with Dr. Ramirez is next Tuesday, November 7th, at 2:00 PM. Would that time work for you? As for the online system, we are aware of some recent issues and our IT department is actively working to resolve them. I apologize for any inconvenience it may have caused.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ac30a038",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.71,
+      "integrity": 4.54
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.25,
+    "latency_score": 3.69
+  }
+}

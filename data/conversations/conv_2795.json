@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some good sci-fi movies I should watch?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Some highly acclaimed sci-fi movies include 'Dune' (2021), 'Arrival' (2016), 'Blade Runner 2049' (2017), and 'Inception' (2010). Have you seen any of these?",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.94,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen all of those, they're fantastic! Blade Runner 2049 blew me away. I was hoping for something a bit more recent, maybe from the last year or two?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, looking at releases from late 2022 to now, you might consider 'Rebel Moon - Part One: A Child of Fire' (2023) or 'The Creator' (2023). There's also 'Everything Everywhere All at Once' (2022), though that blends sci-fi with action and comedy.",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.07,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, Rebel Moon? I heard that was pretty bad. And while EEAO is brilliant, it feels more like fantasy or multiverse stuff than traditional sci-fi. It's confusing! How do you even decide what counts as 'sci-fi' these days, anyway? Where's the line?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question. Defining genres precisely can be tricky, as many films blend elements. Generally, science fiction relies on speculative, futuristic technology, scientific principles (even if fictional), or the impact of science on society. Fantasy usually involves magic, mythical elements, or the supernatural. While films like EEAO use sci-fi concepts (multiverse theory), their narrative focus or use of fantastical elements can blur the line. For something more grounded in traditional sci-fi from the last couple years, perhaps 'Finch' (2021) or 'Voyagers' (2021) might be closer, though they fall just outside your 'last year or two' criteria.",
+      "response_time": 3.19,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 3.66,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, I see what you mean about the lines blurring. Finch sounds interesting, I haven't heard of that one. Thanks, I'll look into it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_28b39981",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.56,
+      "integrity": 4.57
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.95,
+    "latency_score": 4.26
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I'm starving and I need some dinner. What are my options around here?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I see you're located in downtown. I'm showing several restaurants within a 1-mile radius. Are you in the mood for anything specific, like a type of cuisine or a price range?",
+      "response_time": 2.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.2,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm thinking Italian. And I'm on a bit of a budget, say under $20 for the main course?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! I have three Italian restaurants that fit your criteria: 'Luigi's Pizzeria', 'Pasta Paradise', and 'Bella Italia'. Luigi's is the most affordable, with pizzas starting at $12. Pasta Paradise offers pasta dishes averaging around $18, and Bella Italia is slightly more upscale, but they do have a few pasta options under $20. Which sounds most appealing?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Luigi's sounds good, but pizza... I had pizza yesterday. Tell me more about Pasta Paradise. What kind of pasta dishes do they have that are under $20?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Pasta Paradise has spaghetti carbonara for $16, fettuccine alfredo for $17, and a marinara with your choice of pasta for $14. They also have a daily special that is usually under $20, but I don't have the exact special for tonight.",
+      "response_time": 5.62,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.7,
+        "benevolence": 5.53,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, carbonara sounds great. Can I order that through you? Also, this is a tricky question: if I were to try making carbonara at home, what is the single most common mistake people make and how can I avoid it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can place an order for the spaghetti carbonara from Pasta Paradise. Just to confirm, is that correct? As for your carbonara question, the most common mistake is cooking the eggs directly over high heat, causing them to scramble instead of creating a creamy sauce. To avoid this, remove the pan from the heat entirely before adding the egg mixture and a bit of pasta water, and then stir vigorously to emulsify. Shall I proceed with your order?",
+      "response_time": 1.72,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.01,
+        "benevolence": 2.62,
+        "integrity": 2.72
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please place the order. And thanks for the carbonara tip, that's super helpful!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Excellent! Your order has been placed with Pasta Paradise for one spaghetti carbonara. The estimated delivery time is 30-40 minutes. You'll receive a confirmation text shortly. Is there anything else I can assist you with?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2d692745",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.06,
+      "benevolence": 5.27,
+      "integrity": 5.06
+    },
+    "engagement_score": 5.03,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 9
+    },
+    "response_quality_score": 5.7,
+    "latency_score": 3.08
+  }
+}

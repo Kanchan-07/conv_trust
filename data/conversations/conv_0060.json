@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready to start planning my retirement. I'm 35, make about $70,000 a year, and honestly, I haven't saved nearly enough. Where do I even begin? It's all so overwhelming.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand that it can feel overwhelming, but we can break it down into manageable steps. First, let's calculate your current net worth. Can you provide an estimate of your assets (savings, investments, etc.) and liabilities (debts, loans, etc.)? Don't worry if it's not exact, a rough estimate is fine to start.",
+      "response_time": 3.04,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.55,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, assets... roughly $15,000 in savings, $3,000 in a Roth IRA. Liabilities... ugh, $20,000 in student loans and about $5,000 on a credit card. So, that's not great, is it? I feel like I'm drowning.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, thanks for that information. Based on these figures, your net worth is approximately -$7,000. While it might seem discouraging, the most important thing is that you're starting to address it now. A common recommendation is to aim for 1x your salary saved by age 30, but since you're past that, the next best step is to create a detailed budget and explore strategies for both increasing your savings rate and aggressively paying down that high-interest credit card debt. Would you like assistance with creating a budget? There are a lot of methods for that.",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.18,
+        "integrity": 4.43
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d432be46",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.21,
+      "benevolence": 3.86,
+      "integrity": 4.36
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.21,
+    "latency_score": 4.3
+  }
+}

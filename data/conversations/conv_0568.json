@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight to Denver for a conference. I'm leaving from Chicago, and I need to be there by the morning of October 27th. Returning on the 30th.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Departing from Chicago (ORD) to Denver (DEN) on October 26th or 27th, returning on the 30th. Correct?",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.19,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's right. Can you show me some options? Preferably non-stop if possible, and I'd like to keep the price under $400 if I can. Ugh, travel these days is such a pain.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. I'm finding several non-stop options for you. United has a flight departing ORD on October 26th at 6:00 PM, arriving in Denver at 7:20 PM for $385. Would you like to see other options?",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.53,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please. That United flight sounds alright, but let's see what else is available. Maybe something earlier in the day on the 26th, if possible. I'd rather not arrive so late.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright. I see a Southwest flight departing ORD at 10:00 AM on the 26th, arriving in DEN at 11:30 AM. It's also non-stop and priced at $399. Is that more preferable?",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.16,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's much better! Okay, what about hotels? Something near the Denver Convention Center, preferably with free breakfast. And is there any way to guarantee I won't be seated next to a crying baby? Just kidding... mostly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Searching for hotels near the Denver Convention Center with free breakfast... Okay, I found The Hyatt Regency Denver at Colorado Convention Center. It offers free breakfast and is directly connected to the convention center. It's rated 4.5 stars. The rate for those nights is $250 per night. Does this sound good?",
+      "response_time": 4.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.37,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That sounds perfect! Book the Southwest flight and the Hyatt Regency for me. Thank you so much for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e35fc4c5",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.47,
+      "benevolence": 4.31,
+      "integrity": 4.41
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.91,
+    "latency_score": 3.56
+  }
+}

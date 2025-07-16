@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. I had a car accident last week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am sorry to hear about your accident. I can certainly help you with filing a claim. To get started, could you please provide your policy number and the date of the accident?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the policy number is ABC123XYZ and the accident happened on October 26th. Ugh, this is already frustrating.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I have located your policy. Could you please briefly describe what happened in the accident, including any injuries or damage?",
+      "response_time": 4.38,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.89,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, I was rear-ended at a stoplight. My car has significant damage to the rear, and I have some whiplash. The other driver admitted fault. I've already gotten a police report.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Understood. Please provide the police report number and the other driver's insurance information, if you have it. Also, have you already had your vehicle assessed for damage?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.74,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, the police report number is 12345. I have the other driver's insurance information, too - it's with Defend Insurance. I haven't had my car formally assessed yet, but do I need to use one of your approved shops? That's always a hassle.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You are generally free to choose your preferred repair shop, as long as they meet industry standards. We have a list of preferred shops you can choose from, but this is not mandatory. Now, to proceed, can you upload the police report and the other driver's insurance information as PDFs?",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.34,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded everything. Thanks for the help so far. I hope this process goes smoothly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cb861053",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.01,
+      "benevolence": 3.99,
+      "integrity": 3.8
+    },
+    "engagement_score": 4.3,
+    "emotion_distribution": {
+      "sadness": 3,
+      "disgust": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 3.76,
+    "latency_score": 4.56
+  }
+}

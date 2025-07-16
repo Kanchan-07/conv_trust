@@ -1,0 +1,124 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a package that seems to be delayed. The tracking number is XYZ123456789.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I see you're inquiring about a package with tracking number XYZ123456789. Please give me a moment while I pull up the latest information for you.",
+      "response_time": 4.86,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "agent",
+      "utterance": "Okay, I have located the tracking information. It shows that the package was last scanned as 'In Transit' in Cityville, State on [Date 3 days ago].",
+      "response_time": 3.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.18,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 4,
+      "speaker": "user",
+      "utterance": "Yes, I saw that. But that was three days ago and there have been no updates since. Why is it just stuck there? I was expecting it much sooner. This is really frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 5,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Occasionally, tracking updates can experience delays between scanning locations, especially during periods of high volume or unforeseen operational issues. The package is likely still moving towards its destination, even if the tracking hasn't updated.",
+      "response_time": 2.18,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.29,
+        "benevolence": 2.17,
+        "integrity": 2.97
+      }
+    },
+    {
+      "turn_id": 6,
+      "speaker": "user",
+      "utterance": "But 'likely moving' isn't very reassuring. If it's moving, why isn't the tracking showing it? Is it lost? Can you tell me *exactly* where it is right now or give me a new estimated delivery date?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 7,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I cannot provide the real-time, exact location of the package between scanned points. Our system relies on scans at facilities. The system currently still shows it as 'In Transit' towards your location, and the original estimated delivery window is still open, although I acknowledge it's nearing the end.",
+      "response_time": 1.41,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.26,
+        "benevolence": 2.92,
+        "integrity": 2.05
+      }
+    },
+    {
+      "turn_id": 8,
+      "speaker": "user",
+      "utterance": "So you're telling me you can't confirm its location and can't give me a reliable delivery date? It seems like it's just vanished!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 9,
+      "speaker": "agent",
+      "utterance": "I sincerely apologize for the lack of a precise update. While I cannot pinpoint its live location, we can initiate an inquiry into the delay. If the package doesn't show any new scans or arrive within the next 2 business days, we can explore filing a missing package claim.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.37,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_75fd44ec",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.3,
+      "benevolence": 3.53,
+      "integrity": 3.38
+    },
+    "engagement_score": 5.62,
+    "emotion_distribution": {
+      "sadness": 3,
+      "joy": 1,
+      "neutral": 2,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 3.77,
+    "latency_score": 5.07
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally tackling this resume. It feels like a monumental task. I've been staring at a blank document for an hour. Can you help me get started? I'm applying for project manager roles.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! A blank page can be daunting. Let's start with the basics. First, what's your most recent project management experience? Tell me about the role, the company, and your key responsibilities and accomplishments.",
+      "response_time": 4.21,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.78,
+        "integrity": 6.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, okay. I was a Project Coordinator at 'Innovate Solutions' for the past three years. I was responsible for, uh, coordinating project tasks, managing schedules, and communicating with stakeholders... ugh, this sounds so generic! How do I make it sound *good*?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Instead of just listing responsibilities, try quantifying your accomplishments whenever possible. For example, instead of 'Managing schedules,' try something like 'Managed project schedules for 15 simultaneous projects, ensuring on-time delivery and adherence to budget constraints.' Can you think of any specific examples where you significantly improved project outcomes, saved the company money, or streamlined processes?",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 4.38,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay. Well, I did implement a new project tracking system that reduced reporting time by 20%. And I also managed a project that came in 10% under budget. But how do I know what keywords to use? I keep hearing about Applicant Tracking Systems. Is there a way to figure out what keywords are important for *this specific* project manager role at *this specific* company I want to work for?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Unfortunately, I don't have access to proprietary information about specific companies or their ATS algorithms. However, a good starting point is to carefully analyze the job description itself. Highlight the skills, responsibilities, and qualifications they emphasize. These are likely the keywords the ATS will be looking for. You can also research industry-standard project management keywords and certifications like PMP, Agile, and Scrum to see if they align with the role and your experience. LinkedIn is also a helpful resource to review profiles of people in similar roles at the target company.",
+      "response_time": 5.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.52,
+        "integrity": 5.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a93b4b48",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.58,
+      "benevolence": 5.56,
+      "integrity": 5.52
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.14,
+    "latency_score": 2.82
+  }
+}

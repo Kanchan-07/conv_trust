@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm preparing for a hackathon next weekend. Can you help me with some ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can assist with that. To give you the best suggestions, could you tell me what kind of hackathon it is (e.g., general, specific theme, etc.) and what your skill set is?",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 6.0,
+        "benevolence": 5.98,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a general one, and I'm a bit of a jack-of-all-trades. I know some Python, a bit of web dev (HTML, CSS, a little JavaScript), and I'm pretty good at UI/UX design. I'm struggling to come up with a good project idea though, feeling a bit stuck.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Given your skills and the lack of a specific theme, you have many options! Here are a few general ideas:\n\n1.  **A Web-based Task Management Application:** Use your web dev skills and Python for the backend (maybe with a framework like Flask or Django). Focus on a clean UI/UX.\n2.  **A Data Visualization Tool:** If you enjoy data, find a dataset and create an interactive visualization using your HTML/CSS/JS skills (maybe using a library like D3.js).\n3.  **A Mobile App Prototype (using React Native or similar):** Showcase your UI/UX skills by building a prototype for a mobile app \u2013 even without full functionality.\n\nWould any of these interest you?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.01,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, the Task Management one sounds interesting, but it's been done so many times. The data visualization one could be cool, but the datasets I usually find are so boring. Also, React Native sounds like a lot to learn in a week. I'm starting to get frustrated. Is there anything *original*?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Finding something original *is* tough! Let's think outside the box a bit. How about focusing on a problem you face personally? \n\nTo give you something more original, I need a little more information to give you great advice. What are your biggest challenges or pet peeves? Are there any problems you've encountered recently that you'd like to solve?",
+      "response_time": 5.37,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.36,
+        "integrity": 5.66
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, you're right. I spend way too much time manually entering my expenses, which is a drag. I use multiple bank accounts. Could I build something to automatically categorize expenses from different bank statements? That seems hard, though... how would I even start parsing those statements programmatically? PDFs are a pain!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great idea and a genuine problem! Parsing bank statements *is* challenging, but not impossible. Python has several libraries (e.g., `PyPDF2`, `pdfminer`) for working with PDFs. You'd need to extract the text, identify key fields (date, description, amount), and use some rule-based categorization or, even better, train a machine learning model for more accurate categorization. It's ambitious for a weekend but definitely possible if you narrow the scope. Start by researching PDF parsing in Python and identifying common statement formats to focus your effort. Let me know if you need more advice on this project.",
+      "response_time": 1.37,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.75,
+        "benevolence": 2.73,
+        "integrity": 2.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_313cd409",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.52,
+      "integrity": 4.41
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.94,
+    "latency_score": 3.76
+  }
+}

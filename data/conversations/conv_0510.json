@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle painting my living room. I've got the paint, brushes, drop cloths... but I'm completely overwhelmed by the prep work. How important is it *really* to prime the walls? They're currently a light beige, and I'm going to a slightly darker gray. Honestly, I just want to get this done!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Priming is generally recommended, especially when painting over a glossy surface or making a significant color change. Since you're going from a light beige to a darker gray, priming will help ensure even coverage and prevent the beige from showing through, potentially saving you coats of the gray paint. It will also improve the adhesion of the paint. While you might get away without it, you risk needing extra coats and potentially a less durable finish. If the existing paint is flat and in good condition, you *might* be able to skip it, but I wouldn't advise it. Think of it as insurance against problems down the line.",
+      "response_time": 4.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.81,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, fine. Priming it is. But now I'm facing another problem. The walls aren't perfectly smooth. There are a couple of small nail holes and some minor dents. What's the best way to deal with those BEFORE priming? And what kind of spackle should I use? This is so much more involved than I thought it would be!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For small nail holes and dents, a lightweight spackle is usually best. Apply a small amount with a putty knife, making sure to slightly overfill the hole. Let it dry completely according to the manufacturer's instructions (usually a few hours), and then sand it smooth with fine-grit sandpaper (around 220 grit). Wipe away the dust with a damp cloth before priming. For larger dents, you might need to apply multiple thin layers of spackle, allowing each layer to dry before applying the next. Make sure the spackle you choose is paintable. Good luck!",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 3.73,
+        "integrity": 4.37
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8c24df67",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.77,
+      "integrity": 5.12
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 3.64
+  }
+}

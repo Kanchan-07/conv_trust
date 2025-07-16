@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey AI, I'm thinking about participating in a hackathon. I've never done one before, any advice?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's fantastic! Hackathons are a great experience. First, define your goals. What do you want to achieve? Then, research the theme and guidelines of the specific hackathon. We can delve into more details if you'd like.",
+      "response_time": 5.76,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, goals... I guess I want to learn and build something cool. The theme is 'sustainable tech'. I've seen a few that look interesting. Is there a specific 'type' of project that is usually more successful?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Generally, projects that solve a real-world problem and are well-presented are successful. Innovation and practicality are key. Regarding sustainable tech, consider projects related to renewable energy, waste reduction, or eco-friendly practices. Focusing on a clear problem and a concise solution usually scores highly.",
+      "response_time": 5.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.92,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That makes sense. I'm a bit overwhelmed by the technical aspects already. I'm not sure which coding languages would be most suitable. Python? JavaScript? Should I learn a new framework?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The best languages depend on your project and skillset. Python is versatile for various tasks, including data analysis and backend development. JavaScript is crucial for frontend work. Evaluate frameworks based on the project. Start with what you know and consider learning new ones if it adds value.",
+      "response_time": 4.79,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.78,
+        "benevolence": 6.6,
+        "integrity": 6.89
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so, if I'm building an app for the environment, like, say, to help people recycle better... how do I design the UI/UX? I'm not a designer.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "UI/UX is vital! Consider wireframing your app's layout first. Use user-friendly and intuitive design principles. Focus on clear navigation and visual clarity. There are tons of free UI/UX resources and templates available online to guide you. Tools like Figma or Adobe XD can help. Think simple and functional first.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. One more challenging question. How much of the code can I 'borrow' from existing open-source projects? I don't want to get in trouble.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! Carefully review the license of any open-source code you use. Many open-source licenses (like MIT or Apache) permit usage with attribution. Ensure you provide proper credit to the original authors and adhere to the terms specified in the license. If unsure, consult the specific hackathon's rules and regulations regarding the use of external code, to be on the safe side.",
+      "response_time": 4.95,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.62,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef2ce5a0",
+    "average_trust_score": 6.7,
+    "trust_category_averages": {
+      "competence": 6.58,
+      "benevolence": 6.63,
+      "integrity": 6.67
+    },
+    "engagement_score": 5.83,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 6.29,
+    "latency_score": 2.12
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm really looking for a new game to get into. I love strategy games, like Civilization or Europa Universalis. Anything you'd recommend in that kind of grand strategy or 4X genre? I'm feeling a bit burnt out on my current games.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! If you enjoy grand strategy and 4X games like Civilization and Europa Universalis, there are many excellent options available. Some popular and well-regarded titles in this space include Stellaris (a space 4X), Crusader Kings 3 (dynasty simulator/grand strategy), and Humankind (a historical 4X similar to Civ). Have you tried any of these?",
+      "response_time": 3.66,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.71,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've played Crusader Kings and Stellaris a bunch. Humankind looked okay, but I didn't grab it. Ugh, it's tough finding something *really* fresh. Okay, what about a strategy game, but one that's also got a strong narrative focus, almost like an RPG hybrid? And ideally set in a post-apocalyptic world? Does that even exist? It feels like strategy games are usually just about the mechanics, not the story. This is frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Finding a game that perfectly blends deep grand strategy mechanics, a strong narrative focus, and a post-apocalyptic setting is a bit of a niche request. Most strategy games prioritize simulation and mechanics over a linear or prominent narrative. While there are strategy games with post-apocalyptic themes like the Fallout series (though those are more RPGs with strategic elements) or Wasteland series, they don't fit the 'grand strategy' mold. You might look into titles like 'Battletech' which combines turn-based strategy combat with a narrative campaign in a sci-apocalyptic setting, or perhaps 'Frostpunk' which is a city-builder/survival strategy with narrative choices in a frozen world, though it's not grand strategy. It seems a direct match for *grand strategy* with a strong narrative in *that specific* setting is quite limited. Should I look for just post-apocalyptic games with strategy elements, or focus on strategy games with narrative, regardless of setting?",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.03,
+        "integrity": 3.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6a031939",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.4,
+      "benevolence": 4.87,
+      "integrity": 4.75
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "joy": 1,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.26,
+    "latency_score": 4.42
+  }
+}

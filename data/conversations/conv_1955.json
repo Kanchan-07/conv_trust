@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into electronic music, particularly house and techno. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your preferences, I can suggest some artists and tracks. For house music, you might enjoy artists like Disclosure, Honey Dijon, or Peggy Gou. For techno, check out Charlotte de Witte, Adam Beyer, or Richie Hawtin. Would you like me to provide links to their music?",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.4,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, links would be great! But... honestly, I've heard of all of those artists already. Anything a little less mainstream?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies! My database defaults to more popular choices. For less mainstream options, consider these:\n\n*   **House:** Mall Grab, Folamour, Ross From Friends\n*   **Techno:** Ben Klock, DVS1, Surgeon\n\nI'll also provide links.  Let me know if you like them!",
+      "response_time": 6.0,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I know a couple of those names... but now I'm curious, what about subgenres? Like, what's some good ambient techno or minimal house?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a slightly trickier request. My ability to specify subgenres isn't perfect. For ambient techno, I'd suggest exploring artists like Gas or Biosphere. For minimal house, try Ricardo Villalobos or Luciano.  I am still learning to differentiate between these genres perfectly.",
+      "response_time": 2.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.79,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that's a start, thanks! I'll check those out. One more thing, is there a way to filter by *mood*? Like, uplifting house versus something more melancholic?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I don't have a direct mood-based filter at the moment. However, you could search for playlists on streaming services that use keywords like \"melancholic techno\" or \"uplifting house\". I am constantly being updated and this feature might be implemented in the future!",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.72,
+        "integrity": 4.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b2c95a43",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.74,
+      "benevolence": 4.73,
+      "integrity": 4.93
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1,
+      "sadness": 2
+    },
+    "response_quality_score": 5.16,
+    "latency_score": 3.43
+  }
+}

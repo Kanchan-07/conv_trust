@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my calculus homework. I'm really struggling with related rates problems.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist with related rates. Let's start with a problem. Could you provide one you're working on, or would you like me to generate one?",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.76,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here's one. 'A conical water tank with vertex down has a radius of 4 feet at the top and a height of 12 feet. If water is flowing into the tank at a rate of 2 cubic feet per minute, how fast is the water level rising when the water is 6 feet deep?' I'm so confused!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, let's break this down. First, we need to identify the knowns and unknowns. We know the radius and height of the cone, the rate of inflow (dV/dt), and the depth we're interested in. We want to find dh/dt.  Do you want me to guide you through the steps, or would you prefer a more detailed explanation?",
+      "response_time": 2.19,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.67,
+        "benevolence": 2.33,
+        "integrity": 2.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I think I understand the setup, but I'm getting lost when it comes to relating the variables. How do I relate the radius and height of the water at any given time?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good question! Because the water is always in the shape of a similar cone to the tank itself, we can use similar triangles. The ratio of the radius to the height of the water will always be the same as the ratio of the radius to the height of the tank. So, r/h = 4/12 = 1/3, or r = h/3. Does that help?",
+      "response_time": 4.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.69,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that's perfect! I was missing that crucial relationship. Okay, I think I can solve it now. Thanks for your help! Wait... what if the tank wasn't a cone? How would the problem change if it were a cylinder with the same height and base radius?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Excellent! If the tank were a cylinder, the volume formula would be different (V = \u03c0r\u00b2h). The key difference would be that the radius would no longer be changing in relation to the water height. This would greatly simplify the problem. The water level would rise at a constant rate, assuming water is flowing in at a constant rate. You would essentially be dealing with a simpler rate of change problem, dh/dt, directly from the volume rate, dV/dt, since the radius would remain constant. Good job with that challenging question!",
+      "response_time": 4.79,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.58,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2ae125bf",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.21,
+      "benevolence": 5.09,
+      "integrity": 5.39
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.6,
+    "latency_score": 3.53
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, this smart thermostat is driving me crazy! It keeps saying 'Offline' even though my Wi-Fi is working perfectly. I've tried restarting it like five times already!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. My name is Alex, and I'll do my best to help. Could you please tell me the model number of your smart thermostat?",
+      "response_time": 2.32,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.11,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's the 'ThermoSmart 3000'. Okay, what now? I've seen some stuff online about IP addresses, but frankly, that's like a foreign language to me. Is that something I need to mess with?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks! Let's try a simple step first. Please unplug the thermostat from the wall and also power cycle your router (unplug it, wait 30 seconds, and plug it back in). Once both are back on, see if the thermostat reconnects. If not, we can move on to checking the IP address.",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I did that. Unplugged everything, waited, plugged it back in...and...HOORAY! It's back online! Thank goodness. Though, out of curiosity, why would unplugging the router fix a thermostat problem? That seems weird.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great news! Sometimes, the router assigns a new IP address to devices, which can cause temporary connection issues. Power cycling forces the router to refresh its connections, resolving potential conflicts. Is there anything else I can assist you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.7,
+        "benevolence": 6.83,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3ad2f205",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 6.03,
+      "benevolence": 5.98,
+      "integrity": 6.03
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "disgust": 2,
+      "anger": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.69,
+    "latency_score": 3.14
+  }
+}

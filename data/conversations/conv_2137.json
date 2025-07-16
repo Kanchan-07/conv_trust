@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately, constantly tired, and I've been experiencing headaches. Any idea what could be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am programmed to provide general health information. Those symptoms can be related to several factors, including sleep deprivation, dehydration, stress, or even underlying medical conditions. To get a better understanding, could you tell me a little more about your daily routine, diet, and any other symptoms you might have?",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.49,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I work a pretty demanding job, so I'm often stressed. I try to eat healthy, but I don't always get the chance. I also have trouble sleeping, maybe 5-6 hours a night, sometimes less. My headaches are usually in the late afternoon.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on this information, it could be a combination of factors. Stress, poor sleep, and irregular eating habits can all contribute to fatigue and headaches. It would be best to prioritize getting enough sleep, managing your stress levels, and making sure you're eating balanced meals. However, I am programmed to only give general advice. What specific steps should you take to manage your stress? That falls outside my capabilities.",
+      "response_time": 2.16,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.14,
+        "benevolence": 2.23,
+        "integrity": 2.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a bit frustrating; you give a diagnosis but can't really help me with it. Okay, let's say I go see a doctor, what tests are likely to be ordered? Is it always blood tests?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If you consult a doctor, they might order a range of tests to rule out various possibilities. Blood tests are common to check for things like anemia, thyroid issues, or infections. They might also perform a physical examination and ask detailed questions about your medical history and symptoms. The specific tests will depend on what the doctor suspects based on your examination and initial assessment.",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.36,
+        "integrity": 5.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b09150d4",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.2,
+      "benevolence": 4.36,
+      "integrity": 4.53
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 3
+    },
+    "response_quality_score": 4.76,
+    "latency_score": 4.21
+  }
+}

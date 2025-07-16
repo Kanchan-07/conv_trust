@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new kitchen faucet, but I'm completely lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can definitely help with that. To give you the best advice, could you tell me what you've done so far and what seems to be the most challenging part?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I disconnected the old one, but now I'm struggling to connect the new supply lines. They don't seem to fit right, and I'm starting to get frustrated. Plus, the instructions are useless.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Supply lines can be tricky. Are you working with flexible or rigid supply lines? And do you know the size of the connections on the new faucet? Knowing the connection types (e.g., compression, push-fit) will help me provide more specific instructions.",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.37,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, okay, they're flexible. I think the old ones were too. The instructions just say 'connect supply lines' like I'm supposed to know what I'm doing. Honestly, what's the likelihood of cross-threading those lines if I'm not careful?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very valid concern. Cross-threading is a common problem. With flexible supply lines, it's less of an issue if you're careful. Make sure the threads are aligned before you start tightening, and only tighten them by hand until they're snug. Then, use a wrench to give it a quarter to half turn more. However, I am still under development, and don't have a perfect understanding of how to handle that specific task. You might want to consult a professional on this matter.",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.88,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll try that. Thanks for the advice, and I appreciate you being honest about your limitations. I'll take a look at it again and maybe get some help if I get stuck. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8455a4a4",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 5.08,
+      "integrity": 4.99
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.65,
+    "latency_score": 3.35
+  }
+}

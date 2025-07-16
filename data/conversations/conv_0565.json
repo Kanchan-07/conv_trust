@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice regarding a contract dispute with a former business partner. I feel like I'm getting ripped off.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can certainly provide some general information. Please understand that I am an AI and cannot provide legal advice. However, I can help you understand the relevant legal concepts and potential options. Could you please describe the nature of the contract and the details of the dispute?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.56,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so the contract was a partnership agreement. He was supposed to handle marketing, and I handled operations. He basically did nothing, didn't meet agreed-upon goals and now he's claiming he's owed a significant share of the profits. It's infuriating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see. So, the core issue seems to be breach of contract, specifically related to his alleged failure to fulfill his marketing obligations as outlined in the partnership agreement. Do you have documentation of the agreed-upon marketing goals and any records of his performance, or lack thereof?",
+      "response_time": 1.77,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.16,
+        "benevolence": 2.27,
+        "integrity": 2.77
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I have everything. Emails, performance reports, everything. But what I don't understand is, even if he technically breached the contract, how much weight does that really carry if it wasn't *explicitly* stated that failure to meet those goals would affect his profit share?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very important question. The weight it carries depends on several factors, including the specific language of the contract regarding performance expectations, any clauses relating to 'material breach,' and applicable state laws governing partnership agreements. Courts often look at the 'totality of the circumstances' to determine if a breach is significant enough to warrant a change to the originally agreed terms. It might be beneficial to review the 'entire agreement' clause, if one exists, as well.",
+      "response_time": 2.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.16,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'entire agreement' clause. Got it. I'll look for that. But let's say the contract is vague, and doesn't explicitly state consequences. Am I just screwed then? Is there anything else that can be done if the contract wording isn't in my favor?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Potentially, no. Even with vague wording, there are arguments that can be made. For example, you might be able to argue 'implied duty of good faith and fair dealing,' which exists in most jurisdictions. This means that even if the contract doesn't explicitly state it, your partner had an obligation to act reasonably and honestly in fulfilling his responsibilities. You could also explore the concept of 'unjust enrichment,' if your partner received benefits (profits) without adequately contributing. However, the success of these arguments depends heavily on the specific facts and the applicable jurisdiction.",
+      "response_time": 1.54,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.25,
+        "benevolence": 2.23,
+        "integrity": 2.42
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's... somewhat helpful. So, basically, I need to find a lawyer who specializes in partnership disputes. Is there anything *else* I should be thinking about right now before I start looking for one?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes. Compile all relevant documents: the partnership agreement, emails, performance reports, financial statements, and any other communication related to the dispute. Also, make a detailed timeline of events. The more organized you are, the more efficient and cost-effective your consultation with a lawyer will be. Be prepared to discuss your desired outcome and what you consider to be a fair resolution.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e2e20a9f",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.87,
+      "benevolence": 3.84,
+      "integrity": 3.9
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 8,
+      "anger": 1
+    },
+    "response_quality_score": 3.57,
+    "latency_score": 4.57
+  }
+}

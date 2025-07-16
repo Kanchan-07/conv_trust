@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new books to read. I'm really in the mood for something in the sci-fi genre. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! For science fiction, I can recommend 'Dune' by Frank Herbert, a classic, and 'The Martian' by Andy Weir, which is more contemporary and focuses on survival. Do either of those sound interesting?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.28,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've read 'Dune' already, great book! 'The Martian' sounds interesting, but I'm looking for something a little less\u2026 mainstream, I guess? Something a bit more thought-provoking, maybe dealing with philosophical themes. It's hard to explain, I know!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. If you're looking for something more philosophical within sci-fi, how about 'A Fire Upon the Deep' by Vernor Vinge? It explores different levels of technological and societal advancement across different regions of space. Or perhaps 'Blindsight' by Peter Watts, which delves into first contact with a truly alien intelligence. ",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.4,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'Blindsight' sounds fascinating! But, here's a tough one: could you recommend something similar to 'Blindsight' but written by a female author or featuring a female protagonist who is not just a side character? I'm trying to diversify my reading list.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's an excellent question! Finding works directly comparable to 'Blindsight' with a female focus is challenging as its specific themes are quite unique. However, you might find 'Ancillary Justice' by Ann Leckie compelling. While not a perfect match, it features a non-binary protagonist and explores themes of artificial intelligence, identity, and colonialism in a fascinating way. The AI aspects are very well done.",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.84,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'Ancillary Justice' sounds like a good option. Thanks! That was actually really helpful; I appreciate the effort you put into that last recommendation especially.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d577474b",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.84,
+      "integrity": 4.36
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 3,
+      "surprise": 2
+    },
+    "response_quality_score": 4.23,
+    "latency_score": 3.48
+  }
+}

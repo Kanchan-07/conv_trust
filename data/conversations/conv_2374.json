@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued, and I'm not sure what to do.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand. I can provide general information, but I am not a substitute for a lawyer. I can help you understand the basic legal concepts involved and guide you towards finding legal representation. Could you please provide some details about the case, such as the type of lawsuit and what it concerns?",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.64,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a breach of contract suit. Apparently, I didn't fulfill the terms of a service agreement. I thought I did! This is so frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Breach of contract cases often hinge on the specific wording of the agreement. Can you tell me what the contract was for, and what part they claim you breached? Also, do you have a copy of the contract and the summons?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.06,
+        "integrity": 1.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I have the contract and the summons. The contract was for a website design, and they claim I didn't deliver the final revisions. I did, though. The summons is really vague.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. In a breach of contract case, the plaintiff (the person suing you) must prove that a valid contract existed, you breached that contract, and they suffered damages as a result. Do you have proof, such as emails or records, showing you sent the revisions?",
+      "response_time": 2.72,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.37,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I do have some emails, but they're a bit\u2026scattered. The plaintiff's lawyer is already sending threatening letters, it's making me really nervous. What's the worst that could happen?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The worst-case scenario in a breach of contract lawsuit depends on the specific terms of the contract and the damages claimed. It's possible you could be ordered to pay damages, which could include the cost to hire someone else to complete the website, or even lost profits if the website was meant to generate revenue. In addition, depending on the contract, you may be responsible for attorney's fees. The best thing to do would be to find an attorney. Do you know how to find one?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.22,
+        "benevolence": 1.27,
+        "integrity": 1.17
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's\u2026 that's a lot. But thanks, I think I understand the basics now. How reliable are online legal services for actually defending me in court? Could one of them handle this?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Online legal services vary in quality. Some may provide basic assistance, but they are unlikely to offer the same level of personalized service or expertise as a local attorney experienced in contract law. They may also be less equipped to handle complex legal strategies in court. I strongly recommend consulting with a local attorney, especially given the existing correspondence from the opposing counsel. They can assess your case thoroughly and advise you on the best course of action. I can provide you with a list of local attorneys if you want, just let me know.",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.3,
+        "integrity": 4.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b585eb3e",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.15,
+      "benevolence": 3.33,
+      "integrity": 3.35
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1,
+      "anger": 2,
+      "fear": 1
+    },
+    "response_quality_score": 2.8,
+    "latency_score": 5.12
+  }
+}

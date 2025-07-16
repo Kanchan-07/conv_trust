@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of running shoes. Can you recommend some based on what I've bought before?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your purchase history, I can see you previously bought a pair of 'Nike ZoomX Invincible Run Flyknit' shoes. I recommend looking at the 'Brooks Glycerin 20' or the 'Hoka Bondi 8' as similar options. Would you like me to show you those?",
+      "response_time": 4.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.54,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, show me the Brooks Glycerin 20. What sizes are available and what colors do they come in?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, the Brooks Glycerin 20 is available in sizes 7-14, and the available colors are: Black, White, Blue, and Grey. Is there a specific size or color you're interested in?",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.07,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Actually, I wear a size 11 and I only like blue and black. Can you filter those?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I can. Please see the available options below. I noticed the Black ones are currently on sale! Do you want to compare them with the Hoka Bondi 8 now?",
+      "response_time": 4.73,
+      "emotion_detected": "surprise",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.86,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, I'm not sure. How are the Brooks different from the Hokas? I'm not familiar with Hoka.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The Brooks Glycerin 20 is known for its plush cushioning and smooth ride, suitable for daily training. The Hoka Bondi 8 is known for its maximum cushioning, ideal for longer distances and recovery runs. The Hoka is more bulky-looking, while the Brooks is more streamlined. I would recommend the Brooks in your case but this is based on a very small sample size. Ultimately, the best choice is a matter of preference.",
+      "response_time": 4.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.82,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But if you could only recommend *one* shoe, based on what you know about my preferences and past purchases, which would it be? It feels like you're hedging...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Given your history with Nike and a preference for smoother rides, the Brooks Glycerin 20 in size 11 in Black would be my top recommendation. However, I always recommend trying them on if possible. Would you like to add it to your cart?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.64,
+        "integrity": 5.88
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c4847f4",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.22,
+      "benevolence": 5.39,
+      "integrity": 5.37
+    },
+    "engagement_score": 5.47,
+    "emotion_distribution": {
+      "neutral": 8,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.35,
+    "latency_score": 3.51
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order, but the tracking number isn't working. I'm getting really frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Please provide your order number, and I'll check the status for you. Can you also double-check the tracking number to ensure you've entered it correctly?",
+      "response_time": 2.18,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.51,
+        "benevolence": 2.3,
+        "integrity": 2.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the order number is #12345. I've triple-checked the tracking number. It's definitely not working. It says 'invalid tracking number'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm accessing the order details now... Ah, it seems there might be a delay with the carrier's system updating. The package was shipped yesterday and is currently in transit. Please allow 24-48 hours for the tracking information to fully update. In the meantime, I can confirm the package is on its way and provide you with a delivery estimate of 3-5 business days.",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.27,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's a little better, at least I know it's *supposed* to be on its way. But, the website says I can return an item within 30 days of delivery. What if the item arrives, and it's damaged. If the tracking information is wrong, how do I prove when the delivery happened to return a broken item within the window?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very good question. In the event of a damaged item, we usually honor the return based on the *shipped* date, which we have recorded in our system, even if the tracking information is delayed or inaccurate. Additionally, we always encourage customers to contact us immediately upon receiving a damaged item. We can also provide you with an estimated delivery date based on the shipping label if the tracking is not working. We will accept your return within 30 days of our estimated delivery date.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.44,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that makes me feel much better. Thanks for the information. I appreciate the prompt responses and clear answers.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're very welcome! Is there anything else I can assist you with today? We want you to be happy with your purchase, and if you have any other questions or concerns, please don't hesitate to ask.",
+      "response_time": 5.26,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6a95d68b",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.58,
+      "benevolence": 4.75,
+      "integrity": 4.71
+    },
+    "engagement_score": 4.54,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "joy": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.02,
+    "latency_score": 3.85
+  }
+}

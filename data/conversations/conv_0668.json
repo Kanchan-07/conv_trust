@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week, order number #12345, and it still says 'processing'. What's going on? I need this package soon!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for reaching out. Let me quickly check the status of order #12345. One moment, please... Okay, I see that your order is currently being processed in our warehouse. There was a slight delay due to a high volume of orders, but it is scheduled to ship out tomorrow. You should receive a tracking number within 24-48 hours after it ships.",
+      "response_time": 4.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.11,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Tomorrow?! Ugh, that's not ideal. I paid extra for expedited shipping. Is there any way to speed things up? I really needed this by the end of the week.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration regarding the delay. Unfortunately, once the order is in the processing queue, I'm unable to expedite the process further. However, since you paid for expedited shipping and the original delivery timeframe is no longer possible, I can offer you a refund for the shipping fee. Would you like me to proceed with that?",
+      "response_time": 2.04,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.49,
+        "benevolence": 2.72,
+        "integrity": 2.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's\u2026 acceptable, I guess. But just so I understand this correctly for future orders: if I pay for expedited shipping, what guarantees do I have that my order won't just sit in the warehouse for days anyway? What are your performance metrics regarding on-time shipping for expedited orders? And how do you compensate customers when you fail to meet them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ee8ecf1f",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.82,
+      "benevolence": 3.92,
+      "integrity": 4.16
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.53,
+    "latency_score": 4.17
+  }
+}

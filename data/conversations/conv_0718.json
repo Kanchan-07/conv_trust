@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. I've been trying to call for two days and haven't gotten through. It's kind of frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help you schedule an appointment with Dr. Ramirez. Do you have a preferred date or time in mind?",
+      "response_time": 3.15,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 3.97,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm flexible, but ideally sometime next week would be great. What's her availability looking like? And, just out of curiosity, why is it so difficult to reach the office by phone?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, checking Dr. Ramirez's availability for next week... It appears she has an opening on Tuesday at 2:00 PM or Thursday at 10:00 AM. As for the phone situation, the office has been experiencing a higher than usual call volume. I can\u2019t provide any more information.",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.61,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thursday at 10:00 AM works perfectly. Thanks for your help! I really appreciate it.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_652bf113",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.58,
+      "benevolence": 3.79,
+      "integrity": 3.67
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2,
+      "joy": 1
+    },
+    "response_quality_score": 4.05,
+    "latency_score": 4.17
+  }
+}

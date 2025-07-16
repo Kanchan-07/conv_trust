@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with Dr. Emily Carter. It's been difficult getting through on the phone.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your name and date of birth for verification?",
+      "response_time": 5.17,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.82,
+        "integrity": 5.02
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, date of birth is 03/15/1988. Ugh, finally some progress!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Smith. What is the reason for your visit today?",
+      "response_time": 4.65,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.64,
+        "integrity": 6.64
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I need a follow-up appointment regarding my cholesterol levels. The last blood test results were concerning.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. Dr. Carter has availability on the following dates: October 26th at 10:00 AM, or November 2nd at 2:30 PM. Which of these works best for you?",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.22,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, neither of those times are ideal. Is there any chance of something earlier in October, even if it's with a different doctor in the practice? Also, why are the lipids tests always so high, is it possible that the sample collection methods are flawed?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me check for alternative availabilities. Just a moment. I see Dr. Lee is available on October 19th at 11:00 AM. Would that work? Regarding your question about the lipid tests, that's a medical question best addressed directly by a doctor during your appointment. However, I can assure you our lab follows strict quality control procedures. ",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.39,
+        "integrity": 3.9
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_31da3df1",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.13,
+      "benevolence": 5.27,
+      "integrity": 4.77
+    },
+    "engagement_score": 4.54,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.07,
+    "latency_score": 3.32
+  }
+}

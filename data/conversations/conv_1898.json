@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some book recommendations. I really enjoy fantasy, but I'm not sure what to read next.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me what you typically enjoy within the fantasy genre? Are you into epic fantasy, urban fantasy, something else?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.77,
+        "benevolence": 6.79,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I like both epic fantasy and urban fantasy. Something with strong world-building is a must. I also like books with a good magic system. Honestly, something that's not too clich\u00e9 would be nice.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on that, I would recommend *The Name of the Wind* by Patrick Rothfuss (epic fantasy) and *Rivers of London* by Ben Aaronovitch (urban fantasy). Both have excellent world-building and interesting magic systems. As for avoiding clich\u00e9s, they both do a pretty good job.",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.42,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Rothfuss... I've heard of that. But isn't the series unfinished? I hate that. Are there any similar books, finished or at least with a definitive ending?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, you are correct. Yes, the series is currently unfinished. Finding something exactly like Rothfuss with a complete ending is tricky, but if you liked the magic school elements, you could try *The Magicians* by Lev Grossman. It's a trilogy and finished. However, it is not as grand in scale as *The Name of the Wind*.",
+      "response_time": 2.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.16,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll look into *The Magicians*. What makes it similar to Rothfuss, besides the magic school? Is the writing style also similar? And what about the characters and plot structure?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The writing styles are different, with Grossman being more contemporary. The characters are more flawed, and the plot structure is less traditional epic fantasy. The magic school aspect is there, but it takes on a different tone with a somewhat darker tone. Overall, the focus is more on the characters than on world-building.",
+      "response_time": 3.41,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.49,
+        "integrity": 3.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aacb5fd5",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.96,
+      "integrity": 4.73
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 4,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.68,
+    "latency_score": 3.73
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some recommendations for a new laptop. My budget is around $800. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of $800, I can recommend a few laptops. To give you the best suggestions, could you tell me what you primarily plan to use the laptop for? For example, is it for work, gaming, school, or general use?",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.82,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly for work and some light gaming. I've looked at a few and I'm getting so confused with all the specs! It's like a foreign language. Can you really simplify this for me?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand that the specs can be overwhelming. Okay, for work and light gaming, within your budget, I would suggest looking at laptops with these specs: at least an Intel Core i5 or AMD Ryzen 5 processor, 8GB of RAM, and a 256GB SSD. For light gaming, consider laptops with dedicated graphics cards like the NVIDIA GeForce MX series or AMD Radeon Vega series. I can't give you precise product suggestions now, but can you show me the exact laptop models that are currently available under $800?",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.26,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks! But, how do I know if a used laptop is a good deal? The prices are all over the place. Is there a way to assess the value?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b2f7dbcb",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.21,
+      "benevolence": 5.04,
+      "integrity": 4.7
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 3.24
+  }
+}

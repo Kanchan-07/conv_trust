@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with some AR denials. They're really piling up.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with your Accounts Receivable denials. What specific issues or denial types are you encountering?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.82,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's mostly denials for 'Lack of Medical Necessity'. But I feel like these cases were perfectly justified. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Medical Necessity denials can be challenging. They usually occur when the payer determines that the service provided did not meet their criteria for being medically necessary for the patient's condition.",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.9,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I know *what* the denial means generally, but how do I *appeal* it effectively? Simply stating 'it was necessary' isn't working. Do you have templates or specific steps I should follow? I feel lost on the best approach.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "A strong appeal requires detailed clinical documentation. You should gather all relevant patient records, progress notes, test results, and physician's rationale supporting the medical necessity of the service. Compare this documentation against the payer's specific medical policy for that service, if available. Your appeal letter should clearly reference how the documentation supports meeting their policy or demonstrates why the service was necessary for the patient's unique circumstances.",
+      "response_time": 5.17,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.72,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That makes sense. But many payers have slightly different policies, and finding the *exact* policy for every single denial and comparing it manually is incredibly time-consuming. Can your system integrate with payer portals or policy databases to automatically flag *which* specific policy was violated or even draft a *payer-specific* appeal letter based on the claim data and patient record?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My current capabilities allow me to assist with identifying denial reasons from claim data and providing guidance on appeal components based on general best practices. While direct, automated integration with all payer portals for policy lookup and drafting payer-specific appeal letters isn't fully developed for every scenario, I can help structure your appeal by highlighting key documentation elements and suggesting points to address based on the denial code provided.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I understand the limitation on full automation, but highlighting key documentation and structuring the appeal based on the denial code is still very helpful. Thanks for clarifying that. I'm feeling a bit better about tackling these now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Great! I'm glad I could provide helpful guidance. Feel free to share specific denial details or questions as you begin drafting your appeals, and I will do my best to assist you through the process.",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.64,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_54ba16f8",
+    "average_trust_score": 6.1,
+    "trust_category_averages": {
+      "competence": 6.15,
+      "benevolence": 6.05,
+      "integrity": 6.13
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 5.62,
+    "latency_score": 2.07
+  }
+}

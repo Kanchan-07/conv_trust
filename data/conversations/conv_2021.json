@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help planning my groceries. I'm on a really tight budget this week, like $75 for the entire week. Can you give me some ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! I can definitely help with that. To start, what types of meals do you typically enjoy? Also, are there any dietary restrictions or preferences I should be aware of, like vegetarian, allergies, etc.?",
+      "response_time": 5.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.03,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I like pretty much anything, but I'm trying to eat healthier this week. No allergies, but I'm trying to cut back on meat a bit. And definitely no seafood. I am feeling a bit overwhelmed already!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Let me generate some meal ideas based on those parameters, keeping in mind your budget constraints. I will prioritize cost-effective options like beans, lentils, and seasonal vegetables. One moment... \n\nHere's a potential meal plan. It includes: \n*   Breakfast: Oatmeal with fruit ($5)\n*   Lunch: Lentil soup ($10)\n*   Dinner: Black bean burgers with salad ($15)\n\nThat leaves $45 for the rest of the week.",
+      "response_time": 5.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.4,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a start, but doesn't seem like a lot of food, honestly. Are you accounting for the actual *ingredients* or just making up prices? And what about snacks?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You raise a valid point. I am currently using estimated prices. To create a more accurate plan, I will need to be linked to current local grocery store prices, which is outside my current capabilities. However, based on the current estimates, the $45 remaining should cover snacks such as fruits and vegetables, and other dinners like pasta with a tomato sauce.  For example, a bag of pasta is typically only $2-3 and can serve several dinners. Do you have any preferred snacks or pasta sauces?",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 3.83,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I understand the limitations. What kind of vegetables are seasonal right now? And can you recommend some quick pasta sauce recipes that are cheap?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly! Depending on your location, some seasonal vegetables might include spinach, broccoli, and zucchini. As for cheap pasta sauce recipes, a simple marinara sauce made with canned tomatoes, garlic, onions, and herbs is very cost-effective. You can find numerous recipes online. Just search for 'cheap marinara sauce' and you'll find tons of options. Good luck!",
+      "response_time": 4.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.27,
+        "integrity": 5.83
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_07599cc5",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.07,
+      "benevolence": 4.88,
+      "integrity": 5.36
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 5.01,
+    "latency_score": 2.67
+  }
+}

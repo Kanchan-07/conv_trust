@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm bored. Recommend me a good movie?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! What genre are you in the mood for?",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.16,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, something action-packed, I guess. Like a good thriller, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. I recommend 'The Dark Knight'. It's a classic action thriller with a great story.",
+      "response_time": 3.93,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.22,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Seen it. A million times. Anything else? And please, nothing too mainstream.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. Have you seen 'Prisoners'? It's a neo-noir thriller. Critically acclaimed, but maybe not as widely known as 'The Dark Knight'.",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 4.44,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Interesting. What makes a movie 'neo-noir' as opposed to just 'noir'? Is it just the timeframe it was made in, or are there specific stylistic elements that define it? Also, what are some other examples?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Neo-noir films typically update the themes and visual style of classic film noir, often with more explicit violence or sexuality and a focus on moral ambiguity. While the timeframe is a factor (neo-noir generally refers to post-noir films), it's the stylistic and thematic elements that truly define it. Other examples include 'Blade Runner', 'Chinatown', and 'L.A. Confidential'.",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.2,
+        "integrity": 3.9
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8d2d6b1b",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.32,
+      "benevolence": 4.5,
+      "integrity": 4.36
+    },
+    "engagement_score": 4.88,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.82,
+    "latency_score": 3.57
+  }
+}

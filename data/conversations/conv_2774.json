@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a good movie to watch tonight. I'm really in the mood for a thriller. Got any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Thrillers are a great choice. Some highly-rated and popular thriller films include *Get Out*, *Parasite*, and *The Silence of the Lambs*. Have you seen any of those?",
+      "response_time": 4.33,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.63,
+        "integrity": 5.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen all of those classics. They're fantastic, but I was hoping for something maybe a bit less mainstream? Like a hidden gem from the last decade or two that isn't a huge blockbuster. It's surprisingly hard to find something that isn't constantly recommended!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, I see. Looking for something less mainstream. How about *Spider-Man: Homecoming* or perhaps *Mission: Impossible - Fallout*? Both are quite thrilling!",
+      "response_time": 3.42,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.55,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, no, those are definitely blockbusters, not hidden gems! And *Spider-Man* isn't really a thriller. Can you even recommend a psychological thriller released between 2010 and 2020 that wasn't nominated for a major Oscar or Golden Globe? I feel like all your suggestions are the same big movies.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, those earlier suggestions missed the mark. Finding thrillers from that specific timeframe that weren't widely recognized by major awards can be a more focused search. Let me adjust. Consider *Prisoners* (2013), a gripping psychological thriller, or perhaps *Good Time* (2017), an intense crime thriller. Neither received major Oscar/Globe nominations, though *Prisoners* was quite popular.",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.92,
+        "integrity": 4.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1e9996e8",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.24,
+      "benevolence": 5.03,
+      "integrity": 4.86
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "joy": 3,
+      "surprise": 1,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.9,
+    "latency_score": 3.57
+  }
+}

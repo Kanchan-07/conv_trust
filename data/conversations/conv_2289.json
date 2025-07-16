@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some help. I have a wedding coming up, and I have absolutely no idea what to wear. My budget is pretty tight, let's say $200 max for the entire outfit. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can help with that. $200 is a manageable budget for a wedding guest outfit. To give you the best recommendations, could you tell me a bit more about the wedding? For instance, is it formal, semi-formal, or casual? Also, what's your typical style, and what colors do you usually gravitate towards?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 6.99,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I hate these questions. Fine. It's semi-formal, outside in the late afternoon. I usually wear pretty basic stuff, mostly neutral colors - black, gray, navy. I don't want to look *too* boring though. And I really don't want to end up looking like everyone else!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand! A semi-formal, late afternoon outdoor wedding with a desire to stand out. Based on your preference for neutral colors, here are a few ideas, all aiming to stay within your $200 budget:\n\n1.  **Navy Midi Dress:** A classic navy midi dress is versatile and flattering. You can find some great options online for under $100. Pair it with a statement necklace or earrings (under $30) and some neutral heels or dressy flats (under $70).\n2.  **Black Jumpsuit:** A well-fitting black jumpsuit is chic and easy. Look for one with interesting details, like a wide leg or lace overlay. You should be able to find a nice one for under $120. Accessorize with colorful earrings and a clutch ($30-50).\n\nTo take it a step further: How can I guarantee that the outfits I recommend are available in your size? Since price is so important, I need to make sure that these recommendations are accessible.",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.16,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a great point. Yeah, I guess I should have asked about sizes. I'm a size 10. And I'd really like a black jumpsuit, that sounds perfect! Are there any specific brands or stores you'd recommend that are likely to have something in my size and price range?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9b8e451d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.3,
+      "benevolence": 5.58,
+      "integrity": 5.37
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.13,
+    "latency_score": 2.78
+  }
+}

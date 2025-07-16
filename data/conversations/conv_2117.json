@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to update my resume, but I'm so overwhelmed! Where do I even start? I haven't looked at it in years.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be daunting. Let's break it down. First, what kind of role are you targeting? Once we know that, we can tailor your resume to the specific requirements. Also, I recommend a chronological format unless you have a compelling reason for another layout.  Do you have a current resume you can share, or should we start from scratch?",
+      "response_time": 3.8,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.01,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm aiming for a project management position. And, yes, I have an old resume, but it's seriously outdated.  I could share it, but honestly, it's probably a train wreck. It focuses way too much on my previous role and doesn't highlight any of my project management experience. What's the best way to quantify my achievements? I'm terrible at that.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's fix that! Sharing your old resume will still be helpful. We can use it as a baseline and extract the relevant information. For quantifying achievements, use the STAR method (Situation, Task, Action, Result).  Describe the *situation*, the *task* you faced, the *action* you took, and the measurable *result*. For example, instead of saying 'Managed projects,' you could say 'Managed 5 concurrent projects, delivered on time and under budget, resulting in a 15% increase in client satisfaction.' I can give you more specific examples later. What kind of software have you worked with, for your project management roles?",
+      "response_time": 2.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 3.72,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That STAR method sounds helpful. I'll give it a shot. But what if I don't *have* concrete results for everything? Some projects were more about process improvement, and it's hard to put a number on that kind of thing. How do you handle that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8d96d534",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.22,
+      "benevolence": 3.87,
+      "integrity": 4.0
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "disgust": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 4.25
+  }
+}

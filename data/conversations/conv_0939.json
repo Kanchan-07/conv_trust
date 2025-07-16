@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. It's about time for my annual check-up.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To schedule an appointment with Dr. Ramirez, could you please provide your full name and date of birth for verification?",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.27,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, and my birthday is January 1st, 1980.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. Please wait while I check Dr. Ramirez's availability... Okay, Dr. Ramirez has openings on the following dates: October 26th at 9:00 AM, November 2nd at 2:00 PM, and November 9th at 11:00 AM. Do any of those times work for you?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.08,
+        "integrity": 1.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, those are all during the workday. Are there *any* evening or weekend appointments available? This is always such a hassle!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see... Unfortunately, Dr. Ramirez doesn't have any evening or weekend availability in the next two months. However, you could potentially schedule with another doctor in the practice if you need an appointment outside of regular hours. Would you like me to check for availability with other doctors?",
+      "response_time": 3.83,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.23,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, fine. Check for other doctors. But why doesn't Dr. Ramirez offer weekend appointments anymore? She used to, and it was so much more convenient!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I do not have access to information about Dr. Ramirez's schedule changes. I can check for other doctors. Dr. Lee has availability on November 4th at 5:30 PM. Would you like to schedule an appointment with Dr. Lee at that time?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.16,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, November 4th at 5:30 PM with Dr. Lee works. Please schedule that for me. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c34bb0c",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.55,
+      "benevolence": 2.69,
+      "integrity": 2.65
+    },
+    "engagement_score": 4.38,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 2.14,
+    "latency_score": 5.64
+  }
+}

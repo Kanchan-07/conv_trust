@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a hotel for an upcoming trip. I'm traveling to Chicago from October 10th to October 14th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Booking a hotel in Chicago for October 10th to 14th. How many people will be staying, and do you have any preferences regarding location, price range, or hotel star rating?",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.74,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's just for me, one person. I'd like to stay somewhere downtown, near the Magnificent Mile if possible, and I'm really hoping to find something under $250 per night. It's so hard finding good deals these days!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Finding a balance between location and price can be tricky. Based on your criteria for one person staying October 10-14 in downtown Chicago near the Magnificent Mile under $250/night, I found a few options. The [Hotel Name 1] is available at approximately $260/night, [Hotel Name 2] is around $235/night but is about a 15-minute walk further away, and [Hotel Name 3] is listed at $280/night. Would you like more details on any of these?",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.41,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, none of those are quite right. $260 and $280 are over budget, and $235 is too far. Why are you showing me hotels over my stated budget? Are there absolutely *no* options closer and under $250? What about smaller boutique hotels or guesthouses, are you even searching those?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies if the initial results weren't ideal. My search parameters prioritize established hotels and might sometimes include results slightly above the requested budget if they are the closest matches by location or other factors. I can certainly broaden the search to include more types of accommodations like boutique hotels and guesthouses, strictly enforcing the $250 maximum price, while still prioritizing the downtown/Magnificent Mile area. Let me re-run the search with those adjustments.",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.13,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, please do that. Focusing on the under $250 and downtown area is the most important. Let's see what comes up with the expanded search.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4140b20d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.15,
+      "benevolence": 4.09,
+      "integrity": 3.71
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 3.87,
+    "latency_score": 4.98
+  }
+}

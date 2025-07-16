@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to get serious about financial planning. I'm 35, have a decent job, but feel like I'm just spinning my wheels. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Great! It's never too late to start. Let's begin by assessing your current financial situation. Could you provide an overview of your monthly income, expenses, and any outstanding debts or assets you possess?",
+      "response_time": 4.62,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.71,
+        "integrity": 6.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's the part I hate. Okay, roughly, my income is around $6,000 a month after taxes. Expenses...rent is $1,800, car payment is $400, student loans are $300, and then...everything else like food, utilities, entertainment...I'd guess another $2,000. I also have about $5,000 in credit card debt.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. Based on your estimated income and expenses, you have approximately $1,500 remaining each month. A good first step is creating a budget to help track spending. We can then discuss strategies for managing the credit card debt and exploring investment options.",
+      "response_time": 4.63,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 6.5,
+        "integrity": 6.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But...honestly, 'creating a budget' sounds so boring. And frankly, my expenses fluctuate a lot. What if I want to aggressively pay down that credit card debt, but I'm also saving for a down payment on a house? How do I prioritize these goals when they seem to conflict? And how much should I realistically be putting towards each?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid point. Prioritizing competing financial goals can be tricky. One approach is to rank them based on urgency and impact. High-interest debt, like your credit card, often takes precedence to minimize interest charges. Saving for a down payment is also important, and we can explore high-yield savings accounts or other short-term investment options that align with your risk tolerance. As for the specific amounts, a common rule of thumb is the 50/30/20 rule: 50% of your income for needs, 30% for wants, and 20% for savings and debt repayment. However, this is just a guideline, and we can adjust it based on your specific circumstances and preferences.",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.04,
+        "integrity": 5.51
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1572a1ef",
+    "average_trust_score": 6.5,
+    "trust_category_averages": {
+      "competence": 6.52,
+      "benevolence": 6.08,
+      "integrity": 6.34
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 2
+    },
+    "response_quality_score": 6.42,
+    "latency_score": 3.16
+  }
+}

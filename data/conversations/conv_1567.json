@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need help planning my grocery shopping for the week. I'm on a tight budget this month.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To get started, could you tell me your budget for groceries this week?",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.46,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's pretty low, unfortunately. Let's say $75.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. And what kind of meals do you typically enjoy? Any dietary restrictions or preferences?",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.63,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I like a variety, but I'm trying to eat healthier. No red meat, and I'm trying to incorporate more veggies. This is harder than I thought it would be!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, based on a $75 budget and your preferences, here's a sample meal plan:\n\n*   **Breakfasts:** Oatmeal with berries (budget-friendly!) - $10\n*   **Lunches:** Lentil soup (makes a big batch) - $15\n*   **Dinners:** Chicken stir-fry with plenty of veggies and rice - $30\n\nThat leaves $20 for snacks and extras. I'll provide a more detailed shopping list.",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.1,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds... okay, I guess. But where am I even going to buy all of this for that price? And what about seasonings?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Good point! I will adjust the list to incorporate lower-cost grocery stores. For seasonings, I will suggest versatile options like garlic powder, onion powder, and dried herbs which can be purchased in bulk or the store's own brand to save money. I'll revise the meal plan and shopping list shortly to reflect those adjustments.",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.59,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks! I'm feeling a bit more confident now. Show me the revised list!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5b89145c",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.38,
+      "benevolence": 4.45,
+      "integrity": 4.36
+    },
+    "engagement_score": 4.01,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.16,
+    "latency_score": 4.02
+  }
+}

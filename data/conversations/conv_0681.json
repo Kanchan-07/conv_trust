@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking about joining a hackathon, but I'm feeling a bit overwhelmed. Any tips on where to start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Participating in a hackathon can be a fantastic experience. To start, I'd recommend researching upcoming hackathons that align with your interests and skill level. Websites like Devpost, Hackathon.io, and Major League Hacking (MLH) are great resources. Consider what technologies you're comfortable with and what kind of projects excite you.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.55,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've looked at a few on Devpost, but how do I even *choose* a project idea? Everything feels either too simple or way too complex.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Good question. A great project idea is one that is both feasible given the limited time and skill of your team, and interesting enough to motivate you to complete it. Focus on problems you or people you know actually face. Think about simplifying an existing process, or creating a proof of concept for something innovative. Break down larger ideas into smaller, achievable goals. What are some technologies you\u2019re interested in working with?",
+      "response_time": 4.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.75,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm pretty comfortable with Python and some basic web development (HTML, CSS, JavaScript). I was thinking something around data analysis, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Data analysis sounds promising! How about building a web app that visualizes public datasets? You could use Python for data processing and a JavaScript library like Chart.js for the frontend. Or, you could build something that scrapes data and does some basic analysis.",
+      "response_time": 4.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.95,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds doable. But what if my project idea is already done by someone else? Does that mean I shouldn't pursue it? This is stressing me out a little!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Not necessarily! It's rare for a project to be truly 100% original. Focus on putting your own spin on it, whether that's through a unique feature, a different design, or targeting a specific niche. Judges often value execution and innovation more than pure originality. Demonstrate that you understand the existing solutions and are building upon them.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.75,
+        "integrity": 6.75
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. One last thing - what if my team completely falls apart and we can't finish the project? Is it better to drop out early or try to salvage something at the last minute, even if it's not great?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a tough scenario. I'd say try to salvage something, even if it's not perfect. The experience of pushing through challenges and learning from setbacks is valuable. Plus, you'll still have something to show for your efforts. Focus on presenting what you *did* accomplish and explain the challenges you faced and what you learned from them. Judges often appreciate honesty and resilience.",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 4.37,
+        "integrity": 3.54
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8779d07b",
+    "average_trust_score": 5.8,
+    "trust_category_averages": {
+      "competence": 5.71,
+      "benevolence": 5.96,
+      "integrity": 5.66
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 7,
+      "anger": 2
+    },
+    "response_quality_score": 6.14,
+    "latency_score": 2.54
+  }
+}

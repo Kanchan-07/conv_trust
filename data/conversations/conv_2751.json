@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a trip for next month. I need to find flights from Chicago to Miami, departing around October 10th and coming back around October 15th. Can you help me find some options? I really need to keep the cost down.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you search for flights. Just to confirm, you're looking for a round trip from Chicago (CHI) to Miami (MIA), departing close to October 10th and returning around October 15th? I will begin searching for the most affordable options for those dates.",
+      "response_time": 5.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.43,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's right. Thanks. Also, how much would it cost to add one checked bag for each leg of the journey on the cheapest fares you find? I always get hit with unexpected baggage fees, it's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern about baggage fees. The cost for checked baggage varies greatly depending on the specific airline and the type of fare you purchase. For the absolute cheapest basic economy fares, a checked bag is typically an additional charge, often ranging from $30 to $60 per bag per flight segment within the US. However, this can change, and some airlines or fare types might include it. To get the precise cost, you would need to check the individual airline's website once you have a specific flight in mind.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 4.36,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I was hoping you could give me a more exact number, but I guess I'll have to check the airline directly. That makes things a bit more complicated. Anyway, what *were* the cheapest flight options you found for those dates?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a14a92d3",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.83,
+      "benevolence": 4.89,
+      "integrity": 4.84
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.14
+  }
+}

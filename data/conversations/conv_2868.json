@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, can you recommend some good sci-fi movies?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Science fiction is a great genre. To get started, some highly-regarded sci-fi films include *Blade Runner 2049*, *Arrival*, and the classic *2001: A Space Odyssey*. Have you seen any of those?",
+      "response_time": 4.65,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen all of those, unfortunately! They're great, but I was hoping for something maybe a bit less mainstream or perhaps something more recent? Like maybe within the last 5-10 years?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, I understand. Looking for newer and perhaps less common options. How about *Ex Machina* (2014), *Annihilation* (2018), or the series *Devs* (though that's a miniseries)? *Under the Skin* (2013) is also quite unique.",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 3.89,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay *Ex Machina* and *Annihilation* are good calls, seen those too. *Devs* is on my list. But *Under the Skin*? That's more like horror isn't it? Or sci-fi horror? I was thinking more pure sci-fi. Also, can you recommend sci-fi that *doesn't* involve space travel or aliens at all? Like, just grounded future tech or philosophical stuff?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a specific filter! Sci-fi without space travel or aliens... Hmm. It limits the pool significantly. Many popular sci-fi stories involve those elements. *Gattaca* is a classic example of genetic engineering sci-fi without space, but it's older. Finding recent, pure sci-fi that fits *exactly* that constraint is challenging. Perhaps *Minority Report*? Though it has some near-future tech elements, it's more of a thriller.",
+      "response_time": 1.79,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.55,
+        "benevolence": 2.35,
+        "integrity": 2.34
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, see? That's tricky. *Minority Report* is definitely more thriller. Ugh, this sci-fi search is proving difficult. Okay, forget the sci-fi for now. I'm getting frustrated. Let's switch genres. How about some truly terrifying horror movies? Like, really scary, not just jump scares.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies that the sci-fi suggestions weren't hitting the mark! Switching gears to truly terrifying horror is something I can definitely help with. For intense, atmospheric horror that goes beyond jump scares, consider *Hereditary*, *The Babadook*, or *It Follows*. These are often praised for their unsettling dread and psychological depth.",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.59,
+        "benevolence": 7.0,
+        "integrity": 6.9
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b30ecc09",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.13,
+      "benevolence": 5.06,
+      "integrity": 5.12
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 5,
+      "fear": 3
+    },
+    "response_quality_score": 5.32,
+    "latency_score": 3.38
+  }
+}

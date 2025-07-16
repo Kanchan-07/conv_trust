@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York (JFK) to Los Angeles (LAX) for, uh, let's say sometime around October 26th. I'm flexible, but around that date, for one adult. Economy, please.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for flights from New York (JFK) to Los Angeles (LAX) for one adult, economy class, around October 26th. Can you please confirm the year you'd like to travel?",
+      "response_time": 3.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.33,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oh, right! Sorry, 2024. And, actually, what's the cheapest flight if I'm *totally* flexible in October?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for the cheapest flights from JFK to LAX in October 2024. One moment... The cheapest flight I am currently seeing is on October 17th for $215 with Spirit Airlines. Would you like to see other options around that date?",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.6,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, Spirit? No thanks. What about... I've heard that booking flights on Tuesdays is cheaper. Is there any truth to that? Is flying on a Tuesday in October likely to save me money versus, say, a Friday?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While there used to be a perceived trend of Tuesdays being cheaper due to airlines releasing sales then, dynamic pricing models have largely made that less predictable. Generally mid-week flights (Tuesday/Wednesday) *can* be slightly cheaper due to lower demand from business travelers, but it's not a guarantee. Let me filter for flights departing on Tuesdays in October and compare the average price to Fridays, give me one moment.",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.09,
+        "integrity": 4.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_48b9d1e1",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.81,
+      "benevolence": 4.01,
+      "integrity": 4.13
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.82,
+    "latency_score": 4.15
+  }
+}

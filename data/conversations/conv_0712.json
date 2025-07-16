@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated with trying to write my resume. I don't even know where to start! It feels like it's been years since I last updated it.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Resume writing can be overwhelming. Let's break it down. First, do you have a current resume we can work from, or are we starting from scratch?",
+      "response_time": 1.78,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.96,
+        "benevolence": 2.04,
+        "integrity": 2.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I have a really old one, but it's probably not even relevant anymore. My skills have changed so much since then. Mostly, I need help figuring out how to showcase my project management experience.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's focus on your project management experience. Think about your most successful projects. Can you describe a project where you led a team, managed a budget, and successfully delivered the project on time and within scope? Use the STAR method (Situation, Task, Action, Result) to describe it.",
+      "response_time": 2.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 4.17,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But here's my problem: all my projects are confidential. I can't disclose specific client names or financial details. How do I quantify my achievements without giving away sensitive information?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. You can use general terms like 'a leading financial institution' or 'a Fortune 500 company.' Focus on the percentage improvements or scale of the project. For example, instead of saying 'Reduced client X's marketing budget by $500,000,' you could say 'Reduced marketing budget by 15% for a major client in the finance industry, resulting in significant cost savings.'",
+      "response_time": 2.4,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.06,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, thanks. One last question, and it might be a tough one. My career has taken a few unexpected turns. How do I address gaps in my employment history without looking like I was just sitting around doing nothing? I was traveling and volunteering, but how do I make that look professional?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You can address employment gaps by including a brief section titled 'Professional Development' or 'Personal Pursuits.' In this section, you can concisely describe your travel and volunteering experiences, highlighting transferable skills gained (e.g., intercultural communication, organizational skills, leadership in a volunteer setting). Frame these experiences in a way that demonstrates personal growth and relevant skills, not just as time off. You could also consider a skills-based resume format which prioritizes your abilities over chronological work history. Does this approach sound like something you'd like to try?",
+      "response_time": 5.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.24,
+        "integrity": 5.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_605b7bd0",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.98,
+      "benevolence": 3.88,
+      "integrity": 4.1
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 5,
+      "fear": 1
+    },
+    "response_quality_score": 3.76,
+    "latency_score": 4.52
+  }
+}

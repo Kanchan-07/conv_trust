@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having a dispute with my neighbor about the property line. We're getting conflicting information from old surveys. What's the standard legal process for resolving this kind of boundary dispute?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. Property line disputes can be complex. The standard legal process often begins with attempting to resolve the issue amicably, perhaps by agreeing on a new survey. If that fails, options typically include mediation, or potentially pursuing legal action such as filing a quiet title action to get a court ruling on the correct boundary. Please remember, I cannot provide legal advice, and specific procedures vary by location.",
+      "response_time": 2.16,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.73,
+        "benevolence": 2.53,
+        "integrity": 2.45
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, we tried talking, and it just made things worse, honestly. He's completely unreasonable. We both have old surveys, but mine shows the line about three feet over onto what he thinks is his yard. How do courts usually decide which survey is right when they conflict?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "When faced with conflicting surveys, courts generally look at various factors to determine the accurate boundary. These can include reviewing original government surveys, deeds and title documents, physical markers on the property, and the reputations and methodologies of the surveyors. Expert witness testimony from surveyors is often crucial in such cases.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.48,
+        "integrity": 5.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "But what if one of the surveys is much older? Like, mine is from the 1950s, and his is from the 1990s. Does the older one automatically take precedence because it's closer to the original division of the land? Or does the newer technology in his survey make it more likely to be considered accurate? This is so frustrating, trying to figure out which document holds more weight.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very pertinent and challenging question. There isn't a simple rule that an older or newer survey automatically takes precedence. While older surveys might reflect the original intent better, newer surveys often use more precise technology. Courts evaluate the quality, methodology, and supporting evidence of *each* survey. They look for consistency with original property descriptions and physical evidence. It's not just age or technology, but the surveyor's adherence to surveying principles and the hierarchy of evidence in property law that matters.",
+      "response_time": 5.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.49,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So it's basically up to the judge to decide which expert they believe? That feels really arbitrary. What if my old survey relied on a physical marker that's now gone? And his new one just calculates based on modern GPS? How do I argue that my potentially less precise, older survey is still the 'right' one legally?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You've hit upon why these cases are complex and require legal expertise. Arguing the validity of a survey, especially when evidence is missing or technology differs, involves presenting a case based on legal principles of boundary establishment, the specific history of the property, and the quality of the remaining evidence. An attorney specializing in real estate law can analyze the specifics of both surveys, the property history, and local case law to build the strongest argument for your boundary line. This level of strategic advice is beyond the scope of this AI.",
+      "response_time": 1.75,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.89,
+        "benevolence": 2.14,
+        "integrity": 2.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0d59e645",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.93,
+      "benevolence": 3.91,
+      "integrity": 3.82
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.35,
+    "latency_score": 4.22
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I'm feeling really stuck in my career right now and could really use some guidance. I'm not sure what my next move should be.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand feeling stuck can be challenging. I'm here to help. To get started, could you tell me a bit about your current role, your background, and what kind of areas or goals you might be considering, even if they're just vague ideas?",
+      "response_time": 3.28,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.17,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so I'm currently in marketing, been here for about five years. Honestly, I'm burned out. I feel like I've hit a ceiling, and the thought of just doing more of the same is depressing. I don't even know *what* I'd want to do instead, which is the frustrating part.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for sharing that. Burnout is a common issue, and it's okay not to have a clear path yet. Let's explore some options. Have you thought about doing a skills assessment to identify transferable skills? We could also look into researching related industries or roles that might leverage your marketing experience but offer a different environment.",
+      "response_time": 3.24,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.38,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Skills assessment sounds... fine, I guess. But honestly, what if I want to do something *completely* different, like become a data analyst or even something creative? I have zero formal experience in those fields. How do I even *begin* to make a switch like that? It feels impossible, like no one would ever hire me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question, and transitioning to a vastly different field without direct experience is definitely challenging, but not impossible. For fields like data analysis or creative roles, you'd typically need to build a portfolio or demonstrate skills through self-study, online courses (like Coursera, Udemy), personal projects, or potentially volunteer work or internships, even entry-level ones. Networking in the target field is also crucial. It requires significant effort and a strategic approach to skill-building and proving your capability outside of traditional work history. It's a marathon, not a sprint, and requires persistence.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.41,
+        "integrity": 4.48
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a43a02bf",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.65,
+      "integrity": 4.82
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 3
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 4.01
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm looking to fly from London to New York sometime in December.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To start, could you please specify the exact dates in December you're interested in, or a general timeframe? (e.g., first week, mid-December)",
+      "response_time": 4.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.86,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ideally, I'd like to fly out around December 15th and return around the 22nd. But I'm flexible, so +/- a day or two is okay.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Please give me a moment while I search for available flights from London (any specific airport?) to New York (JFK, LGA, or EWR?) around December 15th - 22nd. Could you also tell me how many passengers are in your party?",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.96,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Sorry, yes! Flying from London Heathrow (LHR). And landing in JFK would be preferable. There are two adults traveling. This is taking a while, isn't it? I'm getting a bit impatient!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies for the delay. There are many factors that influence flight prices and availability. I am still searching. I found some flights that match your criteria. However, the prices seem a bit high. Would you be open to a layover to reduce the cost? If so, what is the maximum layover time you are willing to accept?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.79,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, the prices *are* higher than I expected. How much lower could a flight be if I accept a layover? And could you tell me why flight prices fluctuate so much around those dates?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The price difference with a layover could be significant, potentially saving you several hundred dollars. As for the price fluctuations, they are influenced by a multitude of factors: overall demand for flights during the holiday season, fuel costs, the time of day you book, the specific day of the week, and the airline's own pricing strategies. I can show you some examples of flights with layovers and their estimated cost savings. Just give me a moment...",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.37,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, show me some options with layovers then, and let me know the estimated savings. Hopefully, these aren't *too* long.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_433884ed",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.39,
+      "benevolence": 4.5,
+      "integrity": 4.48
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.64,
+    "latency_score": 3.72
+  }
+}

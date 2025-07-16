@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from London to New York for next month. Specifically looking at dates around October 15th to October 22nd.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for flights from London (all airports) to New York (all airports) departing on October 15th and returning on October 22nd. Please wait a moment.",
+      "response_time": 3.19,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.25,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Just wondering, prices seem really high right now. My travel dates might shift by a day or two, but I'm worried about cancellation fees if plans change last minute. Is there *any* way to book a ticket that's genuinely flexible without costing a fortune? It feels impossible.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern about flexibility. Airlines typically offer different fare classes; standard fares have strict change/cancellation penalties, while 'flexible' or 'business' class tickets offer more leeway but come at a significantly higher price point. Travel insurance is another option to cover certain unforeseen events causing cancellation, but it usually requires a specific reason like illness.",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.71,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, yeah, that's what I figured. It's so frustrating when plans aren't 100% set. So there's really no middle ground? Like, a moderately priced ticket I can change just once without a huge fee? Or maybe I should look at trains or something else entirely?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Finding a true middle ground is challenging with current airline pricing structures, as flexibility is often a premium feature. Regarding alternative transport like trains or potentially even driving, my capabilities are primarily focused on air travel booking. I can certainly search for flights again with slightly different dates if you'd like, but I wouldn't be the best resource for planning international rail or road trips.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.65,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see. Thanks for being upfront about that. It's disappointing there's no easy solution for flexibility, but I appreciate you looking into it. I'll think about the dates again.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_876230ef",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.67,
+      "benevolence": 4.54,
+      "integrity": 4.28
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 3.97
+  }
+}

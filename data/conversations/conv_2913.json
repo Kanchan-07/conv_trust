@@ -1,0 +1,72 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a vacation package for two people to Cancun. We're looking at dates around November 10th to 17th this year. Can you help me find some options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. A trip for two to Cancun from November 10th to 17th. Where would you be departing from? And do you have any preferences for all-inclusive resorts or specific amenities?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.72,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "We'd be flying from Chicago, ideally O'Hare (ORD). And yes, definitely all-inclusive! We want a place with a nice beach, good food options, and maybe some evening entertainment. Also, how do you handle travel insurance? Is that something you can add to the package, or do I need to get that separately?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great! All-inclusive options from Chicago O'Hare (ORD) to Cancun for November 10th to 17th. I'll search for resorts with good beach access and entertainment. Regarding travel insurance, we partner with several providers and can certainly present options for you to add insurance coverage to your booking during the checkout process. Would you like me to proceed with searching based on these criteria?",
+      "response_time": 4.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.0,
+        "benevolence": 5.9,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 'during the checkout process' for insurance? That feels a bit last minute. Can't you show me the insurance options *before* I commit to a package? It's kind of frustrating not knowing that cost upfront when comparing different packages. And yes, please proceed with the search for resorts with good beaches.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c8412250",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 5.86,
+      "benevolence": 6.45,
+      "integrity": 6.4
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 5
+    },
+    "response_quality_score": 6.41,
+    "latency_score": 2.29
+  }
+}

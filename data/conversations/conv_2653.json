@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi! I'm looking for some new books to read. Can you recommend some good science fiction novels?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely. Science fiction is a fantastic genre. For classic sci-fi, you might enjoy 'Dune' by Frank Herbert, '1984' by George Orwell, or 'Foundation' by Isaac Asimov. If you're looking for something more recent, 'Project Hail Mary' by Andy Weir and 'Recursion' by Blake Crouch are highly acclaimed.",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.92,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks, those are solid suggestions. I've actually read most of the classics you mentioned. 'Project Hail Mary' was great! I guess I'm looking for something a bit more specific now. Maybe something that deals with advanced AI, but not a dark, dystopian future. More like, how society adapts to AI positively?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, focusing on advanced AI integration. You could explore 'I, Robot' by Isaac Asimov for foundational concepts on AI laws, though it touches on potential conflicts. 'Do Androids Dream of Electric Sheep?' by Philip K. Dick is another classic involving artificial life. For more contemporary, 'Sea of Rust' by C. Robert Cargill deals with a post-AI world, but it's more on the melancholic side.",
+      "response_time": 3.76,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.84,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, yeah, 'I, Robot' and 'Do Androids Dream...' are definitely classics, but still lean towards potential dangers or complex ethical dilemmas in a less-than-ideal society. And 'Sea of Rust' sounds exactly like the kind of post-apocalyptic/dystopian thing I'm trying to avoid right now. Isn't there *anything* that explores a positive or smoothly integrated AI future? It feels like sci-fi only wants to show AI going wrong.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand the frustration. While many sci-fi narratives focus on conflict, there are works exploring different angles. Finding stories exclusively centered on seamlessly positive AI integration without any conflict can be challenging as narrative tension often drives plot. Many touch upon the theme but still include ethical debates or unforeseen consequences.",
+      "response_time": 1.64,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.54,
+        "benevolence": 2.01,
+        "integrity": 2.95
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I get that conflict is needed for story. But seriously, nothing where AI is just... a helpful part of life? Not secretly evil, not causing mass unemployment, not demanding rights with violence? Just... integrated positively? Even if there's a smaller, non-AI conflict, that would be fine. I'm starting to think this specific sub-genre doesn't exist!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies if the previous suggestions missed the mark. You are right, purely utopian AI integration stories are less common. However, some books *do* explore AI as a largely beneficial force. Consider 'A Closed and Common Orbit' by Becky Chambers (part of the Wayfarers series) - while focusing on a sentient AI, its journey is about finding its place and consciousness in a non-hostile universe. Another possibility is 'Delta-V' by Daniel Suarez, which features advanced AI as a crucial, enabling technology for space exploration, presented as a tool rather than a threat.",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.44,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, 'A Closed and Common Orbit' sounds intriguing, especially since it's part of a series known for being more optimistic sci-fi. And 'Delta-V' sounds like it treats AI more like the kind of advanced tool I was thinking of. Thank you! Those sound much closer to what I was hoping for. I'll check those out.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f2984d44",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.41,
+      "benevolence": 4.3,
+      "integrity": 4.43
+    },
+    "engagement_score": 5.7,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "sadness": 1,
+      "disgust": 1,
+      "anger": 2
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 4.07
+  }
+}

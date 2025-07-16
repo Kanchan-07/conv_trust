@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new laptop. My budget is... let's say around $800, give or take $50. What are my best options for something that can handle everyday tasks and maybe some light gaming?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of around $800, I can recommend a few laptops. For everyday tasks and light gaming, the Acer Aspire 5 and the Lenovo IdeaPad Flex 5 are both excellent choices. They typically come with a Ryzen 5 or Intel i5 processor, 8GB of RAM, and integrated graphics, which should be suitable for your needs. Would you like me to provide more details on either of those?",
+      "response_time": 4.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.2,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, okay, those sound alright. But are there any other options with a dedicated graphics card, even if it's a low-end one? I'm tired of integrated graphics, they always seem to struggle with even older games. I'm willing to stretch the budget a bit if it means better performance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me see. Finding a laptop with a dedicated graphics card in that price range is tricky, but possible. You might be able to find an older model or a refurbished gaming laptop within your stretched budget. For instance, sometimes you can find a Dell G3 15 or a Lenovo Legion Y540 on sale or refurbished for around $850-$900. Be warned that the battery life might not be great on some of these, though. Is battery life a concern?",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 4.17,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a good point about the refurbished ones. But, honestly, how much of a performance boost am I really getting from a low-end dedicated card compared to the newer integrated graphics on those Ryzen chips you mentioned earlier? Is it even worth the hassle and potential battery life sacrifice?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9475bdd5",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.55,
+      "benevolence": 4.69,
+      "integrity": 4.89
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.97,
+    "latency_score": 3.85
+  }
+}

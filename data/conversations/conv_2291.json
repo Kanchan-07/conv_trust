@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. I had a fender bender yesterday.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I'm sorry to hear about the accident. I can certainly help you file a claim. To get started, please provide your policy number and a brief description of what happened.",
+      "response_time": 0.64,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.48,
+        "benevolence": 1.13,
+        "integrity": 1.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my policy number is ABC-123-XYZ. Basically, I was stopped at a light, and the car behind me didn't stop in time. They bumped into me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. And what is the make and model of the other vehicle involved, and do you have the other driver's insurance information?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.73,
+        "benevolence": 6.9,
+        "integrity": 6.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I don't remember the model, but I got the other driver's insurance card. Let me find it... Okay, it's from 'SafeGuard Insurance', policy number 789-PQR-456. The car was a blue sedan, maybe a Honda Civic? I'm not sure.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you. We'll need a police report if one was filed. Do you have the report number, or did the police even come to the scene?",
+      "response_time": 5.1,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.64,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "No police report. We exchanged info, and everything seemed fine. I really thought I was fine, but my bumper is definitely dented. This is going to be a hassle, isn't it? What happens if there's no police report? Will this even be covered?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While a police report is helpful, it's not always required. We will still process your claim based on the information you've provided. We will contact the other insurance company to determine liability. Without a police report, the investigation may take a little longer. You should provide photos of the damage and a detailed account of the accident. We'll also ask you to get an estimate. Does this make sense? ",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.72,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, that makes sense. Thank you for the information. I will take photos of the damage and get an estimate. I appreciate your help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a328109d",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.25,
+      "benevolence": 5.1,
+      "integrity": 5.19
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 5.32,
+    "latency_score": 3.75
+  }
+}

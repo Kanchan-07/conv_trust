@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in Chicago for next weekend, from Friday to Sunday. I'd prefer something near downtown, maybe with a pool?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for hotels in downtown Chicago with a pool for Friday to Sunday... I see a few options. The Palmer House Hilton and the Hyatt Regency Chicago both fit your criteria. Would you like me to give you more details on either of those, or should I keep searching?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.56,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I've stayed at the Hyatt Regency before, it was way too crowded. Can you show me something else? Preferably not a huge chain hotel... maybe something a bit more unique?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, understood. Let me refine the search... How about The Hotel Lincoln? It's near Lincoln Park, which is a short trip to downtown, and has a rooftop pool. It's generally well-reviewed for its unique atmosphere and neighborhood feel. It's listed as having availability for your dates. Would you be interested in hearing more about it, including pricing?",
+      "response_time": 2.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 4.39,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Lincoln Park is fine. What's the deal with their 'urban fee'? I saw a mention of it in a review and it sounds like a hidden charge... I hate those.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right to ask. The 'urban fee' covers amenities like high-speed internet, access to the fitness center, local phone calls, and sometimes includes things like daily bottled water or a small food & beverage credit. However, policies vary, and not all amenities might be used or valued by every guest. Typically, it's mandatory. I can check the exact amount for your dates and also see if there's any possibility of waiving it, though it's unlikely. Would you like me to investigate that further, or explore hotels without such fees?",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.85,
+        "integrity": 4.27
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fbac64b7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 3.93,
+      "integrity": 4.01
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.33,
+    "latency_score": 4.59
+  }
+}

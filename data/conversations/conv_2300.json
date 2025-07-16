@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some product recommendations. I'm really into hiking and camping right now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. Based on your interest in hiking and camping, would you like recommendations based on specific categories like tents, backpacks, or maybe even outdoor cooking equipment?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.85,
+        "benevolence": 6.61,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's start with tents. I need something for 2 people, and I'm completely lost with all the options out there.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay! Considering you need a tent for two people, I recommend checking out the following: The Big Agnes Copper Spur HV UL2 (lightweight and popular), the REI Co-op Half Dome 2 Plus (a good balance of features and price), and the MSR Hubba Hubba 2-Person Tent (reliable and a classic). You can find more details and reviews on our website using the product codes: BA-CSP-2, REI-HD2+, MSR-HH-2.",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.03,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Those all sound great, but what's the real difference between those tents besides the brand name and price? Like, what makes one better for different conditions, or is it all just marketing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Briefly, The Big Agnes is best for ultralight hiking, meaning it prioritizes weight savings. The REI is a bit heavier but offers a good balance of features and durability, so it's a good all-around option. The MSR is known for its durability and weather resistance, making it a solid choice for more varied conditions. Consider where you plan to hike and camp most often to decide what's best for you.",
+      "response_time": 4.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.46,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes a lot more sense now! Thanks! I think I'll start with looking at the REI one. I'm feeling much less overwhelmed. Appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9e423ebb",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.48,
+      "benevolence": 5.37,
+      "integrity": 5.5
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 6,
+      "surprise": 1
+    },
+    "response_quality_score": 5.34,
+    "latency_score": 2.79
+  }
+}

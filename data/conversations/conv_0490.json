@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with Dr. Ramirez. It's been difficult getting through on the phone.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To schedule an appointment with Dr. Ramirez, could you please provide your full name and date of birth for verification?",
+      "response_time": 4.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.87,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, and my date of birth is January 15th, 1988. Is she even taking new patients right now? Last time I called, they said she was booked solid.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Jane. Let me check Dr. Ramirez's availability. One moment, please... Okay, it appears Dr. Ramirez is accepting new patients. The first available appointment is on October 27th at 2:00 PM. Does that work for you?",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.38,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "October 27th? That's so far away! Is there absolutely anything sooner, even if it's just a quick check-up slot? I've been having these headaches, and I'm a little worried.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about the wait time. Let me see if there are any cancellations or openings at other times. There's a slot on October 12th at 9:00 AM due to a cancellation. Alternatively, would you be open to seeing Dr. Lee? She's also accepting new patients and has availability next week.",
+      "response_time": 2.88,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.3,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "October 12th at 9:00 AM works! I'd much rather see Dr. Ramirez. Great, let's book that. But, out of curiosity, why is it so hard to get appointments? Is her patient load unusually high, or is the office understaffed?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b2609076",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.51,
+      "benevolence": 4.85,
+      "integrity": 4.7
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "surprise": 2,
+      "fear": 1
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 4.01
+  }
+}

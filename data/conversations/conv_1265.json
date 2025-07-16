@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving. Can you recommend some good takeout options near me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, could you please share your current location? Or, if you prefer, I can access your location if you give me permission.",
+      "response_time": 4.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.71,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Fine, I'm at 123 Main Street, Anytown. I'm in the mood for something... I don't know, maybe Italian? But I'm picky. No garlic!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay! I'm checking for Italian restaurants near 123 Main Street, Anytown, with no garlic options... Hmm, this is proving tricky. Based on reviews and menus, I can recommend 'Pasta Paradise', but I don't have confirmation if they can do no garlic, you might need to call and ask. There's also 'Tony's Trattoria', which doesn't list garlic in their ingredients, but the reviews are a bit mixed. Do you want me to look for something else, or contact these restaurants for you?",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.78,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, mixed reviews are the worst. And having to *call*? In this day and age? Fine, can you at least try and find a place that delivers *and* has a decent rating, regardless of the cuisine? Something, anything, that isn't pizza or burgers. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Okay, filtering for delivery, decent ratings, and excluding pizza and burgers... I found 'Spice Route', an Indian restaurant with a 4.2-star rating and online ordering. They have several dishes that appear to be garlic-free. Would you like to see their menu?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.79,
+        "integrity": 3.76
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2b279d81",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.48,
+      "benevolence": 4.43,
+      "integrity": 4.44
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 3.1
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to plan out some groceries, but I'm on a seriously tight budget this month. Can you give me some recommendations for meals that are cheap to make?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you please tell me your approximate budget for groceries this month? Also, are there any dietary restrictions or preferences I should be aware of (e.g., vegetarian, allergies)?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.94,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I'm trying to keep it under $100 for the whole month. It's tough! I'm not vegetarian, but I'm trying to eat less meat. And I'm allergic to peanuts. Can you work with that?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely work with that. For a $100 budget and a preference for less meat, peanut allergy and including cheap ingredients, I'd recommend focusing on meals with beans, lentils, and eggs as primary protein sources. Some options are: Lentil soup, bean and cheese burritos, and frittatas. Do you have access to a kitchen, including pots, pans, and basic cooking utensils?",
+      "response_time": 4.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.41,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those sound good in theory, but how am I supposed to make that work? Inflation is insane, and even beans and eggs are getting expensive. Can you give me a rough shopping list and *actual* prices, accounting for things like cooking oil and spices?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern regarding inflation. Generating a fully comprehensive shopping list with live prices, accounting for all cooking basics, and tailored to your local area is beyond my current capabilities. However, I can suggest a sample shopping list focusing on value: Lentils, dried beans, eggs, rice, pasta, onions, garlic, frozen vegetables (mixed), canned tomatoes, and a small amount of cooking oil. Prices will vary, so please check your local grocery store's website or flyer. You can often find spices at discount stores.",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 4.33,
+        "integrity": 4.45
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6c091e21",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.65,
+      "benevolence": 5.56,
+      "integrity": 5.64
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 5.72,
+    "latency_score": 2.64
+  }
+}

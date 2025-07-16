@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I want to order some food. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! To give you the best recommendations, could you tell me your location and what kind of food you're in the mood for today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 6.91,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in downtown Austin, and I'm open to anything. Maybe something quick and easy. I'm thinking no more than $20.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on your location and preferences, I recommend checking out 'Veracruz All Natural'. They have delicious tacos and are usually within your budget. I can help you place an order directly if you'd like.",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.5,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tacos sound good! But I've had them a bunch of times lately. Anything else? Maybe something with noodles?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Hmm, let me see... For noodles, there's a place called 'Pho Please' nearby. However, their reviews are mixed, and some say the quality has been inconsistent recently. Otherwise I could suggest 'Uchi', but it will likely be more than $20.",
+      "response_time": 2.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 4.22,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, inconsistent reviews are a bummer. Is there anything I can do to see the reviews of 'Pho Please' *before* I order?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, but I am unable to directly display external reviews at this time. Perhaps you could search online yourself to get the latest information.",
+      "response_time": 1.89,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.49,
+        "benevolence": 2.02,
+        "integrity": 2.91
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit frustrating, but thanks for the tip. I'll do that. If the reviews aren't too bad, I'll probably go with 'Pho Please'.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Great! Let me know if you'd like help ordering once you've checked the reviews. I can also give you directions to 'Pho Please' if you need them.",
+      "response_time": 4.84,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.51
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8d8c0e3d",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.86,
+      "benevolence": 4.73,
+      "integrity": 4.9
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.83
+  }
+}

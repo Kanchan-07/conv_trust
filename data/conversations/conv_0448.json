@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I keep getting denials for AR claim code 276. I don't understand why. We've been billing this way for years.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Denial code 276 typically indicates 'Missing or invalid procedure code.' To help me investigate, could you provide the patient name, date of service, and the procedure code you billed?",
+      "response_time": 0.56,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient is John Smith, the date of service is 2024-03-15, and the procedure code is 99214.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check the claim details. One moment... Okay, I see the claim. It appears the payer, Blue Shield, requires modifier 25 to be appended to 99214 when billed with the other service on the claim, code 90471. Is modifier 25 added?",
+      "response_time": 0.53,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.47,
+        "benevolence": 1.35,
+        "integrity": 1.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Oh shoot, you're right! We forgot the modifier. That's annoying. Why didn't our scrubbing software catch that?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question. Let me look up the configuration for your scrubbing software\u2026 Based on the settings, it seems the rule set related to modifier 25 and code 99214 hasn't been updated since last year. This would explain why it wasn't flagged. You can update the rule set manually or schedule an automatic update in the configuration panel. ",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.79,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But here's a tough one: If the payer's policy states modifier 25 *isn't* required in this specific situation (and sometimes they do!), how can we programmatically override the scrubbing software's rule? We don't want to be unnecessarily adding modifiers based on outdated information.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very valid point and a common challenge. Most scrubbing software allows for custom exception rules. You would create a rule that checks the payer (Blue Shield in this case) and the specific combination of codes (99214 and 90471) and then bypass the modifier 25 requirement. The exact syntax for these exception rules will depend on your specific software. I recommend checking the software's documentation or contacting their support for the precise configuration steps. Alternatively, some advanced systems offer AI-driven policy analysis that can dynamically update scrubbing rules based on real-time payer policies, but those tend to be more expensive solutions.",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.31,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that's helpful. I'll look into the exception rules. Thanks for clarifying that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! I'm glad I could assist. Is there anything else I can help you with regarding AR denials today?",
+      "response_time": 4.41,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.54,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a1a87de1",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.7,
+      "benevolence": 3.69,
+      "integrity": 3.91
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 4.12,
+    "latency_score": 4.75
+  }
+}

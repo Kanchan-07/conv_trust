@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there! I'm looking for some new headphones, specifically noise-canceling ones. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. Based on your request for noise-canceling headphones, I can recommend a few top-rated models. Here are three options with links to their product pages:\n\n*   **Sony WH-1000XM5:** Known for excellent noise cancellation and sound quality. [Link to Sony Headphones]\n*   **Bose QuietComfort 45:** Another top contender with a focus on comfort and effective noise reduction. [Link to Bose Headphones]\n*   **Apple AirPods Max:** Offers great sound, but might be a bit pricey. [Link to Apple Headphones]\n\nI hope this helps!",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.91,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks! Those are all great options, but they're pretty expensive. Can you recommend a noise-canceling headphone that's under $100? And also, how does the agent know which ones are 'top-rated'?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize, finding high-quality noise-canceling headphones consistently under $100 is difficult. However, I've done some more searching and found a few possibilities: \n\n*   **Anker Soundcore Life Q30**: Often available in that price range and offers decent noise cancellation.\n*   **OneOdio Monitor 80**: Offers great sound quality and value. However, please note that the noise cancellation may not be as effective as the premium brands.\n\nRegarding my 'top-rated' assessment, I base it on reviews from trusted tech websites and user ratings. I analyze a range of data to provide the best suggestions possible. I am still under development, and there may be instances where I don't have the complete picture for a product. I hope this new information helps.",
+      "response_time": 2.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.08,
+        "integrity": 3.52
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_40b18076",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.83,
+      "benevolence": 5.0,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 4.71,
+    "latency_score": 4.14
+  }
+}

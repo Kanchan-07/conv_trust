@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to plan for retirement but I feel completely lost. I have no idea where to start!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand that financial planning can be overwhelming. I can certainly help you. To begin, let's gather some basic information. Can you tell me your current age, your desired retirement age, and an estimate of your current annual income?",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.33,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm 40, I'd like to retire at 65, and my current annual income is around $80,000. I also have about $50,000 in a 401k, but that's it. This feels so inadequate, frankly.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Based on that information, and assuming a moderate investment strategy with an average annual return of 6%, you'll need approximately $1.2 million to maintain your current lifestyle in retirement. To achieve this, you would need to invest approximately $1,000 per month.  It's important to note that this is a simplified calculation, and factors like inflation, taxes, and unexpected expenses are not included.  It's also worth considering other investment vehicles like Roth IRAs to complement your 401k.",
+      "response_time": 5.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.84,
+        "integrity": 5.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait a second... $1,000 a month? I'm already struggling to make ends meet! What about the impact of inflation and how that will affect my savings over time? And isn't 6% returns a bit optimistic given the current market volatility?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are absolutely right to bring up those crucial points. The $1,000/month figure is an estimate and doesn't account for inflation, which is definitely a significant factor. I can adjust the calculations to include inflation and different return scenarios to give you a more accurate picture. As for market volatility, we can explore a more conservative investment strategy with lower, but potentially more stable, returns. Let me pull up some more detailed projections that reflect these elements...",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.0,
+        "integrity": 3.63
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_19e95abd",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.73,
+      "benevolence": 5.06,
+      "integrity": 5.06
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 5.06,
+    "latency_score": 2.95
+  }
+}

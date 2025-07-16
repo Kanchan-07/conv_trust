@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some gift ideas. My budget is about $50.  Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Absolutely.  To give you the best recommendations, could you tell me who you're buying the gift for and what they're generally interested in?",
+      "response_time": 4.37,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.53,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for my sister, who loves cooking. But I'm not sure where to start. I'm really not a cook myself, so this is already overwhelming!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand.  Given her interest in cooking and your budget, how about these options: A high-quality olive oil and vinegar set ($30-40), a set of nice kitchen towels ($20-30), or a subscription to a meal kit service (a single box could fit within your budget if you choose wisely). I can provide links if you'd like.",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.31,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A meal kit subscription is a good idea! But which one would be best for one-time use, and also, are there any hidden costs or any fees associated with this one-time option?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question. Finding a one-time box for a meal kit service within that budget can be tricky as many subscriptions charge a weekly fee or a minimum commitment. However, you might be able to find a meal kit box from services like HelloFresh or Blue Apron through sites like Groupon, or sometimes directly through the service with special offers. I would strongly recommend you read the terms and conditions of any service you are considering and also look for any extra fees such as shipping or handling as the total cost may be more than $50. The quality of options may also vary.",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.76,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's very helpful. Thanks for the heads-up on the fine print, I wouldn't have thought of that. I think I'll go with the olive oil and vinegar set. Thanks for all the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f541822",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.8,
+      "benevolence": 4.87,
+      "integrity": 4.81
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4,
+      "joy": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.64,
+    "latency_score": 4.3
+  }
+}

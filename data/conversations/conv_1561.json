@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need help writing a resume. I haven't updated mine in ages and I'm completely lost. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "No problem! I can definitely help with that. Let's start with the basics.  I can provide you with resume templates, suggest content for different sections like your work experience and skills, and even help you tailor your resume for specific job applications. To get started, could you tell me a bit about the type of job you're looking for and your relevant experience?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.64,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm applying for a Software Engineer position, but I've mostly been a data analyst for the last 5 years. I have some personal projects on GitHub, but not much else that's *directly* related to software engineering experience. This is already frustrating, I feel like I'm at a disadvantage.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Transitioning from data analysis to software engineering requires strategic resume crafting.  We can definitely highlight your transferable skills. For example, your data analysis experience likely involves coding, problem-solving, and project management. Can you provide specifics about the coding languages and projects you've worked on in your data analysis roles?  Also, what is the best way to balance the time spent on resume generation vs cover letter generation? I've read conflicting information on this.",
+      "response_time": 2.63,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 4.32,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wow, that's a really tough question, and honestly, I'm not sure. I've always focused on the resume first, thinking that's most important for getting the interview. Your point about the balance is interesting, maybe I'll look into that more after we build the resume. For now, can we go ahead and get the resume started? Let's focus on listing those coding languages and projects first.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0ce0b33f",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 5.48,
+      "integrity": 5.56
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 1,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.67,
+    "latency_score": 3.19
+  }
+}

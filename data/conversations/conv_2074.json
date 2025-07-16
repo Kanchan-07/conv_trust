@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm applying for a job and need some help with my resume and cover letter. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! What specific assistance are you looking for? For example, do you want me to review your existing documents, help you brainstorm content, or provide examples?",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.11,
+        "integrity": 5.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need help tailoring my resume and cover letter for a specific job. I have the job description and my existing documents ready.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great! Please provide me with the job description and your resume and cover letter. I'll analyze the job requirements and suggest adjustments to highlight your relevant skills and experience. Please note that I cannot edit your files directly, but can provide suggestions.",
+      "response_time": 3.95,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.71,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Here's the job description and my resume. I'm a bit frustrated because I've applied for so many jobs and haven't heard back from anyone.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. It can be disheartening. I've reviewed the job description and your resume. The job description emphasizes project management and client communication skills, while your resume seems to focus more on technical skills. I suggest emphasizing your project management experience by quantifying your accomplishments using numbers and highlighting your client interaction experience. I can provide examples of how to do this.",
+      "response_time": 3.25,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.81,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, but how can I quantify my accomplishments if I don't have exact numbers? It's a difficult question. What if I just don't have those metrics?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a good point. If you don't have exact numbers, you can use estimates or approximations, or focus on the impact of your actions. For example, instead of saying \"Managed projects,\" you could say \"Managed multiple projects simultaneously, resulting in on-time delivery and increased client satisfaction\" or \"Led a team of X people to achieve Y results within Z timeframe.\" Alternatively, you can describe the *type* of projects, the size of the team, or the tools used.",
+      "response_time": 2.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.24,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's a lot better! Thanks! I'm feeling much more confident now. Let's work on my cover letter next.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ce849100",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 4.72,
+      "integrity": 4.71
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 2,
+      "anger": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 5.09,
+    "latency_score": 3.98
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling a bit overwhelmed with my finances. I want to start planning for retirement, but I don't know where to begin.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand that financial planning can seem daunting. I can certainly help you get started. First, we need to assess your current financial situation. Could you tell me about your income, expenses, and any existing savings or investments you have?",
+      "response_time": 4.36,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.96,
+        "integrity": 5.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Well, I have a decent salary, but my expenses seem to always eat up most of it. I have a 401k, but I haven't really looked at it in years. Ugh, this is already frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I can definitely relate. Many people find it frustrating to get started! Let's focus on the 401k. Do you know what your current contribution rate is, and what your company matches? We can also run some simulations based on your age, current balance, and projected retirement age.",
+      "response_time": 5.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.37,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds good. But how do you account for inflation in those simulations? I've heard that can really impact how much I'll have.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very astute question! For our simulations, we typically use a conservative inflation rate, often based on historical averages, to project the future value of your investments. We can adjust this to be more or less conservative based on your risk tolerance. To provide the most accurate picture, however, I'll need some more detailed information about your specific 401k plan, including its investment options and fees. Would you be able to provide that, or do you need assistance finding the information?",
+      "response_time": 5.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.33,
+        "integrity": 5.03
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_58cc0b87",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.64,
+      "benevolence": 5.55,
+      "integrity": 5.24
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.71,
+    "latency_score": 2.27
+  }
+}

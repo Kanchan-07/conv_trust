@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it should have arrived yesterday, but I haven't received anything.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your tracking number so I can look into this for you?",
+      "response_time": 4.61,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.89,
+        "benevolence": 6.54,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's XYZ123ABC. I'm starting to get a little frustrated, I was really expecting this today.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm checking on that now... Okay, it appears the package is currently at the distribution center, and there was a delay due to unforeseen circumstances. I apologize for the inconvenience. It should be delivered by end of day tomorrow.",
+      "response_time": 2.46,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 4.07,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "End of day tomorrow? What does that even mean? Is that guaranteed? What were the \"unforeseen circumstances\"?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Unfortunately, I don't have specific details on the nature of the delay. However, the delivery date is estimated, and although I can't provide a guarantee, it is marked as a priority to be delivered tomorrow.",
+      "response_time": 3.65,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.12,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, no actual guarantee? That's not very reassuring. What happens if it's not delivered tomorrow?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the package is not delivered by the end of day tomorrow, please contact us again, and we can explore options such as a refund or reshipment, depending on the situation. We appreciate your patience and understanding.",
+      "response_time": 3.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.85,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I guess that's something. Thanks for looking into it, I will check back tomorrow if I don't receive it. ",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Is there anything else I can assist you with today? Have a good day.",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_28f2e66d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.35,
+      "benevolence": 5.52,
+      "integrity": 5.57
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "anger": 1,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.31,
+    "latency_score": 3.66
+  }
+}

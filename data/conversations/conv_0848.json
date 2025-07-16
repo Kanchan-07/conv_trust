@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a really important interview coming up for a project manager position. Can you help me prepare? I'm honestly a bit nervous.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you prepare for your project manager interview. To start, let's focus on some common interview questions. How about we begin with behavioral questions? Tell me about a time you had to manage a conflict within a team.",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.7,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, those are always the hardest! Okay, let me think... I had a situation where two developers on my team, Sarah and John, were constantly disagreeing on the best technical approach for a new feature. Sarah favored a microservices architecture, while John was pushing for a more monolithic approach. It was creating tension and slowing down development.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good start. Can you elaborate on the actions you took to resolve this conflict? Remember to structure your answer using the STAR method: Situation, Task, Action, Result.",
+      "response_time": 2.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.11,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so... I guess the situation was the disagreement, the task was to resolve it and get the project back on track. Then... I convened a meeting with Sarah and John, where I facilitated a discussion of the pros and cons of each approach. I encouraged them to focus on the project goals and consider the long-term maintainability and scalability. But what if the interviewer asks me *why* I thought microservices was actually better in the long run? That's a tough one; both options had merit!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair question. Instead of directly stating your preference, you can explain that your role was to facilitate a *collaborative* decision-making process, ensuring all perspectives were heard and considered. You could say something like: 'While I had my own thoughts, my primary focus was on creating an environment where the team could collectively determine the best path forward based on the project's specific needs and constraints. I emphasized the importance of a data-driven approach, encouraging them to back up their arguments with evidence and examples.' Emphasize your commitment to team cohesion and objective decision-making.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.19,
+        "integrity": 3.87
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_17f435b8",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 4.67,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.77,
+    "latency_score": 3.86
+  }
+}

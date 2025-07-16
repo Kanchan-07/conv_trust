@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some book recommendations. I really enjoy science fiction. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Based on your preference for science fiction, I can certainly help with that. Some popular choices include 'Dune' by Frank Herbert, 'Neuromancer' by William Gibson, and 'The Martian' by Andy Weir. Do any of those sound interesting?",
+      "response_time": 5.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.95,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've read all of those. Can you suggest something a bit more... obscure? Maybe something published in the last 5 years that isn't super well-known, but is still good?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Finding lesser-known books can be tricky. Based on your request, I can suggest 'A Memory Called Empire' by Arkady Martine (2019) which won the Hugo Award. I could also suggest 'Project Hail Mary' by Andy Weir (2021) as it is well received, but perhaps you've already read it. Alternatively, 'The Echo Wife' by Sarah Gailey (2021) has received critical acclaim and is less mainstream. Would you like any further information on these, or would you like me to dig deeper?",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.97,
+        "integrity": 3.65
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8683f5ae",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.5,
+      "benevolence": 4.96,
+      "integrity": 4.71
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.46,
+    "latency_score": 3.65
+  }
+}

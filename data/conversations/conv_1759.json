@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm starving. Any good food recommendations nearby?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me your current location and any preferences you have? For example, what kind of food do you feel like eating today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm at 123 Main Street. I'm open to anything, but I'm in the mood for something quick and easy. Maybe takeout?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on your location and preference for quick takeout, I recommend 'Pizza Palace' and 'Burger Bistro'. Pizza Palace has great reviews and Burger Bistro is known for its fast service. Both are within a five-minute drive from your location. Do either of those sound appealing?",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.21,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I had pizza last night. Burger Bistro sounds okay, but I'm trying to eat healthier. What healthy options do they have?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Burger Bistro offers a grilled chicken salad and a veggie burger. They also have sides like apple slices and a side salad instead of fries. Would you like me to provide more information on those?",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.91,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, tell me more about the veggie burger. What's it made of, and how healthy is it *really*? I'm always skeptical of veggie burgers.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Unfortunately, I do not have detailed ingredient information for each menu item, including the exact composition and nutritional details of the veggie burger. However, based on general reviews, it seems to be a black bean-based patty. I recommend checking the restaurant's online menu or calling them directly to confirm the ingredients and nutritional information to ensure it meets your dietary needs. Can I help with anything else in the meantime?",
+      "response_time": 3.31,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.37,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's a little frustrating, but fair enough. I guess I'll just call them. Thanks for the heads-up. Maybe suggest another place if the veggie burger isn't a good option.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly. If Burger Bistro's veggie burger isn't suitable, I also see a salad place called 'Green Goodness' nearby. They offer customizable salads with various healthy ingredients and dressings. Would you like me to provide more information about Green Goodness while you call Burger Bistro?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.64,
+        "integrity": 4.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4eea4c4b",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.94,
+      "benevolence": 5.03,
+      "integrity": 4.87
+    },
+    "engagement_score": 5.27,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 7,
+      "fear": 1
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 3.54
+  }
+}

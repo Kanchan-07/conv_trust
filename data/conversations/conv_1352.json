@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued and I'm really stressed about it.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I'm here to help. To provide the best advice, could you tell me the nature of the lawsuit and the specific claims against you?",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.55,
+        "benevolence": 6.91,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so it's a breach of contract case. I had a business deal go south, and now the other party is suing me for damages. It's all very complicated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Breach of contract cases can be complex. Do you have a copy of the contract in question and any related documents such as emails, correspondence, or records of payments?",
+      "response_time": 1.71,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.39,
+        "benevolence": 2.96,
+        "integrity": 2.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I have all of that, but it's a mess. I've been trying to organize it all. Honestly, the paperwork alone is overwhelming. What are my chances of winning something like this?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I cannot provide a guarantee or prediction on your chance of winning. However, I can advise you on the key elements required to establish a claim of breach of contract. The claimant needs to demonstrate a valid contract existed, you breached that contract, and the breach resulted in damages. The strength of your defense will depend on the specific facts and evidence. It is highly recommended to consult with a qualified attorney to assess your situation and build a strong defense.",
+      "response_time": 5.86,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.24,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's... not very helpful, but I understand. What about the statute of limitations? When did this alleged breach occur?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The statute of limitations varies depending on the jurisdiction and the type of contract. Generally, for a written contract, the statute of limitations is between 3 to 6 years. For an oral contract, it can be shorter, sometimes as short as two years. Could you please provide the state or jurisdiction where the contract was formed or is being enforced?",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.59,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "It was in California. And it was a written contract, although a poorly written one, unfortunately. So, if the breach allegedly occurred over 5 years ago, I might have a case, right?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Potentially, yes. If the breach occurred more than four years ago, the statute of limitations in California for a written contract may have expired. However, there could be exceptions or factors that might affect the timeframe. I strongly advise you consult an attorney in California to review your specific case details. They can determine if the statute of limitations applies and advise on your best course of action.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 4.28,
+        "integrity": 4.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_56df2cdd",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.6,
+      "integrity": 4.51
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.52
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a checkup with Dr. Smith. I'm a new patient.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me just pull up Dr. Smith's availability. Can you please provide your full name and date of birth?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.94,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's John Doe, and my birthday is January 1st, 1980. And also, I'd prefer an afternoon appointment, if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, John Doe. I'm showing availability on Tuesday at 2:00 PM or Thursday at 3:30 PM. Which time works best for you?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Tuesday at 2 is perfect! Wait, before we finalize, what's the policy if I need to cancel or reschedule? And are there any fees for that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check that for you... Unfortunately, I don't seem to have access to cancellation and rescheduling policies right now. Please call the clinic directly at 555-1212 to inquire about their policies. Sorry for the inconvenience.",
+      "response_time": 0.6,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.21,
+        "integrity": 1.14
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, okay, I guess. Fine, let's go ahead and book Tuesday at 2:00 PM. Please send me a confirmation with the address.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright, John Doe, your appointment with Dr. Smith is scheduled for Tuesday at 2:00 PM. The address is 123 Main Street, Anytown. Confirmation details including directions have been sent to your email. Is there anything else I can assist you with?",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.21,
+        "benevolence": 1.49,
+        "integrity": 1.31
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b5698465",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.89,
+      "benevolence": 1.91,
+      "integrity": 1.77
+    },
+    "engagement_score": 4.16,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 1.68,
+    "latency_score": 6.15
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm really hungry and need some food recommendations for dinner tonight. What's good around here?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! To give you the best recommendations, could you tell me a bit about what you're in the mood for? Any specific cuisine types, price range, or dietary needs?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.52,
+        "benevolence": 6.88,
+        "integrity": 6.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's see. Something comforting, maybe Italian? And not *too* expensive. Definitely need something filling, I skipped lunch.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it, comforting and filling Italian that's not too pricey. How about 'Pasta Paradise'? They have great reviews for their large portions and classic dishes like lasagna and spaghetti carbonara. 'Mama Mia's' is another option, known for their homemade pasta and cozy atmosphere, slightly more mid-range.",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.47,
+        "integrity": 5.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Pasta Paradise sounds promising for the portion size. But do they actually make their own pasta, or is it dried? It really makes a difference to me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Pasta Paradise is well-loved! They focus on generous servings and popular Italian-American dishes. Many customers highlight the value.",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 7.0,
+        "integrity": 6.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that doesn't answer my question though. Are you saying you *don't* know if they make fresh pasta? That's kind of annoying, that was my main question about them.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, I do not have specific information on whether Pasta Paradise makes all their pasta fresh on-site. My data indicates they are popular for their portion sizes and taste profiles associated with comforting Italian-American cuisine. Perhaps 'Mama Mia's' would be a better fit if fresh pasta is a key factor for you, as they are known for their homemade options?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.64,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yeah, okay. Fine. Mama Mia's it is then. How do I order from them?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Excellent choice! You can typically order from Mama Mia's through their website, their dedicated app if they have one, or third-party delivery services available in your area like DoorDash or Uber Eats. Would you like me to search for their website or listing on a delivery app?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.67,
+        "integrity": 6.83
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5a07c1a7",
+    "average_trust_score": 6.1,
+    "trust_category_averages": {
+      "competence": 6.12,
+      "benevolence": 5.93,
+      "integrity": 6.15
+    },
+    "engagement_score": 6.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "joy": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 6.4,
+    "latency_score": 2.4
+  }
+}

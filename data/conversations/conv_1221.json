@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new ceiling fan and I'm a little lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Installing a ceiling fan can be tricky. First, ensure the power is OFF at the circuit breaker. Then, what specific parts are you having trouble with? Are you unsure about the wiring, the mounting, or something else?",
+      "response_time": 5.89,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.83,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "The wiring is a nightmare. There are so many wires! Black, white, green...and the fan has different colored wires too. It's a mess. I'm getting frustrated.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Wiring can be confusing. Generally, the black wire is for power, white is neutral, and green or bare copper is for ground. The fan's wires should be labeled. Connect the matching colors (black to black, white to white, etc.) and ground the green wire. If the fan has multiple black wires, one is likely for the light and the other is for the fan motor - check the fan's manual for that. Make sure you've turned off the power at the breaker. Have you looked at the manual?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 4.47,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I looked at the manual, but it's not very clear. It shows a bunch of diagrams that I don't really understand. The fan also has a remote control, and I'm wondering if that complicates things at all?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The remote control can complicate things. Does the remote receiver have its own set of wires to connect? This often means additional connections within the fan's housing. Without knowing the specific fan model, it's hard to give you precise instructions. Can you tell me the brand and model number? Also, do you have a multimeter? It might help troubleshoot your situation.",
+      "response_time": 2.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 4.08,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, the model number is... let me see... it's a Hunter 52038. I have a multimeter, but honestly, I'm not sure how to use it. Any tips on that, or should I just call an electrician? I feel like I'm in over my head.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a96e4cd4",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.28,
+      "benevolence": 4.79,
+      "integrity": 4.47
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.16,
+    "latency_score": 3.48
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, this smart thermostat is driving me nuts! It keeps randomly setting the temperature to 85 degrees. I've tried resetting it multiple times, but nothing seems to work.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm happy to help. Can you please provide me with the model number of your smart thermostat? It's usually located on the back or bottom of the device.",
+      "response_time": 3.28,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.36,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's a ThermoSmart 3000. I\u2019ve had it for about a year. Why is this happening? Is this a known issue?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. The ThermoSmart 3000. A possible cause might be related to incorrect sensor calibration. Please try going to the settings menu, then 'Calibration', then 'Temperature' and ensure the reading is similar to another thermometer in the room. Does that help?",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.32,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I tried that, and it seemed to work for a few hours, but it's doing it again! Is there any way to completely disable the 'smart' features and just use it like a regular thermostat? I just want it to hold a temperature!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, it is possible to disable the smart features. Go to the advanced settings menu, and look for the 'Smart Mode' option. Toggle this to 'Off'. This will allow you to manually set and hold a temperature. Please note that this will disable learning and automation features.",
+      "response_time": 2.1,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.84,
+        "benevolence": 2.13,
+        "integrity": 2.28
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b52b0159",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.23,
+      "benevolence": 3.94,
+      "integrity": 4.05
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "disgust": 1,
+      "joy": 1,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.14,
+    "latency_score": 4.34
+  }
+}

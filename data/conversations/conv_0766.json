@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I received a denial for claim #12345, and the reason code is CO-45. I'm so frustrated; this keeps happening!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. CO-45 typically means 'Charges exceed your contracted rate/fee schedule.' Let's investigate. Can you provide the patient's name and date of service for claim #12345?",
+      "response_time": 0.54,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.46,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, the patient is John Smith, and the date of service was 2024-03-15.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please allow me a moment to review the claim details and our fee schedule.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'm waiting. While you're at it, how do you guys determine your 'contracted rate' anyway? It seems arbitrary sometimes.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Our contracted rates are determined through negotiations with each provider network, taking into account factors such as the provider's specialty, location, and the overall market rates for similar services in that region.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.65,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, interesting. So, what did you find out about the denial?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I've reviewed the claim. It appears the billed amount for CPT code 99214 exceeded the contracted rate by $15. I've submitted an adjustment request to reprocess the claim with the correct amount. It should reflect in the next remittance advice. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.08,
+        "benevolence": 1.0,
+        "integrity": 1.17
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aeec3dea",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 3.66,
+      "integrity": 3.54
+    },
+    "engagement_score": 4.31,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.94,
+    "latency_score": 4.72
+  }
+}

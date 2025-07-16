@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a claim I filed last week. The claim number is 20231027-458B.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please allow me a moment while I pull up claim 20231027-458B. Okay, I see the claim here. It's for damage to your vehicle after a collision. Can you verify your date of birth for me?",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.57,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 03/15/1988. What's the status? I'm really hoping this gets resolved quickly; I need my car!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. The claim is currently under review. We are waiting on the police report to be finalized. Once we receive that, we can proceed with the assessment of the damage and approve the repair estimate.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.55
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, the police report! Is there anything I can do to speed that up? It feels like it's been ages. I'm paying for rental car coverage; is that being applied?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, we are unable to directly influence the police department's processing time. However, I can confirm that your rental car coverage is active and being applied to your claim. The coverage started on the date of the accident, October 27th, and will continue until your vehicle is repaired or the coverage limit is reached.",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.53,
+        "benevolence": 2.51,
+        "integrity": 2.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, good. That's at least something. What if the police report takes a really long time? Is there a limit to how long you'll wait before making a decision? Hypothetically, what if it never arrives?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid question. While we prefer to have the police report for a comprehensive assessment, we do have procedures in place for situations where it is significantly delayed or unavailable. In such cases, we might rely more heavily on other evidence, such as photos, witness statements (if any), and the adjuster's independent assessment. The claim will be assigned to a special investigator if the police report has not been received within 30 days.",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.2,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, 30 days. I can live with that. So, if I haven't heard anything in 30 days, I should call back and ask for the special investigator?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's correct. Please call us back after 30 days if you haven't received an update. We appreciate your patience. Is there anything else I can assist you with today?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.85,
+        "integrity": 4.28
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_66dacea1",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.2,
+      "benevolence": 4.23,
+      "integrity": 4.41
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "neutral": 8,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.64,
+    "latency_score": 3.83
+  }
+}

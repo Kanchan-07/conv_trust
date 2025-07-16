@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I ordered a new laptop last week and the tracking number still says 'Label Created'. It's supposed to be delivered tomorrow! What's going on? I'm starting to get really worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Could you please provide me with your order number so I can look into the details for you?",
+      "response_time": 3.92,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 3.76,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #48293756. Also, I'm curious, if the label was created last week, why hasn't the shipping company actually received the package? Is there something wrong with your fulfillment process?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've checked order #48293756. It appears there was a slight delay in getting the package scanned by the carrier due to a high volume of shipments leaving our warehouse. I've contacted them directly and they've confirmed the package is now in transit and should arrive within 2-3 business days. You can expect the tracking information to update within 24 hours. I apologize for the inconvenience. As for your question about our fulfillment process, while delays are rare, they can occur due to various factors like order volume, staffing, and carrier issues. We are continuously working to optimize our processes to minimize these occurrences.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.97,
+        "integrity": 6.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b7351e94",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.72,
+      "benevolence": 5.37,
+      "integrity": 5.19
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 2,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 5.8,
+    "latency_score": 2.54
+  }
+}

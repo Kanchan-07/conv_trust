@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling to follow up on claim #20231027-4488. It's been two weeks and I haven't heard anything. This is incredibly frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me access claim #20231027-4488. One moment please... Okay, I see the claim. It's currently in the review stage by our claims adjuster, Mr. Johnson. He's scheduled to complete the review within 3-5 business days.",
+      "response_time": 1.47,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.63,
+        "benevolence": 2.76,
+        "integrity": 2.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "3-5 *more* business days? Seriously? What exactly is he reviewing? I submitted all the required documents and photos right away!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Mr. Johnson is verifying the details of the incident against the police report and the terms of your policy. This is a standard procedure, ensuring accuracy and compliance.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.7,
+        "benevolence": 7.0,
+        "integrity": 6.84
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I guess that makes sense. But what if Mr. Johnson finds a discrepancy? What happens then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If a discrepancy is found, Mr. Johnson will reach out to you directly to gather more information or clarification. He may also request additional documentation if needed. Rest assured, we will keep you informed throughout the process.",
+      "response_time": 5.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.76,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright. Can you at least guarantee I'll hear back within that 3-5 day window? And can I get Mr. Johnson's direct contact information?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While I cannot *guarantee* the exact timeframe, I can assure you that Mr. Johnson is aware of the urgency. Unfortunately, I'm unable to provide his direct contact information due to privacy policies. However, you can always reach out to our customer service line, referencing claim number #20231027-4488, and we will relay your message to Mr. Johnson promptly.",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.46,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, fine. Thanks for the update, I guess. Hopefully, I'll hear something soon. Goodbye.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_70b9bad9",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.77,
+      "benevolence": 5.0,
+      "integrity": 4.71
+    },
+    "engagement_score": 5.09,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.73
+  }
+}

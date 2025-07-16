@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really stuck in my current career. I've been a marketing assistant for five years, and I'm just not sure what direction to go in next. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To provide the best guidance, could you tell me a bit more about your role? What are your primary responsibilities, and what do you enjoy or dislike about your current position? Also, what are your salary expectations for your next role?",
+      "response_time": 4.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.98,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I do a bit of everything - social media, email campaigns, some basic graphic design. Honestly, I'm getting bored of it all. And I'm not sure what I want, other than something that challenges me more. Salary isn't the *most* important thing, but I'd ideally want to be making at least $75k.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a reasonable salary expectation. Considering your experience and stated preferences, you might explore roles in digital marketing management, content creation, or even a more specialized area like SEO or data analytics (which could also potentially fulfill the 'challenge' requirement, but would require more training, possibly). However, it can be a bit overwhelming, how about we start with a skills inventory? What skills do you believe you've gained in the past 5 years? Also, any specific industries interest you?",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 3.83,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "SEO and data analytics sound... intimidating, to be honest. It\u2019s a tough transition. How would I even begin to pivot into something like that, given my background?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eab45939",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.91,
+      "integrity": 4.95
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "fear": 1
+    },
+    "response_quality_score": 5.05,
+    "latency_score": 4.11
+  }
+}

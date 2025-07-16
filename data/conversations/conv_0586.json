@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new stuff for my apartment. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, can you tell me which category you're most interested in today? For example, are you thinking about furniture, kitchenware, decor, etc.?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's start with furniture. Specifically, I'm thinking about living room furniture.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Based on current trends and popular choices, I'd recommend checking out our selection of modular sofas, particularly those with built-in charging ports. We also have a wide variety of coffee tables in various styles, from minimalist to rustic. Would you like me to narrow it down based on price or material?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, minimalist coffee tables, please. Under $200 if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here are a few minimalist coffee tables under $200 that are currently in stock: [List of 3 coffee table names and prices]. Would you like to see images or more details for any of these?",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.84,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, show me the 'Sleek Black Metal Coffee Table'. Also, this might be a weird question, but how ethically sourced are your materials? I'm trying to be more conscious about that.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. Here's the product page for the 'Sleek Black Metal Coffee Table': [link]. Regarding your question about ethical sourcing, we are committed to responsible practices. Our sustainability efforts vary by product and supplier. For this specific coffee table, the metal is recycled. You can find more details about our overall sustainability initiatives on our website in the 'About Us' section under 'Sustainability'.",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 3.89,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, cool. That's actually pretty helpful. What about decor? Something to liven up the place.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "For decor, based on your previous interest in minimalist design, I suggest exploring our geometric wall art or our selection of indoor plants. Succulents are a popular low-maintenance option. Do any of those suggestions spark your interest?",
+      "response_time": 2.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 3.69,
+        "integrity": 4.2
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_149d0162",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.15,
+      "benevolence": 5.08,
+      "integrity": 5.26
+    },
+    "engagement_score": 4.77,
+    "emotion_distribution": {
+      "neutral": 8,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.66,
+    "latency_score": 3.19
+  }
+}

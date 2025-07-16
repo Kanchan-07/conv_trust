@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from Chicago to London for a trip in September. I'm flexible with dates, but it needs to be sometime in the first two weeks of the month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Please provide the specific dates you'd prefer, or let me know if you'd like me to search for the cheapest flights within that timeframe.  Also, do you have a preferred airline or any budget constraints?",
+      "response_time": 4.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.16,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I don't have specific dates yet, that's why I said 'flexible'.  Just find me the cheapest flights leaving between September 1st and 14th.  And... I really don't want to spend over $800 on the round trip.  Oh, and what if I need to change the dates later? What's the policy for that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for flights from Chicago (ORD) to London (any London airport) between September 1st and 14th, with a budget of $800 or less for a round trip. Regarding the date change policy, it depends on the specific airline and fare class selected. Generally, you'll likely have change fees plus any difference in fare. Some fares are non-changeable. I can provide details on the change policy when you select a specific flight. I will return the cheapest flights I can find and their change policies in a few moments... Please hold.",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.33,
+        "integrity": 4.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ad0bfad2",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.77,
+      "benevolence": 4.75,
+      "integrity": 4.66
+    },
+    "engagement_score": 3.83,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 4.76,
+    "latency_score": 3.56
+  }
+}

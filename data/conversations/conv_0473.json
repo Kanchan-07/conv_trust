@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my current account balance and see if a specific payment went through. I'm getting quite frustrated trying to navigate the website.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help with that. To access your account, could you please provide the last four digits of your account number and your date of birth?",
+      "response_time": 4.09,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.54,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 1234 and 03/15/1988. I'm looking for a payment to 'Acme Corp' that should have gone out on the 27th. Did it clear?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Just one moment while I access your account... Okay, I see a payment to Acme Corp for $250 processed on the 27th. Your current balance is $785.32.",
+      "response_time": 0.59,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.09,
+        "benevolence": 1.46,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks! That's a relief. Now, this might be a bit tricky, but how exactly is interest calculated on my savings account? I've read the terms and conditions, but honestly, it's like reading another language.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Savings account interest is typically calculated daily based on your average daily balance and then compounded monthly. The annual percentage yield (APY) reflects the effect of compounding. Is there anything else?",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.03,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, if I deposit $1000 and leave it for a month, how much interest would I roughly earn? Can you give me an example assuming the APY is 2%?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Assuming a 2% APY, dividing that by 365 days gives you a daily interest rate of approximately 0.00548%. So, on $1000, you'd earn about 5.48 cents per day. Over 30 days, that would be roughly $1.64. However, this is a simplified estimate, and the actual amount may vary slightly.",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.09,
+        "integrity": 3.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b476323a",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.15,
+      "benevolence": 3.28,
+      "integrity": 3.11
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 3.07,
+    "latency_score": 4.84
+  }
+}

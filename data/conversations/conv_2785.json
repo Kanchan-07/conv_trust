@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm having a terrible time with my landlord. He's suddenly saying I owe him extra money for 'maintenance' that wasn't in the lease. This feels completely unfair, and honestly, predatory.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand this situation sounds very frustrating. Dealing with unexpected charges from a landlord can be stressful. As an AI, I cannot provide legal advice or represent you in any matter. However, I can offer general information about landlord-tenant issues based on common principles. Could you tell me a bit more about what the lease says regarding maintenance costs, if anything, and what specific 'maintenance' he is claiming you owe for?",
+      "response_time": 1.49,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.67,
+        "benevolence": 2.11,
+        "integrity": 2.45
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "The lease just says tenants are responsible for minor things, like changing lightbulbs. This is about a plumbing issue he had fixed in the building's main stack, not even in my unit! He's trying to divide the cost among all tenants. The lease doesn't mention anything about sharing costs for major building plumbing repairs. Is that even legal? It seems like it should be his responsibility.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Typically, leases specify which party is responsible for various types of maintenance and repairs. Major structural or system repairs within a building, such as issues with the main plumbing stacks, are often considered the landlord's responsibility, especially if they are not caused by tenant negligence. However, this can vary significantly depending on the specific terms of your lease agreement and the local landlord-tenant laws in your jurisdiction.",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 3.61,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but saying it 'can vary significantly' isn't very helpful. How can I know *for sure* if *my* landlord can charge me for this? The lease *doesn't* say he can, and it's the main pipe, not my fault. So isn't that enough proof it's illegal for him to charge me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Determining the legality in your specific situation requires a detailed review of your full lease agreement and the relevant landlord-tenant laws in your state or city. While it may seem clear based on what you've described, only a qualified legal professional can provide a definitive answer and advise you on the best course of action, including whether the charge is legally permissible. Consulting with a local attorney or a tenant's rights organization would be the most reliable way to get advice tailored to your circumstances.",
+      "response_time": 2.29,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.8,
+        "benevolence": 2.45,
+        "integrity": 2.89
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ae2af2d7",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.22,
+      "benevolence": 2.72,
+      "integrity": 2.98
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 2.83,
+    "latency_score": 5.21
+  }
+}

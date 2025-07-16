@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from New York to Los Angeles sometime in mid-October. I'm flexible on the exact dates, but I'd prefer a direct flight if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please specify which airport in New York you'd like to fly from? Also, what's your preferred time of day for departure and arrival?",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 3.55,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "JFK is fine. And I don't really care about the time of day, as long as it's not like, 3 AM. I just want the cheapest direct flight.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for the cheapest direct flights from JFK to LAX for mid-October. One moment... Okay, I'm seeing several options. The cheapest direct flight is with JetBlue on October 18th, departing at 10:00 AM and arriving at 1:00 PM PST. The price is $350.",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.71,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's not bad. But October 18th doesn't really work for me. What about the week before, say around the 12th to the 15th? Are there any significantly cheaper options if I consider flying on those days?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check. Searching for direct flights between JFK and LAX between October 12th and 15th... I'm seeing prices fluctuating. On October 12th, the cheapest direct flight is $410 with American Airlines. However, on October 13th, there's a flight with United for $380.",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.14,
+        "benevolence": 1.07,
+        "integrity": 1.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, $380 on the 13th isn't too bad. But before I commit, can you tell me what the carbon footprint of that United flight is compared to the JetBlue flight on the 18th? I'm trying to be a little more environmentally conscious these days.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, I don't have the functionality to accurately estimate the carbon footprint of specific flights at this time. You may be able to find this information on the airline's website or through a dedicated carbon emissions calculator.",
+      "response_time": 2.21,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.43,
+        "integrity": 2.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating! I was hoping you could handle that. Fine, I'll check elsewhere. Thanks for the help, I guess.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_720707a2",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.84,
+      "benevolence": 2.69,
+      "integrity": 2.98
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.33,
+    "latency_score": 5.06
+  }
+}

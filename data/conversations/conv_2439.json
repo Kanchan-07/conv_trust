@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help processing a medical claim denial I received. It's stuck in our AR queue.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist with that. To begin, please provide the key details of the denial: Patient name or ID, date of service, payer name, and the specific denial code or reason listed on the Explanation of Benefits (EOB) or Electronic Remittance Advice (ERA).",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.97,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for patient Jane Smith, date of service was 11/01/2023. The payer is Cigna. The denial reason on the EOB says 'Non-covered service'. It's for procedure code 98765. This happens way too often with Cigna, it's frustrating.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the details. A 'non-covered service' denial typically means the procedure code 98765 is not included in the patient's specific Cigna plan benefits. Have you verified the patient's eligibility and benefits for this service prior to the date of service? Sometimes, even if a code exists, it might be excluded by the individual policy.",
+      "response_time": 2.1,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.58,
+        "benevolence": 2.82,
+        "integrity": 2.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, we did verify benefits, and the rep said it *should* be covered if medically necessary. We documented the medical necessity thoroughly. How can it be non-covered if their own representative indicated coverage based on necessity? Are they just denying claims randomly hoping we won't appeal?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That situation can be confusing. While a benefit check can give a general indication, final coverage is always determined based on the submitted claim details and medical necessity review against the plan's specific policy language. The denial might stem from a specific exclusion in the policy documentation that wasn't fully articulated during the benefit check, or the medical necessity criteria weren't met *per Cigna's specific guidelines*. To appeal this, you'll need to review Cigna's clinical policy for code 98765, compare it against your documentation, and potentially include a copy of the benefit verification notes if they contradict the denial. I can help you find the relevant Cigna policy if you provide the patient's exact plan name or group number.",
+      "response_time": 2.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.56,
+        "integrity": 3.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4fa12279",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.92,
+      "benevolence": 4.12,
+      "integrity": 3.66
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.05,
+    "latency_score": 4.75
+  }
+}

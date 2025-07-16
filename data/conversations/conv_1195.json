@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling to follow up on a claim I filed last week. Claim number is 20231026-47B.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please allow me a moment to access claim 20231026-47B. Okay, I see the claim here. It's for water damage reported on October 26th. Is that correct?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.16,
+        "integrity": 1.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's right. My kitchen flooded, and I had to get a plumber out immediately. I submitted all the paperwork and the plumber's invoice. What's the hold up?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. According to the notes, the claims adjuster is still reviewing the plumber's invoice to ensure it aligns with the reported damage. This is standard procedure. Have you uploaded photos of the damage to the claim portal?",
+      "response_time": 2.43,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.6,
+        "benevolence": 2.51,
+        "integrity": 2.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I uploaded photos the day I filed the claim! Are you sure you're looking at the right claim? This is ridiculous. How much longer is this going to take? And what exactly are they checking on the invoice? Are they saying the plumber is overcharging?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the delay and any inconvenience. The adjuster is verifying that the services performed and the charges are reasonable and customary for the type of damage reported and your policy coverage. I will send a message to the adjuster requesting an update and ask them to contact you directly within 24-48 hours. Is that acceptable? Could you also provide the date those pictures were uploaded, just in case?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.03,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 24-48 hours. I uploaded the pictures October 27th. I hope they actually call me back this time. What happens if they determine the plumber overcharged? Will I have to pay the difference myself? My insurance policy should cover this!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bfe79c2b",
+    "average_trust_score": 1.5,
+    "trust_category_averages": {
+      "competence": 1.64,
+      "benevolence": 1.56,
+      "integrity": 1.44
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1,
+      "anger": 2,
+      "sadness": 1
+    },
+    "response_quality_score": 1.92,
+    "latency_score": 6.36
+  }
+}

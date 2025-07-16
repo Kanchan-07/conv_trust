@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some grocery recommendations for this week, but I'm trying to keep my budget under $50. It's been tough lately!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To give you the best recommendations, could you tell me what kinds of meals you're planning to make this week? And are there any dietary restrictions or preferences I should be aware of?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.91,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, planning meals is the worst! I guess I was thinking maybe some pasta, chicken breast (if it's cheap enough!), and some veggies. I'm trying to eat healthier, so nothing too processed.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, based on that, how about this: Pasta with tomato sauce and ground turkey (a cheaper alternative to chicken), steamed broccoli, and some eggs for breakfast. You could also add lentils to the pasta for extra protein and fiber. All of this should come in under $50, depending on where you shop.",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.21,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds...okay. But how do you KNOW it will be under $50? Prices fluctuate all the time! And what if I want organic? That's always more expensive.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, prices do vary. My estimate is based on average prices at major grocery chains and doesn't account for organic options, which are generally more expensive. For a more accurate estimate, you can check the online prices at your local grocery store. To keep the cost down, you could prioritize buying organic for items where it matters most to you, like produce you eat the skin of.",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 3.94,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's...somewhat helpful. I still think I'll go over budget, but thanks for the suggestions!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d7bed603",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.18,
+      "benevolence": 4.02,
+      "integrity": 4.13
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.24,
+    "latency_score": 4.22
+  }
+}

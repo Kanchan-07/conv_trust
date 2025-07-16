@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to book a table for four at a nice Italian restaurant in the downtown area this Saturday night. It's proving impossible! Everything is booked solid, and I'm getting so frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me see what I can find. For Saturday night in downtown, for four people, are you looking for something specifically high-end, or is 'nice' the main criteria? Also, what time were you hoping for?",
+      "response_time": 1.71,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.89,
+        "benevolence": 2.58,
+        "integrity": 2.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Around 7:30 or 8 would be ideal. 'Nice' is the main thing, good food and ambiance but doesn't have to be super fancy or expensive. And... uh oh, one of the people in our party just told me that they are vegan. What places even have good vegan options *and* Italian?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, this is a bit tricky, but I have one option that might work. 'Bella Notte' has a few vegan pasta dishes and gets consistently good reviews. They have a reservation available at 7:45 PM this Saturday. Would you like me to book it for you? I can't guarantee how extensive their vegan menu is, but it does appear to be available based on recent online reviews. Alternatively, I can search for specifically vegan-friendly restaurants in the downtown area.",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 3.87,
+        "integrity": 4.21
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a56fcdd1",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.31,
+      "benevolence": 3.23,
+      "integrity": 3.52
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 3.27,
+    "latency_score": 4.74
+  }
+}

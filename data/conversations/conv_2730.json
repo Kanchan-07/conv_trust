@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a return. I bought an item last week, and it just doesn't fit. It's kind of annoying that the size guide was so off. My order number is #EC12345678. How do I start the process?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear the item didn't fit. I can certainly help you with starting a return for order #EC12345678. To initiate a return, please log in to your account and visit the 'Order History' page. You should see an option there to 'Request Return' next to the specific item. Is there anything else I can assist you with regarding this order?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'll try that. But I have another question that's really confusing me. I used a gift card AND a discount code on this order. If I return just *one* item from the order (not the whole thing), how will the refund work? Will it go back to the gift card first, and what happens to the discount that was applied across the whole order? I'm worried I won't get the full value back for the item I'm returning because of the split payment and discount.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand that can be confusing. Generally, refunds for orders paid with both a gift card and another method are processed back to the original payment methods. The amount refunded for a single item, especially when discounts were applied to the whole order, is calculated based on the item's proportional value after the discount. The gift card amount is usually refunded first until its original balance is reached, and any remainder goes to the other payment method. Please refer to our detailed Return Policy for the exact process.",
+      "response_time": 1.58,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.02,
+        "integrity": 2.71
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Proportional value? That doesn't really explain *how* the refund is calculated for one item with a site-wide discount applied, or specifically if the discount for the items I *keep* gets recalculated, or if the discount for the returned item is just lost. And the gift card part is still a bit vague. Can you give a more concrete example or explain the discount part more clearly? The policy link wasn't much help on this specific scenario.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ee044f81",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.85,
+      "benevolence": 1.51,
+      "integrity": 1.88
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 2,
+      "fear": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 1.29,
+    "latency_score": 6.46
+  }
+}

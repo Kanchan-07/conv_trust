@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some advice about a tenant issue. My landlord hasn't returned my security deposit and it's been over 45 days since I moved out.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're concerned about the return of your security deposit. Please remember I am an AI and cannot provide legal advice. Security deposit laws vary significantly by state and local jurisdiction. Generally, there are specific timelines within which a landlord must return the deposit or provide an itemized list of deductions.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.27,
+        "benevolence": 1.4,
+        "integrity": 1.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I get that. But what's the *typical* timeline? I live in California. And he hasn't sent any list of deductions either.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "In California, landlords typically have 21 days after the tenant moves out to either return the security deposit in full or send an itemized statement of deductions along with any remaining balance. If they don't, they may forfeit their right to keep any portion of the deposit. However, this can depend on lease terms and specific circumstances.",
+      "response_time": 1.77,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.65,
+        "benevolence": 2.67,
+        "integrity": 2.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, 21 days? It's been way longer than that! He's not responding to my calls or texts at all. This is so frustrating. What actual legal steps can I take now to get my money back if he's ignoring me and past the deadline?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "When a landlord fails to return the deposit or provide an accounting within the required timeframe, tenants often consider sending a formal demand letter as a next step. If that doesn't yield a response, pursuing action in small claims court is another avenue. The specific process for filing in small claims court varies by county.",
+      "response_time": 2.86,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 3.57,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Small claims court? That sounds complicated. Do I need to hire a lawyer for that? I just want my thousand dollars back, not get into a huge legal battle.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Many individuals represent themselves in small claims court and lawyers are often not permitted or necessary. However, navigating the court process and understanding the necessary documentation can still be challenging. Resources like the California Courts self-help guide or local tenant's rights organizations can provide guidance on the small claims process.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.16,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes a bit more sense. It's good to know I might not *have* to hire a lawyer immediately. I'll look into sending a formal demand letter first and check out those resources for small claims if needed. Thanks for the information.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9bdf6bac",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 3.12,
+      "benevolence": 2.95,
+      "integrity": 2.82
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.33,
+    "latency_score": 5.2
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel room in San Francisco for two nights, from October 26th to 28th. Preferably near Fisherman's Wharf.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that.  Give me a moment to search.  ... Alright, I've found a few options. The Argonaut Hotel, a Noble House Hotel, and Hotel Zephyr San Francisco are both in that area and have availability.  Would you like me to provide more details on either of those?",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 4.0,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, the Argonaut seems nice, but it also looks quite expensive. What's the cancellation policy for that hotel? And also, how do those prices compare to other hotels further out, like near the airport? I'm trying to figure out the best balance between price and location, and honestly, this is a bit overwhelming already!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. The Argonaut's cancellation policy is generally 72 hours prior to arrival, but I strongly recommend you confirm this directly with them when booking, as policies can vary. Regarding prices near the airport compared to Fisherman's Wharf, I can't easily provide a direct comparison in terms of pricing right now. That's a more complex query requiring real-time search across multiple websites and various rate structures. Let me suggest that you use a price comparison website or use a search engine with the terms 'hotels near San Francisco Airport' and 'hotels near Fisherman's Wharf' to compare pricing.",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.73,
+        "integrity": 5.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_51a6ab76",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 4.87,
+      "integrity": 4.75
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.17
+  }
+}

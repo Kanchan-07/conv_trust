@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to figure out why a claim was rejected. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly try. Please provide the claim number and I can look into the rejection reason for you.",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 3.56,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890. I'm really frustrated with this. It's the third time this has happened.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check that claim... Okay, it looks like the rejection reason is 'missing modifier'. Can you confirm the procedure code used?",
+      "response_time": 2.02,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.19,
+        "benevolence": 2.9,
+        "integrity": 2.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, missing modifier again? The procedure code was 99214. The modifier should have been -25. I\u2019m sure of it.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I see. My apologies, it appears the -25 modifier wasn't properly attached to the billing record. I'll attempt to resubmit the claim with the correct information. This might take some time to reprocess.",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.47,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "How long does 'some time' usually mean? I have patients waiting for this to get resolved and it\u2019s important they get their bills paid.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Typically, resubmitted claims can take anywhere from 14 to 30 business days to process, depending on the payer. I am unable to provide a more precise timeframe. Do you have any further billing questions I can help with?",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.95,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's a long time, but okay. I have another tricky one. Can you explain the difference between modifier -59 and -XU? It feels like the guidance on their use is constantly changing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a very good question! I am unable to give a fully accurate description of those modifiers at this time. For in-depth guidance, please consult your most recent CPT and CMS guidelines. Is there anything else I can help you with?",
+      "response_time": 3.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 4.13,
+        "integrity": 4.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a38fea05",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.72,
+      "benevolence": 3.8,
+      "integrity": 3.78
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.07,
+    "latency_score": 4.46
+  }
+}

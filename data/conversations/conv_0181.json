@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some new music for me? I'm in the mood for something... different. I mostly listen to pop, but I want to branch out.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! To help me suggest something 'different' from pop, what other genres are you interested in exploring? Do you have any preferences in terms of mood, like upbeat, chill, or something else?",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.95,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. Maybe something like...indie rock? But not too heavy, more like, happy and chill indie rock. Is that a thing?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! I recommend checking out the band 'Alvvays'. Their sound is often described as dreamy and melodic indie rock. Another option is 'Real Estate' - they have a very chill vibe. Let me know what you think!",
+      "response_time": 4.22,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.49,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'll check them out. But I'm curious, how do you *actually* find these bands? Like, what's the process? Are you just Googling 'happy chill indie rock'?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I access a vast database of music metadata, including genre classifications, artist information, and listener reviews. I then use algorithms to identify artists and songs that match your specified criteria based on these attributes. Human editors also help refine the database for greater accuracy.",
+      "response_time": 4.88,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Interesting! Okay, thanks for the explanation and the recommendations. I'll give those bands a listen.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ee2609bc",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.3,
+      "benevolence": 5.48,
+      "integrity": 5.31
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "neutral": 4,
+      "joy": 3
+    },
+    "response_quality_score": 5.62,
+    "latency_score": 3.14
+  }
+}

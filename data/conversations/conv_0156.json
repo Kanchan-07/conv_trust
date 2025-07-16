@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I've been having these weird headaches for about a week now. They're mostly in the back of my head and they come and go. I've also felt a little dizzy sometimes. Any thoughts?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thanks for providing that information. Headaches and dizziness can be caused by a variety of factors. To give you the most relevant advice, could you tell me more about the headaches? For example, on a scale of 1 to 10, how severe are they typically? Are there any specific activities or times of day that seem to trigger them? Are you taking any medication?",
+      "response_time": 3.29,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.42,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, fine. They're usually around a 5 or 6, sometimes higher. I think staring at my computer screen for too long makes them worse. And yes, I take a multivitamin every morning.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, computer screen usage is a potential factor. Here are some general suggestions: Ensure your monitor is at the correct height and distance. Take regular breaks to look away from the screen and stretch. Staying hydrated can also help. If the headaches continue or worsen, consult a doctor.",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 3.87,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's it? Just take breaks and drink water? I was hoping for something more concrete. Also, what are the chances it could be something really serious, like... a brain tumor or something? I've been reading stuff online and now I'm freaking out.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef3a9020",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.97,
+      "benevolence": 4.64,
+      "integrity": 4.76
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "fear": 2,
+      "disgust": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 4.12
+  }
+}

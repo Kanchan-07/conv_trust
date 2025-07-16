@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really hungry. Can you help me find something to eat?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Of course. To give you the best recommendations, could you tell me your location or any dietary restrictions or preferences you have?",
+      "response_time": 4.69,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.91,
+        "integrity": 6.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in downtown Austin. I'm open to anything except seafood, and I'm trying to eat healthier.  I also really hate spicy food.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, downtown Austin, no seafood or spicy food, and health-conscious. Based on that, I recommend trying Flower Child. They have lots of healthy options with fresh ingredients. Also, True Food Kitchen is a solid choice. They're a bit pricier, though. Would you like to see menus or make a reservation?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.05,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Flower Child sounds good. What's the average wait time and how many calories are in their most popular salad?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check on those details... Okay, the wait time at Flower Child is currently around 15-20 minutes, and their most popular salad, the Mother Earth Bowl, has around 600-700 calories. Does that work for you?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.1,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, 600 calories is a bit high for a salad, but it's manageable. Do you know how they source their ingredients? Like, are they organic, local, etc.?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, I don't have access to the precise sourcing information for Flower Child. My information is limited to menu items and estimated wait times. You could try checking their website or calling the restaurant directly for more detailed information about their ingredients.",
+      "response_time": 1.51,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.79,
+        "benevolence": 2.58,
+        "integrity": 2.52
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, fair enough. I'll check their website. Thanks for the help! I think I'll give it a try.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! I hope you enjoy your meal. If you need any other assistance, feel free to ask. Enjoy!",
+      "response_time": 4.32,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.62,
+        "benevolence": 6.93,
+        "integrity": 6.53
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_92919bca",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.82,
+      "benevolence": 4.91,
+      "integrity": 4.97
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 3.84
+  }
+}

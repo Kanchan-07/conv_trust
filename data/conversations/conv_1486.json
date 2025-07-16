@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. My car was damaged in a fender bender.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help you with that. Could you please provide your policy number and the date of the accident?",
+      "response_time": 5.44,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.84,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, my policy number is ABC123XYZ. The accident happened on October 26th, 2024. I am so frustrated, the other driver just rear-ended me!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've located your policy. I'll need some more information about the accident. Please describe what happened in detail, including the location and any witness information.",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.12,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, it happened at the intersection of Main Street and Oak Avenue. I was stopped at a red light, and the other driver didn't stop in time. There were no witnesses, unfortunately. I have pictures of the damage to my car and the other car.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great. Please upload the pictures through the portal and provide the other driver's insurance information if you have it. Also, have you filed a police report?",
+      "response_time": 5.14,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.63,
+        "benevolence": 6.7,
+        "integrity": 6.74
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, I uploaded the pictures. I do not have the other driver's insurance information, the police handled that. I do have the police report number, though: 1234567. Now, how long will the process take to be completed? Because I really need my car!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you. Once we receive the police report, we will begin processing your claim. The time it takes to complete a claim can vary depending on several factors, including the extent of the damage and the availability of the necessary documentation. We strive to complete the process within 30 days, but I cannot give you a precise timeframe at this moment. We will keep you updated. Does that sound satisfactory?",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.59,
+        "integrity": 5.18
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit frustrating, but I understand. What if the other driver's insurance refuses to pay? What happens then? Will my rates go up if I'm not at fault?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a valid question. If the other driver's insurance denies the claim, we'll investigate and attempt to recover the funds. Your rates shouldn't increase if you are not at fault, according to your policy terms. We'll notify you of the outcome, and of course, we will work on your behalf. Is there anything else I can assist you with?",
+      "response_time": 0.59,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.41
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1cfd0692",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.04,
+      "benevolence": 5.08,
+      "integrity": 5.25
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "anger": 2
+    },
+    "response_quality_score": 5.37,
+    "latency_score": 3.35
+  }
+}

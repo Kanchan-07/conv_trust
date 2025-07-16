@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some fashion recommendations, but I'm on a pretty tight budget. Like, REALLY tight. Help!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand! To give you the best recommendations, could you tell me your budget range? For example, 'under $50', 'around $100', or something similar. Also, what kind of style are you generally interested in (casual, professional, trendy, etc.)?",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.05,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's say under $75 total for an entire outfit. And I'm going for a casual, everyday look. Nothing too fancy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. For under $75 and a casual everyday look, I'd suggest checking out stores like Target, Old Navy, and SHEIN. You could probably find a basic t-shirt for around $10-15, jeans or chinos for $20-30, and a simple jacket or cardigan for another $20-30. Accessorize with some inexpensive jewelry from Amazon or even a thrift store find to complete the look without breaking the bank.",
+      "response_time": 5.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.9,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful... but what about the ethics of SHEIN? I've heard some pretty bad things about their labor practices and environmental impact. Is there a way to be fashionable on a budget AND be a decent human being?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very valid concern. While SHEIN often offers incredibly low prices, their ethical and environmental practices are indeed questionable. For budget-friendly and more ethical options, consider thrifting or buying secondhand from stores like Goodwill or online platforms like ThredUp and Poshmark. You can often find high-quality items for a fraction of their original price. Also, keep an eye out for sales and clearance sections at more sustainable brands, even if it requires a bit more patience. Sometimes you can get lucky!",
+      "response_time": 1.72,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.42,
+        "benevolence": 2.01,
+        "integrity": 2.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_25d7d43e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.29,
+      "benevolence": 3.99,
+      "integrity": 4.32
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 3.93,
+    "latency_score": 3.94
+  }
+}

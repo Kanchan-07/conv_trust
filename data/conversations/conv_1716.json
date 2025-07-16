@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a billing issue. I think I was overcharged on my last bill.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your account number or the phone number associated with your account so I can look into this for you?",
+      "response_time": 5.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.44,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. I received a bill for $150, but I was expecting it to be closer to $100.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've pulled up your account. Let me take a look... Okay, I see the $150 charge. It seems you were charged for exceeding your data limit. Do you remember using extra data last month?",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.61,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, really? I don't think so. I'm usually pretty good about monitoring my data usage. Is there any way to see what services used that extra data? It seems unfair if I can't verify.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, our system only provides a total data usage amount and doesn't break it down by specific services. However, I can show you the data usage for each day of the billing cycle. Would you like to review that?",
+      "response_time": 1.32,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.35,
+        "benevolence": 2.53,
+        "integrity": 2.69
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That would be great, yes, please. Show me the daily breakdown.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, I have that information here. On the 15th of last month, there was a very high spike in data usage, which appears to be what triggered the overage. Let me give you the exact number... It was 5GB used that day alone. Do you know anything about that day?",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.53,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, I don't know. I was traveling that day, so maybe my phone was automatically updating apps or something and used up data. So, there's no way to get a refund or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I can certainly look into a one-time courtesy credit for this situation. Let me issue a $25 credit to your account. It should reflect on your next bill. Is there anything else I can help you with today?",
+      "response_time": 0.63,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.12,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c0a724c9",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.63,
+      "benevolence": 3.65,
+      "integrity": 3.68
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.41,
+    "latency_score": 4.69
+  }
+}

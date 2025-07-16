@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new hiking boots. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. To give you the best recommendations, could you tell me a bit about what you're looking for? For example: What kind of hiking do you typically do (day hikes, backpacking)? What's your budget? Do you have any preferred brands or features?",
+      "response_time": 4.58,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.93,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, good questions. Mostly day hikes, sometimes overnight. Budget is flexible, but I don't want to break the bank. I usually hike in the Pacific Northwest, so something waterproof is a must. I like Salomon and Keen.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your preferences, I recommend these options:\n\n1.  **Salomon X Ultra 4 Mid GTX:** Excellent ankle support, waterproof, and comfortable. Price: $165.\n2.  **Keen Targhee III Waterproof Mid:** A classic, durable, and waterproof boot. Price: $140.\n\nWould you like to see more options or learn more about either of these?",
+      "response_time": 5.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.6,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Those both look good. What's the difference between the Salomon X Ultra 4 Mid GTX and the Salomon Quest 4D 3 GTX? The Quest 4D is also waterproof, right? Is it better?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Quest 4D 3 GTX is designed for more rugged terrain and backpacking with more ankle support and stability. The X Ultra 4 is better suited for day hikes and lighter loads. Both are waterproof, but the Quest 4D offers superior protection for your ankles. Whether it's 'better' depends on your needs. For day hikes and occasional overnights, the X Ultra is usually a good choice. For longer trips, the Quest 4D would be preferable. ",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.5,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that's helpful, thanks. Okay, let's say I'm leaning towards the X Ultra 4 Mid GTX. Any deals or discounts available, or can you compare prices from different retailers?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I do not have access to real-time pricing information or any information about specific deals or discounts. I can, however, provide you with some general guidelines on where to look. Retailers like REI, Backcountry, and Amazon often have sales or promotions. I recommend you check their websites. Price comparison websites like Google Shopping can be helpful as well.",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.26,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit disappointing, but thanks for the information. I guess I'll go check those retailers. I appreciate your help! Thanks!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're very welcome! I'm glad I could assist you. Happy hiking!",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.74
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6da41b27",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.62,
+      "benevolence": 5.66,
+      "integrity": 5.43
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 8,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.96,
+    "latency_score": 2.77
+  }
+}

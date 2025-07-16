@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help with a package that seems to be delayed. My tracking number is 9876543210. It was supposed to arrive yesterday, but the tracking hasn't updated in three days.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you're concerned about your package. I can assist you with checking the status. Please provide the tracking number for the shipment.",
+      "response_time": 5.43,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.75,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I just gave it to you! It's 9876543210. Why are you asking again? The tracking shows it's stuck in 'In Transit' status in the same city for days. Is it lost? Can you tell me *exactly* where it is or why there's no movement?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for confirming the tracking number 9876543210. Checking the system, the status indicates 'In Transit - Delay'. This means the package is still within our network, but has encountered an unexpected delay. We apologize for any inconvenience this may cause.",
+      "response_time": 0.53,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.37,
+        "benevolence": 1.34,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but 'unexpected delay' isn't very helpful. How long will the delay be? Will I get an update when it starts moving again? This is frustrating, I really needed this item soon. What happens if it just... stays stuck?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "We cannot provide an exact delivery date at this time for delayed shipments. The tracking information will be updated as soon as the package scans at the next facility. If the package tracking does not show movement within the next 5 business days from the last scan, you may be eligible to file a missing package claim. We appreciate your patience.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.69,
+        "integrity": 5.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f2989c4e",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.59,
+      "integrity": 4.65
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 3,
+      "fear": 1,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.92,
+    "latency_score": 4.38
+  }
+}

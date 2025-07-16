@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to check my checking account balance, but the app seems really slow today. Can you just tell me what it is?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Please allow me a moment to access your account securely. Your current checking account balance is $1,255.78.",
+      "response_time": 5.79,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Hmm, that seems lower than I expected. I was looking at my recent transactions and there's a charge for $25 from 'ONLINE RETAIL' that I don't recognize at all. What exactly is that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see the transaction from 'ONLINE RETAIL' for $25 on [Date]. This description is quite common for various online purchases. Could it relate to a recent purchase from a website or online service you might have used? Sometimes the merchant name shown here isn't the most detailed.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.16,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's not very helpful! I shop online all the time, how am I supposed to know which one this is from just 'ONLINE RETAIL'? I don't remember buying anything for exactly $25. How can I get more specific information about this charge, or can I just dispute it right now if I don't recognize it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, the description 'ONLINE RETAIL' is often the maximum detail provided by the payment processor to us. To get more specific merchant information or to initiate a dispute, you would need to formally report the transaction. I can guide you on how to start a dispute claim online or provide you with the number for our fraud department who can assist further.",
+      "response_time": 1.85,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.38,
+        "benevolence": 2.69,
+        "integrity": 2.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e7a9574d",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.62,
+      "integrity": 4.59
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.28,
+    "latency_score": 3.82
+  }
+}

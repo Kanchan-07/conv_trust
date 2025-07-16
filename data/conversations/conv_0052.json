@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Diego for a few nights in July. I'm getting so overwhelmed with all the options online!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To narrow down the search, what dates in July are you looking at, and how many guests will be staying?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.57,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "July 12th to the 15th, so three nights. And just two people. We'd like something near the Gaslamp Quarter, if possible. Walking distance would be amazing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for hotels near the Gaslamp Quarter in San Diego for July 12th to 15th, two guests. I am seeing several options. Do you have a budget in mind, or any preferences regarding amenities like a pool or free breakfast?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.99,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, let's say under $300 a night, and a pool would be great. Free breakfast would be a bonus, but not a must. Also, what are the parking costs usually like in that area? I'm renting a car.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, under $300, pool preferred. Many hotels in the Gaslamp Quarter charge for parking, typically between $40-$60 per night, which is a standard rate for downtown areas. Some hotels may offer packages that include parking. The Hotel Indigo San Diego Gaslamp Quarter has a pool and is coming in around $280 a night, but parking is extra. The Andaz San Diego also has a pool and is slightly more expensive at $310, and similar parking costs. Would you like me to check if either of those offer parking packages for your dates?",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.04,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, those parking fees are insane! Check for parking packages at the Hotel Indigo, please. It sounds a bit better price-wise, even with the extra parking. I'm also curious...why is parking so expensive in San Diego anyway?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, let me check on parking packages for the Hotel Indigo... Regarding the high parking costs, it is mainly due to limited space and high demand in the downtown area. Many buildings were constructed before widespread car ownership, and the cost of land is very high, making it expensive to build new parking structures. Unfortunately, the Hotel Indigo does not seem to be offering any special parking packages for those dates. It seems your options are to pay the daily rate at the hotel, or seek alternative parking garages nearby using an app such as SpotHero. ",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.79,
+        "integrity": 4.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c33a3469",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.81,
+      "benevolence": 4.6,
+      "integrity": 4.9
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.56,
+    "latency_score": 3.43
+  }
+}

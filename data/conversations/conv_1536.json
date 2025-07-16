@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order. I have the order number, but I can't seem to find the tracking information.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Please provide your order number, and I'll look up the tracking details for you.",
+      "response_time": 4.72,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's #12345. I've been waiting for this order for a while, so I'm getting a little frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Just a moment... Okay, I'm showing that your order has shipped and the tracking number is: XYZ123ABC789. You can track it on the carrier's website, which is USPS.com. I apologize for any delay.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.61,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thanks! Finally! But, can you tell me why it took so long to ship? The estimated delivery date was last week.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, but the system is not showing the exact cause of the delay. In this case, a further investigation will be necessary. I suggest contacting our customer service. They have more detailed information and can assist you further.",
+      "response_time": 4.08,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.8,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, fine. Can you at least provide me with a direct link to their contact form or email? Finding the right contact info is always a nightmare on this site.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly! Here's a link to our customer service contact form: [link to contact form]. Or you can email them at support@ecommerce.com. Is there anything else I can help you with today?",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.17,
+        "integrity": 5.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, that's all. Thanks for your help, I guess.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_98c9d1d2",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.7,
+      "benevolence": 5.74,
+      "integrity": 5.73
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "anger": 1,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.73,
+    "latency_score": 2.61
+  }
+}

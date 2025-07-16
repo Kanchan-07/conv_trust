@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm trying to update my resume and it's just... overwhelming. I haven't touched it in years. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "It's completely normal to feel that way! Let's break it down. First, what type of role or industry are you targeting? Knowing that helps tailor your resume effectively. If you have an old version, feel free to share it, and we can work from there.",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.33,
+        "benevolence": 2.86,
+        "integrity": 2.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, good point. I'm looking at project management roles, mostly in tech. I have this old draft, but it feels so generic. How do I make it stand out AND make sure it gets past those automated systems? It feels like I need two different resumes or something, it's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Tailoring is key for both human readers and Applicant Tracking Systems (ATS). While you don't necessarily need two completely different resumes, you should adapt sections like your summary and bullet points to match keywords and requirements in each job description. Focus on quantifiable achievements and use clear, standard formatting for ATS readability. Avoid complex graphics or tables that might not scan well.",
+      "response_time": 1.48,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.57,
+        "benevolence": 2.3,
+        "integrity": 2.84
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_945dca7d",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.45,
+      "benevolence": 2.58,
+      "integrity": 2.88
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 1,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 2.7,
+    "latency_score": 5.62
+  }
+}

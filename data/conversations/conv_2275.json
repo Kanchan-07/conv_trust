@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with some calculus problems. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with calculus. What specific topics are you working on?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.97,
+        "integrity": 6.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Derivatives are killing me. I don't understand the chain rule at all.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "The chain rule can be tricky at first! Let's break it down. It states that the derivative of f(g(x)) is f'(g(x)) * g'(x). Do you want to try some examples?",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.91,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I understand the formula now. But what if I have something like... the derivative of sin(x^2 + 3x)?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Excellent question! Let's apply the chain rule. The derivative would be cos(x^2 + 3x) * (2x + 3). Where cos(x^2 + 3x) is the derivative of the outer function (sin) and 2x+3 is the derivative of the inner function (x^2 + 3x). Does that make sense?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.77,
+        "benevolence": 7.0,
+        "integrity": 6.81
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes! Wow, that actually makes so much more sense now. Thanks! But... I'm still a bit confused about the second derivative. How does it work?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The second derivative is simply the derivative of the first derivative. So, you take the derivative of the function, and then take the derivative of *that* result. Would you like an example?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.41,
+        "integrity": 4.31
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4aad9fb1",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.39,
+      "benevolence": 5.57,
+      "integrity": 5.47
+    },
+    "engagement_score": 4.99,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.59,
+    "latency_score": 2.97
+  }
+}

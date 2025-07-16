@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to book a restaurant for dinner tomorrow night. Something Italian, preferably.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. What city are you looking to dine in?",
+      "response_time": 3.29,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.3,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oops, sorry! Chicago.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Searching for Italian restaurants in Chicago for tomorrow night... I see several options. What time were you thinking of and how many people?",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.66,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Around 7:30 PM, and it'll be for four people.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. I'm showing availability at 'Bella Notte' and 'Luigi's Trattoria' around that time. Bella Notte has 4.5 stars and Luigi's has 4 stars. Both are located downtown. Any preference?",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.6,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm...Luigi's is usually packed. How does Bella Notte compare in terms of price?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Bella Notte is in the $$ range, while Luigi's is $$. I can also check customer reviews to see how they compare regarding atmosphere and service, if you'd like.",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.38,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, what's Bella Notte's cancellation policy? What if someone gets sick last minute?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Good question. Unfortunately, I don't have real-time access to specific cancellation policies for each restaurant. However, I can provide you with their phone number so you can quickly check with them directly. Would you like me to do that?",
+      "response_time": 5.15,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.32,
+        "integrity": 5.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eeed27ff",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.85,
+      "integrity": 5.14
+    },
+    "engagement_score": 3.99,
+    "emotion_distribution": {
+      "neutral": 8,
+      "anger": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.81,
+    "latency_score": 3.41
+  }
+}

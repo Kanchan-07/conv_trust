@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new kitchen faucet, but I'm already stuck. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. First, ensure you've turned off the water supply lines under your sink. Next, what part of the installation are you struggling with specifically?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.95,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, water's off. The old faucet is off too, but I can't seem to get the new one's base to fit in the hole! I've tried everything!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I understand your frustration. Sometimes the base might be a little too big or the hole might be slightly obstructed. Let's try these steps: 1. Check for any debris in the hole. 2. Make sure the faucet base is oriented correctly. 3. Try gently wiggling and applying slight downward pressure. If that doesn't work, you might need to slightly enlarge the hole, but be careful with that. I would not recommend doing that at all unless you have experience.",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.27,
+        "benevolence": 2.15,
+        "integrity": 2.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I checked for debris and the orientation. Still no luck. Okay, I'm thinking about enlarging the hole, but I don't even know what kind of drill bit I'd need for that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let's hold off on the hole enlargement for now. Before you go that route, can you give me the exact measurements of the hole and the faucet base, also what material the countertop is made of? This will help me determine the best course of action, including the appropriate drill bit if it is necessary. Providing photos might also assist me. Furthermore, it is very important to determine the best bit based on the countertop material.",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.98,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, I don't have a ruler handy. Fine, the countertop is laminate, and the hole is about 1 and 3/8 inches. The faucet base is just a hair wider. So, what now?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, for a laminate countertop, a step bit or a hole saw would work best. Given the size difference, I recommend a 1 1/2 inch hole saw or a step bit that can accommodate that size. Be sure to drill slowly and steadily, and ideally use painter's tape to prevent chipping the laminate. It's always best to err on the side of caution. Good luck, and feel free to ask if you have more questions.",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.59,
+        "integrity": 4.17
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_14fd7785",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.3,
+      "benevolence": 4.17,
+      "integrity": 4.56
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.47,
+    "latency_score": 3.9
+  }
+}

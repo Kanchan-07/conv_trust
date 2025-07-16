@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining this hackathon, but I'm feeling a bit overwhelmed. I've never participated in one before. Any tips on where to even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! It's completely understandable to feel overwhelmed before your first hackathon. A great starting point is to brainstorm potential project ideas beforehand. Think about problems you're passionate about solving or skills you want to develop. Also, familiarize yourself with the hackathon's rules and judging criteria. That will help shape your project.",
+      "response_time": 5.7,
+      "emotion_detected": "surprise",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.66,
+        "benevolence": 6.96,
+        "integrity": 6.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, brainstorming makes sense. But what if my idea is too complex for a weekend project? I was thinking of something involving machine learning, but I'm not sure if I have the time to train a model from scratch. Ugh, this is stressful!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, time is a major constraint! For a weekend hackathon, scoping is crucial. Instead of training a model from scratch, consider leveraging pre-trained models or APIs. Many platforms offer free or trial access to machine learning services. Think about simplifying your idea to a minimum viable product (MVP) that demonstrates core functionality within the time limit. It's better to have a functional, smaller project than an incomplete, ambitious one. Does that help?",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.69,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's actually a really good point about the pre-trained models! I hadn't really thought about that. So, say I use one... how can I ensure my project stands out from the crowd if everyone else is using the same resources? What's the secret sauce?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While using pre-trained models is common, the key to standing out lies in your project's **application and execution**. Focus on a unique problem space, a creative user interface, or a particularly clever integration of different technologies. Judges often look for projects that demonstrate a clear understanding of the problem, a well-designed solution, and potential for real-world impact. Don't just use the technology; *show* its value. Also, a well-prepared and engaging presentation can make a huge difference!",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.7,
+        "integrity": 5.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_03ba521b",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.55,
+      "benevolence": 5.45,
+      "integrity": 5.56
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "surprise": 3,
+      "disgust": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 5.91,
+    "latency_score": 3.19
+  }
+}

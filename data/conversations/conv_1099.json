@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with my SmartHome Hub X500. It's completely unresponsive.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're experiencing issues with your SmartHome Hub X500. To start troubleshooting, could you please confirm that the device is properly connected to a power source and that the power outlet is working?",
+      "response_time": 0.6,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I've checked the power. The outlet works, and the device is plugged in securely. The light isn't even blinking, it's just dead.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Please try unplugging the Hub from the power outlet, waiting 30 seconds, and then plugging it back in. This will perform a soft reset.",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.86,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've already tried that! Multiple times! Honestly, I'm getting pretty frustrated. I rely on this for my whole home security system.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try something else. Can you locate the reset button on the back of the device? It's a small pinhole. Use a paperclip to press and hold it for 15 seconds. This will reset the device to factory settings.",
+      "response_time": 1.39,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.01,
+        "benevolence": 2.83,
+        "integrity": 2.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I've done that. The light came on and is now blinking! Does that mean it's working again?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a positive sign! It indicates the device is powering on and attempting to connect. You'll now need to reconfigure it through the SmartHome app. The app should guide you through the setup process. Is there anything else I can help you with?",
+      "response_time": 0.61,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.41,
+        "integrity": 1.2
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "What caused the Hub to fail in the first place? Is this a common issue, and is there a permanent fix to prevent it from happening again? I'm worried about relying on a device that just randomly stops working.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "While it's difficult to pinpoint the exact cause without a more thorough diagnostic, power surges or software glitches can sometimes lead to this behavior. We recommend using a surge protector for your SmartHome Hub. Regarding a permanent fix, our engineers are constantly working to improve device stability through software updates. Please ensure your Hub is always running the latest firmware. Is there anything else I can help you with today?",
+      "response_time": 5.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.75,
+        "integrity": 5.97
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e6c08f3b",
+    "average_trust_score": 2.8,
+    "trust_category_averages": {
+      "competence": 2.7,
+      "benevolence": 2.97,
+      "integrity": 3.05
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "anger": 2,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 3.06,
+    "latency_score": 5.36
+  }
+}

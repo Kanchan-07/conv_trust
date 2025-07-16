@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm still struggling with understanding how to calculate the area of irregular shapes. I get the basic formulas for squares and circles, but when it's like... a weird blob, I'm lost.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Calculating the area of irregular shapes can be tricky! One common method is to divide the irregular shape into smaller, regular shapes like rectangles, triangles, or even parts of circles. Can you describe the 'blob' shape you're working with, or provide an example problem?",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.47,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, it's this one from my homework. It's like... a rectangle with a semi-circle cut out of one side, and then a triangle added to another. I tried breaking it down, but I'm getting different answers every time I try!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, let's tackle that. First, calculate the area of the rectangle as if the semi-circle wasn't cut out. Then, calculate the area of the semi-circle that's been removed. Subtract the semi-circle's area from the rectangle's. Finally, calculate the area of the triangle and add it to the result. What dimensions do you have for each shape?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.21,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, rectangle is 10cm x 5cm, the semi-circle has a radius of 2cm, and the triangle has a base of 4cm and a height of 3cm. Does that sound right?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, those dimensions sound correct based on your description. Now, walk me through how you would calculate the area of each of those individual shapes.",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 4.27,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Rectangle: 10 x 5 = 50cm squared. Semi-circle: pi * 2 squared = 12.566 / 2 = 6.283cm squared. Triangle: 0.5 * 4 * 3 = 6cm squared. So... 50 - 6.283 + 6 = 49.717cm squared? Is that right? I feel like I'm missing something. Also, why is it called squared?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Your calculations are correct. The final answer of 49.717 cm squared is the correct area for that combined shape! As for 'squared', it's because we're measuring the area in terms of how many squares of a certain size (in this case, 1cm x 1cm) would fit inside the shape.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.51,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Oh! Okay, I think I get it now. Thanks! That actually makes a lot more sense. I feel much better about this now.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_24af6e66",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.62,
+      "integrity": 4.3
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "disgust": 2,
+      "neutral": 5,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.83,
+    "latency_score": 4.37
+  }
+}

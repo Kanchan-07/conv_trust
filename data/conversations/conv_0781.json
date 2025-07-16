@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help figuring out what to buy at the grocery store this week. I'm on a really tight budget, like $50 total. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! To give you the best recommendations, could you tell me how many people you're cooking for and roughly how many meals you need to cover? Also, do you have any dietary restrictions or preferences, such as vegetarian, gluten-free, etc.?",
+      "response_time": 3.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 4.36,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, this is harder than I thought! It's just for me, and I need to cover dinner for 5 nights. I'm not vegetarian, but I do try to eat relatively healthy. What's the cheapest way to get protein? Beans, I guess?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, beans are a very cost-effective protein source! Lentils are also a great option. I recommend building meals around them. For example, lentil soup is hearty and cheap. Other budget-friendly protein options include eggs and canned tuna. Consider pairing these with affordable staples like rice, pasta, and seasonal vegetables (check for sales!). I can provide specific meal suggestions and even a sample shopping list if you'd like.",
+      "response_time": 5.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.09,
+        "integrity": 5.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7dcc27a3",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.86,
+      "benevolence": 4.72,
+      "integrity": 4.38
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.94,
+    "latency_score": 3.25
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. I usually run about 5 miles, three times a week. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your running frequency and distance, I would recommend looking at shoes with good cushioning and support. Some popular models include the Brooks Ghost, the ASICS Gel-Kayano, and the New Balance Fresh Foam series. Would you like me to filter the recommendations by price range or any specific features?",
+      "response_time": 5.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.3,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, those all seem pretty generic recommendations. I have slightly pronated feet and I've had issues with plantar fasciitis in the past. Do you have anything that addresses those specific needs? It's really frustrating when I buy shoes and they just don't work out!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. For pronation and plantar fasciitis, I would strongly suggest the ASICS Gel-Kayano, which is known for its stability. Also, look at shoes from brands like Saucony or Hoka, which may offer models specifically designed for these conditions. Unfortunately, I can't guarantee a perfect fit, but I can show you products with those characteristics. I'll narrow the search based on these requirements. Would you like me to add a filter based on your preferred color scheme?",
+      "response_time": 1.67,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.34,
+        "benevolence": 2.33,
+        "integrity": 2.24
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b60f9f7b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.89,
+      "benevolence": 3.81,
+      "integrity": 4.04
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 2,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.28,
+    "latency_score": 4.1
+  }
+}

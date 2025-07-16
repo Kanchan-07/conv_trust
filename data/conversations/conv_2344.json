@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday, but it hasn't arrived.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Can you please provide me with your tracking number, so I can look into this for you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.96,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 927483726483. I'm getting a little frustrated, I really needed this by today.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I am checking the status of your package now... It appears there was an unexpected delay due to weather conditions at the destination. It is currently expected to be delivered by the end of the day tomorrow. We apologize for any inconvenience.",
+      "response_time": 6.0,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.51,
+        "integrity": 6.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Weather conditions? Okay...but the weather here has been perfectly fine. What specific weather condition caused the delay? Also, what are my options if it doesn't arrive tomorrow?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, I don't have access to the specific weather reports that affected your package directly. However, if the package does not arrive tomorrow, please contact us again, and we can explore options such as a refund or reshipment. Would you like me to set up a reminder for you in case it doesn't arrive tomorrow?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.3,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please set up a reminder. Thanks for the help. Hopefully it'll show up tomorrow!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9a4b627c",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.0,
+      "benevolence": 4.92,
+      "integrity": 4.99
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 5.29,
+    "latency_score": 3.33
+  }
+}

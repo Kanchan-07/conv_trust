@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into indie rock, any suggestions?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your interest in indie rock, I can recommend some popular artists and albums. Have you heard of The Strokes? They're a classic. Also, check out 'Is This It'. Would you like more recommendations, or would you like to specify more?",
+      "response_time": 5.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.41,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know The Strokes. Looking for something a bit more... obscure, maybe? And can you suggest some newer bands?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for newer and more obscure indie rock... How about Fontaines D.C.? Their album 'Dogrel' is excellent.  Also, have you explored Black Midi? They lean towards post-punk but have indie rock influences. I'll refine the search to find similar artists if you'd like.",
+      "response_time": 3.19,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.8,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Fontaines D.C. is a good shout, thanks. Black Midi is a bit too chaotic for me, actually.  Can you suggest something... calmer?  Perhaps more acoustic indie?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly!  For calmer, acoustic indie, try Bon Iver. Or, if you like, I could give you some information about the intersection between acoustic indie and folk-pop? It is important to note, though, that recommendation quality may vary on that level.",
+      "response_time": 2.6,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.51,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, Bon Iver is a good suggestion. Actually, I'm curious. How *exactly* do you determine the genre of a song? Is it based on user tags, or some kind of AI analysis of the music itself?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! It's a combination of methods. Primarily, we utilize a large dataset of user-tagged music, alongside automated audio analysis. This includes examining elements like tempo, key, instrumentation, and even vocal characteristics. The weighting of each factor can vary depending on the specific request.",
+      "response_time": 5.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.53,
+        "integrity": 5.21
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ff56bd08",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.74,
+      "benevolence": 4.56,
+      "integrity": 4.52
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "joy": 3,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.81,
+    "latency_score": 3.27
+  }
+}

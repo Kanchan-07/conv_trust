@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! What should I order for dinner tonight?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! To give you the best recommendation, could you tell me what kind of cuisine you're in the mood for, or if you have any dietary restrictions?",
+      "response_time": 5.44,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm not sure about cuisine... maybe something comforting? Nothing too fancy. I'm feeling a bit tired, so delivery would be ideal. No restrictions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for something comforting and available for delivery, how about some classic pasta from 'Mama Mia Italian Kitchen' or a hearty bowl of ramen from 'The Noodle Spot'?",
+      "response_time": 2.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.56,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Mama Mia sounds good. Actually, quick question - can you recommend a vegan and gluten-free dish from anywhere that tastes *exactly* like my grandma's famous beef lasagna? Like, spot on?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Finding an exact match for a very specific homemade taste profile like your grandma's beef lasagna, especially in a vegan and gluten-free version, is quite challenging for AI. Restaurants often have their own unique recipes. I can search for highly-rated vegan and gluten-free lasagna options available for delivery if you like?",
+      "response_time": 5.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.77,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, I guess that makes sense... but I was hoping you had some magic trick! Kinda disappointing you can't replicate taste memories. Ugh.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "user",
+      "utterance": "Okay, let's forget the impossible lasagna dream. Can we just go back to Mama Mia Italian Kitchen? How do I order from there through you?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 9,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can help you start an order from Mama Mia Italian Kitchen. Are you ready to browse their menu and add items to your cart?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.59,
+        "benevolence": 6.69,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_72e44bc8",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.82,
+      "benevolence": 5.75,
+      "integrity": 5.81
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 6.18,
+    "latency_score": 2.61
+  }
+}

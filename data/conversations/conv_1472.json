@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with a patient's insurance claim. It's been rejected, and I'm not sure why.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide the patient's name, the claim number, and the reason for rejection as stated by the insurance provider?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.48,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient's name is Sarah Miller, claim number is 1234567890, and the rejection reason is 'Missing Information'. But I don't know what information is missing, this is so vague!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on the claim information, the most common reasons for 'Missing Information' are: incomplete patient demographics, missing or incorrect diagnosis codes (ICD-10), missing or incorrect procedure codes (CPT), or a lack of supporting documentation. Can you verify that all these elements were correctly submitted?",
+      "response_time": 0.52,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.37,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I double-checked everything, and I'm pretty sure we have all the codes right. But the patient received two different procedures on the same day. Would the insurance company have a problem with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That is a good question. Insurance companies often require specific modifiers to be used when multiple procedures are performed on the same day, or require specific supporting documentation, such as operative reports. I recommend verifying the requirements from the insurance company's website. You might also have a look at the NCCI edits for that specific combination of procedures.",
+      "response_time": 4.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.19,
+        "integrity": 5.54
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ddd56719",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.6,
+      "benevolence": 2.52,
+      "integrity": 2.51
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 2.02,
+    "latency_score": 5.72
+  }
+}

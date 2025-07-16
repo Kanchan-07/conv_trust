@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally getting around to updating my resume. I hate this process. Where do I even start? I feel like it's been forever since I last looked at it.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand it can be daunting! Let's break it down. First, gather all your relevant work history, education, skills, and any accomplishments you want to highlight. Do you have a previous version of your resume we can use as a starting point?",
+      "response_time": 1.57,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.86,
+        "benevolence": 2.44,
+        "integrity": 2.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I have an old one, but it's probably pretty outdated. It's saved as a .doc file. Can you work with that, or does it need to be something else?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "While I can process text from a .doc file, the formatting might not be perfectly preserved. It's generally best to provide text in a plain text format, like .txt or copied directly into our chat. That way, we can ensure accurate analysis and suggestions. But for now, describe your most recent job. What were your main responsibilities?",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.68,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so I was a project manager at Acme Corp. I was responsible for overseeing project timelines, managing budgets, and coordinating with different teams. I also did a lot of risk assessment and mitigation. Is that specific enough?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, that's a good start! Now, instead of just listing your responsibilities, try to think about the *impact* you had. For example, did you reduce project costs? Did you improve team efficiency? Quantifiable results are always impressive.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.07,
+        "integrity": 5.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that's a good point. I did manage to reduce project costs by 15% on average. Is that something I should put in bullet points, or how should I format that? Also, how do I prove that, exactly? What if they ask for documentation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Definitely include that! You can phrase it as: \"Reduced project costs by 15% on average through effective budget management and resource allocation.\" As for proving it, you likely won't need to provide documentation at the resume stage. Save any performance reviews or reports where that data is cited, in case they ask during an interview. But, you can consider if you want to name any specific projects that saw those savings!",
+      "response_time": 5.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.7,
+        "integrity": 5.2
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful! I feel like I'm actually making progress now. Thanks! Let's move on to my skills section then...",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e3538978",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.35,
+      "benevolence": 4.22,
+      "integrity": 4.18
+    },
+    "engagement_score": 5.45,
+    "emotion_distribution": {
+      "disgust": 1,
+      "fear": 1,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 4.64,
+    "latency_score": 4.06
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready to start the physics review. I'm really struggling with projectile motion. Can you help me understand it?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Projectile motion is a classic topic. Let's start with the basics. Can you tell me what you already know about the concepts of horizontal and vertical velocity components, and how they're affected by gravity?",
+      "response_time": 5.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.72,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I understand that gravity only affects the vertical component, but I get confused when calculating the range of a projectile. Why does the angle of launch affect the distance traveled, and how do I calculate it? I saw some equations in the book that were pretty intimidating...",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! The angle affects the range because it determines how much of the initial velocity is directed horizontally (for range) and vertically (for hang time). The general equation is: Range = (v\u2080\u00b2 * sin(2\u03b8)) / g, where v\u2080 is the initial velocity, \u03b8 is the launch angle, and g is the acceleration due to gravity. For the derivation, let me provide a link to an excellent Khan Academy video. Does that make sense, or would you like me to try and explain it differently? Also, this equation assumes the launch and landing heights are the same, a common scenario.",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.36,
+        "integrity": 5.9
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e3cd6aab",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.33,
+      "benevolence": 5.54,
+      "integrity": 5.58
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 5.84,
+    "latency_score": 2.46
+  }
+}

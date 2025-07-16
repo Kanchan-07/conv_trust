@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'd be happy to help with that. Could you please provide your tracking number?",
+      "response_time": 3.0,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.23,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 9876543210. I'm getting a little frustrated because I really needed this by today.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check on that for you. According to the tracking information, the package is currently at our local distribution center and is scheduled for delivery today. There was a slight delay due to high package volume.",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.75,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but 'scheduled for delivery today' doesn't really help. What time today? And what exactly caused the delay? High volume is a pretty generic excuse.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have an exact delivery time. As for the cause of the delay, the distribution center was experiencing some staffing shortages, combined with the high volume you mentioned. I am very sorry for the inconvenience.",
+      "response_time": 1.69,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.18,
+        "benevolence": 2.96,
+        "integrity": 2.33
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Staffing shortages? Is this a recurring problem? Because I rely on timely deliveries, and this is starting to be a pattern.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. While I don't have specific data on recurring problems, I can assure you that the matter has been escalated to our logistics team. We are working to improve our service in your area. Would you like me to set up notifications for any updates on the delivery?",
+      "response_time": 5.24,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.41,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please. That would be great. Thank you for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0d67c492",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.24,
+      "benevolence": 4.59,
+      "integrity": 4.29
+    },
+    "engagement_score": 4.69,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 1,
+      "anger": 1,
+      "sadness": 2
+    },
+    "response_quality_score": 4.52,
+    "latency_score": 4.11
+  }
+}

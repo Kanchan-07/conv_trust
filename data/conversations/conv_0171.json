@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! Can you help me find something to eat? I'm in the mood for Italian, but not pizza.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. I see several Italian restaurants nearby that aren't pizza places. Are you looking to dine in, order takeout, or get delivery?",
+      "response_time": 2.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.12,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Delivery would be amazing. What's good around here? I'm honestly overwhelmed by the choices.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on ratings and popularity, 'Pasta Paradise' is a good option for delivery. They are known for their Spaghetti Carbonara and have good reviews for their Tiramisu. Another option is 'Bella Notte,' they specialize in seafood pasta dishes. Is there something that is appealing for you?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.02,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, seafood pasta sounds interesting, but I'm also a bit concerned about the sustainability of their seafood. Do they mention anything about where they source it from? I'm trying to be more conscious about that kind of thing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! I am checking for information about Bella Notte's seafood sourcing practices. Unfortunately, their menu and website do not mention any specifics about sustainability or sourcing. Some users in the reviews mentioned that the seafood tastes very fresh. Is there anything else you'd like to know about Bella Notte?",
+      "response_time": 1.79,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.28,
+        "benevolence": 2.99,
+        "integrity": 2.06
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a little frustrating, but thanks for checking. Maybe I'll go with the Pasta Paradise carbonara then. Can you set up a delivery order for me?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_032ae075",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.75,
+      "benevolence": 4.04,
+      "integrity": 3.85
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 3.93,
+    "latency_score": 4.84
+  }
+}

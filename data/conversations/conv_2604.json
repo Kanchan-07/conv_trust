@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some good strategy games?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Strategy games cover a broad spectrum. Some highly-rated and popular strategy games include StarCraft II, Civilization VI, XCOM 2, and Age of Empires IV. Do any of those sound interesting, or would you like recommendations for a specific type of strategy game?",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.52,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know those popular ones, thanks. I was hoping for something a bit... less mainstream, maybe? Or something with really deep economic simulation? Those standard lists always feel a bit generic, honestly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, I understand. For deeper economic simulation within strategy, you might enjoy games like Anno 1800, Victoria 3, or perhaps something from the Paradox Development Studio grand strategy catalog like Crusader Kings III (though that leans more on character/dynasty simulation, it has economic elements). Are you looking for real-time or turn-based strategy with that economic focus?",
+      "response_time": 2.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.17,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Anno 1800 sounds promising. But okay, here's a weird one: how does Anno 1800, which is city-building/economic, compare to something like Factorio or Satisfactory, which are also about complex production chains and logistics, but feel like a totally different *kind* of strategy game? I'm trying to figure out which rabbit hole to go down, and it's confusing.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very insightful comparison! While all three involve complex production and logistics, they represent distinct strategic experiences. Anno 1800 is primarily a historical city-builder and economic simulator focused on expansion, trade routes, and managing population needs across multiple islands. Factorio and Satisfactory, on the other hand, are 'factory-building' simulation strategy games where the core loop is designing efficient, sprawling automated production lines to achieve specific goals or research progression. The 'strategy' in Anno is more about spatial planning, managing resources globally, and political/trade interactions, while in Factorio/Satisfactory it's about optimizing layout, throughput, and dealing with technical challenges of automation. If you enjoy aesthetic city-building alongside economic complexity, Anno 1800 is a great fit. If the core appeal is the puzzle of designing and optimizing intricate automated systems, then Factorio or Satisfactory would likely be more your speed.",
+      "response_time": 4.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.42,
+        "integrity": 5.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_80208173",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.37,
+      "integrity": 4.36
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.09,
+    "latency_score": 3.71
+  }
+}

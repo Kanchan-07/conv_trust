@@ -1,0 +1,94 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some product recommendations. I'm mainly interested in items related to home decor.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. To give you the best recommendations, could you be a little more specific? Are you thinking of wall art, furniture, lighting, or something else?",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.05,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good point. Let's say wall art for now. Something modern, maybe abstract?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for modern, abstract wall art, I recommend taking a look at these items:\n\n[Link to Abstract Canvas Print 1]\n[Link to Geometric Metal Wall Decor]\n[Link to Minimalist Line Art Print]\n\nThese are currently trending and have received positive customer reviews. I hope you will find something you like.",
+      "response_time": 4.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.71,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those are alright... but they're a bit pricey. Is there anything similar but maybe under $50?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me filter for options under $50 within the same category. One moment... \n\n[Link to Framed Abstract Print (Under $50)]\n[Link to Set of 3 Small Geometric Prints (Under $50)]\n\nThese options might be a better fit for your budget. However, note that material and dimensions might differ from those previously recommended.",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.61,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Great, thanks! That's much more like it. But out of curiosity, how does your system *really* determine what's 'modern' and 'abstract'? Is it just based on keywords in the product descriptions, or is there some kind of image analysis going on?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a86f7bd5",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.3,
+      "benevolence": 4.46,
+      "integrity": 4.49
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "neutral": 7
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 3.97
+  }
+}

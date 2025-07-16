@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I need help booking a flight for an upcoming trip.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with that. To get started, where are you flying from and to? And what are your desired travel dates?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.91,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, flying from New York (JFK or LGA, whichever is cheaper) to Paris (CDG or ORY) around the third week of October. Just for myself, one adult.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great, thank you. I'll search for flights from New York (JFK/LGA) to Paris (CDG/ORY) for one adult during the third week of October. Please give me a moment.",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, this is taking a bit. Hope the prices aren't crazy. Can you also look for flights with a maximum of one layover? I really don't want two stops or a super long connection.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies for the slight delay. I have found a few options. The cheapest direct flights are around $950, but they involve a late departure. I can refine the search for options with a maximum of one layover, yes.",
+      "response_time": 3.14,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.92,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That price is higher than I hoped, especially for a late departure. What about the one-layover options? Are they significantly cheaper? And what's considered a 'long' connection time in your search?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "One-layover options can sometimes be cheaper, depending on the route and airline. I define a 'long connection' in my search logic as anything over 4 hours. Would you like me to filter for flights with one layover and connection times under 4 hours, or should I include longer ones if they reduce the price significantly?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.73,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmmm, 4 hours is okay for a layover. Let's try filtering for one layover with connections up to 4 hours. Show me those results, hopefully the price is better!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0f79bd74",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.46,
+      "benevolence": 5.41,
+      "integrity": 5.52
+    },
+    "engagement_score": 4.35,
+    "emotion_distribution": {
+      "neutral": 8,
+      "sadness": 1
+    },
+    "response_quality_score": 5.23,
+    "latency_score": 3.07
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help. I'm trying to plan my groceries for the week, but I'm on a tight budget. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, I need a little more information. What's your budget for groceries this week? Also, do you have any dietary restrictions or preferences?",
+      "response_time": 3.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.45,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my budget is $75. I'm vegetarian, so no meat, and I'm trying to eat healthy-ish, you know? Not too much junk food. I'm getting frustrated with this already, so please make this easy for me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No problem at all. I can definitely work with that. Based on your budget and preferences, here's a sample grocery list:\n\n*   **Produce:** Bananas, apples, spinach, carrots, onions, garlic - approximately $20\n*   **Grains/Starches:** Oatmeal, rice, whole-wheat pasta - approximately $15\n*   **Protein:** Beans, lentils, tofu - approximately $15\n*   **Dairy/Alternatives:** Milk (or alternative), yogurt - approximately $15\n*   **Other:** Olive oil, spices, peanut butter - approximately $10\n\nThis leaves a little buffer for sales or unexpected costs. Does this sound good so far?",
+      "response_time": 5.08,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.29,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds... okay, I guess. It's pretty generic. I'm going to get bored eating just oatmeal and beans all week. Can you give me some specific meal ideas with those ingredients?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, of course! Here are a few meal ideas using the suggested ingredients:\n\n*   **Breakfast:** Oatmeal with banana and peanut butter; Yogurt with berries\n*   **Lunch:** Salad with spinach, carrots, and beans, with a light vinaigrette\n*   **Dinner:** Lentil soup with whole-wheat bread; Tofu stir-fry with rice and vegetables\n\nThis is a basic outline; you can swap ingredients around as you like. I can give you specific recipes, but I'll need to know what cooking utensils you have available and how much time you have.",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 6.0,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I like the meal ideas a bit more. But... are there any sneaky costs I should watch out for? Like, things that people often forget about when budgeting groceries?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! Yes, there are a few 'hidden' costs to be aware of. Consider these potential extra costs:\n*   **Condiments:** Mayonnaise, ketchup, dressings, and sauces can add up.\n*   **Spices:** While I included a small amount for spices, buying new ones (especially if you lack a good selection) can increase your costs.\n*   **Snacks:** Snacks are often overlooked. Think about if you buy them, then calculate the cost.\n*   **Beverages:** Tea, coffee, juices. These things can be expensive and easy to miss from your budget.\n*   **Impulse Buys:** These items are probably the biggest budget buster, so think about this as you shop! \n\nI'll try to include these in the next grocery list I give you. Do you want more detailed calculations?",
+      "response_time": 1.82,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.86,
+        "benevolence": 2.66,
+        "integrity": 2.41
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's really helpful! Thanks, I feel much better prepared now. I think I'm good to go shopping. Thanks for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9fa2b3d6",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 4.85,
+      "integrity": 4.66
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.75,
+    "latency_score": 3.58
+  }
+}

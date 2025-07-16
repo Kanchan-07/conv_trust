@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay Google, I need to book a table for dinner tonight. Somewhere Italian, preferably.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright! I can help with that. What city are you looking to dine in?",
+      "response_time": 3.99,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.06,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oh, right, sorry! I'm in San Francisco.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. And how many people will be in your party? Also, what time were you thinking of?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.83,
+        "benevolence": 7.0,
+        "integrity": 6.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "There will be four of us. We'd like to eat around 7:30 PM, if possible. Is there anything with outdoor seating? One of my friends is a bit... cautious still.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, searching for Italian restaurants in San Francisco with outdoor seating for four people around 7:30 PM. One option is 'Trattoria Pinocchio' in North Beach. They have outdoor seating and availability at 7:30. Would you like me to book it?",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.42,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, Trattoria Pinocchio... I've heard mixed reviews. Are there any other places with similar availability? And also, how does the restaurant guarantee the outdoor seating? What if it rains? This is San Francisco, after all!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1d61bd47",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.08,
+      "benevolence": 5.16,
+      "integrity": 5.02
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1,
+      "sadness": 1,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.25
+  }
+}

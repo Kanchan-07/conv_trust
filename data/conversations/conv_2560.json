@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I'm looking for some recommendations for a new laptop. My old one just died.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about your old laptop. I can definitely help with recommendations. To get started, could you tell me a bit about what you plan to use the new laptop for? For example, is it for work, school, gaming, creative tasks, or general use?",
+      "response_time": 3.65,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.48,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly work and general use. I need something reliable and reasonably fast for spreadsheets, emails, video calls, and browsing. Nothing too heavy-duty like video editing or gaming. And honestly, I'm tired of laptops that feel cheap and plasticky. My last one fell apart way too quickly. I need something durable!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, durability and performance for work/general use are key. Given your needs, I'd recommend looking into models like the Dell XPS 13, the Lenovo ThinkPad X1 Carbon, or possibly an Apple MacBook Air if you're open to different operating systems. These are known for their solid build quality, excellent performance for typical productivity tasks, and good battery life. Would you like me to provide more details on any of these?",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.37,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Those sound promising, especially the ThinkPad since I've heard good things about their keyboards and build. But here's a tricky one: how much RAM do I *really* need? Every site says 'more is better,' but I'm seeing options from 8GB up to 32GB, and the price difference is huge! For just spreadsheets and browsing with maybe 15-20 tabs open, plus a video call app running, is 8GB enough, or am I going to regret not getting 16GB? I don't want to overspend, but I also don't want it to be slow in a year or two. It's so confusing!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very common question, and you're right, the recommendations can be confusing. For your stated use case of spreadsheets, email, browsing with multiple tabs, and video calls, 8GB of RAM is often considered the minimum acceptable. It *can* work, but with 15-20 tabs and a video call simultaneously, you might experience slowdowns, especially if you have other background processes running. 16GB is generally recommended for a smoother experience and better future-proofing, even for moderate multitasking. While 32GB would be overkill for your needs, stepping up to 16GB is usually worth the investment if your budget allows, as it significantly improves performance under load and helps the laptop feel fast for longer. It's difficult to give a definitive 'yes' or 'no' for 8GB without knowing the specific programs and number of tabs, but 16GB provides a much more comfortable margin.",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.0,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes a bit more sense, I guess. It's frustrating there isn't a clearer line, but I appreciate you explaining the trade-off. 16GB sounds like the safer bet then. Thanks for the specific model suggestions too. I'll look into the ThinkPad and the Dell XPS more closely.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3d0cf7ee",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.51,
+      "benevolence": 4.62,
+      "integrity": 4.42
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.88,
+    "latency_score": 3.84
+  }
+}

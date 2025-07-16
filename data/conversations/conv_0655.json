@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some gift ideas for my brother. He's really into hiking. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! For someone into hiking, popular choices include hiking boots, backpacks, trekking poles, and portable water filters. Do any of those sound like a good starting point?",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.27,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, he already has good boots and poles. A backpack might be good, but he's picky. What kind of backpacks are popular for serious hikers? Not just any old thing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! For serious hikers, backpacks from brands like Osprey, Deuter, and Gregory are frequently recommended for their durability and features. Consider features like adjustable torso length, hip belts designed for heavier loads, and hydration reservoir compatibility. Would you like me to filter by a specific capacity range?",
+      "response_time": 4.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.08,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Osprey sounds familiar. But how do I know which size to get? He's a pretty big guy, like 6'2\". And if he's using it for multi-day trips, what capacity should I be aiming for? This is more complicated than I thought!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! For someone 6'2\" using a backpack for multi-day trips, I'd recommend looking at 'Large' or 'Extra Large' sizes depending on the specific brand and torso length. For multi-day trips, a capacity of 65-85 liters is generally recommended to accommodate gear, food, and sleeping equipment. I can filter the Osprey backpacks to show you 'Large' and 'Extra Large' sizes within that capacity range. Does that sound helpful?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.34,
+        "integrity": 3.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4215cc31",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.45,
+      "benevolence": 4.56,
+      "integrity": 4.56
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.66
+  }
+}

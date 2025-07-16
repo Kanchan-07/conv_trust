@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, let's try this again. I'm still confused about how to solve for x in this equation: 3x + 5 = 20. I thought I understood it, but I keep getting the wrong answer.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright, no problem. Let's break it down step-by-step. Remember, the goal is to isolate 'x' on one side of the equation. First, we need to get rid of the '+ 5' on the left side. How would you do that?",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.75,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Subtract 5 from both sides, right? So it's 3x = 15. Okay, I think I'm getting it now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Exactly! You're on the right track. Now, what's the next step to isolate 'x'?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Divide both sides by 3... so x = 5? YES! Finally!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Correct! x = 5. Great job! You worked through it. Now, let's try a slightly more complex equation to solidify your understanding. What if the equation was 3x + 5 = 20 - x? How would you approach that?",
+      "response_time": 3.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.38,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, now you're throwing x's on both sides? I think I need to combine the x's first, but how do I do that when they're on opposite sides? This is where I always get lost...",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3e5200de",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.41,
+      "benevolence": 5.38,
+      "integrity": 5.42
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.58,
+    "latency_score": 3.33
+  }
+}

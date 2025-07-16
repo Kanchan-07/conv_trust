@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some help with financial planning. I'm feeling completely overwhelmed!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. Financial planning can be daunting. I can help you break it down. To start, what are your primary financial goals? Are you saving for retirement, a house, or something else?",
+      "response_time": 1.85,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.65,
+        "benevolence": 2.64,
+        "integrity": 2.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Retirement is definitely a big one. Also, I'd like to pay off my student loans and maybe buy a small place eventually. It feels impossible though, with the current interest rates!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, those are achievable goals. Let's start by creating a budget to track your income and expenses. This will help you identify areas where you can save. Then, we can explore different investment options for retirement, considering your risk tolerance. Regarding student loans, let's analyze your repayment options, including refinancing, which may lower your interest rates.",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 4.25,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've tried budgeting before, but I always fail. I get confused with all the different categories. Is there a simple way to do this, like an app or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Absolutely! There are many user-friendly budgeting apps available. Mint, YNAB (You Need A Budget), and Personal Capital are popular choices. They allow you to link your accounts, track spending, and set financial goals. I can provide some general tips on how to categorize your spending if you want. Alternatively, a spreadsheet can work too if you prefer manual entry.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising. But what if I want to retire early? How do I calculate how much I need to save, and what kind of investments would be suitable given the current economic climate?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a more complex question requiring a detailed financial analysis! It involves factors like your desired retirement age, estimated expenses, inflation rate, and investment returns. We'd need to use some financial modeling tools. The appropriate investments will depend on your risk tolerance and time horizon, but generally a diversified portfolio across stocks, bonds, and possibly real estate is recommended. Due to the current economic uncertainty, a cautious approach is often advisable. I can help you estimate your early retirement number, but I highly recommend consulting with a qualified financial advisor for personalized guidance.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.81,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Thanks! That's a great starting point. I'll try some of those budgeting apps and look into talking to a financial advisor.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2775c787",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.74,
+      "benevolence": 4.92,
+      "integrity": 4.68
+    },
+    "engagement_score": 5.1,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 4.95,
+    "latency_score": 3.93
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm dealing with a really frustrating situation. My neighbor's tree fell onto my property during a storm and completely destroyed my fence. He's refusing to pay for the damages, saying it was an 'act of God.' Is he liable at all?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Generally, property owners are responsible for maintaining their trees in a reasonably safe condition. If the tree was healthy and the storm was unusually severe, it might indeed be considered an 'act of God,' absolving your neighbor of liability. However, if the tree was diseased, rotting, or otherwise presented a known hazard *before* the storm, your neighbor may be responsible for the damages. Do you have any evidence suggesting the tree was in poor condition prior to falling?",
+      "response_time": 1.8,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.28,
+        "benevolence": 2.26,
+        "integrity": 2.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I did notice some pretty big dead branches on it for a while now. I even mentioned it to him a few months ago! Does that change things? I'm so stressed about this; replacing that fence is going to cost a fortune.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, that potentially changes things significantly. If you alerted your neighbor to the dead branches, and he failed to take action, that demonstrates negligence on his part. The fact that you notified him strengthens your claim that he had knowledge of the tree's hazardous condition. You should document when you spoke to him and what was said. It might be helpful to take photos of the fallen tree and the damage. Could you provide details on the state law in your area regarding tree liabilities?",
+      "response_time": 1.44,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.11,
+        "benevolence": 2.25,
+        "integrity": 2.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But here's a tricky one: what if his homeowner's insurance *also* refuses to pay, arguing that *I* should have known the tree was a hazard and taken steps to protect my property? I mean, isn't there some sort of shared responsibility here? I don't want to get stuck with the entire bill. This is all so complicated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2f0a3be4",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.19,
+      "benevolence": 2.25,
+      "integrity": 2.38
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "anger": 3,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 2.63,
+    "latency_score": 5.88
+  }
+}

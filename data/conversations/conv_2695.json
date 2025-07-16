@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to paint some old wood trim in my living room. It's pretty dingy. Where should I start?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Painting wood trim is a great way to refresh a room. The first step is always preparation. You'll want to clean the trim thoroughly, remove any old caulk or peeling paint, and lightly sand the surface to create a good base for the new paint to adhere to. Once it's smooth and clean, you can apply a primer before painting with your desired topcoat.",
+      "response_time": 5.17,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 6.85,
+        "integrity": 6.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, 'remove any old caulk or peeling paint' sounds like a pain. It's actually peeling quite a bit in places, and there are some small dents. I was hoping to just clean and paint. Is that really necessary? It looks like it was painted a long time ago.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Skipping proper prep, especially with peeling paint and dents, can lead to a less durable finish and the new paint peeling relatively quickly. For peeling areas, you'll need to scrape away all loose paint. For dents, you can use wood filler or spackle, sand it smooth once dry. While it adds time, this prep work is crucial for a professional-looking and long-lasting result.",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.55,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, okay, I get it. Prep is king. Now about the primer... I'm pretty sure some of the old paint might be oil-based, but I want to use latex paint. Plus, I'm doing this in the summer and it's pretty humid today. What kind of primer do I even buy for old wood with potentially different paint types and humidity?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "For switching from oil-based to latex, a good quality bonding primer is usually recommended. It helps the new latex paint stick to the old surface. Make sure the primer is suitable for interior wood. Regarding humidity, just ensure the surfaces are clean and dry before application, and follow the product's recommended drying times.",
+      "response_time": 5.47,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.62,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Right, but 'good quality bonding primer' is a bit vague. I looked at the store and there are tons! Is there a specific *type* or ingredient I should look for that handles both oil/latex *and* humidity? I'm seriously frustrated thinking about doing all that scraping and then having the primer fail because it's sticky or doesn't cure right in the moisture.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies for the ambiguity. For maximum adhesion over unknown or mixed paint types (like potential oil over wood) and best performance in varying conditions including humidity, look for a high-quality *shellac-based* primer or a *water-based acrylic bonding primer* specifically labeled for 'blocking stains' and 'adhesion over glossy or challenging surfaces'. Shellac is excellent at blocking stains and adhering to anything, while high-end acrylic bonders offer great adhesion and easier cleanup. Check the can's description to confirm it's designed for your specific needs, particularly regarding adhesion over existing coatings and suitability for humid conditions during application and curing. Good ventilation is also key in humidity.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.61,
+        "integrity": 5.69
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2b2d0ade",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.41,
+      "integrity": 5.31
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.58,
+    "latency_score": 2.91
+  }
+}

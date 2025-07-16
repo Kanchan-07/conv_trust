@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey AI, I need some movie recommendations. What are some good sci-fi movies?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Science fiction is a great genre. Some highly-regarded sci-fi films include '2001: A Space Odyssey', 'Blade Runner', 'Arrival', and 'Dune'. Have you seen any of these?",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.34,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen all the really famous ones. I was hoping for something a bit less mainstream? It's frustrating when lists just give you the same few movies every time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies, I understand that can be frustrating. Let's try some less mainstream options. How about 'Moon' (2009), 'Primer' (2004), or 'Coherence' (2013)? These are often praised for their unique concepts and storytelling.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.93,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'Moon' sounds promising, I've heard good things. 'Primer' also, but isn't that one notoriously confusing? Like, is there anything *actually* accessible but still quite obscure? What about something like, an obscure British sci-fi horror film from the 70s that isn't 'Alien'?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, that's a quite specific request! Finding an accessible *and* obscure British sci-fi horror from the 70s that *isn't* 'Alien' is a bit challenging, as 'Alien' is the major touchstone. While perhaps leaning more towards just horror or having minimal sci-fi, films like 'Quatermass and the Pit' (though slightly earlier) or 'Death Line' might fit parts of that description, but they are not strictly sci-fi horror in the way 'Alien' is. It's a very niche area!",
+      "response_time": 4.6,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.03,
+        "integrity": 5.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bf1db363",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.99,
+      "benevolence": 4.77,
+      "integrity": 4.85
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 4,
+      "fear": 2
+    },
+    "response_quality_score": 5.39,
+    "latency_score": 3.38
+  }
+}

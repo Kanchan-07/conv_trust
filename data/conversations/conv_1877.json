@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with my job application. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, of course! I can help with various aspects of the application process, such as reviewing your resume and cover letter, preparing for interviews, or even finding suitable job opportunities. What specifically are you struggling with?",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.44,
+        "integrity": 5.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, my resume seems outdated, and I'm not sure how to update it for this specific job. It's a Software Engineer position at Google. I have experience, but it's been a while since I've looked for a job. I'm a bit rusty.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can certainly assist with tailoring your resume for a Software Engineer role at Google. Could you provide me with your current resume? I can analyze it and suggest improvements based on common industry standards and the specific requirements often seen in Google job postings. Please feel free to redact any personal information you're not comfortable sharing.",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.43,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, here is my resume (I'm redacting some personal info). But what if the job description asks for experience in a specific programming language that I don't have, but I do have transferable skills? How do I address that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question. It's important to highlight your transferable skills and experience, demonstrating how they relate to the job requirements. In your cover letter, you can directly address the skill gap, explaining how your existing knowledge in similar areas allows you to learn quickly. Provide examples of projects or situations where you used these transferable skills successfully. You can also list online courses or training you are planning to take to learn the specific language. Also, consider rewording your resume bullets to emphasize the underlying concepts that align with the job description requirements, even if the exact language is different. And... uh... yeah, I'll need some time to analyze the resume. Give me a bit.",
+      "response_time": 4.61,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.42,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thank you. This is helpful. I'll look forward to what you find with the resume. Let me know when you're ready. And no worries about the wait.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_997e333d",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 5.1,
+      "integrity": 5.37
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 4.8,
+    "latency_score": 3.58
+  }
+}

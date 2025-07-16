@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to figure out why a claim was denied. Can you help me look up patient John Doe, date of service 11/05/2023?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly assist with that. Please provide the full patient name, date of birth, and the claim number or date of service to help me locate the specific claim efficiently.",
+      "response_time": 4.94,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.59,
+        "benevolence": 6.76,
+        "integrity": 6.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's John Doe, born 07/22/1985, date of service was 11/05/2023. The denial code is really vague and frankly, I'm frustrated because this should have gone through!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the details, John Doe, DOB 07/22/1985, DOS 11/05/2023. I have located claim #987654. The denial code indicated is typically related to 'Services Not Deemed Medically Necessary' by the payer based on the submitted diagnosis and procedure codes. This often requires submitting additional clinical documentation for review.",
+      "response_time": 0.52,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.24,
+        "benevolence": 1.12,
+        "integrity": 1.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Medically necessary? But it clearly was! How could the system *not* flag this as potentially needing documentation *before* submission? This feels like wasted time.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Our system employs various checks based on payer rules and coding guidelines. However, the final determination of medical necessity rests with the payer's review process. While we aim to identify potential issues proactively, some denials require payer-specific interpretation and documentation review after submission.",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.62,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I guess... So, what's the *exact* next step for *this* claim? Do I just gather notes? What documentation are they usually looking for in these cases for this payer?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For claim #987654 with the 'Medically Necessary' denial, the typical next step is to prepare a resubmission with supporting clinical documentation. This usually includes the physician's notes detailing the patient's condition, the rationale for the service provided, and relevant test results. For this specific payer, they commonly request a summary of the patient's history related to the condition and justification aligning with their medical policies. I can guide you on compiling the necessary information.",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.62,
+        "integrity": 3.93
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fbd1dee3",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.0,
+      "benevolence": 3.78,
+      "integrity": 3.8
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.17,
+    "latency_score": 4.51
+  }
+}

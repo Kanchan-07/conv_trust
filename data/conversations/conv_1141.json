@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week and haven't received any updates. The order number is #12345.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for providing your order number. Let me check the status for you. One moment, please.",
+      "response_time": 5.5,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.97,
+        "integrity": 6.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm getting a little worried because it was supposed to arrive a few days ago. I needed it for an event!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. According to our system, order #12345 is currently delayed in transit due to unforeseen weather conditions in your region. The estimated delivery date is now showing as three days from today.",
+      "response_time": 0.59,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.44,
+        "benevolence": 1.0,
+        "integrity": 1.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Seriously? Weather? I checked the weather report and there haven't been any storms! That sounds like a canned excuse. Is there anything you can do to expedite the delivery? I'm really disappointed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. While the weather may not be impacting your immediate area, it could be affecting distribution centers along the delivery route. Let me see if I can request an exception for expedited shipping once the package is moving again. Is there a specific date you absolutely need it by?",
+      "response_time": 2.05,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.59,
+        "benevolence": 2.76,
+        "integrity": 2.13
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I really needed it by tomorrow. If it's not here by then, it's pretty much useless to me. What happens if it doesn't arrive?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the package does not arrive by tomorrow, we can offer you a full refund, or process a replacement order with expedited shipping. Would you prefer to wait until tomorrow to make that decision or would you like me to go ahead and initiate the refund process now?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.15,
+        "integrity": 1.46
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Let's wait until tomorrow. Thanks for looking into it. I appreciate you at least trying to help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6da59c5d",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 3.01,
+      "benevolence": 2.97,
+      "integrity": 2.85
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "fear": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.18,
+    "latency_score": 5.34
+  }
+}

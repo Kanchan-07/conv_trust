@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need an update on my car insurance claim. It's claim number 987654321.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I can certainly look up the status of your claim for you. Please give me a moment while I access the system with claim number 987654321.",
+      "response_time": 5.82,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.7,
+        "benevolence": 7.0,
+        "integrity": 6.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks. It feels like it's taking forever. I filed it over two weeks ago after the accident, and I really need my car back.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand waiting is difficult, especially when you need your vehicle. I see here that claim 987654321 is currently in the assessment phase. We are reviewing all submitted documentation and estimates.",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.06,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The assessment phase? What exactly does that mean? I sent photos, the police report, and the repair estimate from the body shop. Is someone actually looking at it, or is it just sitting in a digital pile somewhere? I don't get why it's taking so long just to say 'yes' or 'no'.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The assessment phase involves a detailed review process to ensure accuracy and compliance with your policy terms. This includes validating the submitted documents and the repair estimate against our internal guidelines and the damage reported. It's a necessary step in processing your claim efficiently.",
+      "response_time": 4.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.73,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, but that still doesn't tell me *when* it will be done. Is there a human looking at it now? Will I get an answer this week? I'm getting really frustrated with how vague this is.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize that the current status is not as specific as you'd like. Our goal is to process claims as quickly as possible. Based on the current workload and the complexity of the assessment, I anticipate a decision or a request for further information within the next 3-5 business days. We will notify you as soon as there is an update or resolution.",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 3.56,
+        "integrity": 3.94
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a3157ab0",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.19,
+      "benevolence": 5.09,
+      "integrity": 4.92
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 1,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.09,
+    "latency_score": 2.82
+  }
+}

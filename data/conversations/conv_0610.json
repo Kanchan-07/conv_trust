@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Diego for next weekend, Friday to Sunday. Need something with a pool.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for hotels in San Diego with a pool, Friday to Sunday. About how many guests will be staying?",
+      "response_time": 4.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.55,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Just two adults. Oh, and it needs to have parking, preferably free, but paid is okay too.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Two adults, Friday to Sunday, San Diego, pool, and parking. I'm showing a few options. The Pacific Terrace Hotel has a pool, parking (paid), and good reviews. Also, the Bahia Resort Hotel has a pool, free parking, and is located right on the beach. Does either of those sound interesting?",
+      "response_time": 5.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.37,
+        "integrity": 5.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Bahia sounds great! What's the price for the weekend?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, one moment. For the Bahia Resort Hotel, Friday to Sunday, for two adults, the total price is $450, excluding taxes and any potential resort fees. Would you like me to check availability?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.56,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's a bit more than I was hoping to spend. Are there any other hotels with a pool and free parking that are cheaper? Maybe a little further from the beach is fine.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me see... The 'Days Inn by Wyndham San Diego/Near SeaWorld' has a pool, free parking and is showing rates of around $300 for the weekend. It's not beachfront, as you mentioned. Reviews are mixed, though. Is proximity to SeaWorld important?",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.18,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, SeaWorld isn't important. But mixed reviews make me nervous. Can you explain what 'mixed' means? Like, what are people complaining about?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I do not have access to that specific information on customer reviews. However, generally, mixed reviews can indicate that some guests have had positive experiences while others have encountered issues with cleanliness, service, or amenities. Would you like me to filter the results to only show hotels with consistently positive reviews?",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.51,
+        "integrity": 4.38
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3b23cbff",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.31,
+      "benevolence": 4.03,
+      "integrity": 4.53
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.16,
+    "latency_score": 3.17
+  }
+}

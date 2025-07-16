@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. I can't seem to log in to my bank account online. I've tried resetting my password three times already!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. To help you regain access, could you please provide the last four digits of your account number and your date of birth? This will help me verify your identity.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.38,
+        "benevolence": 1.26,
+        "integrity": 1.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the last four digits are 1234 and my birthday is 01/01/1990. Also, why does this keep happening? Is your website just badly designed or something?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I have verified your information. There seems to be a temporary issue with our login server that is affecting some users. Our technicians are working to resolve it. I have now reset your password to a temporary one: TempP@ss123. Please log in with this password and change it immediately after logging in. We apologize for the inconvenience.",
+      "response_time": 0.53,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.18,
+        "benevolence": 1.0,
+        "integrity": 1.41
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'll try that. Thanks... I guess. But what measures are you taking to prevent this from happening again? I'm seriously considering switching banks if this continues.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9502fe7e",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.28,
+      "benevolence": 1.13,
+      "integrity": 1.27
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "anger": 2,
+      "surprise": 1,
+      "sadness": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 1,
+    "latency_score": 6.99
+  }
+}

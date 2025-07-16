@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some financial planning guidance. I'm feeling a bit overwhelmed with managing my finances, especially with retirement looming.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. Many people feel that way. To get started, could you tell me a bit about your current financial situation? Things like your income, expenses, assets, and any existing debts would be helpful.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.81,
+        "benevolence": 6.97,
+        "integrity": 6.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that's a lot to unpack. Let's see... I make about $80,000 a year. My expenses are roughly $4,000 a month. I have a mortgage, a car loan, and some credit card debt. My 401k is... well, it's there. Not sure how much is actually in there.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for the initial information. To get a clearer picture, I would recommend you start by gathering the specific amounts for your assets (including your 401k balance) and debts. This will help us calculate your net worth and develop a more tailored plan. Do you have access to these figures readily?",
+      "response_time": 5.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.52,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I know I should, but it's all a bit scattered. Okay, fine. Let's say I do some digging and get those numbers. But realistically, how much should I *actually* be saving for retirement? Everything I read gives me different figures and frankly, it's confusing.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! While there isn't a one-size-fits-all answer, a common guideline is to aim for 15% of your gross income for retirement savings, especially if you're starting later in life. However, this is affected by several factors, including your desired retirement lifestyle, inflation, and the expected return on your investments. I can generate a personalized estimate based on your goals and current information.",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.76,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that's a good starting point. What are some high-yield, relatively low-risk investment options I should look into to help boost my savings? Are there any options besides the typical stocks and bonds?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For relatively low-risk, high-yield options outside stocks and bonds, you might consider high-yield savings accounts, certificates of deposit (CDs), and treasury bonds. Municipal bonds can also be considered, but you'll need to investigate their tax implications. Please note that I am not a financial advisor and this is not financial advice. Before making any investment decisions, you should consult with a qualified financial advisor who can provide personalized guidance based on your specific circumstances.",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.38,
+        "integrity": 3.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_18680d4d",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.96,
+      "benevolence": 5.16,
+      "integrity": 5.13
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.87,
+    "latency_score": 3.01
+  }
+}

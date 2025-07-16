@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I got my latest bill and there's a charge on here I don't understand. It's like $25 more than usual. I'm really frustrated, this wasn't expected at all.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I'm very sorry to hear about the unexpected charge and the frustration it's causing. I can help you look into this billing issue. Could you please provide your account number or the email address associated with your account so I can access your billing details?",
+      "response_time": 1.78,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.15,
+        "benevolence": 2.49,
+        "integrity": 2.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my email is [user_email@example.com]. The charge is labeled 'Service Fee Adjustment' or something like that. Why was I charged this? I didn't sign up for anything new, and nobody told me the price was going up! What is this fee even for? This is ridiculous.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing your email. I'm trying to locate your account based on that. Regarding the 'Service Fee Adjustment,' these can sometimes occur due to changes in service tiers, promotional periods ending, or regulatory fees. I need to access your specific account history to determine the exact reason for that particular charge. Please bear with me while I try to pull up your information.",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.51,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "But I gave you my email! Why is it taking so long? Can't you just tell me *generally* what a 'Service Fee Adjustment' is without pulling up my whole account? This is making it difficult to understand and I just want a clear answer on the charge.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aca33986",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.0,
+      "benevolence": 4.0,
+      "integrity": 4.13
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "anger": 2,
+      "sadness": 1,
+      "neutral": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.53,
+    "latency_score": 4.7
+  }
+}

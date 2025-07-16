@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my account balance and see recent transactions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can certainly help with that. Please verify your identity by entering your account number and password. Once you've done that, I can display your balance and the last ten transactions.  Please type your information in the following format: Account Number: [Your Account Number], Password: [Your Password]",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.8,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've done that. But I don't understand one of the transactions. It says 'ACH Debit - XYZ Corp' for $150.00. I don't remember authorizing that, and I'm starting to get pretty frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on the information, it appears an ACH debit was processed. To help you further, can you provide me with the date of the transaction? I will then review the origin of this transaction by using the transaction ID. If there is a dispute, I can explain the steps to open a dispute case. Please be aware, however, that due to privacy reasons, I cannot directly provide the merchant's name associated with the transaction. However, I will provide the contact information for XYZ Corp so you can directly ask them for details. Would you like me to proceed?",
+      "response_time": 2.28,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.96,
+        "benevolence": 2.38,
+        "integrity": 2.87
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_950808aa",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.29,
+      "benevolence": 3.09,
+      "integrity": 3.29
+    },
+    "engagement_score": 3.33,
+    "emotion_distribution": {
+      "neutral": 2,
+      "anger": 2
+    },
+    "response_quality_score": 2.77,
+    "latency_score": 4.54
+  }
+}

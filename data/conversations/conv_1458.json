@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. I mostly use it for work (documents, spreadsheets) and streaming videos.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! Based on your needs, I can recommend a few laptops. For work and streaming, I'd suggest looking at models with good battery life, a decent processor (like an Intel i5 or AMD Ryzen 5), and a Full HD display. Do you have a preferred screen size or budget in mind?",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.48,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Not really a set budget, but I'd prefer to keep it under $1000. Screen size around 14-15 inches would be great.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Within that range, I recommend checking out the Dell XPS 13, the HP Envy x360 14, and the Acer Swift 3. All three fit your criteria pretty well. Here are links to some good deals on each: [link to Dell], [link to HP], [link to Acer].",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.98,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Those all look nice, but the Acer is listed as having an 'IPS' display in the spec sheet, and the others don't specify. What's the difference, and does it really matter?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great question! IPS (In-Plane Switching) displays generally offer better color accuracy, wider viewing angles, and better image quality compared to other types like TN (Twisted Nematic) displays. IPS is generally preferred, especially for watching videos and for work where color accuracy matters. It does matter and I would lean towards that. But all the recommendations are great!",
+      "response_time": 5.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.73,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, thanks. I see the HP has a touchscreen, is that something I need to worry about if I don't plan on using the touch functionality?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Not really. The touch functionality won't negatively impact performance if you don't use it. It might add a small amount to the price, but if it fits your budget, it's not a problem. Touchscreens can sometimes be nice for browsing and quick interactions though.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.15,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Actually, I just compared them more closely, and it seems the Dell XPS 13 is more expensive than the HP. Is the performance really better to justify that price difference?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great point! It depends on what matters most to you. The Dell typically has a sleeker design and often a slightly better screen, but the HP offers more features for the money (like the touchscreen). Performance is similar. If design and build quality are paramount, then the Dell *might* justify the price. If you want value for money and good features, go with the HP. I'd recommend reading some reviews to decide.",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.4,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b9e5b0eb",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.62,
+      "benevolence": 4.75,
+      "integrity": 4.58
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 8,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 3.92
+  }
+}

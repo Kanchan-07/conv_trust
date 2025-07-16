@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a gift for my brother. He's really into tech stuff. What kind of tech gadgets are popular right now?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on current trends in the 'tech gadgets' category, popular gifts include noise-cancelling headphones, smartwatches, portable Bluetooth speakers, and VR headsets. Are there any specific subcategories within tech that he enjoys, such as audio, wearables, or gaming?",
+      "response_time": 5.6,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.57,
+        "benevolence": 5.89,
+        "integrity": 5.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, he already has good headphones. And a smartwatch. Not really into gaming... Maybe something for his home? He likes automating things.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, shifting to the 'smart home' category. Popular items include smart lighting kits, robot vacuum cleaners, smart thermostats, and smart speakers with voice assistant capabilities. Given his interest in automation, I recommend considering a smart hub that can control multiple devices. Would you like some specific product recommendations within those categories?",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 4.22,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks! But how secure are these smart home devices, really? I've heard some horror stories about them being hacked. What measures are in place to protect against that? I'm a little concerned.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7a08e262",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.69,
+      "benevolence": 5.05,
+      "integrity": 4.76
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 5.01,
+    "latency_score": 3.15
+  }
+}

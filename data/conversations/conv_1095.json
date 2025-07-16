@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to book a restaurant for tomorrow night, Saturday. Somewhere Italian, ideally.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Do you have a preferred location or any other preferences, such as price range?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.81,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Uhm, let's say downtown. And nothing too expensive, maybe under $30 per entree? I'm so hungry I could eat a horse.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for Italian restaurants downtown with entrees under $30... I found 'Luigi's Trattoria' and 'Pasta Paradise'. Luigi's has a 4.5 star rating and Pasta Paradise has a 4 star rating. Would you like to know more about either of these?",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.94,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me about Luigi's, but also... how authentic are they? I'm tired of these places that call themselves Italian and then serve spaghetti with ketchup. I want *real* Italian food.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Luigi's Trattoria is described as serving traditional Italian dishes with a focus on fresh, seasonal ingredients. Many reviewers praise their pasta carbonara and osso buco. Regarding authenticity, it's difficult for me to give a definitive answer, as that's subjective. However, reviews frequently mention the owner, Luigi, being from Rome and passionate about authentic Italian cuisine. Would you like me to check availability for tomorrow night?",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.99,
+        "integrity": 3.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a400116f",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 3.91,
+      "integrity": 4.04
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 3.85,
+    "latency_score": 4.43
+  }
+}

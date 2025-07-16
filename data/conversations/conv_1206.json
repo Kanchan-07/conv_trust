@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of participating in a hackathon, but I'm feeling a bit overwhelmed. I've never done one before. Any advice?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's great you're considering a hackathon. They're a fantastic learning experience. To start, I'd recommend researching different hackathons to find one that aligns with your interests and skill level. Look at the themes, technologies involved, and judging criteria. Do you have any specific areas you're interested in?",
+      "response_time": 4.89,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I'm mostly into web development, specifically React. So finding one that uses that would be ideal. Also, I'm worried about finding a team. I don't really know anyone else who's into hackathons.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's helpful. Many hackathons have a team-forming event at the beginning, where you can pitch your skills and find like-minded individuals. Look for hackathons that explicitly mention this. Alternatively, some hackathon organizers have a Discord server or forum where participants can connect beforehand. As for React-focused hackathons, a quick search using keywords like 'React hackathon' or 'web development hackathon' should yield some results. I can do that for you now if you'd like. Also, consider attending online workshops before the hackathon to refresh your React skills. This can help when you join the team.",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.7,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a good idea about the workshops! I always forget about those. One thing I'm struggling with is coming up with a project idea. I feel like everything has already been done! It's kind of frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Project ideation can be tough. Instead of trying to come up with something completely novel, think about existing problems that you can solve in a unique or improved way. Consider focusing on a niche area within web development, or combining React with another technology you're interested in, such as AI or blockchain. Even a small improvement to an existing service can be a worthwhile hackathon project. Sometimes the simplest ideas are the best implemented.",
+      "response_time": 2.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.05,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But here's a challenging question: how do you balance focusing on learning new things at the hackathon versus contributing effectively to the team? I don't want to be a burden, but I also want to expand my skillset.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. The key is communication. Be upfront with your team about your current skill level and your desire to learn. Offer to take on tasks that align with your existing skills while also expressing interest in tackling something new with guidance. For instance, you could say, 'I'm comfortable with component design in React, but I'd love to learn more about Redux. Could I work on a component that uses Redux with some help from someone more experienced?' Most teams are understanding and appreciate proactive learners. Focus on learning *by doing*, but always prioritize the team's progress and be mindful of deadlines. Set realistic goals for yourself and communicate any difficulties you face promptly.",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.52,
+        "integrity": 5.01
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_38e1e55e",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.12,
+      "benevolence": 5.07,
+      "integrity": 4.88
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "surprise": 1,
+      "joy": 1,
+      "fear": 1,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 5.43,
+    "latency_score": 3.83
+  }
+}

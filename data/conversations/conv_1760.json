@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel. I'm looking for something in downtown Chicago for the weekend of October 27th to 29th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Let me just pull up some options for you. Do you have any preferences, like a specific price range, number of beds, or amenities you'd like?",
+      "response_time": 3.33,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 3.96,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ideally, under $250 a night. A king-size bed would be great, and free Wi-Fi is a must. Parking would be a big bonus too, but not essential.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I've got a few options. The first is the Hyatt Regency Chicago, which seems to meet all your criteria except parking. It's around $230 a night. I also see the Hotel Lincoln, which includes parking, but it's closer to $300 a night. Do either of those sound interesting?",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.4,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $300 is a bit much. Is the Hyatt Regency really the only one that fits the price range? I'm a little frustrated because it always seems like parking is impossible to find in downtown Chicago!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I am still under development, and the accuracy can vary. Let me rerun the search with a narrower filter for hotels with parking and your price range. Give me a moment... Okay, I see a few more possibilities now. The Thompson Hotel is about $275 and includes valet parking. Also, the Embassy Suites by Hilton Chicago Downtown Magnificent Mile is offering free parking and comes in at $245. Which is better?",
+      "response_time": 2.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 4.01,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Embassy Suites sounds perfect! But, I'm curious - the reviews mention a lot of noise complaints. Can you find out specifically *what* kind of noise? I'm a light sleeper.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I am unable to access the specific details of the noise complaints mentioned in the reviews. You may consider checking those complaints in third-party sites. But based on the reviews, the noise may be from the street or adjacent rooms.",
+      "response_time": 2.03,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.63,
+        "benevolence": 2.79,
+        "integrity": 2.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b2316767",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.74,
+      "benevolence": 3.79,
+      "integrity": 3.62
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.82,
+    "latency_score": 4.67
+  }
+}

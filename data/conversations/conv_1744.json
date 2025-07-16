@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from New York to London for a trip next month. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, of course! I can definitely help you with that.  To get started, could you please provide the specific dates you're looking to travel?  Also, are there any preferences you have, like a specific airline or time of day you'd prefer to fly?",
+      "response_time": 4.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.53,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'd like to fly out on October 12th and return on October 19th. I'm flexible with the airline, but I'd prefer a direct flight if possible.  Ugh, booking flights is always such a hassle.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Let me check for direct flights departing from New York to London on October 12th and returning on October 19th. Please give me a moment... Okay, I have a few options for direct flights. British Airways has a flight departing at 7:00 PM and arriving at 7:00 AM the next day, and it costs $850. United Airlines also has a flight departing at 8:00 PM and arriving at 8:00 AM the next day, and it costs $900. Do either of those work for you?",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 3.82,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those prices are a little higher than I was hoping for. Do you have any options that might be a little cheaper? Perhaps with a layover? Also, can you tell me what the baggage allowance is for those flights?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry. My database is not able to provide baggage allowance information. Regarding cheaper flights, I can look into flights with layovers. However, please note that these layovers are usually calculated for each flight separately, and I do not have a function to automatically do this for a set of two or more flights. I can look for flights with layovers, but the system will not tell you the prices. Should I do that, or do you have any other preferences?",
+      "response_time": 1.46,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.35,
+        "benevolence": 2.12,
+        "integrity": 2.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, no problem about the baggage. It's fine, I can look that up separately. Yes, please do check for flights with layovers if there are cheaper options. Thank you for your help so far!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2fe65cbc",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 3.82,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 2
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 4.65
+  }
+}

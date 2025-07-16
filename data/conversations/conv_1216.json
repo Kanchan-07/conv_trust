@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my new smart speaker isn't working. I've plugged it in, and nothing happens. No lights, no sound, nothing.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I'm sorry to hear you're having trouble with your smart speaker. To help me troubleshoot, could you please confirm the model number?",
+      "response_time": 0.54,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.46,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's the 'SonicWave X500'. I've tried different outlets, too, so it's definitely not the power source.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Hmm, the X500 is a relatively new model. Have you tried holding the power button down for an extended period, say 10-15 seconds? This can sometimes reset the device.",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.88,
+        "benevolence": 5.22,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes! I actually just tried that before you asked. Still nothing. I'm getting pretty frustrated, honestly.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try this: Can you describe the environment the speaker is in? Is it exposed to excessive heat or humidity?",
+      "response_time": 1.79,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.73,
+        "benevolence": 2.37,
+        "integrity": 2.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "No, it's just in my living room, at normal room temperature and humidity. Listen, is there *any* chance this is a software issue? I mean, how does the speaker's software even *get* updated?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. The X500's software updates are typically delivered over Wi-Fi. Given the current symptoms, it's unlikely to be a software problem, as the device isn't powering on at all. Since you've ruled out the power source and the power button reset isn't working, I'd recommend contacting our hardware support team. I can provide you with their contact information.",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.47,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7cc92e84",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.47,
+      "benevolence": 3.38,
+      "integrity": 3.25
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "anger": 2
+    },
+    "response_quality_score": 2.87,
+    "latency_score": 5.45
+  }
+}

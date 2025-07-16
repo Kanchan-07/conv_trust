@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from Chicago to Miami for next week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Can you please specify the exact dates you'd like to travel and if you have a preferred departure time or airline?",
+      "response_time": 4.07,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.14,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I want to fly out on the 20th and return on the 24th of next week. I'd prefer a morning flight on the 20th, and any time on the 24th. And, I usually fly United, but I'm flexible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Let me check those dates. ...Okay, I have a few options here. There's a United flight on the 20th at 8:00 AM, arriving in Miami at 11:30 AM, and a return flight on the 24th at 2:00 PM. It's $350. Alternatively, there's an American Airlines flight for a similar price, departing at 9:00 AM on the 20th and returning at 3:00 PM on the 24th. Would you like me to provide you with more options or book one of these?",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.84,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $350 seems a bit high. What's the *absolute* cheapest flight you can find? I'm on a budget.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am currently experiencing some difficulties accessing and displaying the lowest fares. Please give me a moment to troubleshoot. ...Okay, I am now showing a Spirit flight on the 20th at 6:00 AM and the 24th at 6:00 PM. It costs $200, but there are additional baggage fees. Are you interested in learning more?",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 3.91,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Spirit at 6 am? Ugh, that's brutal... Okay, tell me about the baggage fees. I might just suck it up and take it if it's not too bad. Can you give me the total cost with a carry-on and a checked bag?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a139b9e4",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.91,
+      "benevolence": 3.96,
+      "integrity": 4.31
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 3.76,
+    "latency_score": 4.5
+  }
+}

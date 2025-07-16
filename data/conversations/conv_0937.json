@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new laptop, but I'm on a really tight budget. Max I can spend is $600. What are my best options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of $600, I can recommend a few laptops. The Acer Aspire 5 series is often available within that price range, offering a good balance of performance and affordability. Also, consider checking out Chromebooks like the Lenovo Chromebook Duet; they are very budget-friendly, but they might not be suitable for all tasks. Would you like me to provide more specific models and links to retailers?",
+      "response_time": 4.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.52,
+        "integrity": 5.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I hate Chromebooks. They never seem to have enough storage! And the Acer Aspire 5... last time I looked at one, the reviews said the screen was really dim. How can you guarantee the laptops you recommend actually have decent screens?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concerns. Unfortunately, I cannot provide a guarantee about screen quality for specific models, as that's often subjective and can vary between units. However, I can filter my recommendations based on reviews mentioning screen brightness and contrast. Could you tell me what you intend to primarily use the laptop for? Knowing if it's for work, school, or entertainment will help me narrow down the options further, leading to more relevant suggestions. I will prioritize models with positive user feedback regarding screen quality within your $600 budget.",
+      "response_time": 3.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.99,
+        "integrity": 3.97
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ac3ead41",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.75,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.59,
+    "latency_score": 3.63
+  }
+}

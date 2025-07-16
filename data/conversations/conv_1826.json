@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm flying from Chicago to London, sometime next month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To give you the best options, could you please provide the specific dates you'd like to travel? And are you flexible with the dates, or do you need to be very specific?",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.88,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm flexible, ideally traveling sometime between November 10th and November 20th. I'm trying to get the best price, so the exact dates don't really matter that much. And I need a round trip, please.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Let me check for flights between Chicago (ORD) and London (any airport) during November 10th to November 20th. Please wait a moment... Okay, I'm seeing a lot of options. The cheapest round trip flight is on November 14th to November 19th for $450 on United, but that's with a long layover. Alternatively, the flight on the 12th to the 17th for $600 has a much better itinerary with only a short layover. Which do you prefer?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 4.42,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's quite a difference. Okay, how long is the layover for the $600 flight? And can you tell me which airport in London it goes to, and the airline?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The $600 flight has a layover of 1 hour and 30 minutes. It flies into Heathrow (LHR) with British Airways. However, I am experiencing some technical difficulties in displaying the itinerary details for the cheaper flight at the moment. Please give me a few more minutes to figure that out. My apologies.",
+      "response_time": 2.89,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.89,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I appreciate you looking into it. I'm leaning towards the British Airways flight for now, but I need to compare the full details of the other one before I make a decision. Just let me know when you can get that information.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1a839f2a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 4.06,
+      "integrity": 3.72
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 3.92,
+    "latency_score": 4.08
+  }
+}

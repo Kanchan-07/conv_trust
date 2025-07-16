@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview for a software engineer position next week. I'm really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely assist you with interview preparation. To get started, what specific areas are you most concerned about? For example, are you worried about technical questions, behavioral questions, or something else?",
+      "response_time": 3.72,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.95,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm most worried about the technical questions. I know the basics, but I'm not sure how to answer the really tricky ones. And frankly, I get flustered under pressure.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Dealing with pressure during technical interviews can be challenging. Let's focus on that. I can provide you with common technical questions, help you brainstorm answers, and even simulate an interview. For example, can you explain the difference between a stack and a queue?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.95,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I can do that... Wait, can you explain the differences between the different sorting algorithms and their time complexities? And how to choose one over another? I always get those mixed up, and the interviewer can ask very specific questions, and then I get confused!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Excellent question! Here's a breakdown of common sorting algorithms, their time complexities (best, average, and worst-case scenarios), and factors influencing algorithm selection:\n\n[Table containing sorting algorithms and complexities]\n\nChoosing the right algorithm involves considering these factors:\n*   **Data Size:**\n    *   For small datasets, simple algorithms like Insertion Sort can be fast and efficient due to their low overhead.\n    *   For large datasets, efficient algorithms like Merge Sort or Quick Sort are crucial.\n*   **Data Type:**\n    *   Some algorithms may perform better with specific data types, such as integers versus strings.\n*   **Stability:**\n    *   A stable sorting algorithm preserves the relative order of equal elements. This is important in certain applications.\n*   **Memory Usage:**\n    *   Some algorithms have higher space complexity than others.\n*   **Pre-sorted Data:**\n    *   If the data is partially sorted, algorithms like Insertion Sort can be highly efficient.\n\nWould you like me to elaborate on any of these points, or perhaps provide example scenarios where these differences matter?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.37,
+        "integrity": 5.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_95dcb6b7",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.72,
+      "benevolence": 5.76,
+      "integrity": 5.54
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "fear": 2,
+      "disgust": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.61,
+    "latency_score": 3.77
+  }
+}

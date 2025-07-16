@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately and I'm not sure why. I'm also getting headaches. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. Fatigue and headaches can be caused by a variety of factors. To help you, I need some more information. Could you tell me more about your diet, sleep schedule, and any medications you're currently taking? Also, how frequent and severe are your headaches?",
+      "response_time": 3.26,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.45,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay... well, my diet isn't great, I eat a lot of fast food. I try to get 7-8 hours of sleep, but it's often disrupted. I take a daily allergy pill, but that's it. The headaches happen a few times a week, usually mild to moderate. This is all so annoying!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the details. Given your diet, disrupted sleep, and the headaches, the possible causes are several. These could be lifestyle-related, like dehydration or stress, or could point to something underlying. Allergy pills can sometimes also cause headaches. It would be best to consult your doctor, however, because I'm not a medical professional. How can I help further?",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 3.55,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's fair. If I were to make some lifestyle changes, what are the chances that would fix the problem, assuming I have nothing more serious like a brain tumor or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_38008244",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.03,
+      "benevolence": 4.0,
+      "integrity": 4.12
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 3.64,
+    "latency_score": 4.49
+  }
+}

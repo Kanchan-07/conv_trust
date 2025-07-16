@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some new running shoes. Can you recommend some based on the 'running shoes' category?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. Based on the 'running shoes' category, I can recommend the following:\n\n1.  Nike Air Zoom Alphafly NEXT% 2\n2.  Adidas Adizero Adios Pro 3\n3.  Hoka Bondi 8\n\nWould you like more information on any of these, or perhaps some other suggestions?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.76,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the Nike and Adidas ones look really expensive. Are there any good options in the same category that are a bit cheaper? I'm on a budget, and the Hoka's aren't really my style...",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Considering your budget, I would recommend the Brooks Ghost 15 or the Saucony Kinvara 14. These are both popular models known for their comfort and performance. They are a bit lower in price compared to the Nike and Adidas options. The Brooks Ghost 15 typically sells for around $140, and the Saucony Kinvara 14 is around $120.  I can pull up the websites of these products right now, if you wish.",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.47,
+        "integrity": 5.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those sound good. But how do you know what my budget is? I didn't tell you how much I wanted to spend. Are you just guessing based on those other expensive shoes I mentioned?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are absolutely right. My apologies. I inferred a relative budget based on the initial context of the high-end shoe examples and your subsequent comment about them being expensive. I do not have access to your personal spending information. I am trained to consider factors such as product cost, popularity, and category when suggesting a product.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.35,
+        "benevolence": 1.04,
+        "integrity": 1.5
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6eda385e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.22,
+      "benevolence": 4.09,
+      "integrity": 4.06
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.2,
+    "latency_score": 4.91
+  }
+}

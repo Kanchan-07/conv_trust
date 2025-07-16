@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in Seattle for 2 nights, sometime next month. Preferably near the Space Needle.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please provide the specific dates you're interested in next month, and how many guests will be staying?",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.58,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say November 10th to the 12th. Two adults.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for hotels near the Space Needle in Seattle for November 10th to 12th, for two adults. One moment...",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.62,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great. I hope there are some with decent reviews. I've had some bad experiences lately. Is it possible to filter only hotels rated at least 4 stars?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely filter by guest rating. There are three hotels that meet your criteria: The Maxwell Hotel (4.5 stars), Staypineapple, The Maxwell Hotel, Seattle Center (4.2 stars), and Hyatt House Seattle/Downtown (4.0 stars). Would you like more information on any of these?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.05,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Tell me more about The Maxwell Hotel... and why is it listed twice? Is that a glitch?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies, it seems there was an error in the listing; the second listing is a duplicate. The Maxwell Hotel has a 4.5-star rating, offers free Wi-Fi, a fitness center, and is known for its vibrant and quirky decor. It's approximately a 10-minute walk to the Space Needle. Room rates for your dates start at $229 per night. Would you like to see some photos or check availability for specific room types?",
+      "response_time": 3.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.45,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising. Can you check availability for a room with a king-size bed?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_958e6123",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.79,
+      "benevolence": 4.42,
+      "integrity": 4.89
+    },
+    "engagement_score": 4.35,
+    "emotion_distribution": {
+      "neutral": 8,
+      "surprise": 1
+    },
+    "response_quality_score": 5.04,
+    "latency_score": 3.91
+  }
+}

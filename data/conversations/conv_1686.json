@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving. Any good food recommendations nearby? I'm in the downtown area.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. Based on your location, I can recommend a few options. Are you looking for anything specific, like a certain cuisine or price range? I have several highly-rated restaurants nearby, including a great Italian place and a popular Thai restaurant.",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.92,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thai sounds good! But I'm a vegetarian, and I've had bad experiences with places that claim to be vegetarian-friendly and aren't. Can you *guarantee* their vegetarian options are actually vegetarian?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. I cannot *guarantee* anything, as I don't have real-time information regarding ingredient changes. However, the Thai restaurant, 'Bangkok Bites,' has a very detailed vegetarian menu listed online. I can pull it up for you. They have several positive reviews specifically mentioning vegetarian dishes. There are also several local reviews mentioning they are very careful about cross-contamination. Would you like me to show you the menu?",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.59,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, yes, show me the menu. And if it looks good, can you order for me? I'm really hungry now, and I'm getting tired of ordering everything myself!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4b83d7a9",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.63,
+      "benevolence": 5.75,
+      "integrity": 5.2
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 5.58,
+    "latency_score": 3.92
+  }
+}

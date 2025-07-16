@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for some new shoes, but I'm so overwhelmed by all the options! I generally like a minimalist, Scandinavian style - clean lines, neutral colors. What would you recommend?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Based on your preference for minimalist, Scandinavian style, I'd suggest looking at brands like Common Projects, Acne Studios, or COS. For specific shoe types, consider a simple leather sneaker in white or beige, Chelsea boots, or perhaps some understated loafers. Would you like me to provide links to examples of each?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.23,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Links would be great, thanks! Though, wait a minute... Aren't those brands *really* expensive? Like, can you recommend something similar but a bit more budget-friendly? It's frustrating when all the 'minimalist' stuff is also super high-end.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. For more affordable options that still capture the minimalist aesthetic, check out Everlane, ASOS Design, or even some options from Nordstrom's house brands. They often carry simpler styles at lower price points. Alternatively, you could also search for 'minimalist sneakers' or 'Scandi-inspired boots' on sites like Zappos and filter by price.",
+      "response_time": 2.31,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.85,
+        "integrity": 2.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7edc4c4f",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.29,
+      "benevolence": 3.54,
+      "integrity": 3.15
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 3.31,
+    "latency_score": 5.2
+  }
+}

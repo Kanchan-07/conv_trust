@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to install a new kitchen faucet and I'm completely lost. The instructions are terrible. Can you help?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can definitely help! First, could you tell me the brand and model of your faucet? Also, are you replacing an existing faucet or is this a new installation? Providing me with this information will help me guide you better.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's a 'ShineBright' model number KF729. Replacing an old one. I've got the old one off, but I'm looking at these tiny little O-rings and I'm completely confused where they go! Also, there is a very large nut that looks impossible to get to. What do I do?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, ShineBright KF729, replacing an existing faucet... I understand. Those O-rings typically go between the faucet body and the water supply lines, and on the supply lines themselves. However, the exact placement can vary. For the large nut, you'll likely need a basin wrench to reach it. Try watching a YouTube tutorial specific to your faucet model. Since I don't have access to your actual installation, that may be the easiest method to get this done. Good luck!",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 3.8,
+        "integrity": 4.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c2f38b36",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.69,
+      "benevolence": 5.4,
+      "integrity": 5.44
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.88,
+    "latency_score": 2.99
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a billing issue. My last bill seems really high, and I don't understand why.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can certainly help you with that. Can you please provide your account number so I can look into this for you?",
+      "response_time": 4.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.32,
+        "integrity": 5.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 1234567890. I'm just really frustrated because I thought I was on a fixed-rate plan.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check your account details. Okay, I see you are on the 'Basic' plan. There seem to be some overage charges listed. These charges are related to exceeding your monthly data allotment, which is 100GB. Your bill shows you used 180GB this month.",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.33,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "180GB?! That's impossible! I barely use the internet. Is there any way to verify the data usage? Like, a breakdown of where that data was used?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, certainly. I can provide you with a general overview of your data usage, broken down by date and approximate usage. However, a detailed breakdown including specific websites or applications is not accessible due to privacy regulations. It's also possible your Wi-Fi network was accessed by other devices without your knowledge if it was not properly secured.",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 4.07,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's...somewhat helpful, I guess. So, what are my options now? Can I dispute this, or at least get some kind of credit?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Given the circumstances, I can offer a one-time courtesy credit of $15 on your next bill. Additionally, I highly recommend reviewing your network's security and monitoring your data usage for the next billing cycle. Would you like me to apply the credit now?",
+      "response_time": 5.05,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.7,
+        "integrity": 6.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9c482819",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 5.11,
+      "integrity": 5.08
+    },
+    "engagement_score": 4.86,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 3,
+      "anger": 2,
+      "fear": 1
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 3.61
+  }
+}

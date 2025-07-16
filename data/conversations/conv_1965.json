@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with medical billing. I'm completely lost trying to understand an Explanation of Benefits I just received.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist with that. Please tell me about the specific EOB. What information is confusing you?",
+      "response_time": 4.46,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, it lists a bunch of codes. Like, what's a CPT code? And why is there a 'denied' status next to one of the procedures? This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CPT codes are procedure codes used by medical providers. The 'denied' status means the insurance company didn't cover that particular procedure. I can help you understand the specific codes and the reason for the denial if you provide me with the EOB details, or at least the relevant codes.",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.81,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, let me find the codes. Hmm... one of them is 99214. The denied procedure is 73550. The denial reason says 'Pre-existing condition'. But I've been insured for years. How can that be?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The 'Pre-existing condition' denial might be incorrect. Sometimes it is an error from the insurance provider or the coding is not correct. To investigate, you should contact your insurance company directly. They will be able to look into your specific policy and the medical records associated with these codes. Also, I'm sorry, but I don't have direct access to specific insurance policies and medical records.",
+      "response_time": 2.29,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.83,
+        "benevolence": 2.45,
+        "integrity": 2.85
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's annoying, but thanks for the information. So, what's the difference between 'allowed amount' and 'amount paid' on the EOB? I still don't quite get that.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The 'allowed amount' is the maximum amount the insurance company considers reasonable for a particular service. The 'amount paid' is the amount the insurance actually paid to the provider or reimbursed to you. So, the 'amount paid' will usually be equal to the 'allowed amount' minus your cost-sharing (e.g., deductible, coinsurance). Does that make sense?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.07,
+        "integrity": 3.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4f3258b2",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.33,
+      "integrity": 4.43
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "disgust": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.46,
+    "latency_score": 3.76
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining a hackathon, but I'm feeling a bit overwhelmed. There are so many different ones, and I don't even know where to start looking. Any suggestions on finding one that's right for me?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I understand. Finding the right hackathon can be tricky. To help narrow it down, could you tell me a bit about your interests and skill level? For example, are you interested in a specific technology (like AI, web development, etc.) or a particular theme (like sustainability, healthcare, etc.)? Also, what is your current experience level with coding and relevant technologies?",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.38,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, good questions. I'm pretty comfortable with Python and Javascript, and I'm really interested in AI and machine learning. I'd say I'm an intermediate coder. I'd like something that is not just about writing code but thinking about applications for social good, if possible. I've looked around but honestly, the search filters on most sites are useless. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with the search filters! Based on your interests and skills, I recommend checking out hackathons listed on Devpost and Major League Hacking (MLH). Specifically, filter by 'AI/Machine Learning' and look for events that mention 'social good' or 'impact' in their descriptions. Also, many universities host hackathons with a focus on specific themes; searching for university-hosted AI hackathons may yield results. Finally, be mindful of the participation requirements to make sure you are eligible for the event.",
+      "response_time": 3.49,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.28,
+        "integrity": 5.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c41bea03",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.47,
+      "benevolence": 5.33,
+      "integrity": 5.6
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 1,
+      "anger": 2
+    },
+    "response_quality_score": 5.35,
+    "latency_score": 3.69
+  }
+}

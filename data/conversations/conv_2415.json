@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help managing my bank account. I'm trying to figure out where my money went this month.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To start, can you please provide your account number or the last four digits of your card?",
+      "response_time": 5.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.41,
+        "integrity": 5.2
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's xxxx. Can you show me a breakdown of my spending for this month? I feel like I'm always over budget.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. Please give me a moment to retrieve that information... Okay, here's a breakdown of your spending categorized by type. You can view it in text format here: [link to text output]. Would you like it in a different format?",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.91,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's a lot of eating out. Can you categorize all those transactions for me? Also, how many times did I use my card at the grocery store?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I'm sorry, I am unable to categorize all your transactions. However, I can tell you that you used your card at the grocery store 7 times this month. For additional features, please upgrade to premium.",
+      "response_time": 2.57,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 4.21,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Seriously? I can't even get basic categorization? Okay, fine. How is the interest on my savings account calculated? And why does it seem so low?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The interest on your savings account is calculated daily and compounded monthly. The current annual percentage yield (APY) is 0.05%. This rate may be lower than other savings accounts due to certain internal policies. More information about these policies can be found [link to the policy page].",
+      "response_time": 5.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.82,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, though I'm still not thrilled. Thanks for the information. Can I download my transaction history in a CSV format?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, you can absolutely download your transaction history in CSV format. You can find the option in the account overview section [link to the section]. Is there anything else I can help you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.75,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3b61fa08",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.28,
+      "benevolence": 5.22,
+      "integrity": 5.22
+    },
+    "engagement_score": 5.78,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.5,
+    "latency_score": 3.11
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I've had three AR claims denied this month, all with seemingly the same reason code: 'Service not deemed medically necessary.' Can you help me understand what's going on? It feels like a black box.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The 'Service not deemed medically necessary' denial can be vague. Let's investigate. To start, could you provide the claim numbers or patient names and dates of service for those three denials? That will allow me to access the claim details and review the specific reasons cited by the payer.",
+      "response_time": 1.37,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.33,
+        "benevolence": 2.19,
+        "integrity": 2.45
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here are the details. Claim 1: Patient John Smith, DOS 03/15/2024, Claim Number 12345. Claim 2: Patient Jane Doe, DOS 03/22/2024, Claim Number 67890. Claim 3: Patient Robert Jones, DOS 03/29/2024, Claim Number 13579. I'm also curious, is there any specific documentation I can proactively include in future claims to preemptively address this 'medical necessity' issue?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. I've reviewed the claims. For John Smith, the denial stemmed from a lack of detailed progress notes justifying the continued need for physical therapy. For Jane Doe, the pre-authorization documentation didn't explicitly outline the treatment plan's goals and expected outcomes clearly enough. And for Robert Jones, the diagnosis code didn't align well with the service provided; a more specific code would be beneficial. As for your question about proactive documentation, including detailed progress notes that clearly demonstrate improvement, outlining specific, measurable, achievable, relevant, and time-bound (SMART) goals in your treatment plans, and ensuring accurate and specific diagnosis coding are all crucial steps. Additionally, consider including supporting documentation like functional outcome assessments whenever possible. It can also be beneficial to verify payer-specific medical necessity requirements before submitting claims.",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.07,
+        "benevolence": 5.68,
+        "integrity": 5.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ae038323",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.7,
+      "benevolence": 3.93,
+      "integrity": 4.12
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 3.84,
+    "latency_score": 5.17
+  }
+}

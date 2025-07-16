@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm planning to repaint my living room soon. What's the best kind of paint to use for interior walls?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! For interior walls like a living room, latex (water-based) paint is generally recommended. It's easy to clean up and dries relatively quickly. The finish you choose depends on the desired look and durability \u2013 options range from flat (hides imperfections well) to eggshell, satin (more washable), semi-gloss, and high-gloss (most durable, often used for trim).",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.18,
+        "integrity": 5.86
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, latex paint. Got it. I have a really dark wall color right now that I want to paint over with a very light gray. Can I use one of those 'paint+primer in one' products to do that in just one or two coats? Or do I really need a separate primer first?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Transitioning from a dark color to a very light one can be tricky. While 'paint+primer' products offer some convenience, they are essentially just thicker paint. For significant color changes, especially dark to light, or covering stains, a dedicated primer is highly recommended. It provides better coverage for the old color and creates a more uniform base for the new paint, ensuring the light gray looks true to color and you don't need excessive coats.",
+      "response_time": 4.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.09,
+        "integrity": 5.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's annoying. I was hoping to skip a step. So those 'paint+primer' cans are basically useless for big changes? It feels like misleading advertising! Also, how do I get perfectly clean lines around the ceiling and trim? Taping never works perfectly for me; paint always bleeds under it.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "They aren't entirely useless, but their effectiveness as a primer is limited compared to a dedicated product, especially for challenging situations like yours. Regarding clean lines, proper taping technique is key. Ensure surfaces are clean and dry. Apply the painter's tape firmly, pressing down the edge closest to where you'll be painting with a putty knife or even your fingernail to get a good seal. Use high-quality painter's tape appropriate for the surface and removal time.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.27,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I feel like I *do* press it down, and it still bleeds! It's SO frustrating. Am I using the wrong kind of tape? Or is there some trick I'm missing?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "It can definitely be frustrating. High-quality tape does make a difference. There's also a professional trick: After applying the tape, paint a very thin coat of the trim or ceiling color (the color you are taping *over*) onto the edge of the tape where it meets the wall. This seals the tape edge. Let that dry completely, then apply your wall color. If any paint bleeds under the tape, it will be the trim color, which blends in, instead of your new wall color.",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.89,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow! Paint the tape edge with the existing color? That's brilliant! I've never heard that one. Okay, that actually makes me feel a lot better about tackling the trim. Thanks for that tip! Is there anything else critical I should know before starting?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_94cd80aa",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.88,
+      "benevolence": 4.61,
+      "integrity": 4.8
+    },
+    "engagement_score": 5.75,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.73,
+    "latency_score": 3.23
+  }
+}

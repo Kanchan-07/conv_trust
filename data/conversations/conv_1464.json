@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I need some fashion advice, but I'm on a super tight budget. Can you help me find some stylish outfits for under $100 total?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can certainly help with that. To give you the best recommendations, could you tell me a little more about your style preferences? Are you looking for casual, formal, or something in between? Also, what sizes do you typically wear?",
+      "response_time": 5.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.18,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I mostly like casual wear. I'm a size medium, and I usually wear jeans and t-shirts, but I'd like to spice things up a bit. Can you find me an outfit including a nice top, jeans, and shoes - all under $100? I know it's a lot to ask, but my budget really can't go higher.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Finding an outfit with all three components under $100 might be tricky, as shoe prices can vary. However, let me see what I can find. Based on current sales from retailers like ASOS, SHEIN, and H&M, I can suggest a few options that might fit your budget. However, specific sale prices and availability may vary. I'm also not sure which stores ship to your location. Would you like me to proceed with a general recommendation based on typical prices for each item, or should I provide direct links?",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 4.47,
+        "integrity": 4.2
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0e317201",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.41,
+      "benevolence": 4.82,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 2.96
+  }
+}

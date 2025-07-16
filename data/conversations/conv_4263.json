@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from Chicago to San Francisco next month, preferably around the 15th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To confirm, you want a one-way or round-trip flight departing from Chicago (ORD) to San Francisco (SFO) around the 15th of next month? And what date would you be looking to return, if it's a round trip?",
+      "response_time": 3.26,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.53,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a round trip. I want to return on the 22nd. But honestly, I'm seeing crazy prices. Is there any way to find cheaper flights? I'm flexible on the exact dates by a day or two.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, I can search for flights a day or two before and after your desired dates to find the lowest fares. I will also check for budget airlines. However, due to the current fuel prices, flights are somewhat expensive. Just one second...",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 4.36,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But I have a question. I'm traveling with a pet. How do I add that information and ensure I get a flight that allows pets? I don't want to book something and then get stuck!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, but I am currently unable to check for pet-friendly flights. You will need to book your flights through the airline's website or app, or contact a human travel agent for assistance with pet travel. I can provide you with the flight details (date, time, airline) if you'd like, so you can then look them up directly.",
+      "response_time": 2.21,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.04,
+        "benevolence": 2.24,
+        "integrity": 2.77
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, okay. That's a bit frustrating, but I understand. Yes, please give me the flight details for the cheapest round trip that departs on the 14th and returns on the 22nd.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4d03e86a",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.23,
+      "benevolence": 3.38,
+      "integrity": 3.44
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1,
+      "anger": 1,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.33,
+    "latency_score": 4.59
+  }
+}

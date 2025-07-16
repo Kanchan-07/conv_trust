@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm feeling like watching something but I have no idea what. Any suggestions for some good comedy movies?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Comedy is a great choice. Some popular and well-regarded comedy films include 'Anchorman: The Legend of Ron Burgundy', 'Step Brothers', and 'Bridesmaids'. Have you seen any of those?",
+      "response_time": 5.11,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.29,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, seen all of those, multiple times! They're classics, but I was hoping for something maybe a bit less mainstream? Or perhaps a different *kind* of comedy? Like, something more quirky, or maybe a dark comedy from the last few years? It's frustrating when all the recommendations are the same old ones.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, I understand. Finding something that fits a more specific taste can be tricky. For quirky or dark comedy from recent years, you might like 'Jojo Rabbit', 'Parasite', or 'Don't Look Up'.",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.99,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'Jojo Rabbit' is a good shout, I forgot about that one. 'Parasite' is amazing, but I wouldn't really call it a comedy... it's pretty heavy! 'Don't Look Up' fits the dark comedy bit though. Okay, thanks for 'Jojo Rabbit' and 'Don't Look Up', I'll check those out.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1d524883",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.06,
+      "benevolence": 4.64,
+      "integrity": 4.55
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 2,
+      "joy": 1,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.86,
+    "latency_score": 3.42
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some help with financial planning. I'm totally lost and don't know where to start.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To get started, could you tell me a little bit about your current financial situation? For example, your income, expenses, and any existing savings or debts?",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.58,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I make about $75,000 a year. My rent is insane, around $2,000 a month, and I have a student loan of about $30,000. I've got maybe $2,000 in savings right now. This is already sounding hopeless, isn't it?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Not at all! It's a common situation. Based on that, we can create a budget, explore debt repayment strategies, and begin building a savings plan. First, let's break down your monthly income and expenses to see where your money is going.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.34,
+        "integrity": 1.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, sounds good. But what's the point of budgeting? I've tried before, and it never works. I end up giving up after a week.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Budgeting is most effective when it is sustainable. We can set realistic goals based on your income and expenses, focusing on your priorities. We'll make sure it's easy to track and adjust as needed, aiming for small, achievable steps rather than a complete overhaul. To get started, what do you estimate you spend monthly on things like groceries, transportation, and entertainment?",
+      "response_time": 1.56,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.61,
+        "integrity": 2.11
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll bite. Let's say groceries are around $500, transportation is about $200, and entertainment is... well, that's hard to say, it varies wildly. But probably around $300-$500. Can you give me an example of how to prioritize and budget for an emergency fund when I have so much debt?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. Generally, it is recommended to build an emergency fund equal to 3-6 months of living expenses. While paying down debt, it's still crucial to save a small 'starter' emergency fund. Aim for $1,000 to $2,000, then focus on debt. This way, you have a safety net without sacrificing debt repayment. We can integrate this into the budget and look at strategies for making extra payments on your student loan, such as the debt snowball method. Unfortunately, I'm unable to provide any specific financial advice based on your situation at this time.",
+      "response_time": 1.49,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.47,
+        "benevolence": 2.23,
+        "integrity": 2.54
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. Even though you can't give specific financial advice, this is a good starting point. I'll start looking into budgeting tools and debt repayment strategies. I feel a little more in control now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1148e9b3",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.94,
+      "benevolence": 2.94,
+      "integrity": 2.91
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.04,
+    "latency_score": 5.78
+  }
+}

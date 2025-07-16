@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm starving. I want to order some food, but I'm not sure what I'm in the mood for. Maybe something Italian? But not pizza... I had pizza last night. Ugh.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. You're looking for Italian, but not pizza. How about lasagna, ravioli, or spaghetti carbonara? Do any of those sound appealing, or should I provide some more options?",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.81,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, lasagna sounds good. But I'm also trying to be a little healthy. What's the nutritional information, roughly, for a typical serving of lasagna from, say, a restaurant like Olive Garden?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "A typical serving of Olive Garden's lasagna is estimated to have around 500-600 calories, 30-40 grams of fat, and 40-50 grams of carbohydrates. However, these are just estimates, and actual values may vary. Would you like me to look for some healthier Italian options with lower calorie counts?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.63,
+        "integrity": 3.92
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_42f1af9f",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.77,
+      "benevolence": 3.72,
+      "integrity": 3.83
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 3.56,
+    "latency_score": 3.67
+  }
+}

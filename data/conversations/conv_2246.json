@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel. I'm looking for something in downtown Chicago for next weekend.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. To confirm, you're looking for a hotel in downtown Chicago for the weekend of [current date + 6 days]? And how many guests will be staying?",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.37,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's right. Two adults. And specifically, the weekend of the 26th and 27th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for hotels in downtown Chicago for two adults for the dates of October 26th and 27th. Please wait a moment...",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.27,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "This is taking a while... I need to get this booked soon. Are there any hotels with good views of the lake?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the delay. My systems are experiencing a slight hiccup. Yes, there are a few hotels with lake views. Based on my search so far, the 'Hyatt Regency Chicago' and the 'Swiss\u00f4tel Chicago' both offer lake view rooms. Let me pull up the prices and availability.",
+      "response_time": 3.23,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 3.66,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see those. What's the difference in price, and more importantly, which one has the better view? And can I get a room with a balcony?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Comparing the Hyatt Regency and Swiss\u00f4tel for a room with a balcony and lake view is difficult as neither always guarantees those rooms. The Hyatt Regency typically has a slightly higher price point. The view at the Swiss\u00f4tel is probably more reliable as it faces directly towards the lake. As for the balcony, I am unable to ascertain which rooms have that amenity, I would recommend checking the specifics of the hotel rooms you like on a hotel's website.",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 4.3,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's a bit annoying. Okay, I'll check the Swiss\u00f4tel. Thanks for your help! I'll go directly to their website.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're very welcome! Is there anything else I can assist you with today?",
+      "response_time": 5.84,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a883f2a5",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 5.01,
+      "benevolence": 4.92,
+      "integrity": 4.73
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 3.1
+  }
+}

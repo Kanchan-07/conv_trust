@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up with Dr. Ramirez. I'm available pretty much anytime next week.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check Dr. Ramirez's availability for next week. Just a moment... Alright, I have appointments open on Tuesday at 10 am and Thursday at 2 pm. Which works best for you?",
+      "response_time": 2.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.23,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, neither of those times is great. I was really hoping for something in the afternoon on Wednesday. Are there any possibilities then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me double-check... Unfortunately, Wednesday afternoons are fully booked with Dr. Ramirez for the next several weeks. However, I *might* be able to squeeze you in on Monday morning at 9 am. It's a little tight, and I'd have to confirm with the scheduling team.",
+      "response_time": 4.07,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.5,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's not ideal, but better than nothing. What's the cancellation policy, just in case? And what happens if I have to reschedule?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The cancellation policy requires 24 hours' notice to avoid a fee of $50. Rescheduling is typically straightforward, but is dependent on Dr. Ramirez's availability at the time. We'll do our best to accommodate you! Would you like me to book the Monday at 9 am appointment?",
+      "response_time": 1.49,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.78,
+        "benevolence": 2.27,
+        "integrity": 2.28
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7e4b5edc",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.54,
+      "benevolence": 3.33,
+      "integrity": 3.4
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 3.03,
+    "latency_score": 4.68
+  }
+}

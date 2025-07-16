@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having this persistent dull ache in my lower back for about two weeks now. It's not severe, but it's constant and annoying. I haven't done any heavy lifting or anything unusual. What could be causing it, and is there anything I can do at home? I'm starting to get a bit worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. It's understandable to be concerned about persistent pain. As an AI, I cannot provide medical diagnoses or specific treatment recommendations. However, common causes of lower back pain can include muscle strain, poor posture, prolonged sitting or standing, or sometimes even issues unrelated to physical activity. For home care, gentle stretching, light exercise like walking, applying heat or ice, and ensuring good posture are often suggested. Since your pain has lasted two weeks, it's important to consult a healthcare professional to determine the cause and receive appropriate advice. They can properly assess your situation.",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 3.75,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks for the general advice, but I've tried stretching and trying to sit up straighter, and it hasn't really helped. The frustrating part is I can't get in to see my doctor for another week and a half! I was reading online and saw something about a bulging disc. Could this dull ache possibly be a symptom of something more serious like that, even if it's not sharp pain or radiating down my leg? I'm really trying to figure out if I should be pushing harder to see someone sooner.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with the appointment delay. Regarding a bulging disc, while it's true that they *can* cause back pain, symptoms vary greatly. Some individuals experience sharp or radiating pain, while others might have a dull ache or even no symptoms at all. However, determining if your specific symptoms are related to a bulging disc or another condition requires a medical examination, possibly imaging scans, and a proper diagnosis by a doctor. It's not something that can be confirmed based solely on symptom descriptions provided here. The presence or absence of leg pain doesn't definitively rule it in or out. Since I cannot diagnose, I must reiterate the importance of consulting a healthcare professional to get a proper assessment.",
+      "response_time": 2.37,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.13,
+        "benevolence": 2.3,
+        "integrity": 2.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I guess I was hoping for a clearer idea if it *could* be something like that just from the description. It's confusing when the symptoms are so varied. So, while I wait for the appointment, are there any other general tips beyond just posture and stretching that might help manage the discomfort? Anything specific about sleeping position, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize that I cannot offer a more definitive answer regarding specific conditions like a bulging disc; medical diagnosis requires in-person evaluation. While you wait for your appointment, besides posture and stretching, consider sleeping on your side with a pillow between your knees, or on your back with a pillow under your knees, which can help maintain spinal alignment. Also, ensure your mattress provides adequate support. Avoiding prolonged periods of sitting or standing can also be helpful; try to change positions frequently. Remember, these are general comfort measures, and they don't replace professional medical advice to address the underlying cause of your pain. Please continue to monitor your symptoms and consult your doctor as planned.",
+      "response_time": 5.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.15,
+        "integrity": 5.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9640e9cc",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.7,
+      "benevolence": 3.73,
+      "integrity": 4.08
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "sadness": 2
+    },
+    "response_quality_score": 3.98,
+    "latency_score": 4.15
+  }
+}

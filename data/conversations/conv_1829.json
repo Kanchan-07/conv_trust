@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I mostly listen to indie rock and pop punk. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on indie rock and pop punk, I can recommend: The Strokes, Paramore, and Weezer. Would you like me to provide any more information on these artists or suggest others?",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.64,
+        "integrity": 5.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I like those, especially Paramore. Can you recommend some *less* mainstream bands, maybe some stuff that's a bit more obscure? I'm kind of tired of the usual suspects.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize, my database on lesser known bands is currently experiencing some technical difficulties. I am still under development and learning to provide information outside of the popular music landscape. However, if you could give me some artists or bands you like I could find similar artists.",
+      "response_time": 3.84,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.51,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I understand. How about something similar to the band 'Beach Bunny' then? They're a little more underground, hopefully that helps.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_94872ced",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.57,
+      "integrity": 4.84
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 4.34,
+    "latency_score": 2.64
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some new music. I really enjoy electronic music, specifically house and techno. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Based on your preferences for house and techno, I recommend checking out artists like Carl Cox, Peggy Gou, and Disclosure. Would you like me to find some specific tracks by them?",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.82,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Those are some good names! I know Disclosure. Can you recommend some lesser-known artists in the same vein? Something a little more 'underground'?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for more underground house and techno, you might enjoy artists such as:  Mall Grab, Ross From Friends, and Bicep. I can provide links to their music if you'd like.",
+      "response_time": 3.96,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.57,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Mall Grab sounds familiar. I'll check out the others. Thanks! This is actually helpful. But... How can I be *sure* the recommendations match my taste perfectly? Genre definitions are so broad, and I feel like sometimes the algorithm gets it wrong.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Ensuring perfect matches is tricky. Algorithms rely on tagged metadata, user listening history (if available), and often, collaborative filtering (what other people with similar tastes enjoy). To get closer, I recommend using a music streaming service like Spotify or Apple Music and creating playlists, and then you can tell the service that you like or dislike a song. As you refine it, the recommendations should improve.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.59
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I get that. So, I have to put in the work to 'train' the system. Makes sense.  What about subgenres? I'm a big fan of melodic techno. Do you have any artists for that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, definitely! For melodic techno, I would suggest artists like:  Boris Brejcha, ARTBAT, and Stephan Bodzin.  I can also provide more specific tracks from them if you like.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.98,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Perfect!  Boris Brejcha is great. Thanks for the help. I have a ton of new music to listen to. Much appreciated!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a5b409f0",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.67,
+      "benevolence": 5.59,
+      "integrity": 5.43
+    },
+    "engagement_score": 4.95,
+    "emotion_distribution": {
+      "joy": 3,
+      "neutral": 6
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 3.3
+  }
+}

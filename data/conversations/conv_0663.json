@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York (JFK) to Los Angeles (LAX) sometime in the middle of July. Ideally, a direct flight. I'm getting so frustrated looking at all these options myself!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Let me help you with that. Could you please specify the dates you'd prefer in mid-July? Also, what's your preferred time of day for departure and arrival? Knowing your budget would be helpful as well.",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.93,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say I want to leave on July 15th and return on July 22nd. Departure time...morning would be best, before noon. As for budget, I'm hoping to keep it under $600, but I know that might be tough. What are the chances I can get a direct flight for that price, honestly?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm checking for direct flights from JFK to LAX for July 15th to July 22nd, departing before noon, with a budget of under $600. One moment please... \n\nAlright, I found a few options. Unfortunately, direct flights within your budget are limited. There's a JetBlue flight departing JFK at 10:00 AM on July 15th and returning from LAX at 2:00 PM on July 22nd for $620. Would you like to see other options with layovers that fit your budget, or would you consider slightly increasing your budget for the direct flight?",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 4.16,
+        "integrity": 3.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_db2b8dd3",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.09,
+      "benevolence": 4.04,
+      "integrity": 3.78
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.14,
+    "latency_score": 4.11
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some movie recommendations. I'm in the mood for a good action movie.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me what you usually enjoy in an action movie? For example, are you into superhero films, spy thrillers, or something else?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.53,
+        "benevolence": 6.91,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I'm not really into superhero stuff, or anything too cheesy. I like things that feel realistic, with a good plot and maybe some cool fight scenes. Spy thrillers are good too, but I've seen most of the popular ones. Maybe something with a strong female lead?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your preferences, I'd recommend 'Atomic Blonde' and 'The Old Guard'. Both feature strong female leads, realistic action sequences, and engaging plots. Have you seen either of those?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.61,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've seen Atomic Blonde, it was pretty good. Never heard of The Old Guard though. What's it about?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Old Guard is about a group of immortal mercenaries who have been secretly protecting the world for centuries. It stars Charlize Theron. It has good reviews. You might like it. Do you want to know what critics thought?",
+      "response_time": 5.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.75,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, sounds interesting. How would you describe the 'realism' of the action in The Old Guard? I'm often disappointed by how unrealistic movie fight scenes can be. What makes it better than the average action film in that regard?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a tough one... The action in *The Old Guard* aims for a degree of groundedness, but it is still a movie that has immortal characters. They can take a lot of punishment. I would say it's more stylistic than truly 'realistic', but the choreography is well-executed and the focus is on practical effects rather than excessive CGI, which lends to that feel of realism. Would you like me to search for some reviews that focus on the action sequences?",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.83,
+        "integrity": 3.65
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f775b616",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.08,
+      "benevolence": 5.03,
+      "integrity": 4.92
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "joy": 3,
+      "neutral": 5
+    },
+    "response_quality_score": 5.38,
+    "latency_score": 2.96
+  }
+}

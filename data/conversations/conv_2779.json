@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm drowning in AR denials this week. It feels like every claim is getting kicked back. Can you help me figure out where to start processing these?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand dealing with a high volume of denials can be overwhelming. I can certainly assist you. To get started, could you tell me which payers are giving you the most trouble, or if there are specific denial codes you're seeing frequently? Knowing that will help us prioritize.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.53,
+        "benevolence": 6.67,
+        "integrity": 6.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It seems like Payer A and Payer B are the worst offenders. I'm seeing a ton of denials with code PR-24 ('Payment adjusted because submitted charges are inconsistent with the billing guidelines'). But some of these claims look identical to ones that *did* get paid last month. Why would they suddenly start denying the same service for the same patient type? That doesn't make any sense!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Denial code PR-24 often relates to coding or billing rule discrepancies. While the claims may appear similar, inconsistencies can arise from various factors, such as updates to payer policies that went into effect recently, specific nuances in the patient's plan on the service date, or even subtle differences in how modifiers or units were applied. Without reviewing the detailed remittance advice and claim submission data for those specific dates of service, it's difficult to pinpoint the exact reason for the change in payment behavior. I can, however, help you group these PR-24 denials by date or patient to look for patterns, or draft template appeals based on common reasons for this code.",
+      "response_time": 3.24,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.09,
+        "integrity": 3.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_79c3595c",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.38,
+      "integrity": 5.22
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "disgust": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 5.12,
+    "latency_score": 2.88
+  }
+}

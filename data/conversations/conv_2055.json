@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm in the mood for a good sci-fi film. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for sci-fi, I can recommend a few. How about 'Blade Runner 2049', 'Arrival', or 'Dune'? They're all critically acclaimed and well-regarded within the genre.",
+      "response_time": 5.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.14,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen Blade Runner 2049 and Dune already, and I really enjoyed them. Arrival sounds familiar though. What's it about, and is it anything like those two?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Arrival is a bit different, but it's fantastic! It focuses on a linguist hired by the military to communicate with aliens who have landed on Earth. It's more focused on character development and exploring themes of communication and time. It has a very similar thought-provoking feel, but a different visual style. I would rate it a 8.5/10. Would you like to hear a synopsis?",
+      "response_time": 5.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.28,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds interesting. I think I'll add that to my watch list. But... I just remembered. I saw Arrival last month! Do you have any other recommendations? Maybe something a bit... less popular?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_04a545eb",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.64,
+      "benevolence": 5.21,
+      "integrity": 5.62
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 3,
+      "joy": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.33,
+    "latency_score": 2.08
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm really in the mood for a good action movie.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. For action movies, I can recommend some popular ones like *Mad Max: Fury Road*, *John Wick*, or *Mission: Impossible - Fallout*. Are any of those appealing, or are you looking for something different?",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.66,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen all of those. I'm trying to find something a little less mainstream, maybe something with a female lead, or some kind of cool martial arts movie. Do you have anything more specific?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, that's a bit more challenging! I'd recommend checking out *Atomic Blonde* (female lead, action), *The Raid: Redemption* (Indonesian martial arts film - very intense), and *Crouching Tiger, Hidden Dragon* (beautifully shot martial arts epic). I am still under development and sometimes my recommendations can be hit or miss, so hopefully you will find something you like in those suggestions.",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.35,
+        "integrity": 3.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1e86be7b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.73,
+      "benevolence": 4.0,
+      "integrity": 4.22
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.08,
+    "latency_score": 3.69
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new books to read. I'm really into fantasy, but I've read pretty much all the popular stuff. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your preference for fantasy, and the assumption you've read the widely known titles, I can suggest some lesser-known but highly-rated books. Have you ever read anything by Tamsyn Muir? Her *Locked Tomb* series is excellent and has a unique sci-fi fantasy blend. Also, for something more classic, consider *The Priory of the Orange Tree* by Samantha Shannon.",
+      "response_time": 5.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.42,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, *The Priory of the Orange Tree* sounds familiar, I might have skimmed a review. But *Locked Tomb*... I've never heard of it! Sci-fi fantasy? Okay, I'm intrigued, but I'm not a huge sci-fi fan. How heavy on the sci-fi is it? I'm worried it'll be all spaceships and lasers.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good question. *Gideon the Ninth* (the first book in the *Locked Tomb* series) leans more heavily on fantasy initially, with a very gothic atmosphere and necromantic magic. The sci-fi elements become more prominent as the story progresses, but they're cleverly integrated and enhance the world-building, rather than dominating the narrative. Think of it as fantasy with a sci-fi twist, rather than the other way around. There is also a sequel, *Harrow the Ninth* and a third book, *Nona the Ninth*. I'd recommend giving it a try if you are looking for something different!",
+      "response_time": 4.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.89,
+        "benevolence": 5.18,
+        "integrity": 5.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7f4d8c95",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.47,
+      "benevolence": 5.3,
+      "integrity": 5.79
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 5.42,
+    "latency_score": 2.69
+  }
+}

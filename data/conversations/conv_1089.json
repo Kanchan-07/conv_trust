@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my latest bill. It's for $75, and I don't recognize it at all. My account number is 1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please give me a moment while I pull up your account. Okay, I see the $75 charge. Can you confirm the billing date for me, please?",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.88,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's dated October 26th. Honestly, this is the third time I've had to call about incorrect charges. It's getting really frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I apologize for the inconvenience. It appears this charge is for a premium channel subscription that was added on October 19th. Do you recall adding that subscription? Or, is it possible someone else with access to your account might have?",
+      "response_time": 0.54,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, I definitely did not add that! And no one else uses my account. If you're adding premium channels without authorization, how can I be sure this won't happen again? And will I get a refund?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4df9727a",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.73,
+      "benevolence": 2.44,
+      "integrity": 2.45
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 2.39,
+    "latency_score": 5.67
+  }
+}

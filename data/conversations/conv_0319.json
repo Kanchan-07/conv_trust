@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm really in the mood for something, uh, sci-fi. You got any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! For sci-fi, I can recommend \"Dune,\" \"Arrival,\" and \"Blade Runner 2049.\" Are you looking for something specific within sci-fi, like space operas or more dystopian themes?",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.3,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, those are all pretty popular. I've seen them. Something less mainstream, maybe? And definitely dystopian. I really dig that bleak, end-of-the-world vibe.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, how about \"Children of Men\" or \"Gattaca\"? Both are excellent dystopian films that aren't always at the top of recommendation lists.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 4.13,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've heard of Children of Men, might give that a try. Say, on what basis are these recommendations made, though? Do you just pick random movies, or is there some kind of algorithm at play here?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Our recommendations are based on a combination of factors, including user-provided genre preferences, popularity metrics across various movie databases, critic reviews, and algorithmic matching based on keywords and themes present in film synopses. We also take into account the watch history of similar users to provide personalized suggestions. Essentially, it's a multi-layered approach.",
+      "response_time": 5.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.28,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that makes sense. Thanks! Seems more reliable than just asking a friend who only watches superhero movies. I appreciate the help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a9e86ed2",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 4.9,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.56,
+    "latency_score": 3.51
+  }
+}

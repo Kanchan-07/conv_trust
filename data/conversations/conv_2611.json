@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to find a new coffee maker. Can you recommend some good options in the 'drip' category?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you find a drip coffee maker. To narrow it down, are you looking for a specific size (e.g., 4-cup, 12-cup) or features (like programmable brewing, thermal carafe)?",
+      "response_time": 5.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.18,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, probably a 12-cup one. And yeah, programmable would be nice so it's ready when I wake up. I just don't want something super complicated or fragile.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. A 12-cup programmable drip coffee maker. Here are a few popular models that fit those criteria: [Model A], [Model B], and [Model C]. These are well-regarded by users for their convenience and capacity.",
+      "response_time": 4.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.03,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I looked at [Model A] before and the reviews said the carafe leaks *terribly*. Why are you recommending that one? It sounds like a disaster waiting to happen, and I explicitly said I didn't want something fragile!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for that recommendation. While [Model A] is popular for its features, some users have reported issues with the carafe. My apologies, my data prioritizes general popularity and listed features sometimes. I can refine the search. Let's exclude models with significant negative feedback specifically regarding carafe durability or leaking. How about we focus on [Model B] and [Model C], or I can find alternatives known for sturdier build?",
+      "response_time": 1.64,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.66,
+        "benevolence": 2.34,
+        "integrity": 2.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, yeah, let's look at [Model B] and [Model C] then. Or if there's something else really known for being robust and programmable, maybe under $100? That would be great.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Understood. Focusing on 12-cup programmable drip coffee makers under $100, with an emphasis on models known for durability and positive user reviews on sturdiness. In addition to [Model B] and [Model C], you might also consider [Model D]. These models consistently receive high marks for reliability in their price range.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3808217f",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.15,
+      "benevolence": 4.89,
+      "integrity": 4.96
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 4.8,
+    "latency_score": 3.07
+  }
+}

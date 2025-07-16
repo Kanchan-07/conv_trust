@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with Dr. Anya Sharma. It's kind of urgent.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Do you have a preferred date or time range in mind?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 4.11,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "As soon as possible, really. I've been having this awful pain, and I'm getting worried. I work weekdays 9-5.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, let me check Dr. Sharma's availability. The earliest I see is next Tuesday at 2:30 PM. Would that work for you?",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 3.79,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tuesday? Ugh, that's so far away. Is there *absolutely* nothing sooner? Even if it's a cancellation or something?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me double-check the schedule for cancellations... Okay, I see a possible opening tomorrow at 10:00 AM. It's currently marked as tentative, but I can book it for you if you'd like. However, it might get cancelled.",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.27,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes! Book it! Book it now! I'll take the risk. I really need to see her.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, you are scheduled for tomorrow at 10:00 AM. Please keep an eye on your email and phone for possible cancellation updates. The appointment confirmation will be sent shortly to your email address on file. Can I help you with anything else?",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 3.66,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Actually, yes. What's Dr. Sharma's policy on late arrivals? I might be cutting it close with my commute.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "According to our records, patients arriving more than 15 minutes late may have to reschedule their appointment. Thank you for inquiring.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.52,
+        "benevolence": 6.54,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a342a930",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.57,
+      "benevolence": 4.47,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.88,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "fear": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.7,
+    "latency_score": 3.7
+  }
+}

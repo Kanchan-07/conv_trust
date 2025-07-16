@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a car accident I was in last week. I already filed a claim, but I haven't heard anything back. The claim number is CX45982.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. I have located claim CX45982. One moment while I review the details...",
+      "response_time": 0.57,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.4,
+        "benevolence": 1.0,
+        "integrity": 1.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay. It's just that the other driver's insurance company is already breathing down my neck, and I need to know what's going on with my end of things. This is so stressful!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I see here that we are waiting on the police report to be finalized and sent to us. Once we receive that, we can proceed with the investigation and determine liability.",
+      "response_time": 1.67,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.72,
+        "benevolence": 2.15,
+        "integrity": 2.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, the police report. Is there anything I can do to speed that up? It feels like everything is just stuck waiting on them.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While we cannot directly influence the police department's process, I can provide you with the contact information for the investigating officer. You can try contacting them to inquire about the report's status. Would you like me to do that?",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.72,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. Also, if I'm found to be not at fault, will my rates go up anyway? I know that seems unfair, but I've heard horror stories.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. I'm sending the officer's contact details to the email address we have on file. Regarding your rates, generally, if you are not at fault, your rates should not increase. However, this can depend on various factors, including your specific policy and state regulations. For a definitive answer tailored to your situation, I recommend reviewing your policy documents or speaking with one of our underwriting specialists.",
+      "response_time": 5.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.18,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's somewhat reassuring, at least. Thanks for your help. I'll look out for that email.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7e78c43d",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.8,
+      "benevolence": 3.51,
+      "integrity": 3.64
+    },
+    "engagement_score": 5.1,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 2,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 3.35,
+    "latency_score": 4.62
+  }
+}

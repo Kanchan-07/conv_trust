@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday, but it hasn't arrived.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about the delay. I can certainly help you with that. Can you please provide your tracking number?",
+      "response_time": 3.74,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 3.72,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's ABC123XYZ. I'm starting to get really frustrated because I need this package by the end of the week.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check on that for you. According to our system, the package is currently at our local distribution center. It appears there may have been a slight logistical issue. We anticipate it being delivered tomorrow. I apologize for the inconvenience.",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.59,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A logistical issue? What does that even mean? And why wasn't I notified? Will I get any kind of compensation for the delay?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Regarding 'logistical issue', it essentially means a minor hiccup in the sorting process. As for notification, our system should have sent an update, and I apologize if you didn't receive it. While I cannot guarantee compensation, I can escalate this and make a note of your concern. Would you like me to do that? I can also give you the direct contact to our customer service to handle the case.",
+      "response_time": 1.67,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.82,
+        "benevolence": 2.55,
+        "integrity": 2.86
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e7d3e8ce",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.11,
+      "benevolence": 3.95,
+      "integrity": 4.19
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 3,
+      "neutral": 1
+    },
+    "response_quality_score": 4.19,
+    "latency_score": 4.14
+  }
+}

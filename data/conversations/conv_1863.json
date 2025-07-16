@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some book recommendations. I really enjoy sci-fi, especially the kind with space exploration and a bit of a philosophical bent. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preferences, I would recommend the following:\n\n*   *A Fire Upon the Deep* by Vernor Vinge\n*   *Revelation Space* by Alastair Reynolds\n*   *Children of Time* by Adrian Tchaikovsky\n\nThese titles often feature space exploration and philosophical themes. Are any of these of interest?",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.27,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Interesting. I've read *Children of Time* and loved it. The other two are new to me. Okay, so *A Fire Upon the Deep* sounds intriguing, but the synopsis is a bit vague. Can you give me a *really* quick rundown of what makes it so good without spoiling anything major?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! *A Fire Upon the Deep* is set in a galaxy with zones of different technological capabilities. The story focuses on a group of characters who must confront a powerful evil that has been unleashed, involving ancient powers, alien societies, and high-stakes conflicts. One of the most praised aspects is Vinge's world-building, creating an intricate and unique universe. The book excels in its exploration of technological limits and the impact on civilizations. It is considered a very rewarding read.",
+      "response_time": 5.96,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.56,
+        "integrity": 5.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_037ac29f",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.71,
+      "benevolence": 4.91,
+      "integrity": 4.67
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 2.78
+  }
+}

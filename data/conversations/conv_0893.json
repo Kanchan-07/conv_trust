@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new backpack, preferably something durable for hiking. I've been browsing for ages and I'm honestly overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand! To help narrow it down, can you tell me a bit more about your typical hikes? For example, what's the average duration and what kind of gear do you usually carry? Also, what's your budget?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.19,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Usually day hikes, maybe 6-8 hours max. I carry water, snacks, a first-aid kit, and maybe a light jacket. Budget... let's say under $150. But honestly, what even makes one backpack 'durable' vs. another? It all looks the same to me!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Good questions! For durability, look for backpacks made from materials like ripstop nylon or Cordura. These fabrics are designed to resist tears and abrasions. Some brands also offer reinforced stitching and waterproof coatings. Based on your needs, I recommend checking out the Osprey Talon 22 or the Deuter Trail 20 SL. Both are well within your budget and known for their durability and comfort for day hikes.",
+      "response_time": 4.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.57,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those sound promising! Thanks! I'll check them out. One last thing, though. How do you ensure these recommendations aren't just based on what's currently trending and are actually good for *my* specific needs? I don't want to end up with something flimsy that falls apart after a few uses, even if everyone else is buying it. I am trusting your judgement.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_345b470a",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.13,
+      "benevolence": 4.88,
+      "integrity": 4.65
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.43,
+    "latency_score": 3.58
+  }
+}

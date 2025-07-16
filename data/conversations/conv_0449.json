@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready to start processing these medical bills. Can you walk me through how to upload them into the system? Honestly, the last system was a nightmare.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To upload your medical bills, navigate to the 'Billing' tab on the main dashboard. You'll see a button labeled 'Upload New Bill.' Clicking that will open a file explorer window where you can select the PDF or image files you wish to upload. Please ensure each file contains only one bill for optimal processing.",
+      "response_time": 4.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.48,
+        "integrity": 5.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, I see the upload button. But what about bills that have multiple pages? Do I need to separate them somehow? That sounds like a huge pain.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No, you don't need to separate multi-page bills. Our system can handle those automatically. Just upload the entire PDF as one file.",
+      "response_time": 5.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.41,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, good. Now, what happens if the system misreads something on the bill? Like, it codes a procedure wrong or something? How do I correct that?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If the system misreads information, you can edit the bill details directly within the system. After the bill is processed, it will appear in the 'Pending Review' queue. Click on the bill to open it, and you'll see fields where you can correct the information. Make sure to save your changes. If you are having problems understanding how to correct this I will need you to reach out to a supervisor.",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.67,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'Pending Review' - got it. That actually sounds pretty straightforward. Thanks! Hopefully, this will save me some time compared to the old system.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a34c8856",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.22,
+      "benevolence": 5.52,
+      "integrity": 5.49
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.62,
+    "latency_score": 2.5
+  }
+}

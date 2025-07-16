@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really frustrated. I just got a notice about a potential copyright infringement for a social media post I made. I didn't even know I was doing anything wrong. What do I do?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Receiving a notice like that can be quite alarming. To best assist you, could you please provide more details? Specifically, can you tell me what the copyrighted material was alleged to be, the platform where the post was made, and any details from the notice itself, such as the name of the copyright holder?",
+      "response_time": 2.37,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.33,
+        "benevolence": 2.84,
+        "integrity": 2.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the notice said I used a photo from a photographer, and the platform is Instagram. The notice... well, it's pretty vague, just threatening legal action. Honestly, I don't remember where I got the photo. Am I going to get sued?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on the information provided, it's difficult to definitively say if you'll be sued. It depends on several factors: the specific photo in question, the nature of your use, and the copyright holder's willingness to pursue legal action. I suggest that you take down the post immediately. You also could try and identify where you got the photo to see if it was legal. Additionally, consulting with an attorney who specializes in copyright law is advisable, as they can provide tailored advice based on your specific situation. They can also help you assess the validity of the claim and guide you through possible defense strategies. Would you like assistance in finding a qualified attorney?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.03,
+        "integrity": 3.68
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4b42bfda",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.27,
+      "benevolence": 3.44,
+      "integrity": 3.05
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 1,
+      "fear": 2,
+      "neutral": 1
+    },
+    "response_quality_score": 3.38,
+    "latency_score": 4.59
+  }
+}

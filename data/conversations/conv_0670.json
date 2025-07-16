@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm hoping to get some legal advice. I think my employer might be discriminating against me, but I'm not sure if I have a real case. It's just... frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I'm an AI assistant trained to provide legal information, but I am not a substitute for a licensed attorney. I can offer some guidance to help you determine if you have a potential discrimination case. Could you please describe the specific instances that make you believe you are being discriminated against? Please also mention the basis of the discrimination (e.g., race, gender, age, religion, etc.).",
+      "response_time": 3.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.38,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I'm a woman, and I've noticed that male colleagues with similar experience are being promoted faster than I am. Also, I was recently passed over for a project lead role, and the reason my boss gave was pretty vague and seemed kind of\u2026well, flimsy. I've consistently received excellent performance reviews, so I'm just confused and angry.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. Unequal treatment in promotions and project assignments based on gender can be indicators of discrimination. Excellent performance reviews would strengthen your claim. To assess the situation further, do you know if these male colleagues have demonstrably superior qualifications or experience? Can you recall any specific comments or actions by your boss or other colleagues that suggest a bias?",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.21,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, that's the thing! Their qualifications are similar, and in some cases, I actually have *more* experience. As for specific comments...hmm, I remember my boss once saying something about how 'leadership roles require a certain...assertiveness' and then kinda looked at me funny. I can't be sure if that was sexist, but it felt off. Is that even enough to go on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's interesting, the comment about 'assertiveness' could potentially be interpreted as a stereotype related to gender. However, on it's own, it's likely not strong enough evidence to prove discrimination. It is recommended to collect as many related instances of potentially discriminatory behavior as possible to make your case stronger.",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.89,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense, but what if I *don't* have a lot of documented evidence? Is it even worth pursuing this if it's mostly just a feeling, plus a few ambiguous comments? This is all so complicated, and honestly, a bit discouraging.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Even without extensive documentation, the situation might warrant further investigation. A consultation with a qualified employment lawyer in your jurisdiction is crucial. They can assess the specifics of your case, advise you on applicable laws, and help you explore your options. Many offer free initial consultations. Searching online for 'employment lawyer [your city/state]' should give you a good starting point. Would you like me to provide you with resources for finding legal aid organizations or bar associations in your area?",
+      "response_time": 2.12,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.66,
+        "integrity": 2.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_51fee89c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.93,
+      "benevolence": 4.04,
+      "integrity": 3.98
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 2,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.62,
+    "latency_score": 4.33
+  }
+}

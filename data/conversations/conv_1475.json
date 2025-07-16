@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Smith. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that. Let me check Dr. Smith's availability. What days and times work best for you?",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.22,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm pretty flexible, but ideally, sometime next week. I work Monday through Friday, 9-5, so it'd have to be before or after those hours. Is that even possible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've checked the schedule. There's an opening next Tuesday at 8:00 AM and another one next Thursday at 5:30 PM. Which one do you prefer?",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.13,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Thursday at 5:30 PM is better. But, can you tell me - what are the cancellation policies? I've had to reschedule appointments before, and I don't want to get hit with any surprise fees.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. If you cancel or reschedule within 24 hours of the appointment, there is a $50 cancellation fee. If you reschedule before that, there is no fee. Are you ready to book the appointment for Thursday at 5:30 PM?",
+      "response_time": 0.65,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.26,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5943c268",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.1,
+      "benevolence": 3.2,
+      "integrity": 2.83
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 2.7,
+    "latency_score": 5.25
+  }
+}

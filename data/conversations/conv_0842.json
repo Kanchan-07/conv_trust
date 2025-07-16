@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking for a new laptop, mainly for work and a little bit of streaming. My budget is around $800, give or take $50. What do you suggest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Considering your budget and needs, I can recommend a few laptops. For around $800, the Acer Aspire 5 offers a good balance of performance and value. It usually comes with an AMD Ryzen 5 processor and 8GB of RAM, which is suitable for work and light streaming. Alternatively, the Lenovo IdeaPad Flex 5 is another solid choice, often featuring similar specs and a 2-in-1 design for added versatility.",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.28,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard mixed things about Acer. Are there any options with a slightly better build quality, even if it means sacrificing a bit on processing power? It's frustrating trying to find something that ticks all the boxes!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. If build quality is a priority, you might consider looking at a used or refurbished MacBook Air (older generation). While it might not have the latest processor, Apple products are known for their robust construction and user-friendly experience. Be sure to check the battery health and overall condition before purchasing. Another option would be the HP Envy x360, which often has models that fall within your price range during sales. Keep an eye out for deals!",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.35,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But a refurbished MacBook... won't that be outdated software-wise pretty quickly? And what about repairs, if something goes wrong?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Apple generally supports its devices with software updates for several years, so an older MacBook Air should still be compatible with the latest macOS for a reasonable time. As for repairs, Apple offers repair services even for older models, though the cost can be higher. Third-party repair shops are also an option. Before purchasing, it would be prudent to check the specific model's end-of-life status and the availability of repair services in your area. A newer, slightly less powerful, HP Envy x360 may be a better long-term choice considering your concern about future software updates and repair availability.",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 4.26,
+        "integrity": 3.61
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f31ba65d",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.6,
+      "benevolence": 4.63,
+      "integrity": 4.38
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 4.54
+  }
+}

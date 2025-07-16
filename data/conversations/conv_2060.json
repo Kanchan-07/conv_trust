@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some new clothes, but I'm on a pretty tight budget. Can you give me some recommendations? I'm thinking casual wear, mostly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me what your budget is? Are we talking $50, $100, or something else? Also, what sizes do you typically wear?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.5,
+        "benevolence": 7.0,
+        "integrity": 6.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. Let's say I have a budget of $150 total. And I wear a size medium for shirts and a 32x32 for pants. This is harder than I thought...",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Based on your budget and sizes, I'd recommend looking at stores like Old Navy, H&M, and ASOS. You could potentially get a few basic t-shirts, a pair of jeans, and maybe a light jacket or sweater within your budget. Now, a challenging question... How do I know these stores fit your 'style'?",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 3.82,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Good point! My style is pretty basic, honestly. Think comfortable and versatile. Could you give me specific examples from those stores, including links if possible? You know, so I don't have to go hunting for the right things.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_79434616",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.18,
+      "benevolence": 5.41,
+      "integrity": 5.42
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.16,
+    "latency_score": 3.24
+  }
+}

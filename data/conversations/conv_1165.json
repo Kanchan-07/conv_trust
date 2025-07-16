@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally trying to get serious about financial planning. I'm so lost though! I have a 401k through work, but I also want to start investing more actively. Where do I even begin?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand it can be overwhelming! Let's break it down. First, it's great you're already contributing to a 401k. To advise you properly on active investing, I need some information. What is your risk tolerance (conservative, moderate, aggressive)? What are your financial goals (e.g., retirement, down payment on a house)? And what's your approximate investment timeline?",
+      "response_time": 2.09,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.27,
+        "benevolence": 2.84,
+        "integrity": 2.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, risk tolerance... I guess moderate? I don't want to lose everything, but I'm not expecting tiny returns either. My main goal is definitely retirement, but also maybe a down payment on a house in like, 5-7 years? Is that even realistic? I feel like I'm behind.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, moderate risk tolerance with a combined retirement and short-term house down payment goal. A down payment in 5-7 years might be achievable, but it depends on several factors. It is difficult to provide precise insight without knowing the current status of your 401K, and also understanding how much is currently being saved per month. Do you have that information readily available so that I can perform some quick calculations?",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.45,
+        "integrity": 4.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3d5dcfa9",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.0,
+      "benevolence": 3.65,
+      "integrity": 3.52
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 2.83,
+    "latency_score": 4.51
+  }
+}

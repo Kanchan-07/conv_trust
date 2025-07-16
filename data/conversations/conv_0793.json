@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having these really annoying headaches for the past few weeks. They're usually in the afternoon and feel like a tight band around my head. It's really impacting my ability to concentrate at work.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you've been experiencing headaches. To help me understand your situation better, could you tell me more about any other symptoms you might be having, such as nausea, vision changes, or sensitivity to light or sound?",
+      "response_time": 2.85,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.66,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No nausea or vision changes. I am a little sensitive to light when the headache is really bad. And I guess I'm a bit more irritable than usual, but that's probably just because of the constant throbbing. Ugh, I just want it to stop!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, light sensitivity and irritability noted. Have you tried any over-the-counter pain relievers like ibuprofen or acetaminophen, and if so, have they been effective?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.19,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I've tried ibuprofen. It helps a little bit, but the headache usually comes back a few hours later. I'm starting to worry it's something serious. What if it's a tumor or something?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While it's understandable to be concerned, based on your description, tension headaches are a common cause. However, I am not a doctor and cannot provide a diagnosis. To help alleviate your worries and determine the underlying cause of your headaches, I highly recommend consulting with a medical professional. They can conduct a thorough examination and determine if further testing is needed.",
+      "response_time": 5.01,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.15,
+        "integrity": 5.85
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's fair. I guess I was just hoping you could give me some magic advice to make it go away. Is there anything I can do in the meantime to manage them, like lifestyle changes or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, definitely. Common triggers for tension headaches include stress, dehydration, poor posture, and lack of sleep. Try to stay hydrated by drinking plenty of water throughout the day. Ensure you're getting adequate sleep (7-8 hours), practice good posture, and try stress-reducing activities like yoga or meditation. Limiting caffeine and alcohol intake may also help.",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.87,
+        "benevolence": 5.19,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But what if it *is* something serious, like a brain aneurysm that hasn't ruptured yet? I read online that they can cause headaches. How would I know if it's that and not just a tension headache? Seriously, I need to know!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your concern about a potential aneurysm. Headaches caused by unruptured aneurysms are rare, and typically accompanied by other distinct symptoms. These can include a sudden, severe headache, vision changes, neck stiffness, seizures, or loss of consciousness. If you experience any of these symptoms, seek immediate medical attention. As I mentioned earlier, a doctor can properly evaluate your symptoms and medical history to provide an accurate diagnosis and treatment plan. It is best to consult with them to address your worries.",
+      "response_time": 4.68,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.34,
+        "integrity": 5.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_57020590",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 4.71,
+      "integrity": 4.85
+    },
+    "engagement_score": 5.48,
+    "emotion_distribution": {
+      "sadness": 1,
+      "fear": 4,
+      "anger": 1,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.34
+  }
+}

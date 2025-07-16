@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some grocery recommendations. I'm trying to stay under $50 this week, which feels impossible these days.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To give you the best recommendations, could you tell me how many people you're shopping for and any dietary restrictions or preferences?",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.03,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's just me. I'm trying to eat healthier, so lots of fruits and vegetables, but I also need some protein. I guess I prefer chicken over beef, but I'm flexible if beef is cheaper.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. How about this: 1 lb of chicken breast ($6), 2 lbs of potatoes ($3), 1 bag of frozen mixed vegetables ($4), 1 bunch of bananas ($2), 1 dozen eggs ($3), 1 loaf of bread ($2.50), and 1 can of chickpeas ($1). That comes out to $21.50. You could then use some of your remaining budget for a bag of rice or pasta, and other affordable veggies, like carrots or onions. Does that sound like a good start?",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.09,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds pretty good, actually! Better than I expected. But, like, how are you predicting these prices? Are you using some sort of local database or something? Because prices can vary wildly depending on where you are!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, prices do vary! I am using a general average based on national grocery chain pricing. To get more accurate recommendations, I'd need access to your location and perhaps be linked to a specific grocery store's online inventory. Without that, I'm giving you a general estimate. It's best to check prices at your local store before making your final shopping list.",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.37,
+        "integrity": 3.98
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9ad28650",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.86,
+      "benevolence": 4.16,
+      "integrity": 4.06
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 4.16
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need an update on my homeowners insurance claim. It's for the roof damage from the storm last month. Claim number is H-1234567.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for reaching out regarding claim H-1234567. I can certainly check the status for you. Please confirm the policy number associated with this claim for verification.",
+      "response_time": 0.5,
+      "emotion_detected": "joy",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.18,
+        "benevolence": 1.0,
+        "integrity": 1.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. The policy number is P-987654321. This whole process has been so frustrating, honestly. I just want to know what's happening.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the policy number. I've accessed the details for claim H-1234567. The current status is 'Adjuster Review Complete - Pending Estimate Approval'. This means the adjuster has finished their assessment.",
+      "response_time": 5.37,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.96,
+        "benevolence": 7.0,
+        "integrity": 6.72
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Pending estimate approval? What does that even mean? Whose approval? And when will I actually see some money or get the repairs started? This is ridiculous!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with the process duration. 'Pending Estimate Approval' indicates that the repair estimate submitted by the adjuster or a contractor is currently undergoing an internal review by our claims department to ensure accuracy and compliance with policy terms. This step is necessary before final payment processing or authorization for repairs can be issued. We strive to complete this internal review as quickly as possible, typically within a few business days, after which you will be contacted regarding the next steps.",
+      "response_time": 3.92,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.67,
+        "integrity": 3.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6a2b95f7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 3.89,
+      "integrity": 3.87
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 2,
+      "joy": 1,
+      "disgust": 1,
+      "anger": 2
+    },
+    "response_quality_score": 3.71,
+    "latency_score": 4.24
+  }
+}

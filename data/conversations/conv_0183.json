@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new games to play. I'm really in the mood for something in the RPG genre, maybe with a good story?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Based on your preference for RPGs with a good story, I would recommend \"The Witcher 3: Wild Hunt\" or \"Disco Elysium\". Have you played either of those?",
+      "response_time": 5.08,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.26,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've played Witcher 3, loved it. Disco Elysium... I've heard of it, but the art style doesn't really grab me, honestly. Anything else?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. How about \"Divinity: Original Sin 2\"? It has a deep story, excellent character customization, and a fantastic turn-based combat system.",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.87,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, turn-based combat isn't really my thing. Is there anything similar to Witcher 3, like open-world with real-time combat but also story-focused?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "One option could be \"Kingdom Come: Deliverance\". It's a realistic open-world RPG set in medieval Bohemia. The combat is challenging, but the story is quite engaging. Alternatively, \"Elden Ring\" is another open world RPG with a strong story. However, it might have slightly less story focus than Witcher 3. Which of these would you rather know more about?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 3.53,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, \"Kingdom Come: Deliverance\" sounds interesting. But how does it handle quests and character development compared to, say, Skyrim? Does it railroad you into a specific path or does it actually give you freedom to make choices that impact the story?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "\"Kingdom Come: Deliverance\" emphasizes realism, so quests are often multi-layered and have multiple solutions depending on your skills and choices. Unlike Skyrim's more forgiving system, your decisions have significant consequences and can affect your reputation and the game's narrative. Character development is skill-based and realistic; you learn by doing, meaning your success in combat relies on actual practice and not just leveling up. The game allows for significant freedom in approaching quests and developing your character, arguably offering more impactful choices than Skyrim, although it can be less accessible due to its more demanding gameplay.",
+      "response_time": 3.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.34,
+        "integrity": 5.28
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fee9345e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.64,
+      "benevolence": 4.5,
+      "integrity": 4.52
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 5,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.23,
+    "latency_score": 3.76
+  }
+}

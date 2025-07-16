@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your tracking number or order number?",
+      "response_time": 5.16,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.21,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 9876543210. I'm a little frustrated because I needed this delivery today. It was supposed to be here yesterday.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see the tracking information for 9876543210. It looks like the package is currently at our local distribution center and experienced an unforeseen delay. It should be out for delivery by the end of the day today. I apologize for the inconvenience.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.07,
+        "benevolence": 1.09,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's good to know, but why was there a delay? The tracking just says 'delay' and that's it. What caused it? And what do you mean by 'unforeseen'? Was there a problem with the truck, or what?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Unfortunately, I do not have specific details on the exact cause of the delay beyond what is shown in the tracking. However, delays can occur due to various reasons, such as weather, logistical issues, or high package volume. Rest assured, our team is working to get your package delivered to you as quickly as possible. If it isn't delivered by end of day, please contact us again.",
+      "response_time": 2.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 4.36,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, thanks for the update. I appreciate the information and will check back tomorrow if I haven't received the package. Goodbye.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b6c927c9",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.69,
+      "benevolence": 3.55,
+      "integrity": 3.41
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 1,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.15,
+    "latency_score": 4.7
+  }
+}

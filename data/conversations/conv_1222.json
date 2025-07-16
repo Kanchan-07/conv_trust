@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel. I'm looking for somewhere in downtown Chicago for three nights, from October 26th to 29th. Something nice, with a good view.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for hotels in downtown Chicago for October 26th to 29th. 'Nice' and 'good view' are a bit subjective, but I'll filter for hotels with high guest ratings and balcony options where available. Give me a moment...",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 3.63,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Great, thank you! I'm a little frustrated though, I've been looking for a while and keep finding places that are booked up.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. That's a busy weekend in Chicago. I've got a few options here. The Thompson Hotel has availability, with rooms starting at $450/night. The Radisson Blu Aqua Hotel also has rooms available, starting at $380/night. Both have excellent views. Shall I provide more details about either?",
+      "response_time": 4.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.76,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Thompson Hotel sounds interesting. Does it have a fitness center and is breakfast included?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, the Thompson Hotel has a fitness center. Breakfast is *not* included in the base price, but can be added for an additional $30 per person, per day. However, room prices fluctuate depending on the day, so I'm unable to determine the exact cost.",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.41,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay. Can you tell me what the cancellation policy is for the Thompson Hotel?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I do not have access to real-time cancellation policies at this time. You would need to check directly with the hotel or the booking platform you use to finalize the reservation. Apologies for any inconvenience. ",
+      "response_time": 0.65,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.09,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, thanks for the help! I think I will check out the Radisson Blu instead, the Thompson seems a little out of my budget. Can you help me book a room there?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_438fc020",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.75,
+      "benevolence": 3.72,
+      "integrity": 3.68
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "neutral": 6,
+      "anger": 1,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.18,
+    "latency_score": 4.94
+  }
+}

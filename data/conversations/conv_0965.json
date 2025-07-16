@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a movie to watch tonight. I'm in the mood for something... thrilling, maybe? I usually like action or sci-fi, but something a little different would be nice.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. You're looking for a thrilling movie, potentially outside of your usual action/sci-fi preference. How about 'Arrival'? It's sci-fi but focuses more on suspense and communication than explosions.",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 4.5,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of that one. Is it really that good? I'm a bit skeptical of slow sci-fi movies. Anything a bit more... high-octane?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, if you prefer something more high-octane, how about 'Upgrade'? It blends action, sci-fi, and a bit of horror for a thrilling ride.",
+      "response_time": 3.32,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 4.28,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'Upgrade'... never heard of it. What's the premise? And how does it compare to something like, say, 'John Wick' in terms of action?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "'Upgrade' follows a man who is paralyzed after a brutal mugging and becomes part of an experimental procedure that implants a chip which gives him enhanced abilities to seek revenge. While 'John Wick' is stylized gun-fu, 'Upgrade' has a more brutal and visceral fighting style, often showcasing the body horror aspect of the augmentation.",
+      "response_time": 4.49,
+      "emotion_detected": "disgust",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.62,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, body horror makes me a little queasy... but the enhanced abilities and revenge plot sound interesting enough to give it a shot. Thanks! That was actually pretty helpful.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9b871333",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.39,
+      "benevolence": 4.8,
+      "integrity": 4.53
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3,
+      "fear": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.96,
+    "latency_score": 4.12
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm participating in a hackathon this weekend and I'm feeling a little lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help. Firstly, what's your project idea? Knowing the scope will help me give you more specific advice. Also, what's your skill set?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.87,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, the idea is to build a smart home security system. I'm pretty good with Python and have some experience with Raspberry Pi, but I'm not so hot with the hardware side. This is already frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's a great project idea! For the hardware side, I suggest focusing on a subset of features to manage scope. Maybe focus on door sensors and a basic camera. For the software, consider using a framework like Flask or Django for the backend and a suitable library for camera integration. What specific issues are you anticipating?",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.57,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But here's a tough one: how do I ensure the security of the system itself? I mean, how do I prevent it from being hacked, especially the camera feed?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very important question. Encryption of the video stream is essential. Consider using HTTPS for communication, implement strong authentication, and regularly update your software to patch vulnerabilities. The specific implementation will depend on your chosen libraries, but these are the basic principles. I can provide links to resources on encryption methods and best practices if you like.",
+      "response_time": 4.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.12,
+        "integrity": 5.78
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please! That would be great. Also, any tips on how to present the project to the judges? I've never done this before and I'm already exhausted from coding...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Sure. For the presentation, focus on the problem you're solving, the key features of your solution, and the technology you used. Make it concise and impactful. A live demo, if possible, is always a plus. Practice your pitch beforehand. Good luck with the hackathon! I hope you have a great time! Here's a link to some presentation tips: [link to helpful presentation resource]",
+      "response_time": 4.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.97,
+        "integrity": 5.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_058e3844",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.88,
+      "benevolence": 5.13,
+      "integrity": 5.31
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 3.54
+  }
+}

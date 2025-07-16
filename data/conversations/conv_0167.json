@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have a job interview coming up for a software engineer position at Google and I'm super nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can definitely assist you with that. To start, what kind of preparation are you looking for? Are you interested in practicing common interview questions, discussing technical concepts, or getting tips on how to present yourself effectively?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.89,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, all of the above, I guess! But mostly, I'm worried about the technical questions. I always blank out under pressure. Can we focus on those?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. Let's start with a common data structures and algorithms question. How would you implement a queue using two stacks?",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.39,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, uh... hmm. You push elements onto one stack, and when you need to dequeue, you pop everything from the first stack onto the second stack, then pop from the second. Is that right? It feels inefficient.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, that's the basic idea. Now, a follow-up question: can you explain the time complexity of the enqueue and dequeue operations using this approach? Also, is there a more optimal approach for a higher volume of operations? Perhaps something that amortizes the cost.",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.77,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit tougher... so the dequeue in the worst case is O(n), right? Because you have to move everything over. Enqueue is O(1). I guess you could only transfer when the second stack is empty... That would amortize it. But, honestly, how important *are* these theoretical questions, really? Will they actually ask something like this in a real Google interview?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a85903ed",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.73,
+      "benevolence": 4.68,
+      "integrity": 4.23
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 3,
+      "disgust": 2
+    },
+    "response_quality_score": 4.92,
+    "latency_score": 4.17
+  }
+}

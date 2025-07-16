@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some help sorting out my finances. It feels like a complete mess right now. I'm trying to save for a down payment on a house, pay off some annoying credit card debt, and also build up a decent emergency fund. It's just... overwhelming, I don't even know where to start balancing all of it.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand that juggling multiple financial goals can feel challenging. It's a common situation, and taking the first step to address it is great. To help you create a plan, could you provide a little more detail? For example, what are the approximate amounts for your credit card debt and your down payment goal? Do you have a target amount for your emergency fund? Knowing these figures will help prioritize and structure a path forward.",
+      "response_time": 5.69,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.33,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks. Yeah, the credit card debt is about $8k, high interest too. The house down payment is a big one, maybe $50k needed in ideally 3-5 years. Emergency fund, I guess 3-6 months of expenses, which is maybe $10k-$20k total. My income is decent, but after rent and bills, there isn't a ton left over. My biggest frustration is figuring out if I should hammer the debt first, save for the house, or build that emergency fund. How do people even decide what's most important when everything feels critical? It feels impossible to make progress on everything at once!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a very important question about prioritization. When faced with competing goals like high-interest debt, long-term savings, and emergency funds, it often depends on your personal risk tolerance and the interest rates involved. Many financial approaches suggest building a small initial emergency fund (like $1,000-$2,000) first for immediate unexpected costs. After that, tackling high-interest debt is usually a priority because the interest cost can outweigh potential investment gains. Once that debt is managed, you can allocate more aggressively towards the emergency fund and the down payment simultaneously. Consistency and tracking your spending are key elements regardless of the chosen strategy.",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 4.12,
+        "integrity": 4.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_83eca02a",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.71,
+      "benevolence": 4.72,
+      "integrity": 4.83
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.83,
+    "latency_score": 3.35
+  }
+}

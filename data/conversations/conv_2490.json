@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My wireless earbuds stopped charging. The case light just stays off, no matter how long I leave them plugged in. It was working fine last night, now they're completely dead. I'm really frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand how frustrating that can be. Let's try a few things to see if we can get your earbuds charging again. First, could you please check if the charging cable and power adapter you're using are working correctly with other devices? Sometimes the issue is with the power source itself.",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.52,
+        "benevolence": 2.17,
+        "integrity": 2.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I already did that. I used the same cable and plug to charge my phone right after, and it worked perfectly. So it's definitely not the cable or the plug. It has to be the earbud case itself. What could cause it to just suddenly stop like this? Is there a fuse or something in the case that could have blown?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for confirming that the power source is working. Earbud cases typically don't have user-replaceable fuses in the conventional sense. Issues like this can sometimes be caused by internal battery protection circuits or firmware glitches. Have you tried cleaning the charging port on the case for any debris, and perhaps attempting to charge it from a different power outlet or even a computer USB port just to rule out any subtle power delivery issues?",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.09,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Cleaned the port, tried a different outlet, even my laptop's USB. Still nothing. It's just completely unresponsive. If it's a firmware glitch or battery protection, is there like, a hard reset I can do? I feel like I've tried everything obvious and it's still dead weight.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8e7cfd32",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.18,
+      "benevolence": 3.63,
+      "integrity": 4.0
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 2,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 3.78,
+    "latency_score": 3.64
+  }
+}

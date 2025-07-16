@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm getting increasingly frustrated with these claim denials! I've resubmitted the claim for patient Smith's physical therapy three times now, and it's still being denied. The code is 97110. What's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Claim denials can be very time-consuming. Let's investigate the denials for patient Smith's claim with code 97110. Could you please provide the denial code or any explanation listed on the Explanation of Benefits (EOB)?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, one denial said 'Missing or Invalid Modifier'. The others just said 'Service Not Covered'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. 'Missing or Invalid Modifier' for 97110 usually means a modifier is either required but absent, or the one used is not appropriate for that specific service and payer. For the 'Service Not Covered' denial, this often indicates that the payer requires pre-authorization, or there might be a frequency limitation exceeded. Let's check Smith's insurance policy details to see if pre-authorization is needed for physical therapy services and also verify if a frequency limitation has been reached. Also, let's double-check the appropriate modifier for 97110 with that payer.",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.72,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I checked the policy, and it *doesn't* require pre-auth for PT. And we've only billed twice this month. Honestly, I'm starting to wonder if this particular insurance company is just trying to avoid paying legitimate claims. Is there any data on their denial rates compared to other insurers?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid question. I don't have direct access to comparative denial rate data between different insurance companies due to privacy regulations and the variability of such data. However, you can often find this information through your state's insurance regulatory agency, or by consulting industry benchmarking reports from organizations like the AMA or MGMA. They often publish reports detailing payer performance. In the meantime, focusing on resolving the modifier issue with the 97110 code is likely the most immediate path to getting the claim paid. Are you using the GP modifier? That's commonly used for physical therapy.",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.9,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait a minute... GP modifier? I think someone in my office was using CQ. Ugh. This might be the problem. I'll resubmit with GP and see what happens. Thanks!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're welcome! Yes, CQ is typically used by PTAs. If a physical therapist provided the treatment, GP is the correct modifier. I hope this resolves the issue. Please let me know if you encounter any further denials or have any other questions.",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.46,
+        "integrity": 5.78
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f161129f",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.48,
+      "benevolence": 3.52,
+      "integrity": 3.74
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.82,
+    "latency_score": 4.91
+  }
+}

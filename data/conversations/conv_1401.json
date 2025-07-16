@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my Physics homework. I'm really struggling with momentum.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Momentum can be a bit tricky. Let's start with the basics. Can you tell me what you're finding difficult about it? Are you struggling with the formula, the concepts, or the problems?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.16,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I think it's the problems. I understand the formula (p = mv) but I keep getting the wrong answers. For example, there's this one about a car colliding with a truck...",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's break that down. Can you share the specific details of the problem? (e.g., masses, velocities, what you're trying to calculate). Sharing your work, even if it's wrong, will help me understand where you're going wrong.",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.8,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, here's the problem: A 1000 kg car moving at 20 m/s collides head-on with a 5000 kg truck moving at 10 m/s. What is the combined velocity of the car and truck immediately after the collision, assuming a perfectly inelastic collision? I tried using the conservation of momentum, but the answer I got was way off!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thanks for providing the problem details. It looks like the problem may be in how you are applying the conservation of momentum formula in this specific case. The velocities are in opposite directions, so you have to account for that in your equation! Try re-calculating using: (m1*v1) + (m2*v2) = (m1+m2)*v_final and let me know what you get. If you want an advanced explanation of the problem, the answer is approximately -5 m/s.",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.43,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see my mistake now! I forgot the negative sign for the truck's velocity. Doing it that way gives me the correct answer. Thanks! But... why is the final velocity negative? Does that even make sense?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Excellent question! The negative sign indicates the *direction* of the final velocity. In this case, it means the combined mass is moving in the same direction the truck was initially traveling. Since the truck was more massive and had a significant impact, the resulting combined velocity is in the truck's direction. You are welcome!",
+      "response_time": 5.22,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.74,
+        "benevolence": 7.0,
+        "integrity": 6.77
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c7293cee",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.35,
+      "integrity": 5.3
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 2
+    },
+    "response_quality_score": 5.33,
+    "latency_score": 3.79
+  }
+}

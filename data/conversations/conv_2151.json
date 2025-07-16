@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a flight from London to New York for the week of July 4th. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely assist you with that. To get started, could you please provide me with the specific dates you're looking to travel? Also, how many adults and children will be traveling?",
+      "response_time": 4.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.81,
+        "integrity": 5.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need to fly out on July 3rd and return on July 7th. It's just me, so one adult. Honestly, I'm finding this whole process really tedious already.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. I'm searching for flights from London (all airports) to New York (all airports) departing July 3rd and returning July 7th for one adult. Please wait a moment while I find the best options. \n\nHere are a few flights:\n\n*   **British Airways:** Outbound: 03 Jul, Inbound: 07 Jul. Total: $850\n*   **Virgin Atlantic:** Outbound: 03 Jul, Inbound: 07 Jul. Total: $820\n*   **United Airlines:** Outbound: 03 Jul, Inbound: 07 Jul. Total: $900",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.35,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those prices seem a bit high, honestly. Can you tell me what the baggage allowance is for each of those flights? And also, what's the difference in travel time? I'm also not sure which airports they are flying to/from.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I can not provide you with the baggage allowance and the exact airports at this time. However, each flight takes approximately 7-8 hours. To get you the full baggage information, I would suggest searching for the flights on the airline's website.",
+      "response_time": 2.14,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.56,
+        "benevolence": 2.85,
+        "integrity": 2.83
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's frustrating but thanks for the information. I'll look on the airline websites myself. Bye.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1866a404",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.3,
+      "benevolence": 4.34,
+      "integrity": 4.09
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 3.9,
+    "latency_score": 4.08
+  }
+}

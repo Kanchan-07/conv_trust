@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I really need some help with my resume. It feels super outdated and I'm not even sure where to start. I haven't updated it in years!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with updating your resume. To get started, could you tell me a bit about your professional experience, education, and the type of roles you are hoping to apply for?",
+      "response_time": 4.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.64,
+        "integrity": 5.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. So, I've been working in project management for about 7 years. Got my degree in Business back in 2015. I'm looking at Senior Project Manager roles now. The objective/summary section is always the hardest for me. How do I make it sound good without just listing my job title? I feel like I ramble.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely. A strong summary should be a concise pitch highlighting your key skills, experience level, and career goals. For a Senior Project Manager, focus on quantifiable achievements, leadership experience, and relevant certifications (like PMP if you have it). You could start with something like: 'Highly accomplished Senior Project Manager with 7+ years of experience...' and then add 2-3 bullet points showcasing your impact.",
+      "response_time": 5.53,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.71,
+        "benevolence": 6.51,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay, I see. Quantifiable achievements... that's another place I struggle. How do I actually measure my impact when my job isn't directly about sales or numbers? I managed projects, sure, but how do I put a number on 'improved team communication' or 'streamlined workflow'? It feels impossible sometimes!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a common challenge in roles like project management. Think about the *results* of your actions, even if indirect. Did improved communication lead to fewer errors (quantifiable)? Did streamlining a workflow save time or resources (quantifiable)? Did you complete projects under budget or ahead of schedule? Sometimes you need to estimate or use percentages based on observed improvements or feedback. Focus on the *impact* on the business or team.",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.57,
+        "integrity": 4.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_32b2543f",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.23,
+      "benevolence": 5.24,
+      "integrity": 5.43
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.29,
+    "latency_score": 3.27
+  }
+}

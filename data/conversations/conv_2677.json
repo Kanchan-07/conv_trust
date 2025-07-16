@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I need help finding a restaurant for dinner tonight.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. What city and date are you looking for? Also, how many people will be dining?",
+      "response_time": 4.61,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 7.0,
+        "integrity": 6.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for tonight in New York City, just for two people. We're thinking somewhere around the West Village, maybe Italian or something cozy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, New York City, West Village, tonight for two people, looking for Italian or cozy. Let me see... I found a place called 'Via Carota'. It's highly rated and fits the West Village criteria. Does that sound appealing?",
+      "response_time": 5.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.83,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Via Carota? Oh, I've heard getting a table there is nearly impossible last minute! Are you sure you can actually book it for tonight? Like, can you see real-time availability? I don't want to get my hopes up if it's just going to say 'fully booked'.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about availability for popular spots like Via Carota. My system connects to booking platforms, but real-time last-minute tables can be tricky. Let me try checking for a specific time, say 7:30 PM. If that doesn't work, I can suggest other well-regarded Italian or cozy options nearby with better last-minute availability.",
+      "response_time": 2.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.01,
+        "integrity": 3.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fd4a6c05",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.45,
+      "benevolence": 5.61,
+      "integrity": 5.26
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 5.51,
+    "latency_score": 3.32
+  }
+}

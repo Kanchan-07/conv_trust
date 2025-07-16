@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, what's my current checking account balance?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please verify the last four digits of your checking account number?",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.48,
+        "integrity": 3.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's 7890. Thanks.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the verification. Your current checking account balance for account ending in 7890 is $1,582.45.",
+      "response_time": 0.57,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.46,
+        "integrity": 1.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, great. But wait, that seems a little low. Can you show me the most recent transactions? I'm sure I had more than that yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Let me pull up your recent transaction history. Please hold on a moment... Here are the last five transactions:",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay. I see a charge here for '$50.00 - Account Service Fee'. What in the world is that? I thought I met the criteria to avoid monthly fees!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Account service fees can be applied if certain conditions aren't met during the statement period, such as maintaining a minimum daily balance or having direct deposits.",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.86,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, I *know* that! But based on my deposits and spending, I'm almost positive I met the minimum balance requirement. Can you tell me the *exact* date and balance that triggered this specific $50 fee? I'm really frustrated by this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I apologize for the frustration. While I can't provide the exact date and balance calculation point within this interface, the system indicates the requirement was not fulfilled based on the average daily balance for the statement period. For a detailed review, I recommend checking your latest statement which outlines the fee calculation or speaking with a banking representative.",
+      "response_time": 1.91,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.2,
+        "integrity": 2.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7acc84ac",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.72,
+      "benevolence": 3.8,
+      "integrity": 3.6
+    },
+    "engagement_score": 5.22,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 7,
+      "anger": 2
+    },
+    "response_quality_score": 3.93,
+    "latency_score": 4.19
+  }
+}

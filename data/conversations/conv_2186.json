@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview for a software engineer position next week. I'm feeling pretty nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! I can provide information on common interview questions, suggest areas to focus on, and even help you practice your answers. To start, what kind of role are you interviewing for, and what company?",
+      "response_time": 4.81,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a mid-level software engineer at a company called Innovate Solutions. I'm good with coding, but I'm not great at explaining my thought process. That's where I struggle.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. For Innovate Solutions, expect questions about data structures and algorithms, system design principles, and possibly their specific tech stack (which is likely listed in the job description). To help you explain your thought process, we can work on the STAR method (Situation, Task, Action, Result). Can you give me an example of a challenging technical problem you solved?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.58,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that sounds familiar. I worked on a project last year where we had to optimize a database query that was causing significant performance issues. It was a mess! The query was written by someone else and it was slow as molasses. But, I'm not sure how to articulate all of this using STAR. It's hard and feels so...forced.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand it might feel unnatural at first, but with practice, the STAR method can make it easier. So, the Situation: What was the original problem? The Task: What was your goal? The Action: What steps did you take to optimize the query? The Result: What was the outcome of your efforts? I can help guide you through formulating the answer, step-by-step. Also, a challenging question: what is the difference between an abstract class and an interface in Java and when would you use one over the other?",
+      "response_time": 5.94,
+      "emotion_detected": "disgust",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.44,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I can handle the STAR method with some practice. And...Wow, that Java question is tough! Give me a minute... Okay, an abstract class can have method implementations while an interface can not (until recent versions of Java). An interface defines a contract, while an abstract class can provide some default implementations. I'd use an interface when I want to define a capability that many unrelated classes can implement, whereas an abstract class makes sense for when you have a common base behavior that can be extended. How'd I do?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3c68b640",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.58,
+      "benevolence": 5.34,
+      "integrity": 5.42
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "disgust": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.74,
+    "latency_score": 2.9
+  }
+}

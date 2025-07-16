@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel room in Chicago for two nights, sometime next month. Maybe around the 15th?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To confirm, you're looking for a hotel room in Chicago for two nights around the 15th of next month. Do you have specific dates in mind, or is that flexible? Also, how many guests?",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.19,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say the 15th and 16th then. Two adults. I'd prefer something relatively central, close to downtown, and with free breakfast if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Searching for hotels in downtown Chicago for the 15th and 16th of next month, two adults, with free breakfast. One moment...",
+      "response_time": 4.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.3,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks. I've been searching myself, but it's all a bit overwhelming. So many options!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I found a few options that match your criteria: The Palmer House Hilton, The Hyatt Regency Chicago, and The Thompson Hotel. The Palmer House has a slightly better overall rating and is closer to Millennium Park. Would you like more information on any of these?",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.38,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Tell me more about the Palmer House. What's the cancellation policy like? That's pretty important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The Palmer House Hilton generally offers a flexible cancellation policy, usually allowing cancellations up to 24 hours before your stay without penalty. However, this can vary depending on the specific rate you choose. I strongly recommend checking the specific terms and conditions during the booking process to confirm the exact cancellation policy for your chosen rate. Would you like me to check the specific policy for the 15th and 16th?",
+      "response_time": 5.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.12,
+        "integrity": 5.85
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that sounds reasonable. But what happens if there's some kind of major event that makes travel impossible, like, say, a global pandemic? Would they still charge me? Seems a bit unfair.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a very good question and a valid concern. Typically, force majeure clauses in hotel contracts *may* allow for cancellations or modifications in the event of unforeseen circumstances like a pandemic. However, this is often assessed on a case-by-case basis. I would recommend contacting the Palmer House directly to inquire about their specific policy regarding such events. Their contact information can be found on their website. I can also provide it for you. Would you like their phone number?",
+      "response_time": 4.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.78,
+        "integrity": 5.53
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3d4b6a4b",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.94,
+      "benevolence": 4.95,
+      "integrity": 5.0
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 8,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.15
+  }
+}

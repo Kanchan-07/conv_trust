@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new kitchen faucet, but I'm totally lost. Any tips?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can definitely help with that. First, make sure you've turned off the water supply under your sink. Then, gather your tools: adjustable wrench, basin wrench (helpful but not essential), plumber's tape, and a bucket to catch any water. Do you have those ready?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.97,
+        "benevolence": 6.76,
+        "integrity": 6.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I forgot about the water supply. Okay, I've got that sorted and have the tools you mentioned (except for the basin wrench, I don't have one of those fancy things). What next?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Next, disconnect the old faucet's water supply lines. Use the adjustable wrench. Loosen the nuts connecting the lines to the shut-off valves. Be prepared for a little water to drip. Then, detach the old faucet from the countertop. This usually involves removing nuts under the sink. This is where a basin wrench can be helpful, but you can usually do it with an adjustable wrench if you have enough room.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.9,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I managed to get the old faucet off. It was tougher than I thought, and I'm already a bit frustrated. Now what about the new one? There are like a million little parts!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Installation instructions can be overwhelming. Focus on the base first. The instructions should show how the faucet fits into the countertop. Often, you'll insert the faucet from the top, then attach the mounting hardware (nuts, washers) from underneath. Make sure you apply plumber's tape to all threaded connections before connecting the supply lines. Can you send me a picture of the parts?",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 3.94,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I've done the base and connected the supply lines with the tape. But, the hot water line is leaking a little bit even after tightening the nut as tight as I can. What could cause that, and how do I fix it? I'm starting to regret this whole project.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Leaking is a common issue. First, make sure the nut isn't cross-threaded. Unscrew it and reattach it carefully. If that doesn't work, you might need to tighten the nut further, but be careful not to overtighten it and damage the connection. If the leak persists, the issue could be with the supply line itself (damaged threads) or the faucet's connection point (the seal might be faulty). If the leak continues, you'll want to replace the supply line or, potentially, the faucet depending on the issue.",
+      "response_time": 2.07,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.24,
+        "benevolence": 2.21,
+        "integrity": 2.05
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I think I got it now! I re-tightened the nut on the hot water line and the leak stopped. Thanks for your help, I'm actually kind of satisfied with myself now! You were a lifesaver. ",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e8f05c12",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.93,
+      "benevolence": 4.98,
+      "integrity": 5.02
+    },
+    "engagement_score": 5.7,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "disgust": 1,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.45,
+    "latency_score": 3.06
+  }
+}

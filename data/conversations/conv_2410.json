@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm signed up for a hackathon next weekend, but I'm feeling totally lost. Any advice for a newbie?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Congratulations on signing up! That's fantastic. First, don't panic. Hackathons can be overwhelming. My top advice is to start brainstorming early. Think about what problems you're interested in solving or technologies you want to learn. Then, team up with others! Collaboration is key. Finally, don't be afraid to ask for help during the event - mentors are there for you.",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.99,
+        "integrity": 6.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, brainstorming... I have a vague idea about building something with AI, but the specific AI part feels a bit beyond my current skills. Are there any beginner-friendly AI project ideas that are also hackathon-appropriate?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely! Consider these ideas: 1. A simple chatbot using a library like Dialogflow or Rasa. 2. An image classifier using pre-trained models (like on TensorFlow or PyTorch) to categorize images. 3. A sentiment analysis tool to gauge reactions to text. These are all doable within a hackathon timeframe. You could also explore using AI to analyze a dataset provided by the hackathon organizers.",
+      "response_time": 0.59,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.05,
+        "benevolence": 1.22,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Sentiment analysis sounds interesting, actually. But... how do I know which datasets will even be available *before* the hackathon? I need to prep! Also, what are some good resources for learning sentiment analysis quickly?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a tricky one! Generally, hackathon organizers provide dataset information closer to the event. However, you can often find common datasets online related to text. As for learning sentiment analysis quickly, start with the basics of NLP (Natural Language Processing).  There are tutorials on platforms like Kaggle, or you can use Python libraries like NLTK or spaCy.  They provide pre-built functions.  Good luck!",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.87,
+        "benevolence": 5.53,
+        "integrity": 5.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bd700247",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.64,
+      "benevolence": 4.58,
+      "integrity": 4.51
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "fear": 1,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 4.16
+  }
+}

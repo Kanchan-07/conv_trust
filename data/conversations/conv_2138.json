@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with an order I placed. It's been stuck on 'processing' for days now.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about the delay. Can you please provide your order number so I can look into this for you?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.15,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #12345. Honestly, I'm getting a little frustrated. I needed this by the end of the week.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've checked order #12345. It appears there's a slight delay with the supplier. I am extremely sorry for the inconvenience. We're working to get it shipped ASAP. Estimated delivery is now next Tuesday.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, next Tuesday? That's not ideal, but at least I have an updated timeframe. Okay, well, what if I want to change the shipping address? Is that still possible?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I can definitely help you with that! However, changing the shipping address at this stage *might* cause further delays. Could you please provide the new address? I'll need the full address, including the street number, street name, city, state, and zip code.",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.9,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I understand the risk. New address: 100 Main Street, Anytown, CA 91234. Also, I'm curious... what's the policy on returns if the item arrives damaged? Because sometimes things happen...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am able to assist with address changes. I've updated the shipping address to the one you provided. Regarding your return question, we have a comprehensive return policy in place. If your item arrives damaged, please contact us within 7 days of delivery with photos of the damage, and we'll be happy to issue a replacement or a refund. More details about returns are located at the bottom of our webpage.",
+      "response_time": 5.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.82,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Great, thanks for the help! That's all I need for now. I feel much better knowing the address is changed. I appreciate it!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_75cea488",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.78,
+      "benevolence": 2.93,
+      "integrity": 3.04
+    },
+    "engagement_score": 5.1,
+    "emotion_distribution": {
+      "sadness": 3,
+      "anger": 1,
+      "disgust": 1,
+      "neutral": 3,
+      "joy": 1
+    },
+    "response_quality_score": 3.22,
+    "latency_score": 4.93
+  }
+}

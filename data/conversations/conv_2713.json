@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help finding a restaurant for dinner tonight.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To find the best options, could you please tell me what kind of cuisine you're in the mood for, the general location or neighborhood you're looking in, and how many people will be dining?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.53,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, uh, I'm thinking maybe Italian or something Mediterranean, downtown area, and it's just for two people.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Italian or Mediterranean downtown for two tonight. Let me check availability. I see a few options like 'Bella Italia Ristorante' and 'The Olive Branch Bistro'. Are you familiar with either of those?",
+      "response_time": 5.94,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, 'Bella Italia' is okay, but I was hoping for something a bit less... generic? Like maybe a hidden gem? And can you tell me which restaurants actually *have* vegan options clearly marked on their menu online, not just 'oh, they *might* be able to make something'?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand you're looking for something unique with clear vegan options. Finding truly 'hidden gems' can be subjective, and confirming explicit vegan menu items without direct restaurant contact is sometimes challenging as online menus aren't always comprehensive or up-to-date in my database. I can filter for highly-rated places that mention accommodating dietary restrictions, but I can't guarantee they have a dedicated, marked vegan section on their public menu. Would you like me to proceed with that broader filter?",
+      "response_time": 2.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 3.65,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's a bit frustrating. So you can't actually see the menus? Fine, just give me a place downtown, Italian or Med, good reviews, that isn't Bella Italia. I guess I'll call them about vegan stuff myself. Just find me *somewhere*.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies for the limitation regarding menu specifics. Based on your refined criteria \u2013 downtown Italian/Mediterranean, good reviews, not Bella Italia, for two tonight \u2013 'Constantine's' is showing availability. It's a well-regarded Mediterranean place downtown. Would you like me to check if they have any slots open for your preferred time?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.96,
+        "integrity": 5.45
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9540a853",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.34,
+      "benevolence": 5.54,
+      "integrity": 5.69
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 5.35,
+    "latency_score": 3.29
+  }
+}

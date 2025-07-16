@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into indie rock lately, anything you can recommend?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, great! Based on your interest in indie rock, I recommend checking out bands like The Strokes, Arctic Monkeys, and Tame Impala. Are you familiar with any of them?",
+      "response_time": 4.89,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.83,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know Arctic Monkeys and Tame Impala, but they're pretty popular. Anything a bit more...obscure? Like, less mainstream indie rock?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. How about 'Pavement', 'Built to Spill', or perhaps 'Yo La Tengo'? These are influential indie bands with a slightly less mainstream following. Would you like song suggestions from any of these artists?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.68,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of Pavement, but not the others. Okay, this is a bit of a weird question, but what makes something 'indie' anyway? Is it just the label they're signed to, or is there more to it? It's kind of confusing!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! 'Indie' originally referred to bands releasing music independently of major labels, giving them more creative control. While that's still a factor, it's also evolved to describe a certain sound: often guitar-based, experimental, and with a focus on songwriting and authenticity over commercial appeal. It's a complex genre with blurred lines, I admit! As for 'Built to Spill', I recommend their album 'Perfect From Now On', and for 'Yo La Tengo' try 'And Then Nothing Turned Itself Inside-Out'.",
+      "response_time": 2.24,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.3,
+        "benevolence": 2.29,
+        "integrity": 2.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d0f644a7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.86,
+      "benevolence": 3.93,
+      "integrity": 4.15
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 3.78,
+    "latency_score": 3.94
+  }
+}

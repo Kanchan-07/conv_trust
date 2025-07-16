@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about claim #2023-10-26-447 for the damage to my car. I submitted all the documents last week, and I haven't heard anything back. Honestly, this is getting ridiculous! I need my car fixed.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. I understand your frustration, and I apologize for the delay. Let me pull up claim #2023-10-26-447. Okay, I see the claim. It appears that we are waiting for the repair estimate from the body shop. Have you received that yet?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.39,
+        "benevolence": 1.38,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes! I uploaded that to the portal last Tuesday! It's for $2,800 from Collision Kings. Why hasn't anyone processed it? And more importantly, if the delay is on your end, how do I know you will even cover all the costs now, considering it has been so long? I am afraid the shop will increase the price!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for that oversight. I see it now. I will escalate this claim to a senior processor immediately to ensure it is reviewed within 24 hours. As for your concern about increased costs, our policy generally covers reasonable and customary repair expenses. If the shop's final invoice exceeds the original estimate significantly, we will review the difference and determine coverage based on prevailing market rates. Can I get your preferred contact number just in case they need to reach out?",
+      "response_time": 1.36,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.57,
+        "integrity": 2.17
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e58c1911",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.81,
+      "benevolence": 1.97,
+      "integrity": 1.58
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 2,
+      "fear": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 1.71,
+    "latency_score": 6.57
+  }
+}

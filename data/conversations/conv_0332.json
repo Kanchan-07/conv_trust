@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm starving. I want to order some food, but I'm not sure what I'm in the mood for. Maybe something Italian? But not pizza. I had that last night.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright! I can help with that. I see a few highly-rated Italian restaurants nearby. How about 'Pasta Paradise'? They have great reviews and offer a wide variety of pasta dishes and other Italian entrees. Or perhaps 'Luigi's Trattoria' known for its Osso Buco? Would you like to see their menus?",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.04,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Pasta Paradise sounds good. What kind of pasta dishes do they have? And, this is a weird question, but do they use semolina flour in their pasta? I'm trying to avoid high-gluten stuff tonight. This is more complicated than I thought.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm checking Pasta Paradise's menu now. I can see they offer spaghetti, fettuccine, penne, and ravioli. Regarding the semolina flour, their online menu doesn't specify the type of flour used. However, many traditional Italian pasta recipes do use semolina. I suggest contacting the restaurant directly for confirmation. Would you like me to call them for you, or perhaps look for another restaurant with gluten-free options?",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 4.43,
+        "integrity": 4.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b4ac0ae5",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.0,
+      "benevolence": 4.23,
+      "integrity": 4.24
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 3.98,
+    "latency_score": 3.98
+  }
+}

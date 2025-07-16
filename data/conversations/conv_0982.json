@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. I've been trying to call for days, but I keep getting stuck on hold. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help you schedule that appointment. To begin, can you please provide your full name, date of birth, and insurance provider?",
+      "response_time": 3.74,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 3.94,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's Jane Doe, date of birth is 03/15/1988, and my insurance is Blue Cross Blue Shield. What's Dr. Ramirez's availability looking like for the next two weeks? And is it possible to get an appointment before 3pm? I have kids to pick up from school.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see several openings. Dr. Ramirez is available next Tuesday at 10:00 AM and next Thursday at 1:30 PM. There's also an opening the following Monday at 4:00 PM. Will any of those times work for you? Unfortunately, all appointments before 3pm are currently booked solid for the next 2 weeks. I recommend booking the 1:30PM next Thursday if the early afternoon appointment is a must.",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.26,
+        "integrity": 4.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_46d5e506",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.21,
+      "benevolence": 4.1,
+      "integrity": 3.93
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.31,
+    "latency_score": 4.0
+  }
+}

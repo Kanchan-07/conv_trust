@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my account balance and see if a specific payment went through. It was supposed to be for $75 to 'Acme Corp.'",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To verify, could you please provide the last four digits of your account number or your username?",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.92,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, the last four digits are 4321. And honestly, I'm getting a little frustrated, I've been trying to log in to the website for an hour and it keeps timing out. Is there an issue with the site?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Just one moment while I access your account information. Regarding the website, we are aware of intermittent issues some users are experiencing and our technical team is working to resolve it as quickly as possible. In the meantime, I can assist you with your banking needs here. Your current available balance is $1,245.67. I don't see a recent transaction for $75 to 'Acme Corp.' Can you confirm the date the payment was initiated?",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.44,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It was supposed to go out yesterday, the 15th. And, if the website is having issues, how can I be sure my automatic payments are actually going through? That's really concerning.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me check for any pending transactions. Ah, I see it now. The payment to Acme Corp for $75 is listed as 'pending' and is scheduled to clear tomorrow. As for your concern regarding automatic payments during website issues, those are processed separately from the website interface. The automated system is still functioning normally, so your scheduled payments should continue to be processed as usual. However, if you would feel more comfortable, I can manually verify the status of any specific upcoming payments you'd like me to check.",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.76,
+        "integrity": 4.37
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b936b875",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.15,
+      "benevolence": 3.04,
+      "integrity": 3.12
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.26,
+    "latency_score": 5.07
+  }
+}

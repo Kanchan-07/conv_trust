@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'd like to schedule an appointment with Dr. Ramirez. I need a physical.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Do you have a preferred date or time frame for your physical with Dr. Ramirez?",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.1,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, this is always such a hassle. I'm pretty flexible, maybe sometime next week? Monday or Tuesday would be best, ideally in the afternoon.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me check Dr. Ramirez's availability. On Monday next week, she has an opening at 2:30 PM. On Tuesday, she's available at 1:00 PM or 3:00 PM. Would any of those times work for you?",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.44,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The 3:00 PM on Tuesday sounds good. Also, will this be covered by my insurance? I have Blue Cross Blue Shield, policy number RX1234567.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I have scheduled you for Tuesday at 3:00 PM. Regarding your insurance, I am not equipped to provide immediate coverage confirmation. It's always best to confirm directly with your insurance provider or our billing department prior to your appointment to ensure coverage details. Their number is 555-222-8888.",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.92,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that's a bit annoying, but thanks for scheduling the appointment. I'll call them myself. See you then.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_23753b04",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.0,
+      "benevolence": 3.15,
+      "integrity": 3.22
+    },
+    "engagement_score": 4.53,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 3.3,
+    "latency_score": 5.16
+  }
+}

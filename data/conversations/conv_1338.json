@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm participating in a hackathon this weekend. Any advice?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. First, what kind of hackathon is it? And what are your skill sets?",
+      "response_time": 4.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.47,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a general tech hackathon. I'm pretty comfortable with Python and web development, but I'm not super strong on the design side.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great! Given your strengths, consider focusing on a project idea that leverages Python for backend logic and web technologies for the front end.  Maybe find a teammate who excels in design. This maximizes your chances of success.",
+      "response_time": 5.29,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.33,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That makes sense. What are some good project ideas that are feasible within 24-48 hours? I'm already feeling overwhelmed!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me access my database of hackathon projects... Okay, a few ideas: a simple to-do list app with user authentication, a basic web scraper for a specific website (e.g., collecting product prices), or a chatbot using a pre-trained language model. These are manageable and allow you to demonstrate your skills. Also, make sure you take breaks and plan out your time. Good luck!",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 4.4,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those are decent suggestions. But what about the ethical considerations of web scraping? How can I ensure I'm not violating any terms of service or causing harm?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very important question! Before scraping any website, you *must* review its `robots.txt` file, which specifies the parts of the site you're allowed to crawl. You also should always check the website's terms of service. Be polite with your scraping: implement delays between requests to avoid overloading the server. Finally, consider the impact of your scraping \u2013 don't scrape personal data or confidential information without explicit consent. Sorry, I am not an expert in this. You should research this further.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.37,
+        "benevolence": 1.49,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Thanks! That helps a lot. I'll definitely focus on that. Now, let's say I'm using a Python web framework. What's a good way to deploy my app quickly, even if it's just a simple prototype?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "For quick deployment, I'd recommend platforms like Heroku or Netlify, especially if your app is relatively simple. They offer free tiers that should suit your needs. Another great option is using a platform like Vercel. Good luck, and let me know if you have any more questions!",
+      "response_time": 5.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.61,
+        "integrity": 5.21
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_25578c0c",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.64,
+      "benevolence": 4.46,
+      "integrity": 4.25
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 4.52,
+    "latency_score": 3.53
+  }
+}

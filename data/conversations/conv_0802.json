@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining a hackathon, but I'm feeling a bit overwhelmed. I've never done one before. Any advice on where to even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Participating in a hackathon for the first time can definitely feel daunting. A great starting point is to figure out what kind of hackathon interests you. Are you passionate about web development, AI, gaming, or something else? Knowing your interests will help you narrow down your search. I can also recommend some platforms for finding hackathons if you tell me what you're interested in.",
+      "response_time": 4.06,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.56,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. I'm really into AI and machine learning. Finding a team is another worry... I don't have many friends who are into coding.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Many hackathons have team formation events or online forums where you can connect with other participants who are also looking for teammates. Look for hackathons that specifically mention team formation support. Also, LinkedIn groups related to AI/ML or specific hackathons can be a good place to find people. Do you want some search terms I can use to find some potential hackathons for you?",
+      "response_time": 4.81,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! But here's a tricky one: how do I protect my IP if I develop something cool during the hackathon? I don't want the organizers or other participants stealing my ideas.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, searching for AI/ML themed hackathons... I've found a few potential matches. Regarding IP protection, generally, you retain the rights to what you create during the hackathon unless explicitly stated otherwise in the hackathon's rules. Read the fine print carefully before registering! Some hackathons might have clauses about licensing your code for their use (usually non-commercial). If you create something you think is valuable, consider documenting your process and code meticulously. Timestamping your work can also help. However, for official legal advice, you should consult with an attorney specializing in intellectual property law.",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.92,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's...somewhat reassuring, I guess. Thanks for the advice and the search. I'll look into those hackathons!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d890a5fc",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.54,
+      "benevolence": 5.49,
+      "integrity": 5.68
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 2,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.31,
+    "latency_score": 3.69
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #458923 that was supposed to arrive three days ago. I'm getting pretty frustrated; I really needed this package!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, I understand your frustration. Let me look into order #458923 for you. One moment, please.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.12,
+        "benevolence": 1.25,
+        "integrity": 1.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. What's the hold up? The tracking information hasn't been updated in two days. Is it lost?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "According to the latest update, the package is currently at our regional distribution center and experiencing unexpected delays due to weather conditions. We are working to get it back on track as soon as possible.",
+      "response_time": 5.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.9,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Weather? Really? I haven't seen a cloud in a week! And even if there WERE bad weather somewhere, shouldn't you have processes in place to mitigate these kinds of disruptions? What guarantees can you give me that this won't happen again?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I cannot guarantee that delays will never happen again, I can assure you that we are constantly working to improve our logistics and minimize disruptions. I have escalated your case and requested that your package be prioritized. I will also offer you a 15% discount on your next purchase as compensation for the inconvenience. Will that be acceptable?",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 6.57,
+        "integrity": 6.87
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0d380555",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.37,
+      "benevolence": 4.57,
+      "integrity": 4.46
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.42,
+    "latency_score": 3.54
+  }
+}

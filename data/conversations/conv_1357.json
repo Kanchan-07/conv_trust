@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really struggling with these physics problems. Can you help me understand projectile motion? I just don't get it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Projectile motion can be tricky. Let's start with the basics. A projectile is any object that is thrown, launched, or otherwise projected into the air and is subject only to the acceleration of gravity. Do you remember the formulas for constant acceleration? We'll need those. We can go through some examples. Sound good?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 7.0,
+        "integrity": 6.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I remember the formulas. But when I try to apply them to word problems, I get totally lost. Like, how do you even break down the initial velocity into components? That's where I always mess up. Ugh.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common issue. Imagine the initial velocity as the hypotenuse of a right triangle. The horizontal component is the adjacent side (v * cos(theta)), and the vertical component is the opposite side (v * sin(theta)), where theta is the launch angle. We can work through some practice questions. For example, let's consider a ball launched at 20 m/s at a 30-degree angle. What's the horizontal velocity?",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.6,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I'm starting to understand. But what happens when you have to factor in air resistance? I've seen some problems that mention that, and I'm completely lost. I haven't learned anything about it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3c154779",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.44,
+      "benevolence": 5.3,
+      "integrity": 5.14
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.23,
+    "latency_score": 3.05
+  }
+}

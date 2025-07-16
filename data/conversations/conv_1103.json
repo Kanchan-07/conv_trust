@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some legal advice regarding a contract dispute with a former client. They're claiming I didn't deliver on the agreed-upon services, but I have emails and documented progress reports that clearly show I did. Honestly, it's incredibly frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. To clarify, are you being sued for breach of contract, or is this just a threat at this stage? Also, what is the monetary value of the contract in question?",
+      "response_time": 0.62,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.47,
+        "benevolence": 1.41,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "They haven't filed a lawsuit yet, but their lawyer sent a pretty aggressive demand letter. The contract was for $15,000. What are my options here? Should I just try to settle to avoid a lengthy legal battle, even if I'm right?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Settlement is definitely an option to consider, but it depends on the strength of your defense and your risk tolerance. Since the value is $15,000, the legal fees could potentially exceed that if the case goes to trial. Based on your description, it sounds like you have a solid defense with the documented evidence. Could you please provide more details about the specific clauses in the contract regarding deliverables and the acceptance criteria, if any? Also, is there an arbitration clause?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 3.75,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. So, even with my evidence, the legal fees could still be higher than what they're claiming... That's discouraging. The contract is pretty standard. It just says I need to 'provide marketing services as agreed upon'. There's no real acceptance criteria listed. And yes, there's an arbitration clause. Does that mean we can't even go to court?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c974f00c",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.78,
+      "benevolence": 2.58,
+      "integrity": 2.6
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 2,
+      "neutral": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 2.36,
+    "latency_score": 5.31
+  }
+}

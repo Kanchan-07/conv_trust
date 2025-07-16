@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my recent bill. I was charged $150, but my plan is supposed to be $100. I'm a bit confused.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I understand you're seeing a charge of $150 instead of $100. To help me investigate, can I please have your account number or the phone number associated with the account?",
+      "response_time": 0.58,
+      "emotion_detected": "surprise",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.15,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. I've been a customer for years and never had this issue. It's honestly a little frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please allow me a moment to access your account information... Okay, I see your account. It appears there was a temporary promotional discount that expired last month. The $150 charge reflects the standard rate without the discount.",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.17,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait, what? No one told me the discount was expiring! I specifically asked when I signed up if the price was fixed for a year. Is there anything you can do? I wasn't notified at all.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Let me check if there are any other available discounts or promotions you might be eligible for. One moment please... Unfortunately, at this time, there are no other promotions available that match your current plan.",
+      "response_time": 2.1,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.53,
+        "benevolence": 2.16,
+        "integrity": 2.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's really disappointing. If I had known the price would jump like that, I might have considered other options. Why wasn't I notified? Isn't there some sort of obligation to inform customers of these things?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid point. Hmm... Our records show a notice was sent to the email address on file, but I apologize if you didn't receive it. It is possible it went to your spam folder. As a gesture of goodwill, I can offer a one-time $25 credit to your account. Would that be acceptable?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.26,
+        "benevolence": 1.32,
+        "integrity": 1.19
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, a $25 credit is something, I guess. Better than nothing. Can you apply that now?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Absolutely. I have applied a $25 credit to your account. It should reflect on your next billing statement. Is there anything else I can assist you with today?",
+      "response_time": 0.57,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4cf83ca9",
+    "average_trust_score": 1.9,
+    "trust_category_averages": {
+      "competence": 1.91,
+      "benevolence": 1.96,
+      "integrity": 1.89
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 3,
+      "sadness": 1,
+      "fear": 1
+    },
+    "response_quality_score": 1.51,
+    "latency_score": 6.17
+  }
+}

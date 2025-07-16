@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in Chicago for next weekend, October 27th to 29th.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. For October 27th to 29th in Chicago. How many guests will be staying?",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.41,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Just two people. And ideally, somewhere near downtown, close to the Magnificent Mile.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for hotels near the Magnificent Mile in Chicago for two guests, October 27th to 29th. I see several options available. Would you like to consider hotels with free breakfast?",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.86,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Free breakfast would be great. Also, what's the deal with all these extra 'resort fees' I keep seeing? Are those unavoidable?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Filtering for hotels with free breakfast. Regarding resort fees, they are typically mandatory charges added by the hotel for amenities like Wi-Fi, gym access, and pool access. While they are generally unavoidable if you book that specific hotel, I can prioritize showing you hotels without resort fees if you prefer.",
+      "response_time": 5.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.22,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's so annoying! Yes, please prioritize hotels without those fees. What's the best-rated option without the resort fee and includes free breakfast?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, just a moment. The best-rated hotel without a resort fee and including free breakfast appears to be 'The Hampton Inn Chicago North-Loyola Station'. It has a guest rating of 4.5 stars. The rate for your dates is $250 per night, excluding taxes.",
+      "response_time": 4.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.01,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, Loyola Station... that's not *exactly* the Magnificent Mile, is it? How far away is that, and are there any closer options, even if they're a little less highly rated?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You are correct, Loyola Station is further north. It is approximately 7 miles from the Magnificent Mile. Let me re-sort the options by proximity to the Magnificent Mile, while still excluding hotels with resort fees and including free breakfast. The next best option is 'Homewood Suites by Hilton Chicago Downtown/Magnificent Mile'. It's rated 4 stars and is $300 per night plus taxes.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.7,
+        "benevolence": 5.5,
+        "integrity": 5.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d646e5f7",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 4.8,
+      "integrity": 4.75
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 8,
+      "disgust": 1
+    },
+    "response_quality_score": 4.8,
+    "latency_score": 3.18
+  }
+}

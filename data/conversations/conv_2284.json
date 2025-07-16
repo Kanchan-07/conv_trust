@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm starving. Any good food recommendations nearby?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me your current location, or perhaps what type of food you're in the mood for?",
+      "response_time": 5.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.5,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm at 123 Main Street. I'm open to anything, honestly. Maybe something not too expensive?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, at 123 Main Street, and looking for something affordable. I see a few options. There's 'Burger Bliss' which has good reviews. There's also 'Pasta Palace' which is usually pretty reasonable. Alternatively, there's 'Taco Time', which is generally considered inexpensive. Would you like me to provide reviews or directions?",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.68,
+        "integrity": 3.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Burger Bliss is tempting, but I had a burger last night. Taco Time sounds good, but I'm kinda craving something different. How is Pasta Palace?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Pasta Palace has a 4.2-star rating on Yelp. Customers seem to enjoy the lasagna and spaghetti. The average price for an entree is around $15. Delivery is available through GrubHub and Uber Eats. Do you have any dietary restrictions?",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.37,
+        "integrity": 5.86
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds pretty good. Are there any pasta dishes that are also vegetarian? And do they have gluten-free options? I'm a bit picky.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me check. *Searching...* Okay, according to their online menu, they offer a vegetarian primavera pasta. They also have gluten-free pasta, though it seems to be an upcharge. Ah, but the gluten-free option is only offered for a limited selection of the menu. Any other restrictions I should be aware of, to narrow down the available options?",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 4.48,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, the Primavera sounds good. Gluten-free is fine, I can work with that. The real question is: Considering the reviews, pricing, and my dietary needs, and the options at the three restaurants you mentioned, what would *you* recommend? Give me the best overall choice.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Given all that, and being mindful of avoiding the burger, Pasta Palace appears to be the best choice. They have a solid rating and are within your budget. The Primavera offers a good vegetarian choice, and they offer gluten-free pasta, albeit with some limitations. I would recommend Pasta Palace. Can I help you place an order for delivery or pickup?",
+      "response_time": 5.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.75,
+        "integrity": 5.93
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5a7a918a",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 4.96,
+      "integrity": 5.06
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 9
+    },
+    "response_quality_score": 4.7,
+    "latency_score": 3.1
+  }
+}

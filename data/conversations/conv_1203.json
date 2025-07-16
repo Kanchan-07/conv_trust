@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into indie rock lately. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! Based on your interest in indie rock, I can suggest a few artists: Try listening to The Strokes, Arcade Fire, or maybe some newer bands like Wet Leg or Fontaines D.C.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 4.28,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I know The Strokes and Arcade Fire pretty well already. Wet Leg is cool. Anything a bit more...obscure? I'm tired of the same old recommendations.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. In that case, you might enjoy bands like Dry Cleaning, Black Country, New Road, or for something a little different, check out Squid. These are all considered part of the post-punk revival scene within indie rock.",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 3.88,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those are new to me, I'll check them out. But what makes something 'indie' anyway? Isn't a lot of indie rock on major labels now? How does that work?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question! The term 'indie' originally referred to bands that were independent of major record labels, handling their own production and distribution. However, the lines have blurred over time. Now, 'indie' often describes a certain sound or aesthetic, even if the artist is signed to a major label. It's more about the artistic approach and the target audience than the label itself. It's...complicated.",
+      "response_time": 1.79,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.61,
+        "integrity": 2.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So basically it's meaningless now? Ugh, okay. Well, thanks for the recommendations anyway. I guess I have some listening to do.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're welcome! I hope you discover some new favorites. If you want to refine your preferences further, you could tell me what aspects of indie rock you like most (e.g., the energy, the lyrics, the experimental sounds), and I can give you even more tailored suggestions.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.7,
+        "benevolence": 6.82,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3f63626f",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.1,
+      "benevolence": 4.4,
+      "integrity": 4.54
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.66,
+    "latency_score": 4.13
+  }
+}

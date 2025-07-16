@@ -1,0 +1,89 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I'm feeling really overwhelmed by my finances lately. I have some savings, but I'm not sure if I'm on track for retirement, and budgeting just seems impossible. Can you help me figure things out?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand that managing finances can feel daunting. I can certainly assist you with getting a clearer picture and exploring potential strategies. To start, could you provide a little more information about your current situation? For example, your age, income, major expenses, existing savings, and primary financial goals (like retirement, buying a home, paying off debt)? This will help me offer more relevant guidance.",
+      "response_time": 4.05,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.84,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm 35. My income is about $65k a year. Expenses feel like they eat up most of that! Rent is high, plus student loans, car payment... I have about $50k in a retirement account through work (401k) and maybe $10k in regular savings. My main goals are definitely retirement and eventually saving for a down payment on a house, but that feels so far off. I just don't know where to cut back without feeling deprived.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for sharing that information. Based on your details, it sounds like you're at a common point where balancing current expenses with future goals is key. A good first step is often to create a detailed budget to understand exactly where your money is going. Tracking expenses for a month or two can reveal areas where adjustments might be possible. You could also explore automated savings transfers to build up that down payment fund consistently.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.43,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I've tried budgeting, but it just feels like I fail every month. It's so frustrating! And what about investing outside the 401k? With inflation, my savings account feels useless. But the stock market feels like gambling. How do people even figure out if they should invest in index funds, or individual stocks, or real estate, especially when they still have significant debt like student loans? It feels like there's too much conflicting advice out there!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's completely understandable to feel frustrated with budgeting challenges and overwhelmed by investment options, especially when balancing debt. Prioritizing debt repayment, particularly high-interest debt, often makes good financial sense before aggressively investing beyond your retirement contributions. For investing, index funds are commonly recommended for diversification and lower risk compared to individual stocks. However, determining the optimal balance between debt repayment, emergency savings, and investing is highly personal and depends on interest rates, risk tolerance, and goals. For complex situations involving significant debt and varied investment strategies, consulting with a qualified financial advisor can provide tailored, in-depth guidance specific to your circumstances.",
+      "response_time": 5.61,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.12,
+        "integrity": 5.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_55390542",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.42,
+      "benevolence": 5.46,
+      "integrity": 5.24
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "sadness": 2,
+      "neutral": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 2.96
+  }
+}

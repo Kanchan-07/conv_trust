@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to install a new kitchen faucet, but I'm totally lost. The instructions are useless! Can you help me figure this out?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can certainly help! To give you the best guidance, could you tell me the brand and model of your faucet? Also, are you replacing an existing faucet, or is this a new installation? Knowing these details will help me tailor the instructions. We can also start with some general steps, like turning off the water supply and disconnecting the old faucet if applicable.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.59,
+        "benevolence": 5.39,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a Moen, model 1234. Replacing an old one. I've already shut off the water (thank goodness!). But I'm having trouble with the mounting hardware. There are like, a million pieces, and the instructions only show a vague diagram! Ugh, I'm so frustrated.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your frustration. Moen faucets can sometimes have complex mounting systems. Let me pull up the installation guide for your specific model. (Processing...) Based on the diagram, it looks like the mounting hardware consists of a base plate, a rubber gasket, and several screws and nuts. Are you having trouble with the order of these pieces, or are you having trouble getting them to attach to the sink?",
+      "response_time": 2.44,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.65,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I *think* I get the order now. The problem is...my sink is not a standard sink. It's got a really thick granite countertop. Will the screws even reach through all that? And if not, what can I do? This is becoming a nightmare.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0f459304",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.79,
+      "benevolence": 4.52,
+      "integrity": 4.62
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 1,
+      "disgust": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 4.64
+  }
+}

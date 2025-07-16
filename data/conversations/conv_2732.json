@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking at this rejected claim for patient John Doe, service date 10/26. The denial code is CO-45.  It says 'Charge exceeds fee schedule/maximum allowable or contracted rate.' But our fee schedule hasn't changed, and this procedure (CPT 99213) is standard. This is so annoying, it's a basic visit!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Denial code CO-45 does indicate the billed amount exceeds the contracted rate. To troubleshoot this, please verify the specific payer and plan for this patient. Sometimes, even for standard CPT codes, different plans under the same payer can have slightly varied fee schedules. Also, double-check the units billed; billing incorrect units can trigger this code. Finally, confirm the fee amount entered on the claim matches your system's current fee schedule for that payer/plan combination.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I already checked all that. It's BlueCross PPO, standard plan. Units are correct (1). The billed amount is exactly what our system shows for 99213 for BlueCross. It matches their online portal's fee schedule too. How can the denial say it *exceeds* the rate when it perfectly matches? Is there some hidden rule or modifier I'm missing that would reduce the allowable amount *after* matching the base fee schedule?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That is perplexing if all standard checks align. While CO-45 is primarily about the fee amount, complex scenarios can sometimes involve factors like bundling edits or other policy limitations that might affect the *effective* allowable for that specific claim context, even if the base fee schedule rate is matched. It could be beneficial to review the complete set of denial reason codes provided on the ERA/EOB for any secondary codes, or potentially contact the payer directly to inquire about claim-specific processing nuances for that date of service.",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 4.45,
+        "integrity": 3.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9bf96282",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.38,
+      "benevolence": 2.73,
+      "integrity": 2.46
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "disgust": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 2.41,
+    "latency_score": 5.46
+  }
+}

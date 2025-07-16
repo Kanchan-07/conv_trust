@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated right now. I just got a batch of rejections back from Payer ID 12345, and one of them is for a CPT code 99204. It says 'Duplicate Claim'. This doesn't make sense; it was the only time we billed this service for this patient on that date!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration with claim rejections. A 'Duplicate Claim' rejection can indeed be confusing when you believe it was the first submission. Let's investigate this. Could you please provide the patient's name or member ID and the exact date of service for that CPT 99204 claim? I can check our system records for prior submissions or related claims.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.46,
+        "integrity": 1.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient is Jane Doe, member ID JD987654321, and the date of service was 2023-10-26. I'm absolutely positive we only sent it once. Could it be related to an authorization issue, or maybe they processed another claim *incorrectly* that looks similar? It feels like sometimes these 'duplicate' denials hide other problems. How can I really be sure it wasn't something else? This is wasting so much time!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the details for Jane Doe's claim on 2023-10-26. A 'Duplicate Claim' rejection (often code 18 or 19) specifically indicates that the payer's system found a previously processed or currently pending claim with the same key information (like patient, provider, date of service, and procedure code). While it's usually straightforward, it's possible a clerical error occurred either on your end (like accidentally sending it twice) or the payer's end (processing a different service or date incorrectly that triggered the duplicate flag). It's unlikely related to authorization if the denial code is strictly 'duplicate'. The best course of action is often to contact Payer ID 12345 directly with the claim details to inquire if they have a matching claim on file and its status. If they confirm no prior claim exists, request that they reprocess your submission.",
+      "response_time": 0.53,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.29
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_74f476cf",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.15,
+      "benevolence": 1.23,
+      "integrity": 1.18
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 2,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 1.15,
+    "latency_score": 6.99
+  }
+}

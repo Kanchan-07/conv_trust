@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some book recommendations. I really enjoy fantasy novels.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me some of your favorite fantasy authors or books?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.8,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I really like Brandon Sanderson and Patrick Rothfuss. Anything similar to their writing styles would be great.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on Brandon Sanderson and Patrick Rothfuss, I recommend you check out 'The Name of the Wind' by Patrick Rothfuss (if you haven't already!), 'Mistborn: The Final Empire' by Brandon Sanderson (if you haven't already!), and 'The Lies of Locke Lamora' by Scott Lynch. All of these have detailed world-building, strong characters, and intricate plots.",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.1,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait a minute... you just recommended me a book by Rothfuss when I already said I like him. That's not helpful. And I already read Mistborn. Give me something new!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies! I seem to have gotten ahead of myself. My recommendation engine is still under development. Let me try again. Based on your preferences, I also recommend 'The Way of Kings' by Brandon Sanderson (if you haven't already!) and 'The First Law' trilogy by Joe Abercrombie. They share similar traits with the authors you mentioned.",
+      "response_time": 6.0,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I've read The Way of Kings. I'm starting to get frustrated. My taste is quite specific, I think. Can you recommend something truly unique in fantasy? Something outside the typical high-fantasy tropes?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a challenging request! Exploring fantasy outside the typical tropes... Hmm. Have you considered 'Piranesi' by Susanna Clarke? It's less epic, more about exploration and mystery within a bizarre, labyrinthine world. Also, 'Jonathan Strange & Mr Norrell' by the same author. It's a historical fantasy set in England during the Napoleonic Wars, exploring magic's return.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 3.74,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Piranesi sounds interesting, I'll check that out. Thanks for the unique suggestions! What about Sci-Fi books? Any good recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! For Sci-Fi, would you like me to create a new recommendation based on your preferences?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.98,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7c3f0d7b",
+    "average_trust_score": 5.8,
+    "trust_category_averages": {
+      "competence": 5.87,
+      "benevolence": 5.73,
+      "integrity": 5.73
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 5,
+      "surprise": 1,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 6.02,
+    "latency_score": 2.67
+  }
+}

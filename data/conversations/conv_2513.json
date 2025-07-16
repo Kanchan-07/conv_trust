@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new game to play. What are some good recommendations for action RPGs?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Action RPGs are a fantastic genre. Some highly-regarded titles include 'Elden Ring' for a challenging open-world experience, or 'Diablo IV' if you prefer a dark fantasy loot-driven game with cooperative elements.",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.57,
+        "benevolence": 5.96,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks! Elden Ring looks amazing but maybe a bit *too* difficult for me right now. I really liked 'Horizon Forbidden West' recently because of the open world exploration and combat, but I'm not necessarily looking for *exactly* that. More like, an ARPG with a really good story and satisfying progression, but definitely not soulslike difficulty. Any other ideas?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your preference for a good story, satisfying progression, open-world elements, and avoiding soulslike difficulty, you might enjoy 'Cyberpunk 2077' (after its updates) for a sci-fi setting, or 'Assassin's Creed Valhalla' which offers vast exploration and progression within a historical fiction setting.",
+      "response_time": 4.15,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.94,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I've already played Valhalla, and Cyberpunk's sci-fi theme isn't quite what I'm looking for. This is getting frustrating! Can you think of anything that's a bit more focused, maybe with a strong party element I can control, but still action combat and *not* turn-based? Something like Dragon Age: Inquisition maybe, but newer or just different?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Finding an exact match for all those criteria can be tricky, especially the controllable party element within pure action combat that isn't turn-based or soulslike. One title that has some similarities, focusing on story, action combat, and a companion system, is 'GreedFall'. It offers an action RPG experience with choices and companions, though the party control isn't as deep as Dragon Age. It might be worth looking into.",
+      "response_time": 4.42,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.45,
+        "integrity": 5.52
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ca2ec05f",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.3,
+      "benevolence": 5.78,
+      "integrity": 5.7
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "neutral": 3,
+      "joy": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.31,
+    "latency_score": 3.52
+  }
+}

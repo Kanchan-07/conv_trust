@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I've been having this persistent headache for the past three days. It's not severe, but it's annoying and won't go away. Any ideas what could be causing it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Experiencing a headache for multiple days can be uncomfortable. Headaches have numerous potential causes, such as dehydration, tension, lack of sleep, or even dietary factors. As an AI, I cannot provide medical advice or diagnosis. For any persistent symptom like this, consulting with a healthcare professional is the most reliable way to determine the cause and get appropriate guidance.",
+      "response_time": 5.17,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 7.0,
+        "integrity": 6.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I figured you'd say that. It's just frustrating, you know? I'm drinking plenty of water, sleeping okay, not feeling stressed *right now*. Could it be something like a sinus infection, even if I don't have congestion?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While less common without other symptoms like congestion or facial pain, it *is* possible for a sinus issue to contribute to headaches. However, many other conditions, some minor and some more serious, can also cause headaches, even without obvious related symptoms. Because symptoms can overlap significantly and vary greatly from person to person, self-diagnosis, especially regarding infections or other internal issues, is complex and potentially inaccurate. A doctor would be able to properly evaluate your specific situation through questions, examination, and possibly tests if needed.",
+      "response_time": 2.37,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.24,
+        "benevolence": 2.91,
+        "integrity": 2.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I guess that makes sense. It's just confusing when symptoms aren't textbook. So basically, there's no magic bullet or common suspect for a low-grade, persistent headache without other symptoms?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7e38bd82",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.96,
+      "integrity": 4.67
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 3,
+      "fear": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 3.73
+  }
+}

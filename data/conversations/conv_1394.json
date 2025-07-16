@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up with my primary care physician, Dr. Emily Carter. I'd prefer an appointment sometime next week if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check Dr. Carter's availability for next week... Alright, the earliest available appointment is Tuesday at 2:30 PM. Would that work for you?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.65,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Tuesday at 2:30 is a bit tight, I have a meeting then. Are there any other times on Tuesday? Or even on Wednesday? And, I'm not sure if this matters but I need a flu shot too, can that be included?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me check for alternative times... Okay, there's an opening on Wednesday at 10:00 AM. Yes, we can absolutely schedule a flu shot during the same appointment. Would you like me to book you for Wednesday at 10:00 AM?",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.25,
+        "integrity": 3.68
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_454f3ee5",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.83,
+      "benevolence": 3.95,
+      "integrity": 3.8
+    },
+    "engagement_score": 3.83,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 4.0,
+    "latency_score": 4.43
+  }
+}

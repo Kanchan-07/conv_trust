@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help understanding the concept of 'opportunity cost' in economics. Can you explain it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely. Opportunity cost refers to the potential benefits an individual, investor, or business misses out on when choosing one alternative over another. In simpler terms, it's the value of the next best alternative that wasn't chosen. Let's say you have $100. You can buy a book or a video game. The opportunity cost of buying the book is the enjoyment you would have gotten from the video game, and vice-versa. Does that make sense?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.11,
+        "benevolence": 1.12,
+        "integrity": 1.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I think so. But what if there are *multiple* alternatives? How do you calculate the opportunity cost then? This is where I get confused.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! When there are multiple alternatives, you identify the *single* best alternative forgone. You don't add up the costs of *all* the alternatives; you only consider the value of the one you would have chosen if you hadn't chosen the first option. Think of it as the 'next best' option. We can go through an example if you'd like.",
+      "response_time": 5.04,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.1,
+        "integrity": 5.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! Give me an example, and make it a challenging one. I'm trying to prepare for my economics exam next week, so the more complex, the better.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright. Consider a farmer with land. He can plant corn, soybeans, or wheat. Planting corn yields a profit of $10,000, soybeans yield $8,000, and wheat yields $7,000. The farmer chooses to plant corn. What is the opportunity cost of this decision? Also, how would this differ if the farmer had to pay rent on the land?",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.35,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm... Okay, I think I get it. The opportunity cost is $8,000 \u2013 the profit he could have made from soybeans. If he had to pay rent, the opportunity cost would be the same, because the best alternative use of his resources is still the best alternative. Right?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's absolutely correct! Excellent work. You clearly understand the concept now. Feel free to ask if you have any more questions, and good luck with your exam!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.62
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_37e160ec",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.38,
+      "benevolence": 4.39,
+      "integrity": 4.45
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 4.73,
+    "latency_score": 4.0
+  }
+}

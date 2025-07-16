@@ -1,0 +1,72 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. I mainly use it for work \u2013 lots of spreadsheets, video calls, you know the drill. Something reliable and not too slow. I'm tired of my current one crashing all the time!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your needs, I can recommend a few laptops that are known for their reliability and performance with productivity tasks. How about the Dell XPS 13 or the Lenovo ThinkPad X1 Carbon? Both have powerful processors and plenty of RAM for multitasking. I can give you more details on specs and pricing if you'd like.",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.12,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard good things about the ThinkPad. But are there any options that are, say, more budget-friendly? I don't want to break the bank here. And what about battery life? That's super important for me since I'm often working remotely.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. For more budget-friendly options with good battery life, consider the Acer Aspire 5 or the HP Envy x360. The Acer Aspire 5 typically offers a good balance of performance and price, and many configurations boast impressive battery life. The HP Envy x360 is a 2-in-1, which offers flexibility, and its battery life is generally quite competitive. Regarding which would give *better* battery life in video conferencing, that would depend on your network speed and display settings -- it is difficult to say.",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.21,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But what if I push these laptops to their limits? Like, if I'm running a really complex simulation while also having a video call and a bunch of browser tabs open? Will they completely choke, or will they just slow down a bit? I'm trying to future-proof myself here and not buy something that will struggle next year.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aac27b78",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.05,
+      "benevolence": 4.17,
+      "integrity": 3.91
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "neutral": 5
+    },
+    "response_quality_score": 3.82,
+    "latency_score": 4.77
+  }
+}

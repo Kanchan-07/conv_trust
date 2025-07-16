@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm having a dispute with my landlord about my security deposit. They're claiming I damaged the apartment, but I have pictures that show it was already like that when I moved in. What are my rights here?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Generally, landlords can only deduct from a security deposit for damages beyond normal wear and tear. You have a right to receive an itemized list of deductions and receipts for repairs. The photos you have are excellent evidence. Do you have a copy of the lease agreement and any move-in inspection reports?",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.93,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I have both. I even initialed the move-in report stating that the pre-existing damage was there. I feel like they are just trying to rip me off. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see. Given you have the lease, the move-in report, and photographic evidence, you have a strong case. The next step would be to send a demand letter to your landlord, formally disputing the deductions and requesting the full security deposit back. I can provide a template for such a letter.",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.78,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That would be great, thanks! But, hypothetically, what if they *still* refuse to return my deposit, even with the letter and the evidence? What are my options then, and what are the chances I'd actually win in court? I mean, is it even worth the hassle?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If the demand letter doesn't resolve the issue, you can pursue the matter in small claims court. The likelihood of success depends on the jurisdiction and specific evidence presented. Judges often favor tenants in these cases if there is solid evidence. The 'hassle' is subjective and you will need to weigh the time and court fees (which can often be recovered) against the deposit amount. Would you like me to help you find information on filing a small claims case in your jurisdiction?",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.88,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. That's exactly the kind of thing I was hoping you could help me with. Thanks so much!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_74827967",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.07,
+      "benevolence": 3.86,
+      "integrity": 3.79
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 3.84,
+    "latency_score": 4.52
+  }
+}

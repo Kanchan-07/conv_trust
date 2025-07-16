@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm writing to inquire about my order, #459287. It was supposed to arrive three days ago, and the tracking hasn't updated since then. I'm getting a little worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I'm sorry to hear that your order hasn't arrived as expected. Let me check the status of order #459287 for you.",
+      "response_time": 0.58,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.06,
+        "integrity": 1.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I really needed that package this week, it has some important documents in it for my job. Do you have any idea where it is?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've reviewed the tracking information. It appears your package is currently delayed at our regional sorting facility due to unforeseen circumstances. We are working to get it back on track. I'd like to offer you updates when available.",
+      "response_time": 3.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.57,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? Could you be more specific? Is it lost? Is it stuck on a truck? I need to know if I should just give up on it arriving anytime soon and start making other plans to get my documents.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have specific details about the nature of the delay at the sorting facility. However, I can assure you that we are actively investigating and will prioritize getting your package delivered as quickly as possible. Is there an alternative way you can obtain those documents in the short term?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 4.03,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Well, that's not very helpful, but I appreciate you trying. What is the latest possible date I can expect the package to arrive? If it's going to be more than another week, I need to figure out something else. And if it's truly lost, shouldn't I file a claim?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand. I've flagged your order for expedited processing. Based on the latest information, we anticipate delivery within the next 3 business days. If it hasn't arrived by then, please contact us again, and we can initiate a lost package claim. I have also added a 15% discount code to your account for future purchases as compensation for the inconvenience. The code is THANKYOU15.",
+      "response_time": 0.6,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.43,
+        "benevolence": 1.07,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c2118d85",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.78,
+      "benevolence": 2.43,
+      "integrity": 2.71
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 2.15,
+    "latency_score": 5.4
+  }
+}

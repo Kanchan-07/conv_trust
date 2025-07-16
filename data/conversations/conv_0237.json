@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about claim #20231027-4482. I filed it two weeks ago after my car was hit in the parking lot, and I haven't heard anything back. Honestly, this is getting a little frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me pull up claim #20231027-4482 for you. One moment please... Okay, I see it here. It appears the claim is currently under review by our investigation team. We are waiting for the police report to be finalized before we can proceed further.",
+      "response_time": 2.29,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.48,
+        "benevolence": 2.23,
+        "integrity": 2.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "The police report? I thought I submitted a copy of that with my initial claim documents. Am I missing something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for pointing that out. It seems a preliminary copy was submitted, however, we require the finalized official version directly from the police department. Unfortunately, we are unable to accept the preliminary copy for validation purposes. We have already requested the finalized report, however, these requests can take time to process. Is there anything else I can help you with in the meantime?",
+      "response_time": 1.77,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.13,
+        "benevolence": 2.39,
+        "integrity": 2.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, well, if you've requested it, I guess I have to wait. But what exactly are you investigating? I have photos, a witness statement, and the preliminary police report \u2013 isn't it pretty clear the other driver was at fault? Why does it take so long, and how does the final police report change what I've already provided?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair question. While your evidence is helpful, the official police report provides an unbiased, legally-verified account of the incident. It often includes details that can significantly impact the liability assessment, such as official measurements, diagrams, and potentially witness interviews conducted by the police that differ from what you provided. Until we have that, we cannot finalize the investigation and authorize any payments. I understand the delay is inconvenient, and I will add a note to the claim to expedite the process as much as possible. I will follow up with you in 3 business days with an update.",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.32,
+        "integrity": 3.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a98e42d3",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.87,
+      "benevolence": 2.98,
+      "integrity": 2.67
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 3.08,
+    "latency_score": 4.88
+  }
+}

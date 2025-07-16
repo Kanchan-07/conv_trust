@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a claim I filed last week. It's for a fender bender, claim number is 20231027-458B.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. I've located your claim, Mr. Henderson. Can you please verify your date of birth for security purposes?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.24,
+        "benevolence": 1.3,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 03/15/1988. So, what's the status? I need my car fixed, this is really inconvenient.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, thank you. I see that your claim is currently in the review process. We're waiting on the police report. It usually takes 5-7 business days. We will notify you of any updates.",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.71,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "5-7 days just for the police report? Seriously? Is there anything I can do to speed that up? I could probably call them myself.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You can try contacting the police department directly, Mr. Henderson. However, they typically prefer to send those reports directly to insurance companies to avoid any potential alterations. Providing it yourself may not speed up the process. I will note your concern on the claim file.",
+      "response_time": 3.59,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.72,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, fine. But here's the thing, my insurance covers a rental car, right? Under what specific circumstances am I able to get a rental? And for how long?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, your policy does include rental car coverage. Coverage begins when your vehicle is deemed non-drivable due to the accident, and ends when your vehicle is repaired or a settlement is reached. There is a maximum daily allowance of $40, and a total limit of $1200. Please let me know if you have any more questions.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.0,
+        "integrity": 1.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e5f3d65b",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.65,
+      "benevolence": 2.43,
+      "integrity": 2.44
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.08,
+    "latency_score": 5.71
+  }
+}

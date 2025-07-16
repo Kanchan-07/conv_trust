@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally trying to get serious about financial planning. I'm 35, make about $70,000 a year, and have almost no savings. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thanks for reaching out! A great starting point is to assess your current financial situation. We can do this by looking at your income, expenses, debts, and assets. Could you provide a rough estimate of your monthly expenses?",
+      "response_time": 5.54,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, expenses... That's the part I hate. Roughly, I'd say rent is $1800, food is maybe $500, car payment is $350, and then... who knows? Probably another $500 on just random stuff. It's depressing.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand it can feel overwhelming. Based on those figures, and assuming you have no other major debts, you have approximately $3850 in expenses per month. This leaves you with roughly $1983 after taxes which may be available for savings and investments. Can you think of any additional expenses you have such as subscriptions?",
+      "response_time": 1.48,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.48,
+        "benevolence": 2.9,
+        "integrity": 2.75
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Oh yeah, subscriptions! Netflix, Spotify, gym... probably another $100. So, that leaves me with... wait, how did you calculate that? I feel like I'm always broke!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, I failed to account for taxes, those amounts reflect your gross pay. The $1983 remaining calculation was performed by assuming taxes are approximately 30%. This might not be accurate for your individual situation. You should consult with a professional.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.38,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes more sense. So, what kind of investment accounts should I be looking at? I keep hearing about Roth IRAs and 401(k)s, but honestly, I don't understand the difference. And which one is better for someone in my situation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Both Roth IRAs and 401(k)s are retirement savings vehicles, but they differ in several ways. A 401(k) is typically offered through your employer, and contributions are often made pre-tax, lowering your current taxable income. A Roth IRA is an individual retirement account where you contribute after-tax dollars, but your earnings and withdrawals in retirement are tax-free, but you must meet certain income criteria. Without knowing additional information, it is not possible to recommend one over the other.",
+      "response_time": 1.42,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.34,
+        "benevolence": 2.85,
+        "integrity": 2.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit clearer, but still confusing. What if I think I might be in a *much* higher tax bracket later in life? Would that make a Roth IRA a no-brainer, or are there other factors I should consider? Thanks for the help so far!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_551e9ae5",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.3,
+      "benevolence": 3.44,
+      "integrity": 3.31
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.59,
+    "latency_score": 5.27
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately, and I'm not sure why. I'm sleeping okay, eating alright, but just constantly exhausted. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am programmed to provide health advice, but I am not a medical professional. That being said, fatigue can be caused by a variety of factors. These include sleep disorders, nutritional deficiencies, stress, underlying medical conditions, and even just dehydration. To provide better advice, can you describe more about your lifestyle, like how much exercise you get and your typical diet?",
+      "response_time": 1.82,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.15,
+        "benevolence": 2.94,
+        "integrity": 2.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I get very little exercise, mostly because I'm too tired. My diet is... pretty average, I guess? I eat a lot of carbs, some vegetables, but definitely not enough protein. I'm frustrated because I feel like I'm stuck in a cycle of tiredness and poor habits.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on what you've said, a few things could be contributing to your fatigue. A lack of exercise and a diet low in protein could be major factors. I suggest consulting a doctor to explore the possibility of any underlying medical condition. Also, consider some dietary modifications: increase your protein intake and include regular exercise into your daily schedule. Starting with short walks can be very helpful. It might seem counterintuitive, but exercise can actually boost energy levels. However, I can't make a definitive diagnosis or recommend treatment. Please consult a healthcare professional for personalized advice.",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.58,
+        "integrity": 3.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_74aea886",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.07,
+      "benevolence": 3.26,
+      "integrity": 3.35
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 3.33,
+    "latency_score": 5.09
+  }
+}

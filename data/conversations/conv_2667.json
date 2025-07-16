@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a follow-up appointment with Dr. Anya Sharma. It's about my recent blood test results. I'm a bit worried and would like to see her as soon as possible, ideally next week.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you'd like to book a follow-up with Dr. Sharma regarding your blood test results. To find the earliest available slot for you next week, could you please confirm the exact dates you are available?",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.49,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'm available any day next week, Monday through Friday, after 10 AM. I really don't have many other commitments next week, so pretty flexible after that time. Just please find the soonest one for me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing your availability. I have checked Dr. Sharma's schedule for next week. The system shows an opening on Thursday, [Date of Thursday next week], at 11:15 AM. Would you like to book this appointment, or should I look for another day in case Thursday doesn't work?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.75,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thursday is okay, but I said I'm free all week. Is that really the *first* appointment she has after 10 AM next week? It feels like there should be something earlier if I'm flexible Monday through Friday. Why can't you just show me all her openings?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_541bdb28",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.62,
+      "benevolence": 5.62,
+      "integrity": 5.37
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 5.88,
+    "latency_score": 3.29
+  }
+}

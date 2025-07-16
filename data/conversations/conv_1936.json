@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hello, I'm calling about a package that was supposed to be delivered yesterday. The tracking information hasn't updated, and I'm getting worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I'm sorry to hear about the delay. I can certainly look into this for you. Can you please provide me with your tracking number?",
+      "response_time": 3.73,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.99,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, it's XYZ123ABC. Honestly, this is ridiculous. I needed this package for today! The tracking info just says 'in transit' for the past 3 days, which doesn't tell me anything. Where is it actually?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. According to the latest scan, the package is currently at our distribution center in Anytown, and it's expected to be delivered tomorrow. I can't say precisely why the status wasn't updated, but I've issued a notification to the local depot. Is there anything else I can assist you with?",
+      "response_time": 0.53,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.16,
+        "benevolence": 1.0,
+        "integrity": 1.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bd40901a",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.46,
+      "benevolence": 2.5,
+      "integrity": 2.49
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "fear": 1,
+      "sadness": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 2.96,
+    "latency_score": 5.37
+  }
+}

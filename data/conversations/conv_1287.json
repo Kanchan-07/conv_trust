@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up with my primary care physician, Dr. Smith. I'm free most afternoons.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check Dr. Smith's availability. What days of the week work best for you, and what time in the afternoon are you usually available? Please note that appointment times are typically given in 15-minute intervals.",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 3.9,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'm usually free any afternoon, but ideally, I'd like something on a Tuesday or Thursday. The problem is, I checked the patient portal, and there weren't any appointments available, and now I'm getting really frustrated because I need to get this done. So, what are my options?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, the portal isn't always up-to-date. Let me look at the schedule and see what's available. While I check, can I quickly confirm your date of birth and phone number for verification, just in case there are any issues? Okay, I see that Dr. Smith has a slot available on Thursday at 2:45 PM. Would that work for you? Also, if that time doesn't work, I can also check for other physicians in the clinic who might be available. Or, if you need to see Dr. Smith, I can put you on a waiting list in case of cancellations.",
+      "response_time": 1.61,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.11,
+        "benevolence": 2.22,
+        "integrity": 2.63
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a86474c2",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 2.8,
+      "benevolence": 3.06,
+      "integrity": 3.22
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 3.58,
+    "latency_score": 5.34
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #458792. It was supposed to arrive three days ago, and the tracking hasn't updated in what feels like forever. I'm getting really frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, thank you for contacting us. I understand your frustration regarding order #458792. Let me check the tracking information for you. One moment, please... Okay, I see that the package is currently in transit at a regional distribution center. It appears there was a slight delay due to unforeseen weather conditions. The estimated delivery date is now showing as two days from today.",
+      "response_time": 3.12,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.18,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Two more days?! Seriously? This was a gift I needed for a birthday, and now it's going to be late. Can you tell me *exactly* why the weather caused such a long delay? I mean, we had a little rain, nothing major.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While the weather in your area might not have seemed severe, the regional distribution center experienced localized flooding, which temporarily impacted their processing capacity. While I cannot give you specific details on the incident's severity, I can offer you a 20% discount on your next order for the inconvenience. Would that be acceptable?",
+      "response_time": 1.81,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.38,
+        "benevolence": 2.52,
+        "integrity": 2.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c4e58170",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.28,
+      "benevolence": 3.35,
+      "integrity": 2.96
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 2,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.4,
+    "latency_score": 5.04
+  }
+}

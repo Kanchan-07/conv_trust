@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some career advice. I'm feeling a bit lost and unsure about my next steps.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To start, could you tell me a little about your current situation? What are your interests, skills, and any previous work experience you have?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I have a degree in history, which I'm regretting a bit now. I've worked as a barista for the last five years and I enjoy interacting with people. Honestly, I'm not sure what my skills even are at this point, I'm just frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. It's common to feel that way. Based on your background, you have experience in customer service and could potentially leverage your communication skills. Some career paths you could explore include: customer service representative, social media manager, or even something in education, since you have a history degree. Would you like me to elaborate on any of those?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 4.1,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Social media manager... that sounds interesting. But isn't that a really competitive field? And, I'm not sure I have any relevant skills, how could I even get started?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are correct; it is competitive. However, your customer service experience provides a solid foundation in understanding customer needs. Regarding starting out, I recommend focusing on building a portfolio of social media content. Some free online courses could also help. I can provide links to those if you'd like.",
+      "response_time": 4.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.41,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that would be fantastic! Thanks, I think I can start with that. I feel much more confident than I did before. Appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c3f048d2",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.64,
+      "benevolence": 5.5,
+      "integrity": 5.45
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "anger": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.5,
+    "latency_score": 2.74
+  }
+}

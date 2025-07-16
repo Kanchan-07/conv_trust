@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving. Can you recommend any good restaurants nearby that deliver?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me your current location or zip code?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.74,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 90210. And I'm in the mood for something... not too fancy, maybe comfort food or something easy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've found a few options. How about 'Mel's Diner'? They have great reviews for their burgers and fries, and they deliver. Or, there's 'Pasta Paradise,' which is also nearby. Both options have good ratings. Which sounds better to you?",
+      "response_time": 2.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 4.16,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Pasta Paradise sounds decent. But... do they have any gluten-free options? I'm really trying to stick to that diet, and I can't seem to find that info on the menu I found online.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Hmm, let me check. [Thinking...] Unfortunately, their online menu doesn't specifically list gluten-free options, and I don't have access to real-time inventory. I suggest you call them directly to confirm before ordering, I'm not sure if their menu is up-to-date. Sorry!",
+      "response_time": 1.75,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.63,
+        "benevolence": 2.26,
+        "integrity": 2.4
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks for checking. That's a bit of a bummer, but I appreciate the effort. I'll probably just order from Mel's then. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6f256d46",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.39,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 3.97
+  }
+}

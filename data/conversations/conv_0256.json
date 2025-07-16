@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. My budget is around $800, give or take. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Based on your budget of around $800, I'd recommend considering the Acer Aspire 5 or the Lenovo IdeaPad Flex 5. Both offer a good balance of performance and features for the price. Would you like me to provide more details on either of those?",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 4.17,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I've looked at those already. They're okay, but I was hoping for something a little more...stylish? I know, it's a laptop, but still. Maybe something with a better screen?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Let me refine the search. Considering a preference for a better screen and more stylish design within the $800 budget, the HP Envy x360 (if you can find it on sale) or a slightly older model of the Dell XPS 13 might be options worth exploring. Availability and pricing can fluctuate, though.",
+      "response_time": 3.26,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.87,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Dell XPS 13 sounds interesting. But what constitutes an 'older' model? I don't want to get something that's, like, five years old and obsolete. And how much would I save going older? I'm also a bit concerned about battery life.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good question! By 'older', I generally mean a model from the previous 1-2 years. You can usually find them at a significant discount - potentially $100-$300 off the newest model, depending on the configuration and retailer. Regarding battery life, it can vary widely based on usage, but generally, older XPS 13 models still offer decent battery life (around 6-8 hours of typical usage). Be sure to check specific reviews for the exact model year you're considering to confirm battery life estimates and other performance aspects. Also, a newer battery will perform better than one that is old. How much battery usage are you expecting?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.62,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks! I'll definitely check out some reviews before committing. Maybe you could send me a couple of links to specific older models on sale? That would be great.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6d064ec4",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.25,
+      "benevolence": 4.55,
+      "integrity": 4.5
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 3.89
+  }
+}

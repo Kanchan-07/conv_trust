@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really frustrated. I'm trying to submit a claim for a patient and keep getting errors. Can you help me troubleshoot?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely help with troubleshooting. First, can you tell me the specific error message you're receiving? Also, please provide the patient's insurance information and the date of service, if you're comfortable.",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.04,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the error message says 'Invalid CPT code'. The patient's insurance is BlueCross BlueShield, policy number 123456789, and the date of service was 2024-03-15. I'm using CPT code 99213.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. Based on your input, it looks like CPT code 99213 is valid. Hmm... the error message might indicate an issue with the diagnosis code linked to the CPT code, or perhaps the modifiers are incorrect. Could you confirm the diagnosis code and any modifiers you are using?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'm using diagnosis code M17.11 for the CPT code 99213. Wait... this is annoying, but the patient's insurance plan recently changed. I think I had the wrong group number listed. What's the best way to resubmit the claim now, since I've already sent the wrong one?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I see. You'll likely need to resubmit the claim with the correct group number and all the correct information. To avoid any delays, I suggest contacting the insurance provider directly to inquire about their preferred method for handling corrected claims. They may have specific instructions on claim submission. Let me know if you run into any additional issues, and I'll assist in any way that I can.",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.61,
+        "integrity": 5.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_088cce96",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.62,
+      "benevolence": 3.55,
+      "integrity": 3.55
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 3.68,
+    "latency_score": 4.53
+  }
+}

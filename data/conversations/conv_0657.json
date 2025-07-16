@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I'm looking for some new hiking gear. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Based on the 'hiking gear' category, I can offer some recommendations. Are you interested in anything specific, such as backpacks, tents, or hiking boots?",
+      "response_time": 5.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.97,
+        "integrity": 5.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Boots! Definitely boots. I'm so tired of my old ones falling apart.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, here are some top-rated hiking boots: The 'Mountain Master 3000' is known for its durability and ankle support. The 'Swift Hiker' is a lighter option, great for faster treks. Finally, the 'Trailblazer X' is a good all-around boot. Would you like more details on any of those?",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.55,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me more about the Mountain Master 3000. What kind of terrain is it best for?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Mountain Master 3000 is designed for rugged terrain, including rocky trails and steep inclines. It features a stiff sole and reinforced toe cap for added protection. Many users also praise its waterproof capabilities.",
+      "response_time": 4.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.85,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Waterproof is good. Hmm... are there any boots you'd recommend that are good for *both* hiking and backpacking? Something that can handle a heavy load?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, the 'Ridge Runner Pro' is designed for both hiking and backpacking. It's built to handle heavier loads and provides excellent stability. It also has good waterproofing and breathability. I could also recommend the 'Terra Trekker,' although some users find the break-in period to be a bit longer.",
+      "response_time": 3.61,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.64,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, Ridge Runner Pro sounds interesting. But, just out of curiosity, how do you actually *know* what gear is good for what? Do you just read reviews or something? What's the *process*?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! I utilize a combination of factors. I analyze product specifications, user reviews from multiple sources, expert opinions from outdoor publications, and sales data to determine overall product performance and suitability for various activities. This data is then weighted based on reliability and relevance to provide the best recommendations possible. I also continuously learn from new data and user feedback to improve accuracy. ",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.9
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b45dc5af",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.57,
+      "benevolence": 5.6,
+      "integrity": 5.49
+    },
+    "engagement_score": 5.16,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 8,
+      "sadness": 1
+    },
+    "response_quality_score": 5.45,
+    "latency_score": 3.14
+  }
+}

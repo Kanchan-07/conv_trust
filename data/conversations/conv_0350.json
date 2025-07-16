@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a good movie to watch tonight. I'm in the mood for something... suspenseful, I guess?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! Based on 'suspenseful,' I can suggest some popular options. Have you seen 'Prisoners' or 'Se7en'? Both are highly rated suspense thrillers.",
+      "response_time": 2.39,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.49,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, seen both. Anything a little less... mainstream? I'm trying to think... like, a suspenseful movie, but maybe with a historical setting? Is that even a thing?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! Combining suspense and a historical setting is a bit more specific. One that comes to mind is 'The Name of the Rose,' a medieval mystery thriller. Or, if you're open to something a bit more dramatic, 'The Imitation Game' has elements of suspense related to codebreaking during WWII. Would either of those interest you?",
+      "response_time": 3.26,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.99,
+        "integrity": 5.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f015bbdd",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 5.24,
+      "integrity": 4.86
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "fear": 4
+    },
+    "response_quality_score": 5.18,
+    "latency_score": 4.67
+  }
+}

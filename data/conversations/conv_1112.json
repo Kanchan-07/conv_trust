@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a software engineer position. Can you help me prepare? I'm feeling pretty nervous.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can definitely help. To start, what specific areas are you most concerned about? Are you worried about technical questions, behavioral questions, or something else entirely?",
+      "response_time": 3.78,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.76,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Definitely the technical questions! I always blank out when they ask me about data structures and algorithms. And system design...forget about it. It's all a blur.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let's focus on data structures and algorithms first. I can generate some practice questions for you. How about we start with a question about hash tables? What are the advantages and disadvantages of using a hash table, and when would you choose to use one?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.8,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I knew you were going to ask something like that! I know the basics, but I always stumble when I have to explain it. Is there like a cheat sheet or something you can give me? Just a quick summary?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly! Here's a concise overview: Advantages include fast average-case lookup, insertion, and deletion. Disadvantages include potential collisions requiring collision resolution techniques (e.g., chaining, open addressing), which can degrade performance. Also, hash tables don't preserve order. Use them when you need fast lookups and don't care about the order of elements.",
+      "response_time": 2.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 4.12,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful! Thanks. But what if they ask me *why* a hash table is faster than, say, a linked list for lookups? How do I explain that concisely, without getting too technical?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "A good way to explain that is to highlight that, on average, hash tables offer constant time (O(1)) lookup because they use a hash function to directly calculate the memory location of the element. Linked lists, on the other hand, require traversal from the head, resulting in linear time (O(n)) lookup. So the key is the 'direct access' provided by the hash function versus the 'sequential access' of a linked list.",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.2,
+        "integrity": 5.01
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_af604be0",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.83,
+      "benevolence": 4.72,
+      "integrity": 4.54
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "fear": 2,
+      "disgust": 1,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.37,
+    "latency_score": 4.15
+  }
+}

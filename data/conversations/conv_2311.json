@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately. Constant fatigue, and just generally not myself. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're feeling unwell.  It's important to consult with a medical professional for a diagnosis. However, I can suggest some common factors contributing to fatigue. Are you getting enough sleep?  Are you eating a balanced diet?  Are you experiencing any unusual stress?",
+      "response_time": 2.46,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.22,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I think I'm sleeping okay, around 7-8 hours a night. Diet... well, I eat a lot of processed food. It's so hard to find the time to cook healthy meals when I'm so busy. Is it really *that* important?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, a balanced diet is very important for your overall health and energy levels. Processed foods often lack essential nutrients and can contribute to fatigue and other health problems. A diet rich in fruits, vegetables, lean proteins, and whole grains can help. If you are struggling with time, consider meal prepping on the weekends or using a meal delivery service.  Do you know what specific nutrients are most important for energy, and why?",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.99,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a really challenging question! To be honest, I don't have much of an idea about specific nutrients. What are some of the most common deficiencies that could cause fatigue? And how do I find out if I have them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c940fbd6",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.71,
+      "benevolence": 5.11,
+      "integrity": 4.8
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 5.06,
+    "latency_score": 4.52
+  }
+}

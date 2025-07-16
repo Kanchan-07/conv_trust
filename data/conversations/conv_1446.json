@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm flying from Chicago to London on the 15th of July. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly assist you with that! Please provide me with the year and your preferred return date, and I can start searching for available flights.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 6.7,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, the year is 2024, and I want to return on the 25th of July. Also, I need to be there by 11 am London time. Is that information enough?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am sorry, I cannot guarantee arrival times, but I am able to find flight options for you. Finding flights that meet your specific time of arrival is more complex and I am unable to provide that service. Would you like me to continue searching based on the provided dates and times? I can filter by airlines, if you prefer.",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 4.16,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's a little frustrating, but let's proceed. I'd prefer to fly with British Airways if possible. Find the cheapest options available for those dates.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2c459701",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.44,
+      "benevolence": 5.43,
+      "integrity": 5.73
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.98,
+    "latency_score": 2.39
+  }
+}

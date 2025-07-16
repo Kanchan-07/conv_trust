@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready for my algebra review. I'm really struggling with exponents. Can we start there?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Let's start with exponents. Can you give me an example of a problem you're finding difficult? We can work through it step-by-step. I'm here to help!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.66,
+        "integrity": 6.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, alright. How about this:  Simplify (2x^3y^-2)^4 / (4x^-1y^3). I keep getting the wrong answer, and I'm completely lost.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can walk you through that. First, we'll apply the power of a product rule to the numerator, then simplify. Let me provide the correct steps for you. The solution should be: 4x^13 / y^14. The key is to correctly apply the exponent rules at each step. Are you with me so far?",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 4.11,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I see where I went wrong with the numerator now. That makes sense! Thanks, I think I understand this a lot better now.  Maybe I can try a similar problem on my own?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0f081ac0",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.49,
+      "benevolence": 5.38,
+      "integrity": 5.45
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.6,
+    "latency_score": 3.33
+  }
+}

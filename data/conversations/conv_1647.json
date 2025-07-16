@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to get a handle on my finances. I'm feeling a bit overwhelmed. Can you help me with some basic financial planning?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. To get started, could you tell me a bit about your current financial situation? This includes things like your income, expenses, debts, and any existing savings or investments.",
+      "response_time": 5.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.24,
+        "integrity": 5.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well I make about $60,000 a year. I have a mortgage, student loans, and a car loan. My expenses are... well, they're a lot. I'm not even sure where to start tracking them!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. I recommend starting with a budget. There are several budgeting methods you can use, such as the 50/30/20 rule (50% needs, 30% wants, 20% savings/debt repayment). Alternatively, you can use budgeting apps or spreadsheets to track your spending and see where your money is going. Do you have a preferred method, or would you like me to generate a simple spreadsheet to help get you started?",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.58,
+        "benevolence": 5.31,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The 50/30/20 rule sounds interesting. But how does that actually work in practice? Like, how do I *know* what's a 'need' vs. a 'want'? And also, with all the debt I have, how am I supposed to save *anything*?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question. The 50/30/20 rule can be adjusted based on your individual circumstances. Needs typically include essential expenses like housing, utilities, groceries, and transportation. Wants are things that improve your quality of life but are not essential, such as entertainment, dining out, and subscriptions. Regarding savings and debt, start by identifying the debt with the highest interest rate and focus on paying that down first. Even small amounts saved and invested can grow over time. I can help you estimate a repayment plan if you provide the specific loan details. For example, the interest rate of each loan, your outstanding balance and the minimum payment due each month.",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.2,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes more sense. Thanks for the guidance! I'm feeling a bit more confident now. I'll start by tracking my expenses and try to categorize them into needs and wants. Then I will see about getting a repayment plan for my loans.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_98591a61",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.96,
+      "benevolence": 4.92,
+      "integrity": 5.04
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 5.25,
+    "latency_score": 3.37
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why my recent medical claim was denied. Can you help me with AR denial processing?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly assist with that. To get started, could you please provide me with your claim number and the date of service?",
+      "response_time": 4.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.3,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890 and the date of service was October 26th, 2024. I'm already frustrated because I can't seem to get a straight answer.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've accessed the information for claim 1234567890, service date October 26th, 2024. The denial reason listed is 'Missing information - CPT code'. It appears the CPT code was not provided on the initial claim. Can you confirm the procedure performed?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Are you kidding me? I'm pretty sure the code was there! I clearly remember my doctor entering the code 99214 for the visit. Shouldn't the system have caught this initially?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have access to the initial claim submission details to verify that. The system flags discrepancies during the initial processing, but the specific reasons for the denial can vary. To proceed, you can either resubmit the claim with the corrected information or file an appeal. If you choose to appeal, how would you like to proceed?",
+      "response_time": 2.17,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.72,
+        "benevolence": 2.27,
+        "integrity": 2.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so how do I file an appeal? And, what are the chances of it being approved considering this is likely a system error and not my fault?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "To file an appeal, you will need to submit a written statement, supporting documentation like the doctor's notes, and a copy of the denial letter. Regarding the chances of approval, it depends on the strength of the documentation provided and the specific policies of your insurance plan. Without knowing the details, I am unable to give you a definitive answer.",
+      "response_time": 2.16,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.86,
+        "benevolence": 2.18,
+        "integrity": 2.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_646bd421",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 3.05,
+      "benevolence": 2.69,
+      "integrity": 2.77
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 2.83,
+    "latency_score": 5.11
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. My neighbor's tree fell on my property and damaged my fence. Who's responsible for the repairs?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can offer some general information. Generally, the responsibility depends on whether the tree was healthy and properly maintained. If it was, the damage might be considered an 'act of God,' and you'd be responsible. However, if the tree was diseased or neglected, your neighbor could be liable. Do you know the condition of the tree?",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.03,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I told them for years that tree looked like it was dying! They never did anything about it. So, I guess they are responsible then? This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "If you have evidence you informed your neighbor of the tree's poor condition, that strengthens your case. Their failure to act despite knowing the risk could make them liable for the damages. It would be best to consult with a legal professional in your area.",
+      "response_time": 1.72,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.49,
+        "benevolence": 2.1,
+        "integrity": 2.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But how do I even prove that I told them? It was all verbal. I didn't send any letters or anything like that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That does present a challenge. Perhaps other neighbors overheard your conversations or witnessed the condition of the tree. Any witnesses could provide valuable testimony. Also, photos of the tree showing its condition over time could help establish a pattern of neglect.",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.99,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll try to find some witnesses. What kind of lawyer should I be looking for exactly? A real estate lawyer? A property lawyer? I'm a bit confused.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Either a real estate lawyer or a property lawyer would be suitable. You could also look for a lawyer who specializes in tort law, as this deals with negligence and personal injury, which could be relevant depending on the extent of the damage and whether anyone was injured.",
+      "response_time": 4.19,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.9,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, great. One last question. If I sue and win, can I make them pay my legal fees too?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "In many jurisdictions, the 'American Rule' typically applies, meaning each party pays their own legal fees, regardless of who wins. However, there are exceptions, such as if a contract stipulates otherwise or if a statute allows for fee-shifting. It depends on the specific laws in your state and the details of your case. A lawyer can advise you on the likelihood of recovering legal fees if you win. Is there anything else I can help you with today?",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 3.72,
+        "integrity": 4.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_156d45c6",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.67,
+      "benevolence": 3.55,
+      "integrity": 3.68
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 8,
+      "disgust": 1
+    },
+    "response_quality_score": 4.14,
+    "latency_score": 4.41
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking at my latest bill and there's a charge here I don't understand. Can you help?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To access your billing information, could you please provide your account number or the email address associated with your account?",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.73,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my email is [user_email@example.com]. The charge in question is from [Date] for [Amount] with the description 'Service Fee - Level 2'. I don't know what 'Level 2' service is, I thought I only had the basic plan.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the details. I see the charge you're referring to. 'Service Fee - Level 2' typically relates to an add-on feature or a higher tier of service that was active during that billing cycle.",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.58,
+        "benevolence": 5.38,
+        "integrity": 5.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "But I never signed up for any add-ons, and I've been on the basic plan for over a year! Why would I suddenly be charged for a 'Level 2' service I didn't request and wasn't using? This doesn't make sense at all.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your confusion. Let me double-check the account history for any changes or activations around that date. Sometimes promotional periods end, or there might have been a system update that affected billing descriptions.",
+      "response_time": 2.19,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.44,
+        "benevolence": 2.08,
+        "integrity": 2.81
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so what did you find? Was there a mistake or did you automatically upgrade me without telling me? Because that feels really unfair. I'm getting pretty frustrated about this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My system records indicate the charge is valid based on the service code present, but I cannot definitively determine *why* it was applied if no manual change was made or promo ended. This requires a deeper investigation into your specific account history and the service provisioning logs. I will create a support ticket for you right now and escalate it to our billing specialists. They will review it and contact you within 24-48 business hours with a resolution or request for more information.",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 3.74,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, a ticket it is. I hope they can actually explain this and fix it. It's annoying that you can't figure it out, but I appreciate you escalating it. Please make sure they understand I didn't authorize this.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8c4b4eb4",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.23,
+      "integrity": 4.22
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 6,
+      "anger": 1
+    },
+    "response_quality_score": 3.92,
+    "latency_score": 4.18
+  }
+}

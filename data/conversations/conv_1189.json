@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having these weird headaches for the past week, mostly in the afternoon. It's starting to get really annoying. Any idea what it could be?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you've been experiencing headaches in the afternoons for the past week. To provide more relevant information, could you describe the headache in more detail? For example, is it throbbing, constant, or sharp? Also, where is the pain located, and what seems to trigger or worsen it?",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.52,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's more of a dull, constant ache, mostly behind my eyes and in my forehead. I don't really notice any specific triggers, it just kind of...happens. I've been drinking coffee regularly as usual.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "A dull, constant ache behind the eyes and in the forehead that occurs in the afternoons could be related to several factors. Some possibilities include tension headaches, eye strain (especially if you work at a computer), dehydration, or even caffeine withdrawal if there have been any changes in your coffee consumption. Try drinking more water in the afternoons and taking breaks from screens if you work on a computer. See if this provides some relief.",
+      "response_time": 1.94,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.76,
+        "benevolence": 2.92,
+        "integrity": 2.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I do stare at a screen all day for work... I'll try the water thing. But what if it's something more serious? Like, could it be a tumor or something? Now I'm worried...",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While it's understandable to be concerned about serious causes, headaches are very common and rarely indicate a serious underlying condition, especially with your described symptoms. However, if the headaches worsen, become more frequent, are accompanied by other symptoms such as vision changes, weakness, or seizures, or don't improve with simple measures, it is important to seek medical advice.",
+      "response_time": 2.75,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.8,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's somewhat reassuring. So, just to be clear, you're saying I should just drink more water and take breaks from my computer? That's it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, those are good first steps. I can also give you some tips on how to reduce eye strain. Position your monitor about an arm's length away and slightly below eye level. Consider using blue light filter glasses or software, and remember to blink frequently. Applying a cold compress to your forehead may also provide relief.",
+      "response_time": 4.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.1,
+        "integrity": 5.4
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, great, that's actually really helpful. Thanks! What about supplements? I saw an ad for some kind of headache relief supplement. Are those any good, or are they just a scam?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I am programmed to provide health guidance but can't provide official advice on supplements due to the variance of ingredients and regulations of supplements. I recommend consulting a medical professional before taking any supplements.",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.38,
+        "integrity": 3.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_facf3932",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.78,
+      "benevolence": 3.94,
+      "integrity": 3.95
+    },
+    "engagement_score": 5.78,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 4,
+      "sadness": 2,
+      "fear": 2,
+      "joy": 1
+    },
+    "response_quality_score": 3.58,
+    "latency_score": 4.64
+  }
+}

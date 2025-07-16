@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week, order number #12345, and I still haven't received a tracking number. I'm getting a little worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. Let me pull up order #12345 for you. One moment...",
+      "response_time": 5.16,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.63,
+        "benevolence": 7.0,
+        "integrity": 6.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I really need this package soon.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see order #12345. It looks like it shipped out yesterday and the tracking number is XYZ789. You can track it at [tracking website]. It is expected to arrive in 2-3 business days.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.63,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Oh, okay! I didn't see that. Maybe I just missed the email. Thanks!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're welcome! Is there anything else I can assist you with today?",
+      "response_time": 5.47,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.82,
+        "benevolence": 6.79,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Actually, yes. I was also wondering about your return policy. If I don't like the item, can I return it? And what's the timeframe?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, most items are eligible for return within 30 days of delivery. The item must be unused and in its original packaging. Some items, like personalized goods or final sale items, are not eligible. To initiate a return, visit our website and go to the 'Returns' section. Does that make sense?",
+      "response_time": 0.63,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.36,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Perfect, thank you so much for your help! You've been great!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9bc94d37",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.6,
+      "integrity": 4.77
+    },
+    "engagement_score": 4.12,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "joy": 2,
+      "surprise": 2
+    },
+    "response_quality_score": 4.92,
+    "latency_score": 3.88
+  }
+}

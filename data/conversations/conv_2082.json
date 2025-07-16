@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to install a new kitchen faucet, but I'm completely lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. To get started, could you tell me what type of faucet you purchased and what tools you have available?",
+      "response_time": 5.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.91,
+        "integrity": 5.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a single-handle faucet. And I have, like, a wrench, screwdrivers... all the basics, I think. But the instructions are terrible!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's a good start. Let's walk through this step-by-step. First, turn off the water supply under your sink. Do you know where those shut-off valves are?",
+      "response_time": 2.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.43,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I think so. I found them. I turned them off, but now I'm getting a little water leaking where the old faucet was. Is that normal? This is already a mess.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "A small amount of water leakage is normal as there may be residual water in the pipes. Place a towel to catch the water. Once that is finished, and you are ready to proceed, continue. Now, the next step is to disconnect the old faucet's water supply lines. Can you see those lines and connections?",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 3.56,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I think I've got the supply lines disconnected. But... the mounting nuts are rusted on! I can't get them off. Seriously, what do I do now? This is ridiculous.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That is a challenging situation. You can try applying penetrating oil, letting it sit for a few minutes, and then trying to loosen the nuts again with your wrench. You may need a different type of wrench, like a basin wrench for better access and leverage. If that doesn't work, you may have to cut the old faucet out. Be very careful, and consider calling a professional if you're uncomfortable with that option. Would you like some more guidance on these options? I can get you some detailed instructions on the correct use of penetrating oil.",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.22,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'll try the penetrating oil and see how it goes. I think I'm good for now. Appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_64906744",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.15,
+      "benevolence": 4.53,
+      "integrity": 4.19
+    },
+    "engagement_score": 5.4,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 2,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.9,
+    "latency_score": 4.0
+  }
+}

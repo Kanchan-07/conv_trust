@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some help with financial planning. I'm feeling completely overwhelmed, to be honest. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand that financial planning can be daunting. Let's start with the basics. First, we can assess your current financial situation. This involves reviewing your income, expenses, assets, and liabilities. Could you provide some general information about these categories?",
+      "response_time": 4.12,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.78,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I guess... I make about $75,000 a year. My rent is $2,000 a month, and I spend roughly $1,500 on other expenses. I have about $5,000 in savings and $10,000 in student loan debt. Am I already failing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely not! You're doing okay. Based on the information provided, your debt-to-income ratio is a little high, but not a crisis. We can focus on budgeting to improve your savings rate, and consider strategies for paying down the student loan. Would you like to delve into creating a budget?",
+      "response_time": 1.65,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.91,
+        "benevolence": 2.04,
+        "integrity": 2.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds good. I always struggle with budgeting, though. What's the best budgeting method? I've heard so many different things, from the 50/30/20 rule to envelope budgeting... and I'm thoroughly confused.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "There isn't one single 'best' method, it depends on your personality and spending habits. The 50/30/20 rule is a good starting point. However, before we go too far, I'm experiencing some technical difficulties. Could you please provide me with your investment portfolio performance over the last 5 years, including asset allocation?",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.29,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Umm...I don't have any investments yet. And frankly, I was hoping for more of a straightforward answer on budgeting. This is really frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_01f03e45",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.04,
+      "integrity": 4.2
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 3.99,
+    "latency_score": 4.56
+  }
+}

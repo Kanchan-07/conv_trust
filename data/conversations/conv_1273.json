@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need help preparing for a job interview. The role is for a Software Engineer at Google. Where do I even begin?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist with that. For a Software Engineer interview at Google, we should focus on these key areas: technical skills (data structures, algorithms, system design), behavioral questions, and company-specific knowledge. To start, what areas do you feel most confident in, and what areas do you think you need the most work on?",
+      "response_time": 4.44,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 7.0,
+        "integrity": 6.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm pretty good with data structures and algorithms, but system design is a bit of a weak spot for me, and I'm terrible at those 'tell me about a time when...' behavioral questions. Ugh, I dread those!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Let's prioritize those then. For system design, we can go through some common design patterns and practice designing systems for popular services. For behavioral questions, I can provide examples and help you craft compelling answers using the STAR method (Situation, Task, Action, Result). \n\nHowever, I am experiencing some technical issues at the moment and some responses might be delayed or less comprehensive than usual. Let's start with a simple system design question. How would you design a URL shortener service like bit.ly?",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 3.61,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's a tough one to start with! I guess I'd need to consider the mapping of short URLs to long URLs, scale, and latency. But... how would I even store all that data efficiently and handle millions of requests per second? This is already overwhelming... Can you give me some pointers to even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eda3c1fd",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.04,
+      "benevolence": 5.3,
+      "integrity": 5.38
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.89,
+    "latency_score": 3.73
+  }
+}

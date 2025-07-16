@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need help planning a grocery list. I'm on a tight budget this week, like, really tight. Around $75 total. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. To give you the best recommendations, could you tell me how many people you're shopping for, and if you have any dietary restrictions or preferences (e.g., vegetarian, allergies)? Also, what meals are you hoping to cover (breakfast, lunch, dinner, snacks)?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 4.26,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's a lot of information. I'm shopping for two adults, and we eat pretty much anything, no allergies. Just focusing on dinner this week, maybe a couple of lunches if we have leftovers. And I'm seriously on a budget - so basic is good.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Based on that, and assuming you have some basic pantry staples (oil, salt, pepper, etc.), here's a sample list: \n\n*   **Pasta:** 1 lb ($1.50)\n*   **Canned Diced Tomatoes:** 2 cans ($2.00)\n*   **Ground Beef:** 1 lb ($6.00)\n*   **Onion:** 1 ($1.00)\n*   **Garlic:** 1 head ($0.75)\n*   **Frozen Broccoli:** 1 bag ($3.00)\n*   **Eggs:** 1 dozen ($3.50)\n*   **Bread:** 1 loaf ($3.00)\n*   **Apples:** 4 ($4.00)\n*   **Chicken thighs:** 1 pack ($10.00)\n*   **Rice:** 1 bag ($3.00)\n*   **Black Beans:** 1 can ($1.00)\n*   **Cheddar Cheese:** ($4.00)\n\nThis leaves around $31.25. You can add other items like lettuce or carrots depending on your need. This list helps make the following meals:\n*   **Pasta with Meat Sauce:** Pasta, ground beef, diced tomatoes, onion, garlic.\n*   **Chicken and Rice:** Chicken thighs, rice, frozen broccoli.\n*   **Black Bean and Cheese quesadillas:** Cheese, black beans, bread\n*   **Scrambled Eggs and Apples:** eggs, apples, bread.\n\nDoes this sound helpful, or would you like me to adjust this?",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.9,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's actually pretty good! Though, what if the ground beef is too expensive? Are there cheaper protein alternatives? I always end up spending more than I expect...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, ground beef can eat into the budget. Let's swap that out. You could consider lentils - they're super cheap and high in protein and fiber! A bag of dried lentils is typically under $2.00. You could also use canned tuna (a few cans will be around $5-$7) or even tofu, if you like. Since prices vary by location, I'd recommend checking the current prices at your local grocery store online or in store to verify the precise amounts. Substituting lentils would allow for additional items like fresh veggies if needed. How does that sound?",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.8,
+        "integrity": 3.86
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d940026c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.86,
+      "benevolence": 3.99,
+      "integrity": 4.07
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.62,
+    "latency_score": 4.47
+  }
+}

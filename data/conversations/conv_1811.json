@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered yesterday. The tracking information hasn't updated.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly look into that for you. Could you please provide your tracking number or order number?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.07,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's TRK123456789. I'm getting a little frustrated because I needed this by today.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I see that the package is currently in transit and was last scanned at the distribution center. The estimated delivery date is today, but it seems it hasn't been updated. Let me check further. One moment please...",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 3.69,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay... Any idea why it's delayed? The last scan was two days ago! Is it even on track to arrive today?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am very sorry for this delay. Unfortunately, I do not have the precise reason for the delay, I can see it's still in transit. However, the system estimates it should arrive by the end of the day. I can contact the delivery team and ask for an update. Would you like me to do that?",
+      "response_time": 2.09,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.79,
+        "benevolence": 2.87,
+        "integrity": 2.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. And can you also tell me, hypothetically, if the package *doesn't* arrive today, what options do I have? Like, what's the policy on refunds or replacements?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. If the package doesn't arrive today, we will have to initiate a claim. We would need to verify it is lost and then you will be eligible for a full refund or a replacement. I will create the support ticket now and update you soon.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.14,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f88e8fcf",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.75,
+      "benevolence": 2.94,
+      "integrity": 2.9
+    },
+    "engagement_score": 4.91,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 2.9,
+    "latency_score": 5.4
+  }
+}

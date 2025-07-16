@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really struggling with this chemistry homework. Can you help me understand electronegativity?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Electronegativity is a measure of an atom's ability to attract shared electrons in a chemical bond. It generally increases across a period and decreases down a group in the periodic table. Would you like a more detailed explanation, perhaps with examples?",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.74,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, please! But the examples in my textbook are confusing. For instance, why is fluorine so much more electronegative than chlorine, even though chlorine is larger?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! It's related to the effective nuclear charge and the distance of the valence electrons from the nucleus. Fluorine has a higher effective nuclear charge, meaning the nucleus has a stronger pull on the valence electrons, and also the valence electrons are closer to the nucleus, further increasing the attraction. Although chlorine is larger, the added electron shells shield the outer electrons from the full positive charge of the nucleus. This results in a lower electronegativity. Does that make sense, or would you like a further breakdown of that concept?",
+      "response_time": 2.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.12,
+        "integrity": 4.12
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_39ba0834",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.56,
+      "benevolence": 3.93,
+      "integrity": 4.08
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 3.64,
+    "latency_score": 4.26
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I've been having this persistent cough for like three weeks now, and it's really starting to get on my nerves. I'm also feeling unusually tired. What could this be? I'm getting worried it's something serious.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your concern. A persistent cough and fatigue can be associated with a variety of conditions. Common causes include upper respiratory infections like a cold or the flu. Less common causes can include bronchitis, pneumonia, or even allergies. I cannot provide a diagnosis, but based on your symptoms, I recommend monitoring your temperature and looking for any additional symptoms like shortness of breath. If your cough worsens or you develop a fever, please consult a doctor for proper diagnosis and treatment.",
+      "response_time": 5.37,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.41,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. But how can I tell the difference between just a regular cold and something like bronchitis at home? They sound pretty similar, and honestly, I'm not sure what to look for. Is there anything specific that would point to one over the other?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good question. While it's difficult to definitively differentiate between a cold and bronchitis without a medical examination, there are some subtle differences. Bronchitis often presents with a cough that produces mucus, sometimes discolored. You might also experience wheezing or shortness of breath. A cold is more likely to cause a runny nose, sneezing, and a sore throat initially, with a milder cough developing later. However, these aren't hard and fast rules, and symptoms can overlap. If you're still concerned or if your symptoms don't improve after a week, it's best to see a doctor for a proper assessment.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.66,
+        "integrity": 4.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e0f527a8",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.77,
+      "benevolence": 4.54,
+      "integrity": 4.58
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 4.83,
+    "latency_score": 3.17
+  }
+}

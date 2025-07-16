@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some help with financial planning. I'm completely lost and don't know where to start. I'm 35, have a decent job, and want to plan for retirement and maybe buying a house in the next few years.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you with that. That's a great goal to have! To get started, let's break this down. First, we'll need to assess your current financial situation. Could you tell me a bit about your income, debts, and existing savings or investments?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.92,
+        "benevolence": 6.62,
+        "integrity": 6.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I make about $80,000 a year. I have around $10,000 in student loan debt and $5,000 on a credit card. I have about $5,000 in a savings account, but that's it. Honestly, I'm a bit frustrated; I feel like I should be further ahead at my age.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Many people feel that way. Based on that information, here's what I suggest. First, focus on paying off your high-interest debt like your credit card. Then, create a budget to control your spending. Also, explore investing options such as a Roth IRA or a 401(k) if your employer offers one. I can provide more specific guidance on investments if you'd like.",
+      "response_time": 1.75,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.38,
+        "benevolence": 2.24,
+        "integrity": 2.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That all sounds good, but how can I be sure that investing in a 401(k) or IRA will actually be beneficial? Given that markets can be unpredictable, what if I lose money?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very good question. While I cannot guarantee any specific returns or eliminate risk, here's a balanced perspective. Firstly, long-term investment in a diversified portfolio has historically yielded positive returns, despite short-term market fluctuations. Secondly, 401(k)s often include employer matching, which can substantially increase your returns. IRAs offer tax advantages. You could consider diversifying your portfolio, consulting with a financial advisor, and rebalancing your investments over time to mitigate risk. However, remember, I'm an AI, and this is not financial advice; consult with a professional for personalized guidance.",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.37,
+        "integrity": 3.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5aa53293",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.41,
+      "integrity": 4.27
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 2
+    },
+    "response_quality_score": 4.9,
+    "latency_score": 4.14
+  }
+}

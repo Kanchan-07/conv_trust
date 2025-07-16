@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. My old one finally died. I'm on a pretty tight budget though, like under $500. What can you recommend?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of under $500, I can suggest a few options. For general use and web browsing, the Lenovo Chromebook Duet is a popular choice. It's lightweight and affordable. Alternatively, you might consider a refurbished Dell or HP laptop. These can often be found with decent specs within your price range. Would you like me to provide links to some specific models?",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.41,
+        "integrity": 5.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, links would be great. Refurbished is fine as long as it's from a reputable seller. I'm a little wary of buying used electronics online.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, here are a few options from reputable sellers: 1) A refurbished Dell Latitude from Dell's official outlet: [link to Dell]. 2) A certified refurbished HP ProBook from HP's website: [link to HP]. 3) A new Lenovo Chromebook Duet from Best Buy: [link to Best Buy]. Please note that availability and pricing can fluctuate.",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 3.58,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, the Chromebook is tempting, but I'm worried about software compatibility. I use some older programs for work that might not run on Chrome OS. What are the chances those programs will work?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Compatibility can vary. Many older programs may not run natively on Chrome OS. You could potentially use a compatibility layer like Wine or run them in a virtual machine, but performance might be affected. Another option is to check if cloud-based versions of those programs exist. For example, many Microsoft Office programs have web-based alternatives.",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.53,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so what if I could stretch my budget a *little* bit, say up to $600? Would that open up any significantly better options, or am I still pretty much stuck with Chromebooks and refurbished stuff?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "With a budget of $600, you gain access to some entry-level Windows laptops with more storage and potentially better processors. For example, the Acer Aspire 5 or the ASUS Vivobook series often have models available within that price range. These would offer better compatibility with older software. They might not be high-end gaming machines, but they'll be a step up from Chromebooks in terms of versatility. Here's a link to the Acer Aspire 5 on Amazon: [link to Amazon]. Please check the specs to ensure they meet your needs.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.18,
+        "integrity": 5.78
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Great, thanks! That Acer Aspire 5 looks promising. I appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_41d2ebf1",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.42,
+      "integrity": 4.94
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.16,
+    "latency_score": 4.35
+  }
+}

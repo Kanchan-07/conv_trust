@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help with a package that hasn't arrived. The tracking number is 9876543210.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. Thank you for providing the tracking number. Please give me a moment while I look up the status for 9876543210.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It was supposed to be delivered yesterday, and the tracking hasn't updated since two days ago. It just says 'In Transit'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see here that the last scan was indeed two days ago, and the estimated delivery date was yesterday. It appears there has been an unexpected delay in the package's journey.",
+      "response_time": 3.83,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.03,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "An unexpected delay? That's really frustrating! What caused the delay? Was there a problem with the flight or something? Why hasn't the tracking updated?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Unfortunately, the system doesn't provide a specific reason for this particular delay. Delays can occur due to various factors, such as weather conditions, operational adjustments, or unforeseen events. Sometimes tracking updates can also lag behind the package's physical movement.",
+      "response_time": 1.97,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.9,
+        "benevolence": 2.39,
+        "integrity": 2.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So you're saying you don't actually know where it is or why it's late? Just that it's delayed? That's not very helpful. When can I *realistically* expect it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I don't have the precise details of the cause, our internal system predicts it should resume movement shortly. We typically ask customers to allow 1-2 additional business days for the tracking to update and the package to be delivered after a missed delivery date. If it doesn't arrive by end of day Friday, we can explore further options like initiating a trace.",
+      "response_time": 3.12,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 3.93,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, two more days until Friday. That's still annoying, but I appreciate you giving me a timeframe and the option for a trace. Thanks for checking, even if you couldn't tell me exactly why.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c1887272",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.29,
+      "benevolence": 4.34,
+      "integrity": 4.41
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "surprise": 3,
+      "fear": 1
+    },
+    "response_quality_score": 4.03,
+    "latency_score": 3.77
+  }
+}

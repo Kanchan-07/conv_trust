@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm feeling pretty lost. I have a degree in History, but honestly, I have no idea what I want to *do* with it. Everyone keeps asking, and I just freeze up. What kind of jobs are even out there for someone like me?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Feeling lost after graduation is very common. With a history degree, several career paths are open to you. Some common options include archivist, historian (often requiring further education), museum curator, librarian, and teacher. However, the research and analytical skills you developed are transferable to fields like journalism, law, policy analysis, and even business roles like market research. Which of these areas sound potentially interesting to you, even a little?",
+      "response_time": 3.54,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.67,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I don't know. Archivist or museum curator sound kind of boring, to be honest. Journalist sounds cool, but wouldn't I need a journalism degree for that? How can I possibly compete with people who actually studied that stuff? This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's understandable to feel overwhelmed! While a journalism degree can be helpful, it's not always a strict requirement. Many journalists come from diverse academic backgrounds. Your history degree provides a strong foundation in research, critical thinking, and writing, all of which are valuable in journalism. To enhance your competitiveness, consider building a portfolio by writing for student publications, starting a blog, or freelancing. Look for internships at local newspapers or online news outlets. Would you like me to help you identify some resources for finding entry-level journalism positions or internship opportunities that might value a history background?",
+      "response_time": 1.53,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.49,
+        "benevolence": 2.49,
+        "integrity": 2.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b6bdca51",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.19,
+      "benevolence": 3.08,
+      "integrity": 3.38
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 2,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.48,
+    "latency_score": 4.96
+  }
+}

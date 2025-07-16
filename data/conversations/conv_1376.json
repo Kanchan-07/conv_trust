@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving. Can you recommend some good restaurants near me? I'm in downtown Austin.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. Searching for restaurants near downtown Austin... Based on popularity and ratings, I recommend checking out Uchi (sushi), Odd Duck (farm-to-table), and Veracruz All Natural (tacos). Would you like me to provide more details on any of these?",
+      "response_time": 3.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.57,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, tacos sound good, but I'm trying to eat healthy. Is Veracruz All Natural actually *healthy*? Or is it just a marketing thing?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! Veracruz All Natural does use fresh ingredients and offers some very healthy options, like their migas with avocado. Their tortillas are also made from scratch. However, tacos are still tacos, so portion size and fillings will affect how healthy the meal is. They also offer smoothies which are on the healthier side. I'd say it depends on your specific dietary needs and how you customize your order. I can provide nutritional information for specific menu items if you want.",
+      "response_time": 4.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.33,
+        "integrity": 5.77
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's more helpful than I expected. But seriously, are any of those restaurants *open* right now? I don't want to drive all the way there and find them closed. Can you check their hours?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies! You're right, that's a crucial detail. Let me check... Uchi is open, Odd Duck is currently closed, but Veracruz All Natural is open and operating at multiple locations. Would you like me to provide addresses and directions for the closest Veracruz All Natural?",
+      "response_time": 4.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.2,
+        "integrity": 5.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_463551db",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.15,
+      "benevolence": 4.7,
+      "integrity": 5.14
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.6,
+    "latency_score": 3.08
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down and tired lately. I'm not sure what's going on.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're feeling unwell. To help me understand, could you describe your symptoms in more detail? When did this fatigue begin? Are there any other symptoms you've noticed?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, it's been going on for a few weeks now. Besides the tiredness, I've also had a bit of a headache, and I'm definitely more irritable than usual. I'm also not sleeping well, which probably doesn't help.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your symptoms \u2013 fatigue, headache, irritability, and sleep issues \u2013 several things could be contributing. These could include stress, poor diet, or even a possible underlying medical condition. Have you had any recent changes in your routine or lifestyle? Are you taking any medications?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.99,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, nothing significant. I've been working a lot of extra hours at work recently, which could be the stress, I guess. I take a multivitamin, that's about it. Honestly, I'm a little confused though. How can I tell if this is just stress or something more serious?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very valid question. Differentiating between stress and a medical condition can be tricky. I recommend that you consider a visit with your primary care physician. They can perform tests and get a much better understanding of your condition. To help with stress in the meantime, consider relaxation techniques such as deep breathing, and ensure you\u2019re getting at least 7-8 hours of sleep. You can also try to improve your diet - eating balanced meals at regular intervals will likely help.",
+      "response_time": 5.16,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.45,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, I was hoping to avoid a doctor's visit, but I guess you're right. Thanks for the advice. I'll try the breathing exercises and see if it helps.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're welcome! Remember, early detection is key. If your symptoms worsen or if you experience new symptoms, please consult a healthcare professional immediately. Is there anything else I can help you with today?",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 6.96,
+        "integrity": 6.76
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, that's all for now. Thanks again! You've been very helpful.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1924d22c",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.17,
+      "benevolence": 4.35,
+      "integrity": 4.31
+    },
+    "engagement_score": 4.8,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.56,
+    "latency_score": 3.64
+  }
+}

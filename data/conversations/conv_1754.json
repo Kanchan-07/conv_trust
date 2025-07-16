@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file a claim. I had a car accident yesterday.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about your accident. I can certainly help you with that. To get started, can you please provide your policy number?",
+      "response_time": 0.55,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.39,
+        "benevolence": 1.46,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's ABC123XYZ. This is already frustrating. I have so much to deal with!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Thank you for providing your policy number. Now, could you briefly describe what happened during the accident, including the date, time, and location?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.46,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Sure. It happened yesterday, October 26th, around 3 PM, at the intersection of Main and Oak Street. A car ran a red light and hit me. The other driver admitted fault. I have their insurance info, too.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you. Please provide the other driver's insurance information and a copy of the police report, if you have it. If not, let me know and we can process without. We will also need photos of the damage, if any.",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.52,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I've uploaded the other driver's insurance information and the photos. I haven't gotten the police report yet; they said it'll take a few days. What happens if the other driver denies fault?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a good question. If the other driver denies fault, we will investigate the accident thoroughly, which may include contacting witnesses and reviewing any available evidence. We will make a determination based on the evidence. It might slightly delay the process, but rest assured, we will still support you throughout.",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.04,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's good to know. What's the estimated timeline for the claim processing if everything goes smoothly?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Typically, for straightforward claims with all necessary information, it takes about 7-10 business days to process and assess the damage. We will keep you updated throughout the process. Do you have any other questions?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.04,
+        "integrity": 5.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f8862279",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.9,
+      "benevolence": 3.61,
+      "integrity": 3.65
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "sadness": 3,
+      "anger": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 3.28,
+    "latency_score": 4.96
+  }
+}

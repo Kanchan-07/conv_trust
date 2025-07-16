@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I'm looking for some book recommendations. I'm really into fantasy right now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Fantasy is a fantastic genre. Some highly-regarded fantasy novels include 'The Name of the Wind' by Patrick Rothfuss, 'Mistborn: The Final Empire' by Brandon Sanderson, and 'A Court of Thorns and Roses' by Sarah J. Maas. Have you read any of those?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.55,
+        "benevolence": 7.0,
+        "integrity": 6.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've read Mistborn and ACOTAR. They were good, but I'm maybe looking for something... less romance-focused than ACOTAR and maybe a bit darker than Mistborn? Something with really deep world-building.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. For deeper world-building and a darker tone with less emphasis on romance, you might enjoy 'The Lies of Locke Lamora' by Scott Lynch, which features intricate world details and a gritty, character-driven plot. Another option is 'The Blade Itself' by Joe Abercrombie, known for its dark humor, complex characters, and realistic approach to a fantasy setting.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.15,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ooh, those sound promising. I've heard of Abercrombie. Okay, here's a weird question: What exactly constitutes 'grimdark fantasy' anyway? I see that term thrown around but the definition seems super fuzzy. Is 'The Blade Itself' considered grimdark?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Grimdark fantasy is a subgenre characterized by its pessimistic or amoral tone, where traditional heroic narratives are often subverted. It typically involves moral ambiguity, violence, and bleak themes. Yes, 'The Blade Itself' and much of Joe Abercrombie's work are generally categorized within the grimdark subgenre.",
+      "response_time": 3.73,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.49,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay... so is *any* fantasy book with morally grey characters and violence automatically grimdark? What about something like Game of Thrones? That has morally grey characters and violence, but I don't always see it called 'grimdark'. It's confusing!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very valid point, and you've hit on why genre labels can be tricky. While 'A Song of Ice and Fire' (Game of Thrones) shares many characteristics with grimdark \u2013 moral complexity, dark themes, violence \u2013 it often includes elements of traditional high fantasy, such as clear magical forces and epic scale battles that involve more traditional fantasy tropes. Grimdark tends to lean even further into cynicism, deconstruction of heroic archetypes, and a generally more hopeless worldview. The lines are definitely debated by readers and critics.",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.95,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ah, okay, that explanation helps clarify the nuance a bit. It still seems subjective, but I get the core idea now. Thanks! I think I'll add 'The Blade Itself' to my list. Just one more thing \u2013 do you have a recommendation for a really comforting, low-stakes fantasy read? Something completely opposite to grimdark for when I need a break?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Absolutely! For a comforting, low-stakes experience, I highly recommend 'The House in the Cerulean Sea' by T.J. Klune. It's a wonderfully warm and hopeful fantasy novel with a charming story and found family themes. 'Legends & Lattes' by Travis Baldree is another excellent choice, often described as 'cozy fantasy,' focusing on a retired adventurer opening a coffee shop.",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.96,
+        "benevolence": 6.62,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1bea2dbe",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.11,
+      "benevolence": 5.24,
+      "integrity": 5.13
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "sadness": 2,
+      "joy": 1
+    },
+    "response_quality_score": 4.77,
+    "latency_score": 3.01
+  }
+}

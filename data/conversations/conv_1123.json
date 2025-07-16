@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having these weird headaches for about a week now, mostly in the mornings. It's really annoying.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you've been experiencing headaches primarily in the mornings for the past week. To help me understand the situation better, could you describe the nature of the headache? Is it throbbing, constant, sharp, or something else? Also, on a scale of 1 to 10, with 1 being mild and 10 being the worst headache you've ever had, how would you rate the pain?",
+      "response_time": 0.5,
+      "emotion_detected": "disgust",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.09,
+        "integrity": 1.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's more of a dull, constant ache, not really throbbing. I'd say maybe a 5 or 6 out of 10. And I've been a little more tired than usual too, but I figured that was just stress from work.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, a dull, constant ache around a 5 or 6, accompanied by fatigue. Thanks. Could you tell me about any other symptoms you might be experiencing? Things like vision changes, nausea, stiff neck, or sensitivity to light or sound?",
+      "response_time": 3.12,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.33,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, no nausea or stiff neck. I have noticed that bright lights seem to bother me a little more than usual. And honestly, I'm getting a bit worried now. What could this be? I've Googled it and that's never good!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Sensitivity to light coupled with a headache and fatigue could suggest a few possibilities. Common migraine headaches can sometimes present in this way. Less commonly, it could indicate other conditions. It's important not to self-diagnose based on internet searches. Based on what you've told me, I strongly advise scheduling an appointment with your primary care physician for a proper evaluation. They can perform the necessary tests to determine the cause and recommend the appropriate treatment. ",
+      "response_time": 5.82,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.69,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I figured you'd say that. But realistically, what are the chances it's something serious? Like, you know... a tumor or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While I cannot provide a definitive diagnosis, the probability of your symptoms being caused by a brain tumor is statistically low. However, it's crucial not to dismiss your symptoms, especially as they persist. Many less serious conditions can cause similar symptoms, and a doctor's visit is the best way to rule out anything concerning and determine the specific cause of your headaches and fatigue.",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.74,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that makes sense. Thanks for the information. I'll call my doctor tomorrow.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c82e19ae",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.77,
+      "benevolence": 3.71,
+      "integrity": 3.74
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "disgust": 2,
+      "sadness": 2,
+      "fear": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 3.23,
+    "latency_score": 4.42
+  }
+}

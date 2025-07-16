@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I keep getting denials for CPT code 99214, even though I'm sure I'm documenting everything correctly. Can you help me figure out why?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. CPT code 99214 can be tricky. Let's investigate. To start, can you provide me with the denial reason code from the Explanation of Benefits (EOB) you received from the insurance company? This will give us a specific starting point.",
+      "response_time": 2.18,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.14,
+        "benevolence": 2.33,
+        "integrity": 2.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the denial reason code is CO-97. And honestly, I'm not even sure what that means. What does 'The benefit for this service is included in the payment/allowance for another service/procedure that has already been adjudicated' even *mean*?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CO-97 indicates the service is bundled or included in another service already paid. This often happens if you billed 99214 on the same day as another procedure or service that inherently includes the evaluation and management component. Could you provide details of any other services billed on the same date of service as the denied 99214? This will help me determine if it was appropriately bundled or if an appeal is warranted due to distinct and separately identifiable services.",
+      "response_time": 0.6,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.3,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f0751f9a",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.72,
+      "benevolence": 1.67,
+      "integrity": 1.65
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 1.93,
+    "latency_score": 6.11
+  }
+}

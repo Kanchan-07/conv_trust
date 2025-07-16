@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, this smart toaster is driving me crazy! It keeps burning my toast, even when I set it to the lowest setting. I've only had it for two months!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, thank you for contacting SmartHome Support. I understand you're experiencing issues with your smart toaster burning toast. To help me troubleshoot, could you please provide the model number, which can be found on the bottom of the device?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.31,
+        "benevolence": 1.07,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the model number is ST-5000. Look, I've tried everything. I've reset it, I've cleaned it, I've even tried different types of bread. Nothing works! Is this a known issue?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. ST-5000. Known issue... hmm. Please try unplugging the toaster for 60 seconds and then plugging it back in. This will reset the internal memory and hopefully resolve the issue. Let me know if that works.",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.92,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've already done that! Several times! Is there a way to actually calibrate the heating elements? Because it feels like they're just running full blast no matter what setting I choose. Why is there no user manual for this thing?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Calibrating the heating elements isn't possible for end-users. We do not offer a way to directly access this functionality. Regarding the user manual, a digital version can be found on our website at [fictional website address]. Since basic troubleshooting hasn't resolved the issue, I'll escalate this to our advanced support team. They will contact you within 24-48 hours with further instructions. What is the best email address for them to use?",
+      "response_time": 1.63,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.04,
+        "benevolence": 2.4,
+        "integrity": 2.88
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d10d10e8",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.36,
+      "benevolence": 2.46,
+      "integrity": 2.52
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 2,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 2.66,
+    "latency_score": 5.85
+  }
+}

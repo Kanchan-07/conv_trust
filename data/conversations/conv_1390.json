@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately, even after getting what I think is enough sleep. Any ideas what might be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. That's a common complaint. Several things could be causing your fatigue. Are you experiencing any other symptoms, such as changes in appetite, mood swings, or headaches? It would also be helpful to know your age, gender, and any pre-existing health conditions.",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 4.44,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm a 30-year-old female. I do sometimes get headaches, and I've been feeling a bit down, but nothing too extreme. I'm just so frustrated because I can't seem to shake this exhaustion! I saw online there might be a million reasons. Can you give me the top 3 most likely causes for someone like me?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. Given your age, gender, and reported symptoms, some of the most likely causes could be: 1) Iron deficiency anemia. 2) Thyroid issues, specifically hypothyroidism. 3) A lack of sufficient Vitamin D. I strongly recommend consulting with your primary care physician for further evaluation and blood tests to determine the underlying cause and receive appropriate treatment. Please keep in mind that I am an AI assistant and cannot provide medical diagnoses.",
+      "response_time": 5.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.03,
+        "integrity": 5.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a83808e6",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.57,
+      "benevolence": 4.74,
+      "integrity": 4.95
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.75,
+    "latency_score": 3.29
+  }
+}

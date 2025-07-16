@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some game recommendations. I'm really in the mood for a good RPG, but I'm tired of the typical fantasy setting. Something more sci-fi or cyberpunk, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. You're looking for an RPG with a sci-fi or cyberpunk setting. Have you tried *Cyberpunk 2077* or *The Outer Worlds*?",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.3,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I've played *Cyberpunk 2077*. It was... okay, but really buggy at launch and I haven't gone back. *The Outer Worlds* was good, but a bit too short. Anything else? Something maybe a little less mainstream?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. How about *Shadowrun: Dragonfall*? It's a cyberpunk RPG with a unique blend of fantasy elements, set in a world where magic has returned. It's known for its compelling story and tactical combat.",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 4.07,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, *Shadowrun: Dragonfall* sounds interesting! I'll check that out. But, just out of curiosity, how do you actually *decide* what games to recommend? Like, what's the process?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My recommendations are based on a combination of factors, including user preferences (like genre and setting), game reviews and ratings, sales data, and popularity trends. I analyze this data to identify games that are likely to be a good fit for you. I also utilize collaborative filtering techniques to find games that are similar to those you've enjoyed in the past. This creates a tailored list of recommendations. I am also continuously learning, so that can effect what I recommend.",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.05,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, that's actually pretty complex! Thanks for the *Shadowrun* suggestion and the explanation. That's really helpful!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_80b4b982",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.47,
+      "integrity": 4.62
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.88,
+    "latency_score": 4.04
+  }
+}

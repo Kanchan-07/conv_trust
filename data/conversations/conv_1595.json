@@ -1,0 +1,72 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a table for dinner tonight. Preferably Italian, for two people. Anywhere good in the city center?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Give me a moment to check... Okay, I've found a few options. 'Luigi's Trattoria' has availability at 7:30 PM or 9:00 PM. There's also 'Bella Roma', but they are fully booked. Would you like me to book Luigi's?",
+      "response_time": 2.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.28,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, 7:30 is a bit early. 9 would be fine, but I read some reviews about Luigi's being a bit hit or miss. How would you rate it, and what's the average wait time for a table if I just walked in?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am unable to provide a subjective rating of the restaurant. However, the average wait time for walk-ins at Luigi's on a Saturday night is usually around 45 minutes to an hour. This information is based on previous user reports. Would you like me to book the 9 PM slot anyway, or shall I search for something else?",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 3.77,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's useful. Let's try something else then. Is there *anything* else Italian, even if it's outside the city center, that's available for two tonight?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_643ecb77",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.19,
+      "benevolence": 4.03,
+      "integrity": 4.0
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 5
+    },
+    "response_quality_score": 4.42,
+    "latency_score": 4.12
+  }
+}

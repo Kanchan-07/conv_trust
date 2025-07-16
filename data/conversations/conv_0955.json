@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, let's try this polynomial factoring again. I'm still getting tripped up on when to use the different methods. Like, when do I use grouping versus just looking for two numbers that multiply to C?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Great question! The key difference lies in the structure of the polynomial. If you have a polynomial with four terms, grouping is usually the best approach. For a quadratic trinomial (ax\u00b2 + bx + c), if 'a' is equal to 1, then finding two numbers that multiply to 'c' and add up to 'b' is a quick method. If 'a' is not 1, you can still use that method, but it might be more efficient to use the AC method (grouping).",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.65,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes *some* sense. But what if 'c' is really big, like, 72 or something? Finding those numbers can take forever!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, a large 'c' value can make the 'find-the-numbers' method tedious. In that case, start by listing out factor pairs of 'c'. For 72, you might start with 1 and 72, 2 and 36, 3 and 24, and so on. Systematically check if any of those pairs add up to 'b'. Or, if you are comfortable with it, proceed directly to using the AC method.",
+      "response_time": 2.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.03,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, the AC method...that just seems like extra steps. Is there a *proof* that the AC method even works? Why does splitting the 'b' term like that actually lead to the correct factors?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's an excellent question! The AC method works because it essentially reverses the process of expanding two binomials using the FOIL method. By splitting the 'b' term based on the factors of 'ac', we're creating a setup where we can factor by grouping. To provide a proof, let's consider a general quadratic (ax\u00b2 + bx + c) that can be factored into (px + q)(rx + s). Expanding this gives prx\u00b2 + (ps + qr)x + qs. Notice that 'ac' corresponds to (pr)(qs) and 'b' corresponds to (ps + qr). The AC method finds 'ps' and 'qr' as the two numbers, enabling the reverse process of factoring by grouping. Does that initial explanation help?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.56,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I get the gist of that. It's like unwinding FOIL. I'll need to think about that more later, but thanks! Let's try another problem now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6aecdc6d",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.02,
+      "benevolence": 5.08,
+      "integrity": 5.19
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 5.41,
+    "latency_score": 3.06
+  }
+}

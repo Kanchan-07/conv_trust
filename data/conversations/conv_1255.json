@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately. Constantly tired, even after sleeping. What could be causing this?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. Fatigue can be caused by a variety of factors. These can range from lifestyle choices like poor sleep or diet, to underlying medical conditions such as anemia, thyroid issues, or even depression. To get a better understanding, could you tell me more about your daily routine and any other symptoms you're experiencing?",
+      "response_time": 1.62,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.01,
+        "benevolence": 2.74,
+        "integrity": 2.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I usually get about 7-8 hours of sleep, but I don't feel rested. My diet isn't the greatest, I eat a lot of fast food, and I've also been feeling a bit down, and I have a headache. Is it just the food?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's possible the headache and tiredness are directly related to the diet. However, feeling 'down' can be complex. I am programmed to provide health information, but I am not a healthcare professional and cannot provide a diagnosis. I strongly recommend consulting with your doctor, as a headache and feeling down can be symptoms of multiple conditions. They will be able to assess your symptoms, run tests if necessary, and provide a clear diagnosis.",
+      "response_time": 5.45,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.11,
+        "integrity": 5.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I understand. But if I *did* have something like, say, anemia, what kind of changes could I expect to see in my diet that might help alleviate the symptoms? Give me some specific examples, please.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If you were diagnosed with iron-deficiency anemia, dietary changes could help. Foods rich in iron, like red meat, spinach, and lentils, are good choices. Combining these with foods high in Vitamin C, such as citrus fruits, can improve iron absorption. It's important to note that self-treating any medical condition can be dangerous. Always consult with a medical professional before making significant changes to your diet or lifestyle, and get an official diagnosis. I hope this information is helpful.",
+      "response_time": 5.59,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.33,
+        "integrity": 5.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c856774b",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.39,
+      "integrity": 4.75
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 4.37,
+    "latency_score": 3.28
+  }
+}

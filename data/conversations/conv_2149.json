@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my bank account. I think I'm being charged some weird fees.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can certainly help with that. Could you please provide your account number or the last four digits of your social security number for verification?",
+      "response_time": 4.26,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.82,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's... 4892. And the last four of my SSN are 1234.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please hold while I access your account information. (long pause) Okay, I see a few monthly service fees. Are you referring to those?",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.22,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes! That's what I was talking about. I never agreed to those! What are they even for?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check the terms and conditions associated with your account... It appears the monthly fee is a standard charge unless you maintain a minimum balance. I can provide more detailed information about these fees. Would you like me to locate the specific documents outlining the charges and their purpose?",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.08,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. And... is there any way to get those fees removed? I didn't realize there was a minimum balance.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am checking account eligibility. As you have had these fees for less than three months, it is possible to apply a one-time courtesy refund. However, I cannot guarantee it. Let me submit a request to the accounts department. Please hold.",
+      "response_time": 0.53,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.44,
+        "integrity": 1.12
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thank you. While you're at it, can you explain why the interest rate on my savings account is so low? I've seen much better rates elsewhere.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your concern about the interest rate. The interest rate is determined by market conditions and the type of account you have. I can provide you with a detailed breakdown of the current interest rates for various savings options we offer. Furthermore, I can provide information and comparisons about different plans. Would you like me to do that?",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.91,
+        "integrity": 5.31
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9a0f3e48",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.07,
+      "benevolence": 4.29,
+      "integrity": 3.91
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 6,
+      "anger": 1,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.23,
+    "latency_score": 4.14
+  }
+}

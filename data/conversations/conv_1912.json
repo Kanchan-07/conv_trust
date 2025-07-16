@@ -1,0 +1,129 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my account balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. Please provide your account number or the last four digits of your social security number for verification.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "My account number is 1234567890. Wait, before you tell me the balance, can you tell me if any large transactions have gone through in the last 24 hours?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I am checking. Yes, there was a withdrawal of $500 at 10:30 AM today. Do you recognize this transaction?",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.55,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I authorized that. Okay, what's my current balance now?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Your current balance is $2,345.87. Is there anything else I can help you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.33,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that seems low. Can you show me a list of the transactions from the last week? Preferably ordered by date.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am unable to display a list of transactions, but I can display them individually.  Would you like me to read them to you, one at a time? If so, please provide a date range. I can also send it to you, but I need to know your email address first.",
+      "response_time": 4.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.13,
+        "integrity": 5.56
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's frustrating. Just tell me the last 3 transactions and the dates. Also, how long is this going to take?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Okay, please allow me a few moments. Transaction 1: July 26th, $500 withdrawal; Transaction 2: July 25th, $100 deposit; Transaction 3: July 24th, $25 purchase. The system processes transactions in real-time, so this information is up-to-the-minute.  Is there anything else?",
+      "response_time": 2.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.7,
+        "integrity": 3.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c270dae2",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.14,
+      "benevolence": 2.94,
+      "integrity": 3.02
+    },
+    "engagement_score": 4.48,
+    "emotion_distribution": {
+      "neutral": 10
+    },
+    "response_quality_score": 2.75,
+    "latency_score": 5.28
+  }
+}

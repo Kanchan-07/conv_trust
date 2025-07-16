@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some recommendations for outdoor gear. Specifically camping equipment.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Camping equipment is a great category. Are you planning a specific trip or just looking for general gear? To start, here are some popular items in camping: [Link to Tents] [Link to Sleeping Bags] [Link to Camp Cookware]",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, planning a trip. I need a new tent. The old one leaked last time and it was miserable! Can you suggest something reliable for 2 people? Waterproof is a must.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Oh no, a leaky tent is definitely frustrating! Let's find you something better. For a reliable, waterproof 2-person tent, I recommend these options: [Link to 'Mountaintop' 2P Tent] [Link to 'Riverbend' Backpacking Tent] [Link to 'Cozy Camper' Family Tent - 4P].",
+      "response_time": 1.83,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.28,
+        "benevolence": 2.29,
+        "integrity": 2.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait, why did you suggest a 4-person tent? I specifically asked for a 2-person one after my horrible leaky experience! That's not helpful. Also, between the 'Mountaintop' and 'Riverbend' tents you listed, which one is better for resisting strong winds? It doesn't say clearly on the product pages, and wind resistance is crucial where I'm going.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for including the 4-person tent in the previous list; that was an error. Regarding wind resistance between the 'Mountaintop' and 'Riverbend' 2-person tents, specific wind ratings can vary based on design and pole structure. Generally, tents designed for backpacking ('Riverbend') often prioritize a more aerodynamic, lower profile design which can handle wind better than some general camping tents ('Mountaintop'). However, for detailed performance data, it's best to consult the manufacturer's technical specifications or user reviews from windy conditions if available on the product page.",
+      "response_time": 3.26,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 3.88,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks for clarifying the 4-person thing. It's annoying I have to dig deeper for wind info though, I was hoping you could just tell me. I'll look at the user reviews for the 'Riverbend' one then.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ede1b988",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.39,
+      "integrity": 4.2
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.82,
+    "latency_score": 3.8
+  }
+}

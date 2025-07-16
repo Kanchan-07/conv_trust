@@ -1,0 +1,129 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle this financial planning thing. I'm so overwhelmed, though. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can definitely feel daunting. Let's start with the basics. First, can you tell me a bit about your current financial situation? Things like your income, expenses, any existing debt, and your assets.",
+      "response_time": 3.85,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.85,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, listing all that out is going to be painful. Okay, income is around $75,000 a year. Expenses are probably\u2026 too high. Mortgage, car payment, utilities, groceries\u2026the usual. Credit card debt is sitting around $5,000. I have about $10,000 in a savings account. Is that good enough to start?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That gives us a good starting point. Thanks for sharing. Next, can you clarify your goals? Are you primarily focused on paying off debt, saving for retirement, buying a new house, or something else?",
+      "response_time": 4.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.8,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Retirement is definitely a goal, but it feels SO far away. Honestly, I'd like to just pay off this darn credit card debt and maybe start thinking about a down payment on a small condo in the next 5 years. Is that even realistic with my income?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, those goals are definitely attainable with a solid plan! To determine if your income supports those goals in the next 5 years, we need a better handle on your monthly expenses. Can you track those expenses carefully for the next month and share the results with me? Many budgeting apps can help with this.",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.84,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I can try that. But I've tried budgeting before, and it always falls apart after a couple of weeks. It's just so much effort! What if I just throw all my extra money at the credit card debt? Won't that solve most of the problem?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While aggressively paying down the credit card debt is a good strategy, it's important to also ensure you're allocating some funds towards other crucial areas like emergency savings. What percentage of my income should I be contributing to emergency savings?",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.04,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's a great question, and the answer depends on your risk tolerance and individual circumstances. A general rule of thumb is to aim for 3-6 months' worth of essential living expenses in an easily accessible account. However, if you have a stable job and good health insurance, you might be comfortable with closer to 3 months. If you're self-employed or have significant health concerns, you might prefer 6-12 months.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. 3-6 months... I guess I need to figure out what my *essential* living expenses actually are. This is still overwhelming, but I feel like I have a starting point now. Thanks!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a64c2ea6",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.08,
+      "benevolence": 5.17,
+      "integrity": 5.01
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 4.82,
+    "latency_score": 3.24
+  }
+}

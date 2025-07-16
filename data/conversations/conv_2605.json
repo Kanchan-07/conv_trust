@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, okay, I need some serious help. I have this job application for a Marketing Manager role due tomorrow and I'm completely stuck on writing the cover letter. I just can't seem to make it sound genuine and relevant!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Don't worry, that's a common challenge, but I can definitely assist you. A strong cover letter is crucial. To get started, could you please share the job description for the Marketing Manager role and perhaps your current resume or some key points about your background?",
+      "response_time": 3.35,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.74,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded the job description and my resume. They're looking for someone with 'demonstrated success in data-driven campaign optimization,' and honestly, while I've used data, I wouldn't say I'm an 'expert' in 'optimization' on the scale they seem to want. How do I talk about my experience without sounding like I'm faking it, but still hitting that keyword?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see the documents. To address the 'data-driven campaign optimization' requirement, I recommend focusing on examples in your cover letter where you used metrics or analytics to inform your marketing decisions. Mention specific tools you've used and the positive outcomes of your campaigns. Ensure you connect your past achievements to the responsibilities listed in the job description.",
+      "response_time": 5.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.74,
+        "integrity": 6.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, but that feels a bit generic? Like, I *did* use data, but I wasn't running complex A/B tests on multivariate landing pages daily. My 'optimization' was more like, looking at click-through rates and making small tweaks. How can I bridge that gap? It feels like the job description is asking for a level I haven't quite hit yet, and I don't want my cover letter to be misleading, but I *really* want this job!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, I understand your concern about the scope of your experience. Instead of focusing purely on the term 'optimization,' let's reframe it by highlighting your *analytical approach* and the *impact* of your data usage, regardless of the complexity of the techniques. Use phrases like 'Utilized performance metrics to refine campaign strategies' or 'Analyzed data trends to inform tactical adjustments.' Provide a concrete example where your data-backed decisions led to a measurable improvement, even if it wasn't a large-scale 'optimization' project. We can craft a sentence that acknowledges your analytical skills and their positive results without overstating your specific optimization expertise.",
+      "response_time": 1.66,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.8,
+        "benevolence": 2.02,
+        "integrity": 2.04
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6c10bf91",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.5,
+      "integrity": 4.39
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "fear": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 4.15
+  }
+}

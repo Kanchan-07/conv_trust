@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking for some shoe recommendations. I'm trying to update my wardrobe and feel like my shoes are letting me down. I generally like a classic, but slightly edgy style. Nothing too crazy though.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. 'Classic but slightly edgy' is a great starting point. To give you the best recommendations, could you tell me a bit more? For example, are you looking for shoes for everyday wear, for work, or for special occasions? Also, what's your budget like?",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.77,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Good questions. Mostly for everyday wear, but something that could transition to a casual office environment. Budget-wise, I'd prefer to stay under $200 if possible, but I'm willing to go a little higher for something really perfect. And comfort is important!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, understood. For a classic but slightly edgy everyday/casual office shoe under $200 with an emphasis on comfort, I recommend looking at leather Chelsea boots. They offer a timeless silhouette but can be found with interesting details like unique stitching or a slightly chunkier sole for an edgier feel. Another option is a pair of leather loafers with a modern twist, maybe with a metallic detail or a slightly squared toe. Does that sound like something you'd be interested in?",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.86,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Chelsea boots are okay, but I'm not sure about loafers. I've never really been able to pull them off. What makes a loafer 'edgy' anyway? Aren't they kind of, well, boring?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair point! Not all loafers are created equal. When I say 'edgy,' I'm referring to loafers that incorporate unexpected details. Think thicker, lug soles (like on some boots), metallic hardware (chains, buckles), or unconventional materials like textured leather or even incorporating elements of a sneaker design. These details elevate the loafer beyond the traditional, preppy look. If you're still hesitant, we can explore other options. How about trying a sleek pair of leather sneakers? Many brands offer premium leather sneakers with minimalist designs that can be dressed up or down.",
+      "response_time": 4.02,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.66,
+        "integrity": 4.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_321a72d3",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.8,
+      "benevolence": 3.76,
+      "integrity": 4.19
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 4.35,
+    "latency_score": 3.95
+  }
+}

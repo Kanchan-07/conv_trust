@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help with a home improvement project. I'm planning to install a new kitchen faucet and I've never done anything like this before.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Installing a kitchen faucet can be a manageable DIY project. To get started, I'd recommend gathering all the necessary tools: adjustable wrench, basin wrench, plumber's tape, a bucket, and a flashlight. Do you have all of those?",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.42,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've got most of those, but what's a basin wrench? I've never heard of that. And are there any brands of faucets I should avoid?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "A basin wrench is a specialized tool designed to reach the nuts that secure the faucet to the sink, which are often in tight spaces. Regarding faucet brands to avoid, that's a challenging question, as it largely depends on personal experiences and specific models. Generally, brands like Moen and Delta are well-regarded, but it's best to read reviews for the specific model you're considering. I'd advise checking consumer reports. Can you tell me about your existing plumbing setup?",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 3.69,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, this is already more complicated than I thought. Okay, I'll try to describe the plumbing. Underneath the sink, I see two water supply lines connected to shut-off valves, and then the faucet's existing supply lines connect to those. Drainage goes into a standard P-trap. Is that enough info?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, that's a good start. Before you start, turn off the water supply to both the hot and cold water lines. Then, place a bucket under the P-trap to catch any water that might remain in the pipes. Next, disconnect the water supply lines from the old faucet. Loosen the mounting nuts using the basin wrench, and remove the old faucet. Would you like me to elaborate on any of these steps?",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.16,
+        "integrity": 4.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_69e41887",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.19,
+      "benevolence": 4.42,
+      "integrity": 4.47
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.94,
+    "latency_score": 3.47
+  }
+}

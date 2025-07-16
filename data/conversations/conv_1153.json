@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about claim #20231027-4482. It's been over a month since I filed, and I haven't heard anything! What's going on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. I understand your frustration. Let me pull up claim #20231027-4482. Okay, I see it here. It's currently in the review stage. We're waiting on a final assessment report from the auto body shop.",
+      "response_time": 3.02,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.4,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "A month for a report? Seriously? Is there anything you can do to speed things up? I need my car!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I can certainly reach out to the body shop and request an update and emphasize the urgency of the situation. I will make a note on the claim file indicating your need for the car. Is there anything else I can help you with today?",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.78,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, actually. This might be a dumb question, but if the accident was clearly the other driver's fault and their insurance is paying, why does my insurance even need to be involved? It seems like an unnecessary step.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a perfectly valid question. While the other driver's insurance is primarily responsible, your policy provides coverage for your damages as well. This is done to expedite the repair process. Your insurance company may then pursue subrogation against the at-fault party to recover the costs. This can sometimes be faster than dealing directly with the other insurance company, especially if there are disputes about liability. Additionally, your policy may offer coverages that the other driver's policy does not, such as rental car reimbursement. I hope this helps to clarify things.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.98,
+        "integrity": 5.16
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_21b71041",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.01,
+      "benevolence": 5.39,
+      "integrity": 4.78
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "surprise": 2,
+      "anger": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.15,
+    "latency_score": 3.33
+  }
+}

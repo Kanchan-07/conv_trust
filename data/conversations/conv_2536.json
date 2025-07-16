@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have an important job interview coming up next week for a data scientist role at TechCorp. I'm feeling pretty nervous and could use some help preparing.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Congratulations on landing the interview at TechCorp. I can certainly help you prepare. To start, could you tell me a bit more about the role and what areas you feel you need the most practice with? For example, are you looking to focus on technical questions, behavioral questions, case studies, or something else?",
+      "response_time": 5.03,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.07,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks! It's mostly technical and behavioral. I'm okay with the general data science stuff, but I always struggle with behavioral questions, like 'tell me about a challenge' or 'where do you see yourself in 5 years'. Also, I'm worried about their specific coding challenges or theoretical questions on less common topics.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, behavioral and technical focus areas. For behavioral questions, it's good to prepare examples using frameworks like STAR (Situation, Task, Action, Result). For technical questions, review common data science algorithms, concepts, and practice coding. Are there any specific algorithms or concepts you're unsure about?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.91,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I know about STAR, but it's still hard to think of good examples on the spot. Like, how do you answer 'Tell me about a time you failed'? I haven't had any *major* professional failures, just small setbacks, and I worry those won't sound significant enough. It's really frustrating trying to come up with something authentic but also impactful.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very common concern with the 'failure' question. You don't need a catastrophic event. The interviewer is often more interested in your ability to self-reflect, learn from mistakes, and demonstrate resilience. Choose a situation, even a smaller one, where things didn't go as planned due to something you did or didn't do. Clearly explain the situation, your role, what went wrong, and most importantly, what you learned from it and how you applied that learning to future situations. Frame it around growth and lessons learned, not just the negative outcome. Would you like to brainstorm a specific example based on this approach?",
+      "response_time": 1.91,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.88,
+        "benevolence": 2.41,
+        "integrity": 2.66
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that explanation helps a lot, focusing on the learning part makes sense. It feels less like I need a dramatic story now. Yes, let's try brainstorming one example following that structure.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_93a09e80",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.28,
+      "benevolence": 3.8,
+      "integrity": 4.05
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 4
+    },
+    "response_quality_score": 3.59,
+    "latency_score": 4.31
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that's late. The tracking number is 1234567890.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the tracking number. Let me look that up for you. One moment please... Okay, I see the package is currently in transit and is expected to be delivered tomorrow.",
+      "response_time": 5.44,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.44,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Tomorrow? But the original delivery date was last week! I'm getting really frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, sir/madam. There was a delay due to unforeseen circumstances at the distribution center. We apologize for the inconvenience.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? What exactly does that *mean*? And why wasn't I notified?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Regarding the specifics of the delay, I, unfortunately, don't have that information available. As for notifications, sometimes they don't go out. I see in the system that an email was sent, however.",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.65,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Well, I didn't get an email. So, what are my options? Is there anything I can do?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Since the package is expected to be delivered tomorrow, you can wait for it. If it doesn't arrive, please contact us again and we can initiate a claim.  We can also offer you a 10% discount on your next purchase as compensation for the delay.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.01
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, a discount is appreciated. I guess I'll wait until tomorrow. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. We appreciate your patience. Is there anything else I can assist you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 6.56,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_775916e2",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.7,
+      "benevolence": 3.53,
+      "integrity": 3.77
+    },
+    "engagement_score": 4.78,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.67,
+    "latency_score": 4.27
+  }
+}

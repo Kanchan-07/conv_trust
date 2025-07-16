@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my wireless speaker just stopped working. It was fine yesterday, but now it won't turn on at all.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear your speaker isn't turning on. To help troubleshoot, could you please tell me the model number of your speaker and if it's currently plugged into a power source or running on battery?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.0,
+        "integrity": 1.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a SoundBlast 500 model. It was running on battery, but I plugged it in a while ago just in case. Still nothing. This is really annoying, it's brand new!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the model number and details. Please try holding down the power button for about 15-20 seconds. This can sometimes force a reset on the device. Also, ensure the power adapter is securely connected to both the speaker and the wall outlet.",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.7,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I held the button... yep, nothing. And the power cord is definitely in snugly at both ends. Still completely dead. Ugh, what else can I do? It's like it just bricked itself overnight.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Since a forced reset didn't work, let's try plugging it into a different power outlet to rule out an issue with the current outlet. If that doesn't work, please check if there are any indicator lights that briefly flash when you plug it in.",
+      "response_time": 1.68,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.07,
+        "benevolence": 2.2,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I tried another outlet, still no sign of life. No lights flash either, totally dead. Could this be related to a recent software update? I think there was one that installed automatically a few days ago. Is there a known issue with the SoundBlast 500 and the latest firmware version causing power problems?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Firmware updates can sometimes introduce new behaviors, but a complete power failure after an update is uncommon. If you suspect a software issue, you might need to attempt a firmware reinstallation, though that process usually requires the device to be powered on. Let's focus on potential hardware causes first.",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.1,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hardware causes? But it just worked! That answer about firmware isn't very helpful if I can't even turn it on. So, if it's not the outlet, not the cord, not a simple reset, and possibly not firmware I can fix myself, what's the actual next step? Is it just broken?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ca537a18",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.5,
+      "benevolence": 2.5,
+      "integrity": 2.58
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 2,
+      "disgust": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 2.19,
+    "latency_score": 5.68
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new books to read. I'm really into science fiction, any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for science fiction, I can recommend several titles. To give you the best recommendations, could you tell me what subgenres of science fiction you enjoy? For example, do you prefer hard sci-fi, space opera, cyberpunk, dystopian, or something else?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.6,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, that's a good point. I like a bit of everything, but I really enjoyed 'Dune' and the 'Foundation' series. So, space opera and more philosophical sci-fi, I guess. Nothing too...techy, if that makes sense. Cyberpunk's not really my thing.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on that, I would recommend 'A Fire Upon the Deep' by Vernor Vinge, 'Consider Phlebas' by Iain M. Banks, and 'Children of Time' by Adrian Tchaikovsky. These all have elements of space opera and philosophical themes similar to 'Dune' and 'Foundation'.  I am currently unable to determine if you have read these books.  Would you like a brief synopsis of any of those?",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 3.53,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wow, those all sound interesting. I've heard of 'Consider Phlebas', but not the others. Okay, I'll bite: what's the deal with 'A Fire Upon the Deep'? And, honestly, how does your system know what I've already read? That seems a little advanced for a book recommendation bot.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": " 'A Fire Upon the Deep' is a complex space opera set in a universe where different regions have different laws of physics and technological capabilities. As for how my system knows what you've read - my apologies, it doesn't. I'm still under development and can't access your personal reading history. My comment about your having read those books was an error. I can, however, provide brief summaries of other books, and even compare and contrast recommended books. Would you like me to do either of those things?",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.13,
+        "benevolence": 2.73,
+        "integrity": 2.21
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ah, okay. Thanks for clarifying! No worries, I understand. A brief synopsis of 'A Fire Upon the Deep' sounds good, and maybe a few more recommendations based on that one.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8a9c05ad",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.91,
+      "benevolence": 3.95,
+      "integrity": 4.16
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4,
+      "joy": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.66,
+    "latency_score": 4.35
+  }
+}

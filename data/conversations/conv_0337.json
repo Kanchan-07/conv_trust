@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new coffee maker. I've been using a French press for years, but I'm ready to upgrade. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your interest in upgrading from a French press, which emphasizes manual brewing and flavor, I recommend exploring either a drip coffee maker with programmable features for convenience, or perhaps a pour-over system for enhanced control over the brewing process. Do either of those sound interesting?",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.3,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, pour-over sounds a bit too similar to what I'm doing now. What kind of drip coffee makers are popular? I'd like something reliable and not too complicated. I'm tired of things breaking on me after a year.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Many customers have had positive experiences with the OXO Brew 9-Cup Coffee Maker and the Breville Precision Brewer. Both are known for their durability and consistent brewing. Would you like me to provide more detailed information or comparisons of these models?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.21,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, tell me more about the Breville Precision Brewer. That sounds fancy. Is it really worth the price tag?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Breville Precision Brewer offers a range of customization options, including adjustable bloom time, brew temperature, and flow rate, allowing you to fine-tune your coffee to your exact preferences. It also features preset modes for different brewing styles like Gold Cup and Fast. Many users find that these features, combined with its precise temperature control, justify the cost, resulting in a significantly improved coffee experience. However, if you're primarily seeking simplicity and don't require advanced customization, other options may be more suitable.",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.38,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But here's my real question: How does it *actually* make the coffee taste better? All these fancy settings seem like marketing fluff. Can you give me a scientific reason why adjusting the bloom time or temperature actually matters?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Brew temperature affects the extraction of different compounds from the coffee grounds. Lower temperatures can result in sour or weak coffee due to under-extraction, while excessively high temperatures can lead to bitter flavors from over-extraction. The ideal temperature range is generally between 195-205\u00b0F. Bloom time is the initial saturation of the grounds, which allows CO2 to escape. Proper blooming helps ensure even extraction by allowing the water to fully penetrate the grounds. If the grounds aren't properly saturated, CO2 can create pockets that prevent full water contact, leading to uneven extraction and a less flavorful cup.",
+      "response_time": 4.0,
+      "emotion_detected": "disgust",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.26,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow, okay, that makes a lot more sense. Thanks! I think I'll look into the Breville more closely then.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bd170fc2",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 4.79,
+      "integrity": 4.86
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.16,
+    "latency_score": 3.34
+  }
+}

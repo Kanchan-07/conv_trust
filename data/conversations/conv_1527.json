@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to check my bank account balance. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that. Please verify your identity by providing your account number and the last four digits of your social security number.",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.54,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, account number is 1234567890, and last four of SSN are 1234. What is my current balance?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Your current balance is $1,234.56. Is there anything else I can help you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.81,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, actually. I noticed a charge for $50 last week from 'XYZ Corp'. I don't recognize that. Can you give me more details about that transaction?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I am currently unable to provide details about individual transactions. Due to privacy regulations, I do not have access to the transaction history data in this chat interface. However, I can direct you to the online banking portal or mobile app where you can view transaction details.",
+      "response_time": 2.21,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.74,
+        "benevolence": 2.04,
+        "integrity": 2.26
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. Okay, I'll go look there. Thanks anyway.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_651695d6",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.1,
+      "benevolence": 4.86,
+      "integrity": 5.03
+    },
+    "engagement_score": 4.89,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.39,
+    "latency_score": 3.66
+  }
+}

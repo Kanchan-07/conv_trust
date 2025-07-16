@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready to start the physics tutoring session. I'm really struggling with projectile motion. Can we go over some examples?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Projectile motion can be tricky. Let's start with a basic example. Imagine a ball is thrown horizontally from a height of 10 meters with an initial velocity of 5 m/s. Can you tell me how long it will take to hit the ground?",
+      "response_time": 5.63,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 6.59,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay, so I remember something about gravity... But I'm not sure how to set up the equations. This is exactly what I get confused about! Can you walk me through it step-by-step?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! First, we consider the vertical motion. We know the initial vertical velocity is 0 m/s (since it's thrown horizontally), the displacement is -10 m (downwards), and the acceleration due to gravity is -9.8 m/s\u00b2. Using the equation d = v\u2080t + (1/2)at\u00b2, we can solve for time (t). So, -10 = 0*t + (1/2)*(-9.8)t\u00b2. Solve for t, and you have the answer. Now, for a more challenging question, what if we consider air resistance?",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.3,
+        "integrity": 5.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait, air resistance? That's going to be way more complicated, right? I'm not sure I can handle that right now. Thanks, this was helpful, though. I think I get the basics of the no-air-resistance scenario now. Let's move on to something else for today.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7816fc0b",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.33,
+      "benevolence": 5.95,
+      "integrity": 6.3
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.93,
+    "latency_score": 3.03
+  }
+}

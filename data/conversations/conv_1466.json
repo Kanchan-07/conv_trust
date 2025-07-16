@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some book recommendations. I really enjoy fantasy novels.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. For fantasy, are there any specific subgenres you prefer? For example, epic fantasy, urban fantasy, or something else?",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.73,
+        "integrity": 5.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm not sure. I guess I like the kind with magic systems and maybe a bit of world-building, not necessarily elves and dwarves though. Something a bit different, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay! Based on that, I'd recommend trying 'The Lies of Locke Lamora' by Scott Lynch (Gentleman Bastards series). It has a unique magic system and a lot of clever world-building, but I am not sure of the exact plot. Also, 'Jonathan Strange & Mr Norrell' by Susanna Clarke is a good choice if you like something more historical, and less action-packed. Are these helpful?",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 4.26,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Lies of Locke Lamora sounds interesting, I'll check it out! But... I'm curious, how do you decide which books to recommend? Is it based on reviews, or some algorithm, or...?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! My recommendations are based on a combination of factors. I use a large dataset of books and reviews. I also analyze the relationships between books, authors, and genres, looking for patterns. I consider user preferences and reviews to refine the recommendations. Sometimes, I include human input to improve the choices. I hope this is helpful.",
+      "response_time": 4.24,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, thanks! That's a good start. I'm excited to try 'The Lies of Locke Lamora'.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b31a3675",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.68,
+      "benevolence": 5.66,
+      "integrity": 5.45
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 5.88,
+    "latency_score": 3.47
+  }
+}

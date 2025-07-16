@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I just got an eviction notice from my landlord and I'm really worried. I don't think it's valid. What should I do?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. Receiving an eviction notice can certainly be stressful. Please know that I am an AI and cannot provide legal advice. However, I can offer general information based on common legal principles. To give you relevant information, could you share a few details? For example, what is the reason stated in the notice, what state/jurisdiction are you in, and how much notice did they give you?",
+      "response_time": 2.8,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.29,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm in California. The notice says 'failure to pay rent,' but I paid it two days late because of an unexpected bank issue. I paid it BEFORE I got this notice, which was yesterday. The notice is a 3-day notice to pay or quit, but I already paid! This just feels wrong and confusing.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing those details. In California, a landlord typically issues a 3-day notice to pay rent or quit if rent is unpaid. If the tenant pays the full amount of rent due within those three days, the landlord is usually required to accept the payment and the eviction process related to that specific notice should stop. However, timing is crucial.",
+      "response_time": 5.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.83,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Right, timing. So, I paid it *before* I got the notice yesterday. Does the fact that I paid it before they even *served* the notice make their notice invalid? Or does it count that I paid within the 3 days *after* they served it? This is what's tripping me up. The notice is dated one day, but I got it the next. Which date matters?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a critical point. Generally, a notice to pay or quit is considered served on the day it is properly delivered to you, following specific legal procedures. The 3-day period usually begins the day after proper service. Whether payment made before service invalidates a notice can depend on the exact sequence of events and local court interpretation. It's not a simple yes or no, as the notice is for *unpaid* rent. If it was paid *before* the notice was validly served, it raises questions about the notice's premise. However, specific legal validity depends on many factors.",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 4.09,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's exactly the confusing part! So you can't definitively tell me if their notice is likely invalid since I paid before they gave it to me? I need to know if I should even worry about this 3-day deadline or if the notice is just moot.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, determining the definitive legal validity of the notice in your specific situation requires interpreting your actions, the landlord's actions, and applying California law precisely. This is something only a legal professional can do. I strongly recommend contacting a tenant's rights organization or a legal aid society in your area. They specialize in these matters and can provide advice specific to your case.",
+      "response_time": 2.83,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.42,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, getting a real lawyer makes sense. Thanks for pointing me in that direction. How do I even find a tenant's rights group or legal aid in California?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You can find tenant's rights groups or legal aid in California by searching online for '[Your City/County] tenant rights' or 'legal aid California'. The State Bar of California also has a lawyer referral service, and some courts have self-help centers or lists of local resources. Many of these services offer free or low-cost consultations for housing issues.",
+      "response_time": 5.91,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.74,
+        "integrity": 5.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8389da09",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.57,
+      "benevolence": 4.87,
+      "integrity": 4.68
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "fear": 2,
+      "anger": 2,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.79,
+    "latency_score": 3.26
+  }
+}

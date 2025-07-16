@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to figure out why my recent AR claim was denied. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that. To start, could you please provide me with the claim number and the date of service?",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.88,
+        "benevolence": 5.31,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890 and the date of service was 2024-03-10.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm accessing the details now. The denial reason seems to be 'Missing/Invalid Diagnosis Code'.  Could you confirm the diagnosis code used?",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.52,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating! I'm pretty sure the diagnosis code was correct. It was for a routine check-up, so it should have been Z00.00. Is there a way to check against my chart notes?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I can access limited information from your chart notes to verify the information. However, I don't have access to the entire chart. I can see that the system registered the diagnosis code as Z00.00. The denial reason indicated it was invalid. This typically means the payer doesn't recognize it, or it's not linked to the procedure performed. I recommend checking with your provider. It is probably easier.",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.98,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, I guess. But why would the payer not recognize a standard check-up code? That seems crazy. Also, can you tell me the exact procedure codes that were billed?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The procedure codes billed were 99212, 99213, and 99214. Regarding the denial, I apologize, I am not able to provide specific details on payer policies, but I suggest contacting your insurance provider directly to better understand why this diagnosis code was denied. My knowledge of payer policies is limited. I'd also recommend you check with your provider's billing department. ",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.1,
+        "benevolence": 1.25,
+        "integrity": 1.19
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, thanks for the information. I'll follow up with them. Appreciate your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_538118e1",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.12,
+      "benevolence": 4.01,
+      "integrity": 4.24
+    },
+    "engagement_score": 5.14,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.27,
+    "latency_score": 4.43
+  }
+}

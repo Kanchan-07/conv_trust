@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that's supposed to have been delivered yesterday. The tracking says it's still in transit.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly look into that for you. Could you please provide me with your tracking number?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.36,
+        "benevolence": 1.0,
+        "integrity": 1.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's ABC123XYZ. Honestly, I'm getting a bit frustrated. I needed this package by today.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check the status of your package. Hmm, it appears there was a delay due to unforeseen circumstances. The current estimated delivery date is tomorrow. I apologize for the inconvenience.",
+      "response_time": 0.6,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.44,
+        "benevolence": 1.25,
+        "integrity": 1.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? What does that even mean? Why wasn't I informed? And what's the guarantee that it'll actually arrive tomorrow?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have specific details about the nature of the delay. However, I can assure you that we are doing everything we can to get your package to you as quickly as possible. As for a guarantee, we don't provide absolute guarantees, but the tracking information has been updated to reflect a delivery attempt tomorrow. I can also escalate this issue if the package doesn't arrive by end-of-day tomorrow.",
+      "response_time": 4.19,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.24,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I suppose that's all I can do at this point. Can you at least provide me with a way to follow up if it's not delivered tomorrow?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely. You can call this same number, and reference this tracking number, ABC123XYZ, and we'll assist you further. We will also send you an email with the tracking information and a link to our customer support portal where you can track updates. Is there anything else I can help you with?",
+      "response_time": 5.89,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.99,
+        "integrity": 6.68
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ce14de79",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.45,
+      "benevolence": 3.37,
+      "integrity": 3.29
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 2,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.15,
+    "latency_score": 4.71
+  }
+}

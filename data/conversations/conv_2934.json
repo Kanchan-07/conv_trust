@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm getting really frustrated. My order #123456789 was supposed to be delivered two days ago, and the tracking hasn't updated at all since it left the warehouse a week ago. What's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about the delay with your order. Let me look into this for you. Could you please confirm the email address associated with this order? This will help me verify your details and check the latest status.",
+      "response_time": 6.0,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.53,
+        "integrity": 6.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, the email is [user's email address]. This isn't the first time I've had issues with delivery delays either! Last time it was late, and now this one seems lost. What are you going to do about this? Not just finding the package, but are you offering any compensation for the inconvenience and the repeated problems I'm having?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing your email. I've accessed your order details. It appears there may be an unexpected delay in transit. I will escalate this to our shipping partner immediately to get an update on the package's location and expected delivery date. Regarding compensation, our policy typically considers options once a package is confirmed lost or significantly delayed beyond the estimated window. We will follow up with you via email as soon as we have a definitive update on the tracking status.",
+      "response_time": 5.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.95,
+        "integrity": 5.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_66a84fbe",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.04,
+      "benevolence": 6.24,
+      "integrity": 5.94
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 1,
+      "sadness": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 6.26,
+    "latency_score": 1.61
+  }
+}

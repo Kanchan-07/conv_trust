@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview for a software engineer position next week. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can definitely help you prepare. To get started, what specific areas are you concerned about? Are you looking for help with technical questions, behavioral questions, or something else?",
+      "response_time": 5.01,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.56,
+        "benevolence": 6.76,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, I'm worried about everything. I'm a bit rusty on data structures and algorithms, and I always stumble on the 'tell me about a time when...' questions. Can you help with both?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, I can assist with both. For data structures and algorithms, I can provide practice questions and explanations. For behavioral questions, I can help you formulate answers using the STAR method (Situation, Task, Action, Result). Let's start with a basic algorithm question: Explain the difference between a stack and a queue, and provide a real-world example of where each would be used.",
+      "response_time": 5.04,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.56,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I can answer that. But...what if they ask me about a really niche algorithm? Like, how would I explain the time complexity of a distributed consensus algorithm like Paxos, or something equally obscure? I'm not sure I know enough.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good point. While I can provide information on many algorithms, including Paxos and its time complexity, my responses may not always be as in-depth as a seasoned expert. For highly specific and complex topics, you might find more detailed explanations and examples from specialized resources like academic papers or online forums. I can, however, help you break down the fundamental concepts and guide you toward relevant resources to understand the more obscure algorithms.",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.5,
+        "integrity": 3.83
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4733f78d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.63,
+      "benevolence": 5.27,
+      "integrity": 5.33
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "fear": 1
+    },
+    "response_quality_score": 5.03,
+    "latency_score": 2.85
+  }
+}

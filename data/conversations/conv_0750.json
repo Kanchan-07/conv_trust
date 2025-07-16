@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York to Los Angeles sometime in mid-October. I'm flexible with the exact dates, but I'd prefer a direct flight if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me search for direct flights from New York (any airport?) to Los Angeles (any airport?) in mid-October. Could you specify the date range in October you are considering?",
+      "response_time": 2.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 4.37,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, any airport in New York is fine. And for Los Angeles, LAX is preferred. As for the dates, anything between October 12th and October 20th would work.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for direct flights from New York (any airport) to LAX between October 12th and October 20th. One moment...",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.6,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks. I'm also interested in hotels, but let's get the flight sorted first. It's always such a pain finding good flights.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I see a few options for direct flights. On October 15th, United has a flight departing from Newark (EWR) at 8:00 AM arriving at LAX at 11:00 AM for $450. Would you like to see other options, or does this sound good?",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 4.31,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, $450 is a bit steep. Are there any cheaper options, even if it means flying on a different day within that range? I'm really trying to keep the cost down.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me check again. Unfortunately, the fares are fluctuating rapidly. I am now showing fares as high as $600 for direct flights within your range. Perhaps a flight with one layover might be more economical?",
+      "response_time": 1.73,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.5,
+        "benevolence": 2.08,
+        "integrity": 2.63
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. Okay, show me the options with one layover then. But what guarantees do I have that the price won't jump even higher before I actually book? I've had that happen before and it's infuriating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I cannot guarantee the price won't change, as airlines adjust fares in real-time based on demand, I can tell you that the prices I am seeing are the most up-to-date available. Booking sooner rather than later usually helps lock in a price. Let me search for flights with one layover...",
+      "response_time": 3.55,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.39,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b3d03a5c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.9,
+      "benevolence": 3.95,
+      "integrity": 4.13
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 3.52,
+    "latency_score": 4.67
+  }
+}

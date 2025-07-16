@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my job application. Specifically, the cover letter. I'm really struggling to write a good one.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with your cover letter. To get started, could you tell me the job you're applying for and a little about your relevant experience?",
+      "response_time": 4.71,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.74,
+        "benevolence": 6.89,
+        "integrity": 6.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for a Software Engineer position at Google. I have 3 years of experience in Java and Python. I'm particularly good at problem-solving, and I have a portfolio of projects on GitHub. Ugh, I just don't know where to start though.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Based on that, you could start by highlighting your problem-solving skills and mentioning your GitHub portfolio. Focus on quantifiable achievements in your previous roles. For instance, instead of saying 'I improved code quality,' try 'Improved code quality by 15% resulting in faster processing times.' Would you like me to generate a template for you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.7,
+        "benevolence": 6.97,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That template sounds good. But how do I quantify achievements when it wasn't directly measured in my previous jobs? I mean, I know I improved things, but I don't have specific numbers for everything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! In that case, you can estimate. For example, if you debugged a critical system, you could estimate the time saved or the potential losses prevented. You can say something like, 'Reduced system downtime by an estimated X hours per month, minimizing potential financial impact.' If you remember things like how your solutions streamlined tasks or saved time, that's a good starting point. I recommend using tools like 'impact assessment calculators' for certain activities. The specifics of how to estimate depend on the role and your actions.",
+      "response_time": 4.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.59,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. It's still a little tricky, but that's a good start. What else should I include? I don't want it to be just about my skills; I want to show them that I'm interested in *their* company.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Absolutely! Research Google's mission, values, and recent projects. Mention specific initiatives or areas that resonate with you, showing you understand their goals. Tailor your letter to the job description \u2013 highlight skills that match their requirements. Good luck!",
+      "response_time": 4.98,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b6a61ade",
+    "average_trust_score": 6.62,
+    "trust_category_averages": {
+      "competence": 6.57,
+      "benevolence": 6.61,
+      "integrity": 6.54
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 6.38,
+    "latency_score": 2.39
+  }
+}

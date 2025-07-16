@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I'm really into sci-fi, but I'm kind of bored with the usual space operas. Something a little different, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I understand. How about \"Project Hail Mary\" by Andy Weir? It's a science fiction novel with a focus on problem-solving and discovery, and it's not primarily about space battles or galactic empires. It's received widespread acclaim.",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 3.72,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've actually read that one already. It was pretty good! Anything else that's similar, but maybe a little less...popular?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! Have you considered \"A Fire Upon the Deep\" by Vernor Vinge? It explores themes of advanced technology and civilizations in different zones of space, with each zone adhering to different laws of physics. It's considered a classic of the genre, but perhaps less mainstream than Andy Weir.",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.9,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds interesting! What makes it different from other sci-fi novels with 'advanced civilizations'? I've read a lot of those and they end up being the same old thing.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "\"A Fire Upon the Deep\" distinguishes itself through its concept of Zones of Thought, which dictate the level of technological and mental capability achievable within specific regions of space. This creates a unique and complex world where characters' abilities and the nature of societies are fundamentally shaped by their location. Additionally, the novel features diverse alien species with distinct motivations and philosophies, challenging common tropes found in space opera. Is there anything else I can help you with?",
+      "response_time": 4.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.99,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, the Zones of Thought sound really cool. Okay, one more. Let's switch gears. I'm also in the mood for some good fantasy, but not Tolkien-esque stuff. I want something darker, more morally gray. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You might enjoy \"The Prince of Nothing\" by R. Scott Bakker. It's a grimdark fantasy series known for its philosophical depth, complex characters, and morally ambiguous themes. Be warned, it's quite graphic and explores mature subjects.",
+      "response_time": 3.32,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 4.35,
+        "integrity": 4.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0c544abc",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.43,
+      "benevolence": 4.49,
+      "integrity": 4.4
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 3,
+      "sadness": 1
+    },
+    "response_quality_score": 4.42,
+    "latency_score": 3.97
+  }
+}

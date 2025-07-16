@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my smart toaster oven isn't working. I can't get it to turn on at all.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear your toaster oven isn't working. Let's troubleshoot this. First, can you please confirm that it's plugged into a working outlet and that the outlet isn't controlled by a switch that's turned off?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, it's plugged in, and the outlet is fine. I've even tried a different outlet. Still nothing! I'm starting to get really frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your frustration. Could you please try a hard reset? Unplug the toaster oven, wait 60 seconds, and then plug it back in. See if that resolves the issue.",
+      "response_time": 3.87,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.31,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I just tried that. Still nothing. Is there anything else I can do? Honestly, I'm starting to wonder if it's just a faulty unit.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check our troubleshooting guides. Hmm... Okay, another common issue is with the internal fuse. Unfortunately, accessing and replacing the fuse requires taking the unit apart, which can void the warranty. Are you comfortable with that, or would you prefer to pursue a warranty claim?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.21,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait a minute. What if it's not the fuse, but rather a software issue? This is a smart appliance, right? Shouldn't there be a way to reset it or check for software updates? I feel like you are suggesting I void my warranty right now",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You are absolutely right. Let me check for any known software issues. I apologize for missing that step. Let's try this: Can you hold down the 'Start' button for 10 seconds while the unit is plugged in? If that doesn't work, I will provide instructions for a warranty claim.",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.86,
+        "benevolence": 6.5,
+        "integrity": 6.68
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d8470e8e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.88,
+      "benevolence": 4.0,
+      "integrity": 3.9
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 3,
+      "surprise": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.63,
+    "latency_score": 4.39
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I just got my bill and there's a charge here that I don't understand. It's for $15 extra this month.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help you with that. Could you please provide your account number or the email address associated with your account so I can look up the details of your recent bill?",
+      "response_time": 5.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.6,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my account email is [user_email@example.com]. This charge is on the bill dated [date]. I'm really confused, I didn't sign up for anything new.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that. I see your account here. The $15 charge appears to be related to a service upgrade. Sometimes promotional periods end or a feature is added to your plan.",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.01,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A service upgrade? I didn't request any upgrade! And if my plan changed or a promo ended, shouldn't I have been notified *before* I was charged extra? How can I trust my bill if charges just show up unexpectedly?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. We do aim to notify customers about changes, typically via email. I apologize if you did not receive a clear notification in this instance. Let me look into the specific reason for this charge and see if we can make an adjustment or ensure this doesn't happen again without proper notice. As a gesture, I can apply a one-time credit for the $15 charge this month.",
+      "response_time": 0.51,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.5,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that credit helps, thank you. Please do make sure I get notified about any future changes. I appreciate you looking into it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_937d0cd0",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.11,
+      "benevolence": 4.04,
+      "integrity": 3.87
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 3.56,
+    "latency_score": 4.25
+  }
+}

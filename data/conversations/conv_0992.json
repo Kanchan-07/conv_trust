@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm writing to inquire about my order, #4592-2023. It was supposed to arrive three days ago, and the tracking hasn't updated since then. I'm getting a bit concerned.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I understand your concern about order #4592-2023. Let me check the tracking information for you. One moment please.",
+      "response_time": 5.24,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I really needed that package by now. It has some birthday presents in it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see that the package is currently delayed at our regional distribution center due to unforeseen weather conditions. We expect it to be back on track within 24-48 hours. I apologize for any inconvenience.",
+      "response_time": 3.71,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.88,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Weather? Really? The weather has been perfectly fine here. And that's what the tracking said *three* days ago. Is there any way to get a more accurate estimate? And what are you going to do to make this right? This is pretty frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While the weather may be clear in your area, the distribution center is experiencing delays. Let me look into expediting the delivery once it leaves the center. As a gesture of goodwill for the inconvenience, I can offer you a 10% discount on your next order. Would that be acceptable?",
+      "response_time": 1.84,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.21,
+        "benevolence": 2.86,
+        "integrity": 2.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, a discount is something, I guess. But what if it's not delivered in the next 48 hours? What happens then? I need to know there's a backup plan if 'weather' keeps delaying it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fb7b8565",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.28,
+      "benevolence": 4.58,
+      "integrity": 4.38
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2,
+      "sadness": 1,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.73,
+    "latency_score": 3.9
+  }
+}

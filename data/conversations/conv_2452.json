@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey AI, I'm joining my first hackathon this weekend! Pretty excited but also a little overwhelmed with where to start. What's the best way to quickly scope down an idea that's actually achievable in 48 hours?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! That's fantastic, and completely normal to feel a bit overwhelmed initially. To quickly scope down an idea, focus on a core problem you can solve minimally. Define the single most important feature (the 'Minimum Viable Product' or MVP) and build only that. Avoid adding non-essential features early on. Think about what's unique or interesting about your idea and build just enough to showcase that concept effectively within the time limit. Good luck!",
+      "response_time": 3.9,
+      "emotion_detected": "surprise",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.34,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, MVP makes sense. But my team is really struggling with data sources. We want to build something with live traffic data, but most public APIs have strict rate limits or require complex authentication we don't have time for. It's frustrating, we have a cool idea but feel blocked by data access. Are there any clever ways to get access to real-time, high-volume data during a hackathon without hitting these common roadblocks?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Accessing real-time, high-volume data under hackathon constraints can indeed be difficult. Public APIs often have limitations. You could explore simulated data if the core logic of your project doesn't strictly require live, production data. Alternatively, some hackathons provide access to specific datasets or partner APIs during the event. Checking the hackathon's resources page might reveal options.",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.81,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Simulated data won't work for our concept, it relies on live traffic flows to show its value. And no, the hackathon hasn't provided any specific traffic data API. This is exactly the challenge - how do *experienced* hackathon teams get around this? Do they just scrape things non-stop and hope they don't get blocked? There must be some less conventional methods or resources I'm missing besides just 'check the hackathon resources' or 'use simulated data', right? I'm getting really stuck here.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration; relying on live, specific data is critical for your concept. Experienced teams often prepare data strategies beforehand. For hackathons specifically, some strategies might include: looking for data aggregators that *might* offer temporary developer access (though rare for high-volume live feeds), exploring data marketplaces that could have trial access, or focusing the project scope slightly to use open, less restricted datasets that proxy the concept (e.g., using historical data or a more limited, but free, API to *demonstrate* the idea's logic, and stating in your pitch that live data would be integrated post-hackathon). Direct scraping is generally unreliable and against terms of service for many sources, making it risky for a time-boxed event. Focusing on demonstrating the *logic* with available data, rather than requiring full live coverage, is often the most pragmatic approach under pressure.",
+      "response_time": 1.36,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.54,
+        "integrity": 2.38
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_11aca397",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.78,
+      "benevolence": 3.9,
+      "integrity": 4.09
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "surprise": 2,
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 3.75,
+    "latency_score": 4.44
+  }
+}

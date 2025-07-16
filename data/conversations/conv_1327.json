@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with the concept of the central limit theorem. Could you help me understand it?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. The Central Limit Theorem (CLT) is a fundamental concept in statistics. Basically, it states that the distribution of the sample means approximates a normal distribution, regardless of the original population's distribution, *given a sufficiently large sample size*. Do you want me to elaborate on any part of that, or would you like an example?",
+      "response_time": 4.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.69,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, an example would be great. I'm a little lost on how it applies in practice.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Let's say we have a large population of people and we measure their heights. The distribution of heights in the population is likely not perfectly normal. However, if you take many samples of, say, 30 people each and calculate the *average* height for each sample, the distribution of those sample averages will tend to be a normal distribution. Does that make sense?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.9,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I think so. So, even if the original data isn't normally distributed, the means of samples *will* be? What if the original data is heavily skewed?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Exactly! Even with skewed data, the CLT still applies, *provided your sample size is large enough*. The larger the sample size, the better the approximation to a normal distribution. Skewness will still have some effect on the distribution of means for smaller sample sizes, but it becomes less significant as the sample size increases. For heavily skewed distributions, you might need a larger sample size (e.g., n>30) to see the effects of CLT. Would you like me to generate a visualisation of this?",
+      "response_time": 5.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.45,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I'm starting to get it. But, what if the original data is uniform? Like, if I roll a fair six-sided die many times and take the averages of sets of rolls. Will the central limit theorem still apply?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a fantastic question! Yes, the Central Limit Theorem *still* applies, even if the original distribution is uniform. The distribution of the averages of multiple dice rolls will approximate a normal distribution. The more dice rolls you average together, the closer the distribution of the averages will be to a normal distribution. Try simulating that yourself! You can use software or even just a spreadsheet.",
+      "response_time": 5.7,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.84,
+        "integrity": 6.94
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow, that's actually really cool. Thanks, I think I understand it now. I feel much less confused! Can we go over some practice problems now?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Absolutely! Let's do it. Here's a practice problem to get us started...",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.17,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_20ce2608",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 4.58,
+      "integrity": 4.53
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 7,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 3.47
+  }
+}

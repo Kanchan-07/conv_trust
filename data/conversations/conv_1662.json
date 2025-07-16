@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. I had a car accident last week and I\u2019m not sure where to start.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about your accident. I can certainly help you file a claim. To begin, could you please provide your policy number and a brief description of what happened?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.11,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my policy number is ABC-123-XYZ. The accident was on Tuesday. Another car ran a red light and hit me. I have pictures of the damage and the other driver's insurance information.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please upload the pictures and the other driver's insurance information. Also, do you have a police report? Submitting that will help expedite the process.\n\nAlso, our system says the other driver's insurance information is invalid. Would you like me to open a dispute with them?",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait, invalid?! That's ridiculous! That's what the other driver gave me. What happens now? And I DO have the police report... but I'm not sure how to upload it. And what does 'expedite' even mean? Honestly, this is frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Regarding the other driver's information, we will start an investigation. You don't need to do anything for that right now. As for the police report, click the 'Upload Documents' button at the top of the page. Then select the file. 'Expedite' means we'll try to process your claim more quickly. We anticipate this will take about 3-5 business days, once we receive the police report and the investigation has been completed. Do you have any further questions?",
+      "response_time": 1.86,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.15,
+        "benevolence": 2.39,
+        "integrity": 2.86
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d081fc51",
+    "average_trust_score": 1.5,
+    "trust_category_averages": {
+      "competence": 1.38,
+      "benevolence": 1.5,
+      "integrity": 1.62
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 1.46,
+    "latency_score": 6.52
+  }
+}

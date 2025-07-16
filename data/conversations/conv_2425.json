@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I'm looking for a place to order food. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To give you the best recommendations, could you tell me your current location or the general area you'd like to order from? Also, do you have any preferences for cuisine or budget?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in downtown. Budget is kinda medium, and I'm open to anything. Maybe something with good reviews? It's so hard to choose!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, downtown, medium budget, good reviews, open to anything. Based on those criteria, I recommend checking out 'The Golden Spoon'. It consistently gets high ratings and offers a diverse menu ranging from pasta to steak. Their average entree price is around $20. Would you like me to pull up their menu for you?",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.85,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of that place, but isn't it usually super busy? How reliable are the reviews? Like, are they real people or just bots?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question. The reviews are pulled from a variety of sources, including Yelp, Google Reviews, and other reputable platforms. We employ systems to detect and filter out suspicious reviews; however, I cannot guarantee 100% authenticity, as with any review system. Regarding the wait times, it fluctuates, but I can try to check their estimated wait time for takeout orders if you like. Would you like me to?",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.35,
+        "benevolence": 2.41,
+        "integrity": 2.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, yeah, check the wait time for takeout. And maybe some nearby alternatives, just in case. I'm getting pretty hungry now!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3c4a60e2",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.31,
+      "benevolence": 4.42,
+      "integrity": 4.48
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.43,
+    "latency_score": 3.42
+  }
+}

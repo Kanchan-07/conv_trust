@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why a recent claim was denied. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that. To get started, could you please provide the claim number and the date of service?",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.63,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890 and the date of service was 2024-03-10. I'm already feeling frustrated because I can't seem to find this information myself!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've pulled up claim 1234567890 with a date of service of 2024-03-10. The denial reason is listed as 'Missing Pre-Authorization'. Please note that this is a standard denial reason. Do you want me to elaborate further?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.08,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please elaborate. What exactly does 'Missing Pre-Authorization' mean, and why wasn't it obtained? My doctor's office handled the paperwork, shouldn't they have known?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. 'Missing Pre-Authorization' means that the service you received required prior approval from your insurance provider. In this instance, pre-authorization was needed prior to the date of service, and wasn't received. As for why it wasn't obtained by your doctor's office, that's something they are responsible for. We are not able to know the reasons. I recommend you contact their billing department. Would you like the phone number?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.62,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's... frustrating, but helpful. Is there any way *I* can resolve this now? Can I submit proof of the need for the service or appeal the denial?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, you can definitely appeal the denial. You'll need to submit a written appeal, along with any supporting documentation, such as medical records or a letter from your doctor explaining the need for the service. The appeal instructions and address can be found on the denial notice itself, or I can provide them, but I recommend checking the notice first as they may vary slightly. Are there any other questions I can help you with?",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.24,
+        "integrity": 4.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9c998794",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.18,
+      "benevolence": 3.12,
+      "integrity": 3.58
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 3.09,
+    "latency_score": 5.26
+  }
+}

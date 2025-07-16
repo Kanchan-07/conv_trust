@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm starving. Let's order something. I'm in the mood for Italian, but I'm open to suggestions. I just can't decide!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sounds good! I can help with that. Based on your preference for Italian, I see a few highly-rated restaurants nearby. 'Luigi's Trattoria' has excellent reviews for their pasta dishes, and 'Bella Italia' is known for their wood-fired pizzas. Alternatively, since you're open to suggestions, would you be interested in trying a new Mediterranean place called 'Olive & Vine'? It's gotten some buzz recently.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.57,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Mediterranean sounds good. What are some popular dishes at 'Olive & Vine'?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I am fetching the menu and popular dishes... Hold on... 'Olive & Vine' is very popular. Their most frequently ordered items include the lamb souvlaki platter and the grilled octopus appetizer. Many users also rave about their baklava.",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.31,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, the lamb souvlaki sounds tempting. But I'm trying to be somewhat healthy. How does that compare to, say, the grilled chicken salad in terms of calories and fat content? I know it's hard to say exactly, but a rough estimate would be great.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question. I don't have specific nutritional information for 'Olive & Vine'. However, based on typical recipes for similar dishes, a lamb souvlaki platter is likely to be significantly higher in both calories and fat compared to a grilled chicken salad. The lamb can be quite fatty, and the platter often includes pita bread and tzatziki sauce, adding to the calorie count. A grilled chicken salad, especially if you ask for the dressing on the side, would generally be a healthier option.",
+      "response_time": 2.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.31,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, grilled chicken salad it is! Can you go ahead and order that for me from 'Olive & Vine'? And please, dressing on the side this time! Thanks so much for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're welcome! I have placed an order for a grilled chicken salad with dressing on the side from 'Olive & Vine'. The estimated delivery time is 30-40 minutes. You'll receive a confirmation text shortly. Is there anything else I can assist you with?",
+      "response_time": 4.39,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.75,
+        "benevolence": 6.67,
+        "integrity": 6.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f0b2f05",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.16,
+      "benevolence": 5.21,
+      "integrity": 4.79
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 5.01,
+    "latency_score": 4.04
+  }
+}

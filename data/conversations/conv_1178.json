@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice regarding a potential breach of contract with a construction company. They haven't finished the work on my house, and it's way past the agreed-upon deadline. I'm really frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help you explore your options. To start, could you please provide me with a copy of the contract and any relevant documentation, such as emails or photos of the unfinished work? Also, what specific clauses in the contract do you believe have been breached?",
+      "response_time": 1.39,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.27,
+        "benevolence": 2.83,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I have the contract here. I think it's section 7, about the completion date, and section 12, about 'failure to perform', but honestly, the legalese is a bit confusing. I can send you the contract and some pictures of the unfinished bathroom. Where should I send them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Please upload the documents to this secure link: [secure document upload link]. I will review them carefully. Regarding your concerns about sections 7 and 12, those are indeed common clauses related to completion deadlines and performance. Once I review the documentation, I can provide a more specific assessment of the breach.",
+      "response_time": 5.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.74,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded everything. So, what are my options here? What's the best-case scenario and the worst-case scenario if I decide to pursue legal action? I'm trying to weigh whether it's even worth the hassle.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Generally, if a breach of contract is found, you may be entitled to damages to compensate you for losses incurred as a result of the breach. This could include the cost to complete the unfinished work, any costs you incurred due to the delay, and potentially even consequential damages if they were foreseeable. The worst-case scenario is that a court finds that no material breach occurred, or that your damages are less than you claim. This is often difficult to determine without a full investigation and can be affected by many factors. It's important to note that legal outcomes are not guaranteed.",
+      "response_time": 2.13,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.76,
+        "benevolence": 2.66,
+        "integrity": 2.41
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if the construction company claims 'unforeseen circumstances' caused the delay? What constitutes an 'unforeseen circumstance' in the eyes of the law? Could they just use that as an excuse?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The definition of 'unforeseen circumstances' varies and is highly fact-dependent. Generally, it refers to events that were not reasonably foreseeable at the time the contract was entered into, and which made performance impossible or commercially impracticable. Common examples include natural disasters or significant regulatory changes. They have to prove it made fulfilling the contract impossible. I would need to review the specific details of the contract and their explanation to give a definitive answer.",
+      "response_time": 2.06,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.93,
+        "benevolence": 2.68,
+        "integrity": 2.47
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's really helpful, thank you! I feel much more informed now. I think I'll need some time to consider everything before deciding what to do next.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6980c77f",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.38,
+      "benevolence": 3.48,
+      "integrity": 3.17
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 3.2,
+    "latency_score": 4.79
+  }
+}

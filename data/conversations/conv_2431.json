@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I'm looking to buy a new laptop. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you find a great laptop. To narrow down the options, could you tell me what you'll primarily be using the laptop for? (e.g., work, school, gaming, general browsing) and what's your approximate budget?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.53,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mainly for work, I do a lot of multitasking and run some slightly demanding software, but nothing too heavy like video editing. Budget-wise, I'm looking at something in the mid-range, maybe between $800 and $1200.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for work with multitasking and slightly demanding software in the $800-$1200 range, I recommend looking at laptops with at least an Intel Core i5 or AMD Ryzen 5 processor, 8GB of RAM (16GB is better for heavy multitasking), and preferably an SSD for storage. Brands like Dell (Inspiron/XPS), HP (Pavilion/Envy), and Lenovo (IdeaPad/ThinkPad) offer good options in this category.",
+      "response_time": 2.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.94,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thanks, that gives me a starting point. But honestly, there are still *so* many models even within those series. It's kind of overwhelming! How do I decide between, say, a Dell Inspiron and an HP Envy with similar specs? Is one objectively better for build quality or reliability in this price range?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Both the Dell Inspiron and HP Envy lines are popular choices and offer solid performance for their price. They generally come with standard warranties and are built with durable materials for everyday use. It often comes down to specific model features and personal preference regarding design and keyboard feel.",
+      "response_time": 5.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.33,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That answer wasn't very helpful, it just restated they are popular. I'm trying to understand if one brand or series is known to be *more* reliable or have *better* build quality than the other when comparing similar models around $1000. I'm feeling frustrated because I don't want to make a bad choice.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies, I understand your frustration. While objective, across-the-board differences in reliability at that specific price point can vary model-by-model, user reviews and tech site comparisons often suggest that HP Envy models tend to have a slight edge in terms of premium feel and sometimes build quality compared to the standard Dell Inspiron line. Dell XPS is generally considered higher quality, but that's usually above your stated budget. For reliable work laptops around $1000, both are good, but check recent reviews for specific models you're considering, as quality can fluctuate.",
+      "response_time": 1.9,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.67,
+        "benevolence": 2.68,
+        "integrity": 2.53
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, *that* is much more helpful context. Thanks for explaining the subtle difference and mentioning checking specific models. I appreciate you clarifying after my feedback. I feel much better about narrowing it down now!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_83c59e4c",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.37,
+      "integrity": 4.11
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 4,
+      "surprise": 1,
+      "anger": 2
+    },
+    "response_quality_score": 4.54,
+    "latency_score": 4.08
+  }
+}

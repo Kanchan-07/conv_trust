@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, groceries are killing my wallet. I need some serious recommendations for shopping on a tight budget. Like, *really* tight.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can certainly help with that! To give you the best recommendations, could you tell me your budget for groceries, and roughly how many people you're shopping for?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to stick to just $30 for the week for myself. It feels impossible! And I need things that are relatively healthy, not just ramen noodles every night. Any ideas for making that work, specifically if I want to avoid processed stuff?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, $30 for one person for a week is definitely a challenge, but doable with careful planning. Focusing on whole foods can be tricky on that budget, but here are some staples: dry beans and lentils (very cheap protein), rice or pasta, eggs, and seasonal vegetables like carrots, potatoes, onions, and cabbage which tend to be inexpensive. Buying frozen vegetables can also be a good budget-friendly option for variety. Planning meals around these items will be key.",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.8,
+        "integrity": 3.97
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2207c5cf",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.46,
+      "benevolence": 5.4,
+      "integrity": 5.49
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "disgust": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 5.72,
+    "latency_score": 2.45
+  }
+}

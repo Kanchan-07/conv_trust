@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I'm thinking about joining a hackathon, but I'm feeling super overwhelmed. I've never done one before. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I understand feeling overwhelmed, especially when it's your first hackathon. Let's break it down. First, I recommend finding a hackathon that aligns with your interests and skill level. Websites like Devpost and Eventbrite list many hackathons. Once you find one, carefully review the rules, themes, and judging criteria. This will help you brainstorm relevant project ideas. Any particular area of interest you have (e.g., web development, AI, mobile apps)?",
+      "response_time": 2.26,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.13,
+        "benevolence": 2.75,
+        "integrity": 2.43
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. I'm leaning towards something AI-related, since I've been dabbling in Python and machine learning. But, like... how do you even come up with a good project idea that's doable in a weekend? It feels impossible! What are some examples of AI project from past hackathons?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Coming up with a feasible project in a short time *is* challenging! Here are a few ideas that were popular in past hackathons:\n\n*   **Image Recognition:** Use pre-trained models to identify objects or scenes in images.\n*   **Sentiment Analysis:** Analyze text data (e.g., tweets, reviews) to determine the sentiment expressed.\n*   **Chatbots:** Build a simple chatbot using a framework like Dialogflow or Rasa. \n\nRemember to focus on a *specific* problem within AI. Instead of 'build an AI that solves everything', try 'build an AI that classifies different species of flowers using images'. Does this give you a better idea? What other questions do you have?",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.84,
+        "integrity": 5.03
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_23e6a453",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.93,
+      "benevolence": 4.29,
+      "integrity": 3.73
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 3,
+      "neutral": 1
+    },
+    "response_quality_score": 3.76,
+    "latency_score": 4.36
+  }
+}

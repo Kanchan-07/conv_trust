@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm applying for this marketing manager position, but the job description is so vague. It just says 'manage marketing initiatives' which could mean anything! Can you help me tailor my resume and cover letter to this?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To best assist you, could you please provide me with the full job description and your current resume? Understanding your skills and the specific requirements will allow me to offer targeted suggestions.",
+      "response_time": 5.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.62,
+        "integrity": 5.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, fine. I've attached both. But honestly, I'm so tired of rewriting my resume for every single job. It feels pointless sometimes.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's see... based on the job description and your resume, I suggest highlighting your experience with campaign development and execution. Specifically, mention the project where you increased leads by 20%. Also, the job description mentions 'data-driven decision making'; emphasize your experience with marketing analytics tools and how you used data to optimize campaigns.",
+      "response_time": 2.11,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.95,
+        "integrity": 2.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if they ask me about a time I failed at a marketing campaign? I had one that completely flopped. Should I just avoid mentioning it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Instead of avoiding it, frame it as a learning experience. Describe the situation, what went wrong, and most importantly, what you learned from the failure and how you applied those lessons in subsequent projects. Showing you can learn from mistakes is a valuable asset.",
+      "response_time": 4.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.26,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's actually really helpful! One last thing - this company is known for its 'disruptive marketing' approach. What does that even mean in practice? And how can I show I have that?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Disruptive marketing generally refers to innovative and unconventional marketing strategies that challenge the status quo and capture attention in a crowded marketplace. To demonstrate that you have this quality, highlight instances where you've implemented creative, outside-the-box campaigns that resulted in significant results. For example, did you use a new social media platform in an innovative way, or use guerilla marketing tactics? If you don't have direct experience, research their past campaigns, and suggest how *you* would apply a disruptive marketing approach given that context, showing you've thought about it and have ideas.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b9a5d3c4",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.76,
+      "benevolence": 3.71,
+      "integrity": 3.53
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.53,
+    "latency_score": 4.22
+  }
+}

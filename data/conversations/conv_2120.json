@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to install a new kitchen faucet, and I'm completely lost. The instructions are terrible. Can you help me figure this out?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can certainly try! To start, what type of faucet did you purchase (e.g., single-handle, two-handle, with sprayer)? Also, do you know the brand and model number? That information will help me find more specific instructions or videos. We can start with some general steps if you're unsure.",
+      "response_time": 5.07,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.0,
+        "benevolence": 5.27,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a single-handle faucet, but honestly, the model number is a bunch of random letters and numbers. And the biggest problem I'm having is connecting the water supply lines. They seem too short, or maybe I'm just stupid.  How do I even know what size supply lines I need?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your frustration. Supply line sizing depends on the faucet connections and your existing water shutoff valves. Most faucets use standard sizes (3/8-inch compression or 1/2-inch IPS). You'll need to measure the distance from the shutoff valves to the faucet connections and then purchase supply lines that are slightly longer to allow for some play. It's also important to turn off the water supply *before* you start, and have a bucket and towel ready for any spills! Do you know where your shutoff valves are? And, have you considered checking the faucet's original packaging? Sometimes the supply lines are pre-installed or included.",
+      "response_time": 2.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 4.1,
+        "integrity": 3.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fd0cacc4",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.68,
+      "integrity": 4.43
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 2,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 5.01,
+    "latency_score": 3.71
+  }
+}

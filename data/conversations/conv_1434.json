@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to figure out why a claim for a patient, John Smith, was denied. The claim number is 12345ABC.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can help with that. Please allow me a moment to look up claim 12345ABC for John Smith. Okay, I see the denial. The reason listed is 'Missing/Invalid Diagnosis Code'.",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.78,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, seriously? I'm pretty sure we *did* include a diagnosis code. It's the same one we've been using for months for this patient. Can you give me more details on exactly which code they're saying is missing or invalid?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, the system only provides the general reason for denial, not specifics on the invalid code. You would need to contact the payer directly for further clarification. I can provide you with their contact information if you like.",
+      "response_time": 1.58,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.0,
+        "benevolence": 2.21,
+        "integrity": 2.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's annoying, but yes, please give me their contact info. Also, is there a way to automatically resubmit a corrected claim through this system once we've fixed the problem?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. Here is the contact information for the payer: [Payer Contact Information]. As for resubmitting the claim, yes, there is a resubmission function. You can navigate to the 'Claims' tab and then select 'Resubmit Claim'. Follow the prompts to upload the corrected claim. Make sure the corrected information matches the requirements of the payer for a successful resubmission. ",
+      "response_time": 4.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.7,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Perfect, thanks! That's helpful. One last question: Does this system track the time from submission to payment on claims?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ebbec0a5",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.77,
+      "benevolence": 3.9,
+      "integrity": 4.01
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 4.74
+  }
+}

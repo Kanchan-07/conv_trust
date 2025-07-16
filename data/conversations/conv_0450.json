@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I keep getting denials on claim 789456 for patient John Smith. It's for a standard office visit, and I can't figure out why it's being denied.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's investigate claim 789456 for John Smith. Can you please provide the date of service and the denial code listed on the Explanation of Benefits (EOB)?",
+      "response_time": 0.59,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the date of service was 2024-02-15, and the denial code is CO-97. It just says 'The benefit for this service is included in the payment/allowance for another service/procedure'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CO-97 indicates that the service is bundled into another service. Please review the claim to ensure that all procedures billed are distinct and separately payable. Were any other procedures billed on the same date of service for Mr. Smith? If so, this could be the reason for the denial.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, we also billed for a flu shot (90660). But those are always billed together! I don't understand why it would deny NOW when we've been billing them like this for years. What is your system seeing in terms of payer edits or policy changes around 90660 and office visit codes?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You raise a valid point. Let me check for any recent policy updates or payer-specific edits related to CPT code 90660 and office visit codes. One moment...Okay, I see here that effective January 1st, 2024, certain payers have implemented a bundling edit where the administration fee for the flu vaccine (90471 or similar) is bundled into the office visit code if billed on the same date. The 90660 itself should be paid, but you'll need to remove the administration code. If you aren't billing an admin code, and the denial still occurs, you will need to appeal the denial with documentation of the medical necessity of both services.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f3189b56",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.0,
+      "benevolence": 1.0,
+      "integrity": 1.04
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 1.41,
+    "latency_score": 6.97
+  }
+}

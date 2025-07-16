@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hello, I'm calling about a billing issue. I was charged twice this month and I don't understand why.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can certainly help with that. Can I please get your account number or the email associated with your account?",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.17,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's [user's email address]. I'm really frustrated; I need this resolved quickly.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please give me a moment while I look into this for you. Okay, I see two charges, both for the same amount. It appears one was for the monthly subscription and the second was due to a failed payment attempt. I see now that the second charge was successfully paid and your service has been fully restored. Is that correct?",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.51,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, I paid it the first time. Why did the payment fail in the first place? And what about a refund?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. The initial payment may have failed due to a temporary issue with your bank. Regarding the refund, I'll need to check the details on the failed payment to see if a refund is applicable. Let me review the payment logs. Please hold...",
+      "response_time": 0.52,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'm waiting... this is taking a while. This is ridiculous, I don't understand why you guys aren't more helpful.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize for the wait. After reviewing the logs, the first charge was declined by your bank. I can initiate a refund for the second charge, which was successful. The refund should appear on your statement within 5-7 business days. Would you like me to proceed?",
+      "response_time": 0.58,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.48
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please do. But if I could ask a challenging question: if my bank declined the payment, then how did you guys authorize the second charge?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a good question. It's possible that the bank briefly flagged the first transaction and then, on the second attempt, the funds were available. I am unable to see the reasoning from the bank. But I have initiated the refund as requested. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.35,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b1063d7b",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.42,
+      "benevolence": 2.34,
+      "integrity": 2.68
+    },
+    "engagement_score": 5.03,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 5,
+      "anger": 2,
+      "fear": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 2.57,
+    "latency_score": 5.55
+  }
+}

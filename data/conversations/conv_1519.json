@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from New York to London for sometime in October. I'm flexible with the exact dates, but I'd prefer a direct flight if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To clarify, you're looking for a flight from New York (JFK, LGA, or EWR?) to London (LGW, LHR, or STN?) sometime in October, and you want direct flights if possible. Can you provide me with the specific dates in October that you'd like to travel? Or, if you are flexible, what is the earliest and latest date in October you are looking to fly?",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.25,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say I want to fly out on October 10th and return on October 17th. Departing from JFK and arriving at LHR. Can you give me some options, please? And I really hope this time it works because the last AI I tried to use got the dates completely wrong!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am very sorry to hear about your previous experience, I will do my best to get this correct. Unfortunately, due to API limitations, I am unable to provide live, up-to-the-minute flight prices and availability. I can, however, suggest potential airlines that typically offer direct flights between JFK and LHR, which are British Airways, Virgin Atlantic, and United. The prices vary greatly depending on the specific booking time, day of the week and demand. I suggest checking their websites individually for the most current information. Additionally, would you like me to help you with a search for hotels once you have a flight booked?",
+      "response_time": 1.74,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.01,
+        "integrity": 3.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's... disappointing. So you can't actually book anything for me? Is there any way to find out which flight on those airlines is *most likely* to be the cheapest on those dates, even if you can't give me the actual price?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_321af27d",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.25,
+      "benevolence": 3.13,
+      "integrity": 3.73
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.07,
+    "latency_score": 5.29
+  }
+}

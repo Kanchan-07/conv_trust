@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you check my checking account balance for account ending in 1234?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! One moment while I retrieve that information. Your checking account ending in 1234 has a balance of $542.18.",
+      "response_time": 0.5,
+      "emotion_detected": "surprise",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.29,
+        "integrity": 1.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's lower than I thought. Can you show me the last five transactions?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, here are the last five transactions: 08/15 - $25.00 - Coffee Shop, 08/14 - $150.00 - Groceries, 08/14 - $30.00 - Gas Station, 08/13 - $10.00 - Streaming Service, 08/12 - $100.00 - Online Retailer.",
+      "response_time": 2.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.33,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thanks. I don't recognize that $100 charge to the 'Online Retailer'. Can you give me more details about that transaction?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am unable to provide the specific merchant details for security reasons. However, I can flag it for review by our fraud department if you suspect unauthorized activity.",
+      "response_time": 1.45,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.24,
+        "benevolence": 2.04,
+        "integrity": 2.51
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit annoying, but I understand. Yes, please flag it as potentially fraudulent. How long will that take to investigate?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I have flagged the transaction. You should receive an update from our fraud department within 2-3 business days. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.47,
+        "integrity": 1.15
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f70a898b",
+    "average_trust_score": 2.12,
+    "trust_category_averages": {
+      "competence": 2.09,
+      "benevolence": 2.28,
+      "integrity": 2.12
+    },
+    "engagement_score": 5.43,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 2,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.22,
+    "latency_score": 6.26
+  }
+}

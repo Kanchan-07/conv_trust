@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to install a new kitchen faucet, and I'm completely lost. The instructions are terrible. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "No problem! First, turn off the water supply valves under your sink. Then, disconnect the old faucet's water supply lines and drain lines. Take a picture of the old faucet setup *before* you disconnect everything; this will help with the new installation. Do you have those steps completed?",
+      "response_time": 5.18,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.64,
+        "benevolence": 6.51,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I've done all of that. But the new faucet has these weird clips and a different type of connection for the spray hose, and the instructions just assume I'm a plumber or something. I'm so frustrated right now!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Can you provide me with the make and model of your new faucet? Also, what are the specific challenges with the spray hose connection? Sometimes, the instructions are vague. I'll do my best to walk you through the steps, or perhaps find a video guide.",
+      "response_time": 2.16,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.58,
+        "benevolence": 2.59,
+        "integrity": 2.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The model is a 'Sparkling Stream 3000'. The main challenge is... actually, I'm not sure. The old hose just screwed in, and the new one has this tiny plastic clip thing. And the instructions don't explain it. I'm confused... Will this even work?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_45b3df03",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.55,
+      "integrity": 4.69
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 1,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.07,
+    "latency_score": 3.83
+  }
+}

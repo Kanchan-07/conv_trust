@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why my recent AR claim was denied. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can definitely help with that. To get started, could you please provide your claim number and the date of service?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 6.88,
+        "integrity": 6.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is ABC12345, and the date of service was 2024-03-15.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Just a moment while I look that up... Okay, I see the denial reason. The denial reason is 'missing information'. Further detail provided notes a missing diagnosis code. ",
+      "response_time": 2.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 4.11,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, missing information? I'm pretty sure my doctor included the diagnosis code. Can you give me more specifics about what's missing? I'm getting frustrated.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The specific code that is missing is 'M54.5' which relates to lower back pain. This could simply be an oversight on the doctors part and in some cases the claim is submitted without this information. We can submit a corrected claim once this is verified.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. So if my doctor resubmits the claim with the correct code, it should be approved? What if the denial was due to a coding error? I don't have the medical training to know if the code *should* be M54.5. Is there any way for me to know the proper code?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the doctor resubmits the claim with the correct code, and if that corrected code is valid, then yes, it should be approved. As for the coding error, you can ask your physician to provide the correct ICD code. If you submit this, the claim should be approved. Note that you may also be able to appeal if you believe the code to be correct, but that would be up to the doctor.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.11,
+        "benevolence": 1.27,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks for clarifying. I'll contact my doctor. One last question: what's the deadline for resubmitting the corrected claim?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "The deadline for resubmission is 60 days from the initial denial date. Please let us know if you have any further questions.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.39,
+        "integrity": 1.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f55562fd",
+    "average_trust_score": 2.8,
+    "trust_category_averages": {
+      "competence": 2.7,
+      "benevolence": 2.93,
+      "integrity": 2.84
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.28,
+    "latency_score": 5.48
+  }
+}

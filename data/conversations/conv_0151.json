@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in Chicago for next weekend, October 27th to 29th. It's for two people. Ideally, something near downtown and with parking.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for hotels in downtown Chicago for October 27th to 29th, accommodating two guests, with parking. One moment...",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.95,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Great! I'm also hoping to keep it under $200 a night, if that's possible. I've been looking myself, and everything seems so expensive. It's a bit frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. I'm filtering the search results to include hotels under $200 per night with the previously mentioned criteria. I am showing a few options, including The Palmer House Hilton and The Congress Plaza Hotel. Would you like more details on either of these?",
+      "response_time": 4.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.15,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Congress Plaza... I've heard some questionable things about that hotel. Is there a reason it's so much cheaper than the others? Like, is it in a bad area or something? I'm a little confused why the price difference is so significant.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While The Congress Plaza Hotel is historically significant and in a central location, it has received mixed reviews regarding its upkeep and service quality. This can often contribute to a lower price point compared to other hotels in the area. The neighborhood itself is generally safe. Would you prefer I prioritize hotels with consistently positive reviews, even if it means slightly exceeding the $200 budget?",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.97,
+        "integrity": 3.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3599b6c9",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.45,
+      "benevolence": 4.36,
+      "integrity": 4.35
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.13,
+    "latency_score": 3.54
+  }
+}

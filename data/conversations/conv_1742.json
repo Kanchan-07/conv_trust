@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to check my checking account balance. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Please confirm your identity by providing the last four digits of your social security number and your date of birth.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.98,
+        "integrity": 6.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I hate doing this every time. Okay, the last four are 1234 and my birthday is 01/01/1990. Now, what's my balance?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Your checking account balance is $2,345.67.  Also, I see a pending transaction for $150 from 'Online Retailer X'.\n\nCan I assist with anything else today? I'm still working on my ability to predict future account fluctuations though, so I apologize if my advice there is not so useful.",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.99,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, thanks. One more thing, can you tell me what the fees are for international wire transfers? I might need to send some money abroad soon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e08bceb4",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.42,
+      "benevolence": 5.99,
+      "integrity": 5.67
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.59,
+    "latency_score": 2.55
+  }
+}

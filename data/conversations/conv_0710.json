@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm starving! I need some dinner, but I'm not sure what to get. I'm kind of in the mood for something Italian, but not just plain pasta.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand! Based on your preference for Italian food that's not just plain pasta, I can recommend a few options from nearby restaurants. How about trying lasagna, ravioli with a special sauce, or a pizza with gourmet toppings? I can also check if there are any restaurants serving risotto in your area.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.35,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, risotto sounds interesting. But is there anything with seafood? I'm trying to eat a little healthier these days. Actually, what's the healthiest Italian option available near me that isn't just salad? This is harder than I thought it would be!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely look for healthier seafood options. Let me check the menus of nearby Italian restaurants. A lot of them offer grilled fish or shrimp scampi dishes with vegetables as sides. One popular choice is grilled salmon with asparagus from 'Luigi's Trattoria'. It's relatively low in calories and high in protein. Does that sound appealing, or would you prefer something else?",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 4.27,
+        "integrity": 3.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_70d9baf6",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.65,
+      "benevolence": 4.31,
+      "integrity": 3.79
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.26,
+    "latency_score": 4.0
+  }
+}

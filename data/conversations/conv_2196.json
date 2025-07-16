@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help planning my groceries for the week. I'm on a tight budget this month.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely help with that! To get started, what's your approximate grocery budget for this week?",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.25,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say $75. I know, it's not much. I usually spend more.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Based on that, I recommend focusing on affordable staples like rice, beans, pasta, and frozen vegetables. Are there any specific meals you'd like to make this week, or any dietary restrictions I should be aware of?",
+      "response_time": 5.89,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.18,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm vegetarian, so no meat. I like Mexican food, so maybe some tacos? But I'm getting a bit tired of the same meals every week! Surprise me a little.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, how about this: For tacos, black beans, corn tortillas, salsa, and some bell peppers. For variety, we can also include a lentil soup, and a simple pasta dish with canned tomatoes and spinach. This should stay within budget. Would you like specific recipe links?",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 4.13,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that all sounds pretty good, but how much of each item will I actually need? And, how much will this cost total, approximately? I don't want to go *over* $75.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, I am still under development and am unable to provide exact cost estimates at this time, as prices vary by location. However, I can provide you with a shopping list outlining approximate quantities. For the tacos: 1 can black beans, 1 package corn tortillas, 1 jar salsa, and 2 bell peppers. For the lentil soup: 1 bag of lentils... (rest of shopping list follows). Consider comparing prices at different stores. ",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.09,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I understand. That's a little frustrating, that you can't give me price estimates. But the shopping list is helpful. How many meals does this plan make?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "With the quantities suggested, you should be able to make about 5-7 meals, depending on portion sizes. Enjoy your groceries!",
+      "response_time": 5.19,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.65,
+        "integrity": 5.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_93f7292d",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.66,
+      "integrity": 4.68
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 3.58
+  }
+}

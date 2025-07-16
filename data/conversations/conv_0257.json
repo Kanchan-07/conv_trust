@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm really in the mood for something with a lot of suspense. Maybe a thriller?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Based on your preference for thrillers, I recommend 'Prisoners', 'Se7en', and 'The Silence of the Lambs'. Have you seen any of those?",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 4.18,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Seen 'Silence of the Lambs', classic! The other two sound interesting, though. But could you maybe suggest something a little more...modern? I've seen, like, every old thriller.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. How about 'Parasite', 'Knives Out', or 'A Quiet Place'? These are all critically acclaimed thrillers from the last few years.",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.79,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'A Quiet Place' was great! 'Parasite' is more of a dark comedy, not really a thriller in my book. And 'Knives Out', hmmm...not sure, I heard mixed reviews. Why do *you* think 'Knives Out' is a good thriller recommendation? What makes it stand out from other movies in that genre?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "'Knives Out' offers a compelling whodunit mystery with plenty of twists and turns, keeping you guessing until the very end. The ensemble cast delivers strong performances, and the film blends suspense with humor in a way that distinguishes it from typical thrillers. The plot is intricate and satisfying, and the social commentary adds another layer to the experience. Would you like me to give you some user reviews to help make your decision?",
+      "response_time": 4.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.07,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a pretty good explanation actually. I'll give it a shot. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3a0a6815",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.5,
+      "benevolence": 4.35,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 3.15
+  }
+}

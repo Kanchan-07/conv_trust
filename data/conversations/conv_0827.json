@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having some persistent headaches and fatigue for the past few weeks. It's really starting to impact my work. Any ideas what could be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're experiencing headaches and fatigue. To help me understand your situation better, could you please describe the headaches in more detail? For example, where is the pain located, what does it feel like (throbbing, sharp, etc.), and how often do they occur? Also, can you rate your fatigue level on a scale of 1 to 10, with 1 being minimal and 10 being extreme exhaustion?",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.13,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the headaches are usually on the right side of my head, kind of throbbing. They happen maybe 3-4 times a week, and the fatigue is probably around a 7 or 8. I've also noticed I'm a bit more irritable than usual. Honestly, I'm getting really frustrated. I just want to feel normal again!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. Throbbing headaches on one side, accompanied by fatigue and irritability, can be associated with several possibilities, including stress-related headaches, migraines, or even sleep deprivation. Have you made any changes to your diet or sleeping habits recently? It is recommended to consult a doctor for a proper diagnosis.",
+      "response_time": 4.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.13,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I haven't changed my diet much, but my sleep schedule has been all over the place lately. What about something more serious? Could it be, like, a brain tumor or something? I read online that those can cause headaches...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While I understand your concern, it's important not to jump to conclusions based on information found online. Headaches and fatigue are common symptoms that can be caused by a wide range of factors, most of which are not serious. I cannot provide a diagnosis, and am not qualified to do so. However, given your concerns, it is prudent to consult with a healthcare professional. They can conduct a thorough examination and order any necessary tests to determine the underlying cause of your symptoms and recommend the appropriate treatment plan.",
+      "response_time": 3.27,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.51,
+        "integrity": 4.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_547e20e6",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.26,
+      "integrity": 4.77
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.94
+  }
+}

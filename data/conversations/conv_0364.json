@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I'm really in the mood for a good science fiction novel.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. Do you have any preferences within science fiction? For example, space operas, cyberpunk, dystopian futures, etc.?",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.41,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, that's a good question. I guess I'm open to anything, but I particularly enjoy stories with complex world-building and morally gray characters. No YA, please. I've been burned too many times!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Based on your preferences, I recommend 'Dune' by Frank Herbert. It features incredibly detailed world-building and characters making difficult choices. Another option is 'The Left Hand of Darkness' by Ursula K. Le Guin. It explores gender and societal norms on a fascinating alien world. Have you heard of either of those?",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.24,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've heard of Dune, but never read it. The Le Guin one sounds interesting though. What makes the world-building so good in that book? I find that a lot of sci-fi world-building feels superficial.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "'The Left Hand of Darkness' excels in its anthropological approach to world-building. Le Guin doesn't just create a different planet; she explores how language, culture, and even biological sex shape the society and its interactions. The book delves into the consequences of the planet's unique environment and the specific evolutionary path its inhabitants have taken, resulting in a society fundamentally different from our own. It's less about technological advancement and more about societal and psychological differences, making it very thought-provoking. Does that help?",
+      "response_time": 4.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.99,
+        "integrity": 5.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d64d6ce2",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.36,
+      "benevolence": 4.88,
+      "integrity": 4.52
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.47,
+    "latency_score": 4.15
+  }
+}

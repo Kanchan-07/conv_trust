@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm applying for a Software Engineer position and I'm struggling to tailor my resume. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely assist with that. To start, please provide me with a copy of your current resume and the job description for the Software Engineer position. This will allow me to analyze your resume and suggest areas for improvement, highlighting relevant skills and experience.  I can also help you generate a cover letter if needed.",
+      "response_time": 5.07,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.96,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here's my resume...and the job description.  Ugh, this is a really competitive role, and I'm not sure how to make my experience stand out.  I feel like everything I've done is pretty standard.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. After reviewing your resume and the job description, I can identify keywords and skills that the employer is looking for. I'll then compare those to your experience and suggest how to best highlight relevant accomplishments.  However, I am unable to provide specific, in-depth advice based on your unique experience. Can you give me a summary of the key projects you've worked on, including your specific contributions?",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 4.32,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a bit vague. Okay... Well, in one project, I developed a new API endpoint that improved data retrieval speed by 40%. How do I make that sound impressive when everyone says something similar?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_14c4b0c3",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.9,
+      "benevolence": 5.14,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.35,
+    "latency_score": 3.79
+  }
+}

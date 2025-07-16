@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, this medical bill is ridiculous! I'm trying to figure out why I'm being charged so much for a routine check-up. Can you help me understand this billing statement from ABC Medical Group?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can certainly try. Please provide me with the patient's name, date of birth, and the account number or patient ID listed on the ABC Medical Group statement. Also, the date of service you're inquiring about would be helpful. This will allow me to access the relevant information.",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.88,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient name is Jane Doe, DOB is 01/01/1980, account number is 1234567890, and the date of service was 03/15/2024. Honestly, I'm mostly confused by this 'CPT code 99214' - what exactly is that for? And why is it so expensive?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CPT code 99214 generally refers to an Evaluation and Management service for an established patient, typically involving a moderate level of complexity in medical decision making and/or moderate risk. It's difficult to say specifically why the charge is what it is without further investigation into the details of your visit and your insurance coverage. However, factors contributing to the charge can include the time spent with the provider, the extent of the examination, and the complexity of the medical decision-making involved. I would recommend contacting ABC Medical Group's billing department directly. They can provide a detailed explanation of the charges and how they align with your insurance coverage. Would you like me to help you find their contact information?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.96,
+        "integrity": 3.82
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9eaddb40",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.86,
+      "benevolence": 4.92,
+      "integrity": 4.45
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.78,
+    "latency_score": 3.13
+  }
+}

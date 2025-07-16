@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I need some fashion advice. I'm trying to revamp my wardrobe, but I'm on a super tight budget. Like, REALLY tight.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help with that. To give you the best recommendations, what's your approximate budget for this wardrobe revamp, and what kind of style are you generally going for? (e.g., casual, professional, trendy, etc.)",
+      "response_time": 5.05,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.56,
+        "benevolence": 6.6,
+        "integrity": 6.85
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay, budget is like... $200 max. And I guess I'm going for a casual but put-together look. Something I can wear to run errands but also grab coffee with friends.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it! $200 for a casual, put-together look. I'd suggest focusing on versatile pieces. For example, you could get a good pair of jeans (look for sales!), a few basic t-shirts in neutral colors, and maybe a versatile cardigan or jacket. You could also check out stores like H&M, Primark (if you have one), or even thrift stores for budget-friendly options. Does that sound like a good starting point?",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.03,
+        "integrity": 5.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, that's okay I guess. But how can I make it look *good*? Like, not just basic and boring? Everyone says to buy basics, but then I end up looking like I rolled out of bed. What's the secret sauce?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! The 'secret sauce' is definitely in the details and accessories. With a limited budget, focus on a few key accessories that can elevate your basics. Think a stylish belt, a statement necklace (check thrift stores for unique finds!), a colorful scarf, or even just a good pair of shoes (consider buying gently used). Also, pay attention to fit \u2013 even inexpensive clothes can look great if they fit well. Tailoring can make a huge difference, but if that's not in the budget, learning some basic alterations yourself could be a game-changer. Finally, try adding one 'trend' piece that you really love, even if it's just a fun patterned shirt from a discount store. Mixing that in with your basics can prevent the 'boring' look.",
+      "response_time": 4.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.98,
+        "integrity": 5.41
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4e226901",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.94,
+      "benevolence": 5.87,
+      "integrity": 5.76
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 2
+    },
+    "response_quality_score": 5.93,
+    "latency_score": 2.99
+  }
+}

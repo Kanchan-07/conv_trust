@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I keep getting recommendations for stuff I already bought or stuff that's totally irrelevant. I'm so frustrated! Is there a way to fix this?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It's definitely annoying to see irrelevant recommendations. To improve your recommendations, could you tell me a little bit about what you're interested in currently? Knowing your recent browsing history and any specific product categories or brands you like would help me adjust things for you.",
+      "response_time": 1.88,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 3.0,
+        "benevolence": 2.88,
+        "integrity": 2.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well I've been looking at a lot of hiking gear recently - tents, backpacks, that kind of thing. But, uh, how does your system even *know* what I'm interested in, exactly? What data are you using, and how is it different from other e-commerce sites?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! Our system uses a combination of factors. Primarily, we look at your browsing history (products viewed, time spent on pages), past purchases, items in your cart, and any reviews you've left. We also consider broader trends, like what's popular with other users who have similar interests to yours. Regarding how we differ from other e-commerce sites, we use a proprietary algorithm that prioritizes items based on contextual relevance, not just popularity. We also allow you to manually 'tune' your preferences through a 'My Interests' setting. Check it out, you may find it helpful. I'm still learning and improving, but I hope this helps!",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.46,
+        "integrity": 5.74
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_363d61aa",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.05,
+      "benevolence": 4.17,
+      "integrity": 3.98
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 3.89,
+    "latency_score": 4.88
+  }
+}

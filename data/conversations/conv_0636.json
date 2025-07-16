@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have an interview coming up for a software engineer position at Google. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can assist you with that. To best tailor my assistance, could you tell me more about the specific role, your experience level, and what aspects of the interview you're most concerned about?",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.19,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for a mid-level software engineer, focusing on backend development. I've been working as a software engineer for about 3 years. I'm mostly worried about the technical questions and system design. I always blank out when asked about those!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Let's focus on those areas. A common question is \"Design a URL shortening service like TinyURL.\" How would you approach that problem? Consider scalability and data storage.",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.5,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's exactly the kind of question that throws me! Okay, let me think... I guess I'd start with a hash function to shorten the URL, then a database to store the mappings. But how do you handle collisions? And what about scaling when millions of requests come in?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good start! For collision handling, you can use a longer hash or implement a collision resolution strategy like chaining. For scalability, consider using a distributed key-value store like Cassandra or Redis for caching frequently accessed URLs. You can also explore load balancing across multiple servers. Does that make sense?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.74,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, the Redis caching part is helpful. Okay, what about behavioral questions? I always feel like my answers are generic and boring. What's a good way to make them stand out? Also, how do I explain a time I failed without looking incompetent?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For behavioral questions, use the STAR method (Situation, Task, Action, Result) to structure your answers and provide specific examples. To address failures, focus on what you learned from the experience and how you improved as a result. Frame it as a learning opportunity and demonstrate resilience.",
+      "response_time": 5.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.02,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's actually really helpful! Thanks. I still have a lot to practice, but I feel a lot more confident now.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f45405ac",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.08,
+      "benevolence": 4.86,
+      "integrity": 5.15
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "neutral": 5,
+      "fear": 1,
+      "disgust": 2,
+      "joy": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.67
+  }
+}

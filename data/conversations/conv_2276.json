@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I just received another denial for claim 12345, and I'm not sure why. Can you help me understand the denial process?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help with understanding the denial process. To start, can you provide me with the denial reason code from the Explanation of Benefits (EOB) for claim 12345? That's the key to figuring out the problem.",
+      "response_time": 3.57,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.87,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the denial reason code is CO-45: 'Charge exceeds fee schedule/maximum allowable amount.' What does that even mean?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CO-45 indicates the billed amount was higher than the insurance company's allowed amount for the service. This often means the provider's usual charge is above the negotiated rate. I'd suggest checking the provider's contract with the insurance company, or potentially negotiating a lower rate if possible. Sometimes a corrected claim submission is also needed, using the allowed amount.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.7,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, that makes sense. But what if the provider *has* a contract, and they're billing the correct contracted rate? Is there anything I can do then? This is a challenging situation.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "In that case, it's important to review the claim details to make sure the service codes, modifiers, and units are correct. Double-check the documentation to support the services rendered. Sometimes, a timely appeal with the proper documentation can overturn the denial. You should consult with the provider about the specifics of this claim. Perhaps they already addressed the situation.",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.72,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I understand better now. Thanks for your help! I'll try those steps. This has been very useful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b318fb6d",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.43,
+      "integrity": 4.39
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 4
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 4.37
+  }
+}

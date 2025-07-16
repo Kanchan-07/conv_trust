@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner tonight. Somewhere with good reviews, preferably Italian.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. What time were you hoping to dine, and how many people are in your party?",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.49,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Around 7:30 PM for two people. And it really needs to be somewhere with excellent food. I've had a terrible day, and I need a nice meal.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. I'm checking for Italian restaurants with high ratings that have availability around 7:30 PM for two people. I found a few options:  'Luigi's Trattoria' and 'Bella Italia'.  Luigi's Trattoria has 4.5 stars.  Bella Italia has 4.0 stars. Which one would you like?",
+      "response_time": 4.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.32,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 4.0 stars is a bit concerning, and I don't know either of those places. Can you tell me a little bit about what makes Luigi's Trattoria special? Like, what are its signature dishes, or what is its reputation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I do not have information about specific signature dishes or reputations. I can tell you that Luigi's Trattoria is a popular choice for Italian food.",
+      "response_time": 1.65,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.03,
+        "benevolence": 2.57,
+        "integrity": 2.31
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's not very helpful. Fine, let's try Luigi's Trattoria. Book it for two people at 7:30 PM.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_39d100bd",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.82,
+      "benevolence": 4.13,
+      "integrity": 4.06
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 3.54,
+    "latency_score": 4.45
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. Claim #789234 was denied again. It's for a standard office visit, and it's being denied for 'lack of medical necessity.' What's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'll look into claim #789234 for you. Could you please provide the patient's name and date of service for verification?",
+      "response_time": 0.58,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.06,
+        "benevolence": 1.0,
+        "integrity": 1.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's for John Doe, date of service was 2024-03-15.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Okay, I see the claim. The denial is indeed coded for 'lack of medical necessity.' According to the documentation we have on file, the diagnosis code submitted (R05.9 - Unspecified cough) does not, on its own, support the level of service billed for an office visit. More specific diagnostic information is needed.",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.27,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so the cough wasn't enough? But he also complained of fatigue! Why wasn't that considered? And honestly, what constitutes 'medical necessity' anyway? It feels like a really subjective term that's used to deny everything.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Medical necessity, in this context, generally refers to services or supplies that are appropriate and required for the diagnosis or treatment of a medical condition. It's based on accepted standards of medical practice. While I don't see documentation of fatigue listed on the original claim submission, you can submit an appeal with supporting documentation, including the patient's reported fatigue, to potentially overturn the denial. The appeal should include updated diagnosis codes that reflect all conditions treated during the visit. Specifically, a more detailed diagnosis code beyond a simple cough would likely be beneficial. Would you like me to provide you with information on how to submit an appeal and acceptable diagnosis codes related to fatigue?",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.47,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. That would be really helpful. Walk me through the appeal process. And maybe give me a couple examples of better diagnosis codes. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c7bb1718",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.92,
+      "benevolence": 3.25,
+      "integrity": 3.18
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 3.33,
+    "latency_score": 5.35
+  }
+}

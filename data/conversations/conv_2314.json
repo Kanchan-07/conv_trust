@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. I had a car accident last week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. First, could you please provide your policy number and a brief description of the accident?",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 4.43,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, my policy number is ABC123XYZ. The accident happened when another car ran a red light and hit me. My car has quite a bit of damage, I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I've logged the details you provided. To proceed, could you please upload photos of the damage to your vehicle and the police report, if you have one?",
+      "response_time": 0.63,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded the photos and the police report. Now what? How long will it take to process this? I really need my car repaired.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you for submitting the documents. Based on the information available, we anticipate the claim processing taking approximately 7-10 business days. However, this may vary. Unfortunately, I can't provide a more precise timeframe at this stage. Would you like me to provide some information about rental car coverage?",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.67,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "7-10 days? That's a bit long. And what if the other driver doesn't have insurance? Will I be covered then? This is where I get a little confused.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very good question. If the other driver is uninsured, your policy has Uninsured Motorist Property Damage coverage, which should cover the damage. However, this depends on the specific details of your policy. I can provide you with the terms of your policy, and also connect you with a claims specialist who can provide more clarity. Would you like me to arrange that?",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 6.0,
+        "integrity": 5.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6d996c2e",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.53,
+      "benevolence": 3.77,
+      "integrity": 3.61
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "anger": 2
+    },
+    "response_quality_score": 3.48,
+    "latency_score": 4.63
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help. I'm trying to stick to a $75 grocery budget this week, which is proving difficult. Can you suggest some meals and shopping lists that fit that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To provide the best recommendations, could you tell me a little more about your preferences? Are there any foods you dislike or have allergies to? Also, how many people are you typically cooking for?",
+      "response_time": 4.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.87,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, good point. I'm cooking for myself and my partner. We both eat pretty much anything, but we're trying to eat a bit healthier. We're not big meat eaters. I'm also trying to buy as much organic as possible, but I doubt I can stay in budget. What are the chances of me making that work?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Hmm, organic and a lean budget can be tricky, but not impossible! Here's a sample menu for the week, keeping your preferences in mind, and with an estimated shopping list. (Note: Prices vary based on location and sales. I've estimated based on national averages.)\n\n*   **Monday**: Vegetarian Chili ($12 estimated)\n*   **Tuesday**: Lentil Soup ($10 estimated)\n*   **Wednesday**: Tofu Stir-fry with Brown Rice ($15 estimated)\n*   **Thursday**: Pasta with Tomato Sauce & Veggies ($10 estimated)\n*   **Friday**: Homemade Pizza (using mostly pantry items: flour, sauce) - budget $10\n*   **Weekend**: Leftovers or budget-friendly eggs/toast/fruit ($18 estimated)\n\nShopping List (Estimates):\n*   Canned beans, lentils, tomatoes\n*   Rice and Pasta\n*   Tofu\n*   Frozen vegetables (broccoli, peas, etc. - cheaper and last longer)\n*   Fresh vegetables (onions, carrots, garlic, peppers) - try buying in bulk for better prices\n*   Dairy/dairy substitutes (milk, cheese - limited)\n*   Fruit for snacks\n\nOrganic options are very hard to keep, but you may be able to substitute a few items like canned tomatoes or frozen veggies. This should come in around $75. I can refine this further. Would you like me to find specific organic alternatives and adjust the shopping list, or do you have other requirements?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.57,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wow, that's actually really helpful. The meal plan is great. My partner has a nut allergy, but I can easily substitute out ingredients in those recipes. So... how do I calculate the prices of each item in the shopping list? I could probably estimate it based on what I know, but is there a way to get actual prices for the shopping list based on local stores or something? ",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_da85efee",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.72,
+      "integrity": 4.7
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 3.22
+  }
+}

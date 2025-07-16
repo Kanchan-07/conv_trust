@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need some legal advice. My neighbor's tree fell onto my property during a storm and damaged my fence. Are they liable for the damages?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Generally, property owners are responsible for maintaining their trees to prevent them from causing damage to neighboring properties. If the tree was healthy and the fall was caused by an act of God (like a particularly severe storm), the liability may be less clear. However, if the tree was diseased or neglected, your neighbor might be liable. Do you have any evidence that the tree was unhealthy or that your neighbor knew it posed a risk?",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.8,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I did notice that the tree looked pretty dead for a while now, but I never actually said anything to him about it. Does that make a difference? Ugh, I should have said something!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, that could be relevant. Your observation that the tree appeared dead strengthens your case. Even without explicitly notifying your neighbor, the visible condition of the tree could demonstrate negligence on their part. However, it's best if you had sent a certified letter, to avoid issues of proof later on. Do you have any photographic evidence of the tree's condition before it fell?",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.44,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I might have some old photos from the summer. I'll have to check. But what if he claims he had no idea it was dead? How can I *prove* he knew? That seems impossible.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Proving actual knowledge can be challenging. However, you can establish constructive knowledge. This means demonstrating that a reasonable person would have recognized the condition of the tree. Factors such as the tree's visible dead branches, lack of foliage during the growing season, or the presence of fungal growth can contribute to proving constructive knowledge. Also, the age of the tree may be important. What kind of tree was it?",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.19,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's\u2026 helpful, I guess. It was an oak tree, and it was pretty big. So, what are my next steps? Should I contact him directly, or should I get a lawyer involved right away? This is all so stressful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_afef0717",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.76,
+      "benevolence": 4.14,
+      "integrity": 3.83
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.79,
+    "latency_score": 3.99
+  }
+}

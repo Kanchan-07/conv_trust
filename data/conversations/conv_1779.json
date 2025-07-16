@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from New York to London for sometime in July. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! To get started, could you please provide the specific dates in July you're looking to travel, and whether you have any preferences for airlines or airports?",
+      "response_time": 5.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.63,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so bad at planning! Okay, I want to fly out around the 7th of July and return around the 20th. No specific airline preference, but I'd prefer to fly into Heathrow if possible. Also, I'll need a hotel near the airport. Can you do all of that?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can search for flights around those dates. Finding hotels near Heathrow is straightforward. However, I don't currently support booking hotels and flights simultaneously. I can certainly find you some good hotel options, but you'll need to book that separately. To get the best prices, should I search for flexible dates a few days on either side of your preferred dates?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.07,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a bit annoying about the hotel... but yes, search for flexible dates. Also, what's the likelihood of me needing a visa to travel from the US to the UK right now? I haven't traveled internationally in ages.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5a651f60",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.5,
+      "benevolence": 4.85,
+      "integrity": 4.73
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.15,
+    "latency_score": 2.79
+  }
+}

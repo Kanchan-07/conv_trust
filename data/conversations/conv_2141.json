@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some recommendations. I'm interested in buying a new gaming mouse, but there are so many options. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. To give you the best recommendations, could you tell me a bit about what you're looking for? For example, what kind of games do you play, and what's your budget?",
+      "response_time": 5.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.55,
+        "benevolence": 5.58,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I mostly play FPS games, so precision is really important. My budget is around $75. And honestly, I'm pretty overwhelmed by all the choices. It feels like every mouse claims to be the best!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Based on your preferences, I would recommend the Logitech G Pro Wireless, the Razer DeathAdder V2, and the SteelSeries Rival 650. All three are excellent for FPS games, offer great precision, and can often be found within your budget. However, prices fluctuate, so it's best to check the latest prices. Also, do you prefer a wired or wireless mouse?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.77,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those all sound good, but how do you account for the user reviews? A lot of people say the build quality of the Razer DeathAdder V2 isn't great, which would really impact my experience. Are you able to factor in sentiment from external reviews?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! My current system does not automatically incorporate real-time sentiment analysis of external user reviews. My primary recommendations are based on specifications, popularity, and overall performance data. I am constantly being updated, so perhaps future iterations will have the capability to integrate external sentiment analysis. I can, however, provide you links to verified review articles for the specific mouse models I recommended so you can make a more informed decision. Would you like that?",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 4.17,
+        "integrity": 4.13
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3ba2fc4c",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.62,
+      "benevolence": 4.51,
+      "integrity": 4.81
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.15
+  }
+}

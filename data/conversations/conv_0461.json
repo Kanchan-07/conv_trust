@@ -1,0 +1,89 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a claim I filed last week, claim number 2023-10-26-4482. My car was hit in a parking lot, and I'm just trying to get an update. Honestly, the whole process has been a little frustrating so far.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. I understand your frustration, and I'm happy to look into claim number 2023-10-26-4482 for you. One moment while I access the details. Okay, I see the claim. The estimated repair cost has been submitted, and we are waiting for approval from our review team. This usually takes 3-5 business days. It was submitted on the 27th, so we should have an update for you soon.",
+      "response_time": 0.6,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.3,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "3-5 business days? Seriously? That's what I was told last week when I initially filed the claim! Is there any way to expedite that? I'm without a car right now, and it's really impacting my ability to get to work.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your urgency. Let me see what I can do. I can send a follow-up request to the review team, highlighting the impact on your transportation. However, I cannot guarantee an immediate response. Is there anything else I can assist you with at this time?",
+      "response_time": 3.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 3.55,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, sending that follow-up would be great. But what if the repair cost is not approved? What are my options then? This is a pretty sizable dent, and I\u2019m worried they\u2019ll try to lowball me.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. If the initial estimate is not approved, we would typically negotiate with the repair shop to reach an agreement. If we cannot reach an agreeable amount, we would provide you with a written explanation and you have the option to appeal the decision. You would need to provide additional documentation, such as a second estimate from another repair shop, to support your appeal. Does this clarify the process?",
+      "response_time": 1.31,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.36,
+        "benevolence": 2.76,
+        "integrity": 2.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_15ccf8a4",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.67,
+      "benevolence": 2.44,
+      "integrity": 2.47
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 1,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 2.27,
+    "latency_score": 5.8
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a project manager position. I'm really nervous. Can you help me prepare? I'm mostly worried about those behavioral questions.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Behavioral questions are a common source of anxiety. We can definitely work on those. A good approach is the STAR method: Situation, Task, Action, Result. Let's start with a typical question: 'Tell me about a time you failed.' How would you approach this?",
+      "response_time": 3.39,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.54,
+        "integrity": 5.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's the worst! I always freeze up. Okay, um... I guess I could talk about that time I missed a deadline on a project because I underestimated the workload. But how do I make that sound *good*?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's break that down using STAR. Situation: Briefly describe the project and your initial understanding. Task: Explain your responsibility and the deadline. Action: Detail what you did to try and meet the deadline, even though you failed. Focus on what you *did* do. Result: Explain the impact of missing the deadline and, most importantly, what you learned from it and how you changed your approach for future projects.",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 3.79,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I get it. But what if they ask me a really tough question, like... 'Tell me about a time you had to make a decision without all the information you needed'? Honestly, I usually just wing it, which probably isn't the best answer.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Many interviewers want to see how you handle ambiguity. Focus on demonstrating your decision-making process. Explain the situation, the available data, the missing information, and the risk assessment you performed. Highlight how you weighed the pros and cons, consulted with others (if applicable), and made the most informed decision possible given the circumstances. And, as before, emphasize what you learned and how you'd approach a similar situation differently in the future. Remember to showcase your critical thinking skills.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_06c46521",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.52,
+      "benevolence": 5.44,
+      "integrity": 5.56
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "fear": 2,
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.09,
+    "latency_score": 3.45
+  }
+}

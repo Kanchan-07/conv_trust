@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I've been having this persistent dull ache in my lower back for about a week now. It's not excruciating, but it's really annoying and sometimes makes it hard to sit for long periods. Any idea what could be causing it?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Lower back pain is very common and can stem from many factors, including muscle strain, poor posture, sitting for extended periods, or minor injuries. Since it's not severe, it's likely a muscle issue or related to your daily activities. Have you tried gentle stretching or applying heat/ice?",
+      "response_time": 2.01,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.81,
+        "benevolence": 2.15,
+        "integrity": 2.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've tried stretching a bit, and heat seems to help temporarily, but it just keeps coming back. It's just frustrating because I haven't done anything specific that I know of to injure it! No heavy lifting or falls.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand that's frustrating. Sometimes pain can develop gradually without a specific incident, often due to repetitive movements, prolonged static positions like sitting, or even stress. Ensuring you maintain good posture and taking short breaks to move around if you sit a lot can be beneficial.",
+      "response_time": 1.69,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.33,
+        "benevolence": 2.86,
+        "integrity": 2.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, posture... I do sit a lot for work. But what about things like sciatica? Could it be that even if the pain is just in my lower back and not shooting down my leg? Or maybe it's something serious like a slipped disc, even without major trauma? How would I even tell the difference just from the ache?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Distinguishing between different causes of back pain based solely on a description of a dull ache can be challenging and is best done by a medical professional. While sciatica typically involves pain radiating down the leg, and a slipped disc often follows trauma and causes more intense, potentially radiating pain, it's not possible for an AI to definitively diagnose the cause of your specific symptoms or rule out more serious conditions. My information is general and not a substitute for medical advice.",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.94,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Right, okay. That makes sense, but it's also a bit annoying that there's no easy way to tell. I guess I was hoping for a magic answer. So basically, if it keeps bothering me, I should probably just bite the bullet and see a doctor?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a16f573b",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.96,
+      "benevolence": 2.98,
+      "integrity": 3.27
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 2.56,
+    "latency_score": 4.97
+  }
+}

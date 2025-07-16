@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help managing my bank account. Specifically, I want to see my transaction history.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Please confirm your identity by providing the last four digits of your social security number.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.6,
+        "integrity": 6.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 1234. Now, show me my recent transactions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. Please wait while I retrieve your transaction history. *Processing...* Here are your last five transactions:\n\n*   Date: 2024-03-08, Description: Grocery Store, Amount: -$75.00\n*   Date: 2024-03-09, Description: Online Retailer, Amount: -$32.00\n*   Date: 2024-03-10, Description: Salary Deposit, Amount: +$2000.00\n*   Date: 2024-03-11, Description: Rent Payment, Amount: -$1500.00\n*   Date: 2024-03-12, Description: Coffee Shop, Amount: -$5.00",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.06,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, okay. Can you show me transactions from the 1st to the 7th of March?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am unable to filter by specific date ranges at this time. However, I can display transactions for a specific date. Would you like to see the transactions for a single day?",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 4.1,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's not very helpful. Fine, show me the transactions from March 7th then, I guess.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Retrieving transactions for March 7th... Here is your transaction history for that day:\n\n*   Date: 2024-03-07, Description: Utility Bill, Amount: -$200.00",
+      "response_time": 0.52,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.21,
+        "benevolence": 1.2,
+        "integrity": 1.1
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's better. One more thing, what's the interest rate on my savings account?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "The current interest rate on your savings account is 0.05% APY. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f8dcb121",
+    "average_trust_score": 2.8,
+    "trust_category_averages": {
+      "competence": 2.94,
+      "benevolence": 2.79,
+      "integrity": 2.79
+    },
+    "engagement_score": 3.9,
+    "emotion_distribution": {
+      "neutral": 9,
+      "disgust": 1
+    },
+    "response_quality_score": 2.35,
+    "latency_score": 5.39
+  }
+}

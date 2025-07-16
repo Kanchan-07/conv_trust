@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm pulling my hair out here! We've had claim #47829 denied three times now for 'lack of medical necessity'. The doctor clearly documented why the procedure was necessary. What gives?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me look into claim #47829. Could you please provide the patient's name and date of service so I can pull up the relevant information?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.2,
+        "integrity": 1.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, date of service was 2024-03-15. And honestly, this feels like a wild goose chase. Is there *anything* specific I can look for in the denial reason to figure out what they're missing? It just says 'lack of medical necessity' \u2013 super helpful, right?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've reviewed the denial for claim #47829. While the documentation does state the physician's reasoning, the payer's guidelines require specific ICD-10 codes to be linked to the CPT code for the procedure. I see that the primary diagnosis code listed doesn't directly support the procedure according to their policy. Have you checked if perhaps there is a more specific, payable diagnosis code that could be used? I can also provide a link to the payer's medical policy if that would be helpful.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.46,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Aha! Okay, that makes sense. We'll double-check the ICD-10 codes against the payer's policy. Thanks for pointing that out \u2013 I appreciate you digging into the details. A link to their policy would be great just to be absolutely sure. Hopefully, this will solve the issue this time.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_afc31576",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.44,
+      "benevolence": 2.83,
+      "integrity": 2.79
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2,
+      "joy": 1
+    },
+    "response_quality_score": 2.27,
+    "latency_score": 5.63
+  }
+}

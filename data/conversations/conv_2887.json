@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help finding a hotel for a trip next month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist with that. To start, where are you planning to travel, what are your desired check-in and check-out dates, and how many people will be staying?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.55,
+        "benevolence": 7.0,
+        "integrity": 6.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a hotel in Seattle, Washington. I need to check in on August 15th and check out on August 19th. It's just for me, so one adult. Also, I'd really prefer something with free Wi-Fi.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Seattle, WA, August 15th to 19th for one adult, looking for free Wi-Fi. I've found several options. Two highly-rated hotels are the 'Pike Place Suites' and 'Space Needle Inn'. Both generally offer free Wi-Fi. Are you interested in hearing more about either of these?",
+      "response_time": 5.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.23,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Pike Place Suites sounds nice, but I'm a bit concerned about the price. I saw some reviews online that it can be quite expensive. Is there anything a bit more budget-friendly? Like, under $150 a night? And are you *sure* the Wi-Fi is free? Sometimes hotels charge extra even if they advertise it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are right to check on pricing and Wi-Fi. My apologies, Pike Place Suites often exceeds the $150/night range for those dates. Let me filter the results specifically for hotels under $150 per night that explicitly state free Wi-Fi. I found the 'Emerald City Hostel' and the 'Cascadia Budget Hotel'. Based on their current listings and typical offerings, both meet the price criteria and list free Wi-Fi as a standard amenity. The hostel would likely be the cheapest, but the hotel offers private rooms.",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.32,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A hostel? No, definitely not a hostel, I need a private room. Okay, so the Cascadia Budget Hotel... is it in a safe area? Some budget hotels are in sketchy neighborhoods, and I'm traveling alone. I'm feeling a little frustrated that it's hard to find something decent and affordable.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern regarding safety and location, and I apologize for the frustration. User safety is important. The Cascadia Budget Hotel is located in the Belltown area. While generally considered a busy urban neighborhood, like many city centers, it's advisable to be aware of your surroundings, especially at night. It's close to public transport and some attractions. It's not typically highlighted as a 'sketchy' area compared to some other city districts. Would you like me to check options in a different part of Seattle that might be known for being quieter or perceived as safer?",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.73,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Belltown... okay, I know that area. It's busy but probably manageable. Thanks for checking on that. It's a tough balance finding the right place. I might need a minute to think about the Cascadia. Thanks for your help so far.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d35349c8",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.76,
+      "benevolence": 5.82,
+      "integrity": 5.75
+    },
+    "engagement_score": 4.35,
+    "emotion_distribution": {
+      "neutral": 8,
+      "anger": 1
+    },
+    "response_quality_score": 5.75,
+    "latency_score": 2.29
+  }
+}

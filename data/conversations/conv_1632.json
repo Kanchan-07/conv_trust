@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why a claim for my recent MRI was denied. The explanation code is pretty vague.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can certainly help with that. Please provide me with the claim number and the specific denial code you are referencing, along with the date of service. I'll look into the details.",
+      "response_time": 4.89,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.33,
+        "integrity": 5.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is ABC12345, the denial code is CO-18 (which is super helpful, by the way... not!), and the date of service was 2024-03-15.  I'm already frustrated by this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. CO-18 usually indicates 'This procedure is not covered'.  Let me access the details for claim ABC12345... Hmm, according to the system, the denial is due to lack of pre-authorization. It appears pre-authorization was required for that specific MRI procedure based on your insurance plan.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.32,
+        "benevolence": 1.0,
+        "integrity": 1.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Pre-authorization? I don't recall being told that! What are my options now? Can I appeal? What are the chances of success?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, you can appeal. I can provide you with the necessary forms and information about the appeal process. As for the chances of success... that's difficult to say definitively. It depends on whether there were extenuating circumstances regarding the pre-authorization, and if your physician can provide documentation supporting the medical necessity of the MRI. I recommend contacting your insurance provider directly to clarify their appeal guidelines. Would you like me to provide the appeal forms?",
+      "response_time": 3.61,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.86,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please send the appeal forms. And thank you, this has been more helpful than I expected.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1622fe44",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.14,
+      "benevolence": 4.06,
+      "integrity": 4.06
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 2,
+      "fear": 1
+    },
+    "response_quality_score": 4.37,
+    "latency_score": 4.5
+  }
+}

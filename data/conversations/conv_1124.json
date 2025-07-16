@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having a really bad cough for the past week and I'm starting to get worried. It's keeping me up at night.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I'm sorry to hear you're experiencing that. To help me understand the situation better, could you describe the cough? Is it dry or productive? Are you experiencing any other symptoms, like fever, body aches, or shortness of breath?",
+      "response_time": 1.95,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.81,
+        "benevolence": 2.21,
+        "integrity": 2.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a dry cough, mostly. Sometimes I feel a tickle in my throat. And yeah, I've had a low-grade fever, like 99.5, and I'm pretty tired. No shortness of breath, thankfully. Honestly, I'm just exhausted from coughing all the time!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, a dry cough, low-grade fever, and fatigue. It sounds like you might have a viral infection, possibly the flu or a common cold. I recommend getting plenty of rest, staying hydrated, and taking over-the-counter medications like acetaminophen or ibuprofen to manage your fever and aches. Avoid strenuous activity.",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.42,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, great. That's what I was afraid of. But what if it's something more serious, like pneumonia? I read online that a dry cough can sometimes be a symptom of that.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While a dry cough *can* be present in pneumonia, it's usually accompanied by other more severe symptoms, such as high fever, chest pain, and significant shortness of breath. Since you're not experiencing those symptoms, pneumonia is less likely. However, I am an AI assistant and not a medical professional, so I cannot provide definitive diagnoses. If you are concerned about pneumonia, the best course of action is to see your doctor for proper testing.",
+      "response_time": 1.84,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.52,
+        "benevolence": 2.26,
+        "integrity": 2.2
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's fair. So, if it *is* just a cold or flu, how long should I expect to be feeling this way? I have a really important presentation next week and I need to be at 100%.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Typically, cold and flu symptoms can last anywhere from 7 to 14 days. To feel better sooner, make sure to prioritize rest, hydration, and symptom management. Avoid close contact with others to prevent spreading the virus. If your symptoms worsen or don't improve after a week, or if you develop new symptoms like severe chest pain, difficulty breathing, or persistent high fever, seek medical attention.",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.59,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, I guess. One last question: Why is it that some people seem to never get sick, while others, like me, catch every little bug that goes around? Is it just luck, or is there something I can actually do to boost my immune system?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! Susceptibility to illness is complex and influenced by a combination of factors. Genetics certainly play a role, as do lifestyle choices like diet, exercise, sleep, and stress levels. Exposure to pathogens and underlying health conditions also contribute. While you can't completely eliminate the risk of getting sick, you can significantly strengthen your immune system by maintaining a healthy lifestyle \u2013 a balanced diet rich in fruits and vegetables, regular exercise, adequate sleep, stress management techniques, and avoiding smoking can all help. Consistent hygiene practices like handwashing are also crucial.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.76,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d9aeb223",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.11,
+      "benevolence": 3.9,
+      "integrity": 3.87
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "fear": 2,
+      "sadness": 1,
+      "neutral": 7
+    },
+    "response_quality_score": 4.35,
+    "latency_score": 4.16
+  }
+}

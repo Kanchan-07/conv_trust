@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated with trying to write this resume! I've been staring at a blank page for hours. I know what I've done, but making it sound good is impossible. Can you help me get started?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration! Resume writing can be tough. To get started, let's focus on outlining your experience. Could you tell me about your most recent role, including your job title, company, and dates of employment? Don't worry about making it sound perfect yet; just give me the raw information.",
+      "response_time": 1.52,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.21,
+        "integrity": 2.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my most recent role was Project Manager at InnovTech Solutions. I worked there from June 2018 to August 2023. I was responsible for overseeing multiple software development projects, managing budgets, and leading cross-functional teams. It was... a lot. How do I make *that* sound impressive without just listing duties?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. To make it sound impressive, try to quantify your achievements and use action verbs. For example, instead of just saying you 'managed budgets,' you could say 'Managed project budgets up to $500,000, consistently delivering projects under budget.' Instead of 'leading cross-functional teams' you could write, 'Led and mentored cross-functional teams of up to 10 members, fostering collaboration and innovation.' However, make sure this is true to the role you had.",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.77,
+        "integrity": 3.93
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5219f4e0",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.56,
+      "benevolence": 2.99,
+      "integrity": 3.41
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.38,
+    "latency_score": 5.3
+  }
+}

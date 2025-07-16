@@ -1,0 +1,107 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm flying from New York to London, and I'm pretty flexible with dates.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To find the best options, could you please tell me approximately when you'd like to travel? A general timeframe is fine.",
+      "response_time": 4.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.67,
+        "integrity": 5.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm thinking sometime in late October, maybe the last week or two. And I'd like to return about a week after I arrive in London.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I have a few options. Let me get those for you. ...Okay, I've found a flight on October 22nd and returning on October 29th. The total price is $750. Would you like to see other options?",
+      "response_time": 2.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 4.3,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's pretty good. But, wait... is that a direct flight? I really don't want to have any layovers if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, I am having some trouble accessing the flight details. Please hold on a moment while I gather that information... Okay, that flight does have a layover. Let me find a direct flight for you. There is a direct flight on October 23rd for $980. Would you be interested in that one?",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that's a bit more expensive. Okay, is there a way to compare the carbon footprint of the direct flight versus a flight with a layover? I'm trying to travel more sustainably.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I don't have the tools to calculate the exact carbon footprint of each flight option. However, generally, direct flights produce less carbon emissions than flights with layovers because of the fuel used during takeoffs and landings. For more detailed information on that subject, I can provide links to external resources.",
+      "response_time": 4.19,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.19,
+        "integrity": 4.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c5409821",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.38,
+      "benevolence": 3.79,
+      "integrity": 3.84
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "neutral": 8
+    },
+    "response_quality_score": 3.84,
+    "latency_score": 4.4
+  }
+}

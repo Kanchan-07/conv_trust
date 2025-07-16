@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi! I need some help. I'm going to a wedding next month and have absolutely no idea what to wear. My budget is a little tight, maybe around $200 for the entire outfit?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely help with that! A budget of $200 is manageable for a wedding outfit. To give you the best recommendations, could you tell me a little more about the wedding? For example: What's the dress code? What's the venue (beach, formal ballroom, etc.)? Do you have any color preferences or colors you want to avoid?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 4.0,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, the dress code is 'semi-formal'. It's an outdoor wedding in a garden. I hate pastels and florals. Honestly, I'm terrible at this, I just want something easy that looks good. The dress code is semi-formal.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, semi-formal garden wedding, avoiding pastels and florals. That helps narrow it down! Based on that, I'd recommend the following options: a midi dress in a jewel tone (emerald green, sapphire blue, or ruby red) or a jumpsuit in a similar color. Both options are easy to dress up or down. You could pair either with a simple pair of heels or dressy flats. I can give you links to some options if you'd like. I would suggest looking at stores like ASOS, Lulus, and even stores like Old Navy sometimes have good options. Do you want me to search for you?",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.82,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! But here's a challenging question: How can I find affordable options that fit the budget? I don't want to spend all my money just on the dress.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! To stay within your budget, I recommend the following: First, filter online retailers by price. Most sites allow you to sort by low to high. Second, look for sales and promotions. Many retailers have ongoing sales or offer discounts for first-time customers. Third, consider buying separates. A stylish top and skirt can sometimes be more affordable than a dress, and you can mix and match them later. Finally, don't forget accessories! Accessories can change the look of an outfit. For example, a dress can be elevated by a great necklace. If you provide your shoe size, I can also provide options for shoes within your budget.",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.88,
+        "benevolence": 5.55,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, thanks! That's super helpful. I'm a size 8 and wear a size 8 shoe! Let's see what you find!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aa53d9a4",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 4.46,
+      "integrity": 4.39
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.77,
+    "latency_score": 3.84
+  }
+}

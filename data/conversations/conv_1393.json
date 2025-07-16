@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some book recommendations. I mostly enjoy reading fantasy novels.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me a bit more about what you enjoy within the fantasy genre? Are you interested in epic fantasy, urban fantasy, high fantasy, etc.?",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.46,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I guess I like epic fantasy the most. You know, magic, quests, big battles...stuff like that. But honestly, I'm open to anything that's well-written.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great. Based on your preferences, I'd recommend 'The Way of Kings' by Brandon Sanderson (part of *The Stormlight Archive*), 'The Lies of Locke Lamora' by Scott Lynch, and 'The Name of the Wind' by Patrick Rothfuss. They are all highly acclaimed and have those elements you mentioned. Do any of those sound interesting?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.33,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've heard of 'The Way of Kings,' but I'm a little intimidated by how long it is. Are they all really long series?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, both 'The Stormlight Archive' and 'The Name of the Wind' are planned to be quite extensive series, though 'The Name of the Wind' has had some delay with the final book's release. 'The Lies of Locke Lamora' is part of a series, but the individual books are more self-contained and generally shorter. Though, if I'm honest, I have a little trouble understanding the current state of that author's writing schedule.",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.45,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. I hate starting a series and then having to wait years for the next book. What are some fantasy books with satisfying conclusions? Like, a single book with a good ending, or a completed series?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. For a satisfying, standalone fantasy novel, I'd recommend 'Jonathan Strange & Mr Norrell' by Susanna Clarke. It has a complete narrative and a wonderful sense of closure. If you're open to something a bit different, 'Uprooted' by Naomi Novik is also fantastic as a single book. Do those sound more appealing?",
+      "response_time": 4.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.77,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes! 'Uprooted' sounds perfect. I think I'll start with that. Thanks for the recommendations, this was actually really helpful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1d3a79ac",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.93,
+      "benevolence": 5.0,
+      "integrity": 4.78
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 6,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.71
+  }
+}

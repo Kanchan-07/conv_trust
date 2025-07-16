@@ -1,0 +1,89 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really in a funk and need something to spice up my playlist. I'm mainly into rock, but I'm open to some subgenres. What do you got?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, great! Based on your interest in rock, I recommend checking out bands like Arctic Monkeys and The Strokes. They are popular indie rock bands. Alternatively, if you're interested in something heavier, I can recommend some metal bands. Let me know what you think!",
+      "response_time": 5.34,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.52,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I've heard of those bands. Everyone suggests them. I need something deeper, more... obscure? How about some psychedelic rock or prog rock? Something with a bit of a twist?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, trying to find something a bit different. For psychedelic rock, I would recommend checking out King Gizzard and the Lizard Wizard. They have an experimental sound and a large discography. For Prog Rock, I would recommend Porcupine Tree, and for something a little different, try The Mars Volta, though they may be a bit heavier than traditional prog.",
+      "response_time": 2.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.68,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "King Gizzard and Porcupine Tree I've heard of. But The Mars Volta sounds really interesting! How would you say they differ from, say, Tool, who are sometimes considered prog metal? It's hard to keep up with all these labels!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! While both bands incorporate progressive elements, Tool leans heavily into metal with complex rhythmic structures and a darker, more brooding atmosphere. The Mars Volta, on the other hand, blends prog with Latin rhythms, jazz fusion, and a more improvisational, psychedelic approach. Their compositions are generally more chaotic and abstract compared to Tool's precise and methodical sound. Hope that helps!",
+      "response_time": 3.66,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.96,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2f28d928",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 5.05,
+      "integrity": 4.73
+    },
+    "engagement_score": 5.75,
+    "emotion_distribution": {
+      "neutral": 2,
+      "joy": 1,
+      "disgust": 1,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.83,
+    "latency_score": 3.59
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I mostly listen to indie rock. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for indie rock, I can recommend some artists. Have you heard of bands like The Strokes, Arcade Fire, or The National?  I can suggest similar artists if you like them.",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.17,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know all of those. Can you suggest some newer bands, or maybe some that are a little more obscure?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, trying to find some more obscure and newer indie rock bands for you.  How about checking out:  Fontaines D.C., Wet Leg, or Black Country, New Road?  Would you like a short description of any of those?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.93,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of Fontaines D.C. and Wet Leg, but not the last one. Tell me about Black Country, New Road.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Black Country, New Road is a British band known for blending post-punk with elements of jazz and experimental rock. Their music often features spoken-word vocals and complex arrangements. Their first album was highly acclaimed. Their newer stuff is more accessible. They're pretty unique, so it might not be everyone's cup of tea. Any interest?",
+      "response_time": 2.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.51,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds interesting. What about a band that sounds like a mix between the Strokes and Arcade Fire?  Is that even a thing?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a tough one, but a good challenge! Finding a band that perfectly blends those two is difficult. I'd say you might appreciate **The Killers** if you like their more indie-influenced songs. They have a similar energy to both bands sometimes, especially in their earlier work. Or perhaps try **Interpol**. They have the post-punk sound, but with elements of Arcade Fire's anthemic qualities.",
+      "response_time": 5.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.58,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ec5167e1",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.29,
+      "benevolence": 4.3,
+      "integrity": 4.05
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 4.76,
+    "latency_score": 3.63
+  }
+}

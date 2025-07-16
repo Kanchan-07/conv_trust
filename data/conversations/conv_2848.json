@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my resume. I've been applying for jobs for weeks and getting absolutely no response, not even rejections sometimes. It's really frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand how frustrating that can be. I can certainly help you work on your resume to make it more effective. To start, do you have your current resume you can share, or would you like to focus on specific sections first?",
+      "response_time": 1.36,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.85,
+        "benevolence": 2.79,
+        "integrity": 2.34
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd rather not share the whole thing just yet. I think the summary and the skills sections might be the weakest parts. They just feel so generic, like everyone has the same skills listed.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great place to start. A strong summary grabs attention, and tailoring your skills to the job description is crucial. For the summary, let's try to make it a compelling overview of your key qualifications and achievements. For skills, we can focus on matching keywords from job postings and highlighting your most relevant abilities.",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.95,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, the summary... mine is like 'Highly motivated professional with X years experience...'. How do I make it sound like *me* and not just boilerplate? I have achievements, but fitting them into a small paragraph feels impossible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a common template. To make it unique, focus on combining your core identity (e.g., problem-solver, strategic thinker) with 1-2 significant, quantifiable achievements relevant to the roles you're targeting. Think 'Problem-solver who achieved X resulting in Y', rather than just listing attributes. It's about showing impact upfront.",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.72,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'show impact'. That makes sense conceptually. But what if my job didn't have easy numbers? Like, I improved team collaboration, but I don't have a metric for 'collaboration improvement percentage'. How do you 'quantify' something like that without made-up numbers? That's the part that always gets me stuck.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very challenging aspect of resume writing when direct metrics aren't available. While quantification is highly valued, if impossible, you can focus on the scope of your impact or the specific actions taken and the positive *outcomes*, even if not numerical. Describe the situation, your action, and the positive result it led to for the team or project. It requires careful phrasing to be impactful without hard data.",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.23,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, okay. So focus on the outcome even without numbers. It still feels a bit abstract, but I'll try thinking about it that way. Maybe I'll come back to the summary after working on the experience section where quantifying might be easier. Can we look at tailoring the skills section next?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b3ac74ef",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.52,
+      "benevolence": 4.42,
+      "integrity": 4.27
+    },
+    "engagement_score": 4.65,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 7
+    },
+    "response_quality_score": 4.69,
+    "latency_score": 4.0
+  }
+}

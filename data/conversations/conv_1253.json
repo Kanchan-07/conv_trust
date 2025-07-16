@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to check my current account balance. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Could you please verify your identity? For security, please provide the last four digits of your social security number and your date of birth.",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.19,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's... I'd rather not say that over a chat. Isn't there another way? I'm a bit frustrated with this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Due to security protocols, I can't directly display account information without verification. However, if you're enrolled in our voice authentication system, we can proceed through a phone call. Alternatively, you can log into your online banking account to view your balance. For security reasons, I am programmed to verify sensitive information. Is there something else I can assist with?",
+      "response_time": 2.48,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.59,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Actually, yes. Can you explain why my checking account transactions from last month don't match the statement I received? I'm really confused by this.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e43de24e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.51,
+      "benevolence": 4.39,
+      "integrity": 4.52
+    },
+    "engagement_score": 5.31,
+    "emotion_distribution": {
+      "neutral": 2,
+      "anger": 1,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 4.24
+  }
+}

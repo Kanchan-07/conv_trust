@@ -1,0 +1,129 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a checkup with my primary care physician. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can. To start, can you please provide your full name and date of birth so I can access your patient profile?",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.26,
+        "integrity": 5.45
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's John Smith, and my birthday is July 15th, 1980.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, John. Okay, I see your profile. Now, do you have a preferred date or time for your checkup?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.15,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ideally, sometime next week, preferably in the afternoon. I'm pretty flexible, though.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check the schedule... Okay, the only available slot next week is Tuesday at 2:30 PM. Would that work for you?",
+      "response_time": 2.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.94,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, Tuesday at 2:30 PM is a little tight, but I think I can make it. What happens if I need to cancel or reschedule? Is there a fee?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "There's a standard cancellation policy. You can cancel or reschedule up to 24 hours before the appointment without any charge. Less than 24 hours may incur a fee, but the exact amount would depend on your insurance plan. I can provide the details, but this is a little outside my capabilities, and you would need to call patient services.",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.51,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's good to know. So, can you please go ahead and book that appointment for me then? Tuesday at 2:30 PM?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, John, your appointment is scheduled for Tuesday at 2:30 PM. You'll receive a confirmation email shortly. Is there anything else I can assist you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.19,
+        "integrity": 1.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1613eb7d",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.59,
+      "benevolence": 3.61,
+      "integrity": 3.77
+    },
+    "engagement_score": 4.15,
+    "emotion_distribution": {
+      "neutral": 10
+    },
+    "response_quality_score": 3.51,
+    "latency_score": 4.69
+  }
+}

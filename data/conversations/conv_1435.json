@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately. I'm constantly tired, even after getting what feels like enough sleep. Any ideas what could be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand. Fatigue can be caused by a variety of factors. To provide you with more specific advice, could you tell me a bit more about your lifestyle? For example, your diet, exercise routine, and stress levels?",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.35,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well... my diet is pretty terrible, honestly. Lots of processed foods and not enough fruits or veggies. I don't exercise regularly, and my job is pretty stressful. But, I thought getting enough sleep would fix things! I'm starting to feel really frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Given your description, the fatigue is likely a combination of your diet, lack of exercise, and stress. Improving these areas, especially your diet and stress management, could have a significant positive impact. Unfortunately I'm unable to provide specific medical advice on how to do this, but I can suggest some websites to get you started. Would you like that?",
+      "response_time": 2.0,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.18,
+        "benevolence": 2.39,
+        "integrity": 2.61
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_adb5d1d5",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.07,
+      "benevolence": 3.37,
+      "integrity": 3.15
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 1,
+      "anger": 2
+    },
+    "response_quality_score": 3.27,
+    "latency_score": 5.0
+  }
+}

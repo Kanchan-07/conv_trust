@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I need help booking a restaurant for dinner this Saturday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please tell me the date, preferred time, number of people, and any specific cuisine or area you have in mind?",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.94,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for this Saturday, November 18th. We need a table for 4 people around 7:30 PM. We're open to Italian or seafood, preferably somewhere in the downtown area.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great, November 18th for 4 people at 7:30 PM, focusing on Italian or seafood downtown. Let me check availability. I see a few options. How about 'The Italian Table'? They have a reservation available right at 7:30 PM.",
+      "response_time": 4.81,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 'The Italian Table'... I've heard mixed reviews. Is it really the best option? Also, this is important: can you guarantee they have parking nearby? I really don't want to circle for 30 minutes trying to find a spot, it makes me so stressed.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "'The Italian Table' is a popular choice, but I can certainly look for other options if you prefer! Regarding parking, I can search for restaurants that typically have good parking availability or are located near parking garages. However, I cannot *guarantee* parking at any specific location as availability can vary. Would you like me to focus on restaurants with known parking options?",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.25,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, okay, I understand you can't guarantee it. That's a bit frustrating, but fair enough. Yes, please, focus on places with good parking and maybe suggest another Italian or seafood spot besides 'The Italian Table'.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_60511870",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.55,
+      "benevolence": 5.73,
+      "integrity": 5.47
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 5.78,
+    "latency_score": 3.62
+  }
+}

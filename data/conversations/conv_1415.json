@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need help updating my resume. It's a bit of a mess right now. I'm applying for a Software Engineer position, and my current resume is... well, it's not great.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can definitely help with that. To get started, could you provide me with your current resume? You can copy and paste the text here, or upload a file. Also, what kind of Software Engineer position are you targeting (e.g., Front-end, Back-end, Full-stack)? Knowing your target role will help me tailor the resume to the job requirements. For example, if you are trying to become a backend engineer, you would likely want to emphasize your experience with Java, Python, etc.",
+      "response_time": 4.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.85,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, here is the text from my resume: \n\n[Resume Text Here]\n\nI'm aiming for a Full-Stack role. The problem is, I have a lot of experience, but I'm not sure how to present it in a way that's concise and highlights the most important skills. And honestly, I'm struggling to summarize my experience with Java in a compelling way. I used it for about three years, but some of the projects are pretty old now. What should I do?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, thank you for providing the resume text and clarifying your target role. I'm analyzing the text now and will offer some suggestions. To address your Java experience, it's fine if the projects are older. The key is to emphasize what you *accomplished* using Java. Focus on quantifiable results wherever possible. For instance, instead of just saying \"Developed Java applications,\" try \"Developed and deployed three Java applications, resulting in a 15% increase in user engagement.\" Or if the projects are really old and not relevant, I would not include them. I will also provide you with some bullet points that you can use or tweak. Please give me some time to edit your resume and provide feedback.",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.39,
+        "integrity": 3.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0f97ab37",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.43,
+      "benevolence": 5.12,
+      "integrity": 4.38
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.86,
+    "latency_score": 3.75
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm applying for a software engineer position at Google and I'm completely lost.  Can you help me with my resume?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely assist you. I can help with various aspects of your resume. To start, could you upload your current resume, or would you like me to help you brainstorm what to include?",
+      "response_time": 5.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.08,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've uploaded my resume. Honestly, I'm not sure it's any good. I've tried to tailor it, but I'm not sure if I'm highlighting the right things. Also, I'm really struggling to describe my experience at my last job in a way that's not just a list of tasks. I need to show my impact!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've reviewed your resume. You have a lot of great experience, but the descriptions could be stronger. Specifically, for your role at Acme Corp, can you explain what *quantifiable* results you achieved? For example, did you improve efficiency by a certain percentage, reduce costs, or increase user engagement?",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.42,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I get that. But how can I even *remember* those numbers? I worked there two years ago! And even if I did, how do I make it sound impressive without, you know, exaggerating? That's a really tricky balance.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aaeb3c2d",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.75,
+      "integrity": 4.96
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "surprise": 2
+    },
+    "response_quality_score": 4.56,
+    "latency_score": 2.68
+  }
+}

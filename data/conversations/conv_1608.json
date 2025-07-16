@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help understanding why my AR claims are being denied.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with that. To start, could you provide me with the patient's name, the date of service, and the denial code(s) you're seeing?",
+      "response_time": 4.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.95,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient's name is John Smith, the date of service is 2024-03-10, and I'm seeing denial code CO-97.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. CO-97 generally indicates that the service is included in the allowance/payment for another service or procedure that has already been processed. Did you bill any other procedures on that date of service?",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 3.92,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, we billed a separate E&M code, 99214. Could that be the issue? I'm getting so frustrated with these denials!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Possibly. It depends on the insurance's specific policies and the documentation supporting both procedures. Sometimes, an E&M code billed on the same day as another procedure is denied because the insurance feels the E&M was bundled. However, if the E&M service was distinctly separate from the procedure, you could appeal the denial. I can provide you with some guidance on the appeal process if needed.",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 4.08,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That would be great. What kind of documentation do I need to include in the appeal? This is really confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For the appeal, you should include a copy of the original claim, the denial notice, the patient's medical record for that date (specifically, the documentation supporting the medical necessity and distinct nature of the E&M service), and a cover letter explaining why you believe the denial is incorrect. Consider explaining the details of the E&M separately from the procedure, using a different approach to explain how they were different from the procedure.",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.96,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. One last question: what if the insurance company just *always* denies the E&M codes on the same day as procedures? Is there anything I can do about it then? Should I just give up on billing the E&M codes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_57ca146c",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.25,
+      "benevolence": 4.48,
+      "integrity": 4.23
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 4.46,
+    "latency_score": 4.37
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I need some help. I'm going to a work conference next month and need to buy some new outfits. My budget is pretty tight though, maybe like $300 total for everything?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely help with that! A $300 budget for a work conference is manageable. To give you the best recommendations, could you tell me what kind of conference it is (e.g., formal, business casual)? Also, what's your typical style preference?",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.3,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's business casual. I generally like a classic look \u2013 nothing too trendy. I'm worried $300 won't even cover one decent outfit, honestly. What are the chances I can actually get a few outfits?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. It's definitely possible to put together a few business casual outfits within your budget! Based on a quick search, we can likely find a blazer, a couple of blouses, and some pants or a skirt from retailers like ASOS, Old Navy, or Target. I can generate some specific links to outfits. However, predicting real-time stock availability and sizing is a bit tricky. Would you like me to proceed with outfit suggestions, or would you prefer I focus on a single, versatile outfit?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.96,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, show me a few outfit options. But how can I be sure these suggestions will actually *fit*? I've ordered online before and been totally burned by inaccurate sizing charts.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_625dd4b4",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.17,
+      "benevolence": 4.13,
+      "integrity": 3.78
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.34,
+    "latency_score": 3.79
+  }
+}

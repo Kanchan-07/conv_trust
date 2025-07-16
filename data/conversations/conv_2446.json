@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm working on processing claims today and I need to check the status of a few. What's the most efficient way to do that for different payers?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Checking claim status efficiently depends on the payer, but generally, you can use their online provider portal if they offer one, call their automated or live support line with the patient and claim information, or submit an electronic 276 claim status request if your billing software supports it and the payer accepts it. Do you have specific payers in mind?",
+      "response_time": 4.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.76,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the portal is usually my go-to. But I'm having a real headache with one claim, #[specific claim number], submitted to [Payer Name]. It got denied with code CO 11. This is so frustrating! I thought everything was correct. What does CO 11 mean?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand that's frustrating. Claim Adjustment Reason Code (CARC) CO 11 typically indicates that the 'Benefit maximum for this time period or occurrence limit has been reached'. This means the patient's plan coverage for that specific service or benefit has been exhausted for the allowed timeframe.",
+      "response_time": 1.83,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.36,
+        "benevolence": 2.77,
+        "integrity": 2.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "But that doesn't make sense! We verified eligibility just last week, and it showed the patient had available visits/dollars for this service. Could CO 11 also mean something else for [Payer Name]? Are there complex rules about benefit periods that aren't obvious during a standard eligibility check?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While CO 11 primarily indicates a benefit maximum has been met, there can sometimes be nuances depending on the specific plan details, contract terms, or how the payer processes claims vs. eligibility checks. It's possible there was a lag in other claims processing against the benefit, or perhaps a specific plan exclusion or limitation that wasn't evident in the standard eligibility response. Without reviewing the full Explanation of Benefits (EOB) or Electronic Remittance Advice (ERA) for this denial, it's difficult to give a definitive, specific reason for this particular claim.",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.96,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, you can't tell me if there's a specific, complex rule for this payer causing this? Just that it's 'difficult to say'? That's not very helpful when I need a clear path to appeal or correct it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies, I understand your need for a specific answer. While I can explain the standard meaning of the code, pinpointing the exact reason without the full denial details from the payer is challenging. To get the precise reason and understand any complex rules applied, reviewing the ERA/EOB associated with this specific claim is crucial. It often contains additional remarks or codes. Can I assist you in retrieving or interpreting the ERA once you have it?",
+      "response_time": 4.58,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.47,
+        "integrity": 5.2
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_545f7961",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.31,
+      "benevolence": 4.49,
+      "integrity": 4.25
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.11,
+    "latency_score": 4.06
+  }
+}

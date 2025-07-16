@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some major help with my job application. I'm applying for a marketing specialist role and the deadline is next week. My resume feels... stale.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with refreshing your resume for the Marketing Specialist position. Please provide me with your current resume and the job description for the role you're applying for. I can help you tailor it to highlight the most relevant skills and experiences.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks, that's a relief. Here's my resume (pretend I pasted it) and the job description (pretend I pasted it). I just don't know where to start making it match. It asks for 'demonstrated experience with SEO tools like SEMrush' but I've only used Moz. Is that close enough? Or should I just list 'SEO tools'?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing those documents. I've reviewed them. Based on the job description, you should definitely emphasize keywords like 'digital marketing,' 'content creation,' and 'social media management.' Regarding SEO tools, it's best to be specific. Listing 'Moz' is accurate. While SEMrush is mentioned, stating 'Experience with SEO tools including Moz' is truthful and shows relevant capability. You could potentially add a phrase like 'Quick learner with new platforms' if you want to imply adaptability, but stick to what you know.",
+      "response_time": 4.42,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.52,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay. Listing 'Moz' makes sense. But the job description also heavily emphasizes 'managing paid advertising campaigns across multiple platforms' and my experience there is a bit thin, mostly just Facebook Ads. I haven't touched Google Ads professionally. How on earth do I frame my limited experience without lying? I feel really stuck and frustrated about this part.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a common challenge when applying for roles that stretch your experience slightly. Instead of listing 'multiple platforms,' you can detail the specific platforms you *do* have experience with, like 'Managed Facebook Ads campaigns with budgets up to X.' Then, in your cover letter or during the interview, you can express enthusiasm for expanding your skills to include platforms like Google Ads, perhaps mentioning related analytical skills that transfer. Frame your existing experience as a strong foundation for growth in other areas.",
+      "response_time": 5.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.0,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that approach feels much better and more honest. Thank you, that really helps ease my frustration about that section. Can we now move on to writing a cover letter based on this tailored resume and the job description?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1a52c39f",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.92,
+      "benevolence": 5.84,
+      "integrity": 6.09
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 2
+    },
+    "response_quality_score": 5.67,
+    "latency_score": 2.25
+  }
+}

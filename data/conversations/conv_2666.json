@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, another denied claim. Payer code 80001, for patient John Smith, account 45678. The reason code is 'M80 - Not Medically Necessary'. This feels wrong, the procedure was definitely necessary.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with denied claims, especially for medical necessity. Let me look into this for you. Can you please provide the date of service and the specific CPT code or procedure performed for this claim?",
+      "response_time": 0.57,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.06,
+        "benevolence": 1.0,
+        "integrity": 1.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the date of service was 2024-05-10 and the CPT code was 20610. It was for an injection into a major joint due to severe osteoarthritis pain that wasn't responding to conservative treatment. We even included documentation supporting the medical necessity. How can they just say it wasn't necessary?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the details. CPT code 20610 is commonly billed. Payer M80 denials often relate to their specific clinical policies or utilization management guidelines. Even with documentation, payers sometimes have requirements for prior authorization, step therapy protocols (trying other treatments first), or specific diagnostic criteria that weren't met according to their internal review. While your documentation might be sufficient from a clinical perspective, it might not have aligned with the payer's exact administrative or coverage rules for that specific code and diagnosis. It's complex, and sometimes challenging to navigate their varying requirements.",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.74,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's incredibly annoying. So even if it *was* medically necessary, if we didn't jump through their specific hoops, they can deny it? Is there anything we can do besides just writing it off? This seems fundamentally unfair to the patient and the practice.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_772b5d34",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.09,
+      "benevolence": 3.37,
+      "integrity": 3.3
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "disgust": 1,
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 2.9,
+    "latency_score": 5.55
+  }
+}

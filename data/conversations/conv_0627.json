@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining a hackathon but I'm a bit lost on where to start. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Participating in a hackathon is a great idea. To get started, I recommend first identifying your interests. What kind of projects excite you? Web development, AI, mobile apps, etc. Knowing this will help you find a hackathon that aligns with your skills and goals. Also, consider your skill level. Some hackathons are beginner-friendly, while others are more advanced.",
+      "response_time": 5.86,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. I'm mostly interested in AI, and I have some experience with Python. But how do I actually *find* hackathons? There are so many websites...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You can use websites like Devpost, Major League Hacking (MLH), and Eventbrite to search for hackathons. Filter by keywords like 'AI' or 'machine learning' and specify your location or whether you prefer a virtual event. Many universities also host their own hackathons, so check their websites. Good luck!",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.41,
+        "benevolence": 1.1,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I found one I like! It's focused on AI ethics. The problem is, it's a team event and I don't have a team. How do I find teammates who are actually reliable and not just going to slack off?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Finding reliable teammates can be tricky. Try joining the hackathon's Discord server or Slack channel (if they have one). Introduce yourself and your skills, and look for others with complementary skills and a similar level of commitment. Don't be afraid to ask potential teammates about their previous experience and availability. You can also browse the profiles of other participants to see if anyone's skills match your needs. Many platforms also have channels dedicated to team formation. Another strategy, though less direct, is to review participants' public GitHub or other profiles to assess their technical competence. This involves some work but may pay off.",
+      "response_time": 5.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.38,
+        "integrity": 5.99
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c8362f50",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.62,
+      "benevolence": 4.49,
+      "integrity": 4.66
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.88,
+    "latency_score": 3.44
+  }
+}

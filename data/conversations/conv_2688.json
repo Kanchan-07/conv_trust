@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My new smart speaker isn't connecting to the internet. It worked fine yesterday!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're having trouble with your smart speaker. Let's try to fix this. First, could you tell me what model of smart speaker you have? Also, have you tried unplugging it for about 30 seconds and plugging it back in?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's the 'SoundSpark Pro'. Yes, I unplugged it, waited, and plugged it back in. Still no luck. It just says 'not connected' when I try to use it. This is really frustrating, I just got it!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, thank you for confirming the model and power cycle. Let's check the network side. Is your Wi-Fi network working correctly for other devices? Also, is the smart speaker within a reasonable distance of your router?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.87,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, my phone and laptop are working fine on the same Wi-Fi network, and the speaker is literally right next to the router. I've entered the password like five times just to be sure, but it still won't connect. Why can't this thing just figure it out? Can your AI really diagnose router compatibility issues or firewall problems from my side?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I cannot directly access your router's settings or diagnose specific firewall configurations, I can guide you through common steps that resolve connectivity issues, which sometimes relate to compatibility or network settings. For example, sometimes restarting the router itself can help. Have you tried restarting your Wi-Fi router recently?",
+      "response_time": 1.36,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.82,
+        "benevolence": 2.03,
+        "integrity": 2.1
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Restart the router? Ugh, I guess I can try that. Feels like I'm doing everything BUT what the speaker is supposed to do. Okay, I'll do that now. *waits a minute* Alright, router restarted. Now what? Still not connecting. This is ridiculous.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you for trying that step, I know it can be inconvenient. Since standard restarts haven't resolved the issue, it might be helpful to check if there are any network security settings on your router, like a MAC address filter, that might be preventing the speaker from joining. Alternatively, performing a factory reset on the smart speaker itself is another step we could consider, although you would need to set it up again.",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.73,
+        "integrity": 4.16
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7bb4073f",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.89,
+      "benevolence": 2.66,
+      "integrity": 2.83
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "surprise": 2,
+      "sadness": 2,
+      "neutral": 2,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.13,
+    "latency_score": 5.03
+  }
+}

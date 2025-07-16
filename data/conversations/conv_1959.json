@@ -1,0 +1,99 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help writing a resume. I haven't updated mine in years and I'm totally lost. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely assist you! To get started, could you tell me a bit about the type of job you're applying for and your work experience?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.64,
+        "integrity": 5.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I'm applying for a project management role. I have 8 years of experience, mostly in the construction industry. But my last role was very different, it was in tech. Does that even matter?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely! That's valuable information. It's important to tailor your resume to each specific role. Even the tech experience can be framed to highlight transferable skills. For example, your experience in tech demonstrates adaptability and willingness to learn. Can you tell me what your responsibilities were in each role?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.75,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, so I'm trying to make a resume for a project management role in the renewable energy sector. My construction experience is all project management, managing budgets, coordinating subcontractors, etc. But in tech, I was more of a product lead, so it's a very different set of responsibilities. It's all so confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand it can be confusing to present two different work experiences. To create the best resume, how do I account for all the information provided? Should I make two separate resumes? Also, how do you handle experience where a lot of the details are confidential?",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.28,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "agent",
+      "utterance": "That's a great question! You wouldn't create two separate resumes unless you're targeting very different job types. You would prioritize the relevant information. For the tech role, identify the skills that overlap with project management, like leading teams, managing deadlines, or problem-solving. If any details are confidential, you can use general terms like 'managed sensitive projects' or 'oversaw proprietary processes' or 'coordinated with stakeholders'. We can craft more specific wording once you feel ready to share the information.",
+      "response_time": 5.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.75,
+        "integrity": 5.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_187c73e6",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.4,
+      "benevolence": 5.67,
+      "integrity": 5.28
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 2.86
+  }
+}

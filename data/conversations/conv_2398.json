@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner tonight. Preferably Italian food, around 8 PM for 2 people.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Are you looking for a restaurant in a specific area? Also, do you have any preferences, like a specific restaurant or cuisine style besides Italian?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 3.72,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I'd like it in downtown. And honestly, I'm open to suggestions. Something with a good atmosphere, not too loud. I'm really not sure what's available.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I have a few options. 'Bella Notte' and 'Luigi's' both have availability at 8 PM and fit your criteria. However, 'Bella Notte' is known for its live music, which might not be ideal if you prefer a quiet atmosphere. Luigi's, however, has been experiencing some inconsistent reviews lately. What do you recommend?",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.37,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, inconsistent reviews is not good. But Bella Notte with live music, that doesn't sound great either. What exactly do you mean by inconsistent reviews? Like, what are people complaining about?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, I am currently unable to access specific customer reviews. But I can suggest other restaurants within a certain price range. Would you like me to proceed?",
+      "response_time": 3.39,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.68,
+        "integrity": 4.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_27b58f0d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.6,
+      "benevolence": 3.92,
+      "integrity": 4.03
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 3.73,
+    "latency_score": 4.31
+  }
+}

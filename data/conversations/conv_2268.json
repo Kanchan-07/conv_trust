@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered yesterday. The tracking information hasn't updated since Tuesday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, and thank you for contacting us. I can certainly look into that for you. Could you please provide your tracking number?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.79,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 9274837264782364.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me just check that for you... Okay, I see the package is currently in transit and was last scanned in our regional distribution center. It looks like it is experiencing a slight delay due to unforeseen circumstances. I estimate delivery to be within the next 2 business days.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.45,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Slight delay? It's already a day late! And 'unforeseen circumstances'? What does that even mean? Is it lost?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have specifics on the 'unforeseen circumstances' as the reason is not usually released to customer service representatives. However, I assure you we're working to get your package to you as quickly as possible. Can I offer any additional assistance or information at this time? I can also open an official trace on the package.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.5,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A trace would be good, I suppose. But what happens if it *is* lost? What kind of compensation am I entitled to?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the package is confirmed lost, you would be eligible for a refund of the purchase price, including any shipping fees, or a replacement, depending on the seller's policy. Let me go ahead and initiate that trace for you. Please note, it can take up to 3 business days to determine the status of the package.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.43
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ec6121ca",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 4.19,
+      "integrity": 4.22
+    },
+    "engagement_score": 4.1,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 3.66,
+    "latency_score": 3.98
+  }
+}

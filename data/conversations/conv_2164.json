@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued by a company for breach of contract, and I'm really not sure what to do.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I am programmed to provide assistance with legal information. Could you please provide more details about the situation? Specifically, what is the nature of the contract, what are they claiming you breached, and what is the amount they are suing for?",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.23,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, it was a contract to provide consulting services. They're saying I didn't deliver on the agreed-upon milestones. The amount they're suing for is... well, it's huge, over $200,000! And honestly, I think they're trying to scam me. They changed the requirements mid-project, which made it impossible to deliver! What are my options here?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on the information you've provided, you may have several options. These include: filing a counterclaim for breach of contract (if they indeed changed the requirements), attempting to negotiate a settlement, or defending the claim in court. However, considering the complexity of the case and the amount involved, I strongly recommend consulting with a qualified legal professional in your jurisdiction for specific advice. I can help you find some resources and some legal professionals. What state do you reside in? Also, do you have evidence of the changes to the requirements that you mention?",
+      "response_time": 4.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.53,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I have emails and meeting minutes detailing the changes. Okay, I'm in California. But if I have all the evidence, and it's obvious I wasn't at fault, why would it go to court? Can't I just show the judge and get this dismissed quickly?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3a8e29d5",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.52,
+      "benevolence": 4.88,
+      "integrity": 4.77
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 2
+    },
+    "response_quality_score": 4.59,
+    "latency_score": 4.14
+  }
+}

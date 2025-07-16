@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from Chicago to Miami for next week. Preferably direct flights.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Just to confirm, you'd like a direct flight from Chicago (ORD or MDW?) to Miami (MIA or FLL?) next week? And what dates are you looking at specifically? Also, is this for one person?",
+      "response_time": 5.03,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.0,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. Let's say from O'Hare to Miami International, for one person, departing on the 15th and returning on the 20th. And I need to know, can you find me flights that include a checked bag, or do I have to add that manually later?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I'm searching for flights from Chicago O'Hare to Miami International on the 15th, returning on the 20th. I can also show you the baggage policy of each flight when available. Please wait a moment while I find the best options for you.",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.16,
+        "integrity": 3.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b43f8b90",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.8,
+      "benevolence": 4.58,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.57,
+    "latency_score": 3.46
+  }
+}

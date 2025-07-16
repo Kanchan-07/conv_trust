@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order. It's been a week, and I haven't received any updates.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your order number so I can look into the status for you?",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.65,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #12345. I'm getting a little frustrated; I was expecting it sooner.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've checked order #12345. It appears your order is currently in transit and is expected to arrive within the next 2-3 business days. You can view real-time tracking information here: [link to tracking].  I apologize for any inconvenience caused by the delay. Some delays are outside of our control due to circumstances like weather or high order volume.",
+      "response_time": 5.31,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.74,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I see the tracking link. But, the order says it left the distribution center five days ago. Why hasn't the tracking updated since then? It says 'in transit' but provides no real information.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Sometimes, the tracking information provided by the carrier isn't immediately updated.  I'm showing the same information on my end. I recommend you contact the shipping carrier directly using the contact information provided on the tracking page.  Unfortunately, I don't have further details beyond what's displayed.",
+      "response_time": 2.45,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 4.26,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I'll try that. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ce39e438",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.65,
+      "benevolence": 5.64,
+      "integrity": 5.64
+    },
+    "engagement_score": 4.23,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.56,
+    "latency_score": 3.55
+  }
+}

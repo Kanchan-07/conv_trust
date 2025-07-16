@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into indie rock lately. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Based on your preference for indie rock, I would suggest checking out the band 'The Beths' or the album 'Little Dark Age' by MGMT.",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.22,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of MGMT but not The Beths. Okay, I'll check them out. Anything a little less... mainstream-ish? I'm trying to find something really unique.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For something less mainstream in the indie rock genre, consider 'Black Country, New Road'. They blend post-punk and experimental elements.",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.55,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds interesting. What if I wanted to branch out a bit? Something completely different. Like... I don't know, something chill but not boring? Maybe...electronic but with some soul?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I'm not quite sure I understand. Could you clarify what you mean by 'electronic but with some soul'?",
+      "response_time": 3.57,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.8,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, I don't know! Like... electronic music that makes you *feel* something, you know? Not just repetitive beats. What algorithms do you use to even determine what 'soulful' is? I mean, it's a feeling!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! While I don't experience emotions myself, I can analyze musical features like tempo, key, and instrumentation to identify patterns associated with music often described as 'soulful'. Based on that, I'd suggest checking out 'Bonobo' or 'Tycho'.",
+      "response_time": 5.1,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.77,
+        "integrity": 5.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_db7fe7da",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.33,
+      "integrity": 4.05
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 4,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.66,
+    "latency_score": 3.83
+  }
+}

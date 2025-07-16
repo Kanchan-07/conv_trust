@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I placed an order last week and it still hasn't shipped! The order number is #12345.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. I'm sorry to hear you're experiencing a delay with your order #12345. Let me check on its status for you.",
+      "response_time": 0.55,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.14,
+        "benevolence": 1.2,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It said it would ship within 2-3 business days and it's been 5!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see that order #12345 is currently being processed at our warehouse. There seems to be a slight backlog due to increased order volume. We anticipate it will ship within the next 24-48 hours. You will receive a tracking number once it ships.",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.75,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. I needed it by this weekend. Is there any way to expedite the shipping once it's sent out? I'm willing to pay extra.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, once the order leaves our warehouse, we have limited control over the shipping speed. However, I can add a note to your order requesting expedited handling by the carrier. While I can't guarantee faster delivery, it might help. Also, is there anything else I can help you with today?",
+      "response_time": 2.15,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.64,
+        "benevolence": 2.73,
+        "integrity": 2.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Well, that's not ideal, but I guess it's better than nothing. So, hypothetically, if the item arrives damaged, what's your return policy on opened electronics? It's a bit confusing on the website.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If an electronic item arrives damaged, even if opened, you are eligible for a full refund or exchange within 30 days of delivery. Please contact us immediately with photos of the damaged item and packaging. We will provide you with a prepaid shipping label for the return. Does that clarify the return policy for you?",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.2,
+        "benevolence": 1.39,
+        "integrity": 1.12
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4b9a5113",
+    "average_trust_score": 2.12,
+    "trust_category_averages": {
+      "competence": 2.33,
+      "benevolence": 2.27,
+      "integrity": 1.95
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 3,
+      "joy": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 2.25,
+    "latency_score": 6.01
+  }
+}

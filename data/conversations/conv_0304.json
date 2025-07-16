@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my latest bill. I was charged $75, but my plan is supposed to be $50.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, thank you for contacting us. I understand you have a billing inquiry. Can I please have your account number or phone number associated with the account?",
+      "response_time": 0.51,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.45,
+        "integrity": 1.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. And honestly, this is really frustrating. I thought I had sorted this out last month!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please give me a moment while I access your account information. Okay, I see the account. It shows a charge of $75. Can you specify what plan you believe you are on?",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.39,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I signed up for the 'Basic Plus' plan, which was advertised at $50 a month. I even have a screenshot I took when I signed up. Why am I being overcharged?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The system shows you enrolled in 'Standard' plan. However, let me check something for you...",
+      "response_time": 2.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 4.1,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay... what is the difference between the 'Basic Plus' and the 'Standard' plan? I didn't see anything about a 'Standard' plan when I signed up.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The Standard plan offers slightly faster download speeds and includes premium channels. Looking at your account notes, it seems there was a promotional upgrade applied automatically when you signed up. I will remove the 'Standard' plan from your account and apply a credit of $25 to reflect the difference in cost. That should correct the billing discrepancy.",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.19,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "So, going forward, I'll only be charged $50? And how long will it take for the credit to show up? Will it be on my next bill?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, you will only be charged $50 moving forward. The credit should reflect on your next billing statement, which will be available online in approximately 3-5 business days. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.49,
+        "integrity": 1.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2a92ad19",
+    "average_trust_score": 2.8,
+    "trust_category_averages": {
+      "competence": 2.65,
+      "benevolence": 3.12,
+      "integrity": 3.02
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 8,
+      "surprise": 1
+    },
+    "response_quality_score": 2.8,
+    "latency_score": 5.14
+  }
+}

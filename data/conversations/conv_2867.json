@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. Looking for a round trip from London to New York, departing on December 15th and returning on December 22nd.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for round trip flights from London (all airports) to New York (all airports) departing on December 15th and returning on December 22nd. Please wait a moment.",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 4.29,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, these initial results are either ridiculously expensive or have 2+ stops and crazy long travel times. Can you find flights that are under \u00a3700 AND have only one stop? Is it even possible to get something decent for that price during December?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Finding flights under \u00a3700 with only one stop for those dates in December can be challenging due to peak season demand, but I will certainly apply those filters and search again. Please note that availability matching both price and stop criteria might be limited. Searching now for options under \u00a3700 with a maximum of one stop for December 15th to 22nd.",
+      "response_time": 2.25,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.19,
+        "benevolence": 2.02,
+        "integrity": 2.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d8ee7ce0",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.12,
+      "benevolence": 3.16,
+      "integrity": 3.14
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.09,
+    "latency_score": 5.11
+  }
+}

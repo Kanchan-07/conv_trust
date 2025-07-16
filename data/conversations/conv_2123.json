@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my SmartFridge 3000 is acting up again. The ice maker keeps freezing up and it\u2019s making a terrible grinding noise. I've tried unplugging it, but that didn't help. This is incredibly frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's troubleshoot this. First, can you confirm the model number of your SmartFridge 3000? It's usually on a sticker inside the refrigerator compartment or on the back of the unit. Also, how long have you had this appliance?",
+      "response_time": 1.9,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.96,
+        "benevolence": 2.15,
+        "integrity": 2.43
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the model number is SF3000X-Pro. I've had it for about 2 years. Look, I'm not the most technically inclined person. Is there a simple fix for this? I saw something online about a blocked water line, but I'm not sure how to access that. And honestly, I'm a bit intimidated by taking it apart.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, the blocked water line is a common issue. For your model, the water line is located at the back of the ice maker assembly. You'll need to disconnect the water supply line (make sure to turn off the water first!), then carefully remove the ice maker unit. After that, you should be able to clear the line with a thin, flexible wire. However, before you start, I must warn you: any tampering with the appliance could invalidate the warranty, so you should follow the steps to the letter and make sure you are careful. Alternatively, you can contact our technicians to get assistance. Would you like me to set up a service call for you?",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.51,
+        "integrity": 3.8
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b9d9714b",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 2.83,
+      "integrity": 3.12
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "fear": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.64,
+    "latency_score": 4.84
+  }
+}

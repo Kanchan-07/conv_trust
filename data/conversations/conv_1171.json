@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a software engineering position at Google, and I'm feeling pretty stressed. Can you help me prepare? Specifically, I'm worried about the technical questions.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you with that. To best prepare you, let's focus on common technical interview areas. These often include data structures, algorithms, system design, and behavioral questions related to past projects. Which of these areas would you like to focus on first?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.63,
+        "integrity": 5.85
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Algorithms, definitely. I always get tripped up on dynamic programming. Can you give me a practice problem?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, here's a classic: You are climbing a staircase. It takes `n` steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top? Can you explain your thought process before providing code?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 4.26,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, this *is* exactly the kind of question I dread. Okay, so it's like... you can reach step 'n' either from step 'n-1' or step 'n-2'. So the number of ways to reach 'n' is the sum of the number of ways to reach 'n-1' and 'n-2'. But how do I efficiently code that without it being super slow? Isn't that an exponential time complexity if I just do recursion?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're absolutely right! Naive recursion will lead to an exponential time complexity due to redundant calculations. That's where dynamic programming comes in. You can use memoization (top-down DP) or tabulation (bottom-up DP) to store the results of subproblems and avoid recalculating them. Which approach would you prefer to implement, and what would the code look like for that?",
+      "response_time": 4.94,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.56,
+        "benevolence": 6.79,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9f6526a6",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.46,
+      "benevolence": 5.56,
+      "integrity": 5.68
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 5.71,
+    "latency_score": 3.14
+  }
+}

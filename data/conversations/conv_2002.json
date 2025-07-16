@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with my new SmartCoffeeMaker 3000. It won't turn on.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're experiencing issues with your SmartCoffeeMaker 3000. Let's troubleshoot. First, can you please confirm that the power cord is securely plugged into both the coffee maker and the wall outlet?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.26,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I've checked that. The outlet is working because I plugged a lamp in and it turned on. This is so frustrating, it's brand new!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Thanks for checking that. Next, please try pressing and holding the power button for about 5-10 seconds. Sometimes, the initial power-up requires a longer press.",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.21,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I tried that. Still nothing. Is there a fuse or something I can check? I don't see anything in the manual about a replaceable fuse.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, there isn't a user-serviceable fuse on this model. However, before we proceed further, could you provide me with the serial number located on the bottom of the coffee maker? Also, what's the model number printed on the device? This information is important for warranty and diagnostic purposes.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 4.31,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the serial number is SC3000-789234 and the model number is just SmartCoffeeMaker 3000. Now what?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you. Based on the information, it appears there might be an internal power supply issue. Since the device is new, it is still under warranty. Please contact our customer service department. They can arrange for a replacement or repair. Here's the phone number: 1-800-COFFEE-HELP.",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.39,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Great, thanks! That's the best possible outcome. I appreciate your help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b06d5a53",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.65,
+      "benevolence": 3.79,
+      "integrity": 3.67
+    },
+    "engagement_score": 4.63,
+    "emotion_distribution": {
+      "sadness": 2,
+      "surprise": 2,
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 3.66,
+    "latency_score": 4.56
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready to start the physics review. I'm really struggling with electricity and magnetism. Can we start there?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Let's start with a review of the fundamental concepts. We can begin with Coulomb's Law and electric fields. Do you want to start with a refresher on those topics, or would you prefer to jump straight into practice problems?",
+      "response_time": 5.96,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.92,
+        "benevolence": 6.87,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I think I understand Coulomb's Law, but I'm a bit shaky on magnetic flux and how it relates to induced EMF. Could you explain that? I've read the textbook, but I'm still confused.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's clarify that. Magnetic flux, denoted by \u03a6 (phi), is a measure of the total magnetic field passing through a given area. It's calculated as \u03a6 = B\u22c5A, where B is the magnetic field strength, and A is the area. Induced EMF (electromotive force), or voltage, arises when there's a *change* in magnetic flux. This is described by Faraday's Law of Induction: EMF = -N(d\u03a6/dt), where N is the number of loops in a coil and d\u03a6/dt is the rate of change of magnetic flux. Essentially, a changing magnetic field creates an electric field that drives current. Think of it like this... If you have a bar magnet moving through a loop of wire, that's a change in magnetic flux which will induce a current in the wire. Does that help, or would you like a more detailed explanation or an example?",
+      "response_time": 2.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.98,
+        "integrity": 4.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_68a4394d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.46,
+      "benevolence": 5.42,
+      "integrity": 5.54
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 5.65,
+    "latency_score": 3.07
+  }
+}

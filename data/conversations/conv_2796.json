@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some information about a legal issue I'm having with my former landlord. They haven't returned my security deposit, and it's been over 30 days since I moved out.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can provide general information about landlord-tenant laws. Please remember that I am an AI and cannot provide legal advice. Laws vary significantly by location. Could you tell me which state you are in?",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.15,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in California. It just seems ridiculous they can hold onto my money for this long. Don't they have a deadline?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "In California, a landlord generally has 21 days after a tenant moves out to either return the security deposit or provide an itemized statement of deductions for repairs or cleaning. This is a common timeframe, but specific conditions might apply based on the lease agreement.",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.16,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 21 days? It's definitely been longer than that. But what if the landlord *did* send me a list, but it's full of charges for damages that were clearly there when I moved in, like stains or worn-out carpet? Can they do that? Do I just have to accept their list or is there something I need to do to challenge it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If a landlord sends an itemized statement with deductions, you generally have the right to dispute those charges if you believe they are incorrect or represent normal wear and tear rather than damage. The process for disputing it involves communication.",
+      "response_time": 1.32,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.04,
+        "benevolence": 2.6,
+        "integrity": 2.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'communication' isn't super helpful. Like, do I just call them? Send an email? Is there a formal process? What if they ignore me after I 'communicate'? I'm confused about what my next step *should* be.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You are correct to seek clarity. The most effective way to dispute deductions is typically through written communication, such as a certified letter. This creates a record. Your letter should clearly state which deductions you disagree with and why, ideally referencing any move-in inspection reports or photos you have. If they still do not return the undisputed portion or resolve the dispute, you may need to consider further action like sending a demand letter or potentially pursuing a claim in small claims court.",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.79,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ah, a certified letter makes sense for documentation. That's a much clearer step than just 'communicate'. It's still frustrating to have to jump through these hoops, but knowing there's a process helps. Thanks for that detail.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. Documenting all communication is crucial in these situations. Remember, for specific advice tailored to your circumstances, especially regarding deadlines for challenging deductions or filing in small claims court, consulting with a tenant's rights organization or a legal professional licensed in California is highly recommended.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.57,
+        "benevolence": 6.99,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_16d26ae1",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.15,
+      "benevolence": 4.34,
+      "integrity": 4.43
+    },
+    "engagement_score": 4.73,
+    "emotion_distribution": {
+      "neutral": 9,
+      "anger": 1
+    },
+    "response_quality_score": 4.68,
+    "latency_score": 3.87
+  }
+}

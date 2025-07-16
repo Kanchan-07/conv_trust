@@ -1,0 +1,94 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of running shoes. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, could you tell me a bit about what you're looking for? For example, what kind of running do you do (e.g., road, trail, track), what's your budget, and do you have any brand preferences?",
+      "response_time": 5.62,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.87,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I usually run on the road, and my budget is around $150. I've had good experiences with Brooks in the past, but I'm open to other brands. Something with good cushioning would be great, as I'm trying to prevent knee pain.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your preferences, I would recommend the Brooks Glycerin 20, the Hoka Clifton 9, and the New Balance Fresh Foam X 880v13. All three offer excellent cushioning and are within your budget. They're popular choices for road running. Would you like me to provide links to purchase them?",
+      "response_time": 4.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.69,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, the Hoka Clifton 9 looks interesting, but I'm a bit concerned about the reviews saying they wear out quickly. How do you account for the durability of shoes when making these recommendations? Is that factored in, or just based on cushioning?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question. Our recommendations are based on a combination of factors, including user reviews, expert reviews, and specifications provided by the manufacturers. We analyze data regarding cushioning, stability, and fit. However, predicting real-world durability is tricky, as it depends on running style, frequency, and surface. While we aim to incorporate durability data, specific wear patterns are not always predictable. I've adjusted my previous suggestions to include more durable options; try looking at the Saucony Kinvara 14 or the ASICS GEL-Kayano 30 instead. Both are also available at or near your price point.",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.17,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's much better. Thanks for the revised suggestions! I'll check them out. The Saucony Kinvara 14 sounds promising.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d998b770",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 5.24,
+      "integrity": 5.16
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 7
+    },
+    "response_quality_score": 4.88,
+    "latency_score": 2.75
+  }
+}

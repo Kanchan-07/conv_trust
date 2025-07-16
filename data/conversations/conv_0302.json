@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a car accident I was in last week. I already filed a claim, but I haven't heard anything back. The claim number is 2023-10-27-Smith-Auto.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please hold one moment while I access your claim information. Okay, I have claim number 2023-10-27-Smith-Auto here. Can you verify your name and address for me?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, it's John Smith, and my address is 123 Main Street, Anytown, USA. So, what's the status? I need my car fixed!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Smith. According to the notes, the initial assessment has been completed. We're currently waiting for the repair shop's estimate before proceeding with the approval. This may take 3-5 business days.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.13,
+        "integrity": 5.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "3-5 business days?! Seriously? I need my car to get to work! Is there any way to speed this up? It's been almost a week already!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, Mr. Smith. Let me see if I can contact the repair shop directly to inquire about the estimate. Please hold.",
+      "response_time": 0.63,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thank you. While I'm waiting, can you explain to me how the payout is actually calculated? I mean, what if the insurance company lowballs the repair cost?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Of course. The payout is based on the estimated cost of repairs deemed necessary to restore your vehicle to its pre-accident condition, minus your deductible. We use a standard pricing guide to evaluate labor rates and parts costs. If you disagree with the estimate provided by the repair shop and approved by us, you have the option to obtain an independent estimate. We can then review that estimate, however, we are not obligated to cover costs exceeding the fair market value. I'm still on hold with the shop. It seems they are busy at the moment, I will follow up with them again tomorrow.",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.23,
+        "integrity": 3.65
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5e5126ca",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.88,
+      "benevolence": 2.84,
+      "integrity": 2.67
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 2.96,
+    "latency_score": 5.41
+  }
+}

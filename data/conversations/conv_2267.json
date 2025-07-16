@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview for a software engineer position next week. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! To get started, what specific areas do you want to focus on? For example, technical questions, behavioral questions, or company research?",
+      "response_time": 5.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.21,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I think I'm pretty solid on the technical stuff, but I'm terrible at answering behavioral questions. I always ramble. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely. Behavioral questions are all about demonstrating your soft skills and how you approach different situations. Let's start with a common one: 'Tell me about a time you failed.' What comes to mind?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.06,
+        "benevolence": 1.41,
+        "integrity": 1.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I hate that question! Okay, I guess there was that project in college where we didn't meet the deadline because of a miscommunication issue. I was the team lead, so... yeah, that's a good one to use, but I don't even know where to begin outlining my response.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great starting point. To structure your answer, consider the STAR method: Situation, Task, Action, Result. Can you tell me about the specific situation and task within that project, and then the actions you took to address the miscommunication issue?",
+      "response_time": 4.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.53,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if the interviewer asks me about what I learned from the experience and how it will affect my future? That seems like a pretty challenging question, I'm not sure how to spin that to a positive note.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question to anticipate. For 'lessons learned,' you could discuss how you implemented clearer communication protocols or how you improved your leadership skills to better assign tasks. For the future, you might say something like, 'I've learned to be proactive in addressing potential roadblocks and now prioritize open communication with my team. This has greatly improved project efficiency and collaboration in my current and past experiences'. Does that help?",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.95,
+        "integrity": 3.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1bd0f10d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.93,
+      "benevolence": 4.03,
+      "integrity": 4.17
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 6,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.94,
+    "latency_score": 3.86
+  }
+}

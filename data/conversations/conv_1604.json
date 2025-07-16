@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. I had a car accident last week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am sorry to hear about your accident. I can help you with that. To start, can I have your policy number and the date of the accident, please?",
+      "response_time": 0.53,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.32,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the policy number is ABC-123-XYZ. The accident was last Tuesday, October 24th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I have located your policy. Can you briefly describe what happened in the accident?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 6.65,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, I was at a stop light and got rear-ended pretty hard. The other driver said they weren't paying attention. My car's pretty banged up.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Understood. Do you have the other driver's insurance information or a police report number? Also, were there any injuries?",
+      "response_time": 3.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.79,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, I got their insurance info and filed a police report. No major injuries, thankfully, just a bit of whiplash. But, how does this impact my premium going forward? Will it go up even though I was not at fault?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That is a complex question. While fault is not always the determining factor in premium increases, the likelihood depends on your specific policy and state laws. We will evaluate the claim details before making any decisions. I recommend checking your policy documents for information about accident forgiveness or rate protection. I can't offer legal advice about future premiums, but I can tell you we will assess the accident thoroughly and will be in touch. The next step is for you to provide photos of the damage to your vehicle. Can you provide those now or do you need more time?",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.13,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit frustrating that I don't know the answer to my premium question upfront. I can get you the photos. Give me a moment... here they are attached.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Thank you. I've received the photos. I will now create a claim for you. You will receive a claim number shortly via email, and we'll contact you within 2 business days to begin the claim assessment process. Is there anything else I can assist you with at the moment?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.55,
+        "benevolence": 6.55,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_70d55a09",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.27,
+      "benevolence": 4.49,
+      "integrity": 4.61
+    },
+    "engagement_score": 4.38,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 4.21,
+    "latency_score": 3.51
+  }
+}

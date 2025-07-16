@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for a new pair of running shoes. I usually run about 5 miles, 3 times a week on pavement.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! Based on your running habits, I can recommend some shoes with good cushioning and durability.  Here are a few options, all rated highly by other runners:\n\n*   **Brooks Ghost 14:** A popular neutral running shoe known for its comfortable cushioning.\n*   **Hoka Clifton 8:** Offers a lot of cushioning, great for road running.\n*   **Saucony Kinvara 13:** A lightweight, responsive option suitable for faster paces.\n\nWould you like me to provide links to these products?",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 3.92,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks! The Brooks Ghost 14 sounds good. But I'm a bit overwhelmed by all the choices - are there any shoes that are particularly good for someone with a wider foot? I've had problems with blisters in the past.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize, but I am unable to provide specific recommendations based on foot width. However, based on the brand, Brooks does offer various widths for many of its shoe models. I would suggest visiting the Brooks website and checking specific models. I will retrieve the product page for the Ghost 14 now, and you can check if they have wide options.",
+      "response_time": 3.88,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.18,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's frustrating, but I understand.  Let's say I want something that is also good for trail running, just in case I decide to try some off-road running.  Can you recommend a shoe that fits that profile? I'd also prefer something under $150 if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright. Considering both road and trail, and the price, the Hoka Speedgoat 5 might be a good choice. It generally stays within the budget, and gets good reviews.  However, you may want to double-check the price on your preferred retailer. As I don't have access to real-time price data, I recommend checking the Hoka website or other retailers like REI or Amazon.",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.13,
+        "integrity": 3.83
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6b83bd90",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.92,
+      "benevolence": 4.08,
+      "integrity": 4.11
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.19,
+    "latency_score": 3.97
+  }
+}

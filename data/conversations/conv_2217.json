@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi! I'm looking for some book recommendations. I really like science fiction, anything you can suggest?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Based on your preference for science fiction, I would recommend 'Dune' by Frank Herbert, and 'The Martian' by Andy Weir. Are either of those something you'd be interested in?",
+      "response_time": 5.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.22,
+        "benevolence": 5.87,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've read those. Anything a bit more... obscure? Something I might not have heard of before?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. For less mainstream sci-fi, perhaps try 'Blindsight' by Peter Watts, or 'A Fire Upon the Deep' by Vernor Vinge. Both are quite complex but highly regarded within the genre. How does that sound?",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.57,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Blindsight sounds familiar, but I can't quite place it. Tell me, what makes those books stand out compared to more popular sci-fi?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! 'Blindsight' is known for its hard science approach and exploration of consciousness, while 'A Fire Upon the Deep' is praised for its unique universe with zones of thought. They both delve into more philosophical and scientific concepts compared to some of the more adventure-driven sci-fi. They're less focused on action and more on the *ideas* behind science fiction.",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.84,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I'll try 'Blindsight'. Thanks! But... you didn't really *recommend* anything based on my previous reads, did you? You just listed off famous ones and then a couple of others...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're right, my apologies. I am still under development and occasionally struggle to create a truly personalized recommendation. I'm glad I could provide some options for you nonetheless, and I'll try to do better next time. Is there anything else I can help you with at this time?",
+      "response_time": 4.26,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.22,
+        "benevolence": 5.03,
+        "integrity": 5.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d6f84809",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.04,
+      "benevolence": 5.08,
+      "integrity": 5.21
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 4.69,
+    "latency_score": 3.12
+  }
+}

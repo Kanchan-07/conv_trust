@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #789456-ABC. It was supposed to be delivered three days ago, and I haven't received it yet. I'm getting pretty frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration regarding order #789456-ABC. Let me check on the status for you. One moment please.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.07,
+        "benevolence": 1.45,
+        "integrity": 1.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I really needed this package by now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see that your package is currently in transit at our regional hub. It appears there was a slight delay due to unforeseen circumstances. The estimated delivery date is now showing as tomorrow.",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.44,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tomorrow? 'Unforeseen circumstances'? What kind of circumstances? This is ridiculous.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the lack of specific details. The note indicates a temporary weather-related disruption at the hub. While I don't have exact specifics, I can assure you your package is prioritized for delivery tomorrow. Would you like me to set up delivery notifications?",
+      "response_time": 1.82,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.64,
+        "benevolence": 2.67,
+        "integrity": 2.48
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, okay, delivery notifications would be good. But honestly, how reliable IS that estimate? I've been burned by 'estimated delivery dates' before.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I can't guarantee delivery, the tracking information suggests it's highly likely to arrive tomorrow. I've added you to our notification system. You will receive a text and email when the package is out for delivery. Also, please check the tracking link we sent you when you placed the order; it should reflect the updated information within a few hours.",
+      "response_time": 3.82,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.05,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright. I guess I'll wait and see. Is there anything else you can do to compensate for the delay? I am a regular customer.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand. As a valued customer, I've added a 10% discount code to your account that you can use on your next purchase. It should be available immediately. I hope this helps, and again, I sincerely apologize for the inconvenience. Is there anything else I can assist you with today?",
+      "response_time": 4.49,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c10d0104",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.95,
+      "benevolence": 4.12,
+      "integrity": 3.95
+    },
+    "engagement_score": 5.13,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 4,
+      "sadness": 2,
+      "fear": 1
+    },
+    "response_quality_score": 3.74,
+    "latency_score": 4.84
+  }
+}

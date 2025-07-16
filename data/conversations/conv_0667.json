@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm still stuck on this quadratic equation stuff. Specifically, completing the square. It just doesn't click.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Completing the square can be tricky. Let's break it down. Can you tell me which specific part you're finding difficult? For example, is it understanding the initial setup, manipulating the equation, or something else?",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 3.68,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I think it's the part where you have to, like, add something to both sides. I don't get why we're allowed to just do that.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great question! We can add the same value to both sides of an equation because of the fundamental property of equality. It's like a balance scale \u2013 if you add the same weight to both sides, the scale remains balanced. Doing so maintains the equality between the expressions.",
+      "response_time": 4.5,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.94,
+        "integrity": 6.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I *think* I get that. But how do you know *what* to add? That's the magic part, right? It feels totally arbitrary.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, determining what to add is crucial. To find the value, take half of the coefficient of your 'x' term (the term with just 'x', not 'x squared'), square it, and then add that to both sides of the equation. Do you have an example problem we can work through together?",
+      "response_time": 5.02,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.16,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, here's one: x^2 + 6x - 7 = 0. Now what? I'm probably going to mess this up.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, x^2 + 6x - 7 = 0. First, move the constant term to the right side: x^2 + 6x = 7. Now, what is half of the coefficient of our x term (which is 6), squared? That will be the value we add to both sides.",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.67,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wait a minute... half of 6 is 3, and 3 squared is 9. So we add 9 to both sides? That makes... x^2 + 6x + 9 = 16? Is that right? I think... I think I see it now!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Exactly! x^2 + 6x + 9 = 16 is correct. Now, recognize that the left side is a perfect square trinomial: (x + 3)^2 = 16. You're on your way! What are the next steps?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.86,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4de49027",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.5,
+      "benevolence": 5.26,
+      "integrity": 5.59
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 5.87,
+    "latency_score": 3.24
+  }
+}

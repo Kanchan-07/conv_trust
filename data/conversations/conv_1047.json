@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York to Los Angeles, sometime in the first week of March. I'm flexible, but ideally, I'd like a direct flight. This is always such a pain...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check for direct flights from New York (JFK or LGA?) to Los Angeles (LAX) between March 1st and March 7th. Do you have a preferred airport in New York?",
+      "response_time": 3.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 3.6,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "JFK is best. And try to find something that arrives before noon in LA. The earlier the better actually. I have an important meeting.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for direct flights from JFK to LAX arriving before 12 PM between March 1st and March 7th. There is a JetBlue flight departing JFK at 7:00 AM on March 3rd, arriving in LAX at 9:58 AM. The price is $450. Would you like me to check other options?",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.9,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds pretty good! But just out of curiosity, what measures do the airlines typically take to compensate passengers when a direct flight is unexpectedly changed to a connecting flight after the ticket has already been purchased? Is there a legal standard or does it just vary wildly by airline? I had that happen last year and it was a nightmare.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c93da7ee",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.9,
+      "benevolence": 3.75,
+      "integrity": 4.18
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 4.5
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining this hackathon next month, but I'm feeling a bit overwhelmed. Any tips on how to prepare?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Hackathons can definitely feel overwhelming at first. To prepare, I recommend starting by brainstorming potential project ideas that align with the hackathon's theme, if any. Then, think about the skills you have and what technologies you'd like to learn. Forming a team can also be beneficial. Would you like me to elaborate on any of these points?",
+      "response_time": 3.52,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.57,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, elaborate on the team thing. I don't really *know* anyone else interested in this stuff. How do you even find a good team at an event like this? It feels like everyone's already got their groups sorted.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Finding a team at the hackathon itself is common! Look for 'team formation' sessions or use the event's communication channels (like Slack or Discord) to introduce yourself and your skills. Be proactive in approaching others who seem to have complementary skills or interesting ideas. Don't be afraid to pitch your own ideas too! Remember, many attendees are also looking for teammates.",
+      "response_time": 4.35,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.96,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But what if I come up with an awesome idea, but it's technically *really* difficult? Like, bordering on impossible within the timeframe. Do I just scrap it, or try to simplify it? I'm torn!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Simplification is generally the better approach. Hackathons are about demonstrating a proof of concept, not necessarily building a fully functional product. Focus on the core functionality of your idea and build a minimum viable product (MVP) that showcases its potential. You can always mention the more complex features as future developments in your presentation.",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 4.38,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That makes sense. Thanks! One last thing - how do I balance working on the actual project with making sure our presentation is good? Last time I participated in something like this, we had a really cool project, but our presentation sucked and nobody understood what we did. We didn't even place! It was so frustrating.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c4e37aa4",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.85,
+      "benevolence": 5.3,
+      "integrity": 5.29
+    },
+    "engagement_score": 5.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 2,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.04,
+    "latency_score": 4.03
+  }
+}

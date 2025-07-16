@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking for some new hiking boots. I've been browsing your site, but I'm getting overwhelmed by the choices. Can you recommend some based on my purchase history?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your purchase history, we see you've previously purchased a hiking backpack, trekking poles, and several outdoor apparel items. Considering this, I recommend the Salomon X Ultra 4 Mid GTX hiking boots. They're a popular choice for their comfort and ankle support. Would you like me to filter the results to show those boots specifically, or perhaps suggest others?",
+      "response_time": 4.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.64,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, the Salomon boots are fine, but I'm not convinced they're the best. I've read reviews complaining about their durability. Can you show me boots with similar features and price range, but with better reviews for long-term wear and tear? And how do you actually determine the recommendations based on my history? Just because I bought a backpack doesn't mean I need boots that are similar in any way...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern regarding durability, and you're right to question the recommendation algorithm's specific logic. While I don't have access to the exact methodology of the recommendation engine, I can attempt to find alternatives. Based on your request for similar features and price, I can suggest the KEEN Targhee III Mid Waterproof hiking boots. They often receive positive feedback on their longevity. In addition to your prior purchases, the system may be using factors like browsing history and customer reviews to generate the suggestions, so there is a degree of estimation involved. Would you like me to explore further options or provide a comparison between the two boots I've mentioned?",
+      "response_time": 5.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.86,
+        "integrity": 5.16
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_69083033",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.71,
+      "benevolence": 5.75,
+      "integrity": 5.43
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.36,
+    "latency_score": 2.56
+  }
+}

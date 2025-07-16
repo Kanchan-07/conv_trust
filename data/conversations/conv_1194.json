@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have an interview coming up for a software engineer position at Google, and I'm feeling pretty nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you prepare. To start, what specific areas are you most concerned about? Are you worried about technical questions, behavioral questions, or something else entirely?",
+      "response_time": 5.94,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.54,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Definitely the technical questions. I always blank out when they ask about algorithms and data structures. It's like my brain just stops working. Behavioral questions are okay, I think.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Let's focus on technical questions then. I can generate some practice questions related to common algorithms and data structures. Would you prefer easy, medium, or hard difficulty to begin?",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.76,
+        "integrity": 5.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Let's start with medium. But... can you also give me some tips on *how* to approach these problems? I know the concepts, but applying them in the moment is hard.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, a typical question might be: Describe a situation where using a hash table would be more efficient than using a binary search tree. As for tips, a general strategy for technical questions involves clarifying assumptions, outlining a high-level approach, and then diving into implementation details. Practice explaining your thought process out loud. Does this help?",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.84,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Honestly, not really. That's a pretty broad answer. What if I genuinely have no idea where to even start? What's a *concrete* first step I can take when I'm completely stumped?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, let me be more specific. When completely stuck, try these: 1. Re-read the question carefully, underlining key nouns and verbs. 2. Identify the core data structures or algorithms that *might* be relevant. Even listing them out helps. 3. Try to relate the problem to a similar, simpler problem you've solved before. Does that resonate more?",
+      "response_time": 1.87,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.59,
+        "benevolence": 2.16,
+        "integrity": 2.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7a25cc0a",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.47,
+      "benevolence": 4.33,
+      "integrity": 4.29
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.74,
+    "latency_score": 3.5
+  }
+}

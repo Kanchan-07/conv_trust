@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so behind on these medical billing claims! Can you help me process a few? I have a pile here.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can assist with processing medical billing claims. Please provide the necessary information, such as patient details, provider details, diagnosis codes (ICD-10), procedure codes (CPT), and the amount charged. Let's start with the first claim.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here's the first one. Patient: John Smith, DOB: 03/15/1970, Provider: Dr. Alice Johnson, CPT code: 99214, ICD-10: M54.5. The amount charged is $250. Now what? How do I find the insurance information for this?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on the information provided, to proceed with the claim submission, you need the patient's insurance information. That is not something I can find. You need to ask the patient. Do you have the policy number, group number, and insurance provider's name? Once you have that, I can help generate a claim form. Also, are you sure M54.5 is the correct code? Seems a bit broad. And just checking, 99214 is the correct code for an office visit, correct?",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.49,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. No, I don't have the insurance information yet. I need to get that from John. And yes, I'm pretty sure M54.5 is correct for the ICD-10... and 99214 is correct. Thanks for the help! I'll go get the insurance info and come back.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cf902318",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.25,
+      "benevolence": 5.75,
+      "integrity": 5.52
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 2.44
+  }
+}

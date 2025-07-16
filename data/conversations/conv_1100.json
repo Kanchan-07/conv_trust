@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Emily Carter. It's really important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Can you please provide your full name and date of birth for verification?",
+      "response_time": 3.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.29,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, DOB is 03/15/1978. Ugh, this is always such a hassle.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, John. I've located your profile. Dr. Carter has availability next Tuesday at 2 PM or next Wednesday at 10 AM. Which works best for you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.7,
+        "benevolence": 7.0,
+        "integrity": 6.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Neither of those times work! Is there anything else available, maybe later in the week?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check. Dr. Carter also has an opening on Thursday at 3:30 PM. Will that work, John?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.36
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Thursday at 3:30 works. Great. Now, how do I ensure that Dr. Carter has reviewed my latest lab results before the appointment? Last time she hadn't, and it was a waste of time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. I will add a note to your appointment request to ensure Dr. Carter reviews your latest lab results. You can also upload them to the patient portal, if you haven't already. Is there anything else I can assist you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d8923610",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.82,
+      "integrity": 4.91
+    },
+    "engagement_score": 4.47,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.28,
+    "latency_score": 3.47
+  }
+}

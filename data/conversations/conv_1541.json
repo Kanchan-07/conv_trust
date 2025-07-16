@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I'm really into science fiction, but I'm getting bored with the stuff I usually read. Anything new and interesting out there?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for science fiction, I can suggest a few. Have you read anything by Ted Chiang? His short story collections are fantastic. Also, have you explored the works of Becky Chambers? Her 'Wayfarers' series is very popular, often described as 'cozy sci-fi'. Could you tell me a bit about what you *dislike* about the sci-fi you've been reading lately? That will help me tailor the recommendations.",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.3,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've read some Chiang, but not everything. I'm definitely familiar with Becky Chambers, and I agree, they're good, but I want something... different. I'm tired of the overly-technical hard sci-fi, and the space operas all feel the same. Something with a strong story, maybe a bit philosophical? Oh, and avoid anything with excessive violence if possible, please.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, that helps a lot! Based on your preferences, I'd recommend 'A Fire Upon the Deep' by Vernor Vinge. It's a classic, explores some fascinating concepts regarding zones of thought, and has a strong narrative focus. It's not *entirely* free of violence, but it's not gratuitous. Also, 'The Sparrow' by Mary Doria Russell, while technically sci-fi, delves deeply into themes of religion and first contact, with a more thoughtful and less action-oriented approach. It could be just what you're looking for. Regarding the 'philosophical' aspect, could you tell me which philosophical concepts interest you? This will allow for a better tailored response in the future.",
+      "response_time": 4.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.75,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 'A Fire Upon the Deep' sounds interesting. What's the actual *plot* like, without giving away too many spoilers? And, I'm not going to lie, I am terrible at remembering authors' names. Is there an easy way to remember how to find the book on an online store?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1fbed33d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.5,
+      "benevolence": 5.53,
+      "integrity": 5.36
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 5.69,
+    "latency_score": 3.37
+  }
+}

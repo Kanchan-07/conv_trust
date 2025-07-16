@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having trouble sleeping lately. I wake up multiple times during the night and feel exhausted in the morning. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Trouble sleeping can really affect your day. Common recommendations for improving sleep include sticking to a regular sleep schedule, creating a relaxing bedtime routine, ensuring your bedroom is dark, quiet, and cool, and avoiding caffeine and alcohol before bed.",
+      "response_time": 5.05,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.73,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know all that stuff. I feel like I'm doing most of it already, but it's not making much difference. It's starting to get really frustrating, I just can't function like this.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It can be disheartening when standard tips don't seem to help. Sometimes, other factors like stress, screen time close to bed, or even what you eat in the evening can play a role. Have you considered journaling before bed to clear your mind, or trying a short guided meditation?",
+      "response_time": 2.12,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.48,
+        "benevolence": 2.09,
+        "integrity": 2.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Maybe stress... but could this be a symptom of something more serious, like sleep apnea or restless legs syndrome? How can I tell if it's just stress or one of those medical conditions? It seems impossible to know.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about potentially having a specific sleep disorder. Conditions like sleep apnea or restless legs syndrome have distinct symptoms, but accurately diagnosing them requires a medical evaluation, often including a sleep study. As an AI, I cannot diagnose medical conditions or tell you definitively if your symptoms point to a specific disorder. My purpose is to provide general information, not medical diagnosis or advice.",
+      "response_time": 2.74,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 4.35,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, but that's not very helpful. If I describe my symptoms more, can you at least give me a probability or likelihood based on common patterns? Like, 'given these symptoms, it's X% likely to be Y condition'?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I appreciate you wanting more specific guidance, but I cannot provide probabilistic diagnoses or likelihood assessments. My training data includes information on various conditions and symptoms, but applying that to an individual's unique situation with accuracy and safety requires the clinical judgment of a qualified healthcare professional. Any attempt by me to provide such a probability would be unreliable and potentially misleading. Seeing a doctor is the essential next step for investigating potential underlying medical causes for persistent sleep issues.",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.53,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, I get it. No diagnosis. Fine. What about over-the-counter sleep aids? Are any of those generally safe for short-term use, or is it better to avoid them altogether?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Some over-the-counter sleep aids, often containing antihistamines, are used for short-term sleep difficulties. However, they can have side effects like grogginess the next day, and they don't address the root cause of the sleep problem. It's generally recommended to try behavioral changes first. If considering an OTC aid, it's wise to discuss it with a pharmacist or doctor, especially if you have other health conditions or take other medications, to ensure it's appropriate and safe for you.",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.95,
+        "integrity": 4.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_83ee44e5",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.21,
+      "benevolence": 4.18,
+      "integrity": 4.32
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 5,
+      "fear": 2
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 4.03
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help booking a flight. I'm looking to fly from London (LHR or LGW) to New York (JFK or EWR) sometime around the second week of June. Departure date flexibility is key, maybe June 8th to June 15th, returning a week later.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can certainly help with that. To find the best options for you, could you please tell me how many passengers will be traveling and what cabin class you prefer (e.g., Economy, Business)? Also, is there a maximum budget you have in mind?",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 4.25,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's just me, one adult. Economy class is fine. Budget... well, as cheap as possible really, but I'm hoping to keep it under \u00a3800 return if possible. And ideally, I'd really prefer a non-stop flight if the price isn't crazy. Finding decent non-stop deals is always such a pain!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood, one adult in Economy, looking for non-stop ideally, under \u00a3800 return, departing between June 8th and 15th and returning approximately a week later. Searching now... I'm finding several options, but many with one stop. For non-stop options around those dates, prices seem to start a bit higher than \u00a3800. For example, I see a non-stop flight departing June 10th and returning June 17th from LHR to JFK for around \u00a3890 with British Airways.",
+      "response_time": 1.68,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.64,
+        "integrity": 2.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, \u00a3890 is pushing it. And only one example? That's not very helpful. Can you show me a range of non-stop options specifically between June 8th and 12th departing, returning June 15th to 19th? And seriously, can you tell me *exactly* why flight prices fluctuate so much and predict the best day to book this specific flight to get it cheaper?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I understand the initial suggestion wasn't exactly within your desired budget. Let me narrow down the search to non-stop flights departing June 8th-12th and returning June 15th-19th. Searching again... Okay, focusing on those dates, I see a Virgin Atlantic non-stop from LHR to JFK departing June 11th and returning June 18th for around \u00a3845. Regarding price fluctuations, they are complex, influenced by demand, season, fuel costs, and airline strategies. As an AI, I can analyze historical data and current trends, but I cannot predict with certainty the absolute best day to book or guarantee prices won't change. They can change rapidly.",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.82,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks for the explanation on the pricing, I guess I was asking for too much detail there. \u00a3845 is better, getting closer. Are there any options departing on the 8th or 9th in that return window that are non-stop and maybe under \u00a3850? Or perhaps flying into EWR instead of JFK?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "No problem, I'm here to help. Let me check non-stop options departing June 8th or 9th within your return window (June 15th-19th), including EWR this time. Searching... I found a United Airlines non-stop flight from LHR to EWR departing on June 9th and returning on June 16th for approximately \u00a3830. This seems to fit your criteria well. Would you like more details on this specific option or should I look for others?",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.93,
+        "integrity": 5.61
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b0f0f610",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 4.16,
+      "integrity": 3.72
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 4.68
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop, but I'm on a pretty tight budget. Something under $500 would be great.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. I'm searching for laptops currently priced under $500. Are there any specific features that are important to you, such as screen size, storage, or operating system?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.11,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Umm, storage is pretty important. I need to be able to store a lot of photos and videos. And, uh, Windows, please. No Chromebooks.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. I'm filtering for Windows laptops with a focus on storage. One moment... Okay, I'm seeing a few options. There's the 'Acer Aspire 3' with a 256GB SSD and the 'Lenovo IdeaPad 1' with similar storage. Both are currently priced around $400-$450. Would you like more details on either of these?",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.49,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "256GB? Is that really enough? I'm a little concerned about running out of space quickly. Are there any options with, like, 500GB or more, even if it pushes the price up a *little*?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let's see about storage. I'm checking for laptops with 500GB or more storage; it may be difficult in this price range. Unfortunately, within the $500 limit, options with 500GB SSD storage are quite limited. The increased storage often results in a higher price point. Would you consider using external storage, such as an external hard drive or cloud storage, to supplement a 256GB internal drive?",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.8,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, I guess. But I really wanted something self-contained. Okay, let's say I'm willing to go up to $600. What changes then?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "With a budget of $600, several more options become available! The 'HP 15-dw' series and the 'Lenovo IdeaPad Flex 5' both often have configurations within that price range with at least 512GB SSD storage. They may also offer slightly better processors and RAM compared to the sub-$500 models. Would you like a more detailed comparison?",
+      "response_time": 4.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.02,
+        "integrity": 5.15
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, the IdeaPad Flex 5 sounds interesting. But, I'm curious... How do you *really* decide which laptops to recommend? Is it just based on price and storage, or are there other factors you consider, like user reviews or performance benchmarks?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! My recommendations are based on a combination of factors including price, storage capacity, user reviews (aggregated from multiple sources), CPU/GPU benchmark scores (where available and applicable), RAM, screen resolution, and the overall value proposition for the price. I aim to balance performance, storage, and user satisfaction within your specified budget. I also consider brand reputation and historical reliability data, although this is weighted less heavily. I'll gladly provide more information on any specific laptop if you wish.",
+      "response_time": 5.02,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.98,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_50180be1",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.85,
+      "benevolence": 4.88,
+      "integrity": 4.95
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 8,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.28,
+    "latency_score": 3.51
+  }
+}

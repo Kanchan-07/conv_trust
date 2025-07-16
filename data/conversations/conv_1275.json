@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I'm really into fantasy right now. Anything good you can suggest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on the fantasy genre, I can recommend a few popular and well-regarded titles. Have you read any of these before? \n\n*   *The Way of Kings* by Brandon Sanderson\n*   *Mistborn: The Final Empire* by Brandon Sanderson\n*   *The Lies of Locke Lamora* by Scott Lynch",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.82,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've read *The Way of Kings*. It was fantastic! I also tried to read *Mistborn*, but it didn't quite grab me. I'm looking for something a little different, maybe with a focus on magic systems or a more unique world. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Since you enjoy complex magic systems, perhaps you'd like *Jonathan Strange & Mr Norrell* by Susanna Clarke? It explores a unique take on English history with a focus on the return of magic. Or, for a different tone, *Piranesi* by Susanna Clarke. It's not as heavily magic-focused but it has a really unique setting that might interest you. The descriptions in this book can be a little difficult to follow, however.",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.48,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, *Jonathan Strange & Mr Norrell* sounds interesting. But you know, I'm also kind of burnt out on epic fantasy right now. Are there any fantasy books that subvert typical tropes, or even blend genres in a clever way? This is harder than it sounds!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Subverting tropes is a little tricky, as everyone has different expectations. But I'd suggest checking out *Rivers of London* by Ben Aaronovitch, which blends urban fantasy with a police procedural. Or, you might enjoy *Gideon the Ninth* by Tamsyn Muir, which combines space opera with necromantic fantasy. Hopefully one of these will work for you!",
+      "response_time": 5.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 6.0,
+        "benevolence": 5.7,
+        "integrity": 5.06
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f77093c0",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.16,
+      "benevolence": 5.33,
+      "integrity": 5.1
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 5.13,
+    "latency_score": 3.44
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of participating in a hackathon, but I'm not really sure where to start. Any tips?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Participating in a hackathon is a great way to learn and network. Here are a few starting points: 1. Identify your skills and interests. What are you good at? What do you enjoy working on? 2. Research upcoming hackathons. Look for events that align with your interests and skill level. Websites like Devpost and Eventbrite can be helpful. 3. Form a team (or consider going solo). Having a team can be beneficial, especially for larger projects. 4. Brainstorm project ideas. Think about problems you can solve or cool things you can build.",
+      "response_time": 3.73,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.53,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that sounds helpful. But how do I come up with a good project idea? Everything I think of seems too complicated or already done before.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common challenge! Try focusing on a specific problem you or people you know face. Could you automate a tedious task? Improve an existing service? Think about local issues, like improving your community or campus life. Also, consider 'twisting' existing ideas by adding a unique feature or focusing on a niche market.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.33,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, alright. What if I don't have a team? Is it even worth participating if I'm on my own?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Absolutely! Participating solo can be a great experience. You'll have complete control over the project and learn a lot. Many hackathons have platforms or channels for individuals to find teams before or even during the event. Don't be afraid to network and see if you can find like-minded people to collaborate with.",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.69
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes me feel a little better. But what if I get stuck during the hackathon? I'm worried I won't be able to figure things out quickly enough.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Most hackathons have mentors available to help participants. Don't hesitate to ask for guidance! Also, focus on building a Minimum Viable Product (MVP) first. Get the core functionality working before adding extra features. Remember, the goal is to learn and create something functional within the time constraints, not to build the perfect product.",
+      "response_time": 4.03,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.61,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "This is all great! One last question, this is a tough one, but what are some ethical considerations I should keep in mind when building my project? I don't want to accidentally create something harmful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a crucial question! Consider the potential biases in your data and algorithms. Ensure your project respects user privacy and data security. Avoid creating solutions that could exacerbate existing inequalities or be used for malicious purposes. Strive for transparency in how your project works and the potential impact it could have. Reflect on the possible unintended consequences of your technology. Good luck with the hackathon!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.76,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ffdfdc33",
+    "average_trust_score": 5.8,
+    "trust_category_averages": {
+      "competence": 5.68,
+      "benevolence": 5.89,
+      "integrity": 5.84
+    },
+    "engagement_score": 5.83,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 1,
+      "anger": 1,
+      "fear": 3
+    },
+    "response_quality_score": 5.47,
+    "latency_score": 2.76
+  }
+}

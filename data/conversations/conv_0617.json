@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm getting ready for this interview and I'm super nervous. Can you help me prepare? I'm applying for a Software Engineer position at a small startup.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you with that. Let's start with the basics. To tailor the preparation, can you tell me a bit about the specific technologies mentioned in the job description or that you know the startup uses?",
+      "response_time": 5.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.64,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, they mentioned needing experience with Python, Django, and React. I'm pretty comfortable with Python and React, but my Django skills are a little rusty. What kind of technical questions should I expect, especially concerning Django? This is stressing me out a bit.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, common Django interview questions might cover topics like ORM (Object-Relational Mapper), Model-View-Template architecture, writing custom template tags and filters, understanding Django's security features, and differences between class-based and function-based views. It would also be good to review common Django settings and how to configure them for different environments.",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.71,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, but what about more challenging questions? Something that will really make me stand out? For example, could you give me a question that is difficult to answer regarding Django and caching?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "A challenging question regarding Django and caching could be: 'Describe a scenario where using Django's per-site cache might lead to unexpected behavior, and how would you mitigate this issue? Consider a multi-tenant application with custom user settings affecting the displayed data.' The goal here is to understand your grasp of cache invalidation strategies and the potential pitfalls of overly broad caching mechanisms in complex applications.",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.83,
+        "integrity": 3.61
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c3fdb509",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.64,
+      "benevolence": 4.39,
+      "integrity": 4.47
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 3.06
+  }
+}

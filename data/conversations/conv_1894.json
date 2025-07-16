@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm prepping for a hackathon this weekend. Any advice on how to get started?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. First, what kind of hackathon is it? Knowing the focus (e.g., web dev, AI, hardware) will help me tailor my advice.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.74,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a general one, open to all sorts of projects. I'm leaning towards something in the AI space, but I'm a bit overwhelmed with where to begin.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's a broad field! My top advice would be to: 1) Brainstorm project ideas related to AI. 2) Identify any datasets you might need. 3) Start small and focus on a specific problem. What are your current skill sets in AI or programming?",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.34,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I have basic Python knowledge and some familiarity with machine learning concepts. The brainstorming part is where I'm stuck. Any suggestions for AI project ideas that aren't super complex and can be completed in a weekend?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Sure. How about an image classification project using a pre-trained model, a sentiment analysis tool for social media data, or a basic chatbot? A challenging question: What innovative techniques could you employ to avoid relying on pre-trained models and build something truly novel?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.6,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, that's a tough one! I was hoping to avoid building something from scratch. Okay, I think I'll try the sentiment analysis tool for social media. That sounds interesting. How do I go about choosing a dataset?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Excellent choice. For sentiment analysis, you can look at datasets on Kaggle, UCI Machine Learning Repository, or even scrape from Twitter (if allowed and adhering to their terms of service). Consider dataset size and quality for optimal performance. Good luck at the hackathon!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.52,
+        "benevolence": 6.99,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f45154b0",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.92,
+      "benevolence": 5.17,
+      "integrity": 5.04
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 6,
+      "surprise": 2
+    },
+    "response_quality_score": 5.6,
+    "latency_score": 3.52
+  }
+}

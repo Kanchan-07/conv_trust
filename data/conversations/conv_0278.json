@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to book a table for dinner tonight. Somewhere Italian, preferably.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. What city are you looking to dine in, and how many people will be in your party?",
+      "response_time": 3.76,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.18,
+        "integrity": 3.86
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, sorry. It's for Chicago, and we'll be a group of four.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for Italian restaurants in Chicago for four people... How about 'Bella Notte'? It's highly rated.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 3.71,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Bella Notte... I've heard mixed reviews. Anything a bit more... authentic, maybe less touristy? Ideally, somewhere with good pasta.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Understood. Let me refine the search. How about 'Trattoria Roma'? It's family-owned and known for its homemade pasta dishes. The reviews mention a cozy atmosphere.",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.46,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds promising! What's their policy on splitting the bill? We might want to do separate checks.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I'm sorry, I don't have access to real-time information about their specific bill-splitting policies. However, you can likely find their contact information on Google and call to inquire directly. Would you like me to find that for you?",
+      "response_time": 2.38,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.24,
+        "benevolence": 2.66,
+        "integrity": 2.61
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please! And, while you're at it, can you check their availability for 7:30 PM tonight? I'm getting a bit frustrated hopping between apps to do all this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly. I've located their phone number: 555-123-4567. And I'm checking availability for Trattoria Roma at 7:30 PM. Great news! They have a table available. Would you like me to book it for you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.78
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8db33c12",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.29,
+      "benevolence": 4.4,
+      "integrity": 4.36
+    },
+    "engagement_score": 4.82,
+    "emotion_distribution": {
+      "neutral": 6,
+      "anger": 2,
+      "sadness": 2
+    },
+    "response_quality_score": 4.8,
+    "latency_score": 3.61
+  }
+}

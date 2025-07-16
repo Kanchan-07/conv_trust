@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some music? I'm really into electronic music right now.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! I can help with that. To give you the best recommendations, could you tell me a bit more about what kind of electronic music you like? For example, are you into house, techno, trance, or something else?",
+      "response_time": 5.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.66,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm not even sure. Something chill, maybe like... ambient electronica? And maybe some stuff that's not *too* well-known. I'm tired of hearing the same radio hits.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on 'ambient electronica' and less mainstream, I would suggest checking out these artists: Tycho, Boards of Canada, and Helios. You could also look into the label 'Ghostly International' for similar artists. They're quite popular. What do you think?",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 3.51,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tycho is great, love them. Boards of Canada is a bit *too* chill sometimes, and I've heard of Helios. But, honestly, how are these recommendations even related to 'chill' *and* 'ambient electronica*? Most recommendation systems just seem to scrape the surface. What makes you think these are good recommendations, specifically?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question! My recommendations are based on a combination of factors. Primarily, I analyze genre tags from music databases, looking for overlaps between 'ambient,' 'electronica,' and related subgenres. I also consider listener behavior data, such as what songs users who enjoy Tycho also listen to. Additionally, I filter for less mainstream artists based on their popularity scores and mentions in independent music blogs and online communities. Finally, I check critical reception. Does this explanation help?",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.16,
+        "integrity": 5.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, that actually makes a lot more sense. Thanks! I'll check out Helios then, and maybe dig into the 'Ghostly International' label. Appreciate the effort.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1df4c71a",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.2,
+      "benevolence": 4.78,
+      "integrity": 4.98
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 5.32,
+    "latency_score": 2.83
+  }
+}

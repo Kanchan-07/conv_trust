@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help with grocery shopping. I'm on a really tight budget this week, like $50 max. What are some healthy and filling meal ideas I can make?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! For a $50 budget, focusing on versatile ingredients like beans, rice, and seasonal vegetables is key. How about some lentil soup, rice and beans with salsa, and a simple pasta dish with sauteed vegetables? These are all relatively inexpensive and nutritious. I can provide specific recipes and estimated costs if you'd like.",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.82,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, recipes would be great! But honestly, I'm so tired of beans and rice. Is there ANYTHING else I can eat that's cheap?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Let's see... How about a large batch of chili using ground turkey instead of beef (turkey is often cheaper)? You can freeze portions for later. Also, consider eggs - omelets or frittatas with leftover veggies are a great option. And oatmeal is very affordable for breakfast.",
+      "response_time": 2.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.74,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, chili sounds good. Can you give me a recipe for that, and also tell me how much each of these meals (lentil soup, rice and beans, pasta, chili, omelets, and oatmeal) would cost roughly per serving?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I can provide that! Please note these are *estimates* and prices will vary based on location and store. \n\n*   **Lentil Soup:** $0.75 per serving\n*   **Rice and Beans:** $0.50 per serving\n*   **Pasta with Veggies:** $1.00 per serving\n*   **Turkey Chili:** $1.50 per serving\n*   **Omelet:** $0.80 per serving\n*   **Oatmeal:** $0.30 per serving\n\nFor a basic Turkey Chili recipe: 1 lb ground turkey, 1 can diced tomatoes, 1 can kidney beans, 1 can black beans, 1 onion, chili powder, cumin, garlic powder. Brown turkey, add chopped onion, then spices. Add tomatoes and beans, simmer for 20 minutes. Adjust spices to taste.\n\nIs there anything else?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 4.08,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, those estimates are super helpful, thanks! But how are you even calculating those prices? Are you taking into account sales tax, or the fact that I might already have some of the ingredients at home? It feels like that would make a big difference.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're right, those are excellent points! The cost estimates are based on average ingredient prices, excluding sales tax and assuming all ingredients need to be purchased. I am currently unable to factor in your existing pantry items or real-time local sales. For a more precise calculation, I recommend using online grocery price comparison tools specific to your area after I provide the ingredient lists. I apologize for any potential inaccuracies due to these limitations.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aadaccd3",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.05,
+      "benevolence": 4.66,
+      "integrity": 4.93
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 3.71
+  }
+}

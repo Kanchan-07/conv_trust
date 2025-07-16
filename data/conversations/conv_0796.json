@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking for a new coffee maker. I've been burned by cheap ones before, so I want something reliable, preferably with a built-in grinder. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for reliability and a built-in grinder, I would recommend checking out the Breville Barista Touch. It's a bit of an investment, but consistently receives high ratings for performance and longevity. Alternatively, the Cuisinart DGB-900BC Grind & Brew Thermal Automatic Coffeemaker is a more budget-friendly option that still offers good value.",
+      "response_time": 5.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.28,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I saw the Breville Barista Touch. It looks nice, but it's REALLY expensive. Is there anything in between those two price points? Maybe something that's still considered high-quality but doesn't break the bank?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me see... Considering your budget concerns and desire for quality, I would suggest looking at the KitchenAid KCM0802OB Burr Grinder Coffee Maker. It's known for its durability and consistent grind, placing it nicely between the Breville and Cuisinart options in terms of price.",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 4.09,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, KitchenAid sounds promising. But how does it actually compare to the Breville *besides* the price? What makes the Breville worth the extra money, or are you just trying to upsell me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair question. The Breville Barista Touch offers a more sophisticated, user-friendly experience with its touchscreen interface and programmable settings. It also excels in milk frothing capabilities if you enjoy lattes or cappuccinos. While the KitchenAid is a great coffee maker, the Breville provides more customization and features for the serious coffee enthusiast. Ultimately, the value depends on your individual needs and how much you prioritize those advanced functionalities.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.15,
+        "integrity": 4.29
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1a0402cf",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.59,
+      "benevolence": 4.51,
+      "integrity": 4.6
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 3.39
+  }
+}

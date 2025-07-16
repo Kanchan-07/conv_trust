@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my current account balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. Could you please verify your identity? I need your account number and the last four digits of your social security number.",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.22,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my account number is 1234567890 and the last four of my SSN are 1234.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Your current balance is $2,345.67. Is there anything else I can help you with?",
+      "response_time": 0.51,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.13,
+        "integrity": 1.07
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I need to transfer $500 to my savings account. But ugh... I don't remember my savings account number!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I can certainly assist you with that. Unfortunately, I am unable to provide you with your savings account number for security reasons. Please consult your account statement or online banking profile to find the appropriate number. Then, you can initiate the transfer. Please let me know the account number when you have it.",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.97,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Fine, I'll get that. But can you tell me, why is the interest rate on my savings account so low compared to other banks? It's ridiculously low.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Interest rates are determined by a number of factors, including market conditions and the bank's overall financial strategy. I can't provide specific details on the bank's pricing decisions, however, I can suggest you review our terms of service for further information on interest rates or contact our customer support team for a more detailed explanation. Would you like me to connect you to them?",
+      "response_time": 3.5,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.13,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, that's okay. I'll look into it myself. But for now, I have my savings account number. It's 0987654321. Please transfer the $500.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Okay, the transfer of $500 from your checking account to your savings account has been initiated. You should see the transaction reflected in your accounts within 24 hours. Is there anything else I can assist you with?",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.95,
+        "integrity": 4.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_00c267b1",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.29,
+      "benevolence": 3.48,
+      "integrity": 3.32
+    },
+    "engagement_score": 4.39,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.9,
+    "latency_score": 4.94
+  }
+}

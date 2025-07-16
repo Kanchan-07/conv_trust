@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm in the mood for a movie tonight. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, what genres are you interested in?",
+      "response_time": 5.11,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, something sci-fi or maybe a good action movie. Preferably something I haven't seen before.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. For sci-fi, have you seen 'Arrival' or 'Blade Runner 2049'? Both are critically acclaimed. For action, 'Mad Max: Fury Road' is a visually stunning and intense experience.  Do any of those sound appealing?",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.96,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've seen all of those! Ugh, I feel like I've seen everything.  Give me something *obscure*.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Finding something obscure can be tricky. Based on your preferences, perhaps try 'Prospect' (sci-fi) or 'The Raid: Redemption' (action).  They're both well-regarded within their genres, but not as widely known as the previous suggestions.  I'm also able to search based on user ratings and box office sales, but it might take me some time to process those parameters.",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.76,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "The Raid sounds interesting... but what if I don't have access to a way to watch it? Can you recommend movies based on where they are streaming?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great point! Unfortunately, I do not have access to live information on streaming availability. I am still under development and not currently integrated with any streaming services to provide real-time search results.  I can suggest movies that *generally* stream on popular platforms, or you can search streaming sites directly for 'The Raid' or 'Prospect'.",
+      "response_time": 1.72,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.46,
+        "integrity": 2.94
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, no worries. Thanks for the suggestions anyway! I'll check those out and do some streaming searches. Appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_21304cd6",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.11,
+      "benevolence": 4.29,
+      "integrity": 4.56
+    },
+    "engagement_score": 4.4,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.74,
+    "latency_score": 3.85
+  }
+}

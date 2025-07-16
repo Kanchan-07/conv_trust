@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new games to play. I really enjoy RPGs. Got any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly provide some RPG recommendations. To tailor the suggestions better, could you tell me a bit about what kind of RPGs you enjoy? For example, do you prefer fantasy, sci-fi, action RPGs, or something else?",
+      "response_time": 4.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.77,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I mostly like fantasy RPGs. I'm getting a little tired of the same old stuff, though. Something that isn't a carbon copy of every other fantasy RPG out there would be great. I've played a lot of the popular ones like Skyrim and Witcher 3 already.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Hmm, for a fantasy RPG that's not a carbon copy, let me think... Have you tried 'Divinity: Original Sin 2'? It's got a lot of player choice and tactical combat. Or perhaps 'Kingdoms of Amalur: Reckoning', which has a different setting and action-oriented combat. But, given the criteria, what is the definition of 'carbon copy', and what elements cause users to feel that way?",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.56,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, good question... For me, 'carbon copy' means it has the same generic fantasy tropes, a predictable storyline, and basic combat. I think I'll check out Divinity: Original Sin 2, that sounds interesting. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c6b6b930",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.88,
+      "benevolence": 4.67,
+      "integrity": 4.84
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.56
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'd like to check my checking account balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To access your account, could you please verify the last four digits of your social security number and your date of birth?",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.01,
+        "benevolence": 1.24,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the last four digits are 1234 and my birthday is January 1st, 1990. Ugh, I always hate having to remember all this security stuff.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment... Alright, your current checking account balance is $542.18.",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.45,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. And can you tell me what the most recent transaction was?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The most recent transaction was a debit card purchase at 'Joe's Cafe' for $15.50 on October 26, 2023.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.34,
+        "benevolence": 1.41,
+        "integrity": 1.07
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's expected. But why does it sometimes take a couple of days for transactions to show up? Is there anything I can do to make them appear faster?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a good question. The delay is due to processing times between the merchant's bank and ours. The exact time can vary depending on the merchant and payment network used. Unfortunately, there is nothing you can do to expedite the posting of transactions on your end. Is there anything else I can help you with today?",
+      "response_time": 2.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.3,
+        "integrity": 4.42
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8219f7b7",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 2.0,
+      "benevolence": 1.99,
+      "integrity": 1.87
+    },
+    "engagement_score": 4.2,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 1.33,
+    "latency_score": 6.45
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need an update on my car insurance claim. It's Claim Number 123456789.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Please provide your policy number or the full name and date of birth associated with the claim to confirm your identity.",
+      "response_time": 5.31,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.97,
+        "benevolence": 6.54,
+        "integrity": 6.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my policy number is ABC987654321. My name is John Smith and my date of birth is 05/15/1980.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information, Mr. Smith. I have located Claim Number 123456789 associated with your policy. The claim is currently under review.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Under review? It's been over a week since I submitted all the documents! What exactly is 'under review' and why is it taking so long? This is getting frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, Mr. Smith. The 'under review' stage involves assessing all submitted documentation, including police reports, photos, repair estimates, and statements, to determine coverage and liability. The timeframe can vary depending on the complexity and the need for further information.",
+      "response_time": 2.33,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.78,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, but *my* claim. Have you received the police report I emailed last Tuesday? And when can I expect to hear something concrete, like if it's approved?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Checking the system... Yes, I see that the police report was received. Your claim is progressing. An adjuster is reviewing the file for final assessment. We aim to process claims as efficiently as possible.",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.21,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, well, that's slightly better news. So, the adjuster has everything? What's the *next* step and how long does *that* usually take after they have everything?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Once the adjuster completes their assessment, they will determine the outcome of the claim. This typically involves approving repairs or settlement. You should receive an update within the next 2-3 business days. Thank you for your patience.",
+      "response_time": 5.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.11,
+        "integrity": 5.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a6cca3a2",
+    "average_trust_score": 5.8,
+    "trust_category_averages": {
+      "competence": 5.74,
+      "benevolence": 5.53,
+      "integrity": 5.88
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 8,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 6.15,
+    "latency_score": 3.0
+  }
+}

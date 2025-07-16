@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to stick to a tight budget this week for groceries. Can you give me some meal ideas?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, what's your weekly grocery budget and how many people are you cooking for?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.86,
+        "benevolence": 6.95,
+        "integrity": 6.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, it's only $75 for two adults. I'm already feeling stressed just thinking about it.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. For $75 for two adults, here's a sample meal plan: \n\n*   **Breakfast (x7):** Oatmeal with fruit (berries if on sale, otherwise apples/bananas) \n*   **Lunch (x7):** Lentil soup (easy to make in bulk) with a side of whole-wheat bread\n*   **Dinner (x4):** Chicken and vegetable stir-fry with rice\n*   **Dinner (x3):** Bean and cheese burritos \n\nI'll provide a shopping list with approximate costs next. ",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.81,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That all sounds\u2026 fine, I guess. What about snacks? And what kind of chicken and vegetables are we talking about? That could vary wildly in price.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies; I am still under development and have some issues providing enough detail. For snacks, consider things like baby carrots, apples, and maybe some popcorn. Chicken: chicken thighs are usually cheaper than breasts. Vegetables: frozen mixed vegetables are usually the most budget-friendly. I'll revise the shopping list with these details and the snack recommendations.",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 4.36,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's better. But how can you *guarantee* that these meals will actually fit within the $75 budget, considering prices can fluctuate so much?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. I can't guarantee the price will *always* be exactly $75. However, I will focus on recommending generic items and items often on sale, while also estimating a conservative price based on average costs at major grocery stores. I recommend checking prices at your local stores before you shop. Also, consider using coupons to help you stay within your budget. I can provide a more personalized shopping list if you can tell me where you typically shop.",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 4.48,
+        "integrity": 4.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f65338f0",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.87,
+      "benevolence": 4.9,
+      "integrity": 4.85
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1
+    },
+    "response_quality_score": 4.74,
+    "latency_score": 3.34
+  }
+}

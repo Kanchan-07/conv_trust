@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about claim #20231027-4482. It's been almost a month since I filed it for the damage to my car after that hailstorm, and I haven't heard anything. Honestly, this is getting ridiculous!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me pull up claim #20231027-4482. Okay, I see the claim here. It appears it's currently in the review stage. We're waiting on the repair estimate from your chosen auto shop. Once we receive that, we can proceed with the claim processing. I can reach out to the shop for an update if you'd like.",
+      "response_time": 1.54,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.63,
+        "benevolence": 2.85,
+        "integrity": 2.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, please contact them! They said they sent it over last week. I'm starting to wonder if I should have gone with a different shop... Also, if the damage ends up being more than my deductible, will that affect my premium next year?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've sent a follow-up request to the auto shop. You should receive an email confirmation about this follow up. Regarding your premium, in most cases, a single comprehensive claim, like hail damage, doesn't directly impact your premium upon renewal. However, several factors influence premiums, so it's not a guaranteed certainty. Would you like to know more about how premiums are calculated?",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.71,
+        "integrity": 3.76
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2b241c6b",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.15,
+      "benevolence": 3.28,
+      "integrity": 3.0
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 2,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.67,
+    "latency_score": 4.89
+  }
+}

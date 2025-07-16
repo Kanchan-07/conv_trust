@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I'm looking for some product recommendations.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best suggestions, could you tell me a little more about what you're looking for? For example, what category of products are you interested in, or what is your price range?",
+      "response_time": 4.69,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.45,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, um... I need a new laptop. Something for work and maybe some light creative stuff, like photo editing. My budget is around $800-$1000.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, a laptop for work and light photo editing within the $800-$1000 budget. Popular choices include models like the Dell Inspiron series, HP Pavilion, or perhaps a Chromebook if portability is key.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.94,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A Chromebook? But I need to run desktop photo editing software, not just web apps! Can a Chromebook even do that? I was hoping for something with more power than that... those suggestions aren't quite what I had in mind, I'm a bit frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies. You are correct, Chromebooks typically run web-based apps and would not be suitable for full desktop photo editing software. My previous suggestion was too broad. Given your need for more processing power for photo editing within that budget, I would refine the recommendations to focus on Windows laptops with dedicated graphics cards or stronger processors. Look for models like the Acer Aspire 5 or certain configurations of the Lenovo IdeaPad, paying attention to the CPU (Intel i5/i7 or AMD Ryzen 5/7) and RAM (preferably 8GB or more).",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.64,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes much more sense! Acer Aspire 5, Lenovo IdeaPad... that's helpful. I'll check those out, specifically looking for the specs you mentioned. Thanks for clarifying!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_04257bbb",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.34,
+      "integrity": 4.41
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.42,
+    "latency_score": 3.91
+  }
+}

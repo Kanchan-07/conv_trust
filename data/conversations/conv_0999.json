@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner tonight. Somewhere in the downtown area. Hopefully not too noisy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! For how many people and what time are you thinking?",
+      "response_time": 3.54,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.67,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "For two people, around 7:30 PM. Do you have anything available with, like, Italian or maybe French cuisine?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me see... There's 'Bella Notte', a popular Italian place downtown. They have a table available at 7:30. Or, 'Le Fleur', a French bistro, also has availability at 7:45. Bella Notte is known to be a bit lively.",
+      "response_time": 4.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.89,
+        "benevolence": 5.64,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, lively Italian place on a Friday night...probably too loud. Okay, let's try Le Fleur then. Can you tell me, if I have a nut allergy, are there many things on the menu I wouldn't be able to eat? I'm always so worried about cross-contamination!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I don't have the *exact* menu details accessible right now to guarantee nut-free options, Le Fleur does have a reputation for being accommodating to dietary restrictions. I recommend mentioning your allergy when you book, and again to your server. Would you like me to proceed with the reservation for Le Fleur at 7:45?",
+      "response_time": 4.73,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.43,
+        "integrity": 5.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3570d99c",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 4.91,
+      "integrity": 5.05
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1,
+      "sadness": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.27,
+    "latency_score": 3.1
+  }
+}

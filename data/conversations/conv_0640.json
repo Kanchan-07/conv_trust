@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm writing to inquire about a package that's significantly delayed. The tracking number is 1Z999AA1234567890.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. Let me check the status of tracking number 1Z999AA1234567890 for you. One moment please...",
+      "response_time": 0.64,
+      "emotion_detected": "joy",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It was supposed to arrive three days ago, and I really need it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see that the package is currently showing as 'In Transit' at our regional distribution center in Atlanta. The last update was two days ago. It appears there was an unexpected weather delay. I am very sorry about this delay. Can I help you with anything else?",
+      "response_time": 0.56,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A weather delay? Seriously? It's been sunny here all week! Is there any way to find out *exactly* when I can expect it? I'm getting pretty frustrated.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I cannot provide an exact delivery date at this moment, I can escalate this and request a trace on the package. This will trigger a more thorough investigation and hopefully provide a more accurate estimate. Would you like me to proceed with that?",
+      "response_time": 1.33,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.89,
+        "integrity": 2.96
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please escalate it. But what happens if it's lost? What's the procedure for that? It was an expensive item.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. I have now submitted the escalation request. In the unlikely event that the package is declared lost, we will initiate a claims process. This will require you to provide documentation of the item's value. Further, if a package is declared lost, it is generally considered lost only after 30 days in transit. Is there any more information I can provide about this?",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.43,
+        "benevolence": 1.0,
+        "integrity": 1.26
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks for escalating it. I appreciate that. I guess I'll just wait and see what happens. Hopefully, it arrives soon.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ace7e750",
+    "average_trust_score": 1.38,
+    "trust_category_averages": {
+      "competence": 1.37,
+      "benevolence": 1.47,
+      "integrity": 1.76
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "sadness": 2,
+      "joy": 2,
+      "neutral": 3,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 1.67,
+    "latency_score": 6.72
+  }
+}

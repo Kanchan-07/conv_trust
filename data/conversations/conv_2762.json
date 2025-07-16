@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some recommendations for a new laptop. Mostly for general use, like browsing and office work, but I'd prefer something fast and reliable.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with laptop recommendations. To narrow it down, are you leaning towards a specific operating system like Windows, macOS, or perhaps ChromeOS?",
+      "response_time": 4.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.13,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Probably Windows. I'm used to it. And ideally, something under $800 if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Windows laptop under $800 for general use and office work. I recommend looking at the Dell Inspiron series, HP Pavilion, or maybe certain models from the Lenovo IdeaPad line. They usually offer good performance and features in that price range.",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.16,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I had an HP once and it died on me pretty quickly. I'm a bit hesitant about them. What about something known for being really durable? Like, can handle being bumped around a bit.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Understood about your previous experience. For durability, business-grade laptops are often built to tougher standards, but they typically cost more. Within the consumer range under $800, most laptops are not specifically ruggedized. However, some models might have sturdier chassis materials than others. The Lenovo IdeaPad series often gets decent marks for build quality in its price class.",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.57,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's a bit frustrating that it's hard to find something durable without spending a fortune. Okay, forget about ruggedness for a second. How does the performance of a Dell Inspiron with an Intel Core i5 compare directly to a Lenovo IdeaPad with an AMD Ryzen 5 in the same price range? I find the processor names totally confusing.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Comparing an Intel Core i5 and an AMD Ryzen 5 can be complex as performance varies by generation and specific model number. Both are mid-range processors suitable for your described general and office tasks. For a direct comparison, you would need to look at specific benchmark tests for the exact CPU models in the laptops you are considering.",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.39,
+        "benevolence": 5.65,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's not very helpful. I was hoping you could give me a general idea! So you're saying there's no clear winner between an i5 and a Ryzen 5 for basic tasks?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "My apologies. For standard browsing and office work, both recent generations of Core i5 and Ryzen 5 processors generally offer very similar and sufficient performance. You are unlikely to notice a significant difference in day-to-day speed for those specific tasks. Other factors like RAM amount and storage type (SSD is highly recommended) will likely have a bigger impact on perceived speed within that category.",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.62,
+        "integrity": 5.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5aec0b37",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.23,
+      "benevolence": 5.23,
+      "integrity": 5.29
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 7,
+      "fear": 1,
+      "disgust": 2
+    },
+    "response_quality_score": 5.14,
+    "latency_score": 3.2
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated with these medical bills! I received another one today that I don't understand. It's from a doctor's visit last month.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Medical bills can be confusing. To help me look into this, can you please provide the patient's name, date of birth, and the name of the doctor or facility listed on the bill?",
+      "response_time": 1.63,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.31,
+        "benevolence": 2.76,
+        "integrity": 2.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient's name is John Doe, date of birth is 01/15/1980, and the bill is from Dr. Smith's office. The bill number is 12345.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please wait one moment while I access the system to retrieve the billing information for John Doe, date of birth 01/15/1980, from Dr. Smith's office, bill number 12345. ... Okay, I have the bill in front of me. It appears to be for a standard office visit.",
+      "response_time": 3.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 3.8,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "But why is it so expensive? My insurance should have covered most of it. How do I know if Dr. Smith actually submitted the claim to my insurance company correctly, or if they even submitted it at all? And what if they coded something wrong? I don't even know where to begin!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. According to the system, the claim was submitted to your insurance provider on [date]. The EOB from your insurance should detail what was covered and why. If you haven't received that yet, I'd recommend contacting your insurance company directly. Alternatively, I can provide you with the claim code submitted and the diagnosis code used for the visit. Would you like that information so you can discuss it with your insurance company?",
+      "response_time": 3.53,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.54,
+        "integrity": 3.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8515927a",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.45,
+      "benevolence": 3.37,
+      "integrity": 3.23
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 3.42,
+    "latency_score": 4.46
+  }
+}

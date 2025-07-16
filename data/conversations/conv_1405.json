@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm applying for a Senior Software Engineer role at Acme Corp. I'm struggling a bit with my resume, could you help me tailor it to the job description?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Please provide me with your resume and the job description. I can analyze them and suggest improvements, highlighting relevant skills and experiences. To get started, please upload both documents.",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.51,
+        "integrity": 5.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded both. The job description emphasizes 'experience with cloud platforms' and 'leading development teams'. But my resume just says I worked on projects. It's a bit generic. What can I do?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I've reviewed your resume and the job description. You're right, it needs more detail. I recommend you rewrite your project descriptions to specifically mention the cloud platforms you've used (e.g., AWS, Azure, GCP) and quantify your leadership experience. For example, instead of saying 'Led development team', try 'Led a team of 5 developers in the implementation of...resulting in...'. Also, consider adding a 'Skills' section at the beginning to highlight the most relevant technologies. Now, for the challenging question, I'd say this is good so far.",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.58,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's much clearer! Thanks, but I'm still a bit unsure on the second point, the leadership one. What if I haven't directly *led* a team, but I've mentored junior developers or taken the lead on specific technical areas? How do I phrase that to sound similar?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0b8584eb",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.52,
+      "benevolence": 4.54,
+      "integrity": 4.42
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 4.64,
+    "latency_score": 4.28
+  }
+}

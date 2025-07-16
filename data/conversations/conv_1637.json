@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately. I'm sleeping more, but still exhausted. Any ideas what could be wrong?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am sorry to hear you're feeling so tired. It could be a number of things. Are you experiencing any other symptoms like headaches, changes in appetite, or mood swings? Also, how long has this been going on?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.04,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, actually. I've had a few headaches, and I've been craving sweets more than usual. This has been happening for about three weeks now. I'm starting to get really frustrated with this!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Based on your symptoms and their duration, it might be useful to consider a few possibilities. It could be anything from a vitamin deficiency to an early sign of diabetes, or even just stress. I highly recommend consulting with your doctor for a proper diagnosis. They can run tests to determine the cause of your fatigue and recommend appropriate treatment.",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.44,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I understand. But I have a quick question. What are the main differences between fatigue from low iron vs. fatigue from early-stage diabetes? It feels like both can have similar symptoms.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question. The similarities can indeed be confusing. With iron deficiency, fatigue is usually accompanied by other symptoms such as pale skin, shortness of breath, and sometimes even brittle nails. In early-stage diabetes, however, fatigue may be accompanied by frequent urination, increased thirst, and blurred vision. However, the only way to get a definitive answer is through blood tests done by your doctor. It can sometimes be difficult to distinguish these conditions based on symptoms alone, so I suggest seeking professional medical advice.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.86,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Thanks for the information and the suggestions. I'll schedule an appointment with my doctor. I feel a little better knowing what to look out for. Appreciate your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c3bff949",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.72,
+      "benevolence": 3.11,
+      "integrity": 2.85
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 3,
+      "joy": 1
+    },
+    "response_quality_score": 2.64,
+    "latency_score": 5.18
+  }
+}

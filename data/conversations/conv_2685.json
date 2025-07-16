@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to book a flight. I'm looking to go from New York City to London towards the end of next month. Like around the 26th or 27th.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you with that. So you're looking for a one-way or round trip flight from NYC to London? And you said around the 26th or 27th of next month. Are your dates flexible at all?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.62,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a round trip, returning maybe a week later, around the 3rd or 4th of the following month. And yes, flexible by a day or two either way for both legs. Oh, also, can you check flights arriving at Gatwick (LGW) too? And sometimes flying from Newark (EWR) or LaGuardia (LGA) is cheaper than JFK, could you include those NYC airports?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for round trip flights from New York City (all airports) to London Heathrow (LHR) departing around the 26th/27th and returning around the 3rd/4th. I see a few options. British Airways has a flight leaving the 27th, returning the 4th for $850. Virgin Atlantic has one leaving the 26th, returning the 3rd for $880. Prices are subject to change, of course.",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 4.21,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $850 and $880 seems a bit high. You only mentioned Heathrow options. What about Gatwick like I asked? Did you check flights arriving at LGW? And you didn't say anything about the different NYC airports, are the prices from EWR or LGA significantly different?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I focused on the most common airport, Heathrow. I can certainly check Gatwick for you, and compare prices departing from EWR, LGA, and JFK. Let me refine the search to include LGW arrivals and compare departures from all three major NYC airports for those flexible dates. Please give me a moment.",
+      "response_time": 5.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.79,
+        "integrity": 5.27
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d1fdfc7b",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.24,
+      "benevolence": 4.54,
+      "integrity": 4.37
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 3.04
+  }
+}

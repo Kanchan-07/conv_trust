@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need a new laptop for school, but I'm on a tight budget. Like, under $500 tight. What are my best options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of under $500, I can recommend a few laptops. The Lenovo Chromebook Duet comes in around $300 and is great for note-taking and web browsing. Alternatively, you could consider a refurbished Lenovo ThinkPad or Dell Latitude. These are business-class laptops that are durable and often available at discounted prices. Would you like more information on either of these, or perhaps some other suggestions?",
+      "response_time": 4.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.44,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, a Chromebook? I'm not sure. I need to be able to run some basic coding software, like Python. Will a Chromebook even do that? And how 'refurbished' are we talking with those ThinkPads? I don't want something that's going to fall apart in a month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While Chromebooks have come a long way, running Python directly can be tricky. You might need to use a cloud-based IDE or set up a Linux environment which can add complexity. As for the refurbished ThinkPads, their condition varies. I'll prioritize models graded 'A' or 'Excellent,' meaning they have minimal cosmetic damage and are fully functional. I can filter for those specifically. Or, for a new laptop that can handle Python more natively, consider slightly increasing your budget \u2013 even an extra $100 could open up better options. What do you think?",
+      "response_time": 2.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.67,
+        "integrity": 4.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_04475339",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.83,
+      "benevolence": 4.55,
+      "integrity": 5.06
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 4.27,
+    "latency_score": 4.01
+  }
+}

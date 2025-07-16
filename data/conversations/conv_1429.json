@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to book a flight from Chicago to Miami for next week. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that! To get started, could you please provide the exact dates you'd like to travel? Also, how many passengers will be traveling?",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.12,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. I need to fly out on the 18th of October and return on the 22nd. There will be two adults. But, I also need to figure out the best way to get from the Miami airport to South Beach. Can you help with that, too?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. After the flight booking, I can provide you with options for airport transfers to South Beach, including taxis, ride-sharing services, and public transportation. I can even provide estimated costs and travel times for each option. For the flights, I've found several options departing Chicago (ORD) on October 18th and returning from Miami (MIA) on October 22nd for two adults. The cheapest option is currently with Spirit Airlines for $250 per person, but I don't recommend it. Do you have any airline preferences, or would you like me to filter by price?",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.24,
+        "integrity": 4.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e48df708",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 4.68,
+      "integrity": 4.74
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.09,
+    "latency_score": 4.25
+  }
+}

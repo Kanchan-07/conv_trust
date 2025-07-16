@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new faucet in my bathroom, but I'm completely lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. First, do you know what type of faucet you have (e.g., single-handle, two-handle)? Also, do you have the new faucet and all the necessary tools?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.86,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, this is already more complicated than I thought! Okay, it's a single-handle faucet, and yes, I *think* I have all the tools, but I'm not sure. I have a wrench, screwdriver, and pliers.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great! Those tools are a good start. You will likely need a basin wrench, plumber's tape, and possibly a putty knife as well. To get started, turn off the water supply under the sink. Then, disconnect the water supply lines from the old faucet. From there you'll want to unscrew the faucet from the sink. There's usually a nut or two holding it in place.",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.98,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I've got the old faucet out and I see some gunk around the sink where the faucet was. How do I clean that up? Also, the instructions for the new faucet aren't very clear about the connections...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "For the gunk, a putty knife should scrape that right off, and you can clean the surface with a bit of cleaner. The connection instructions can be tricky. Can you tell me the brand and model of your new faucet? I can try to pull up a better diagram for you. In the meantime, ensure you're using the correct sized connectors and that everything is snug.",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.1,
+        "integrity": 5.44
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_de6e74c9",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.44,
+      "benevolence": 5.31,
+      "integrity": 5.6
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.83,
+    "latency_score": 3.48
+  }
+}

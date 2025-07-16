@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm applying for a software engineering position at Google. My resume is pretty generic, and I'm really struggling to tailor my cover letter. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! To get started, could you provide me with your resume and the job description? This will allow me to identify key skills and keywords to incorporate into your cover letter. We can then work on tailoring the letter to match the specific requirements of the role and the company's values. I can help you with structure, content, and even suggest some compelling language to make your application stand out.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.53,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Great, thanks! I've uploaded both the documents. But honestly, I'm confused. How do I even *begin* to know what to include? I've read so many guides and they all say something different! I'm starting to feel overwhelmed. Plus, the job description is so vague in some areas. For example, the job description says \"Experience with cloud platforms\"... How do I address that? There are so many, and my experience is limited to only a few.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your frustration and the complexity of the job description. The key is to analyze the job description carefully. We can break it down into essential and preferred requirements. For 'Experience with cloud platforms,' even if you only have experience with a couple, specify the platforms and highlight any related projects or achievements. For example, if it says \"experience with cloud platforms,\" and you have experience with AWS, you can state it as \"Demonstrated experience with cloud platforms, specifically AWS, used for\u2026 [briefly describe the project and your contributions].\" I am able to generate example bullet points or sections for your cover letter based on the resume and job description. This will ease the process. How does that sound?",
+      "response_time": 4.1,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.67,
+        "integrity": 3.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1dcf0f65",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.67,
+      "benevolence": 5.1,
+      "integrity": 5.28
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 1,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.91,
+    "latency_score": 2.45
+  }
+}

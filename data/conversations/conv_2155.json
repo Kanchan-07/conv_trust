@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered yesterday. The tracking info hasn't updated since it left the distribution center and I'm starting to get worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about the delay. Can I get your tracking number, please? I'll look into this for you.",
+      "response_time": 0.62,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.11,
+        "integrity": 1.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 92748361502847. And what exactly does 'left the distribution center' mean? Is it on a truck? Because it's been stuck there for two days now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. Let me check that for you... Okay, the package is currently at the distribution center and is scheduled to be delivered today. The delay was due to unforeseen circumstances. I can assure you that it's on its way. Please allow until the end of the day for it to arrive. Is there anything else I can assist with?",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.18,
+        "integrity": 4.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f47dd815",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.56,
+      "benevolence": 2.65,
+      "integrity": 2.64
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 2.28,
+    "latency_score": 5.71
+  }
+}

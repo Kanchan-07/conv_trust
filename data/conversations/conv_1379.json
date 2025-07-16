@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why a recent claim was denied. The explanation code isn't very helpful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can help with that. Please provide the claim number and I will access the denial information. Also, what is the explanation code provided?",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.38,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890. The explanation code is CO-19. Honestly, it's vague and not very helpful at all.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. CO-19 typically means 'This procedure/service is inconsistent with the patient's diagnosis.' In this specific case, the denial is due to a lack of medical necessity. The submitted procedure code, 99214 (Office or Other Outpatient Visit for the evaluation and management of an established patient) was not deemed medically necessary based on the submitted diagnosis code. Can I provide any further information?",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.47,
+        "benevolence": 1.3,
+        "integrity": 1.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, that's a bit clearer, but how do I know what *would* have been medically necessary? Is there a list of approved diagnoses for that code? And, if not, how do I avoid this in the future? Because this is the third time this has happened this month, and I'm getting pretty frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question. Unfortunately, I don't have a real-time list of approved diagnoses for each code, as those guidelines can be very specific and change frequently. To avoid this in the future, I recommend checking your payer's medical policies on their website and/or directly contacting their provider services department for clarification on specific code and diagnosis requirements. You can also check with the payer if a pre-authorization is required before performing the procedure. I'm sorry I can't give you more direct advice here.",
+      "response_time": 2.32,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.73,
+        "benevolence": 2.6,
+        "integrity": 2.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_be96d4b1",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.83,
+      "benevolence": 2.76,
+      "integrity": 2.62
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1,
+      "anger": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 2.57,
+    "latency_score": 5.46
+  }
+}

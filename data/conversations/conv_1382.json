@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview for a Software Engineer role next week. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! I can assist with common interview questions, technical concepts, and even behavioral questions. To start, what company is the interview with, and what level of software engineering role are you applying for (e.g., junior, mid-level, senior)?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a mid-level role at Google. I'm a bit nervous, honestly. I haven't interviewed in a while. Can you give me some typical technical questions?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Google mid-level. Expect questions on data structures and algorithms (linked lists, trees, graphs, sorting, searching), object-oriented programming, and system design. Here's a starter question:\n\n\"Design a function to check if a linked list has a cycle.\" How would you approach this?",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.22,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I hate linked lists. Okay, um...I think I'd use two pointers, a fast one and a slow one, and if they meet, there's a cycle. But what's the time and space complexity of that? And how do I *prove* that it works, rigorously? I can explain the logic, but... the proof is what always trips me up.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right to think about the complexities and proof! Your approach using two pointers is correct, often called Floyd's Cycle-Finding Algorithm. \n\nTime complexity: O(n), where n is the number of nodes in the list (worst case \u2013 no cycle).\nSpace complexity: O(1) (constant space, only using two pointers).\n\nProving it is a bit involved. The core idea is that the fast pointer moves twice as fast as the slow pointer. If a cycle exists, they will eventually meet within the cycle. Think of it as a race around a track; the faster runner will eventually lap the slower one.\n\nWould you like me to elaborate more on the proof?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.23,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that's much better than what I was expecting. Thank you! The explanation about the 'race' helped. I feel a little better prepared now. Maybe one more question before I go?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9ff8b95b",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.55,
+      "benevolence": 5.48,
+      "integrity": 5.65
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "neutral": 5,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.7,
+    "latency_score": 3.03
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to find a new pair of running shoes. My old ones are completely worn out.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help you find a great pair of running shoes. To start, what type of running do you usually do? For example, road running, trail running, or treadmill?",
+      "response_time": 5.9,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.88,
+        "benevolence": 6.68,
+        "integrity": 6.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly road running, like 3-5 miles a few times a week. I just need something comfortable and durable.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for road running comfort and durability, here are a few popular options: [Shoe Model A], [Shoe Model B], and [Shoe Model C]. They are known for good cushioning and support.",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.26,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've tried [Shoe Model B] before and didn't like how it felt on my arches. And [Shoe Model C] seems really expensive. Are there any options that are good for high arches but maybe under $120? This is getting frustrating trying to find the right fit.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for the frustration! Finding the right fit is key. [Shoe Model A] does offer good arch support. Other options known for catering to higher arches in a more budget-friendly range might include [Shoe Model D] or [Shoe Model E]. However, comfort is very personal.",
+      "response_time": 3.17,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.15,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, [Shoe Model D] looks interesting. But how do I know if it *really* supports high arches just from the description? It feels like I need to try them on, but I'm buying online. Is there a specific feature I should look for in the specs?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great point! While online descriptions can give clues (like mentioning 'arch support' or 'stability'), they don't replace trying them on. For high arches, look for shoes described as 'neutral' with significant cushioning, rather than 'stability' shoes which are for overpronation. Some brands also specify technologies designed for energy return and support through the midfoot. Checking user reviews from people who mention similar foot types can also be very helpful.",
+      "response_time": 5.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.43,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ah, 'neutral with cushioning' vs 'stability' \u2013 that's the specific info I needed! And checking user reviews is a good idea too. Thanks, that clarifies things a lot and makes me feel better about trying [Shoe Model D].",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9fd2fc00",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.0,
+      "benevolence": 5.13,
+      "integrity": 5.17
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "anger": 1
+    },
+    "response_quality_score": 4.87,
+    "latency_score": 2.92
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, I need some help with medical billing. I'm new to this and finding it a bit overwhelming.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Welcome. I can certainly help guide you through the medical billing process. What specific aspect are you finding overwhelming or where would you like to start?",
+      "response_time": 5.48,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 6.57,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I've submitted some claims, but a few were rejected. I'm not sure how to even figure out why or what steps to take next. It's kind of frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Claim rejections are a common part of the process. To assist you, could you please provide the rejection code(s) and the name of the insurance payer(s) for the rejected claims? This information will help us identify the reason.",
+      "response_time": 2.99,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.19,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, the main code I'm seeing is CO-4, which says 'The procedure code is inconsistent with the patient's diagnosis.' This is for a standard office visit claim submitted to Blue Cross Blue Shield. It seems straightforward, so I don't get why it rejected!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the code. CO-4 indeed indicates a mismatch between the submitted procedure code (CPT) and the diagnosis code (ICD-10). This often happens if the diagnosis code doesn't support the medical necessity of the procedure billed. You should carefully review the patient's medical record notes to ensure the diagnosis code selected is fully justified and linked to the service provided.",
+      "response_time": 5.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.26,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, I did review the notes, and the diagnosis code clearly supports the visit type.  But what if it's a case where the patient had multiple issues, and the primary diagnosis for the *reason for the visit* isn't typically linked to the specific procedure code, even though the notes justify it?  Is there a way to handle that without automatic rejection?  Like, is there a specific modifier or something for complex cases that still need the primary diagnosis billed?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a good question regarding complex scenarios. While modifier 25 (Significant, Separately Identifiable Evaluation and Management Service) is used when an E/M service is billed on the same day as a procedure, it doesn't directly address a diagnosis-procedure mismatch for a standalone office visit. For a CO-4 rejection, the most common fix is ensuring the *primary* diagnosis billed aligns with the reason for the visit and supports the procedure code used. If multiple issues exist, ensure the documentation clearly links the diagnosis used on the claim to the service billed. Sometimes, payers have specific local coverage determination policies that detail which diagnoses they will accept for certain procedures.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.94,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, so there isn't really a 'magic modifier' for this specific diagnosis mismatch issue then? It still seems like the system is too rigid. I'm finding these specific payer rules and how they interpret diagnosis codes really difficult to navigate sometimes.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_091ee6c4",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.31,
+      "benevolence": 4.99,
+      "integrity": 5.25
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 6,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 3.2
+  }
+}

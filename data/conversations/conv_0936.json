@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm still really stuck on this physics problem. It says a 2kg ball is dropped from a height of 10 meters. Calculate the potential and kinetic energy at 5 meters. I just don't even know where to start!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright, let's break it down. First, remember the formula for potential energy: PE = mgh, where m is mass, g is the acceleration due to gravity (approximately 9.8 m/s\u00b2), and h is height. Can you calculate the potential energy at 10 meters (the starting point) and at 5 meters?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.38,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, at 10 meters, PE = 2 * 9.8 * 10 = 196 Joules. And at 5 meters, PE = 2 * 9.8 * 5 = 98 Joules. So the potential energy at 5 meters is 98 Joules. But how do I find the kinetic energy at 5 meters? This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Good job on the potential energy! Now, remember the law of conservation of energy: the total energy (PE + KE) remains constant. At the start, all the energy is potential. As the ball falls, potential energy is converted into kinetic energy. Therefore, at any point, PE + KE = initial PE. So, KE at 5 meters = Initial PE - PE at 5 meters = 196 Joules - 98 Joules = 98 Joules. Does that make sense? What if we introduced air resistance into this model, how would that affect the final speed of the ball?",
+      "response_time": 4.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.74,
+        "integrity": 5.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2b779b2e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.1,
+      "benevolence": 5.06,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 3.79
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I feel like my finances are a complete disaster. I barely understand where my money goes, and I have no savings. I know I need to do something, but it just feels overwhelming. Where do I even begin?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "It's understandable to feel that way when starting out. Taking control of your finances begins with understanding your current situation. The first step is often to track your income and expenses. This helps you see where your money is going and identify areas where you might be able to save. Have you ever tried tracking your spending?",
+      "response_time": 5.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.95,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Tracking expenses sounds boring and complicated, honestly. And okay, even if I do that, then what? I have student loan debt, I want to save for a house someday, and everyone says I should invest for retirement, but I barely have extra money now. How do I decide what's most important? It feels like I'm trying to chase three rabbits at once!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a very common challenge \u2013 balancing multiple financial goals simultaneously. While tracking expenses might seem tedious, it provides the crucial data needed to make informed decisions. Once you have a clear picture of your cash flow, you can start prioritizing. Generally, a foundational step is building a small emergency fund, addressing high-interest debt (like credit cards), and then strategically allocating funds towards your long-term goals (like a house down payment or retirement). The optimal balance depends on your individual circumstances, risk tolerance, and timelines. Would you like some general frameworks for prioritizing debt repayment versus saving/investing?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.51,
+        "integrity": 5.21
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fe4ab2f8",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.41,
+      "benevolence": 5.73,
+      "integrity": 5.54
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.67,
+    "latency_score": 2.71
+  }
+}

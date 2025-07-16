@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order, but the tracking link isn't working. I'm getting pretty frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help you with that. Could you please provide your order number so I can look into it?",
+      "response_time": 4.0,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.61,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's #1234567890. I really need to know where this package is, it's been a week.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm checking the status of order #1234567890 now... It appears the package is currently in transit and is expected to arrive within 2 business days. The tracking information provided by the carrier is a little delayed, which might be why you're having issues. Please try again in a few hours or tomorrow morning.",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.33,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I guess I'll try again tomorrow. That's still not ideal, but at least I know it's *somewhere*. Thanks. But, uh, can you tell me why the tracking link is *consistently* broken?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, but I don't have access to the technical details regarding the tracking link issues. This would require assistance from a different support team. I can submit a ticket on your behalf and they will contact you directly.",
+      "response_time": 3.66,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.7,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, fine, submit the ticket. I'm really hoping this gets fixed, it's not a good look for your company.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The ticket has been submitted. You should receive an email confirmation shortly with a reference number. We apologize for the inconvenience. Is there anything else I can assist you with today?",
+      "response_time": 0.55,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.15,
+        "benevolence": 1.11,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, I think that's all. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bb8831b8",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.74,
+      "benevolence": 3.44,
+      "integrity": 3.66
+    },
+    "engagement_score": 4.35,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 3,
+      "sadness": 2,
+      "joy": 1
+    },
+    "response_quality_score": 3.38,
+    "latency_score": 4.45
+  }
+}

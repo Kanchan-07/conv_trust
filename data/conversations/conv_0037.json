@@ -1,0 +1,76 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm writing to inquire about a charge on my recent bill. I was charged $75 for something called 'Premium Content Subscription,' but I never signed up for any such thing. This is really frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, thank you for contacting us. I understand your frustration. I can certainly look into that for you. Could you please provide your account number or the phone number associated with the account?",
+      "response_time": 0.62,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.18,
+        "benevolence": 1.22,
+        "integrity": 1.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. And honestly, what exactly IS 'Premium Content Subscription'? I've been a customer for years and never seen this before.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please give me one moment while I access your account information. Okay, I see the charge. 'Premium Content Subscription' usually refers to access to exclusive video content or enhanced features within one of our app offerings. It appears it was activated on the 15th of last month. I can remove it from your account, which will prevent future charges. Would you like me to do that?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.21,
+        "benevolence": 1.45,
+        "integrity": 1.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please remove it! But how did it even get added in the first place? Is my account secure? I'm worried about unauthorized access now. Will I get a refund for the charge?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_be15dbe7",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.19,
+      "benevolence": 1.33,
+      "integrity": 1.34
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 1,
+      "neutral": 1,
+      "fear": 1
+    },
+    "response_quality_score": 1,
+    "latency_score": 6.94
+  }
+}

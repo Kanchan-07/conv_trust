@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for four at a nice Italian restaurant this Saturday. Preferably in downtown.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check availability for Italian restaurants in downtown this Saturday. What time were you hoping to book?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.72,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Around 7:30 PM, if possible. We're celebrating a birthday, so something with a good atmosphere would be great. Ugh, I'm so stressed trying to find a place!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Let me see... There's 'Bella Notte' which has excellent reviews and a lively atmosphere, and 'Pasta Paradise', which is a bit more quiet and romantic. Both have availability around 7:30 PM on Saturday. Which sounds better?",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.62,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Bella Notte sounds good. What's their policy on bringing a small cake? I don't want to get there and have them tell me I can't. Also, how far is it from the Metro station?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I'm checking on their cake policy now... It seems Bella Notte allows you to bring a small cake with a $10 cutting fee. It is approximately a 5-minute walk from the Metro station on Elm Street. Does that work for you? Should I go ahead and book the table?",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 3.92,
+        "integrity": 4.31
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8305b61d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.75,
+      "benevolence": 3.75,
+      "integrity": 4.0
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 3.65,
+    "latency_score": 3.94
+  }
+}

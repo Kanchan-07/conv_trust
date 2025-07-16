@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to seriously start planning for retirement. I'm 35, make about $75,000 a year, and I've got maybe $5,000 in a savings account. Where do I even begin? I'm feeling so overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can feel like a lot to take in at once. Let's break it down. At your age and income, a good first step is to maximize any employer-sponsored retirement plans, especially if they offer matching contributions. Do you have a 401(k) or similar plan at work? If so, what is the matching policy?",
+      "response_time": 2.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.03,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I have a 401(k) and they match 50% of my contributions up to 6% of my salary. I'm only contributing 3% right now... mostly because I'm also trying to pay down student loans. But should I really prioritize the 401(k) match even with the loan interest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Generally, yes. Receiving a 50% return on your contributions is often a better deal than avoiding interest on student loans, unless the interest rate on your loans is exceptionally high (e.g., above 7%). Contributing enough to get the full employer match is essentially free money. After you secure the match, consider a strategy that balances debt repayment and further retirement savings. As a general rule, it's advisable to save 15% of your income for retirement to meet your retirement goals.",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.18,
+        "integrity": 4.13
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_68ed0490",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.96,
+      "benevolence": 4.11,
+      "integrity": 4.28
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.0,
+    "latency_score": 4.73
+  }
+}

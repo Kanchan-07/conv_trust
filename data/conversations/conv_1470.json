@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered yesterday. The tracking info hasn't updated since last week, and I'm starting to get a little worried. My order number is #12345.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. I'm sorry to hear about the delay. Let me look into that for you. One moment please... Okay, I'm showing that your package is currently in transit and was last scanned at the regional distribution center. It looks like it's experiencing a slight delay. I see it was supposed to arrive yesterday, but it should be delivered within the next 2 business days. ",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 3.79,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Slight delay? It's been a week since the last scan! And the regional distribution center is only an hour away from me. What exactly is causing this 'slight' delay? Can you give me any more specifics?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have the exact reason for the delay. The automated system doesn't provide that level of detail. However, I can open an investigation into the missing scan updates, and if the package doesn't arrive within the next 2 business days, we can initiate a claim for a full refund. Would you like me to open that investigation now?",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a98237a9",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.71,
+      "benevolence": 2.4,
+      "integrity": 2.67
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 2.86,
+    "latency_score": 5.2
+  }
+}

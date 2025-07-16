@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a job application. I'm applying for a software engineer position at Google.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you. I can help with several aspects of your application, including resume review, cover letter drafting, and interview preparation. What would you like to start with?",
+      "response_time": 5.44,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.95,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's start with the resume. I have a resume, but I'm not sure if it's good enough for Google. Can you review it for me? I can upload the text here.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, please upload the text of your resume. I can analyze it for keywords, formatting, and overall presentation. Please note that I'm still under development, so my analysis might not be as comprehensive as a human reviewer. Please provide the text now.",
+      "response_time": 4.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.55,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've pasted my resume. But it's in a really messy format. It's going to take forever to fix it. Can you format it for me? I can't believe I have to do this...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I am unable to automatically format it for you. However, I can provide a list of recommendations for formatting improvements and keywords to add to your resume. Do you want me to do so?",
+      "response_time": 3.65,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 4.04,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, fine. Give me the recommendations, then. But, um... how can you be helpful if you can't even reformat a resume? What's the actual value here?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. My primary function is to provide recommendations, and support with keywords and resume content. I am designed to improve your chance of getting past the automated applicant tracking systems, which I can do effectively. Also, I can provide guidance on the content of your resume and cover letter, and I can also help you with interview preparation. I am still under development, and formatting capabilities are not my main strength. I am here to assist you, so let's proceed with those recommendations.",
+      "response_time": 1.43,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.79,
+        "benevolence": 2.97,
+        "integrity": 2.97
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_703dff13",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.88,
+      "integrity": 4.87
+    },
+    "engagement_score": 5.54,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "surprise": 1,
+      "sadness": 1,
+      "anger": 2
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.74
+  }
+}

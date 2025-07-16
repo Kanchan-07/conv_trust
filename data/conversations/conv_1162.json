@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm writing to inquire about the status of my order, #458923-AB. It was supposed to arrive five days ago, and I haven't received any updates.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I am very sorry to hear that your order is delayed. Let me check the current status for you. One moment, please... Okay, I see that order #458923-AB is currently in transit and is expected to arrive within the next 24-48 hours. The delay was due to unforeseen circumstances at our regional sorting facility.",
+      "response_time": 0.53,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.26,
+        "benevolence": 1.0,
+        "integrity": 1.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? Seriously? That's all I get? This was a birthday present, and now it's going to be late. What 'unforeseen circumstances' are you talking about, and why wasn't I notified sooner? And more importantly, can I get some kind of compensation for this ridiculous delay?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, and I sincerely apologize for the lack of specific details and the impact this delay has had. The 'unforeseen circumstances' refer to a temporary staffing shortage at the sorting facility due to a localized health event, which caused a backlog of packages. We should have proactively notified you, and I'll escalate that feedback. Regarding compensation, I'm authorized to offer you a 15% discount on your next purchase with us. Would you like me to apply that to your account now?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.46,
+        "benevolence": 1.0,
+        "integrity": 1.04
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8129d5ea",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.36,
+      "benevolence": 1.0,
+      "integrity": 1.02
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 1,
+      "sadness": 1,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 1,
+    "latency_score": 6.99
+  }
+}

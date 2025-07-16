@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new book to read. Can you recommend something in the science fiction genre?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Science fiction is a vast genre. To start, are you interested in space opera, dystopian futures, cyberpunk, or something else? Some highly-regarded classics include *Dune* by Frank Herbert, *Foundation* by Isaac Asimov, or *Neuromancer* by William Gibson.",
+      "response_time": 5.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.48,
+        "integrity": 5.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've read a few of those, like *Foundation*. I'm not really in the mood for a massive space opera right now. Maybe something more contemporary, or focusing on near-future tech or social implications? Like, not necessarily a 'classic'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, focusing on contemporary or near-future sci-fi with social or technological themes. How about *Project Hail Mary* by Andy Weir, *Recursion* by Blake Crouch, or *The Three-Body Problem* by Cixin Liu? These have been popular recent reads exploring interesting concepts.",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.7,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "*Project Hail Mary* was amazing! *The Three-Body Problem*... heard it's good but maybe a bit dense? Okay, here's a tricky one: Can you recommend a sci-fi book that deals with climate change or ecological collapse, but isn't totally bleak and depressing? Like, maybe there's some hope or innovative solution explored? And how do you even find books that fit such specific and somewhat contradictory criteria?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a challenging request! Finding books with optimistic ecological themes within sci-fi, which often explores dystopian outcomes, requires looking for specific subgenres or authors. My recommendation process involves analyzing keywords, themes, plot summaries, and reader reviews across my database to identify potential matches. For your specific request, you might look into 'cli-fi' (climate fiction) that focuses on solutions, or works categorized as 'hopepunk'. *The Ministry for the Future* by Kim Stanley Robinson is often cited in this space, although it does touch on challenging issues. Another possibility might be *Half-Life* by Shelley Jackson, although that's less conventional sci-fi.",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.88,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "*The Ministry for the Future* is exactly the kind of thing I meant that *might* be too bleak, even if it has solutions! And *Half-Life* looks... really experimental? Ugh, it feels like finding that perfect blend of dark topic + hope is impossible, and the recommendations aren't quite hitting it. I appreciate you trying, but it's a bit frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize that those suggestions weren't quite right. It can be difficult to find books that precisely match such nuanced criteria. Perhaps we can refine it further? Are there any specific types of hopeful solutions you're interested in (technological, social, etc.)? Or would you prefer I try recommending something from a different subgenre that isn't focused on ecology, but still fits the 'near-future/social implications' theme?",
+      "response_time": 2.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.39,
+        "integrity": 4.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ec83e273",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.85,
+      "benevolence": 4.86,
+      "integrity": 5.08
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 5,
+      "sadness": 2
+    },
+    "response_quality_score": 4.65,
+    "latency_score": 3.55
+  }
+}

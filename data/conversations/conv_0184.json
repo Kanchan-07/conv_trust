@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm bored. Can you recommend a movie? I'm in the mood for something...sci-fi, I guess.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your preference for sci-fi, I recommend 'Arrival' (2016). It's a thought-provoking film about communication with extraterrestrial life. Would you like a brief synopsis?",
+      "response_time": 3.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.89,
+        "integrity": 5.2
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen that one. Anything else? I want something maybe a bit more...action-packed? Less about feelings, more about lasers, haha.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, understood. How about 'Edge of Tomorrow' (2014)? It's a sci-fi action movie with time loops and aliens. It stars Tom Cruise and Emily Blunt.",
+      "response_time": 3.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 4.35,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising. But this might be a weird question...what's the most scientifically *accurate* sci-fi movie? Like, based on what we actually know about physics and space and stuff?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! It's tough because 'accurate' is relative. However, 'Interstellar' (2014) is often cited for its consultation with theoretical physicist Kip Thorne and its attempts to portray aspects like black holes and time dilation relatively accurately. Of course, it still takes liberties for narrative purposes. Would you like to know more about the science behind it?",
+      "response_time": 4.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.81,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, Interstellar is a good shout. I've seen it, but maybe I'll rewatch. Thanks, that was actually pretty helpful!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_73ab6b62",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.81,
+      "benevolence": 5.35,
+      "integrity": 4.84
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.61,
+    "latency_score": 3.64
+  }
+}

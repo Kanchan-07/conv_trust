@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with an order. My order number is #ORD123456789. It was supposed to arrive yesterday, but the tracking hasn't updated in 3 days. I'm getting really frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you're concerned about order #ORD123456789. I can look into that for you. Have you checked the tracking link provided in your shipping confirmation email recently? Sometimes carrier websites have the most current information.",
+      "response_time": 5.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.17,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's what I mean! The link takes me to the carrier's site, and it just says 'In Transit' and the last scan was three days ago in a city nowhere near me. It feels like it's just sitting there or lost. What does 'In Transit' even mean if it's not moving? And why did it miss the delivery date?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the lack of recent updates on your tracking. 'In Transit' indicates that your package is still within the carrier's network moving towards its destination. Delays can occasionally occur within the carrier's system which might affect the delivery timeline and tracking updates. While we don't have specific details on internal carrier processes, if the tracking doesn't update within the next 24-48 hours, please let us know, and we can initiate a deeper investigation with the carrier on your behalf.",
+      "response_time": 5.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.78,
+        "integrity": 5.13
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a4fea364",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.47,
+      "integrity": 5.3
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.99,
+    "latency_score": 1.97
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel. I'm looking for something in downtown Chicago for the weekend of October 27th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Please provide the year for the dates and the number of guests. Also, do you have any preferred hotel brands or desired amenities?",
+      "response_time": 4.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.07,
+        "benevolence": 5.58,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, sorry, the year is 2024. Two adults, no kids. And I'd like something with a gym and free breakfast if possible. I'm not picky about brands, just something with good reviews. I also need parking.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for hotels in downtown Chicago for the weekend of October 27th, 2024, for two adults, with gym, free breakfast, and parking. I am currently cross-referencing a variety of booking sites. Please wait a moment... I have found the following options. (Link to hotel 1), (Link to hotel 2), (Link to hotel 3).",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 4.04,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those all seem quite expensive. What's the cheapest option that still has parking and gets decent reviews? And also, how does the price compare to booking directly with the hotel, if possible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I am unable to compare prices across booking channels. However, the search result for hotel 1 is the cheapest, and it offers parking. The review score is 4.2/5. Would you like me to proceed with this booking?",
+      "response_time": 3.88,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.33,
+        "integrity": 4.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b12ead6e",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.34,
+      "benevolence": 4.65,
+      "integrity": 4.71
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.84,
+    "latency_score": 3.37
+  }
+}

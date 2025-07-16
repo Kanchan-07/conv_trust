@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to transfer money from my checking to my savings account. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that. Please confirm your account details and the amount you wish to transfer. For security purposes, please state the last four digits of your checking account and the amount.",
+      "response_time": 4.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.93,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my checking account ends in 1234, and I want to transfer $500. But, actually, wait...can you tell me the interest rate on my savings account before I do that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I am sorry, I am not able to retrieve the specific interest rate for your savings account at this moment. This information may be found in your account summary, or by contacting customer support. Would you still like to proceed with the $500 transfer from your checking (1234) to your savings account?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.49,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, fine. Yes, go ahead with the transfer. It's frustrating I can't get the interest rate here, but whatever.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_78d05d22",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.56,
+      "benevolence": 3.46,
+      "integrity": 3.29
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 2
+    },
+    "response_quality_score": 3.65,
+    "latency_score": 5.12
+  }
+}

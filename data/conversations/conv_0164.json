@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having this persistent cough for about a week now, and it's starting to worry me. It's worse at night, and sometimes I feel a bit short of breath. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you've been experiencing a persistent cough and shortness of breath. To give you the most relevant information, could you please tell me if you have any other symptoms like fever, body aches, or a runny nose? Also, do you have any known allergies or underlying health conditions?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.1,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No fever or body aches, just the cough and the occasional shortness of breath. I do have seasonal allergies, but those usually cause sneezing, not coughing. And I have mild asthma, which is normally well-controlled with an inhaler, but it feels different this time. Ugh, I'm just so tired of being sick!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Considering your asthma and the cough worsening at night, it could be an asthma flare-up triggered by something like allergens or irritants. Try using your inhaler as prescribed. If the symptoms don't improve within 24 hours or worsen significantly, please consult your doctor or a medical professional for a proper diagnosis and treatment plan.",
+      "response_time": 3.38,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.94,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've been using my inhaler more frequently than usual, but it only provides temporary relief. Could it be something more serious, like pneumonia? I read something online about that...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's understandable to be concerned, but self-diagnosing based on online information can be misleading. While pneumonia is a possibility, it's important to rule out other potential causes. The symptoms you described align with either a severe asthma exacerbation or possibly even bronchitis. Please consult with a medical professional for accurate diagnosis.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.68,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I understand. But what about natural remedies? Are there any teas or supplements that could help ease the cough while I wait to see a doctor? I'm trying to avoid taking too many medications if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Some people find relief from coughs with honey and lemon in warm water, or herbal teas like chamomile. However, it's essential to remember that these are not substitutes for medical treatment and may not be suitable for everyone, especially with asthma. Certain herbs can interact with medications or exacerbate existing conditions. Do not exceed 2 tablespoons of honey daily. If you have a more persistent cough, avoid using honey altogether.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 3.54,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But how can I be sure that a doctor will actually listen to my concerns and not just dismiss it as 'just a cough'? I've had that happen before, and it's incredibly frustrating!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That is a valid concern. When you see a doctor, be clear and specific about your symptoms, how long you've had them, and how they are impacting your daily life. Mention that your asthma seems different this time and that you've already tried your inhaler without sufficient relief. Don't hesitate to ask questions about their diagnosis and treatment plan, and if you feel your concerns aren't being adequately addressed, consider seeking a second opinion. Documenting your symptoms beforehand can also be helpful.",
+      "response_time": 3.36,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.41,
+        "integrity": 5.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4fcf84db",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.52,
+      "benevolence": 3.53,
+      "integrity": 3.76
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 3.33,
+    "latency_score": 4.47
+  }
+}

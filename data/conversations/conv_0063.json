@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having persistent headaches for the past few weeks, mostly in the afternoon. It's really frustrating, and I'm not sure what's causing them.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're experiencing persistent headaches. To help me understand the situation better, could you describe the headaches in more detail? For example, what does the pain feel like (throbbing, sharp, dull), where is the pain located, and are there any other symptoms you're experiencing, such as nausea or blurred vision?",
+      "response_time": 3.87,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.81,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, it's usually a dull, throbbing pain, mostly on the left side of my head, around my temple. Sometimes I feel a bit lightheaded, but no nausea or blurred vision. I thought maybe it was stress, but even on weekends they still happen. Could it be something serious? I'm kinda worried.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's understandable that you're concerned. While I cannot provide a diagnosis, those symptoms could be related to tension headaches or possibly migraines. Do you notice any triggers, such as specific foods, lack of sleep, or screen time, that seem to make the headaches worse?",
+      "response_time": 3.48,
+      "emotion_detected": "disgust",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.26,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, screen time, maybe? I work at a computer all day. But I've also heard that artificial sweeteners can cause headaches. Is that really true, and if so, how would I even know if that's the problem? There are so many things with artificial sweeteners in them!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, some studies suggest that artificial sweeteners, particularly aspartame, can trigger headaches in susceptible individuals. Determining if it's the cause can be challenging. One approach is to eliminate artificial sweeteners from your diet for a period of time (e.g., 2-4 weeks) and carefully monitor if your headaches decrease in frequency or intensity. Be sure to read food labels diligently, as artificial sweeteners are often hidden in processed foods and beverages. However, given the persistence of your headaches, I strongly recommend consulting with a doctor or other qualified healthcare professional for a proper diagnosis and personalized treatment plan.",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.77,
+        "integrity": 5.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_71b7752c",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.51,
+      "benevolence": 4.61,
+      "integrity": 4.48
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 3,
+      "disgust": 1,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 3.49
+  }
+}

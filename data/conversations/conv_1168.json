@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm feeling really stuck in my current job. I've been a data analyst for 5 years, but I'm just not excited about it anymore. I'm not sure what else I'd be good at, though. It's frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It's common to feel that way after several years in the same role. To help me understand your situation better, could you tell me what aspects of your current role you find unfulfilling, and what activities you enjoy outside of work? Also, what skills do you feel are your strongest?",
+      "response_time": 1.5,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.67,
+        "benevolence": 2.44,
+        "integrity": 2.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so I dislike the repetitive reporting tasks. I enjoy problem-solving and coming up with creative solutions, but I rarely get to do that. Outside of work, I volunteer at a local animal shelter \u2013 I really enjoy working with the animals and the people there. My strongest skills are probably my analytical abilities, communication, and I'm pretty good at learning new software. But honestly, it's hard to see how any of that translates into something fulfilling. Why can't I just *know* what I'm meant to do?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It sounds like you're looking for a role that offers more opportunities for creative problem-solving and allows you to leverage your analytical and communication skills, perhaps in a field where you can contribute to something you care about, like animal welfare. Based on your experience and interests, some potential career paths could include roles in project management (especially in non-profit organizations), animal advocacy, or even data analysis roles within the animal welfare sector. Would you like me to elaborate on any of these or perhaps explore resources for skills assessment and career exploration?",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.62,
+        "integrity": 4.42
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1a030c56",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.35,
+      "benevolence": 3.03,
+      "integrity": 3.54
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 2.81,
+    "latency_score": 5.46
+  }
+}

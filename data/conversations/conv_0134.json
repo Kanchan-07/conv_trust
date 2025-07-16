@@ -1,0 +1,121 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally trying to get serious about financial planning. I'm so overwhelmed, I don't even know where to start!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Financial planning can seem daunting at first. Let's break it down. To start, what are your primary financial goals? Are you saving for retirement, a down payment on a house, or something else?",
+      "response_time": 1.88,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.85,
+        "benevolence": 2.75,
+        "integrity": 2.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, all of the above, really! Retirement is probably the biggest one, but I'd also like to buy a house in the next 5 years. Is that even realistic with my current salary?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "To assess the feasibility of buying a house in 5 years, I'll need some information about your current financial situation. Could you please provide details such as your annual income, current savings, and monthly expenses? Also, what's your debt situation like - do you have student loans, credit card debt, or other outstanding debts?",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.56,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, talking about debt is so depressing. Okay, fine. My annual income is $60,000. I have about $5,000 in savings right now. Monthly expenses are... probably around $2,500. And I have about $30,000 in student loans. Is that enough information?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Thanks. With that information, and making some assumptions about interest rates, a very rough estimate shows you could realistically save enough for a down payment in 5 years if you optimize your saving strategy. I recommend reducing expenses where possible. I can help generate some ideas for this!",
+      "response_time": 4.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.75,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, but what about investing? Everyone says I should be investing, but I have no idea what I'm doing. Index funds? ETFs? It all sounds like gibberish to me!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Investing can definitely seem complicated. Generally, an ETF is a type of fund that holds multiple investments in it, and an index fund is a type of mutual fund that mirrors a particular market index. Given you are new to investing, a low-cost, diversified index fund or ETF is often a good starting point. However, this is not financial advice, and you should consult a professional advisor.",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.93,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes a little more sense. But, how can you guarantee that any investment is safe? What if I lose all my money?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_873f7769",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 4.0,
+      "integrity": 4.0
+    },
+    "engagement_score": 5.95,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 1,
+      "neutral": 3,
+      "sadness": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.21,
+    "latency_score": 4.32
+  }
+}

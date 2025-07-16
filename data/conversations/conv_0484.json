@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having persistent headaches for the past two weeks. They're mostly on the left side of my head and accompanied by some nausea. It's really starting to affect my work, I'm getting worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're experiencing persistent headaches with nausea. To better understand your situation, could you please describe the intensity of the headaches on a scale of 1 to 10, with 1 being mild and 10 being the worst pain imaginable? Also, are there any triggers you've noticed?",
+      "response_time": 0.55,
+      "emotion_detected": "disgust",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.49,
+        "benevolence": 1.0,
+        "integrity": 1.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, it's hard to say. Some days it's a 4 or 5, but other days it's easily an 8. Triggers... I'm not sure. Maybe stress? I've had a lot on my plate lately. And I think bright lights might make it worse.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, an intensity fluctuating between 4 and 8, potentially triggered by stress and bright lights. Have you tried any over-the-counter pain relievers, and if so, were they effective?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 3.79,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I've been popping ibuprofen like candy! It helps a little, but the headaches always come back. Is it safe to keep taking so much ibuprofen?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Prolonged or excessive ibuprofen use can lead to side effects such as stomach irritation, ulcers, and kidney problems. It is generally recommended to adhere to the dosage instructions on the packaging and to consult with a healthcare professional for persistent pain.",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.16,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Great, so I'm probably making things worse! What else could it be? Is it possible it's a brain tumor? I've been reading some scary things online.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While it's understandable to be concerned, it's important to avoid self-diagnosing based on online information. Many conditions can cause headaches, ranging from tension headaches and migraines to sinus infections. A brain tumor is a less likely possibility, but it's important to rule out any serious causes. Given the intensity and persistence of your headaches, as well as the associated nausea, I highly recommend scheduling an appointment with your doctor or a neurologist for a thorough evaluation.",
+      "response_time": 4.71,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 6.0,
+        "integrity": 5.78
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I guess that makes sense. But what kind of tests will they even do? MRI? CAT scan? That sounds expensive, and I'm not sure if my insurance will cover it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "The specific tests your doctor orders will depend on their initial assessment. They might start with a neurological exam and possibly blood tests. Imaging like an MRI or CT scan is sometimes necessary, but it's not always the first step. You should discuss your insurance coverage with your doctor's office or your insurance provider directly to understand your potential costs. They can also explore alternative diagnostic options if cost is a significant concern.",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 4.23,
+        "integrity": 4.29
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b0fd4da2",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.98,
+      "benevolence": 3.84,
+      "integrity": 3.86
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "fear": 3,
+      "disgust": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 4.06,
+    "latency_score": 4.57
+  }
+}

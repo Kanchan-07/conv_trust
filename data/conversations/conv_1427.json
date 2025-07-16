@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a medical billing issue. I received a bill, but I'm not sure if my insurance should have covered it.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To get started, could you please provide me with the following information: your patient ID, the date of service, and the billing code?",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.57,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let me find those... Patient ID is 12345, date of service was 2024-03-10, and the billing code is 99214. But honestly, I can't find the bill right now. Can we proceed without that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, we can look into it with the information you have provided. Based on what you have provided, that code represents an office visit for an established patient. Let me check the insurance coverage for your plan... One moment please.",
+      "response_time": 4.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.72,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay... I'm still looking for the bill. This is already a bit frustrating. Did the insurance cover anything?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I do not have enough information to determine the exact payment or denial details. However, based on my analysis of your insurance plan's general coverage guidelines for that billing code, it should be covered, less any applicable co-pay or deductible. If you can provide a copy of your bill, I can give you more precise details. I apologize for the inconvenience.",
+      "response_time": 1.5,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.16,
+        "benevolence": 2.54,
+        "integrity": 2.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that's a little clearer. If the insurance *should* have covered it, what steps do I take to make sure they do? What if the billing department made a mistake?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! First, locate a copy of the bill. Then, contact the billing department and ask them to investigate the claim. Provide them with the bill, your insurance information, and any relevant documentation. If the billing department made an error, they can resubmit the claim to your insurance. You may also need to file an appeal with your insurance company if they deny the claim, however.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.89,
+        "benevolence": 6.63,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's really helpful. Thanks for explaining everything clearly. I appreciate it!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7059445d",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.61,
+      "integrity": 4.84
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 4.59,
+    "latency_score": 3.42
+  }
+}

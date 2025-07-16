@@ -1,0 +1,76 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm feeling so lost! I've been working in marketing for 5 years, but I'm just not passionate about it anymore. I have no idea what else I could even do.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel that way after a few years in a role. Let's explore some options. What aspects of your current job do you dislike the most, and conversely, what aspects, if any, do you find even remotely interesting or fulfilling?",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.23,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, the constant pressure to meet targets and the repetitive nature of the campaigns really get to me. I guess I do enjoy the creative brainstorming sessions at the beginning of projects, and I like analyzing the data afterward to see what worked, even though that's usually when I realize we completely missed the mark, haha.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, so you enjoy the creative and analytical sides of marketing, but dislike the pressure and repetition. That gives us something to work with! Have you considered roles that are more focused on those areas, such as a market research analyst or perhaps a more strategic planning role within marketing?",
+      "response_time": 3.9,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.06,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've thought about market research, but honestly, how marketable is that skill set outside of marketing? I'm worried I'll just be jumping from one frustrating job to another within the same field. Is there really a way to leverage my experience for something completely different, or am I stuck?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3d1a6ef4",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.05,
+      "benevolence": 4.14,
+      "integrity": 3.88
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 1,
+      "disgust": 1,
+      "joy": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.46,
+    "latency_score": 4.26
+  }
+}

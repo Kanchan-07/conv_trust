@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I ordered a pair of shoes last week, order number 12345, and they still haven't shipped. The tracking information just says 'Label Created'. What's going on? This is really frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check on order 12345 for you. One moment, please. Okay, it looks like your order is currently being processed at our distribution center and is scheduled to ship out tomorrow. The 'Label Created' status can sometimes be misleading. You should see an update to the tracking information within 24-48 hours once it's picked up by the carrier.",
+      "response_time": 2.18,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.84,
+        "benevolence": 2.26,
+        "integrity": 2.61
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, tomorrow, you say? What if it doesn't ship tomorrow? I need these shoes for a trip next week. And what's the deal with only offering store credit for returns now? I saw something about that on your website.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Regarding your order, if it doesn't ship tomorrow, please contact us again, and we will investigate further. Regarding the store credit policy change, this was implemented to help reduce waste and offer more sustainable options. However, certain exceptions may apply depending on the circumstances of the return. For example, if an item is defective or if we made an error in your order, we will provide a full refund. If the shoes do not arrive in time for your trip due to a shipping delay on our end, we would also process a full refund instead of store credit. Does this clarify things?",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.62,
+        "integrity": 2.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's...somewhat reassuring, I guess. I still don't like the store credit thing, but at least there are exceptions. Thanks for the help. Hopefully, they actually ship tomorrow. I appreciate you checking on it.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5db675f0",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.77,
+      "benevolence": 2.44,
+      "integrity": 2.48
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "surprise": 1,
+      "anger": 1,
+      "neutral": 2,
+      "joy": 1
+    },
+    "response_quality_score": 2.3,
+    "latency_score": 5.26
+  }
+}

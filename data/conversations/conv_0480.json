@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm really struggling with this quadratic equation stuff. I just don't get how to factor these things. Can you help me out?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! Let's start with the basics. Factoring a quadratic equation is essentially reversing the process of expanding brackets. Let's begin with a simple example: x^2 + 5x + 6. Are you familiar with the general form of a quadratic equation?",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 4.31,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, ax^2 + bx + c. I know that. But how do you *actually* find the factors? I keep getting the signs wrong, or I can't find the right numbers. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand the frustration. A useful trick is to focus on the 'c' term (the constant) and the 'b' term (the coefficient of x). You need to find two numbers that multiply to give 'c' and add up to give 'b'. For x^2 + 5x + 6, what two numbers multiply to 6 and add to 5?",
+      "response_time": 1.54,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.82,
+        "benevolence": 2.33,
+        "integrity": 2.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I got it... 2 and 3? 2 times 3 is 6, and 2 plus 3 is 5. So, does that mean the factors are (x+2) and (x+3)?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Exactly! You've got it. So x^2 + 5x + 6 factors to (x+2)(x+3). Now, what about a more difficult one: 2x^2 + 7x + 3? How would you approach that?",
+      "response_time": 4.33,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.64,
+        "benevolence": 6.69,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d8316607",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.44,
+      "integrity": 4.56
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.07,
+    "latency_score": 4.77
+  }
+}

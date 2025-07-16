@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. I can't seem to find where to download my bank statements for the last three months on your website. It's like you guys are hiding it on purpose!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm sorry for the difficulty you're experiencing. To download your statements, please log in to your online banking portal. Then, navigate to the 'Accounts' section, select the relevant account, and look for a 'Statements' or 'Documents' tab. You should be able to select the desired date range and download them from there. Is there anything else I can assist you with?",
+      "response_time": 0.52,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.27,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I see the 'Statements' tab now, thanks! But why is it showing a 'pending' status for my statement from last month? I need it for my taxes ASAP. How long does it usually take to become available?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "The 'pending' status indicates that your statement is still being generated. The processing time can vary depending on several factors, such as system load and the complexity of your account activity. Generally, it takes around 2-3 business days for a statement to be fully processed and available for download. Please check back in 2 business days. Is there anything else I can help you with today?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.46,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "2-3 business days? Seriously? That seems excessive in this day and age. Just out of curiosity, what exactly is being 'processed' that takes so long? Is it some outdated system you're using? I mean, every other bank I use can generate statements instantly. I'm not necessarily blaming you, but I'm really starting to consider switching banks if this is the kind of service I can expect.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I don't have the technical specifics on the statement generation process, it involves aggregating transaction data, applying formatting, and ensuring data accuracy. While we strive to provide statements as quickly as possible, the processing time can sometimes be affected by high system usage, especially at the end of the month. I will pass your feedback along to our development team to see if improvements can be made to reduce processing times. Is there anything else I can help you with right now?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.88,
+        "integrity": 5.35
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c4b4f9a",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.52,
+      "benevolence": 3.78,
+      "integrity": 3.3
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "anger": 1,
+      "sadness": 1,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 3.11,
+    "latency_score": 5.09
+  }
+}

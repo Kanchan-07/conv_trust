@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview for a software engineering position next week. I'm super nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! I can assist you with various aspects of interview preparation, such as common interview questions, technical concepts, and behavioral questions. To start, what specific areas are you most concerned about?",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.73,
+        "benevolence": 6.71,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm worried about the technical questions. I'm good with coding, but I struggle with system design questions. Any advice on that?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "System design is a broad topic. I can give you some general advice, such as understanding the problem constraints, identifying key components, and considering scalability. For example, if you were asked to design a URL shortener, you'd need to think about factors like URL generation, storage, and redirection. Would you like me to elaborate on a specific system design question or topic?",
+      "response_time": 4.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.43,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that helps a little. But I still find those questions so vague! Like, how do I know what's 'good' design versus 'bad' design in the interviewer's eyes? What criteria are they using?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a challenging question, and the answer depends heavily on the interviewer and the role. Generally, interviewers assess system design based on factors like scalability, reliability, performance, and maintainability. They may also consider trade-offs and the rationale behind your design choices. For example, using a database that is optimized for reads would not be great for a system where you're constantly writing data. I can help you practice common system design scenarios.",
+      "response_time": 2.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.03,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that makes a bit more sense. Thanks. Maybe we can try a practice question then, URL shortener sounds good.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b210779c",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.39,
+      "integrity": 5.44
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.13,
+    "latency_score": 3.05
+  }
+}

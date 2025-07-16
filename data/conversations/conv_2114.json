@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in New York City for next weekend, from Friday to Sunday. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help you with that! To start, what dates are you looking at, and what's your budget per night? Do you have any preferred locations or amenities in mind?",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.36,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Next weekend, so Friday the 15th to Sunday the 17th of September. I'd like to stay around $250 a night if possible, and I'd prefer something in Midtown, with free wifi. Finding something in budget is really important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me check for you. *[long pause]* ... I'm finding a few options. The Hotel Metro and The Evelyn Hotel seem to be within your budget and offer free Wi-Fi. They are located in Midtown. Would you like me to provide more details about them?",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 4.49,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hold on... The Evelyn Hotel? Isn't that supposed to be a really trendy, expensive place? $250 sounds too good to be true. I looked it up, and it looks like the average price per night is $350... How are you getting that price?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies. My information may not be entirely up-to-date. I am showing you a range of current prices. I would still suggest you look at current offerings, as pricing changes often. Please also note that prices can vary based on the specific room type. Would you like me to check availability and pricing for the standard rooms at the Hotel Metro for your dates?",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.16,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, fine. Let's check the Hotel Metro. Please check for the standard room, and tell me about parking availability, too, since I'm driving.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d53bb52d",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.69,
+      "benevolence": 4.67,
+      "integrity": 4.36
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "neutral": 6,
+      "surprise": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 3.45
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally getting serious about financial planning. I'm 35, make about $70k a year, and have almost nothing saved. Where do I even start? It's honestly a little overwhelming.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand, it can feel daunting! Let's break it down. First, we'll want to assess your current financial situation. Can you tell me more about your monthly expenses, including rent/mortgage, utilities, transportation, food, and any debts you might have (student loans, credit cards, etc.)?",
+      "response_time": 1.51,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.35,
+        "benevolence": 2.39,
+        "integrity": 2.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. Rent is $1800, utilities are about $200, car payment is $400, student loans are another $300... I'm almost afraid to keep going. I know I spend too much on eating out, probably $500 a month easily. Credit card debt is around $3000 with a crazy interest rate.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. A key first step is to address that high-interest credit card debt. We should prioritize paying that down aggressively. One strategy would be the 'snowball method' or 'avalanche method', which focus on paying down the smallest balance or the highest interest rate first, respectively. Which do you prefer to pursue?",
+      "response_time": 4.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.49,
+        "integrity": 6.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what about investing? Everyone tells me I should be investing, but how can I even think about that when I'm drowning in debt? And frankly, I have no clue what I'm doing with investing. What's the safest way to get started if I only have like $50 a month to spare?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Given your situation, focusing on debt repayment is definitely the priority. However, even small investments can be beneficial. For $50 a month, consider a Roth IRA invested in a low-cost index fund or ETF (Exchange Traded Fund). These are generally considered relatively safe and offer diversified exposure to the market. You may also want to talk to a professional financial advisor, but starting with research on reputable brokerages that offer fractional shares could be a good move. Please remember I am not qualified to provide financial advice. Any actions performed are your own.",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.5,
+        "integrity": 3.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_34d95aa2",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.16,
+      "benevolence": 4.13,
+      "integrity": 3.91
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 3.89,
+    "latency_score": 4.39
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York (JFK) to Los Angeles (LAX) sometime in mid-October. I'm flexible, but ideally around the 15th to the 20th. And I really need a direct flight. This is such a headache trying to find something reasonable!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Let me check for direct flights from JFK to LAX between October 15th and 20th. One moment... Okay, I'm seeing several options. American Airlines flight AA45 departs JFK on October 17th at 8:00 AM, arriving at LAX at 11:00 AM Pacific Time. The current price is $450. Would you like me to explore other options around those dates, or other airlines?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.9,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "$450? Ouch! Are there any airlines known for having cheaper flights on that route? I'm willing to fly on less popular dates if it means saving a significant amount of money. Also, how reliable is that American Airlines flight, historically? Like, does it often get delayed or cancelled?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, checking for cheaper options. Southwest and JetBlue often have competitive prices on that route, especially if you're flexible. Let me see... For October 16th, JetBlue has a direct flight leaving JFK at 10:00 AM and arriving at LAX at 1:00 PM Pacific for $380. I don't have access to comprehensive historical flight reliability data beyond general on-time performance statistics. However, I can tell you that American Airlines generally has a good on-time record for domestic flights. For more detailed information regarding that specific flight's history, you may want to consult a site like FlightAware.",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.35,
+        "integrity": 3.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f7286a6b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.92,
+      "benevolence": 4.12,
+      "integrity": 4.03
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 3.6,
+    "latency_score": 3.88
+  }
+}

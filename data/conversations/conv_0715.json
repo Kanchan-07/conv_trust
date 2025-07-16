@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally getting around to updating my resume. This is such a pain! I need help tailoring it for a data analyst position. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration! Updating a resume can be tedious. Let's start by focusing on the job description of the data analyst position you're applying for. Can you paste the job description here? I'll analyze it to identify key skills and keywords.",
+      "response_time": 1.88,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.24,
+        "benevolence": 2.34,
+        "integrity": 2.45
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, here it is: [Pastes job description containing requirements like SQL, Python, data visualization, statistical analysis, and communication skills].",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks! Based on this description, it appears the key areas to highlight on your resume are: SQL proficiency, Python programming, data visualization skills (mention specific tools like Tableau or Power BI), experience with statistical analysis, and strong communication abilities. Let's start with your experience section. For each previous role, can you describe how you utilized these skills?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.81,
+        "benevolence": 6.88,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, in my previous role at Acme Corp, I used SQL to query databases and extract data for reports. I also used Python with Pandas to clean and manipulate the data. But I haven't used Tableau in years, only Power BI. Should I still mention Tableau if the job description mentions it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, mentioning relevant skills is good. Highlight your Power BI experience and also mention that you have familiarity with data visualization principles that translate to other tools like Tableau. You can state something like, 'Proficient in Power BI, with a foundational understanding of data visualization principles applicable to similar platforms like Tableau.'",
+      "response_time": 4.47,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.26,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That makes sense. But here's a tricky one: How do I quantify my accomplishments? I didn't really track specific metrics in my previous role. It feels weird to just make things up.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Good question! While fabricating numbers is not recommended, you can often estimate or frame your achievements in a quantifiable way. Think about the impact of your work. For example, instead of saying 'Improved data reporting,' you could say 'Developed automated data reports, reducing manual reporting time by approximately 20%.' Even an estimate is better than no quantification. Or 'supported a team of 5 data scientists'. Use words like 'supported' or 'assisted'. Focus on the impact, if you decreased the amount of something, or increased the amount of something.",
+      "response_time": 5.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.88,
+        "integrity": 5.43
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's actually really helpful! I think I can work with that. Thanks for the advice!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9642e41d",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.93,
+      "benevolence": 5.09,
+      "integrity": 5.15
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "disgust": 2,
+      "anger": 1,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 4.68,
+    "latency_score": 3.02
+  }
+}

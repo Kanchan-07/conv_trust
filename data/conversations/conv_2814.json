@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to buy a new pair of headphones, but I can't spend a fortune. Can you recommend some good over-ear headphones that are under $100?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Finding quality headphones under $100 is definitely possible. Some popular over-ear options in that price range include the Audio-Technica ATH-M20x, Sony WH-CH510, and Koss Porta Pro (though these are on-ear, not strictly over-ear, they're a common budget pick). They offer varying sound profiles and features.",
+      "response_time": 5.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.68,
+        "integrity": 5.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, okay. The Sony WH-CH510 seems interesting, but it says 'on-ear' in the description on some sites, and you listed it as 'over-ear' initially. Also, are any of these *actually* comfortable for long periods? I had a cheap pair before and they hurt my ears after 30 minutes! I'm kind of annoyed I wasted money last time and want something decent this time.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies for the slight confusion with the Sony WH-CH510 model description - it is indeed an on-ear model, not over-ear. Thank you for catching that! Comfort is a big factor, and unfortunately, budget headphones can sometimes sacrifice padding or clamping force quality. Among the truly over-ear options under $100, the Audio-Technica ATH-M20x is generally considered decent for comfort for its price, though subjective. Comfort often improves significantly as you move into slightly higher price ranges, but within the sub-$100 over-ear category, the M20x is a frequent recommendation for its balance of sound and build quality relative to cost. User reviews on comfort can be a good resource to check before purchasing.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.69,
+        "integrity": 5.92
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ebff1adb",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.27,
+      "benevolence": 5.69,
+      "integrity": 5.49
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 5.91,
+    "latency_score": 2.85
+  }
+}

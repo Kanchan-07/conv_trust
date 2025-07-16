@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately. Just constant fatigue and headaches for the past week. It's driving me crazy.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I'm sorry to hear you're not feeling well. Fatigue and headaches can be caused by various factors. Can you tell me more about the headaches? Are they dull or sharp, located in a specific area, and do they worsen with activity?",
+      "response_time": 1.44,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.03,
+        "benevolence": 2.91,
+        "integrity": 2.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "They're mostly a dull throbbing, kind of all over my head, sometimes worse behind my eyes. It's constant. And the fatigue is just overwhelming. I'm getting enough sleep, I think? But I still feel exhausted. I'm so frustrated by this!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing more details. Constant dull headaches and overwhelming fatigue could potentially be linked to dehydration, stress, poor sleep quality even if you feel you're getting enough hours, or even dietary factors. Have you made any recent changes to your diet or lifestyle?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.46,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Not really, same routine. But wait, I did start taking a new over-the-counter allergy medication about two weeks ago, right before this started. Could that cause this? And also, isn't it possible this is something serious, like a brain tumor? I'm really worried now, how can I know the difference?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It is possible for some medications, including certain allergy medications, to cause side effects like fatigue or headaches. However, I cannot provide medical diagnoses or determine if your symptoms are related to a medication or a serious condition like a brain tumor. Distinguishing between common issues and serious conditions requires a professional medical evaluation. I strongly recommend consulting a doctor or healthcare provider to discuss your symptoms, the new medication, and any concerns about serious causes. They can perform necessary examinations and tests.",
+      "response_time": 3.28,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.72,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, yeah, I guess you're right. It's confusing trying to figure this stuff out on my own. Thanks for letting me know about the medication possibility and emphasizing seeing a doctor. I'll make an appointment.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e3da3adb",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.97,
+      "benevolence": 3.21,
+      "integrity": 2.96
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 2,
+      "fear": 2
+    },
+    "response_quality_score": 2.64,
+    "latency_score": 5.76
+  }
+}

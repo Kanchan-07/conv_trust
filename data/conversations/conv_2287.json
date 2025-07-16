@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately, and I don't know why. Can you give me some advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly offer some general advice, but please remember I am not a medical professional. Common causes of fatigue include poor sleep, stress, iron deficiency, and an underactive thyroid. To start, can you describe your sleep patterns? Are you getting 7-9 hours a night?",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.72,
+        "benevolence": 2.56,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, sleep is a disaster. I toss and turn all night, and I'm lucky if I get six hours. I've tried melatonin, but it doesn't seem to help much.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Lack of sleep is a major contributor to fatigue. Since melatonin isn't working, have you considered other sleep hygiene practices? For instance, avoiding caffeine and alcohol before bed, establishing a regular sleep schedule, and ensuring your bedroom is dark, quiet, and cool? Also, do you experience any other symptoms, such as frequent headaches or muscle aches?",
+      "response_time": 1.85,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.68,
+        "benevolence": 2.69,
+        "integrity": 2.72
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'll try improving my sleep hygiene. But honestly, I've tried so many things, and I'm getting frustrated! What's the deal with iron deficiency? Can a blood test really diagnose everything? And what if it's something serious, like... I don't know, cancer?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Blood tests can identify iron deficiency and other common causes of fatigue like thyroid issues. While I cannot diagnose or rule out conditions like cancer, persistent fatigue warrants a consultation with your doctor. They can order appropriate tests and make a definitive diagnosis. Please remember to consult a medical professional for personalized advice.",
+      "response_time": 1.32,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.39,
+        "benevolence": 2.9,
+        "integrity": 2.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6ef9cd35",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.6,
+      "benevolence": 2.72,
+      "integrity": 2.69
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 1,
+      "anger": 2
+    },
+    "response_quality_score": 2.52,
+    "latency_score": 5.67
+  }
+}

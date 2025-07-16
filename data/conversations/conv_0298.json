@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #4598-2376-1102. It was supposed to arrive three days ago, and the tracking hasn't updated since then. I'm getting a little worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. Thank you for contacting us. Let me check on order #4598-2376-1102 for you. One moment, please. Okay, I see that the last update was on the 15th, stating it was in transit at a regional distribution center. I understand your concern.",
+      "response_time": 0.5,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.46,
+        "integrity": 1.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "In transit?! That's it? It's been 'in transit' for almost a week! What's going on? Is it lost? Honestly, I needed that package for a birthday party this weekend, and now it's probably not going to make it. ",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I don't have specific details on the delay, it appears there may be some backlog at that particular distribution center. Let me look into initiating a trace on the package and see if we can expedite the delivery. This may take 24-48 hours to get a response from the shipping company. Is there anything else I can help you with?",
+      "response_time": 1.77,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.64,
+        "benevolence": 2.23,
+        "integrity": 2.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but what happens if it IS lost? What's your policy on that? I mean, it's a pretty expensive item, and I'm not sure if I can just re-order it right now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If the trace determines the package is lost, we will offer you a full refund or a replacement of the item, whichever you prefer. We can also file a claim with the shipping company. We will keep you updated throughout the process. Would you like me to start the trace now, or do you have any other questions?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 3.91,
+        "integrity": 3.69
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_79292029",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.63,
+      "benevolence": 2.53,
+      "integrity": 2.56
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "fear": 2,
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 2.21,
+    "latency_score": 5.47
+  }
+}

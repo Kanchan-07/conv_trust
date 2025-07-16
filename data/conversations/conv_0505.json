@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #12345. It was supposed to arrive three days ago, and I'm getting a little frustrated. The tracking just says 'in transit'.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration. Let me look into order #12345 for you. One moment please.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.47,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I really needed this package for a trip I'm taking tomorrow.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see that the package is currently in transit at our regional sorting facility. It appears there was a slight delay due to unexpected weather conditions. I've flagged your package for priority delivery. It should arrive within the next 24-48 hours. Is there anything else I can help you with?",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.05,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "24-48 hours?! That doesn't help me at all, I leave tomorrow morning. Why wasn't I notified about this sooner, and why does the tracking still just say 'in transit' if it's a weather delay? Shouldn't that be reflected in the tracking information?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the lack of specific tracking updates. Unfortunately, our system isn't always perfect at reflecting real-time reasons for delays. Let me see if I can expedite the delivery further or explore alternative solutions, such as rerouting the package or providing a partial refund. I'll need a moment to investigate those options. Please hold.",
+      "response_time": 2.07,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.94,
+        "benevolence": 2.2,
+        "integrity": 2.92
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dcd90106",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.62,
+      "benevolence": 2.57,
+      "integrity": 2.77
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "anger": 2,
+      "joy": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 2.85,
+    "latency_score": 5.84
+  }
+}

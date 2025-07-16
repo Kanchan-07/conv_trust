@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Francisco for 3 nights, from July 12th to July 15th. I need a room with two beds.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for hotels in San Francisco for July 12th to 15th, with a room that has two beds. Do you have any preferences regarding price range or amenities?",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.27,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ideally, under $300 a night. Free breakfast would be great, and it needs to be relatively close to Union Square. Oh, and free wifi is a must!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for hotels near Union Square in San Francisco, from July 12th to 15th, with two beds, free breakfast, and free wifi, under $300 per night. One moment...",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.52,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks! I've been trying to find something myself, but it's been a real headache. All the prices are insane!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. I found a few options: Hotel Nikko San Francisco and the Hyatt Regency San Francisco. Both offer free wifi. The Hyatt has breakfast available for an additional fee, while Hotel Nikko doesn't explicitly state free breakfast on their website. The Nikko is slightly over your $300 budget at $320 per night, while the Hyatt is within your budget at $280. Would you like more information on either of those?",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.51,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, slightly over budget... That Nikko place sounds promising though. Why are hotel prices so different on different websites? Is it always best to book directly with the hotel, or do third-party sites ever have better deals? It's so confusing!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Hotel prices can vary across different websites due to a number of factors, including negotiated rates, promotional periods, and commission structures. Third-party sites sometimes offer better deals due to bulk purchasing power or special agreements, but it's always wise to compare prices across multiple sources, including the hotel's official website, to ensure you're getting the best rate. Often, booking directly with the hotel allows for more flexibility and potentially access to loyalty program benefits or direct negotiation. I can check for available discounts for AAA or senior rates at the Nikko if you wish.",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.83,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. No discounts needed for now, but thank you for explaining! Let's stick with looking at that Hotel Nikko. Can you tell me more about the amenities?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9a6191fe",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.28,
+      "integrity": 4.38
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "neutral": 6,
+      "anger": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.46,
+    "latency_score": 4.75
+  }
+}

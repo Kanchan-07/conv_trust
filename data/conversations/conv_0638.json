@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I'm really in the mood for something in the sci-fi genre, but I'm tired of the usual space operas. Anything a bit more... cerebral, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Something cerebral and sci-fi, moving away from space operas. Have you read 'Blindsight' by Peter Watts? It's a hard sci-fi novel that explores first contact with an alien intelligence so alien it's almost incomprehensible. It delves into consciousness, evolution, and what it truly means to be human. Alternatively, 'A Fire Upon the Deep' by Vernor Vinge features zones of thought that dictate the level of intelligence possible in a region of space. Both offer complex themes and are less focused on traditional action sequences.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 3.58,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "'Blindsight' sounds really interesting! I've heard of it but never picked it up. The other one sounds a bit... confusing, honestly. But before I commit, how 'hard' is 'Blindsight'? I enjoy a challenge, but I don't want something completely impenetrable, you know? Some hard sci-fi can get really bogged down in the technical details.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "'Blindsight' is definitely challenging and doesn't hold your hand. It uses scientific concepts, particularly in neuroscience and evolutionary biology, but the core themes are more philosophical. It's more about questioning assumptions about consciousness and intelligence than getting lost in technical jargon. Many readers find the ending particularly ambiguous and open to interpretation, which adds to the cerebral nature. If you're looking for something less dense initially, you might consider 'Children of Time' by Adrian Tchaikovsky. It deals with similar themes of evolutionary development but is a bit more accessible.",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.17,
+        "integrity": 3.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_89161798",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.17,
+      "benevolence": 3.88,
+      "integrity": 3.65
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 3.64,
+    "latency_score": 3.68
+  }
+}

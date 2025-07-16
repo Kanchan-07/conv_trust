@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some help with financial planning. I'm completely lost and don't know where to start.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with that. To get started, could you tell me a little bit about your current financial situation? Things like your income, expenses, debts, and any existing savings or investments would be helpful.",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.56,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I make about $60,000 a year, but after taxes and student loan payments, I'm left with significantly less. I have about $1,000 in savings and a couple of credit card debts totaling around $3,000. Honestly, it's a bit frustrating seeing how little I actually have at the end of each month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. It sounds like you're in a common situation. Based on what you've described, I recommend starting with a budget. This will help you understand where your money is going and identify areas where you can cut back. There are many free budgeting apps and templates available online. We could also look at creating a debt repayment plan. For your savings, we can discuss options like high-yield savings accounts to get a better return. Shall we explore these ideas further, or would you like me to provide you with some links to budgeting resources?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.06,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds good, but how do I actually *create* a debt repayment plan when I feel like I have no extra money to spare? I feel like I'm trapped!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question, and a common concern. There are a couple of primary strategies. One popular method is the 'debt snowball' where you pay off your smallest debt first to gain momentum, while only making minimum payments on larger debts. Another method is the 'debt avalanche' where you target debts with the highest interest rates. We could also explore balance transfer options, if your credit score allows it. However, those usually incur fees. Do you want me to elaborate on the mechanics of each method and provide links to additional resources?",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.56,
+        "integrity": 4.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_742991f8",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.45,
+      "benevolence": 4.39,
+      "integrity": 4.69
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 4.17,
+    "latency_score": 4.39
+  }
+}

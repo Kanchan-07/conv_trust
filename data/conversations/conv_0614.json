@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Emily Carter. It's for my annual physical.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Do you have a preferred date or time in mind for your appointment with Dr. Carter?",
+      "response_time": 2.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.88,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm pretty flexible, but ideally sometime in the afternoon next week would be best. Say, after 2 PM?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me check Dr. Carter's availability. One moment... Okay, it looks like she has an opening next Tuesday at 2:30 PM. Would that work for you?",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.85,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tuesday at 2:30... Hmm, that might work. Actually, before I commit, does she still offer telehealth appointments? I'd honestly prefer that if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, Dr. Carter does offer telehealth appointments. However, the next available telehealth appointment for a physical is on the 26th at 10:00 AM.",
+      "response_time": 2.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.91,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "The 26th... That's almost three weeks away! Ugh, this is frustrating. Why is it so hard to get an appointment?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Telehealth appointments are currently in high demand. Would you like me to put you on a waiting list for an earlier telehealth slot, or would you prefer to keep the in-person appointment on Tuesday?",
+      "response_time": 2.02,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.82,
+        "benevolence": 2.72,
+        "integrity": 2.09
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, fine. Put me down for the in-person appointment on Tuesday at 2:30. Thanks for your help, even if it wasn't ideal.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_10047f72",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.59,
+      "benevolence": 3.59,
+      "integrity": 3.5
+    },
+    "engagement_score": 4.81,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.99,
+    "latency_score": 4.74
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, can you tell me my current checking account balance?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Your current checking account balance is $4,520.75. Is there anything else I can help you with regarding your account today?",
+      "response_time": 0.5,
+      "emotion_detected": "surprise",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm looking at my recent transactions and there's a charge for $150 from 'ONLINE RETAIL GRP'. I don't remember making this purchase. Can you tell me more about it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I can see a transaction for $150 posted on [Date, e.g., Nov 15th] from a merchant listed as 'ONLINE RETAIL GRP'. Our system displays the merchant name as provided by the payment processor. Unfortunately, I cannot provide further details about the specific items purchased or the retailer's exact identity beyond what is listed.",
+      "response_time": 1.56,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.45,
+        "benevolence": 2.16,
+        "integrity": 2.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's really frustrating! 'ONLINE RETAIL GRP' tells me nothing. How am I supposed to figure out what this is? Can't you just look up the merchant? Like, who is that actually?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The name displayed, 'ONLINE RETAIL GRP', is the name submitted by the merchant. We do not have access to a detailed database that can reverse-lookup vague merchant names or provide granular purchase details. For unrecognized transactions, we recommend checking your email for purchase confirmations around that date, reviewing your own purchase history, or if you still cannot identify it, contacting our fraud department to dispute the charge.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.38,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, okay, I'll try checking emails. What a hassle. Anyway, changing topics, I need to send $500 to my friend in Canada. How do I initiate an international wire transfer, and what are the fees like? It seems confusing.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Initiating an international wire transfer involves a few steps. You typically need the recipient's full name, address, bank name, branch address, account number, and SWIFT/BIC code. Fees vary depending on the currency, destination, and whether it's sent online or in person. Standard fees for online international transfers to Canada are typically around $40-$50, but intermediary banks might add their own charges. You can initiate this process through the 'Transfers' section of your online banking or mobile app, under 'International Wires'.",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.96,
+        "integrity": 5.66
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow, $40-$50 is quite high. Thanks for explaining the process though, that makes more sense now. I'll look in the app. Appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f5bbdd32",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.43,
+      "benevolence": 2.62,
+      "integrity": 2.42
+    },
+    "engagement_score": 5.7,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 3,
+      "sadness": 1,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 2.16,
+    "latency_score": 5.87
+  }
+}

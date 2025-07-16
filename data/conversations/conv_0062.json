@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle my finances. I'm so overwhelmed though. Where do I even start with financial planning?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be daunting! Let's start with the basics. First, could you tell me a little about your current financial situation? What are your primary income sources, and what are your biggest expenses? Also, do you have any existing debt or investments?",
+      "response_time": 3.81,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.48,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I have a full-time job making about $60,000 a year. My biggest expenses are rent ($1500/month), student loans ($300/month), and car payment ($400/month). I have about $10,000 in student loan debt left. I have a small 401k through my job, maybe around $5,000 in it. Is that even good?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for sharing. To determine if your 401k is on track, we'd typically look at your age and compare it to general guidelines. A very rough estimate is to have about one year's salary saved by age 30. Since you're likely below that, focusing on increasing your contributions would be beneficial. Have you considered increasing your 401k contribution percentage, even by just 1% or 2%?",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.19,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I guess. But honestly, every penny feels like it's already accounted for. I'm trying to save for a down payment on a house too! How am I supposed to do all of this at once? Is buying a house even realistic for me?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's understandable to feel overwhelmed. Balancing multiple financial goals requires careful planning and prioritization. Let's explore strategies to optimize your budget and savings. We can assess your current spending habits, identify potential areas for reduction, and then create a realistic timeline for achieving both your retirement savings and homeownership goals. We'll also look at different mortgage options and down payment assistance programs to see what's available to you.",
+      "response_time": 3.08,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.64,
+        "integrity": 4.06
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_854697c4",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.44,
+      "integrity": 4.43
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.45,
+    "latency_score": 4.02
+  }
+}

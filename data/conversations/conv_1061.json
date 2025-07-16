@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from New York to Los Angeles sometime in mid-October. I'm flexible on the exact dates.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please provide me with the specific airport in New York you'd like to depart from, and whether you have any preferred airlines or a budget in mind?",
+      "response_time": 2.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.96,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "JFK is fine. No preferred airlines, and I'd like to keep it under $400 if possible. Ideally non-stop.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for non-stop flights from JFK to LAX in mid-October with a budget of $400. I'm showing some options between October 15th and October 20th on JetBlue and American Airlines that fall within your budget. Would you like me to list some specific flight times?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.13,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please. And could you check if flying out on the 18th and returning on the 25th is cheaper? I'm willing to shift my dates if it means saving some money.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me check those specific dates... Hmm, it appears flying out on October 18th and returning on October 25th with a non-stop flight is slightly above your $400 budget. The cheapest option I'm seeing is around $430 on JetBlue. However, there is a flight with one stop on United for $380. Would you like me to provide details on either of those flights?",
+      "response_time": 2.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.63,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. I really wanted a non-stop flight. Why are flights so expensive these days? Is there anything I can do to find cheaper flights, like flying on a Tuesday or Wednesday, maybe to a different airport near LA?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me see. Flying on a Tuesday, October 15th, non-stop to LAX on JetBlue comes to $395 departing at 8:00 AM. Let me check alternate airports... To Ontario, California (ONT), the prices are slightly higher that day. So LAX is the cheapest option currently. If you were to fly back on Monday the 21st of October, you could get it for $380 total with non-stop service on American Airlines, departing LAX at 3PM.",
+      "response_time": 0.62,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.37,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's actually pretty good! The Oct 15th to Oct 21st option. Let's go with the American Airlines one departing LAX at 3pm. Please book that for me.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aad09f95",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.42,
+      "benevolence": 3.27,
+      "integrity": 3.17
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.05,
+    "latency_score": 5.01
+  }
+}

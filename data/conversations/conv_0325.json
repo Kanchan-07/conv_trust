@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'd like to check my account balance and see if a specific payment has cleared. It was supposed to go out on the 15th for $150 to 'Acme Corp'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please provide the last four digits of your account number and your date of birth for verification?",
+      "response_time": 3.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.01,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 1234 and 01/01/1990. Ugh, this is always such a pain, having to verify every time.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I access your account. Okay, your current balance is $785.22. I do see a payment of $150 to Acme Corp. posted on the 15th. Is there anything else I can help you with?",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.03,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks for confirming that! One quick question, is there any way to get a breakdown of all the fees I've been charged this year? I feel like they're adding up, and I want to understand where they're coming from.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. I can provide a list of all fees charged to your account this year. I can email it to the address we have on file. However, I am not able to explain the nature of each fee. Would you like the list of fees sent to you?",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.78,
+        "integrity": 4.33
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_75f52523",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.13,
+      "benevolence": 2.94,
+      "integrity": 3.11
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.29,
+    "latency_score": 5.02
+  }
+}

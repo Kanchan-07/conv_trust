@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm writing to inquire about a package that's severely delayed. The tracking number is 1Z234ABC567DEF890.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I'll look into that tracking number for you right away. Please give me a moment.",
+      "response_time": 5.11,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 6.6,
+        "integrity": 6.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It was supposed to be delivered three days ago, and I really need it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see that your package is currently showing as 'in transit' at our regional sorting facility. Unfortunately, we're experiencing some unexpected delays due to weather conditions in that area. I apologize for the inconvenience.",
+      "response_time": 2.82,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.62,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Weather conditions? Seriously? That's what everyone always says. Is there any *actual* idea of when I can expect it? I need this package for a presentation.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me see if I can get a more precise estimate. Based on the current information, I'd estimate delivery within the next 24-48 hours. I can also initiate a trace on the package to expedite the process. Would you like me to do that?",
+      "response_time": 2.32,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.85,
+        "integrity": 2.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please initiate a trace. And can you tell me what your company's policy is on compensating for delayed deliveries, especially when it's impacting important deadlines like this?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I have initiated a trace on your package. Regarding compensation, our policy varies depending on the shipping service used and the specific circumstances of the delay. Could you please confirm which shipping service you selected when the package was sent?",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.62,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "I'm not sure, it was a gift someone sent to me. Is there any way you can look it up based on the tracking number? Or tell me what the general policies are so I have an idea?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0c77405a",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.33,
+      "benevolence": 4.17,
+      "integrity": 4.31
+    },
+    "engagement_score": 5.4,
+    "emotion_distribution": {
+      "sadness": 2,
+      "joy": 1,
+      "neutral": 4,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.17,
+    "latency_score": 4.27
+  }
+}

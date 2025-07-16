@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I think my former employer might be violating a non-compete agreement, but I'm not sure. It's all so confusing!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand. To best advise you, I need some details. Could you please provide a brief overview of the non-compete agreement, including its duration, geographic scope, and the nature of the work it restricts? Also, what specific activities are you engaged in now that you believe might violate the agreement?",
+      "response_time": 2.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.92,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the agreement says I can't work for a direct competitor for one year within a 50-mile radius of their main office. I used to be a marketing manager for them, and now I'm doing freelance marketing for a company that *could* be seen as a competitor, but we're really focusing on a different niche. I just don't want to get sued!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for that information. Based on what you've said, the key factor will likely be whether your current activities are genuinely considered competitive under the law and the specifics of your agreement. The 'different niche' argument could be significant. To better assess this, please send me a copy of the original non-compete agreement.",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.13,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded it. But honestly, what are the chances they'll actually come after me? It seems like a lot of trouble for them.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I cannot predict the likelihood of legal action with certainty. Several factors influence that decision, including the former employer's resources, their history of enforcing similar agreements, and the potential damage they perceive due to your new role. Reviewing the document will help me assess the strength of their case *if* they choose to pursue it.",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.61,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. One more thing: If they *did* sue me, what would be the worst-case scenario? Like, could I go to jail or something? I'm getting really stressed out about this.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Generally, non-compete disputes are civil matters, not criminal. So, jail time is highly unlikely. The worst-case scenario usually involves a court order preventing you from continuing your current work, along with potential financial penalties such as damages for lost profits suffered by your former employer and their legal fees if the agreement is deemed valid and was violated. These damages can be considerable, depending on the case.",
+      "response_time": 1.88,
+      "emotion_detected": "disgust",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.24,
+        "benevolence": 2.13,
+        "integrity": 2.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_58577f4f",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.53,
+      "benevolence": 3.45,
+      "integrity": 3.29
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 4,
+      "anger": 1,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.04,
+    "latency_score": 4.5
+  }
+}

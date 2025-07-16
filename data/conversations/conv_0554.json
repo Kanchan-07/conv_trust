@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner tonight. Somewhere nice, preferably Italian.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Could you please tell me what area you're interested in and how many people will be in your party?",
+      "response_time": 3.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 4.26,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "We're looking in downtown. And there will be 4 of us. Around 7:30 PM?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me see. There's 'Bella Notte' which has excellent reviews and availability at 7:30 PM for four. Or 'Luigi's' is another option, slightly more casual. Do either of those sound appealing?",
+      "response_time": 4.19,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.75,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Bella Notte sounds good! What's their cancellation policy? Just in case, you know...",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Bella Notte allows cancellations up to 2 hours before the reservation time without penalty. After that, there may be a small charge of $25 per person. I will make the reservation for you.",
+      "response_time": 4.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.67,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Perfect, thanks! One last thing, does Bella Notte have any options for gluten-free pasta? My wife has celiac disease, so it's important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, Bella Notte does offer gluten-free pasta options. I would still recommend mentioning it to your server when you arrive. Your reservation for 4 at Bella Notte at 7:30 PM is confirmed. You will receive a confirmation email shortly. Is there anything else I can help you with?",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.19,
+        "integrity": 4.42
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8c6c2478",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.24,
+      "benevolence": 4.47,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.47,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.7,
+    "latency_score": 3.94
+  }
+}

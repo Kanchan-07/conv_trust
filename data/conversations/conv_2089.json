@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some new clothes, but I'm on a pretty tight budget. Can you give me some fashion recommendations? I'm thinking casual wear, mostly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me what your budget is? Also, do you have any preferred styles or brands, or any colors you particularly like or dislike? Knowing this will help me tailor the suggestions to your preferences.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.72,
+        "integrity": 6.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, let's say I have $150 to spend. I like jeans, t-shirts, and maybe a light jacket. And honestly, I HATE shopping around, so the fewer stores I have to look at, the better. Also, can you find clothes that fit well? I have trouble with that sometimes. Is that doable?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, $150 for jeans, t-shirts, and a light jacket, aiming for minimal store visits and good fit \u2013 that's a challenge! Finding clothes that fit perfectly is complex, as it depends on your measurements. However, I can generate a list of items based on popularity and estimated cost, including brands known for good fits. I'll also try to suggest a limited number of online stores that offer a variety of items. Here are some possible recommendations:\n\n*   **Jeans:** Levi's 501 Original Fit (approx. $60), Gap Straight Jeans (approx. $50)\n*   **T-shirts:** H&M Basic Crew Neck T-shirts (approx. $10 each), Uniqlo U Crew Neck T-shirt (approx. $20 each)\n*   **Light Jacket:** Old Navy Jean Jacket (approx. $40). \n\nThese are general price guidelines, of course. You can find all of these on their respective websites. Let me know if you'd like me to refine those options based on specific styles or fit preferences!",
+      "response_time": 2.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.42,
+        "integrity": 4.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2c4cd759",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.57,
+      "benevolence": 5.57,
+      "integrity": 5.35
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.32,
+    "latency_score": 3.05
+  }
+}

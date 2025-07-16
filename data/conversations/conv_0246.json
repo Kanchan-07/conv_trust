@@ -1,0 +1,76 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm completely overwhelmed. I need help figuring out how to actually plan for retirement. I have a 401k, but I'm not sure if I'm contributing enough. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Retirement planning can feel daunting. Let's start with some basics. To give you personalized advice, I need some information. Could you provide your current age, your desired retirement age, your current 401k balance, and your annual salary?",
+      "response_time": 3.6,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.27,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, age 35, want to retire around 65, 401k is at $30,000, and I make $70,000 a year. Honestly, seeing those numbers written down makes me feel even more stressed! Is that even close to enough?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on the data you provided, you may need to increase your retirement contributions to meet your goals. A common rule of thumb is to save 15% of your income for retirement, including any employer match. To provide a more precise estimate, I would recommend using a more sophisticated retirement calculator. There are many available online. Would you like a list of commonly used ones?",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.67,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, 15%? That sounds like a lot! My follow up is this: How does inflation affect all of these calculations? If I save a bunch of money now, won't it be worth less in 30 years? And how do I even account for that?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3e0bd726",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 3.97,
+      "integrity": 3.84
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.07,
+    "latency_score": 4.41
+  }
+}

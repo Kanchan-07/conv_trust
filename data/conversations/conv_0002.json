@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a gift for my mom. She really likes gardening. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! Since she enjoys gardening, I can recommend some items from our Gardening category. How about a high-quality gardening tool set, a self-watering planter, or perhaps some rare plant seeds? Which of those sounds most interesting?",
+      "response_time": 2.63,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 3.67,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, she already has a lot of tools. The planter sounds interesting. Are there different kinds?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, we have several types of self-watering planters. We have small ones for herbs, larger ones for vegetables, and even decorative ones that are suitable for indoor use. Could you tell me whether she gardens indoors or outdoors, or the typical size of plants she grows?",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.15,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Mostly outdoors, and she likes growing tomatoes and peppers. So something for bigger plants, I guess. This is harder than I thought!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, based on that, I'd recommend looking at our self-watering raised garden beds. They're designed for outdoor vegetable gardening and provide consistent moisture. You can find them under 'Gardening' -> 'Planters & Raised Beds' -> 'Self-Watering'. Alternatively, consider a large self-watering pot, around 20-25 gallons.",
+      "response_time": 2.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.55,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see a few raised beds. They're a bit pricey though. Is the self-watering feature really worth it? What's the science behind it, like, how does it actually work?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The self-watering feature works through capillary action. There's a reservoir at the bottom of the bed that you fill with water. The soil then draws water up from the reservoir as needed, preventing over or under-watering. This promotes consistent growth and reduces the need for frequent manual watering. As for whether it's worth it, it depends on how often your mom is able to water her plants, and if she struggles with maintaining consistent soil moisture.",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.2,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That makes sense. Thanks! I'll think about it. Maybe I should just get her more seeds after all.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! If you decide to go with seeds, I recommend checking out our 'Heirloom Tomato' selection. They're very popular. Let me know if you have any further questions.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.54,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dc278756",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.71,
+      "integrity": 5.07
+    },
+    "engagement_score": 4.69,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 8
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.48
+  }
+}

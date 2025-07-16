@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you check my account balance for my checking account ending in 1234?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! One moment while I access your account information. The current balance for your checking account ending in 1234 is $542.87.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.03,
+        "benevolence": 1.0,
+        "integrity": 1.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Can you also tell me what my recent transactions were? I think there was a charge I don't recognize.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Sure. Here are your five most recent transactions: 08/02 - $25.00 - Coffee Shop, 08/01 - $75.00 - Grocery Store, 07/31 - $150.00 - Online Retailer, 07/30 - $2500.00 - Payroll Deposit, 07/30 - $12.50 - Streaming Service. Do any of those look unfamiliar?",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.58,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, the $150 one to 'Online Retailer'. I don't remember that at all. That's frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. To investigate that charge further, I can provide you with some options. Would you like me to initiate a dispute process, or would you prefer to speak with a fraud specialist?",
+      "response_time": 2.34,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.51,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "What's the difference? Which one is faster? And what information will I need to provide to dispute the charge?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Generally, speaking with a fraud specialist might provide immediate answers and guidance, while initiating a dispute has a more formal process. Both will require details about the transaction and your reason for disputing it. The dispute process often involves a waiting period for investigation, while the fraud specialist can immediately investigate common fraud patterns or other suspicious account activity. Please note that fraud specialists are only available during business hours. I am unsure of the exact time it may take in both scenarios.",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.94,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's\u2026 somewhat helpful. Let's just start the dispute process then. How do I do that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Okay, to begin the dispute process, please follow this link: [dispute_form_link]. You will need your account information and details about the transaction you are disputing. The form will guide you through the required information. Please submit the form, and we will contact you with updates within 7-10 business days.",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 4.41,
+        "integrity": 4.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_63a4519d",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.34,
+      "benevolence": 3.29,
+      "integrity": 3.57
+    },
+    "engagement_score": 4.99,
+    "emotion_distribution": {
+      "neutral": 8,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.66,
+    "latency_score": 4.84
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking number is 1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I've pulled up the tracking information for package 1234567890. It appears to be delayed due to unforeseen circumstances. It was supposed to be delivered yesterday.",
+      "response_time": 0.5,
+      "emotion_detected": "surprise",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.41,
+        "integrity": 1.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? What does that even mean? I needed this package! When can I actually expect it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The system is showing an estimated delivery date of tomorrow. However, there might be additional delays. I can initiate a trace on the package to get a more precise location and status update for you. Would you like me to do that?",
+      "response_time": 2.26,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.43,
+        "benevolence": 2.82,
+        "integrity": 2.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please do initiate the trace. And, what exactly constitutes 'unforeseen circumstances' in this context? Can you give me a more specific reason for the delay?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9b175f69",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.72,
+      "benevolence": 2.11,
+      "integrity": 1.95
+    },
+    "engagement_score": 4.62,
+    "emotion_distribution": {
+      "neutral": 2,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 1.98,
+    "latency_score": 6.12
+  }
+}

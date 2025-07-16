@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, I'm looking for some good book recommendations. I'm really into sci-fi right now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Great choice. Sci-fi is a vast genre. To get started, how about some highly-regarded classics or popular recent titles? Some examples include 'Dune' by Frank Herbert, 'Project Hail Mary' by Andy Weir, or 'The Martian' also by Andy Weir.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.61,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks, but I've already read all of those! They're good, but I was hoping for something a bit less mainstream, maybe something more cyberpunk or military sci-fi? I'm getting a little frustrated trying to find something new and exciting on my own.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, okay. Apologies for the common suggestions. For cyberpunk, you might like 'Neuromancer' by William Gibson or 'Snow Crash' by Neal Stephenson. In military sci-fi, 'Starship Troopers' by Robert A. Heinlein is a classic, or perhaps 'Old Man's War' by John Scalzi.",
+      "response_time": 3.54,
+      "emotion_detected": "disgust",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.58,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 'Neuromancer' is definitely on the list. 'Old Man's War' sounds interesting too. But here's a tough one: can you recommend any sci-fi books that blend hard science fiction with serious philosophical themes about consciousness, but are *not* by Ted Chiang? I've read his stuff to death, and I'm finding it surprisingly hard to locate similar depth elsewhere.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very specific and excellent challenge! Finding that exact blend outside of Chiang can be tricky. While not a perfect match for *every* element, you might explore 'Permutation City' by Greg Egan, which deals extensively with simulated consciousness and identity in a hard science context. Another possibility is 'Diaspora', also by Greg Egan, which delves into post-human evolution and complex physics. They lean heavily on hard sci-fi but engage with profound philosophical questions, though perhaps less focused solely on individual human consciousness than Chiang's work sometimes is. It's a difficult niche to fill!",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 6.0,
+        "integrity": 5.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f1730404",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.41,
+      "benevolence": 5.4,
+      "integrity": 5.79
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 3,
+      "anger": 1,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.77,
+    "latency_score": 3.01
+  }
+}

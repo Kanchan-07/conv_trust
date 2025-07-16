@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I just got my bill and there's a charge for $35.00 I don't recognize at all. It's dated [date]. I'm really confused and honestly, a little upset about this.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about the unexpected charge on your bill. I can certainly help you investigate this. To start, could you please provide your account number or the email address associated with your account?",
+      "response_time": 0.62,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.4,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my account email is [user_email@example.com]. The charge was on my bill dated [bill_date] for $35.00. It says something vague like 'Service Fee'. I've never seen this before.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. I have located your account. Let me look into the details of that $35.00 'Service Fee' charge for you. These fees can sometimes relate to specific plan changes or usage, but I need to confirm the exact reason.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.73,
+        "integrity": 6.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "But I haven't made *any* plan changes, and my usage is standard. My contract explicitly states my monthly fee covers all standard services. How can you just add a 'Service Fee' without any prior notification or explanation that violates my existing agreement?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern regarding the service fee and how it relates to your agreement. While standard services are included, certain specific actions or non-standard usage scenarios *could* potentially trigger additional fees. I need to access the specific billing code details linked to this charge to provide a definitive answer. This may take a few minutes.",
+      "response_time": 2.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.5,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, please do look into the specific code then. If it's something I didn't authorize or isn't covered in my contract, I expect it to be removed. Just knowing that someone is actually checking helps a little.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_846ea5fd",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 3.88,
+      "integrity": 3.96
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "surprise": 1,
+      "sadness": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 3.96,
+    "latency_score": 4.46
+  }
+}

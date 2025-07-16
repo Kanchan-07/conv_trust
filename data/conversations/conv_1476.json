@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really lost in my career. I've been in marketing for 5 years but I'm not sure I like it anymore. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. It's common to feel that way. To help you, I can offer some initial assessments, such as a skills inventory or a personality test related to career interests. Would you be interested in those?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.89,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, I guess. I took one of those personality tests a while back, the Myers-Briggs one, and it said I was an ENFP. How useful is that, really? I felt like it was just a bunch of generic statements.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "The Myers-Briggs can be helpful as a starting point, but it's true that they sometimes feel a bit generic. The value lies in understanding your core preferences and motivations, which can then be used to guide exploration. For an ENFP, career paths often suggested include fields where they can be creative and interact with others. Marketing *could* fit, but it's also possible you need something different. Let's brainstorm some alternative roles. What aspects of your marketing job do you dislike most?",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.72,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Honestly, I think it's become very repetitive. I am also frustrated by the metrics-focused aspects. I'm being asked to spend more time on analytics and less on actual creative strategy. But... how can I change careers significantly with my experience? Wouldn't I have to start at the bottom somewhere?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern, but it's not always the case. Your existing skills in communication, project management, and perhaps even data analysis, are transferable. The degree to which you have to start over depends on how closely aligned your new field is to your current one. Let's explore some options. For example, what about a content creation role or a public relations position? Alternatively, we could investigate roles that require a strategic approach but aren't so metrics-driven. What are your initial thoughts on those suggestions?",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.01,
+        "integrity": 4.06
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_16daf4ce",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.54,
+      "integrity": 4.38
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.54,
+    "latency_score": 4.03
+  }
+}

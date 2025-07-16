@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle this. I want to start planning for retirement, but I'm honestly overwhelmed. I have a 401k through work, but that's about it. Where do I even begin?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Retirement planning can seem daunting at first. Let's start with the basics. To give you the most tailored advice, I need some information. Can you tell me your age, your approximate annual income, and your current 401k balance? Also, what age are you hoping to retire?",
+      "response_time": 2.91,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 3.65,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm 35, I make about $75,000 a year, my 401k has around $30,000 in it, and I'd *like* to retire around 60, but honestly, that feels like a pipe dream. Given the inflation rate and the cost of living, is that even realistic without winning the lottery?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While I can't predict the future, I can help you assess the feasibility of retiring at 60. Based on your current information, retiring at 60 with your current savings rate *may* be challenging. However, there are several strategies we can explore to improve your outlook. I can generate some projections based on different savings rates and investment allocations. Would you like me to run those scenarios for you?",
+      "response_time": 2.46,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.8,
+        "integrity": 4.24
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4379ac56",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.21,
+      "benevolence": 3.72,
+      "integrity": 4.2
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 2
+    },
+    "response_quality_score": 4.17,
+    "latency_score": 4.81
+  }
+}

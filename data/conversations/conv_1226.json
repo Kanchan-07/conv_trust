@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm applying for a software engineer position and could use some help with my resume. I'm so frustrated because I've been applying for weeks and haven't heard back from anyone!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely help you review your resume. To get started, could you please provide me with a copy of your current resume and the job description for the software engineer position you're applying for? I can analyze it for keywords, formatting, and overall content to help optimize it for Applicant Tracking Systems (ATS) and human review.",
+      "response_time": 3.69,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.39,
+        "integrity": 5.2
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here's my resume and the job description. But, I'm a little confused. How can you actually help me tailor my resume to *this specific* job description? It seems like it would need a real person to understand what skills and experiences are most relevant, not just some algorithm!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! While I can't perfectly replicate human judgment, I can perform several useful functions. I can identify the most relevant keywords and skills mentioned in the job description and compare them to your resume. I can then highlight where you've already addressed these requirements and suggest ways to incorporate any missing keywords or rephrase your existing experience to better match the language used in the job posting. I can also provide suggestions for quantifying your accomplishments. I'll provide you with a report highlighting these points, which will give you a head start on tailoring your resume, so you can then go in and refine it using your own understanding. Give me a moment to process the information.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.74,
+        "integrity": 6.97
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_07e941dd",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.05,
+      "benevolence": 6.06,
+      "integrity": 6.08
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 2,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 5.78,
+    "latency_score": 2.66
+  }
+}

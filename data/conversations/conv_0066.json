@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm going on vacation next month and I need some new clothes, but I'm on a tight budget. Like, REALLY tight. Can you give me some ideas for outfits? My budget is $150 total.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure, I can help with that! To give you the best recommendations, can you tell me a bit more about the vacation? Where are you going, and what activities will you be doing? Knowing the climate and typical activities will help me find suitable and affordable options.",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.64,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, fine. It's a beach vacation, so think sun and sand. I'll be mostly lounging around, swimming, and maybe going out to a casual dinner or two. So, beachy but presentable! How are you going to manage all that for $150? That feels impossible.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. How about this: A lightweight, breathable linen shirt (around $30-40 from stores like H&M or Uniqlo), a pair of versatile shorts (denim or khaki, $25-35), a simple swimsuit ($20-30), and a basic pair of sandals or flip-flops ($15-25). That should leave you with a little room for a cheap beach hat. Does that work for you? I can provide specific links if needed, but they will be from generic fast fashion retailers.",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.4,
+        "integrity": 4.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2f2b4250",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.11,
+      "benevolence": 5.02,
+      "integrity": 4.88
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.5,
+    "latency_score": 3.12
+  }
+}

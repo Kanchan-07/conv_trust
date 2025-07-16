@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help. I'm trying to eat healthier but also stick to a really tight grocery budget. Can you give me some recommendations for meals?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can definitely help with that! To get started, what's your weekly grocery budget, and do you have any dietary restrictions or preferences, like vegetarian, gluten-free, etc.?",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.71,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my budget is $75 a week. I'm trying to eat mostly plant-based, but I'm not strictly vegan. I get so frustrated looking at recipes and seeing expensive ingredients. I just need simple ideas.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Based on your budget and preferences, here are a few meal ideas: \n\n*   **Lentil Soup:** Very affordable and packed with protein. \n*   **Black Bean Burgers:** Serve on whole-wheat buns (optional) with a side salad. \n*   **Oatmeal with Berries:** A quick and easy breakfast option.\n\nI can provide specific recipes for each meal if you'd like.",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.6,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "This is a good start, thanks! But how do you actually calculate the cost of these meals? I mean, what about the cost of spices, olive oil, and other things I probably already have? How do you account for those in a meal's price?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! I don't have real-time access to your pantry. Generally, I estimate based on average prices for ingredient amounts used in the recipe. I also provide information on the servings per meal, so you can adjust based on your needs. For things like spices and oil, I assume you have those already and factor in minimal costs based on the overall recipe. For a more exact calculation, you would need a more sophisticated tool. I can look for some of those if you'd like.",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.21,
+        "integrity": 4.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_98271fbf",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.6,
+      "integrity": 5.59
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 5.25,
+    "latency_score": 2.62
+  }
+}

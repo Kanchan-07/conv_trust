@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop, but I'm on a tight budget. Can you help me find some recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help with that. To give you the best recommendations, what's your budget range for the laptop?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's say my budget is around $500, give or take $50. I mostly need it for browsing, writing documents, and maybe some light photo editing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Based on your budget and needs, I recommend checking out the Acer Aspire 5 or the Lenovo IdeaPad 3. Both are generally available within that price range and offer decent performance for your described tasks. You can find them on Amazon, Best Buy, or directly on the manufacturers' websites.",
+      "response_time": 5.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.38,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard mixed reviews about the Acer Aspire. Are there any others? I'm a little hesitant now.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, another option could be a refurbished Dell Latitude or HP ProBook. These are business-grade laptops, often more durable than consumer models, and you can find some excellent deals on certified refurbished units within your budget. Just make sure to buy from a reputable seller with a good return policy.",
+      "response_time": 2.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 3.51,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's an interesting idea. What about the battery life on those refurbished models? I'd hate to get one that only lasts an hour.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Battery life on refurbished laptops can vary greatly. Always check the seller's description for details on battery health. Look for sellers that guarantee a certain percentage of the original battery capacity, like 80% or more. Reading customer reviews can also provide insights. If the battery life is a primary concern, it might be safer to stick with a new model, even if it has slightly lower specs overall.",
+      "response_time": 2.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.69,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. One last question, and it's a bit of a weird one, but... how long will *you* be around to help me if I need more suggestions later? Are you like, always available?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I am available 24/7 to provide information and assistance. However, keep in mind that my knowledge is based on the data I was trained on, and information changes over time, especially regarding pricing and availability. So, the accuracy of my recommendations might decrease as time passes. It's always a good idea to double-check the details with the retailer before making a purchase.",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 4.05,
+        "integrity": 3.52
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3baca3af",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.59,
+      "benevolence": 4.73,
+      "integrity": 4.71
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.24,
+    "latency_score": 3.66
+  }
+}

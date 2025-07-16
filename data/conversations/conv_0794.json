@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally ready to get serious about financial planning. I'm feeling totally overwhelmed though. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be daunting! Let's start with the basics. Could you tell me a little about your current financial situation? Specifically, what are your typical monthly income and expenses? And what, if any, debts do you currently hold?",
+      "response_time": 4.18,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 4.39,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so my monthly income is about $5,000 after taxes. My expenses are... a lot. Rent is $1800, car payment is $400, student loans are $300, and then just general living expenses like groceries and utilities probably add up to another $1000. Honestly, I'm probably forgetting something. I'm in debt about $20,000 in student loans.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for that information. So based on that, you're likely spending around $3500 per month. That leaves approximately $1500. Do you have any savings or investments already?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, savings. That's the embarrassing part. I have like... $500 in a savings account. I know, I know, it's terrible. And no investments at all.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright. A good first step would be to establish an emergency fund. Aim for 3-6 months' worth of living expenses. Given your expenses are around $3500, let's target building savings up to around $10,500 - $21,000. We should also look into opening a Roth IRA account. Would you like more information on either of those?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 4.18,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A Roth IRA? Is that really worth it? I've heard so many conflicting things. Some people say just focus on paying off debt, especially since the interest rates on student loans are ridiculous these days. Why should I invest when I could just get rid of that debt faster?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While aggressive debt repayment can be beneficial, contributing to a Roth IRA offers tax advantages and allows your investments to grow over time. It's about balancing short-term debt reduction with long-term financial security. The ideal strategy depends on your risk tolerance, the interest rate on your student loans, and your investment timeline. We can explore some models that represent different approaches. How does this sound?",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.91,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes a little more sense. Seeing some different models would be helpful, thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_99487f55",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.04,
+      "benevolence": 3.37,
+      "integrity": 3.42
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 3.33,
+    "latency_score": 4.71
+  }
+}

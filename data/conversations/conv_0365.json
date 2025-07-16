@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some good movies? I'm in the mood for something... thrilling.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! How about I recommend some movies within the thriller genre? Do you have any subgenres you prefer, like psychological thrillers, action thrillers, or perhaps something with a supernatural element?",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 3.94,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I guess psychological thrillers sound interesting. Something that messes with your head, you know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. Based on your preference for psychological thrillers, I would recommend 'Shutter Island', 'The Silence of the Lambs', and 'The Machinist'.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.05,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've seen Silence of the Lambs, great movie! But Shutter Island was kind of predictable, to be honest. Is there anything a little more obscure, maybe from outside the US?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me refine the search. Considering you found Shutter Island predictable and prefer something less mainstream, I would suggest 'The Skin I Live In' (Spanish) or 'Cache' (French). These are both critically acclaimed psychological thrillers with unique narratives. Would you like a brief synopsis of either of these?",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 4.38,
+        "integrity": 4.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8607ebea",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.78,
+      "benevolence": 4.12,
+      "integrity": 4.02
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 4.21,
+    "latency_score": 4.07
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking at a denied claim and I'm not sure how to proceed. It's for patient John Smith, account number 98765. The denial code is PR-204. Can you tell me what PR-204 means?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can assist you with that. PR-204 typically indicates that the service is not covered by the patient's current insurance plan. This could mean the service is excluded, or the patient wasn't eligible on the date of service. To investigate further, could you confirm the date of service and the patient's insurance policy details?",
+      "response_time": 3.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.14,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the date of service was 2023-10-15. The policy number is ABC123456 with BlueCross BlueShield. We *did* verify eligibility before the visit, and they said he was active! This is so frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the details. While eligibility may have been active, the specific service provided on 2023-10-15 might still not be a covered benefit under his plan. Could you please provide the CPT code(s) for the service(s) rendered on that date?",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.98,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The CPT code was 99213, a standard office visit. How could a regular office visit *not* be covered? And if it's not covered, why did the eligibility check say he was active? Does PR-204 *always* mean it's not a covered benefit, or could it mean something else? Like, maybe they just need more information? This is confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "PR-204 fundamentally signifies a problem with coverage or benefits relative to the submitted service. While the patient might be enrolled (active), their specific plan may exclude certain types of visits or services, or have limitations. An eligibility check confirms enrollment but doesn't always detail every benefit exclusion. Typically, PR-204 points directly to a coverage issue rather than a need for more information.",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.29,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So you're saying even if they are 'eligible', their specific plan might just decide not to pay for a basic check-up? That seems ridiculous! Is there any way to challenge this? Like, if the doctor's notes show it *was* medically necessary? Or is a PR-204 denial usually final and unappealable?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "A PR-204 denial is generally related to the terms of the insurance contract regarding covered benefits, not necessarily medical necessity in the same way as a medical necessity denial. Appealing a PR-204 often involves verifying the patient's benefits specifically for that date of service and service type, and if you believe the denial is incorrect based on the plan documents, you would typically file an appeal referencing the specific benefit language you believe covers the service. Including medical necessity documentation might be helpful context in some cases, but the primary focus of the appeal would be on the coverage terms.",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.91,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I understand the difference between coverage and medical necessity appeals now. So, I need to dig into his specific plan benefits for that date and service type and appeal based on that, if I think they made a mistake. Thanks, that clarifies the next steps, even if it means more paperwork!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_83b647a1",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.36,
+      "benevolence": 4.33,
+      "integrity": 4.33
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.02,
+    "latency_score": 4.11
+  }
+}

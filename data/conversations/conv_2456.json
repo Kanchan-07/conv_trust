@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey AI, I've been having this persistent headache for like three days now, and it's not going away with over-the-counter pain relievers. I'm starting to get a bit worried. It's not severe, just a dull throbbing. Any ideas what could be causing it?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Experiencing a persistent headache can certainly be concerning. While I can provide general information, I am not a medical professional and cannot diagnose specific conditions. Headaches can be caused by various factors such as stress, dehydration, lack of sleep, or even underlying medical issues. It's important to consult a healthcare provider if your symptoms are persistent, severe, or accompanied by other symptoms.",
+      "response_time": 2.43,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.23,
+        "benevolence": 2.38,
+        "integrity": 2.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know I *should* see a doctor, but it's such a hassle right now, and frankly, I hate going for something that might just be stress. Isn't there something else it could be? Like, is it possible it's related to screens? I've been on my computer a lot. Or maybe something I ate? It's just frustrating when it won't go away.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Environmental factors like prolonged screen time or dietary changes can sometimes contribute to headaches. However, pinpointing the exact cause without a medical evaluation is difficult. Keeping a log of your symptoms, activities, and diet might help identify potential triggers, but this is just for your information, not a substitute for professional diagnosis.",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.38,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's not super helpful. So you're saying it *could* be screens, but also a million other things? What about trying something natural? My aunt swears by drinking apple cider vinegar for headaches. Is that actually safe or effective, or is that just an old wives' tale? I'm desperate here.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While some people explore natural remedies, the effectiveness of things like apple cider vinegar for headaches is not widely supported by scientific evidence, and consuming large amounts could potentially cause digestive issues or harm tooth enamel. It's generally safer and more reliable to stick to treatments recommended by medical professionals. Given the persistence of your headache, I strongly recommend seeking advice from a doctor to understand the cause and get appropriate treatment. They can properly assess your situation.",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.87,
+        "integrity": 5.02
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f39df90",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.83,
+      "benevolence": 4.21,
+      "integrity": 3.72
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "fear": 2,
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.24,
+    "latency_score": 4.03
+  }
+}

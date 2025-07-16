@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help planning my groceries for the week. My budget is pretty tight this month, around $75.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. To get started, do you have any dietary restrictions or preferences, like vegetarian, vegan, or allergies?",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.04,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I'm trying to eat mostly plant-based. I also really dislike mushrooms and I'm allergic to peanuts.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Plant-based, no mushrooms or peanuts, and a $75 budget. Let me generate a sample grocery list for you. How does this look: Tofu (1 block), Lentils (1 bag), Brown Rice (1 bag), Frozen Broccoli (1 bag), Spinach (1 container), Apples (3), Bananas (6), Peanut-free granola, olive oil, and spices (assume you have some basics already).",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.88,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds okay, but what meals could I actually *make* with that? It seems a little... random.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies! I'm still under development. Let me try again. The ingredients above would work well for lentil soup, tofu and veggie stir-fry, rice and lentil bowls with spinach, and oatmeal with fruit. I can give you specific recipes if you'd like.",
+      "response_time": 5.15,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.09,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those meal ideas are much better. How much is each of those things going to cost me approximately, given current grocery prices?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a bit trickier because prices fluctuate. However, I'll do my best! Based on average grocery prices, I estimate: Tofu ($3), Lentils ($2), Rice ($4), Broccoli ($3), Spinach ($3), Apples ($3), Bananas ($2), Granola ($5), Olive Oil ($8) \u2013 leaving about $44 for other spices and incidentals. This leaves some wiggle room. Prices can vary depending on store and brand.",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.33,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, that's actually pretty good. What if I wanted to include some kind of protein other than tofu? Chicken is often on sale. How would that affect the budget?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Okay, let me adjust the list. Assuming you could get chicken breasts for a good price (say, $8-10), we could swap out some tofu, perhaps use less lentils, and add the chicken. This means we would reduce the amount of other vegetables and sides to compensate, but yes, it is possible to fit chicken in! Please let me know if you would like me to re-calculate the whole list including recipes, based on using chicken.",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.01,
+        "integrity": 3.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_254a53b7",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.67,
+      "integrity": 4.46
+    },
+    "engagement_score": 4.97,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 8,
+      "disgust": 1
+    },
+    "response_quality_score": 4.7,
+    "latency_score": 3.68
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm pulling my hair out over here. I've got a claim denial (AR-23987) for patient John Smith, and the reason code is '04 - Procedure code not consistent with the modifier used or a required modifier is missing'. I've billed this exact procedure before with the same modifier and never had an issue! What gives?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me access claim AR-23987 for John Smith. Okay, I see the denial. Could you tell me which procedure code and modifier you used for this claim?",
+      "response_time": 1.82,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.5,
+        "benevolence": 2.87,
+        "integrity": 2.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It was CPT code 29881 with modifier RT. Right knee arthroscopy. Standard stuff.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm checking the coding guidelines and payer policies for 29881 and the RT modifier. It appears that while typically accepted, some payers have specific documentation requirements or bundled service edits that might be triggering this denial. Let me see if I can find anything specific to the payer for this claim...",
+      "response_time": 2.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.95,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The payer is Blue Cross Blue Shield of Illinois. Their policies are usually pretty straightforward. Is it possible there's an issue on their end? Maybe a system glitch?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's certainly possible. According to BCBS of Illinois' website, there are no current known system issues affecting claim processing. However, I can see in our system that the claim was processed using the 'Outpatient Code Editor (OCE)' version 30.0. Some temporary issues were found with this version and some claims were wrongly denied. Would you like me to submit an appeal, citing this potential OCE issue, and request a manual review of the claim with the previous version of OCE?",
+      "response_time": 2.15,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.43,
+        "benevolence": 2.83,
+        "integrity": 2.55
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please do! That's actually incredibly helpful. I wouldn't have thought to check for that. But out of curiosity, how frequently does this kind of thing happen, where an update to the OCE or other coding software causes widespread denials?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While we strive to maintain accurate and up-to-date coding logic, these types of issues unfortunately occur periodically, approximately once or twice per year for significant coding updates. The frequency varies depending on the complexity and scope of the changes. I've submitted the appeal for claim AR-23987, citing the potential OCE issue. You should receive confirmation within 24 hours. Is there anything else I can assist you with today?",
+      "response_time": 1.94,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.49,
+        "benevolence": 2.16,
+        "integrity": 2.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_27eb5530",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.82,
+      "benevolence": 2.95,
+      "integrity": 2.78
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 2.52,
+    "latency_score": 5.39
+  }
+}

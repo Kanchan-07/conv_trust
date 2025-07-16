@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my physics homework. Specifically, I'm stuck on a problem about projectile motion.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Can you tell me the specific problem you're working on, or what concepts you're struggling with?",
+      "response_time": 5.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.07,
+        "benevolence": 5.54,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here it is: 'A ball is thrown horizontally from a 20-meter-high building with a velocity of 15 m/s. How far from the base of the building does the ball land?' I've tried a few things, but I keep getting the wrong answer.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, let's break this down. First, we need to determine the time it takes for the ball to hit the ground. We can use the equation:  d = v\u2080t + (1/2)at\u00b2, where d is the distance (20 meters), v\u2080 is the initial vertical velocity (0 m/s), a is the acceleration due to gravity (9.8 m/s\u00b2), and t is the time. Solve for 't' and let me know what you get!",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.6,
+        "integrity": 2.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so 20 = 0 + 0.5 * 9.8 * t\u00b2. That simplifies to t\u00b2 = 4.08, so t is about 2.02 seconds. Right?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, that's correct! Now that we know the time, we can calculate the horizontal distance. Remember, the horizontal velocity remains constant. Use the equation: distance = velocity * time. What's the final answer?",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.11,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 15 m/s * 2.02 s = 30.3 meters.  Got it! Thanks!  But... for a more difficult question, let's say the building is on a hill with an incline of 10 degrees. Now how do I find the distance?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great and more complex question! This requires a bit more calculation. You'd need to consider the incline and use trigonometric functions to find the effective height and ultimately the time of flight. I can walk you through it. First, we'll need to find the height of the building relative to the impact point on the hill, accounting for the 10-degree slope. Can you give me a moment to generate the necessary steps and formulas?",
+      "response_time": 2.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.9,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Sure. I'll wait. I think I need some help with the trig, too.  I'm feeling a bit lost now.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_02ddb801",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.1,
+      "benevolence": 4.04,
+      "integrity": 4.02
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "surprise": 1
+    },
+    "response_quality_score": 3.79,
+    "latency_score": 4.18
+  }
+}

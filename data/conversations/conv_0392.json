@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some product recommendations. Specifically, I'm interested in what you have in the 'outdoor gear' category. I'm planning a camping trip.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Based on the 'outdoor gear' category and customers planning camping trips, popular items include: the 'Evergreen Tent' (4-person), the 'Summit Sleeping Bag' (rated to 20 degrees), and the 'Trailblazer Backpack' (65L capacity). Would you like more information on any of these, or perhaps see other suggestions within that category?",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.64,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, the backpack sounds interesting. But 65L seems kind of big. Do you have anything smaller, maybe around 50L? This is just an overnight trip, nothing too crazy.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! For overnight trips, the 'Scout 50L Backpack' is frequently purchased. Alternatively, within the 'outdoor gear' category, many also consider the 'Day Hiker 40L Pack' as a lightweight option. It sacrifices some capacity for increased comfort and maneuverability. Is that useful? Perhaps too small?",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 3.91,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. One last question: How do you decide which products to recommend? Is it purely based on sales volume within the category, or do you also take into account customer reviews and ratings, and maybe even things like seasonality?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Our recommendation engine uses a multi-faceted approach. While sales volume within a category is a significant factor, we also weigh customer reviews and ratings quite heavily. Seasonality also plays a role, especially for items like winter gear or summer apparel. We also consider co-purchasing patterns \u2013 items frequently bought together \u2013 to provide more relevant recommendations. Essentially, we try to predict what items, given your stated interest in the 'outdoor gear' category and overnight camping trips, are most likely to meet your needs based on the collective experience and preferences of other customers.",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.48,
+        "integrity": 5.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9c80907a",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.34,
+      "integrity": 4.58
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.91
+  }
+}

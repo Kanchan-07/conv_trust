@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new laptop. My budget is around $800, give or take $50. What are some good options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of around $800, I can recommend a few laptops. The Acer Aspire 5 and the Lenovo IdeaPad Flex 5 are often available in that price range. They are good all-around laptops for everyday use. Would you like me to provide more details on either of those?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.82,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard mixed things about the Acer. What about something with a bit more...oomph? Maybe a better processor?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for better performance within that budget, you might consider looking for a refurbished Dell XPS 13. Sometimes you can find them around that price. They usually have a much better processor than the Acer or Lenovo. Alternatively, increasing your budget slightly could open up some new, higher-performance options. But I will stick to the budget first.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 4.08,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Refurbished... I'm always a little wary of those. What's the likelihood of it breaking down soon after I buy it? I mean, statistically speaking, is there a major difference in failure rate between a new and a refurbished laptop, and can you point me to any studies about that?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. It's difficult to provide a precise, universally accepted statistic, as failure rates depend heavily on the specific model, the refurbishment process, and the seller. However, reputable refurbishers often offer warranties, which can mitigate the risk. Finding a reliable study comparing failure rates between new and refurbished laptops is challenging, as data is often proprietary. You can search for product reliability reports from companies like SquareTrade (now Allstate Protection Plans), though their focus is usually on general electronic device reliability rather than specific refurbishment comparisons. Reading customer reviews of specific refurbished models can also provide insights.",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.94,
+        "integrity": 3.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_50962d6b",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.61,
+      "integrity": 4.56
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.52,
+    "latency_score": 4.2
+  }
+}

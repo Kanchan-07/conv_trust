@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having a problem with my new smart thermostat. The screen is completely blank and it's not responding to any button presses. I've tried resetting it, but nothing seems to work. I'm getting pretty frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try a few troubleshooting steps. First, can you confirm that the thermostat is receiving power? Check the circuit breaker for the thermostat and make sure it hasn't tripped. Also, double-check the wiring if you're comfortable with that.",
+      "response_time": 2.02,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.16,
+        "benevolence": 2.51,
+        "integrity": 2.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I checked the breaker and it's fine. The wiring... well, I'm not an electrician. But I did open it up and everything *looks* connected. The wires haven't come loose. This is so annoying. What else can I try?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Next, try removing the thermostat from the wall and waiting for about 5 minutes. Then, carefully reconnect it. Sometimes a hard reset like that can resolve the issue. Also, are there any error lights or unusual sounds coming from the unit?",
+      "response_time": 2.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 4.02,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I tried removing and reconnecting it, and still nothing. No lights, no sounds, just a dead, blank screen. Okay, here's a more challenging question: Is there a way to see if it is actually getting power? Like, is there a fuse inside I could check with a multimeter without voiding the warranty?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Due to safety concerns and warranty implications, I can't advise you to open the device beyond the normal user accessible components. At this stage, since the basic troubleshooting steps haven't worked, I recommend contacting our customer support directly to discuss a replacement or repair. You can find their contact information on our website or in your product documentation. I apologize that I wasn't able to immediately resolve this issue.",
+      "response_time": 1.96,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.88,
+        "benevolence": 2.28,
+        "integrity": 2.73
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll do that. Thanks for trying to help. At least I know it's not something simple that I overlooked.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0e156dae",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.17,
+      "benevolence": 2.94,
+      "integrity": 3.17
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 2.93,
+    "latency_score": 5.25
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a car accident I was in last week. I already filed a claim, claim number is 12345ABC. Honestly, this whole process is already stressing me out.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling, and I understand your frustration. I've pulled up claim 12345ABC. To confirm, this is regarding the accident on October 26th at the intersection of Elm and Main street? Can you confirm your name and date of birth?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's the one. Name is John Smith, date of birth is 01/01/1980. So, what's the status? I need to get my car fixed, and the other driver's insurance is being incredibly slow.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Mr. Smith. According to the notes, we are still awaiting the police report to be finalized and submitted. Once we receive that, we can determine liability and proceed with the repair estimates. Is there anything else I can help you with?",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.64,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I understand. But why does it take so long to get the police report? Is there anything *you* can do to expedite it? This is really impacting my ability to get to work.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ac584711",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.66,
+      "benevolence": 2.32,
+      "integrity": 2.56
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "fear": 1,
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 2.46,
+    "latency_score": 5.42
+  }
+}

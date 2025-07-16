@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up with Dr. Ramirez. I'm free anytime next week.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check Dr. Ramirez's availability for next week.  Could you please provide your date of birth and the reason for your check-up?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.11,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, do I really have to give you my date of birth? Fine. It's 03/15/1985. And it's just a general check-up, nothing specific.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you.  Let me see... It seems that Dr. Ramirez has openings on Tuesday at 2 PM, Wednesday at 10 AM, or Friday at 1 PM. Which time slot works best for you?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, are any of those times better for a flu shot? Or, I guess a better question, if I get a flu shot, how long should I plan on being there?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question. The estimated time for a flu shot, including paperwork and observation, is about 30 minutes.  The best time would depend on your preference, but all three slots should accommodate a flu shot. Would you like me to book one of those times for you?",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 4.33,
+        "integrity": 3.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4c206121",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.99,
+      "benevolence": 3.15,
+      "integrity": 3.02
+    },
+    "engagement_score": 4.44,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 2.54,
+    "latency_score": 4.83
+  }
+}

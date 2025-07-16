@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being threatened with a lawsuit by my former business partner and I'm really stressed out about it.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Being threatened with a lawsuit is definitely stressful. To best assist you, could you please provide some details about the nature of the threatened lawsuit? What is your former business partner claiming?",
+      "response_time": 2.32,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.58,
+        "benevolence": 2.15,
+        "integrity": 2.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "He's saying I violated our non-compete agreement after I left the partnership. Which is ridiculous! I haven't even started a business in the same field. He's just being vindictive, I think.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Do you have a copy of the non-compete agreement you could share? Also, can you describe, generally, the type of work you've been doing since leaving the partnership? Providing these details will help me analyze the potential strength of his claim.",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.14,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I can definitely find the agreement. I've been doing freelance marketing work, mostly for small businesses. Nothing related to our old business. It's completely different. Is there any chance he could actually win this thing, even if he's wrong?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The likelihood of success depends on several factors, including the specific wording of the non-compete agreement, the laws in your jurisdiction, and the evidence he presents. Generally, non-competes are often viewed with skepticism by courts and are only enforceable if they are reasonable in scope and duration. However, without reviewing the agreement and knowing the relevant jurisdiction, I can only offer a general assessment. Please provide the agreement and jurisdiction.",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.75,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, makes sense. I'm in California. Here's the non-compete agreement. [link to document]. One thing that worries me is that the agreement is vaguely worded. Is it even valid if it's not specific?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the document. I am analyzing it now. Generally, in California, non-compete agreements are *very* difficult to enforce, except in very limited circumstances related to the sale of a business. The vague wording you mentioned could certainly be a point in your favor. However, there's no guarantee. It is always best to consult an attorney.",
+      "response_time": 3.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.88,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "So, what you're saying is, there's a chance, but it's not looking good for him? Honestly, I just want this to go away. What's the best way to make that happen without spending a fortune on lawyers?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Given the information and the jurisdiction (California), it appears he has a weak case. A strongly worded letter from an attorney outlining the unenforceability of the agreement under California law might deter him. This would be less expensive than full litigation. However, I strongly advise consulting with a qualified California attorney to discuss your specific situation and explore all available options. This is merely guidance and not legal counsel.",
+      "response_time": 1.88,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.53,
+        "benevolence": 2.64,
+        "integrity": 2.41
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_961cca80",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.74,
+      "benevolence": 3.71,
+      "integrity": 3.65
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "fear": 2,
+      "anger": 1,
+      "neutral": 7
+    },
+    "response_quality_score": 3.89,
+    "latency_score": 4.67
+  }
+}

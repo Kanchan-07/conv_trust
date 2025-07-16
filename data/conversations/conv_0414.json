@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to go grocery shopping, but I'm on a really tight budget this week. Can you suggest some meals I can make for under $30 total?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To recommend meals, I need some more information. How many people are you cooking for, and are there any dietary restrictions or preferences I should be aware of (e.g., vegetarian, gluten-free, allergies)?",
+      "response_time": 4.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.64,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay, good point. It's just for me, and I don't have any dietary restrictions. I guess I like pretty much everything. Just...cheap!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright! Here's a suggestion: Consider making a large batch of lentil soup. Lentils are very inexpensive and nutritious. You can make a flavorful soup with carrots, celery, onion, and some basic spices. Serve it with a side of toasted bread. Another option is pasta with a simple tomato sauce. Canned tomatoes are budget-friendly, and you can add garlic and herbs for flavor. These options should easily fall within your $30 budget, with enough leftovers for multiple meals. Would you like more detailed recipes or alternative suggestions?",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.9,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds good, but wouldn't fresh vegetables drive up the cost a lot? What about if I *only* used frozen veggies, or even canned? How would that affect the nutritional value, and would it really save me that much money?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern! While fresh vegetables generally offer optimal nutritional value and taste, frozen vegetables are often a very close second in terms of nutrients, especially when considering that they are frozen at peak ripeness. Canned vegetables can lose some nutrients during processing, particularly water-soluble vitamins like Vitamin C and B vitamins. However, they are still a good source of fiber and some minerals. In terms of cost, frozen vegetables are often cheaper than fresh, and canned are generally the cheapest option. To maximize nutrition with canned vegetables, try to choose varieties canned in water rather than brine (which can be high in sodium), and include the liquid in your cooking where appropriate. For example, using the liquid from canned tomatoes in your pasta sauce. It will save a bit of money and still provide decent nutrition. Lentils will be your powerhouse though!",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.0,
+        "integrity": 4.2
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_78c5d018",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.64,
+      "benevolence": 4.51,
+      "integrity": 4.32
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 4.23,
+    "latency_score": 3.42
+  }
+}

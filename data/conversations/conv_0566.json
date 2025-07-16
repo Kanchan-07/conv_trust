@@ -1,0 +1,94 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to book a table for dinner tonight. Somewhere nice, preferably Italian.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. What area are you interested in and how many people will be in your party?",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.8,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "We'll be in the downtown area, and there will be four of us. Oh, and it needs to be after 7:30 PM.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Let me check for Italian restaurants downtown with availability for four people after 7:30 PM. One moment... Okay, I'm seeing 'Bella Notte' and 'Luigi's Trattoria' both have openings. Bella Notte has a slightly higher rating. Which one sounds better to you?",
+      "response_time": 5.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.26,
+        "integrity": 5.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Bella Notte sounds promising. Can you tell me a bit more about it? Like, what's their price range?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Bella Notte is generally considered to be in the $$$ range, so expect to pay around $30-50 per person. They're known for their authentic pasta dishes and romantic atmosphere. They use locally sourced ingredients where possible. Do you want me to check availability and book a table for you?",
+      "response_time": 4.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.14,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds good! But how can I be certain the \"locally sourced\" claim is actually true? There are so many restaurants these days that use that phrase loosely. Anyway, if you can book Bella Notte for four at 8:00 PM, please do!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_424ca540",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.06,
+      "benevolence": 4.73,
+      "integrity": 4.84
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 7
+    },
+    "response_quality_score": 4.69,
+    "latency_score": 2.89
+  }
+}

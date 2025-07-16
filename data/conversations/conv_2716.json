@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help with my personal finances. I feel completely lost and don't know where to start.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with getting started on your financial planning journey. To give you the best guidance, could you tell me a bit about your current financial situation and what goals you're hoping to achieve? Are you focused on saving, investing, paying off debt, or something else?",
+      "response_time": 5.42,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.64,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so I'm trying to save for a down payment on a house in about 5-7 years, but I also know I should be thinking about retirement eventually. Plus, I still have some student loans. It just feels like too much to juggle and I'm worried I'm messing it all up.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's completely normal to feel overwhelmed when facing multiple financial goals. Saving for a down payment and planning for retirement are both significant. A good starting point is to create a detailed budget to understand where your money is going and identify areas where you can save more. Have you established a budget recently?",
+      "response_time": 2.02,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.69,
+        "benevolence": 2.05,
+        "integrity": 2.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I've tried budgeting, but the real problem is figuring out how to prioritize. Should I throw every extra dollar at the student loans? Or save aggressively for the down payment? Or start investing for retirement even though I don't have much extra? How do I decide what's the 'right' thing to focus on when I can't do everything at once? It's really frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Determining priority among goals involves considering factors such as the interest rates on your student loans, the expected return on investment for retirement funds over a long horizon, and the specific timeline for your housing goal. You could calculate the potential future value for each path and compare.",
+      "response_time": 4.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.39,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, 'calculate potential future value'? That sounds complicated. I was hoping for more practical advice. Like, based on having some student loans, wanting a house in a few years, and knowing I need to save for retirement eventually, what's a *reasonable* way to allocate my money? I need a simpler framework.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies, I can provide a more practical framework. A common approach is the 'Waterfall Method' or 'Financial Order of Operations'. This typically suggests tackling goals in a sequence: 1) Build a small emergency fund, 2) Pay off high-interest debt, 3) Contribute enough to get any employer retirement match, 4) Build a larger emergency fund, 5) Save for mid-term goals (like your down payment), 6) Invest aggressively for retirement. Given your student loans and housing goal, you might prioritize based on their interest rates vs. expected savings/investment returns, following this general flow. Does breaking it down into these sequential steps make it clearer?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 4.21,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, yes! The 'Waterfall Method' is much easier to understand. So, focus on getting a small emergency fund, then tackling debt (my student loan isn't super high interest, so maybe not number 1 priority unless I want it gone?), then maybe saving for the down payment heavily, and then retirement. That gives me a much better structure to think about things. Thank you!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Exactly. You can adapt the exact order slightly based on your personal debt interest rates and comfort level, but that framework provides a solid foundation for allocating your funds strategically towards multiple goals. It's a great way to make progress without feeling like you have to do everything perfectly at once. Feel free to ask if you want to dive deeper into any of those steps!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.71,
+        "benevolence": 6.93,
+        "integrity": 6.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8a0bc52e",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.15,
+      "benevolence": 5.04,
+      "integrity": 5.19
+    },
+    "engagement_score": 5.48,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "fear": 1,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.46,
+    "latency_score": 3.17
+  }
+}

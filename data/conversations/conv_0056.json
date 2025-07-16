@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to book a flight from New York to Los Angeles, sometime next week. I'm flexible on the exact dates, but I'd prefer to fly out on a weekday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please specify which airport in New York you'd like to fly from (JFK, LGA, or EWR) and any preferred arrival airport in Los Angeles (LAX, BUR, LGB, SNA)?",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.17,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, so many choices! Let's go with JFK to LAX. And I'd like to return sometime the following week. Maybe 4-5 days later?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for flights from JFK to LAX next week, returning 4-5 days later. One moment... I found several options. The cheapest flights are departing on Tuesday and returning the following Saturday. Would you like me to show you those?",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.4,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Show me the options, but also, are there any airlines I should especially avoid? I had a terrible experience with BudgetAir last year.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Here are the flight options for Tuesday departure and Saturday return. There are flights with United, American, and Delta. Regarding BudgetAir, while they are an online travel agency, airlines that consistently receive low ratings tend to be ultra-low-cost carriers like Spirit or Frontier due to additional fees and limited amenities. You won't find flights from them on major platforms such as these.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.78,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. What's the price difference between flying direct versus with a layover? I'm willing to pay a bit more for a non-stop flight, especially on the way back.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, the cheapest direct flight on Tuesday leaving JFK arriving at LAX, and returning the following Saturday is with United for $550. The cheapest option with a layover (in Chicago) is with American for $480. So, a $70 difference. Would you like me to show you more direct flight options?",
+      "response_time": 3.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 4.26,
+        "integrity": 3.96
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9afbc7c1",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.18,
+      "benevolence": 4.15,
+      "integrity": 4.26
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.02,
+    "latency_score": 4.18
+  }
+}

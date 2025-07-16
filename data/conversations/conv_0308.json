@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated with our current medical billing process. We're constantly getting denials and it's eating up so much time. Can you help automate some of this?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely help streamline your medical billing process and reduce denials. To start, what billing software do you currently use, and what are the primary reasons you're seeing denials?",
+      "response_time": 4.93,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.45,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "We use MediPro, and the denials seem to be mostly related to coding errors and pre-authorization issues. We're also having trouble keeping up with all the payer-specific rules.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can assist with that. My system can automatically verify coding accuracy and flag potential errors before submission. I can also manage pre-authorization requests and track payer-specific guidelines. Would you like to see a demo of how this works within MediPro?",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.69,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A demo would be great. But I'm also concerned about compliance. How do you ensure we're staying HIPAA compliant with all this automation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Our system is fully HIPAA compliant. All data is encrypted both in transit and at rest, and we have strict access controls in place. We also maintain a business associate agreement (BAA) with all our clients. We can provide more detailed documentation on our security protocols upon request. However, please note that ultimate compliance responsibility rests with your organization.",
+      "response_time": 5.6,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.76,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's reassuring. One more question: If your system flags a potential coding error, how does it suggest a correction? Does it just give us a code, or does it provide context?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The system provides detailed context. It will highlight the specific code in question, explain why it's potentially incorrect based on the patient's diagnosis and procedure, and suggest alternative codes with supporting documentation from coding guidelines. You will have the final say in accepting or rejecting the suggested changes.",
+      "response_time": 5.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.66,
+        "integrity": 5.27
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_482fd4a9",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.13,
+      "benevolence": 5.14,
+      "integrity": 5.16
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 4.8,
+    "latency_score": 2.67
+  }
+}

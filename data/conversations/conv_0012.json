@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to book a table for two at a nice Italian restaurant in the city center this Saturday, but everything seems to be fully booked. It's so frustrating! Any chance you can help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check availability for you. I'm looking for Italian restaurants in the city center for two people this Saturday. Could you please provide a time preference, or a range of times you'd be available?",
+      "response_time": 0.59,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, ideally between 7:30 PM and 9:00 PM. Also, I know this is a long shot given how busy it is, but is there any way to filter by places with outdoor seating? My companion really prefers to eat outside.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I am checking for Italian restaurants in the city center for two people, between 7:30 PM and 9:00 PM this Saturday, that also have outdoor seating. I found one possibility: 'Bella Notte' has a table available at 8:15 PM with outdoor seating. Would you like me to book it for you? Or would you like other options?",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.31,
+        "integrity": 3.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f22dab5e",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.66,
+      "benevolence": 2.65,
+      "integrity": 2.29
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 2.11,
+    "latency_score": 5.4
+  }
+}

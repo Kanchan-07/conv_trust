@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to book a table for dinner tomorrow night. Somewhere nice, Italian maybe? I'm starving just thinking about it.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. For what time and how many people?",
+      "response_time": 4.89,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.63,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say 7:30 PM for four people. Also, somewhere near downtown would be great. And, important question: Does the restaurant *have* to have outdoor seating? One of us has a sensitivity.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for Italian restaurants near downtown for tomorrow at 7:30 PM for four people, preferably without mandatory outdoor seating. One option is 'Bella Notte' on Main Street. They have great reviews and I cannot confirm if they have outdoor seating, I suggest contacting them directly.",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.57,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating, I was hoping you could just tell me. Okay, Bella Notte it is. Can you book it, please? I need a confirmation number.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I have booked a table for four at Bella Notte for tomorrow at 7:30 PM. Your confirmation number is BN7492. Is there anything else I can assist you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.14,
+        "benevolence": 1.18,
+        "integrity": 1.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3f45604f",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.82,
+      "benevolence": 3.46,
+      "integrity": 3.61
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 3.17,
+    "latency_score": 4.84
+  }
+}

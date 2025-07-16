@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some product recommendations. I'm on a tight budget though. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. To give you the best recommendations, could you tell me what kind of products you're interested in and what your approximate budget is?",
+      "response_time": 5.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.29,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm looking for a new pair of noise-canceling headphones. My budget is around $75, maybe a little more if it's worth it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'll find some headphones within that price range. There are a few options available. Based on user reviews and specifications, I can recommend the [Headphone A] and [Headphone B]. They both have good noise cancellation for their price, but [Headphone A] is more comfortable.",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 4.42,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, interesting. Can you tell me which one offers better sound quality overall, even if it's just a small difference?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Based on available data, [Headphone B] seems to edge out [Headphone A] in sound quality. However, the difference is subtle. The reviews are mixed, it really depends on the type of music you're into and your personal preferences.",
+      "response_time": 3.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.17,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, but I'm still not sure. How do you account for the fact that sound quality is subjective? Reviews are notoriously unreliable for that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very valid point. My recommendation system aggregates reviews across a multitude of sources, attempting to filter out the least reliable ones. We also prioritize reviews from verified purchasers and analyze sentiment to determine the overall perceived sound quality. I'll generate a report with more details to highlight potential weaknesses in this recommendation, if you would like.",
+      "response_time": 4.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.78,
+        "integrity": 5.02
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "A report would be great! It's nice to see you're actually thinking about this. I think I'll go with [Headphone B] then, the sound quality is most important to me. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Excellent choice! I'm glad I could help. I'll send that report to your email within the next few minutes. Please let me know if you need help with anything else!",
+      "response_time": 4.71,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.91,
+        "benevolence": 6.71,
+        "integrity": 6.93
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3cc76123",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.07,
+      "benevolence": 5.27,
+      "integrity": 5.13
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1,
+      "joy": 2
+    },
+    "response_quality_score": 5.69,
+    "latency_score": 3.14
+  }
+}

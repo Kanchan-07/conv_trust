@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help with my router. It's not connecting to the internet at all right now.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you troubleshoot your router issue. To start, could you tell me what model of router you have and what color the indicator lights are currently showing?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.72,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, it's the NetGear Nighthawk AC1900, I think? And the internet light is solid red. It was working fine yesterday. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, a solid red internet light typically indicates that the router is not receiving an internet signal from your modem or the connection is down. The first step we should try is a simple power cycle of both the router and your modem. Please unplug both devices from the power outlet, wait about 60 seconds, and then plug the modem back in first. Once the modem lights are stable, plug the router back in. Let me know what the lights look like after they fully boot up.",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 3.72,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I already tried that! Did the whole unplug and replug thing, waited a few minutes for each. The internet light is STILL red. Why would it still be red after a full restart? Isn't the point of a restart to fix these things?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While a power cycle resolves many temporary glitches, a persistent solid red internet light often indicates a fundamental issue external to the router itself, such as a problem with the signal coming from your internet service provider (ISP) or a physical cable disconnection between the router and modem, or the modem and the wall. Sometimes, it *could* indicate a hardware failure, but that's less common after just one power cycle doesn't clear it. Have you checked the Ethernet cable connecting your modem to the router to ensure it's securely plugged in at both ends?",
+      "response_time": 2.02,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.53,
+        "integrity": 2.22
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, I double-checked the cables when I did the restart. Everything looks fine. So you're saying it's probably not the router, but something with my ISP? How can I even check that? I don't have another modem just lying around.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a good point. Given that the red light persists after power cycling and checking connections, and the symptom strongly suggests a lack of incoming signal, the most likely culprit is an issue with the internet service itself. To confirm this, you would typically need to contact your internet service provider. They can check the status of your line remotely and determine if there is an outage in your area or a problem with the signal reaching your home. I recommend reaching out to them next.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 3.62,
+        "integrity": 4.45
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b854e2cf",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.22,
+      "integrity": 4.33
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.11,
+    "latency_score": 3.73
+  }
+}

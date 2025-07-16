@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my new smart speaker isn't working. I've tried plugging it in, but nothing happens. The power light won't even turn on. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's troubleshoot this. First, could you please confirm that you are using the correct power adapter that came with the device? Also, have you tried a different outlet to rule out a problem with the wall socket?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I'm using the original adapter, and yes, I tried different outlets. I even tried a different power cable, just in case. Still nothing. Is there even a fuse I can check or something? I'm not sure what else to do.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for confirming those steps. While the smart speaker does not have an easily accessible user-replaceable fuse, there's a slim chance something inside may have failed. Have you tried holding down the power button for an extended period (like 30 seconds) to see if that resets it?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.15,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I just tried holding the power button for 30 seconds, and still nothing. This is a brand-new device! What if there's a hardware issue? What are my options for a replacement, and do I have to pay for shipping?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Since you've exhausted the basic troubleshooting steps, it does seem likely there's a hardware issue. Please provide your order number and we can proceed with a warranty claim and arrange for a replacement. Shipping is covered under warranty. Please allow 5-7 business days for the new device to arrive.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.1,
+        "integrity": 5.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_acf7cb33",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.85,
+      "benevolence": 3.75,
+      "integrity": 4.2
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 3.72,
+    "latency_score": 4.53
+  }
+}

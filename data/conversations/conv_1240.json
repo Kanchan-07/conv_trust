@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand a charge on my recent bill. It's for $25 and I don't recognize it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thanks for reaching out. I can certainly help you with that. Can you please provide your account number so I can look into this for you?",
+      "response_time": 4.31,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 7.0,
+        "integrity": 6.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 1234567890. I've looked through my past purchases and I have no idea what this is for. I'm a little frustrated, to be honest.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see the $25 charge. It appears to be related to a recurring subscription service, 'Premium Access'. This was added to your account on the 15th of last month.  Do you remember signing up for this?",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.88,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Premium Access? Nope, never heard of it. I\u2019m very careful about subscriptions, and I didn\u2019t sign up for anything like that. What exactly does it provide, and is it possible someone else on my account did this without my knowledge?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check. Hmm, this is a bit more complex. The Premium Access service provides extended features for our online platform. Regarding unauthorized use, I am unable to provide specific account details due to security concerns. However, if you believe this was fraudulent, we can investigate the IP address used to sign up for the service. Would you like me to proceed?",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 4.42,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please do. I'd like to know if the IP address is from a device I own, or if not, what my options are to dispute this charge. Thanks.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0ce8d536",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.12,
+      "benevolence": 5.1,
+      "integrity": 4.84
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.24,
+    "latency_score": 3.92
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a delayed package. My order number is 789012345.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for reaching out. Let me pull up that order for you. One moment please... Yes, I see order 789012345. The tracking shows it is currently marked with an 'unexpected delay' in transit.",
+      "response_time": 0.5,
+      "emotion_detected": "joy",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.47,
+        "benevolence": 1.24,
+        "integrity": 1.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "An 'unexpected delay'? It was supposed to arrive two days ago! What does that even mean? Where is it, and why exactly is it stuck? This is really frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration regarding the delay. 'Unexpected delay' is a general status indicating there was an unforeseen issue impacting the delivery schedule. Specific details about the cause or location aren't always immediately updated in the public tracking system. We are monitoring it.",
+      "response_time": 2.61,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.75,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so you don't actually know *where* it is or *when* it will arrive? That explanation isn't very reassuring. Is there anything concrete you can *do* other than just 'monitoring' it? Like, open an investigation or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize that the current information is not more precise. I can certainly initiate a trace with the carrier to request more detailed information and an updated delivery estimate. Would you like me to proceed with opening that trace for you?",
+      "response_time": 1.89,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.84,
+        "benevolence": 2.04,
+        "integrity": 2.61
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please do that. That sounds like a step in the right direction. It's annoying it came to this, but thank you for offering to open a trace.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright, I have initiated the trace request with the shipping carrier for order 789012345. They typically respond to these requests within 2-3 business days with an update. You should receive communication via email once we have more information.",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 3.67,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay. I'll keep an eye on my email then. Thanks for the help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You are most welcome. We appreciate your patience and understanding. Is there anything else I can assist you with today?",
+      "response_time": 4.92,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.84,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f98375a6",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.87,
+      "benevolence": 3.54,
+      "integrity": 3.72
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "sadness": 1,
+      "joy": 1,
+      "surprise": 1,
+      "anger": 1,
+      "neutral": 6
+    },
+    "response_quality_score": 4.12,
+    "latency_score": 4.7
+  }
+}

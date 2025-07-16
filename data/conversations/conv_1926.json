@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really lost career-wise. I've been working in accounting for five years, but I absolutely hate it. I have no idea what else I *could* do, though.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel that way. To help you, let's start with some questions. What aspects of your accounting job do you dislike the most? Also, what are some things you enjoy doing outside of work, any hobbies or interests?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 4.06,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I suppose. Well, I hate the repetitive nature of the work and the strict deadlines. Outside of work... hmm, I enjoy creative writing and I'm fascinated by environmental science. But how can I possibly translate those interests into a career? It seems impossible!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great starting point! There are several potential career paths we can explore. For example, you could consider technical writing for an environmental firm, or perhaps a career in environmental policy writing. The key will be to identify skills transferable from your accounting role. Do you have any specific questions about those or similar fields? I can also offer a more customized analysis. However, this may take some time.",
+      "response_time": 5.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.83,
+        "integrity": 5.9
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_04280496",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.95,
+      "integrity": 4.77
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 3.03
+  }
+}

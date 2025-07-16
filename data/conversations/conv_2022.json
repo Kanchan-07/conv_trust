@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel. I'm looking for somewhere in London for a week, arriving on the 10th of November.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. And what year are you arriving on November 10th?",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.67,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oh, sorry, November 10th, 2024. And I need a room for two adults.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, and what's your budget like? Do you have a preferred area of London?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.28,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Budget is flexible, but ideally under \u00a3250 a night. I'd prefer somewhere near a tube station, and close to some restaurants, so maybe central London?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I am searching for hotels in central London, near a tube station, for two adults, arriving November 10th, 2024, for 7 nights, and a budget of \u00a3250 per night. Just a moment\u2026 Okay, I have a list of potential hotels. The first is The Z Hotel, which is right near Piccadilly Circus station and costs \u00a3180 per night. Would you be interested in this?",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.16,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "The Z Hotel? Hmm, I've heard mixed reviews about those, they're often very small rooms, aren't they? Can you find me something with a slightly better rating, maybe 4 stars, and at least 25 square meters of space?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me rephrase that. The search for a hotel that meets your criteria is currently unavailable. Please check back later.",
+      "response_time": 0.61,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.1,
+        "integrity": 1.45
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, this is so frustrating! Okay, fine, how about the best-rated hotel you *can* find that's near a tube station and in my budget? I don't care about the space, or stars anymore.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I am very sorry for the difficulties you are experiencing. Based on your updated criteria, I found the Premier Inn County Hall, which is within your budget and near a tube station.",
+      "response_time": 1.56,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.09,
+        "benevolence": 2.11,
+        "integrity": 2.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b51b4734",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.5,
+      "benevolence": 3.73,
+      "integrity": 3.64
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 3.57,
+    "latency_score": 4.82
+  }
+}

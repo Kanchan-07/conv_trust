@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I ordered a new coffee maker last week, and the tracking information hasn't updated in three days. It's just stuck on 'Shipping Label Created.' What's going on? I'm getting really frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can look into that for you. Can you please provide your order number so I can check the status?",
+      "response_time": 1.8,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.57,
+        "integrity": 2.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #2398745. Also, hypothetically, if the coffee maker *is* lost, what's your policy on replacements versus refunds? Just curious.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks! I've checked order #2398745. It appears there's a slight delay due to a backlog at the shipping facility. It should be scanned and on its way within 24-48 hours. I've escalated the tracking on your behalf. As for your question, in the rare event an item is lost in transit, we typically offer a replacement first, assuming the item is still in stock. If a replacement isn't possible or preferred, we'll issue a full refund. We'll keep an eye on your order, and I'll send you an update tomorrow morning.",
+      "response_time": 0.53,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.09,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a005a07c",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.75,
+      "benevolence": 1.78,
+      "integrity": 1.98
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 1.69,
+    "latency_score": 6.33
+  }
+}

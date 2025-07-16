@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can help with that. To get started, what genre are you in the mood for today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.78,
+        "integrity": 6.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ooh, good question! I'm really feeling something exciting... maybe a Thriller? Or Action? Something with a lot of suspense!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Thriller or Action with suspense! Great choices. For Thrillers, how about 'Gone Girl' or 'Parasite'? For Action with suspense, 'Die Hard' or 'The Fugitive' are classics.",
+      "response_time": 3.47,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.06,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, yeah, those are good, but I've seen all of them. Any less obvious ones? Like, maybe something from the last few years that wasn't a massive blockbuster, but still really tense?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Got it, something more recent and less mainstream. Let's see... Have you seen 'Knives Out'? It's a mystery thriller. Or maybe 'The Invisible Man' from 2020? It's quite suspenseful. 'Extraction' on Netflix is pure action-thriller.",
+      "response_time": 2.6,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.46,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'The Invisible Man' sounds interesting. 'Extraction' was... intense. 'Knives Out' is a mystery, not really a thriller-thriller for me. This is tough! How do you even decide what's the 'best' movie in a genre anyway? Is it box office, critical acclaim, or just personal taste?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a fascinating question! Determining the 'best' movie in a genre is highly subjective and a fun debate among film enthusiasts. It usually involves a mix of factors like critical reception, cultural impact, technical achievement, and of course, individual viewer preference. There's no single objective metric for 'best'.",
+      "response_time": 4.9,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.05,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, I knew you'd say it's subjective! It's just frustrating when there are SO many options and I just want a solid recommendation. Okay, forget 'best'. Let's try a different genre. How about something uplifting? I need a break from the tension.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand, it can be overwhelming! Switching gears to something uplifting sounds like a great idea. For an uplifting mood, we could look at comedies, feel-good dramas, or inspiring stories. What feels right for you now?",
+      "response_time": 2.96,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.18,
+        "integrity": 3.74
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f0b757bd",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.81,
+      "benevolence": 4.91,
+      "integrity": 4.87
+    },
+    "engagement_score": 5.83,
+    "emotion_distribution": {
+      "neutral": 4,
+      "joy": 3,
+      "fear": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 3.51
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle this bathroom renovation. I'm thinking of re-tiling the shower, but honestly, I'm completely overwhelmed. Where do I even start? It seems like there are a million different types of tile and waterproofing methods.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Bathroom renovations can be a bit daunting, but we can break it down! First, let's focus on tile selection. What's your budget, and what kind of aesthetic are you going for (modern, classic, etc.)? Also, have you considered the size of the shower area? Larger tiles can make a small space feel bigger.",
+      "response_time": 2.37,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 3.51,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Budget-wise, I'd like to keep the tile cost under $5 per square foot, if possible. I'm going for a modern look. The shower is pretty small, only about 3 feet by 3 feet. Now, here's my biggest concern: I've heard horror stories about shower leaks. What's the *absolute best*, most foolproof waterproofing method, regardless of cost? I don't want to have to rip this thing out in a year!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For a small, modern shower with a $5/sq ft tile budget, you might consider porcelain or ceramic tiles. They come in various styles and are relatively affordable. As for waterproofing, while there's no guaranteed 'foolproof' method, a combination of a topical membrane like RedGard or AquaDefense *along* with a pre-sloped shower pan and proper drain installation is generally considered highly effective. Be sure to carefully follow the manufacturer's instructions for each product. Professional installation is also highly recommended for optimal results.",
+      "response_time": 5.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.84,
+        "integrity": 5.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_37d93191",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.8,
+      "benevolence": 4.67,
+      "integrity": 4.95
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 1
+    },
+    "response_quality_score": 5.03,
+    "latency_score": 3.37
+  }
+}

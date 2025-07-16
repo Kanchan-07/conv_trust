@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have an interview for a software engineer position at Google next week. I'm feeling a bit overwhelmed. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you with that. We can go over common interview questions, discuss technical concepts, and even do some mock interviews. First, what areas are you most concerned about, or where do you feel you're weakest?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly? Algorithms and data structures. I've been coding for years, but sometimes I blank on the basics. Also, how do I even *answer* the 'Tell me about a time you failed' question? I always stumble on behavioral questions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. For algorithms and data structures, we can review common problems like sorting and searching, and practice those. I can provide example code in various languages. Regarding the behavioral question, the STAR method (Situation, Task, Action, Result) is a great framework. Let's brainstorm some failure scenarios \u2013 can you provide a specific instance where you may have failed, so that we may formulate a reply?",
+      "response_time": 5.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.74,
+        "integrity": 5.89
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_437d2426",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.37,
+      "benevolence": 6.37,
+      "integrity": 6.29
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 6.59,
+    "latency_score": 1.6
+  }
+}

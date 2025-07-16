@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving. Any good takeout recommendations nearby? I'm in the mood for something... exciting.  And no, not pizza again!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your location, I can recommend a few options.  How about 'Spice Route' for Indian food, or 'Taco Loco' for some authentic Mexican? Both have great reviews. I can also suggest 'The Burger Joint,' but since you mentioned no pizza, I'll focus on the others first. Anything sound good, or perhaps something else you'd prefer?",
+      "response_time": 5.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.62,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Taco Loco sounds interesting, but I'm a bit picky about Mexican. Is the guacamole actually fresh? I've had some truly awful guacamole experiences in the past, and it would ruin the whole meal for me. Also, any idea what kind of tortillas they use?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Good question! Let me check... Unfortunately, while I have access to reviews and menus, specific details about tortilla types and guacamole freshness aren't always explicitly mentioned. However, I *can* see many reviews praising the guacamole and mentioning the food as 'authentic'. I would suggest ordering the 'Guac & Chips' to test it out and, if it's to your liking, order more. I can also see they offer both corn and flour tortillas. Do you want me to place an order for you, or would you like to call them yourself?",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.89,
+        "integrity": 5.63
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b438e6e7",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.72,
+      "benevolence": 5.75,
+      "integrity": 5.71
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.63,
+    "latency_score": 2.64
+  }
+}

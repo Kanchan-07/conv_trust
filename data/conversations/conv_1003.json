@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle this whole financial planning thing. I'm feeling overwhelmed, though. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel overwhelmed. Let's start with the basics. First, can you tell me a bit about your current financial situation? What are your primary income sources, and what are your major expenses? Also, do you have any existing debts or investments?",
+      "response_time": 1.95,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.32,
+        "benevolence": 2.78,
+        "integrity": 2.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I work full-time as a software engineer, making about $90,000 a year. My expenses are rent ($1800/month), utilities (~$200/month), food (~$400/month), and a car payment of $350. I have about $15,000 in student loans and a small 401k with around $5,000 in it. Honestly, I feel like I'm just breaking even every month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for sharing. Based on the information provided, a good first step would be to analyze your cash flow more closely and potentially create a budget. We can identify areas where you might be able to reduce spending or allocate more funds to debt repayment or investments. Would you like me to help you create a basic budget?",
+      "response_time": 4.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.13,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! That would be amazing. But I'm also really worried about retirement. $5,000 seems so low. How much should I realistically be saving each month to retire comfortably, assuming I want to retire in, say, 30 years?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Estimating retirement savings requires considering several factors, including your desired lifestyle in retirement, inflation, investment returns, and Social Security benefits (if applicable). A very rough estimate, assuming a 7% average annual return and a need to replace 80% of your current income, suggests you should aim to save approximately 15% of your income, or about $1125 per month. However, I recommend consulting with a qualified financial advisor for a more personalized plan.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.96,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, $1125? That's... a lot! I don't know if I can swing that right now. Are there any strategies I can use to, you know, maybe front-load my savings later on, or is it really crucial to start saving that much right now? I feel like I'm behind already.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "It's understandable to feel that way. While starting early is generally advantageous due to the power of compounding, there are strategies to catch up. You could consider increasing your savings rate gradually over time, taking advantage of employer matching contributions if available, or exploring higher-risk investments with potentially higher returns (though this comes with increased risk). Additionally, any unexpected income, such as bonuses or tax refunds, could be directed towards retirement savings. We can explore these options in more detail during our next session.",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.46,
+        "integrity": 5.53
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6e2f6f24",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.59,
+      "benevolence": 4.33,
+      "integrity": 4.24
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "surprise": 4,
+      "neutral": 4
+    },
+    "response_quality_score": 4.01,
+    "latency_score": 3.26
+  }
+}

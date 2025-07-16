@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Diego from July 10th to July 14th. I need a room with two beds.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check for hotels in San Diego with availability from July 10th to July 14th, requiring two beds. Do you have any preferences on price range or location within San Diego?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.33,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Preferably something near the Gaslamp Quarter, and under $250 a night. I've been searching for hours and I'm getting so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration! Let me see what I can find. I am showing a couple of options: The Andaz San Diego and the Hard Rock Hotel San Diego. Both are located in the Gaslamp Quarter and have rooms available within your budget for those dates. Would you like more information on either of those?",
+      "response_time": 1.84,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.51,
+        "benevolence": 2.25,
+        "integrity": 2.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me more about the Andaz. And what's their cancellation policy?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Andaz San Diego is a stylish boutique hotel known for its rooftop pool and vibrant atmosphere. It features modern rooms, multiple dining options, and is within walking distance of many attractions. Their standard cancellation policy usually allows for cancellations up to 24 hours prior to arrival without penalty, but I would recommend checking the specific terms and conditions for your booking at the time of reservation, as it can vary.",
+      "response_time": 5.03,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.42,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds pretty good. What about hidden fees? Are there any resort fees or anything like that I should be aware of?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am checking that for you now. It appears the Andaz San Diego does have a daily resort fee of $35, which covers amenities such as Wi-Fi, access to the fitness center, and pool access. This will be added to your nightly rate.",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.5,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, resort fees! Okay, thanks for letting me know. Is there anything else available without those ridiculous fees?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Let me refine my search to exclude hotels with resort fees in the Gaslamp Quarter. One moment... It looks like the Best Western Plus Bayside Inn might fit your criteria. It's a bit further from the heart of the Gaslamp Quarter (about a 15-minute walk), but it doesn't appear to have a resort fee. Would you like me to provide more details on this option?",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.87,
+        "integrity": 4.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d38e3949",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.43,
+      "benevolence": 4.27,
+      "integrity": 4.44
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 7,
+      "anger": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.06,
+    "latency_score": 4.23
+  }
+}

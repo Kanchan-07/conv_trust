@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my job application. I'm applying for a software engineer role.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. What specific aspects of the application are you working on? Resume, cover letter, or something else?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.57,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm working on my cover letter. I'm really struggling to tailor it to the specific company. I feel like all my cover letters look the same.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Tailoring is key. Could you provide me with the job description and your current cover letter? I can offer suggestions on how to personalize it for this specific company.",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 4.22,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've pasted the job description and my current cover letter. It's a bit generic, I know. Can you help me find the specific keywords from the job description and incorporate them into my cover letter?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I can do that. However, please note that while I can identify keywords, a human review is recommended. I have identified the keywords, and generated a revised cover letter. Please review the changes carefully to ensure they align with your experience and voice. I've highlighted the incorporated keywords. [Insert generated text here. It contains several obvious, awkwardly integrated keywords and misses some crucial elements of the job description].",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.01,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, this is not great. It sounds really clunky and I'm pretty sure the highlights don't make sense. Some of those keywords don't even fit the context. It's almost like you just jammed them in there. Is there anything else you can do?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies. I am still under development and sometimes struggle with nuance. Let me try a different approach. I will analyze your cover letter again. This time, I will focus on your existing strengths and match those to the requirements mentioned in the job description. I will then provide suggestions on how to improve the wording to highlight the connection between your skills and the company's needs. Give me a moment...",
+      "response_time": 4.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.08,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I'm waiting... I hope this is better. Also, how do you evaluate my soft skills, such as communication and teamwork, for a job application?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I can analyze the language used in your resume and cover letter to identify instances where you demonstrate those skills. For example, I can look for words like 'collaborated,' 'led,' 'communicated effectively,' or 'team player.' However, assessing soft skills is often based on the context in which they're used, requiring more nuanced judgment. Therefore, my assessment is preliminary; a human reviewer is always recommended. Here is the improved version of the cover letter! [Insert slightly improved version here].",
+      "response_time": 5.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.27,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7fb43b1e",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.2,
+      "benevolence": 5.03,
+      "integrity": 5.13
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 5.3,
+    "latency_score": 3.34
+  }
+}

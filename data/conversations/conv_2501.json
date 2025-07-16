@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a follow-up appointment with Dr. Anya Sharma.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can assist with that. For a follow-up with Dr. Sharma, could you please confirm your date of birth for verification?",
+      "response_time": 4.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.95,
+        "integrity": 5.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's October 15th, 1985. I really need to get in soon, ideally sometime next week. It's been hard to find a good time lately.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for confirming. I see your record. Let me check Dr. Sharma's availability for follow-ups next week. We have an opening on Tuesday at 11:00 AM and Thursday at 2:30 PM. Do either of those times work for you?",
+      "response_time": 5.22,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.61,
+        "benevolence": 7.0,
+        "integrity": 6.96
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Thursday afternoon is tough. Tuesday at 11 AM is okay, but I could have sworn I saw an earlier slot, maybe around 9 AM on Monday or Tuesday when I checked the website yesterday? Why aren't those showing up now? It's kind of frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand that's confusing. Availability can change quickly, and sometimes certain slots might be held for specific appointment types or booked very recently. My current live view shows Tuesday at 11:00 AM and Thursday at 2:30 PM as the next available follow-up slots with Dr. Sharma. Would you like me to book the Tuesday 11 AM appointment for you, or should I add you to a waiting list for earlier cancellations?",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.02,
+        "integrity": 4.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_003e24f2",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.36,
+      "benevolence": 5.66,
+      "integrity": 5.77
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 5.13,
+    "latency_score": 3.36
+  }
+}

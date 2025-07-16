@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a car accident claim I filed last week. The claim number is 20231027-458B.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. Please give me a moment to pull up claim 20231027-458B. Okay, I have it here. What can I help you with today?",
+      "response_time": 5.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.03,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I haven't heard anything back! It's been over a week, and I'm still waiting to hear if my car is even going to be fixed. This is incredibly frustrating, I need my car!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check the status of your claim. It looks like we are waiting for the repair estimate from the auto body shop. I'll send them a follow-up email requesting the estimate be sent to us as soon as possible.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.47,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but what if the shop is taking too long? How long am I realistically expected to wait before the insurance company does something about it? And what are my options if they deem the car a total loss? Will I get enough to actually replace it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While we rely on the shop to provide the estimate, we generally give them 3-5 business days. If we haven't received it by then, we'll reach out to explore alternative options, such as getting a second opinion from another shop. If the car is deemed a total loss, the settlement amount would be based on the actual cash value of your vehicle, taking into account depreciation and condition prior to the accident. We use a market valuation tool to determine this value, and you'll have the opportunity to review that valuation and provide supporting documentation if you believe it's inaccurate. Does that answer your questions?",
+      "response_time": 1.36,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.88,
+        "benevolence": 2.89,
+        "integrity": 2.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's somewhat reassuring. I guess I'll just wait to hear back. Thanks for looking into it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fa3663ba",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.18,
+      "benevolence": 3.13,
+      "integrity": 3.06
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 2.95,
+    "latency_score": 5.06
+  }
+}

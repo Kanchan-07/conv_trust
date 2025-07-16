@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, this stupid printer! I've been trying to print a simple document for the past hour and it keeps saying 'Error 0x00000709'. I've tried restarting it multiple times. What is going on?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, thank you for contacting support. Error 0x00000709 typically indicates an issue with printer driver permissions. Please try the following: Go to 'Devices and Printers', right-click on your printer, and select 'Printer properties'. Navigate to the 'Security' tab. Ensure that your user account has 'Print' permissions enabled. Let me know if that resolves the issue.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I followed those steps, and my account *does* have print permissions. So, that's not it. I saw something online about needing to edit the registry...is that safe? And if so, what exactly do I need to change? I'm really not comfortable messing with the registry if it could mess up my whole computer.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Editing the registry can be risky if not done correctly. While that *can* be a solution, I strongly recommend trying simpler steps first to avoid potential system instability. Have you tried completely uninstalling and reinstalling the printer driver? You can download the latest driver from the manufacturer's website. After downloading, disconnect the printer, run the uninstaller (if one exists, or simply delete the driver through device manager), then install the newly downloaded driver *before* reconnecting the printer. Let's see if that does the trick.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.64,
+        "integrity": 5.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c69da9da",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.08,
+      "benevolence": 3.32,
+      "integrity": 3.33
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 3.0,
+    "latency_score": 5.22
+  }
+}

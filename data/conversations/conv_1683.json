@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to install a new kitchen faucet, and I'm completely lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure, I can help! First, what kind of faucet are you installing (e.g., single-handle, two-handle)? Do you have the old one removed already, and what's your experience level with plumbing?",
+      "response_time": 5.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.4,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a single-handle faucet. The old one is off, thankfully. I\u2019ve done some basic stuff before, like fixing a leaky toilet, but this seems more complex, honestly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great! So, the first step is usually attaching the faucet to the sink. Did the new faucet come with any mounting hardware, like a bracket or a plate? If so, you'll need to secure that to the sink, then place the faucet on top.",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.09,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, yeah, it has a bracket. The instructions are terrible, though. It doesn't make sense, and I'm getting frustrated. How tight should I screw the bracket to the sink?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Unfortunately, the exact torque specifications can vary depending on the sink material and the faucet's design. A good rule of thumb is to tighten the screws until they are snug, but *not* over-tightened. You don't want to crack the sink. Usually, a couple of additional turns after it's snug is fine. If you have a torque wrench, consult the faucet's manual for the manufacturer's recommendations, but that's unlikely. If unsure, it's better to err on the side of less tightness. This avoids cracking the sink, so it\u2019s usually better to tighten it in small increments.",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 3.99,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Now, for the water supply lines... the old ones have those crimped connectors. Do I have to replace them, or can I use the old ones?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! It's *highly* recommended to replace the supply lines, especially if they're old. Crimped connectors can be prone to leaks over time, and replacing them is a relatively inexpensive way to prevent potential water damage. They are inexpensive and easy to change. You can usually find flexible supply lines with the correct connectors at your local hardware store. Always check your local plumbing codes for specific requirements.",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.92,
+        "benevolence": 6.62,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Fantastic! Thanks, that's really helpful. I feel much more confident now. I'll get those new supply lines and give it a shot! Much appreciated!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a96c739e",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.08,
+      "benevolence": 5.03,
+      "integrity": 5.29
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.07,
+    "latency_score": 3.33
+  }
+}

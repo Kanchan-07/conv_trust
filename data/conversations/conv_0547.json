@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having persistent headaches for the past few weeks. They're mostly located around my temples and feel like a tight band.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Thank you for providing that information. To help me assess your situation, could you tell me more about the frequency, duration, and intensity of these headaches? Also, are there any other symptoms you're experiencing, such as nausea, blurred vision, or sensitivity to light and sound?",
+      "response_time": 5.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.1,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so they happen almost every day, lasting for a few hours each time. The intensity varies, but sometimes they're pretty bad, like a 7 out of 10. I haven't had any nausea or blurred vision, but I am a little more sensitive to light than usual. Honestly, I'm getting really frustrated with these headaches. They're making it hard to concentrate at work.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Sensitivity to light combined with a band-like headache suggests tension headaches. However, persistent headaches should always be evaluated by a medical professional to rule out other potential causes. Over-the-counter pain relievers like ibuprofen or acetaminophen might provide some relief. You could also try relaxation techniques, like deep breathing or stretching, to reduce muscle tension. But again, it's best to consult a doctor.",
+      "response_time": 2.2,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.77,
+        "integrity": 2.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but what *else* could it be? I've Googled it, and now I'm worried it's something serious. I\u2019ve been under a lot of stress lately. Could that be the only cause?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While stress is a very common trigger for tension headaches, the cause could be other factors such as dehydration, eye strain, or even certain food sensitivities. In rarer cases, persistent headaches can be related to more serious underlying conditions. Therefore, a doctor's evaluation is crucial to receive an accurate diagnosis and appropriate treatment plan. Could you tell me more about your usual diet?",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 4.44,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "My diet? I don't really think that's relevant. I eat pretty normally, I guess. Lots of coffee though, I'll admit that. Is the coffee doing this to me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Excessive caffeine intake can contribute to headaches in some individuals. It might be beneficial to try reducing your coffee consumption to see if that makes a difference. However, since you mentioned daily occurrences and a 7/10 pain level at times, consulting a healthcare professional remains the most prudent course of action. They can conduct a thorough examination and provide a personalized assessment.",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.79,
+        "integrity": 5.97
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_df57b54f",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.52,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.57,
+    "latency_score": 4.03
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready to start working on this cover letter. I'm applying for a marketing manager position at Acme Corp. I've been staring at a blank page for an hour. Any suggestions on where to begin? I'm feeling so stuck.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Starting can be the hardest part. Let's break it down. A strong cover letter usually includes these elements: a brief introduction, highlighting 2-3 key skills/experiences relevant to the job description, explaining why you're interested in Acme Corp, and a strong closing. I suggest starting with the introduction. Can you tell me in one sentence what makes you a good candidate for this role?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.68,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, boiling it down to one sentence? Okay, I guess something like, \"As a marketing professional with 7+ years of experience in developing and executing successful marketing campaigns, I am confident I possess the skills and experience to excel as Acme Corp's Marketing Manager.\"",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good start! Now, let's focus on highlighting your relevant skills. The job description mentions experience with SEO and social media marketing. Can you provide a specific example of a successful SEO or social media campaign you led, quantifying the results if possible?",
+      "response_time": 4.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.31,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, this is where it gets tricky. I led a social media campaign that increased engagement by 30%, but it was for a previous company that had, shall we say, a *very* different brand voice than Acme. Acme is much more\u2026corporate. Should I even include it if the tone is so different? Won't they think I don't understand their brand?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. It's important to tailor your examples. While the specific campaign might not perfectly align with Acme's brand voice, the *results* are what matter most. You can frame it by focusing on the strategic thinking and data-driven approach you used, rather than dwelling on the specific tone. Something like: \"At my previous role, I spearheaded a social media campaign that increased engagement by 30%. This was achieved through a data-driven strategy...\" You can then subtly mention that you understand Acme's more corporate tone and would adapt your approach accordingly. Does that help?",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.48,
+        "integrity": 4.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fc5c6472",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.49,
+      "integrity": 4.7
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.96,
+    "latency_score": 3.59
+  }
+}

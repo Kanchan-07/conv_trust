@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I keep getting denials for claims I know should be covered. Can you help me understand why my recent claim for procedure code 99214 was denied?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can definitely help you look into that. To start, could you please provide me with the patient's name, date of birth, and the date of service for the 99214 claim? I will then check the denial reason and any relevant documentation.",
+      "response_time": 5.18,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.62,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient's name is John Smith, DOB is 03/15/1970, and the date of service was 10/27/2024. The denial reason on the EOB simply states 'missing information'. But I sent everything! What specific information are they claiming is missing? And, frankly, why isn't this information available on the rejection itself?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I've reviewed the claim details for John Smith on 10/27/2024. The denial does indeed state 'missing information'. Upon further review of the remittance advice and associated documentation, it appears the claim was denied because the referring provider's NPI was not included. Unfortunately, while we strive for comprehensive rejection details, the exact field the payer flags as missing isn't always included on the denial notification. We are working to improve the granularity of our reporting. Could you please resubmit the claim with the correct information? I can guide you through the process if needed.",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.47,
+        "integrity": 4.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_749ffb6b",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.08,
+      "benevolence": 5.04,
+      "integrity": 4.98
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.34,
+    "latency_score": 3.51
+  }
+}

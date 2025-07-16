@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new games to play. I'm really into RPGs, especially ones with a good story. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for story-rich RPGs, I would suggest Divinity: Original Sin 2, Disco Elysium, and Pillars of Eternity. These are all critically acclaimed and known for their engaging narratives and complex characters. Would you like more information on any of these?",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of Divinity, but the others are new to me. What's Disco Elysium like? Is it anything like, say, Skyrim or Fallout?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Disco Elysium is quite different from Skyrim or Fallout. It's an isometric RPG with a heavy emphasis on dialogue, skill checks, and investigation. Combat is minimal, and the focus is on solving a murder mystery through your character's internal thoughts and interactions with the world. Think less action, more detective work and philosophical pondering.",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 3.84,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds...interesting, but also kinda risky. What if I want something more action-oriented but still with a solid RPG backbone? And, just out of curiosity, how does your recommendation system actually *work*? What algorithms are you using to determine these games?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "For a more action-oriented RPG, I'd suggest something like Monster Hunter World, or maybe even Elden Ring. These both have strong RPG elements with a focus on combat. As for my recommendation system, I use a combination of collaborative filtering based on user reviews and content-based filtering based on game descriptions and tags. This is combined with a rule-based system where I look for keywords related to your request, such as 'story-rich RPG.' I can't provide specifics on proprietary algorithms, of course, but that gives you a general idea.",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.36,
+        "integrity": 5.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_65639388",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.76,
+      "benevolence": 5.4,
+      "integrity": 5.47
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 5.99,
+    "latency_score": 3.54
+  }
+}

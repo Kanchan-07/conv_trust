@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately, like more than usual. Is there anything common that causes this?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Feeling unusually tired can be caused by many factors, such as lack of sleep, stress, poor diet, or underlying medical conditions like anemia or thyroid problems. It's a common symptom. Please remember I am an AI and cannot provide medical diagnoses or advice.",
+      "response_time": 1.97,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.79,
+        "benevolence": 2.29,
+        "integrity": 2.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I figured it could be lots of things. It's just frustrating because I feel like I'm sleeping okay, but I'm still dragging. Could it be something I'm eating, or not eating?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Diet certainly plays a significant role in energy levels. Nutritional deficiencies, such as low iron, B12, or Vitamin D, can contribute to fatigue. Irregular eating patterns, high sugar intake leading to crashes, or not consuming enough calories overall can also affect how you feel.",
+      "response_time": 4.76,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.23,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. I heard taking megadoses of Vitamin C can boost energy and help with tiredness. Is that true? And how much is considered 'too much' if I wanted to try it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Vitamin C is essential for overall health, but the claim that megadoses significantly boost energy in people without a deficiency isn't strongly supported by broad scientific evidence. While it's an antioxidant, extremely high doses (beyond the tolerable upper limit of 2,000 mg per day for adults) can potentially cause digestive issues like diarrhea, nausea, and stomach cramps. Some sources suggest even higher doses might have other effects, though research varies. It's best to stick to recommended daily amounts or consult a healthcare professional.",
+      "response_time": 4.07,
+      "emotion_detected": "disgust",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.81,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay. That's a bit confusing because my friend swears it makes a huge difference for them. So it's basically just hype for energy? Or is there *any* scenario where extra C helps with fatigue?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For individuals with a diagnosed Vitamin C deficiency (which is rare in developed countries), supplementation can certainly help with associated fatigue. Also, some people might experience a subjective boost. However, for the general population already getting enough Vitamin C, taking megadoses for energy is not typically recommended based on current evidence. Individual responses can vary, and there might be a placebo effect involved for some.",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.8,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, I understand better now. The bit about individual responses and placebo makes sense. So, just getting the normal recommended daily amount is important for general health, but don't expect a magic energy fix from loading up on it? Just want to be clear.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That is essentially correct. Ensuring you meet your recommended daily intake of Vitamin C through diet or a standard multivitamin is important for overall health and preventing deficiency. Taking excessively high doses specifically for boosting energy levels is generally not supported by current evidence and carries potential risks. For persistent fatigue, it is always best to consult with a doctor to identify the underlying cause and get personalized advice.",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.54,
+        "integrity": 4.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b4c07647",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.02,
+      "benevolence": 3.73,
+      "integrity": 4.0
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.24,
+    "latency_score": 3.74
+  }
+}

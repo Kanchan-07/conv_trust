@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling to follow up on my car insurance claim, claim number 2023-10-27-4582. I submitted it two weeks ago after that awful hailstorm, and I haven't heard anything. Honestly, this is incredibly frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please allow me a moment to retrieve your claim details. Okay, I see claim 2023-10-27-4582. The status is currently 'Under Review'. Due to the high volume of claims related to the recent hailstorm, processing times are slightly longer than usual. We appreciate your patience.",
+      "response_time": 5.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.75,
+        "integrity": 5.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Slightly longer? Two weeks is already pretty long! Can you give me an actual estimate? When will I know something concrete? I need my car fixed!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I cannot provide a precise date, I can assure you that your claim is actively being reviewed by an adjuster. They are assessing the damage estimates submitted and verifying coverage. I recommend checking back in 3-5 business days. We will try to reach you when we make our determination.",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.95,
+        "integrity": 6.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 3-5 business days... What exactly are they 'verifying'? I submitted photos, the police report, and two repair estimates. What more could they possibly need? I even filled out that long form they sent me! What are the chances it will be rejected?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The verification process involves ensuring all submitted documentation is accurate and aligns with the policy coverage. The adjuster is also confirming the extent of the damage aligns with the reported incident. It is difficult to give you a probability of rejection, but providing accurate and complete documentation significantly increases the chances of approval. Please ensure all information you provided in the original claim filing is accurate.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.16,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright. Thanks, I guess. I'll call back in 3 business days then. Hopefully, I'll have some good news then. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ba52cb60",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 6.04,
+      "benevolence": 5.95,
+      "integrity": 5.97
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 3,
+      "surprise": 2,
+      "fear": 1
+    },
+    "response_quality_score": 6.19,
+    "latency_score": 2.66
+  }
+}

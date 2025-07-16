@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to find a new laptop and I have a budget of around $700.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you find a laptop within that budget. What will you primarily be using the laptop for (e.g., work, school, gaming, general use)?",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.18,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly for schoolwork and general browsing. Nothing too demanding, just need something reliable and decent battery life. And yeah, the $700 is a hard limit, maybe max $750 if it's really worth it, but prefer to stay under.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, considering your need for schoolwork, general use, and a budget around $700, here are a couple of options that might fit:\n\n1. **Model X:** Known for good battery life, often available around $680.\n2. **Model Y:** Offers solid performance for productivity tasks, usually priced at $720.\n3. **Model Z:** A slightly more premium option, sometimes dips to $760, with excellent build quality.\n\nPlease check current prices as they can vary.",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.55,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Model Z is over my $750 absolute max, so that's out. And Model Y is exactly at the edge. How confident are you that Model X actually has 'good battery life' for real-world use? I bought a laptop once that claimed 10 hours and barely got 5, it was so frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9428162d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.65,
+      "benevolence": 3.86,
+      "integrity": 4.09
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.12,
+    "latency_score": 4.13
+  }
+}

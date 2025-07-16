@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of noise-canceling headphones, but I'm on a pretty tight budget. Can you recommend some options? My max is like, $100.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure, I can help with that! Based on your budget of $100, here are a few noise-canceling headphone options that are often recommended: The Anker Soundcore Life Q30, the TaoTronics SoundLiberty 79, and the Cowin E7. They all generally receive positive reviews. Would you like me to provide some links or more detail on any of these?",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.16,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, those all sound...fine, I guess. But how can I be sure the reviews are legit? I've seen so many fake reviews online. Also, how much do they really cancel out noise? Like, can they handle loud construction noise or a crying baby on a plane?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! Evaluating review authenticity is tricky. I'd recommend checking reviews across multiple platforms (like Amazon, Best Buy, and specialized tech sites like RTINGS or CNET) to get a balanced perspective. Also, look for reviews that mention specific use cases, like your examples. Regarding noise cancellation, the effectiveness varies. The models I suggested offer decent cancellation for general use like office environments or commutes, but they might struggle with extremely loud, inconsistent noises like construction or a screaming baby. I recommend reading reviews carefully, or if possible, testing them out in a store before buying to see how they perform. Some stores allow returns, so you can see how they perform in practice.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.77,
+        "integrity": 5.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_812ea19b",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.55,
+      "benevolence": 5.46,
+      "integrity": 5.5
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 5.03,
+    "latency_score": 3.98
+  }
+}

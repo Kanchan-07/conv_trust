@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new hiking backpack. Something durable, maybe around 50-60 liters. I've been browsing for hours and I'm getting overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can help with that! Based on your criteria (durable, 50-60 liters), I recommend checking out the Osprey Aether/Ariel AG 65 or the Gregory Baltoro/Deva 65. Both are highly rated for durability and comfort in that size range. Would you like to see some details on those?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.94,
+        "integrity": 6.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, show me the Osprey. Actually, wait, what about something a bit more budget-friendly? Those are probably crazy expensive. Maybe something still good quality, but not top-of-the-line?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. Considering a budget-friendly option, the Kelty Redwing 50 might be a good fit. It's known for its durability and value. It's slightly smaller than your initial request, but offers excellent features for the price. Here's a link: [link to Kelty Redwing 50]",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.98,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that looks alright. But how does the suspension system compare to the Osprey? That's what I'm really worried about, since I tend to carry heavy loads. I don't want something that's going to kill my back after a few miles.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Osprey Aether/Ariel AG 65 features a more advanced and adjustable suspension system designed for heavier loads and longer distances. It includes features like a custom fit-on-the-fly hipbelt and shoulder straps. The Kelty Redwing 50's suspension is simpler and more geared towards lighter loads. While still comfortable, it may not provide the same level of support and adjustability as the Osprey for very heavy loads over extended periods. Customer reviews often mention this difference.",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 4.02,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. So, if I'm carrying, say, 40 lbs regularly, would you *definitely* recommend sticking with something like the Osprey even though it's more expensive? Is the comfort difference that significant?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e1b9a9bd",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.49,
+      "benevolence": 5.65,
+      "integrity": 5.6
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 5,
+      "fear": 1
+    },
+    "response_quality_score": 5.33,
+    "latency_score": 3.09
+  }
+}

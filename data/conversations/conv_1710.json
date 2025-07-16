@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel room in Chicago for next weekend. Something near downtown would be ideal.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. What are the specific dates you're looking for next weekend? And how many guests?",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 4.1,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need the room from Friday, October 27th to Sunday, October 29th. There will be two adults.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Please wait a moment while I search for available hotels in downtown Chicago for those dates and number of guests...",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 3.59,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "This is taking a while... Is there a filter for price range? I don't want anything too expensive, maybe under $250 per night.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for the delay. Yes, I can filter by price. One moment... Okay, I've found a few options. The first is the 'Hotel Lincoln' for $240/night, the second is 'The Thompson' for $350/night, and the third is 'The Hoxton' for $280/night. Would you like to see more information about any of these?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.87,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, I am seeing three hotels that are not under $250 per night. The Thompson is over my budget and I really did not want to see hotels outside of my budget. Also, can you tell me, which hotel has the best view of the city skyline?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies for the previous error. The Thompson has a good view. I cannot say for certain which hotel has the best view, as views can vary depending on the specific room. However, Hotel Lincoln is a good choice, and their higher floors may offer good skyline views, but the rooms are smaller. The Hoxton also has some views. I recommend checking their website or contacting them directly to inquire about room views. Would you like me to proceed with the Hotel Lincoln?",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.61,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, let's try booking a room at the Hotel Lincoln, please. Just the one room for now.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9292b8f5",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.1,
+      "benevolence": 3.79,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 3.86,
+    "latency_score": 4.15
+  }
+}

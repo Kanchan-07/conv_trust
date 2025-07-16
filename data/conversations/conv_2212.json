@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up with a primary care physician.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Could you please provide your name and date of birth so I can find your patient record?",
+      "response_time": 3.27,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 4.15,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, and my birthday is 03/15/1980. Oh, and I really need this appointment in the next week if possible. ",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, John. I have your record here. Let me check for appointments with your PCP, Dr. Evans. Unfortunately, Dr. Evans is fully booked this week. The earliest available appointment is two weeks from today. Would that work for you?",
+      "response_time": 3.93,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 3.54,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, two weeks? That's not ideal, I was hoping to get in sooner. Are there *any* other doctors accepting new patients that I could see this week? And are any of them covered under my insurance?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check. Finding another doctor and verifying insurance can take a moment. Okay, I've found a Dr. Miller who is accepting new patients and has availability this week. I can confirm that your insurance is accepted by her practice. Would you like me to schedule an appointment with Dr. Miller?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.77,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, Dr. Miller sounds good then. What times does she have available? And can you tell me her address?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. Dr. Miller has openings on Tuesday at 10:00 AM and Wednesday at 2:00 PM. Her address is 123 Oak Street, Anytown, USA. Which time works best for you, John?",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.31,
+        "benevolence": 1.42,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6d96a1d3",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.51,
+      "benevolence": 3.22,
+      "integrity": 3.35
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 3.22,
+    "latency_score": 4.9
+  }
+}

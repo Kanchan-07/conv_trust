@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, another rejection email. I don't know what I'm doing wrong. Can you help me tailor my resume for a specific job posting? I feel like my current one isn't getting noticed.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I'm sorry to hear about the rejection. It's completely understandable to feel frustrated. I can definitely help you tailor your resume. Please provide me with the job description and your current resume (you can copy and paste the text), and I'll highlight relevant skills and experiences to emphasize.",
+      "response_time": 1.85,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.09,
+        "benevolence": 2.58,
+        "integrity": 2.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here's the job description text and my resume text. *[User pastes text]* Thanks! One thing that really trips me up is explaining the two-year gap I have in my work history, which was due to personal reasons. How do I even address that in an interview without sounding bad?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Regarding your resume, I've analyzed both texts and suggest incorporating keywords from the job description, particularly focusing on [mention a few example skills] and rephrasing [an example bullet point] to better match the requirements. As for the work gap, interviewers appreciate honesty. Briefly explain the reason factually and focus on what you did during that time, even if it wasn't formal employment, and what you've been doing recently to stay updated or prepare for re-entering the workforce. Emphasize your readiness and enthusiasm for the new role.",
+      "response_time": 5.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.47,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay, 'briefly explain factually' is helpful, but could you give me a slightly more concrete example of *how* I might phrase that? I just don't want to sound defensive or awkward. Also, while we're at it, do you have any quick tips for writing a compelling cover letter? Are they even necessary anymore?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3153991a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.73,
+      "benevolence": 4.03,
+      "integrity": 3.73
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "disgust": 1,
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.47,
+    "latency_score": 3.95
+  }
+}

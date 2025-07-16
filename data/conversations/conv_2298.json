@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file an insurance claim. I got into a car accident last week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am sorry to hear about your accident. I can certainly help you with that. To get started, could you please provide your policy number and a brief description of the incident?",
+      "response_time": 3.07,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 4.43,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the policy number is ABC123XYZ. The other driver ran a red light and hit me. My car is pretty damaged. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. I've started a claim for you. To help expedite the process, could you please provide the police report number and the other driver's insurance information?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 6.76,
+        "integrity": 6.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I have the police report number but I'm not sure what the other driver's insurance details are. What if I don't have that? Doesn't that impact the claim?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question. While having the other driver's information is helpful for subrogation, it's not always required to process your claim. We can still proceed. However, it might affect the overall settlement time and potentially your deductible recovery. We will investigate the accident based on the information you provide. Please provide the police report number so we can continue.",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 4.04,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the police report number is 2024-12345. Thanks for your help. I feel much better now that I've started the claim process. What happens next?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bfb1d036",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.97,
+      "benevolence": 5.08,
+      "integrity": 4.86
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 3,
+      "joy": 1
+    },
+    "response_quality_score": 5.31,
+    "latency_score": 3.35
+  }
+}

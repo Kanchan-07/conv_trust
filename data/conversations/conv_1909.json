@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help with a home improvement project. I want to install a new kitchen faucet, but I've never done anything like this before.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Installing a kitchen faucet can be a manageable DIY project. To get started, could you tell me what kind of faucet you've purchased, and do you know if you have any shut-off valves under your sink?",
+      "response_time": 5.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.08,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Um, I have no idea about shut-off valves. And the faucet is a standard two-handle model, nothing fancy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. First, locate the water shut-off valves. They are usually under the sink, on the hot and cold water supply lines. Turn them clockwise until they stop. If you don't have shut-off valves, you'll need to shut off the water supply to your entire house at the main valve (usually located near the water meter). Please be aware that shutting off the main water supply can affect other fixtures in your home.",
+      "response_time": 3.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.89,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, found the shut-off valves! Now what? This is already more complicated than I thought.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great! Next, disconnect the old faucet's water supply lines from the shut-off valves. Have a bucket and towel handy, as there might be some residual water. Then, disconnect the old faucet's drain connections. Unscrew the nuts that secure the faucet to the sink. Once everything is disconnected, you should be able to remove the old faucet. Be prepared for the space to be quite tight.",
+      "response_time": 4.9,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.56,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I'm trying to get the old faucet off, but the nuts under the sink are completely rusted! I can barely get a grip on them. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a common problem. Try applying penetrating oil to the rusted nuts and let it sit for about 15-30 minutes. Then, use a wrench or pliers to try loosening them again. If that doesn't work, you might need a special tool like a basin wrench or, as a last resort, cut the nuts off with a hacksaw or Dremel tool (be extremely careful not to damage the sink or supply lines).",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.18,
+        "benevolence": 2.44,
+        "integrity": 2.1
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, penetrating oil it is. Thanks for the help! Hopefully, I won't have to use a hacksaw. I'll come back if I run into any other problems.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_666faa13",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.49,
+      "integrity": 4.63
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.4
+  }
+}

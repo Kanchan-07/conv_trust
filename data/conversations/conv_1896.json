@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Smith.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Can you please provide your date of birth and the last four digits of your social security number for verification purposes?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.72,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, do I really have to? Fine. It's 01/15/1980 and the last four are 1234.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Please hold while I access your records... Okay, I have your information. Dr. Smith's earliest availability is next Tuesday at 2:00 PM. Would that work for you?",
+      "response_time": 3.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.38,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, Tuesdays are terrible for me. Are there any other days that week, like Wednesday or Thursday?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check... Hmm, it looks like Thursday at 10:00 AM is the only other option available that week. If that doesn't work, the next available appointment would be the following Monday.",
+      "response_time": 0.63,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.1,
+        "integrity": 1.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a bit early, but I'll take Thursday at 10:00 AM. Can you tell me, is there a cancellation policy? And, can I get a summary of the appointment sent to me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, there is a 24-hour cancellation policy. You'll find it in the email confirmation that will be sent to your provided email address. The appointment details are: Thursday at 10:00 AM with Dr. Smith. Is there anything else?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1c30a9d9",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.45,
+      "benevolence": 2.55,
+      "integrity": 2.4
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 2.1,
+    "latency_score": 5.27
+  }
+}

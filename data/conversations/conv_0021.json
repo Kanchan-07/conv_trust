@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining a hackathon. I've never done one before. Any advice on where to start?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's great! Hackathons are a lot of fun. First, I'd recommend finding a hackathon that aligns with your interests or skill level. Websites like Devpost and Eventbrite are good places to search. Are there any specific areas you're interested in (e.g., web development, AI, gaming)?",
+      "response_time": 5.78,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.93,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I'm most comfortable with Python and have been dabbling in machine learning. So something AI-related would be cool. What if I don't have a team?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Many hackathons have team formation events at the beginning where you can meet other participants and form a team based on shared interests and skills. You can also look for team formation channels on the hackathon's Discord or Slack server, if they have one. Or, you can totally participate solo!",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.97,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's reassuring. What kind of project should I aim for? I'm feeling a bit overwhelmed by all the possibilities.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Start by brainstorming ideas that solve a problem you find interesting. It doesn't have to be groundbreaking; focus on building something functional and showcasing your skills. Consider the judging criteria too \u2013 many hackathons value creativity, technical difficulty, and impact. Aim for an MVP (Minimum Viable Product) that demonstrates core functionality.",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.99,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, MVP makes sense. But how do I scope it properly? Every time I start something, I end up wanting to add more and more features. How do I prevent scope creep during a hackathon's limited timeframe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a common challenge! Before you start coding, write down *exactly* what your MVP will do. Then, rigorously prioritize. Any feature that doesn't directly contribute to the core functionality of the MVP should be put on a \"nice to have\" list. During the hackathon, *strictly* stick to the MVP. Only add features from the \"nice to have\" list if you finish the MVP with plenty of time to spare. And even then, be very selective!",
+      "response_time": 0.57,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.04,
+        "benevolence": 1.0,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "This is helpful! But here's a tough one: what if my code just\u2026 breaks? I'm talking deadline looming, completely stuck, Googling furiously and still getting nowhere. Any tips for dealing with that kind of crisis during the event itself?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a very real possibility! First, don't panic (easier said than done, I know!). Try the 'rubber duck debugging' method - explain your code line by line to an inanimate object (or a teammate). Often, just articulating the problem helps you find the solution. Second, don't be afraid to ask for help! Hackathons often have mentors available who can provide guidance. Third, if you're truly stuck, consider scaling back your project. Sometimes a working, simpler project is better than a broken, ambitious one.",
+      "response_time": 2.09,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.72,
+        "benevolence": 2.49,
+        "integrity": 2.98
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4b4ad108",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 4.08,
+      "integrity": 4.22
+    },
+    "engagement_score": 5.83,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 1,
+      "surprise": 1,
+      "fear": 2
+    },
+    "response_quality_score": 4.08,
+    "latency_score": 4.24
+  }
+}

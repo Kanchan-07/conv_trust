@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really frustrated. I was just served with papers for a lawsuit, and I have no idea what to do. Can you help?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I am programmed to provide legal information and guidance. While I cannot provide legal advice, I can help you understand the basics of the legal process and point you to relevant resources. First, can you tell me the general nature of the lawsuit? What is it about, if you know?",
+      "response_time": 3.26,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.61,
+        "integrity": 5.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's about a breach of contract. I had a business deal go south, and now they're suing me. I'm so confused about the timelines and what I need to do *now*. Do I have to respond? When? This is all so overwhelming. What are the deadlines for a response?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, a breach of contract lawsuit. Generally, yes, you will likely need to respond to the lawsuit. The timeline to respond is dictated by the court and the jurisdiction where the case is filed. The deadline is usually specified in the summons or complaint you received. Failing to respond within the specified time could lead to a default judgment against you. I can't provide the exact deadline as these vary. You really should consult with a qualified attorney in your area for specific advice. They can review the documents and advise you of the proper procedure for your jurisdiction. Are you familiar with how to find an attorney?",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.33,
+        "integrity": 3.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3080a973",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.62,
+      "benevolence": 4.97,
+      "integrity": 4.45
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.91
+  }
+}

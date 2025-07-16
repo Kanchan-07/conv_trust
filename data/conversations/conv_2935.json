@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm really stuck on solving quadratic equations. Can you help me understand the different methods?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely, I can help with quadratic equations. They are equations of the form ax\u00b2 + bx + c = 0. The most common ways to solve them are factoring, completing the square, or using the quadratic formula. Which method are you finding most confusing?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.9,
+        "benevolence": 6.89,
+        "integrity": 6.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, all of them feel a bit random, but factoring seems the trickiest. How do you know which numbers to pick?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's focus on factoring. The goal is to rewrite the quadratic expression (ax\u00b2 + bx + c) as a product of two binomials, like (px + q)(rx + s). For a simple case like x\u00b2 + bx + c, you're looking for two numbers that multiply to 'c' and add up to 'b'.",
+      "response_time": 2.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.37,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I get that rule, but it seems like I always pick the wrong numbers or it just doesn't work for the problems in my homework. It's so frustrating! What about equations where 'a' isn't 1, like 2x\u00b2 - 5x - 3 = 0?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, factoring when 'a' is not 1 can be a bit more involved. One common method is the 'AC method' where you find two numbers that multiply to (a*c) and add up to 'b'. Then you rewrite the 'bx' term using those numbers and factor by grouping. Alternatively, the quadratic formula always works, regardless of 'a' or if it's factorable. The formula is x = [-b \u00b1 \u221a(b\u00b2 - 4ac)] / 2a.",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.57,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the formula looks intimidating but maybe more reliable. What's that part under the square root, b\u00b2 - 4ac? And what happens if that number is negative? Does that just mean there are no solutions?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That expression, b\u00b2 - 4ac, is called the discriminant. It tells you about the nature of the solutions. If the discriminant is positive, there are two distinct real solutions. If it's zero, there's exactly one real solution (a repeated root). If it's negative, it means there are no real number solutions because you can't take the square root of a negative number in the real number system. So, yes, it indicates no solutions in terms of real numbers.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.92,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wait, 'no real number solutions'? Does that mean there are other kinds of solutions? My teacher only talked about real numbers. So if the discriminant is negative, the answer is just 'no solution' for my class?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_075192b3",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 4.69,
+      "integrity": 4.81
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.91,
+    "latency_score": 3.52
+  }
+}

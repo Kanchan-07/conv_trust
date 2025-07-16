@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'd like to schedule an appointment with Dr. Emily Carter.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Are you an existing patient, or are you new to the practice?",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.0,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm an existing patient. I haven't been in for a check-up in\u2026well, longer than I'd like to admit.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No problem. Let me check Dr. Carter's availability. What's your preferred day of the week and time of day?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.62,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ideally, a Tuesday or Wednesday afternoon would work best. But honestly, I'm pretty flexible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, one moment. Looking at Tuesday, July 16th, we have an opening at 2:30 PM. On Wednesday, July 17th, we have availability at 1:00 PM and 4:00 PM. Does any of those work for you?",
+      "response_time": 2.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.14,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, those are all cutting it close with my work schedule. Are there any other options, maybe the following week?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly, checking the week of July 22nd. What about Monday, July 22nd at 10:00 AM, or Thursday, July 25th at 9:00 AM?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.02,
+        "integrity": 1.45
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm... Thursday the 25th at 9:00 AM. Could you tell me, approximately how long will the appointment be? I need to factor in travel time and everything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Typically, a routine check-up with Dr. Carter lasts about 45 minutes to an hour. Please arrive 15 minutes early to complete any necessary paperwork. So July 25th at 9AM is confirmed, is that correct?",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.95,
+        "integrity": 4.01
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aac1d809",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.82,
+      "benevolence": 3.75,
+      "integrity": 3.74
+    },
+    "engagement_score": 4.47,
+    "emotion_distribution": {
+      "neutral": 8,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.17,
+    "latency_score": 4.8
+  }
+}

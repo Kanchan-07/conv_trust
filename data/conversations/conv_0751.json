@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to book a table for four at a nice Italian place downtown this Saturday, but everything seems to be booked solid. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check availability for Italian restaurants downtown this Saturday for a party of four. What time were you hoping to dine?",
+      "response_time": 0.51,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.31,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ideally around 7:30 PM, but honestly, at this point, I'll take anything between 7 and 8. Also, this is a bit of a challenging request, but does anything have outdoor seating and live music? I know, tall order.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've checked for Italian restaurants downtown with availability between 7 and 8 PM on Saturday for four people, with outdoor seating and live music. There's 'Bella Notte' which has availability at 7:15 PM and features live jazz on their patio. Would you like me to book that for you?",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.19,
+        "integrity": 3.62
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6b3b8c0d",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.58,
+      "benevolence": 2.75,
+      "integrity": 2.31
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 2.52,
+    "latency_score": 5.35
+  }
+}

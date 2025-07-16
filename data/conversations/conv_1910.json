@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new coffee maker. Can you recommend some based on category?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your request, I can provide recommendations for coffee makers. Could you specify any particular category you're interested in, such as drip coffee makers, espresso machines, or French presses?",
+      "response_time": 5.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.87,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm not sure. I like the idea of espresso, but I also want something easy to use in the morning. Maybe you could recommend some drip coffee makers and espresso machines?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can do that. For drip coffee makers, I recommend looking at the 'OXO Brew 9-Cup' and the 'Bonavita Connoisseur'. For espresso machines, the 'Breville Barista Express' is a good choice. Do you have any specific price range in mind?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.96,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Breville one is like $700! Yikes! Is there anything similar but cheaper? Also, how do these compare in terms of reliability?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are right, the Breville can be pricey. Similar espresso machines in the $400-$500 range are the 'Gaggia Classic Pro' and the 'Rancilio Silvia'. Regarding reliability, generally, Breville is a great brand, but some users report occasional issues after a couple of years. Gaggia and Rancilio are known for their robust build, though require a bit more manual skill. But comparing reliability is challenging because of differing user experiences; some of the cheaper models may have a shorter lifespan.",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.69,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful! OK, let's say I am willing to spend a bit more and prioritize reliability. If I'm choosing between the Breville and the Rancilio, which one do you think would be better for a beginner?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For a beginner, the Breville Barista Express is generally considered easier to learn due to its integrated grinder and automated features. The Rancilio Silvia, while highly reliable, requires a separate grinder and more manual control, which can be a steeper learning curve. So, I recommend the Breville, though I highly suggest you research both!",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.15,
+        "integrity": 5.01
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b0c532c7",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.97,
+      "benevolence": 4.67,
+      "integrity": 4.73
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 4.95,
+    "latency_score": 3.81
+  }
+}

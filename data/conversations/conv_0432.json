@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having persistent headaches for the past week, mostly in the afternoon. I'm also feeling quite tired. I'm getting a little worried...",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. Thank you for reaching out. I understand your concern. Could you please provide some more information? Specifically, could you describe the headaches in more detail? For example, what does the pain feel like (throbbing, sharp, dull)? Where exactly is the pain located? And on a scale of 1 to 10, how would you rate the pain at its worst?",
+      "response_time": 0.54,
+      "emotion_detected": "disgust",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.14,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's usually a dull, throbbing pain, mostly behind my eyes and sometimes radiating to my temples. It's usually around a 6 or 7 at its worst. And the tiredness is just...constant. I'm sleeping okay, I think, but I wake up feeling drained. What could it be? Is it something serious?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for the details. Dull, throbbing headaches combined with fatigue can indicate several possibilities, ranging from simple dehydration or stress to more complex conditions like tension headaches or even, in rare cases, underlying medical issues. I suggest trying to increase your water intake and ensuring you are getting sufficient rest for the next few days. If the symptoms persist or worsen, it would be beneficial to consult with a medical professional for a thorough evaluation and diagnosis. Is there anything else I can assist you with today?",
+      "response_time": 4.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.01,
+        "integrity": 5.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I guess. But what if it *is* something serious? Like, how do I know when it's just a headache and when I should be really worried? That answer was a little vague, honestly. I\u2019m just trying to figure out what's worth a costly doctor's visit.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Red flags to watch out for include sudden, severe headaches that are different from your usual headaches, headaches accompanied by fever, stiff neck, vision changes, weakness, numbness, seizures, or difficulty speaking. If you experience any of these, seek immediate medical attention. Also, a headache that progressively worsens over days or weeks despite self-care measures warrants a doctor's visit. I hope this clarification is more helpful.",
+      "response_time": 1.93,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.02,
+        "integrity": 2.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f5cb301e",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.02,
+      "benevolence": 2.68,
+      "integrity": 3.02
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 2,
+      "disgust": 1,
+      "neutral": 1,
+      "fear": 2
+    },
+    "response_quality_score": 3.4,
+    "latency_score": 5.23
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so swamped with medical billing. Can you help me understand why this claim was rejected? The patient's insurance is supposed to cover it.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. Please provide the claim details, including the patient's information, the date of service, the CPT codes, and the reason code for the rejection. I will analyze the information and offer any insights that might be possible based on the information you supply.",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.46,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here's the info. Patient ID: AB12345, Date of Service: 2024-03-10, CPT Code: 99213, Rejection Code: CO-45. The rejection reason is 'The procedure code is inconsistent with the modifier used' - what does that even mean? And how do I fix it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CO-45 typically means there's an issue with the coding related to the primary procedure. Without the specific modifier used, it's difficult for me to provide exact guidance, but generally, it suggests either the modifier is incorrect for the primary code or a modifier needs to be added. For example, modifier '25' should be included if a significant, separately identifiable Evaluation and Management service is reported on the same day as another procedure. Further, to correct this, you should double-check the documentation to ensure the proper modifier is added. You could consult the CPT code book or contact the insurance provider for clarification. Let me know if there are further questions.",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.56,
+        "integrity": 4.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0b4c8201",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 4.01,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 3.77,
+    "latency_score": 4.41
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice regarding a potential breach of contract. I signed an agreement with a construction company to build an extension on my house, and they're way behind schedule and the quality is terrible. I'm really stressed about this.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I'm sorry to hear you're experiencing this issue. To best assist you, could you please provide me with some more details about the contract? Specifically, what does it say about timelines, quality standards, and potential penalties for delays or substandard work?",
+      "response_time": 1.47,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.56,
+        "benevolence": 2.97,
+        "integrity": 2.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let me see...The contract states that the extension should have been completed within 6 months, and it's now been 9. It also has a clause about 'workmanlike quality' - vague, I know! There's a section on 'failure to perform', but it mainly outlines their right to cease work if *I* don't pay. What about my rights?!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. The 'failure to perform' section likely also implies certain responsibilities on the contractor's part. 'Workmanlike quality', while subjective, generally implies a standard of work reasonably expected of a skilled professional in the construction industry. Documenting the poor quality with photos and potentially a professional assessment would be beneficial. As a next step, have you formally notified the company of your concerns in writing?",
+      "response_time": 2.07,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.34,
+        "benevolence": 2.3,
+        "integrity": 2.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I sent them an email a couple of weeks ago, outlining all the issues. I haven't received a satisfactory response, just a lot of excuses. I'm wondering if I should just hire another company to fix it and then sue them for the costs. Is that a good idea?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Hiring another company immediately could potentially complicate your legal position. It might be viewed as taking action without giving the original contractor a reasonable opportunity to rectify the situation, which could weaken your claim. It would be better to send a formal 'notice of breach' demanding remedy of the defects and a completion of the project within a specified, reasonable timeframe. Keep detailed records of all communication and expenses related to this matter. ",
+      "response_time": 2.05,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.16,
+        "benevolence": 2.62,
+        "integrity": 2.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if they still refuse to fix the issues or complete the work? How long do I have to wait before I can take further action, like hiring someone else or taking them to court? What's considered a 'reasonable timeframe' anyway? This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "A 'reasonable timeframe' depends on the nature and extent of the defects and the remaining work. Generally, 30-60 days from the date of the 'notice of breach' is a common starting point for negotiation. After this period, if they have not made a good faith effort to resolve the issues, you can consider other options. It's important to remember that my advice is for informational purposes only and that a legal professional specializing in contract law is best suited to assist.",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.59,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks, that's helpful. I appreciate the guidance. I will definitely seek advice from a lawyer.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2b8ab196",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.81,
+      "benevolence": 2.87,
+      "integrity": 2.85
+    },
+    "engagement_score": 5.65,
+    "emotion_distribution": {
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 3,
+      "surprise": 1,
+      "anger": 2,
+      "joy": 1
+    },
+    "response_quality_score": 2.49,
+    "latency_score": 5.1
+  }
+}

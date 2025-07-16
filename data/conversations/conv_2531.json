@@ -1,0 +1,107 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight and hotel package for a trip next month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. Where would you like to travel from and to, and what are your preferred dates for the trip?",
+      "response_time": 4.37,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 6.67,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm flying from Chicago (ORD) to Rome (FCO). I'd like to leave around November 10th and return around November 17th. Just need a standard hotel, nothing fancy, somewhere central is fine.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Chicago to Rome, departing around November 10th and returning around November 17th, with a central hotel in Rome. I'm searching for options now. I see several flight and hotel packages available. Prices vary depending on the airline and hotel quality. Do you have a budget in mind, or any preferred airlines?",
+      "response_time": 4.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.14,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, no specific budget yet, just looking for a good value. Some results I saw online were really expensive though, which is frustrating. I'm flexible on the return date by a day or two if it saves money. Could you look for options slightly cheaper, maybe leaving on the 9th or 11th and returning on the 16th, 17th, or 18th?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let's broaden the date range slightly to see if we can find better prices. I'll include departures on November 9th, 10th, and 11th, and returns on November 16th, 17th, and 18th. I'll focus on value options for the hotel too. Just a moment.",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.63,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Great, thanks. While you're doing that, here's a slightly unusual request. I have a friend meeting me in Rome on November 12th. They'll be staying in the same hotel room, but only for 3 nights, leaving on the 15th. Can the package booking be made for 1 person for the first 2 nights and 2 people for the next 3 nights, then back to 1 person for the final night? Or how does that work?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a complex scenario involving split occupancy within a single stay. Unfortunately, most standard package bookings and hotel reservation systems are not designed to handle varying numbers of guests within the same reservation period. You would typically need to make two separate bookings: one for 1 person for the initial nights and the final night(s), and a separate booking (or modification) for the nights your friend is present, potentially requiring a room change or a direct arrangement with the hotel after booking the base package for one person. It adds a layer of complexity and might not be possible within a single package deal.",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.35,
+        "integrity": 4.33
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_584b6bff",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.13,
+      "benevolence": 4.95,
+      "integrity": 5.4
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "neutral": 8
+    },
+    "response_quality_score": 4.96,
+    "latency_score": 4.01
+  }
+}

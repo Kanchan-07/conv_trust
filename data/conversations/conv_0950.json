@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated. I've been applying for jobs for months and I'm not getting anywhere. I don't even know what kind of job I *should* be applying for anymore!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Job searching can be tough, especially when you're unsure of your direction. Let's start by exploring your skills, interests, and values. What are some things you genuinely enjoy doing, both inside and outside of work?",
+      "response_time": 2.0,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.3,
+        "benevolence": 2.21,
+        "integrity": 2.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I like problem-solving, writing, and working with people, but I also value having a good work-life balance. Honestly, it feels like everything 'good' requires insane hours and constant stress. Is it even possible to find something that ticks all the boxes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Many roles can offer a good balance, although it often requires careful company selection and boundary setting. Based on your interests, have you considered roles in fields like technical writing, project management, or even human resources? These often involve problem-solving, communication, and interpersonal skills. I recommend starting your research there.",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.55,
+        "benevolence": 5.9,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's actually helpful. I hadn't really considered those. I guess I was too focused on what I *thought* I should be doing. Thanks, I feel a bit more hopeful now!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef79f9e2",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.92,
+      "benevolence": 4.05,
+      "integrity": 3.88
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2,
+      "joy": 1
+    },
+    "response_quality_score": 4.09,
+    "latency_score": 4.45
+  }
+}

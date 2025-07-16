@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to paint my living room, but I'm totally overwhelmed by all the paint types. Latex, oil-based, satin, eggshell... what's the difference and what should I use?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "That's a common point of confusion! For interior walls like a living room, a latex-based paint is almost always recommended. It's easier to clean up with water, dries faster, and has fewer fumes than oil-based paint. For the finish, 'eggshell' or 'satin' are popular choices. Eggshell has a slight sheen and is durable, while satin has a bit more sheen and is very washable, good for higher traffic areas.",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.46,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, latex eggshell sounds good then. But what about primer? Do I *really* need it if I'm just painting over the same color? It seems like an unnecessary extra step, and honestly, I'm trying to save time and money. It feels like every little thing adds up!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Primer is highly recommended for optimal results, even if you're painting over a similar color. It helps with adhesion, provides a uniform surface for the paint color, and can help block minor stains. Skipping primer might lead to requiring more coats of paint to achieve full coverage.",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.83,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that wasn't exactly helpful. You just repeated why primer is good, but didn't address my point about skipping it to save time/money, especially since it's the *same* color. Is there *ever* a situation where you can realistically skip primer without everything falling apart? Like, if the existing paint is in perfect condition and the same sheen?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I understand your concern about the extra step. While primer is generally best practice, you *might* be able to skip it on previously painted surfaces in good condition if you are using a high-quality paint specifically labeled as 'paint and primer in one' and are not drastically changing the color or sheen. However, even then, results can vary depending on the original wall surface and paint. It's a calculated risk; for guaranteed adhesion and true color, primer is still the professional recommendation.",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.58,
+        "integrity": 3.98
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_defcd872",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.37,
+      "benevolence": 4.62,
+      "integrity": 4.71
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3,
+      "disgust": 2
+    },
+    "response_quality_score": 4.02,
+    "latency_score": 3.72
+  }
+}

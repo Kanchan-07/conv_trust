@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately, and I'm not sure why. Can you give me some advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly provide some general information. Fatigue can be caused by many factors. To give you the best advice, could you tell me more about your symptoms? For instance, when did the tiredness start, and what other symptoms do you experience?",
+      "response_time": 5.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.93,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, it started about a month ago. I'm tired pretty much all day, even after a full night's sleep. I also sometimes have headaches, and I've noticed I've been more irritable than usual.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the details. Based on your symptoms, it could be several things, including iron deficiency, thyroid issues, or even stress and anxiety. It's also important to consider your diet and exercise habits. I would recommend you consult with a medical professional for proper diagnosis and treatment. However, some general advice includes ensuring you're getting enough sleep, drinking plenty of water, and eating a balanced diet.",
+      "response_time": 5.15,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.11,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm trying to eat better, but I don't even know where to start. What foods should I be focusing on?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "A balanced diet is crucial. Focusing on whole, unprocessed foods is key. Consider incorporating more fruits, vegetables, lean proteins (like chicken or fish), and whole grains. Limiting processed foods, sugary drinks, and excessive caffeine and alcohol is also advised. Are you interested in some specific meal ideas? I can also provide links to resources that give detailed diet plans. ",
+      "response_time": 5.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 6.0,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds good, but the internet has so many different diet plans, and some are totally bogus. How do I know what's actually healthy and not just some fad?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. It's true there's a lot of misleading information. Look for plans based on established dietary guidelines from reputable sources like the USDA or the American Heart Association. Also, be wary of plans that promise rapid weight loss or eliminate entire food groups. A sustainable, healthy diet is all about balance and moderation, focusing on a variety of nutrient-rich foods. A good starting point could be the Dietary Guidelines for Americans. Would you like me to provide you with some links?",
+      "response_time": 1.69,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.92,
+        "benevolence": 2.91,
+        "integrity": 2.7
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please. Thanks, this has been helpful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cf28d405",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.99,
+      "integrity": 4.85
+    },
+    "engagement_score": 5.36,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "anger": 1,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 2.95
+  }
+}

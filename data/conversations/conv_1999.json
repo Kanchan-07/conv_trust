@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated! I placed an order yesterday, and the tracking hasn't updated at all. The website just says 'processing.' What's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me look into that for you. Can you please provide your order number so I can check the status?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.23,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's #12345. And while you're looking, I also wanted to know, what exactly does 'processing' entail? Like, what steps are involved?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've checked order #12345. It appears there was a slight delay in our fulfillment center, but it's now scheduled to ship out today. As for what 'processing' means, it's a complex process that involves order verification, inventory check, picking and packing, and label creation. The exact details can vary depending on the order. In your case, there was an issue with the picking of the order that caused the delay. Is there anything else I can assist you with?",
+      "response_time": 5.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.99,
+        "integrity": 5.9
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6634ad41",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.26,
+      "benevolence": 3.5,
+      "integrity": 3.45
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 3.29,
+    "latency_score": 4.27
+  }
+}

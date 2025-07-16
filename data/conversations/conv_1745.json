@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new ceiling fan, and I'm already feeling overwhelmed. Any advice?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Installing a ceiling fan can seem daunting, but we can break it down. First, do you have any experience with electrical work? If not, I highly recommend turning off the breaker for the circuit the fan will be on before you start. What specific part of the process are you stuck on?",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I think I'm okay with the electrical part. I've dealt with that before. It's the physical mounting that's throwing me. The instructions are terrible!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Let's focus on the mounting. Usually, there's a mounting bracket that attaches to the ceiling electrical box. Is that what you're struggling with? If so, what type of electrical box do you have? And what type of ceiling is it (e.g., drywall, plaster)?",
+      "response_time": 2.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 4.42,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's drywall, and the electrical box is the standard metal type. The problem is the bracket doesn't seem to align properly with the holes in the box. I'm so frustrated right now!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration! Misaligned holes are common. First, double-check that you have the correct bracket for your fan model. Second, try wiggling the bracket slightly while screwing it in. Sometimes the threads just need a little encouragement. If that doesn't work, try a different screw, or washers to give you more bite. And make sure the box can handle the fan weight. Does your box have a weight rating on it?",
+      "response_time": 2.27,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.75,
+        "benevolence": 2.91,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll try that. What do I do if the fan is too heavy for the box? (challenging question)",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very good question. If the fan is too heavy for the existing box, you'll need to replace the box with one rated for ceiling fans. These boxes are specifically designed to support the weight. The replacement process will involve cutting a larger hole in the ceiling, removing the old box and wiring, and then installing the new box. This often involves some structural reinforcement to the ceiling joist. Safety first! If you are unsure on that task, consider consulting an electrician for the box replacement.",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 3.67,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's a lot of work... I'll check the weight rating first. Thanks for the advice on the bracket, and the heads up on the box. I feel a lot more prepared now!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're very welcome! I'm glad I could help. Take your time and double-check everything as you go. Good luck with your fan installation! Let me know if you run into any more trouble.",
+      "response_time": 4.47,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.67,
+        "benevolence": 6.84,
+        "integrity": 6.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c45ad023",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.97,
+      "integrity": 4.88
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 3,
+      "anger": 2,
+      "joy": 2
+    },
+    "response_quality_score": 4.92,
+    "latency_score": 3.73
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some recommendations. I'm browsing for camping gear. It's a bit overwhelming with all the options!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Based on the 'camping gear' category, some popular items include tents, sleeping bags, portable stoves, and headlamps. Are you looking for anything specific within camping gear, or would you like me to narrow it down further based on, say, price range or intended use (e.g., backpacking, car camping)?",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.59,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's say I'm interested in a tent. I need something that's good for backpacking, lightweight is key. I've had some really bad experiences with heavy tents in the past.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it! For backpacking tents, I'd recommend looking at models from brands like Big Agnes, MSR, and Nemo. These are known for their lightweight designs and durability. Could you provide a target budget so I can provide more specific recommendations?",
+      "response_time": 5.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.77,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those brands sound familiar. Let's say my budget is...under $300. Is that realistic for a decent backpacking tent these days? It feels like prices have gone up a lot!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, finding a quality backpacking tent under $300 is definitely achievable. The ALPS Mountaineering Lynx 1-Person Tent and Kelty Grand Mesa 2 Person Tent are two popular options that often fall within that price range and are praised for their balance of weight and affordability. However, keep in mind that prices may vary based on retailer and current sales.",
+      "response_time": 4.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.33,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's great, thanks! One last thing: how do you *really* know those tents are good for backpacking? What's the actual weight, and how do you avoid recommending stuff that's actually too heavy, based just on a category?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_850af257",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.97,
+      "benevolence": 4.9,
+      "integrity": 5.0
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 5.07,
+    "latency_score": 2.91
+  }
+}

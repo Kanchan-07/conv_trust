@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with a doctor.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help you with that. Could you please tell me which doctor or specialty you're looking for, and the reason for your visit?",
+      "response_time": 5.1,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need to see someone about persistent headaches. My primary care doctor, Dr. Evans, said I might need to see a neurologist. Can I book an appointment with Dr. Anya Sharma?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Dr. Anya Sharma, Neurology, for persistent headaches. Got it. What dates or times would work best for you?",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 3.59,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm pretty flexible next week, but I really prefer early mornings, like before 9 AM, or late afternoons, say after 3 PM. Anything in between is tricky with my work schedule. Can you find something soon? These headaches are driving me crazy!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Searching for early morning or late afternoon appointments with Dr. Sharma next week... I see several openings. For early morning, there's Tuesday at 8:15 AM and Thursday at 8:45 AM. For late afternoon, there's Wednesday at 3:30 PM and Friday at 4:00 PM. Which of these times would you like to book?",
+      "response_time": 2.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.39,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, Tuesday 8:15 AM looks good. But wait, my insurance requires a referral for a specialist, right? Do I need to have the referral processed *before* I book this appointment, or can I book it and then get the referral sent over?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Regarding referrals, clinic policy usually requires the referral to be received and processed *before* the appointment can be confirmed and attended, to ensure coverage. You can book the appointment slot now, but please ensure your primary care doctor's office sends the referral over as soon as possible. We can hold the spot for a short period, but it's best to confirm the referral is on its way.",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.59,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, that's a bit of a hassle. So I book it, but it's not guaranteed until the referral is in? Alright, let's go ahead and book the Tuesday 8:15 AM slot anyway. I'll call Dr. Evans' office right after this.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4f7c2ef9",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 4.64,
+      "integrity": 4.78
+    },
+    "engagement_score": 5.7,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "fear": 1,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 3.98
+  }
+}

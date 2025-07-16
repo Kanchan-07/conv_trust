@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm writing in about my latest bill. It's much higher than usual, and I can't figure out why. My account number is 1234567890.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I can help you with that. Please allow me a moment to access your account information. Okay, I have your account details now. I see a charge for $250.00. Can you tell me what your typical bill amount is?",
+      "response_time": 5.64,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.14,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Usually it's around $100, maybe $120 at the most. $250 is ridiculous! I haven't changed my usage at all. What could possibly cause such a huge jump?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, one moment. I'm checking your usage details. I see a significant increase in data usage this month. Did anyone in your household download any large files or stream a lot of video content?",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 3.58,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, not that I'm aware of. My kids have been at their grandparents' house most of the month, and I've been working. Could my Wi-Fi have been hacked or something? How can I verify that I am the only one using my internet?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question. To determine if your network has been compromised, you could try changing your Wi-Fi password to a strong, unique password. Additionally, you could check the devices connected to your network through your router's administration panel. I am also going to apply a one-time $50 credit to your account as a gesture of goodwill.",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.62,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks for the credit. I'll check my router settings and change my password. Hopefully, that will prevent this from happening again. I appreciate your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6b98905a",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.11,
+      "integrity": 4.55
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "joy": 1,
+      "anger": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 3.72
+  }
+}

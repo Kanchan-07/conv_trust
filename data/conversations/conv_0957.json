@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York (JFK) to Los Angeles (LAX) sometime next week. I'm flexible on the exact date, but I'd prefer a non-stop flight if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for non-stop flights from JFK to LAX for next week. Can you tell me what day of the week you'd prefer to depart?",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.12,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's say Tuesday or Wednesday. And price is a big factor. I'm really trying to keep it under $400 if that's even possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for non-stop flights from JFK to LAX on Tuesday, July 9th and Wednesday, July 10th, with a maximum price of $400. One moment... Okay, the cheapest non-stop flight I'm seeing on Tuesday is with JetBlue for $425. Wednesday has a United flight for $410. Both are basic economy.",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 3.62,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's still a little more than I wanted to spend. Are there any flights that are *close* to non-stop? Like, maybe one quick layover? And how much would those be?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me adjust the search. Looking for flights with one layover from JFK to LAX on Tuesday and Wednesday next week, keeping the budget under $400. Hmm, I am seeing an American Airlines flight on Wednesday with one stop in Dallas for $385. The layover is 1 hour and 30 minutes. Is that acceptable?",
+      "response_time": 3.24,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.17,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, Dallas is a pretty big airport, that layover makes me nervous. If the first flight is delayed, will American rebook me on the next available flight to LAX without charging me extra? What's their policy on that?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Generally, airlines will rebook you on the next available flight if your connection is missed due to a delay on their end. However, to confirm American Airlines' specific policy, I recommend visiting their website or contacting their customer service directly. Their policies can sometimes vary based on the fare class.",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.71,
+        "integrity": 4.45
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4205d2af",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.08,
+      "benevolence": 3.91,
+      "integrity": 3.88
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 7,
+      "fear": 1
+    },
+    "response_quality_score": 3.87,
+    "latency_score": 4.48
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really tired and run down lately. I've also been getting headaches more often than usual. What should I do?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. It's important to address these symptoms. To start, can you tell me more about your headaches? Where do you feel the pain, and how intense is it on a scale of 1 to 10?",
+      "response_time": 5.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.76,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's usually a dull ache, mostly on my forehead and sometimes behind my eyes. It varies, but maybe a 4 or 5 out of 10. The fatigue is constant though, I'm exhausted all the time, which is super frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see. These symptoms can be caused by a variety of factors, from stress and dehydration to more serious medical conditions. Are you currently taking any medications or supplements?",
+      "response_time": 1.42,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.54,
+        "benevolence": 2.66,
+        "integrity": 2.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I take a multivitamin and a daily allergy pill. Nothing else. But honestly, I'm a bit confused. How can I tell if it's something serious?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very valid question. Differentiating between a minor issue and something more serious can be tricky. Things like sudden, severe headaches, fever, vision changes, or neurological symptoms like weakness or numbness warrant immediate medical attention. Given your symptoms, if they persist or worsen, it's best to consult a doctor for a proper diagnosis and treatment plan. I am programmed to provide information and cannot provide medical advice.",
+      "response_time": 1.77,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.13,
+        "benevolence": 2.05,
+        "integrity": 2.32
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. So, is there anything I *can* do right now that might help? Like, any general advice?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. First, ensure you're staying well-hydrated. Drink plenty of water throughout the day. Make sure you're getting enough sleep (aim for 7-9 hours). Manage your stress levels through relaxation techniques like deep breathing or meditation. Also, a balanced diet can play a big role. If the symptoms persist after following these suggestions, contacting a medical professional is suggested.",
+      "response_time": 5.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.96,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. I'll try those things. I appreciate your help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d95f510b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.8,
+      "benevolence": 4.11,
+      "integrity": 3.86
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 3.67,
+    "latency_score": 3.99
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm working on my resume for a software engineer position and I'm completely stuck on the 'Skills' section. How detailed should I get? Like, list every single programming language and tool I've ever touched, or just the main ones? It feels overwhelming!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! It's understandable to feel overwhelmed with the skills section. Generally, it's best to list skills relevant to the jobs you're applying for. You can categorize them (Programming Languages, Frameworks, Tools, Databases, etc.) and include skills mentioned in job descriptions you're interested in. Listing skills you are proficient in and are commonly used in your target roles is more effective than listing everything.",
+      "response_time": 2.9,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.71,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense for tailoring. But what about something like 'Agile Methodologies'? I've worked in Agile teams, but I'm not, like, a certified Scrum Master or anything. Should I list that? And also, the job description mentions 'experience with CI/CD pipelines'. I know what they are, and I've *used* them, but I've never set one up from scratch. How do I word that without making it sound like I'm an expert when I'm not? It feels like I'm underselling myself if I don't mention it, but I don't want to misrepresent my experience either. Ugh, this is frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Regarding 'Agile Methodologies', it's common to list this if you have experience working within Agile frameworks, even without certification. You can list it under 'Methodologies' or 'Skills'. For CI/CD pipelines, if you've actively used them and understand their function, you can state 'Experience using CI/CD pipelines' or similar phrasing. It focuses on your practical interaction rather than implying setup expertise. Just highlight what you *have* done. Focus on action verbs and quantifiable achievements where possible in your experience section to back up your skills.",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.79,
+        "integrity": 3.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_336416a4",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 3.75,
+      "integrity": 4.04
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 2,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.94,
+    "latency_score": 4.55
+  }
+}

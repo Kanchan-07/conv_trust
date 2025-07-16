@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really struggling with my calculus homework. Can you help me understand related rates?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that! Related rates problems can be tricky. Let's start with a basic example. Suppose we have a ladder sliding down a wall. The ladder is 10 feet long, and the bottom of the ladder is sliding away from the wall at a rate of 2 ft/s. How fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 feet away from the wall? I can walk you through the steps.",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.12,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I think I follow that. So we use the Pythagorean theorem, right? Then... I get lost in the derivatives. Could you show me that part step-by-step? I'm so confused!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely. Here's the breakdown of the derivative part. Let's call the distance from the wall to the bottom of the ladder 'x', and the height of the ladder on the wall 'y'. Then, x\u00b2 + y\u00b2 = 10\u00b2. Differentiating implicitly with respect to time 't', we get 2x(dx/dt) + 2y(dy/dt) = 0. Now, plug in the known values, and solve for dy/dt when x=6.  Does that make sense? And then, what if the rate of change of x, dx/dt, was NOT constant? How would that change the problem?",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.05,
+        "benevolence": 1.0,
+        "integrity": 1.33
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Whoa, okay, I see it now! The implicit differentiation makes sense. Thanks! Wait... if dx/dt isn't constant... hmm... That's a tough one... Would we need to integrate the rate of change somehow? That's even more confusing... Let's skip that for now. I feel much better about this problem now. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d73f983c",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.39,
+      "benevolence": 2.56,
+      "integrity": 2.54
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "surprise": 2
+    },
+    "response_quality_score": 2.46,
+    "latency_score": 5.48
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really overwhelmed with my finances right now. I don't even know where to begin with planning.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! It's completely understandable to feel that way when starting out. I can help guide you through the process step-by-step. To begin, could you tell me a little about your current financial goals? For instance, are you focused on saving for something specific, paying down debt, or long-term planning like retirement?",
+      "response_time": 5.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.58,
+        "benevolence": 5.58,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, mostly I need to get control of my spending first. I feel like money just disappears. And I have some annoying credit card debt that I feel like I'm barely making a dent in. I also feel like I *should* be saving for the future or investing, but honestly, that just sounds complicated and scary.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for sharing that. Those are very common financial challenges, and it's great that you're ready to address them. A good starting point to understand where your money is going is creating a budget. Have you attempted budgeting before, perhaps using an app or a spreadsheet?",
+      "response_time": 4.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.78,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I tried a budgeting app once, but I found it confusing to set up, and honestly, just looking at the numbers made me feel worse about my spending. It was demotivating. How am I supposed to manage spending, pay off debt, *and* save or invest? Which one is most important? Like, is there a specific formula or order I *must* follow to be successful?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It can certainly feel like a juggling act, and it's common to feel demotivated if the initial budget review is difficult. While there isn't one single 'magic formula' that works for everyone, a widely accepted approach is to prioritize building a small emergency fund first, then aggressively tackling high-interest debt (like most credit cards), and finally focusing on broader savings and investing goals. The 'best' order can depend on your specific debt interest rates and your comfort level with risk.",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.93,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that explanation about high-interest debt makes more sense than just 'pay off debt'. I guess I need to look at those interest rates. But still, figuring out the exact steps and how much goes where feels really overwhelming. It's just... a lot to process.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c90b84d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.56,
+      "benevolence": 5.76,
+      "integrity": 5.85
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 3,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.86,
+    "latency_score": 2.93
+  }
+}

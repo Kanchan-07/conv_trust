@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling a bit lost in my career. I've been in my current role for 5 years and I'm not sure where to go next.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. It's common to feel that way. To get started, could you tell me a bit about your current role and what aspects you enjoy, and dislike?",
+      "response_time": 4.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.51,
+        "integrity": 5.85
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'm a Project Manager. I like the problem-solving aspect and the team collaboration, but I'm starting to get burnt out on the constant deadlines and pressure.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's helpful. Based on your preferences, have you considered roles with similar problem-solving and collaboration aspects, but potentially less deadline pressure? For example, maybe a Business Analyst or Agile Coach role?",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.22,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've thought about it, but I'm not sure I have the right skills for those roles. I feel like I'm missing something crucial, and it's frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's assess your skills. Can you list the software and methodologies you currently utilize?",
+      "response_time": 3.07,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 3.86,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I use Jira, Confluence, and MS Project. I'm very familiar with Agile methodologies.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's great! Knowing that, are there any certifications you could get to make your transition easier?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's a really good question. How do I determine which certifications are most valuable for my career goals? There are so many!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I can assist with that. Based on your current skillset, a PMP or PMI-ACP certification can give you a boost. Also, searching on job boards for roles you want and noting the required skills and certifications can also help inform your decision.",
+      "response_time": 5.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.24,
+        "integrity": 5.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_49e233e1",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.35,
+      "benevolence": 5.17,
+      "integrity": 5.2
+    },
+    "engagement_score": 4.88,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "anger": 1,
+      "joy": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.05,
+    "latency_score": 3.12
+  }
+}

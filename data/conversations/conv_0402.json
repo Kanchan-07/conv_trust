@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a claim denial - claim number is 12345ABC. It was for a tonsillectomy for my daughter, and it was denied. I'm so frustrated, I don't understand why!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your frustration. Let me pull up claim 12345ABC. One moment... Okay, I see it here. The initial denial reason states 'Lack of Prior Authorization'. Do you recall obtaining prior authorization for the procedure?",
+      "response_time": 3.55,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.95,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Prior authorization? No, I don't think so. The doctor's office scheduled everything; I assumed they took care of that. Why didn't they tell me?! This is ridiculous!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Often, the responsibility for obtaining prior authorization rests with either the provider's office or the member. While I can't speak to their internal processes, I can explain the next steps for appealing the denial. You'll need to submit documentation from your physician justifying the medical necessity of the tonsillectomy and a statement indicating why prior authorization was not obtained.",
+      "response_time": 3.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.72,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay... but what kind of documentation are we talking about? And how do I even submit it? And how long will that even take? This sounds like a nightmare.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good questions. Acceptable documentation includes clinical notes, lab results, and any other information that supports the medical necessity. You can submit the documentation via mail, fax, or through our secure online portal. The mailing address and fax number are available on our website under 'Claims & Appeals'. Processing times for appeals are typically 30-60 days from the date we receive all required documentation.",
+      "response_time": 5.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.9,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "30 to 60 days?! Seriously? Is there any way to expedite that? My daughter is still having problems, and I'm worried about the bill going to collections. And if the doctor's office made a mistake, are they liable for any of this?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While I cannot guarantee an expedited review, you can include a statement explaining the urgency of the situation with your appeal documentation. Regarding liability, that's a legal matter outside the scope of my expertise. You would need to consult with a legal professional to determine potential liability. However, you can also contact the doctor's office to see if they are willing to assist with the appeal process given the circumstances.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 3.61,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thank you for your help. It's still frustrating, but at least I have a direction now. I'll try contacting the doctor's office first. I appreciate you explaining everything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_42969eb1",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.29,
+      "integrity": 4.25
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 4,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.71,
+    "latency_score": 3.36
+  }
+}

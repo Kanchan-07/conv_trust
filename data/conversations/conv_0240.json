@@ -1,0 +1,134 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Diego for a few nights. Something near the Gaslamp Quarter, preferably.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. What dates are you looking at, and how many guests will there be?",
+      "response_time": 4.21,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.49,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It'll be from July 12th to July 15th, so three nights. And just two people.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Let me check availability for hotels near the Gaslamp Quarter in San Diego for July 12th to 15th, two guests. I'm showing several options. Would you like me to list them with prices, starting with the lowest?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.79,
+        "benevolence": 7.0,
+        "integrity": 6.74
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please. But also, could you tell me if any of them have free breakfast? That's pretty important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here are a few options with prices, and I'll indicate if they offer complimentary breakfast. The first is the \"Andaz San Diego\" at $350 per night, free breakfast not included. Next is \"The Keating Hotel by Pininfarina\" at $280 per night, free breakfast available. Finally, \"Hotel Solamar\" is $310 per night, also with complimentary breakfast.",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 4.31,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, interesting. Hotel Solamar sounds good. But, wait a minute... Why are some hotels in the Gaslamp charging resort fees on top of the room rate? That's so annoying! Is that included in the $310?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Checking on that for you now. I am sorry for any inconvenience. The $310 for Hotel Solamar does *not* include resort fees. The resort fee is $35 per night.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.14,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, okay. Is there anything else with free breakfast and NO resort fee? I'm starting to get frustrated.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Let me refine the search. Unfortunately, based on the criteria of your dates, location and free breakfast, there aren't any hotels with no resort fees. However, The Keating is still a good option at $280/night with free breakfast and the reviews mention the fees being manageable. Would you like me to check availability with them again?",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.17,
+        "integrity": 4.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a3781481",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.03,
+      "benevolence": 4.19,
+      "integrity": 4.02
+    },
+    "engagement_score": 5.7,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1,
+      "joy": 1,
+      "surprise": 1,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 4.21
+  }
+}

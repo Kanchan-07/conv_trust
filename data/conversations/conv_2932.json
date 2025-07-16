@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I just got paid, but my balance doesn't look quite right. Can you tell me what my current checking account balance is?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help you with that. For security purposes, could you please provide the last four digits of your checking account number?",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.61,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's XXXX. And actually, while I have you, I noticed a strange charge last week for $50 labeled 'Online Purchase'. I didn't make any online purchase of that amount. What is this charge, and how can I dispute it? This is really frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for confirming the account details. I can see the charge you're referring to. Transactions are typically posted with merchant information. To dispute a transaction, you would need to fill out a dispute form, which can be found on our website's support section. We'll investigate the charge once the form is submitted.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.85,
+        "integrity": 5.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a8f03b86",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.52,
+      "benevolence": 4.73,
+      "integrity": 4.97
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.66,
+    "latency_score": 4.09
+  }
+}

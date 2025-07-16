@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from Chicago to Miami for next week. Specifically, I'd like to fly out on the 18th and return on the 25th. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. Let me just pull up some flight options for you. Please wait a moment... Okay, I see several flights available. Do you have any airline preferences or a preferred time of day for departure or arrival?",
+      "response_time": 5.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.02,
+        "benevolence": 5.21,
+        "integrity": 5.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "United or American would be ideal. And I'd prefer to leave Chicago in the morning, say around 9 am. Returning to Chicago doesn't matter too much, but I'd like to arrive before dinner on the 25th. I'm getting frustrated because I already checked a few websites!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I've filtered the results to include United and American flights departing Chicago around 9 am on the 18th and returning on the 25th, arriving in Miami before dinner. I've found a flight with American Airlines that departs at 9:15 am and arrives in Miami at 1:00 pm. The return flight departs Miami at 3:00 pm and arrives back in Chicago at 5:00 pm. The total price is $450. Would you like to book it? Note: This information is based on the best available data and may not be 100% accurate.",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.12,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait, that's not quite what I asked for. The return seems late, since I wanted to be back before dinner. Also, why does the return say 3pm? I'm confused. Is it possible to see all the available flights for the return on the 25th, with their respective prices, so I can compare? Can you also explain why the return flight information is so vague?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for the confusion. My flight data is sometimes delayed. I am displaying a table now with various return flight options for the 25th, organized by arrival time. I also can provide more specific information, which will be available in approximately 30 seconds. Note that flight availability and pricing can change rapidly. Please let me know if any of these flights work for you, or if you'd like me to search for different criteria.",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.39,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8371c1bd",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.6,
+      "benevolence": 4.91,
+      "integrity": 4.66
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 5.34,
+    "latency_score": 3.3
+  }
+}

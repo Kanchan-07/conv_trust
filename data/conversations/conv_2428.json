@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having issues with my recent AR denials. Can you help me understand why my claims keep getting rejected?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To start, could you provide me with the denial codes and the dates of service for the rejected claims? This will help me pinpoint the reasons for the denials.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.73,
+        "integrity": 6.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, one of the denial codes is CO-29, and another is N123. The dates of service range from last month to about three months ago. This is really frustrating; I need to get these processed.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. CO-29 usually indicates that the procedure code requires a modifier, or the modifier used is not correct. N123 suggests the claim lacks information needed for adjudication. Can you tell me, do you have any thoughts as to why a modifier might be missing? Also, could you provide the specific procedure codes for the rejected claims? And, actually, do you know *why* some claims require modifiers, generally speaking?",
+      "response_time": 2.09,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.34,
+        "benevolence": 2.54,
+        "integrity": 2.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I'm not a coding expert. I know some procedures require modifiers based on the site of the procedure. I'd need to look up the specific codes and then figure out the correct modifiers. Also, would you be able to tell me if there's a common denial reason for the codes I provide? Maybe an error in the system, since there's more than one denial?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8e04225e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.67,
+      "benevolence": 4.63,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.62,
+    "latency_score": 3.46
+  }
+}

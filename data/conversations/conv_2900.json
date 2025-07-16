@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really struggling with solving equations. Especially when there are variables on both sides. It just gets messy and I don't know where to start. Can you help me with the basics?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Solving equations with variables on both sides involves collecting like terms. The main goal is to get all the terms with the variable on one side of the equation and all the constant terms on the other. We achieve this by using inverse operations. Would you like to go through a simple example to see the process?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.72,
+        "integrity": 5.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "An example would be good, yeah. But what about something harder? Like, what if there are fractions AND variables on both sides, AND parentheses? For example, 1/3 * (x + 6) = 1/2 * x - 2. My brain just melts trying to figure out the first step, let alone solving it.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great, challenging example! Don't worry, those types of equations can seem intimidating, but they follow the same core principles. A very effective first step when dealing with fractions in an equation like that is to multiply *every term* on *both sides* of the equation by the least common denominator (LCD) of all the fractions involved. In your example, the denominators are 3 and 2, so the LCD is 6. Multiplying everything by 6 will eliminate the fractions, making the equation much simpler to work with before you tackle the distribution and combining terms. Does that initial step make sense?",
+      "response_time": 4.59,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.18,
+        "integrity": 5.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eec3c643",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.97,
+      "benevolence": 5.45,
+      "integrity": 5.05
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 1,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.69,
+    "latency_score": 3.54
+  }
+}

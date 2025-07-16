@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm starving! What are some good options for dinner near me right now? I'm in the downtown area.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you find something delicious downtown! To narrow it down, are you looking for a specific type of cuisine, or are you open to different kinds of food?",
+      "response_time": 2.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 3.77,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "That's the problem, I don't even know what I want! Just something really good, you know? Something highly-rated. Actually, what's the absolute *best* place with really unique dishes downtown that's open late and does delivery?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Finding the 'absolute best' can be tricky as tastes vary, but based on high ratings and unique menus, I can suggest a few popular options downtown that offer delivery and are often open late. How about 'Fusion Flavors' (known for creative global dishes), 'The Secret Garden Bistro' (unique farm-to-table concept), or 'Late Night Bites' (diverse menu, specifically caters to late hours)? They all have good reviews for their unique offerings.",
+      "response_time": 5.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.9,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay... Fusion Flavors sounds interesting. Are you positive they're open *late* specifically tonight? Because last time I tried ordering late, the hours were wrong online and it was closed. That was so annoying!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_46ec5042",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 4.83,
+      "integrity": 4.52
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "surprise": 2
+    },
+    "response_quality_score": 5.17,
+    "latency_score": 3.28
+  }
+}

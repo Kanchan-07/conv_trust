@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order but the tracking number isn't working. It's #12345ABCDE.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Let me look into order #12345ABCDE. Could you please confirm the email address associated with the order?",
+      "response_time": 5.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.58,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's myemail@example.com. This is getting frustrating, I really need this package soon.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've located the order. It appears there might be a slight delay with the shipping carrier. The tracking information hasn't updated yet, but the package is indeed en route. I expect the tracking to update within 24 hours. Estimated delivery is still showing as July 27th.",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.03,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, July 27th... But what if it doesn't update in 24 hours? What's the procedure then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If the tracking doesn't update in 24 hours, please contact us again and we'll escalate the issue with the shipping carrier to get a more detailed update on its location.",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 4.07,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright. So, hypothetically, if the package is lost, what kind of compensation do you offer? Full refund? Replacement? Store credit?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "In the unfortunate event that a package is confirmed as lost, we typically offer a full refund or a replacement of the item, depending on availability and your preference. Store credit is also an option if you'd prefer that.",
+      "response_time": 1.77,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.8,
+        "benevolence": 2.89,
+        "integrity": 2.68
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's good to know. Thanks for the info, I guess I'll wait and see if it updates tomorrow. Appreciate your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! I am glad I could assist. Is there anything else I can help you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.99,
+        "integrity": 6.88
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a0d9688a",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 5.07,
+      "benevolence": 4.91,
+      "integrity": 4.82
+    },
+    "engagement_score": 4.49,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 5.35,
+    "latency_score": 2.89
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. Can you recommend some based on my past purchases?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. Based on your purchase history, I see you've previously bought shoes from Brooks and Hoka. Considering your past preferences, I recommend the Brooks Ghost 15 and the Hoka Clifton 9. Would you like more details on either of these?",
+      "response_time": 5.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.4,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "The Ghost 15s seem interesting. What's the main difference between those and the Glycerin 20s, which I also see I bought before? I felt like those didn't last as long as I'd hoped.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Good question! The Glycerin 20 offers a plusher cushioning experience, prioritizing comfort. The Ghost 15, while still cushioned, focuses on a more balanced ride and tends to be a bit more durable. They also have slightly different upper materials. The Ghost 15 might better suit your needs given your previous experience with the Glycerin 20.  Would you like links to compare them?",
+      "response_time": 5.43,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.85,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's helpful. Okay, what about the Hoka Clifton 9? I haven't tried those before. Can you give me a quick pros and cons list compared to the Brooks Ghost 15?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here's a quick comparison:\n\nHoka Clifton 9:\nPros: Lighter weight, more cushioning, and a smoother ride.\nCons: Potentially less durable than the Ghost 15, may feel less stable for some runners.\n\nBrooks Ghost 15:\nPros: Excellent durability, good balance of cushioning and responsiveness, stable feel.\nCons: Can feel a bit heavier than the Clifton 9.\n\n\nI do have to say, compiling this list took me a while. Sorry about the delay. I'm still learning to do that quickly.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 3.85,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Great! Thanks! That was exactly what I needed. I think I'll try the Brooks Ghost 15. Can you provide a link to the product page and check if my size is in stock?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9ef24a7a",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.1,
+      "benevolence": 5.03,
+      "integrity": 4.87
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.7,
+    "latency_score": 2.8
+  }
+}

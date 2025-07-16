@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, my printer is completely dead again. It won't print anything and the lights are all weird. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand that's frustrating. I'm here to help. To start, could you please tell me the model number of your printer and describe which lights are on or blinking?",
+      "response_time": 2.11,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.23,
+        "benevolence": 2.11,
+        "integrity": 2.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's an HP Envy 6055e. The power light is solid white, but the Wi-Fi light is off and the 'i' button is blinking orange. I've already tried unplugging it and plugging it back in like you always say. Why would it suddenly stop working if nothing changed? Could the print head just be totally jammed even though I just replaced the cartridge?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the model number and light status. A blinking orange 'i' light often indicates an error state or a problem with the Wi-Fi connection or setup process. While a jammed print head is a possibility, the combination of the Wi-Fi light being off and the blinking 'i' suggests a connection issue is more likely. Since you've already tried a power cycle, let's try initiating a Wi-Fi setup reset on the printer itself. This usually involves holding down a specific button combination. Do you have the printer manual handy, or would you like me to look up the steps for that model?",
+      "response_time": 4.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.74,
+        "integrity": 5.87
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c238efca",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.97,
+      "benevolence": 3.92,
+      "integrity": 4.26
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.63,
+    "latency_score": 4.01
+  }
+}

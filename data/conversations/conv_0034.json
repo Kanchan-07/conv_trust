@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Emily Carter. It's been a real pain trying to get through on the phone.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help you schedule an appointment with Dr. Carter. Do you have a preferred date or time range?",
+      "response_time": 1.85,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.11,
+        "benevolence": 2.76,
+        "integrity": 2.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm pretty flexible, but ideally sometime next week. Mornings work best for me.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me check Dr. Carter's availability next week. One moment... It looks like she has an opening on Tuesday at 9:00 AM and another on Thursday at 10:30 AM. Would either of those work?",
+      "response_time": 3.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 3.9,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tuesday at 9:00 AM sounds perfect. What do I need to do to confirm?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I have tentatively scheduled you for Tuesday at 9:00 AM. To confirm, can you please provide your date of birth and insurance provider?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.45,
+        "integrity": 1.21
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Sure, it's 03/15/1988. And my insurance is Blue Cross Blue Shield. One question, though - is this a telehealth appointment or in person? I kind of assumed it was in person, but just want to double check.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Checking... This appointment is currently scheduled as an in-person visit. Do you prefer telehealth?",
+      "response_time": 5.91,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.07,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, in-person is fine! Thanks so much for your help, this was way easier than calling.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d6b352c5",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.25,
+      "benevolence": 3.29,
+      "integrity": 3.11
+    },
+    "engagement_score": 4.72,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 3.57,
+    "latency_score": 4.64
+  }
+}

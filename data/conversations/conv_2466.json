@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a package. It was supposed to be delivered two days ago and the tracking hasn't updated since. The tracking number is 9876543210.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. Let me check the status of tracking number 9876543210 for you. One moment, please.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.71,
+        "benevolence": 6.51,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thank you. It's showing as 'In Transit' with the last scan in Chicago two days ago, but the delivery date keeps getting pushed back. I'm getting really frustrated because I need this item soon.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Looking at the system, the last scan does indeed show the package processed in Chicago. There seems to be a slight delay in movement through that facility. While an exact cause isn't specified in the public tracking, it's still on its way. The current estimated delivery date is [Date 3-4 days from original].",
+      "response_time": 1.39,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.58,
+        "benevolence": 2.45,
+        "integrity": 2.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A slight delay? It's been stuck there for two days with no update! Is it lost? Or is there some major problem in Chicago you're not telling me? What exactly does 'slight delay in movement' even mean?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the lack of a more specific update. 'Slight delay in movement' is our internal note indicating that the package is still within our network but has not progressed to the next scan point as quickly as expected. This could be due to various factors like volume, weather impacting transit out of the facility, or internal processing. It does not currently indicate the package is lost. We anticipate it will resume movement shortly.",
+      "response_time": 1.83,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.56,
+        "benevolence": 2.79,
+        "integrity": 2.75
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So I just have to keep waiting and hoping? That's not very reassuring. Can you open an investigation or something official to get it moving? Just waiting feels useless.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_75adf636",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.95,
+      "benevolence": 3.92,
+      "integrity": 4.03
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 1,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.21,
+    "latency_score": 4.43
+  }
+}

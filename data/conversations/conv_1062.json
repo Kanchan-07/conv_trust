@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'd like to schedule an appointment with Dr. Anya Sharma. It's been difficult getting through on the phone.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can help with that. Can you please provide your full name and date of birth?",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.89,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's David Miller, and my birthday is August 15th, 1978. I really need to be seen soon, I've had this cough for weeks and I'm starting to get worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, David Miller, August 15th, 1978. I see. Dr. Sharma has availability on Tuesday the 22nd at 10:00 AM, or Thursday the 24th at 2:30 PM. Which works better for you?",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.47,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, those are both difficult. Tuesday is probably better, but is there *anything* earlier? I know it's a long shot, but this is really bothering me. Also, will this be a telehealth appointment or in-person?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check. Unfortunately, I don't see anything earlier with Dr. Sharma. However, Dr. Chen has an opening on Monday the 21st at 9:00 AM. Would you like to see Dr. Chen instead? As for your second question, all appointments are currently being scheduled as in-person visits unless you specifically request a telehealth appointment and it's deemed appropriate by the doctor during a brief pre-screening. Do you wish to request a telehealth appointment for either doctor?",
+      "response_time": 1.52,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.03,
+        "benevolence": 2.94,
+        "integrity": 2.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_15e905cb",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.19,
+      "benevolence": 3.77,
+      "integrity": 3.5
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.29,
+    "latency_score": 5.18
+  }
+}

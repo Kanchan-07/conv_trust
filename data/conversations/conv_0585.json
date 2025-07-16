@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a denial I received. Claim number is 1234567890. It was for a service provided on October 26th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, thank you. Let me pull up claim 1234567890 for the service date of October 26th. One moment... Okay, I see the claim. Can you tell me which aspect of the denial you are inquiring about?",
+      "response_time": 3.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 4.3,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It says 'non-covered service'. But this is a standard annual physical! It's *supposed* to be covered under my plan. What's going on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Let me check the details of your plan and the specific coding used for the physical. Sometimes a simple coding error can trigger a denial. Please hold.",
+      "response_time": 4.03,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 4.14,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, this is frustrating. I swear, dealing with insurance is always a hassle.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I've reviewed the claim and your plan details. It appears the denial was due to frequency limitations. Your plan only covers one preventative physical per calendar year, and our records show you had a physical on January 15th of this year. ",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.56,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense, but the January physical was specifically for a sports injury, and was coded as such. So should that have been different?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid point. However, the system may not have recognized the distinction clearly. To proceed, I'll need you to send us the documentation from the January visit highlighting that the visit was solely related to a sports injury. This will help us distinguish it from your preventative physical in October.",
+      "response_time": 3.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.71,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, I can do that. Where should I send it, and what kind of timeframe are we looking at before I hear back?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You can fax it to 555-123-4567, or upload it through our secure portal on our website, insuranceprovider.com. Once received, please allow 7-10 business days for processing. We will notify you of the updated claim status. Is there anything else I can assist you with today?",
+      "response_time": 5.55,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.8
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_89dbe547",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.69,
+      "benevolence": 4.54,
+      "integrity": 4.49
+    },
+    "engagement_score": 5.19,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 3.74
+  }
+}

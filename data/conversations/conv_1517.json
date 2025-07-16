@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with my physics homework. Can you help me understand projectile motion?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can definitely help with that. Let's start with the basics. Do you have any specific questions, or would you like a general overview?",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.15,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I think I get the general idea, but I'm having trouble with the calculations involving the angle of projection. The formulas are confusing, and I keep getting the wrong answers. For example, how do I calculate the range of a projectile given its initial velocity and launch angle?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. The range (R) of a projectile can be calculated using the formula: R = (v\u2080\u00b2 * sin(2\u03b8)) / g, where v\u2080 is the initial velocity, \u03b8 is the launch angle, and g is the acceleration due to gravity (approximately 9.8 m/s\u00b2). Would you like me to walk you through a specific example?",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.67,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please. Let's say the initial velocity is 20 m/s and the launch angle is 30 degrees. What is the range? I am getting a wrong answer.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let's calculate that. Using the formula: R = (20\u00b2 * sin(2 * 30\u00b0)) / 9.8. That gives us R = (400 * sin(60\u00b0)) / 9.8. Sin(60\u00b0) is approximately 0.866. Therefore, R = (400 * 0.866) / 9.8, which is roughly 35.3 meters. Did you get a different answer? If so, can you describe how you got your answer so I can help identify the error?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 3.7,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I think I finally understand! Thanks so much. Now, a much harder question... if we account for air resistance, how would the formulas change? I am incredibly frustrated trying to solve that. No worries if you can't answer.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6ad1ed86",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.43,
+      "benevolence": 4.17,
+      "integrity": 4.86
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 4.88,
+    "latency_score": 3.63
+  }
+}

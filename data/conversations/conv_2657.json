@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check the status of a claim for patient John Doe.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can help with that. To look up the claim, I'll need a little more information. Could you please provide the patient's date of birth and the date of service for the claim you're inquiring about?",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.83,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, sure. His date of birth is 05/15/1978 and the service date was 11/20/2023. Why does it always take so long to get these claims processed?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Processing times can vary depending on the payer and the complexity of the claim. Let me check the status for the claim with date of service 11/20/2023 for John Doe (DOB 05/15/1978).",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.56,
+        "integrity": 5.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, waiting... Oh great, it's denied again? This is so frustrating! Why was it denied this time? It was for a standard office visit!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I see the status is indeed 'Denied'. The denial reason indicated is 'Insufficient Medical Necessity'. This means the payer determined the service provided did not meet their criteria for being medically necessary based on the documentation submitted.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.13,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Medical necessity? But the patient clearly needed to be seen! How do I appeal this kind of denial, specifically when it's based on their subjective review of necessity? Do I just resubmit the same notes?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Appealing a medical necessity denial typically involves submitting a formal appeal letter along with supporting clinical documentation. You would need to review the payer's specific appeal process.",
+      "response_time": 3.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.22,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Right, I know *that*. But what specific *kind* of documentation are they usually looking for when they say 'insufficient medical necessity' for an office visit? Is there a standard format or type of note that addresses this? Just saying 'submit documentation' isn't very helpful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I cannot provide specific clinical advice, payers often look for detailed progress notes that clearly outline the patient's symptoms, diagnosis, assessment, plan, and how the service aligns with accepted medical standards and the patient's condition on that specific date. Highlighting the severity or acuity can be important. Reviewing the payer's clinical policy for that service code can also offer clues. I recommend consulting with the provider or a coding specialist to ensure the documentation fully supports the necessity.",
+      "response_time": 1.33,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.09,
+        "benevolence": 2.48,
+        "integrity": 2.45
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d72997f6",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.35,
+      "benevolence": 3.42,
+      "integrity": 3.44
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1,
+      "anger": 2
+    },
+    "response_quality_score": 3.51,
+    "latency_score": 4.92
+  }
+}

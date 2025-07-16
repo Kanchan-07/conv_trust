@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. My landlord is trying to keep my entire security deposit, and I don't think they have a valid reason. They're claiming damages that were definitely normal wear and tear. What can I even do about this?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand this is a frustrating situation. As an AI assistant, I cannot provide legal advice, but I can offer general information. Landlord-tenant laws vary significantly by location. Generally, landlords can only withhold a security deposit for reasons like unpaid rent or damages beyond normal wear and tear. You typically need to receive an itemized list of deductions. What state are you located in, and have you received anything in writing from your landlord explaining the deductions?",
+      "response_time": 1.99,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.72,
+        "benevolence": 2.56,
+        "integrity": 2.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I got a letter, but their reasons seem completely bogus. I'm in California. They're claiming repainting the whole apartment is my fault after only two years, and replacing a carpet because of a small stain under a rug that was already there when I moved in! That doesn't sound like valid reasons for withholding the whole deposit in California, does it? How can I prove this is just wear and tear?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "In California, landlords must provide an itemized statement and return the deposit within 21 days of you moving out. Deductions are limited to unpaid rent, cleaning necessary to return the unit to the same level of cleanliness as when you moved in, and repair of damages beyond normal wear and tear. Regarding specific items like repainting or carpet replacement, California law distinguishes between normal wear and tear and damage. Repainting after only two years might be questionable depending on the circumstances, and a pre-existing stain would generally not be your responsibility. However, determining whether something is 'normal wear and tear' versus 'damage' can be complex and often depends on specific facts and evidence. I cannot definitively say if their reasons are legally valid without reviewing all details, as this requires legal interpretation. To best protect yourself and challenge these deductions, you might consider writing a demand letter to your landlord citing relevant California Civil Code sections (like 1950.5) or consulting with a local tenant advocacy group or attorney who specializes in landlord-tenant law in California.",
+      "response_time": 0.51,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_67982850",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.86,
+      "benevolence": 1.78,
+      "integrity": 1.72
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 2.03,
+    "latency_score": 6.25
+  }
+}

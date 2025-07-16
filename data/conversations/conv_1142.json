@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally sitting down to update my resume. I'm applying for a Senior Marketing Manager role. Can you help me tailor it to the job description? I'm so overwhelmed!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Please provide me with the job description and your current resume. I can analyze them and suggest improvements to highlight relevant skills and experiences.",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.95,
+        "integrity": 5.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded both documents. I'm especially worried about the 'data-driven marketing' part of the job description. I've done some of that, but it's not my strongest area. How can I make it seem like I'm more experienced than I am, without, you know, *lying*?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. We definitely want to be truthful. Instead of exaggerating, focus on quantifiable achievements where you *did* use data, even if it was a smaller part of your role. For example, did you ever track campaign performance using analytics? Did you use A/B testing to improve conversion rates? Quantify the results whenever possible (e.g., 'Improved conversion rates by 15% through A/B testing'). Also, mention any relevant tools you're familiar with, such as Google Analytics or marketing automation platforms.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.23,
+        "integrity": 2.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But here's the thing: they want someone with experience in 'marketing automation platforms' specifically, and I only have limited experience with Mailchimp. Will that be a dealbreaker? Should I try to learn another platform quickly?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's good to be proactive. While learning a new platform could be beneficial, it might be more effective in the short term to highlight the transferable skills you gained using Mailchimp. Focus on concepts like email segmentation, campaign automation workflows, and performance analysis. Many platforms share similar underlying principles. Mention your willingness to learn new tools quickly and highlight any online courses or certifications you're pursuing related to marketing automation.",
+      "response_time": 5.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.3,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see. One last thing...they mentioned 'budget management experience'. I handled budgets before, but not *huge* ones. How much detail should I go into? I don't want to undersell myself, but I also don't want to be caught out if they ask specifics. This is so stressful!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "When discussing budget management, focus on the processes you followed, regardless of the budget size. Did you develop budget proposals? Track expenses? Analyze ROI? Highlight your understanding of budgetary principles and your ability to effectively allocate resources. Mention the approximate size of the budgets you managed, and emphasize your focus on maximizing ROI within budgetary constraints. Providing specific examples of successful budget management, even on a smaller scale, can demonstrate your competence.",
+      "response_time": 5.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.58,
+        "integrity": 5.04
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d01781d4",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.4,
+      "benevolence": 4.77,
+      "integrity": 4.48
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 5,
+      "fear": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.62,
+    "latency_score": 3.18
+  }
+}

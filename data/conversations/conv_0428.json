@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking for a new coffee maker, but I'm completely overwhelmed by all the choices on your site! Can you recommend something under $100 that makes at least 10 cups and has a programmable timer?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your criteria, I recommend the 'BrewMaster 3000' coffee maker. It's currently priced at $89.99, makes up to 12 cups, and has a programmable timer. It also has a great customer review rating of 4.5 stars. Would you like me to provide a link?",
+      "response_time": 5.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.66,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, a link would be great. Also, how does that one compare to the 'AromaTech X500'? I saw that one too, and it looks pretty similar, but it's slightly cheaper. What am I missing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Here's the link for the BrewMaster 3000: [example link]. Regarding the AromaTech X500, while it is cheaper, the BrewMaster 3000 generally receives higher marks for durability and ease of cleaning. The AromaTech X500 has been reported to have issues with the warming plate getting too hot. It's also worth noting that the BrewMaster has a self-cleaning function, which the AromaTech lacks.",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 3.66,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. One last question - how do you ensure your recommendations are unbiased? Seems like all the results are pointing me towards the BrewMaster. Are you just pushing your own products? This is kinda frustrating.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Our recommendations are based on a combination of factors, including customer ratings, sales data, and the specific features you requested. We also consider independent reviews and product specifications. While the BrewMaster 3000 fits your criteria well and has positive feedback, I can certainly provide you with a list of *all* coffee makers under $100 with a timer and 10+ cup capacity if you'd prefer to browse the full selection yourself. This might give you a broader perspective. Would you like me to do that?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.02,
+        "integrity": 4.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_40619dbe",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.45,
+      "integrity": 4.46
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.61,
+    "latency_score": 2.89
+  }
+}

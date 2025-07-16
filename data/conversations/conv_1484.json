@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel room in Chicago for next weekend. Something nice, with a good view.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. To narrow it down, what dates are you looking at, and what's your budget per night?",
+      "response_time": 3.81,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.16,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need the room from Friday, October 27th to Sunday, October 29th. Budget\u2026 maybe around $300-$400 a night, tops. Can you find something with a decent view of the lake?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly look for hotels with lake views within your budget. Please give me a moment to check. ... Okay, I have a few options. The Langham Chicago and the Trump International Hotel & Tower Chicago both have rooms available with lake views in your price range. Would you like me to provide more details on either of these?",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.71,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Trump? Really? I've heard mixed things about that place. What's the cancellation policy like on those rooms? And how many restaurants are there?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. The Trump International Hotel & Tower Chicago has a 24-hour cancellation policy, meaning you can cancel up to 24 hours before your check-in date for a full refund. There are three restaurants in the hotel. Would you like me to provide you with more info about those restaurants?",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.7,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds... okay. But I'm still not sold on the Trump. Show me the Langham details, and then if those are bad I'll just give up and find a different hotel myself. It's been a long day.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. The Langham Chicago offers rooms with panoramic views of the city and lake, has a 48-hour cancellation policy, and boasts two restaurants. The hotel also has a spa and fitness center. Rates are within your budget. Is there anything specific you'd like to know about the hotel before I proceed with booking?",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.04,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "The Langham sounds great! Okay, go ahead and book a room. I just hope it's as nice as it sounds. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0d858983",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.24,
+      "benevolence": 3.9,
+      "integrity": 3.78
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "joy": 2,
+      "anger": 1,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.56,
+    "latency_score": 4.41
+  }
+}

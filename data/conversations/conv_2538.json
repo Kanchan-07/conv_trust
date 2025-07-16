@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help with a package. The tracking hasn't updated in days and it was supposed to arrive by now.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear about the delay with your package. I can certainly look into that for you. Could you please provide the tracking number?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.13,
+        "benevolence": 1.0,
+        "integrity": 1.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, the tracking number is 9876543210FEDCB. It hasn't moved since the 15th, and today's the 18th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the tracking number. One moment while I access the shipping information... I see that the last scan was indeed on the 15th, showing it as 'In Transit' in your state.",
+      "response_time": 0.58,
+      "emotion_detected": "surprise",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.28,
+        "integrity": 1.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "'In Transit' doesn't help me! It's been 'In Transit' for three days without moving! Why is it stuck? Is there a problem with the package or just a general delay? I'm starting to get really worried and annoyed.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern and frustration. Unfortunately, the standard tracking information doesn't always specify the exact reason for a delay or the precise location during transit. Delays can sometimes occur due to high volume, weather, or unforeseen operational issues. Based on the lack of recent scans, it's possible there was a sorting issue or a temporary hold-up at a facility. I can open an investigation with the carrier on your behalf to try and get a more specific update or push for movement.",
+      "response_time": 2.18,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.85,
+        "benevolence": 2.65,
+        "integrity": 2.89
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, an investigation sounds like the right thing to do. Please open one. I just hope it actually helps find out where it is and gets it delivered quickly. Thanks for doing that, I guess.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_266a0587",
+    "average_trust_score": 1.5,
+    "trust_category_averages": {
+      "competence": 1.66,
+      "benevolence": 1.64,
+      "integrity": 1.73
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 2,
+      "surprise": 1,
+      "anger": 2
+    },
+    "response_quality_score": 1.9,
+    "latency_score": 6.41
+  }
+}

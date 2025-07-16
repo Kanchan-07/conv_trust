@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally tackling that bathroom remodel. I'm planning on tiling the shower myself, but I'm already stressed. Where do I even start with waterproofing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "No problem! Waterproofing is crucial. First, you'll want to thoroughly clean the shower walls and ensure they are structurally sound. Then, apply a waterproof membrane like RedGard or Hydro Ban according to the manufacturer's instructions. Pay special attention to corners and seams, using mesh tape for reinforcement. Let it cure fully before tiling. Does that make sense?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, that sounds... straightforward enough. But what about the shower pan? I've heard horror stories about leaks. Should I just hire someone for that part? I'm getting a headache just thinking about it.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "The shower pan is definitely a critical area. You have a few options. If you're feeling confident, you can install a pre-sloped shower pan. These are generally easier for DIYers as the slope is already built-in. If you prefer a traditional mortar bed, it's more complex and requires precise sloping to ensure proper drainage. For mortar beds, professional installation is often recommended to avoid leaks, but I can provide instructions if you'd like to proceed with that route.",
+      "response_time": 5.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.07,
+        "benevolence": 5.82,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, pre-sloped sounds much less terrifying. Are there specific brands or materials you'd recommend for a pre-sloped pan, considering I'm also using porcelain tiles? And are there any common mistakes people make that I should avoid like the plague?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_74209176",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.04,
+      "benevolence": 6.41,
+      "integrity": 6.02
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 3,
+      "fear": 2
+    },
+    "response_quality_score": 6.13,
+    "latency_score": 1.55
+  }
+}

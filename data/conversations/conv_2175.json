@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, my new smart coffee maker just stopped working! The screen is frozen, and it won't respond to anything. I've tried unplugging it, but nothing. This is incredibly frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am very sorry to hear that you are experiencing issues with your new coffee maker. Let's try a few troubleshooting steps. First, could you please confirm the model number of the coffee maker? It should be located on the bottom or back of the device. Also, can you describe the specific frozen screen message or any indicator lights that are on?",
+      "response_time": 1.9,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.17,
+        "benevolence": 2.5,
+        "integrity": 2.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the model number is CM-5000. The screen just says 'Initializing...' and nothing else. No lights are flashing, which is odd. I've already unplugged it for a while. What if there's a firmware problem? How would I even update the firmware if the screen won't turn on?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That is a challenging situation. Since the device won't initialize, a firmware update via the usual methods is impossible. However, the CM-5000 model has a hidden reset button. Please look on the bottom of your device for a small hole. Use a paperclip to press and hold the reset button for about 10 seconds. Afterward, plug the coffee maker back in and see if it starts normally. If this doesn't work, please contact our advanced support team directly, as they may have additional resources.",
+      "response_time": 2.16,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.47,
+        "integrity": 2.77
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c2668004",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.13,
+      "benevolence": 2.49,
+      "integrity": 2.82
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 2.58,
+    "latency_score": 5.47
+  }
+}

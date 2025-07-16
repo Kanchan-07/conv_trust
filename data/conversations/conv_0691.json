@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #12345. It was supposed to arrive three days ago, and I haven't received any updates.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, thank you for contacting us. I'm sorry to hear about the delay with order #12345. Let me look into that for you. Could you please confirm your full name and shipping address?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's Jane Doe, 123 Main Street, Anytown, USA, 54321. I'm really starting to get frustrated. This was a gift for my niece's birthday, and it's already late.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. I understand your frustration. I've checked the tracking information, and it appears the package is currently at our regional distribution center and is experiencing a slight delay due to unforeseen circumstances. The estimated delivery date is now showing as tomorrow.",
+      "response_time": 0.54,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.14,
+        "integrity": 1.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tomorrow? Seriously? What 'unforeseen circumstances'? Is that all you can tell me? I need more than that. Will it *definitely* be here tomorrow? What if it's not?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern, Ms. Doe. I am showing that the package is scheduled to be loaded onto a delivery vehicle later tonight. While I cannot guarantee 100% that it will arrive tomorrow, I can assure you that it is a high priority. The 'unforeseen circumstances' were related to a temporary staffing shortage at the distribution center. If it does not arrive tomorrow, please contact us again, and we can explore further options.",
+      "response_time": 5.74,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.78,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, fine. What are the 'further options'? Like, can I get a refund on the shipping at least? I paid extra for expedited shipping, and it's not exactly 'expedited' now, is it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a good question. Let me see about that... I am showing that a refund on the shipping cost can be processed if the package is delivered later than the guaranteed delivery date. Since it is already past that date, I can go ahead and initiate that refund for you now. It should appear in your account within 7-10 business days.",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 3.69,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that's\u2026 something, at least. Will I get an email confirmation of the refund?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, Ms. Doe. You will receive an email confirmation within the next 24 hours with details of the refund. Is there anything else I can assist you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f5983218",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.52,
+      "benevolence": 2.52,
+      "integrity": 2.7
+    },
+    "engagement_score": 5.48,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 2,
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 2.13,
+    "latency_score": 5.32
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I'm really in the mood for a good fantasy novel, something epic!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! Epic fantasy, got it. Have you read 'The Stormlight Archive' by Brandon Sanderson? It's a sprawling series with intricate world-building and a large cast of characters. A lot of people enjoy it.",
+      "response_time": 3.01,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.87,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I've tried Sanderson before, but it just didn't click for me. Too much focus on the magic system, not enough character development, you know? Something a bit more character-driven would be great.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. How about 'The Goblin Emperor' by Katherine Addison? It's a standalone novel, and while it has fantasy elements, it really focuses on the personal growth of the main character and his relationships with others. Very charming.",
+      "response_time": 3.7,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.6,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, sounds interesting. But how does it handle potentially problematic tropes often found in fantasy, like simplistic portrayals of good versus evil or reliance on chosen one narratives? I'm looking for something that subverts those expectations.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "'The Goblin Emperor' largely avoids those tropes. The conflict isn't a clear-cut 'good vs. evil' battle, but rather political maneuvering and personal biases. There's no 'chosen one'; the protagonist's strength comes from his empathy and unconventional approach to leadership. It's a more nuanced and thoughtful take on the genre.",
+      "response_time": 1.6,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.19,
+        "benevolence": 2.36,
+        "integrity": 2.86
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_49b06bcd",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.76,
+      "benevolence": 3.94,
+      "integrity": 4.16
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "joy": 3,
+      "disgust": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.66,
+    "latency_score": 4.73
+  }
+}

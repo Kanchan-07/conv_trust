@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm applying for this marketing manager position, and the job description says they want someone with 'proven experience in digital strategy and campaign execution.' I *think* I have that, but I'm not sure how to best show it on my resume. Ugh, this is always so stressful!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's focus on highlighting your digital strategy and campaign execution experience. Can you provide me with some specific examples of campaigns you've worked on and the results you achieved? Quantifiable results are always best.",
+      "response_time": 1.55,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.88,
+        "benevolence": 2.57,
+        "integrity": 2.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, quantifiable results. Okay, so, I led a social media campaign for my previous company that increased engagement by 30% and website traffic by 15%. I also managed a PPC campaign that generated a 20% increase in leads. Is that the kind of thing they're looking for? And where should I put all this? I'm running out of space!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, those are excellent examples! I recommend creating a separate \"Key Achievements\" section under each relevant work experience entry. This allows you to showcase those results prominently. Alternatively, you could integrate them into your bullet points describing your responsibilities. If space is a concern, try to prioritize the achievements that are most relevant to the marketing manager role's requirements.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.67,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, great. But what if my previous company was small and not well-known? Will those results still impress them, even if it's not a big brand name? That's what I'm worried about... Thanks for the help so far, by the way, this is less painful than usual!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_75b89a39",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.94,
+      "benevolence": 4.62,
+      "integrity": 4.75
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "disgust": 1,
+      "anger": 2,
+      "neutral": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.62,
+    "latency_score": 3.73
+  }
+}

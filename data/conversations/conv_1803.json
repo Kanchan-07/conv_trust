@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from Chicago to San Francisco for next week. I'm flexible on the exact dates, but need to leave on either Tuesday or Wednesday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Please provide the specific dates you are considering for your departure and return, if applicable.  I will then check for flights.",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.84,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I already said next week. I don't have a specific return date, just a one-way flight.  Can you search for Tuesday and Wednesday of next week, departing from Chicago, to San Francisco?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies for the confusion. Searching for one-way flights from Chicago (ORD or MDW?) to San Francisco (SFO or SJC?) departing Tuesday or Wednesday of next week. Please also confirm you are okay with any airline or if you have a preferred one.\n\nAlso, can you specify which airport you would prefer to fly from and to?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.42,
+        "integrity": 1.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, ORD to SFO. Any airline is fine.  What are the cheapest options on each day?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aa14616f",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.56,
+      "benevolence": 2.63,
+      "integrity": 2.35
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 2.01,
+    "latency_score": 5.21
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order. I placed it yesterday, and I haven't received any updates.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your order number?",
+      "response_time": 5.04,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.67,
+        "benevolence": 6.87,
+        "integrity": 6.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #1234567890. And honestly, I'm starting to get a little worried. I need this order by Friday.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check on that order for you... Okay, it looks like your order is currently being processed and is expected to ship out today. You should receive a tracking number within 24 hours. I understand your concern, and I will do my best to expedite the shipping process if possible.",
+      "response_time": 5.91,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.57,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. But what happens if it *doesn't* ship today? Friday is the deadline. I really need this item.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If your order doesn't ship today, it might unfortunately not arrive by Friday. Please allow me to see if there's any further options. I can't promise anything but I'll check if we have any alternative options.",
+      "response_time": 3.89,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.09,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I'm still a little confused. What are the factors determining the shipping time? Like, what part of the process affects the estimated delivery date the most?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! The factors influencing shipping time are multifaceted. Generally, these include the processing time in our warehouse (typically a day or two), the shipping carrier's transit time (which varies depending on the shipping method you selected), any potential delays with the carrier itself (like weather or high-volume periods), and the final destination relative to our warehouse location. Also, the stock situation and time of the order is crucial to determine processing time.",
+      "response_time": 4.23,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.7,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Thanks for the information and for checking on my order!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b19528b8",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.19,
+      "benevolence": 5.56,
+      "integrity": 5.59
+    },
+    "engagement_score": 4.72,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "fear": 2,
+      "joy": 1
+    },
+    "response_quality_score": 5.82,
+    "latency_score": 2.73
+  }
+}

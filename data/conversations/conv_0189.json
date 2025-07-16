@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to book a table for four people at a nice Italian restaurant in downtown Chicago this Saturday night. Preferably around 7 or 8 pm. Is that even possible on such short notice?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Let me check availability for Italian restaurants in downtown Chicago this Saturday between 7 and 8 pm for a party of four. One moment...",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Great, thanks! I'm really hoping to find something, it's my anniversary and I completely spaced on making reservations. If possible, a place with good pasta would be ideal. Ugh, I feel so bad about this!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see a few options. 'Bella Notte' has a table available at 7:30 pm. They are known for their handmade pasta and romantic atmosphere. Another option is 'Luigi's', but their available time is 8:15 pm. Reviews suggest their carbonara is exceptional. Which one would you prefer, or would you like me to check for other places?",
+      "response_time": 2.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.51,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Bella Notte sounds good, but 7:30 is a bit early. Luigi's sounds amazing, and 8:15 could work... but how reliable are the 'reviews'? Could you perhaps quickly assess the general sentiment of these reviews, maybe on a scale of 1-5, with 5 being overwhelmingly positive, for both restaurants?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_93ad9ad6",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.3,
+      "benevolence": 2.25,
+      "integrity": 2.69
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 2.32,
+    "latency_score": 5.77
+  }
+}

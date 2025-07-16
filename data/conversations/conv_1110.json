@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a claim I filed last week, claim number is 20231027-458B. I still haven't heard anything and frankly, I'm getting a bit frustrated. It's been a week already!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. I understand your frustration. Let me pull up claim 20231027-458B. Okay, I see it here. The claim is currently under review by our assessment team. It looks like they requested some additional documentation regarding the incident. Did you receive that request?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.23,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I did, and I uploaded everything they asked for on the website! The police report, photos of the damage, everything. Why is it still 'under review'? What exactly are they looking for? Is there a specific holdup?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the delay. While I don't have specific details on the holdup, I can see that the documentation is attached to the claim. I will send a message to the assessment team requesting an update and an explanation for the continued review. You should receive a response within 24-48 business hours. Is there anything else I can assist you with today?",
+      "response_time": 0.64,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.49,
+        "benevolence": 1.0,
+        "integrity": 1.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b751f884",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.25,
+      "benevolence": 1.11,
+      "integrity": 1.13
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 2,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 1.35,
+    "latency_score": 6.93
+  }
+}

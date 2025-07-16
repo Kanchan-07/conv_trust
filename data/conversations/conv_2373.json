@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner tonight for two people. Somewhere in the downtown area, please.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Can you give me a time frame you're looking for and any specific cuisine preferences? Also, what's your budget like - are we talking casual or fine dining?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 4.27,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Around 7:30 PM, and preferably Italian. I don't want to spend a fortune, so somewhere mid-range, not too fancy. Actually, you know what? The online reviews for 'Luigi's' seem pretty mixed - what's your opinion on them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "While I can access and process reviews, I do not have personal opinions or a rating for Luigi's. However, I can provide you with a summary of recent customer feedback regarding their service and food quality based on recent reviews. Would you like to know the common positive and negative feedback elements?",
+      "response_time": 3.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.48,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, alright. Yes, give me the positive and negative points quickly, then. I'm already getting frustrated looking for a decent restaurant!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e3f6a75e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.41,
+      "benevolence": 4.88,
+      "integrity": 4.83
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 4.25
+  }
+}

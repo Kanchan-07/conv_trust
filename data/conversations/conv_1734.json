@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my resume. It's pretty outdated, and I'm applying for a new job. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To start, I recommend gathering all your relevant work experience, education, skills, and any certifications. Then we can structure it effectively. What kind of job are you applying for?",
+      "response_time": 4.84,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.95,
+        "benevolence": 7.0,
+        "integrity": 6.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm applying for a Project Manager role. I have a lot of experience, but I'm not sure how to translate that into the right keywords that recruiters will see. Plus, my last resume was ages ago. I'm frustrated just thinking about it.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Keywords are crucial! I can analyze some project management job descriptions for you to identify common keywords. Just paste a few job postings here. Also, you can list your experience and I can help you rephrase it with those keywords. Let's make this easier. Can you please list a past project you worked on, what your role was, and what you accomplished?",
+      "response_time": 5.65,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.54,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so I led a project to implement a new CRM system. My role was Project Manager. We brought it in on time and under budget, increased sales efficiency by 15%, and improved customer satisfaction scores by 10%. But... how do I quantify my impact and show results that really pop out? Like, what's a good way to demonstrate that financial impact?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fantastic accomplishment. To quantify financial impact, estimate the value of the increased sales efficiency. For example, if the previous average sales per month was X and now it increased by 15%, you can calculate the extra revenue. Also, if your CRM system helped reduce customer service costs, add that. You can state it like this: \"Led the successful implementation of a new CRM system, resulting in a 15% increase in sales efficiency, equating to $X in additional revenue, and a 10% improvement in customer satisfaction scores.\"",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.66,
+        "integrity": 6.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d5dce57f",
+    "average_trust_score": 6.5,
+    "trust_category_averages": {
+      "competence": 6.57,
+      "benevolence": 6.4,
+      "integrity": 6.23
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 2
+    },
+    "response_quality_score": 6.89,
+    "latency_score": 2.24
+  }
+}

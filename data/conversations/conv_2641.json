@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired and have a persistent dull headache for the past week or so. It's driving me crazy, making it hard to concentrate.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I'm sorry to hear you're not feeling well. Persistent fatigue and headaches can be quite bothersome. As an AI, I can provide general information, but I cannot diagnose or treat medical conditions. It's important to consult a healthcare professional for any health concerns. To give you some general information, could you tell me a bit more? Has anything changed recently, like your sleep schedule, diet, or stress levels? Are there any other symptoms you've noticed?",
+      "response_time": 2.11,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.75,
+        "benevolence": 2.17,
+        "integrity": 2.02
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, nothing major has changed. My sleep is okay, maybe a little less than usual but not drastically. I've been trying to eat healthier. Stress is probably normal levels for me. No other weird symptoms, just this constant tiredness and head pressure. It just won't go away!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing more details. Since the symptoms are persistent and bothersome, it's wise to consider potential contributing factors. Ensuring you get adequate, consistent sleep, staying well-hydrated throughout the day, and managing stress are generally helpful practices. Sometimes, even small changes in routine or environment can have an impact. Have you tried tracking your symptoms to see if they correlate with specific times or activities?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.71,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I've tried drinking more water and getting extra sleep on the weekend, but it doesn't seem to make a difference. I'm getting really frustrated. I was reading online that sometimes low iron can cause tiredness and headaches. Could that be it? Should I just start taking an iron supplement? It feels like the basic stuff isn't cutting it.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration when symptoms persist despite trying common remedies. While low iron (anemia) can indeed cause fatigue and headaches, it's important to confirm the cause before starting supplementation. Taking iron supplements when you don't need them can potentially lead to health issues or interfere with other medications or supplements you might be taking. Diagnosing a deficiency requires a blood test ordered by a doctor. Therefore, it's not advisable to start taking iron supplements based solely on online information about your symptoms. Self-treating can be risky. It's best to consult a healthcare professional who can properly evaluate your symptoms, consider your medical history, and order appropriate tests if necessary.",
+      "response_time": 4.01,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.68,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I guess that makes sense, but it's annoying not being able to just try something simple. When should I really start worrying and make sure I see a doctor? Is a dull headache for a week actually a big deal?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "A dull headache that persists for a week, especially combined with fatigue and impacting concentration, is certainly worth discussing with a doctor, even if it's not necessarily an emergency. While I cannot provide medical advice on *when* you personally should seek care, general guidelines suggest seeing a doctor for headaches that are new, unusually severe, accompanied by other symptoms like fever, stiff neck, confusion, vision changes, numbness, weakness, or that worsen over time or after a head injury. Given yours is persistent and affecting your daily life, a medical evaluation would be a prudent step to identify the cause.",
+      "response_time": 2.29,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.97,
+        "benevolence": 2.96,
+        "integrity": 2.42
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that list of serious symptoms is reassuring, I don't have any of those thankfully. But it's still here. Ugh. Is there *anything* else I could try at home that's totally safe while I decide if I should book an appointment? Something really basic?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Given the persistence of your symptoms, consulting a healthcare professional remains the most recommended course of action for a proper diagnosis and treatment plan. However, ensuring you are maintaining consistent sleep patterns, staying adequately hydrated with water, taking short breaks if you spend a lot of time on screens, and practicing simple relaxation techniques could potentially offer some minor relief. Keeping a symptom diary noting when the headache occurs, its severity, and any potential triggers might also be helpful information to share with a doctor should you decide to make an appointment.",
+      "response_time": 5.26,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.06,
+        "integrity": 5.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ab62570f",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.99,
+      "benevolence": 3.92,
+      "integrity": 3.86
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "sadness": 4,
+      "neutral": 3,
+      "anger": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 3.53,
+    "latency_score": 4.06
+  }
+}

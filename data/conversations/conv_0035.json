@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my checking account balance and see if a specific payment went through. It was supposed to be to 'Acme Corp' for $75.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. Please provide the last four digits of your account number and your date of birth for verification.",
+      "response_time": 2.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.22,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the last four digits are 4567 and my birthday is 03/15/1988. Ugh, I hate having to do this every time.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I access your account information. Okay, your current checking account balance is $452.18. I do see a payment of $75 to Acme Corp processed on January 26th. Was there anything else?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.46,
+        "benevolence": 1.2,
+        "integrity": 1.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, the payment went through. I also wanted to ask, why is my monthly service fee so high? It seems like it keeps going up. It's currently $15.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The monthly service fee can vary depending on your account type and balance. I am showing you have a 'Basic Checking' account. Fees are typically waived for balances over $500. Let me see if there are any current promotions for different account types that might be beneficial for you.",
+      "response_time": 2.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.7,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, if I keep over $500, the fee is waived? What if it dips below for a day or two, like around when bills are due? Will I get charged the fee anyway?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. While the exact policy can be found in your account agreement, generally, the fee is based on the average daily balance for the month. So, dipping below $500 for a short period might not trigger the fee, but consistently being below could. I recommend reviewing your account agreement for the specific details related to your account.",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.88,
+        "benevolence": 5.3,
+        "integrity": 5.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_932f5db6",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.7,
+      "benevolence": 3.61,
+      "integrity": 3.76
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 3.86,
+    "latency_score": 4.83
+  }
+}

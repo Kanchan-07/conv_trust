@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to get serious about financial planning. I'm completely overwhelmed though. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can feel daunting. Let's break it down. First, let's assess your current financial situation. Could you tell me about your income, expenses, debts, and assets?",
+      "response_time": 1.82,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.52,
+        "benevolence": 2.64,
+        "integrity": 2.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I hate thinking about my debt. It's around $30,000 in student loans, and another $5,000 on a credit card. Income is roughly $60,000 a year, but expenses\u2026 I honestly don't track them super closely.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that gives us a starting point. For the expenses, I recommend tracking them for a month or two. There are many apps and spreadsheets that can help with this. This will give you a clear picture of where your money is going. Knowing this, a good next step might be to look into debt consolidation or balance transfer options for that credit card debt. Thoughts?",
+      "response_time": 2.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 3.5,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Balance transfer... I've heard of it, but doesn't that just delay the inevitable? And how can I be sure I'm even getting the *best* balance transfer offer?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. A balance transfer isn't a fix-all, but if you can secure a 0% introductory APR, it can save you a significant amount in interest while you aggressively pay down the principal. As for finding the best offer, use websites that compare credit card deals and read the fine print carefully to understand any fees or balance transfer limits.",
+      "response_time": 2.03,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.12,
+        "benevolence": 2.54,
+        "integrity": 2.14
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's\u2026 actually pretty helpful. I feel slightly less lost now. Thanks!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_06fbc0b5",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.91,
+      "benevolence": 2.89,
+      "integrity": 2.84
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "disgust": 1,
+      "neutral": 3,
+      "sadness": 1
+    },
+    "response_quality_score": 3.43,
+    "latency_score": 5.22
+  }
+}

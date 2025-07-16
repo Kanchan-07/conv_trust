@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, I'm thinking about doing some home improvements this spring but I'm a bit overwhelmed. Where's a good place to even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! It's exciting to tackle home projects. A good starting point is to assess your needs and budget. Consider which areas of your home could benefit most from updates, whether it's improving functionality, aesthetics, or addressing necessary repairs. Have you identified any specific rooms or issues you'd like to focus on?",
+      "response_time": 5.66,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.41,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. I guess the bathroom is top priority. It's pretty dated, especially the old tile floor. I'd love to replace that, but I've never done tiling before. Is that something a beginner can realistically do?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Replacing a tile floor is a project that many DIYers successfully complete. It requires patience and attention to detail, but it's certainly achievable for a beginner with proper research and planning. You'll need to remove the old flooring, prepare the subfloor, lay the new tile, and then grout. Make sure you have the necessary tools like a tile cutter, notched trowel, level, and safety gear.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.36,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, 'remove the old flooring' sounds like the worst part. It's ceramic tile over concrete. How tough is that going to be? I'm imagining hours chipping away and making a huge mess. I'm already feeling a bit discouraged.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Removing old ceramic tile from a concrete subfloor can indeed be physically demanding. You'll likely need tools such as a hammer and chisel, or potentially a power demo hammer for stubborn areas. Breaking the tiles into smaller pieces often makes them easier to lift. Remember to wear heavy-duty gloves, eye protection, and a dust mask. Thoroughly cleaning the subfloor afterwards is crucial.",
+      "response_time": 4.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.85,
+        "integrity": 5.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I've demoed *most* of the tile, and yeah, it was a mess. But now there's a stubborn, thin layer of old thinset mortar stuck *really* hard to the concrete base. It's not coming up easily with scraping and it's leaving the surface uneven. My question is, do I absolutely *have* to get every single last bit of that old thinset off before putting down the new thinset for the new tile, or can I just apply a leveling compound or a thicker layer of new thinset over the residue? I'm trying to figure out if I need to rent a grinder or something.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a common scenario when removing old tile. For optimal adhesion and a stable base for your new tile, it is generally recommended to remove as much of the old thinset residue as possible. While a self-leveling compound can address unevenness, applying new thinset over significant old residue can sometimes compromise the bond or affect the curing process. Grinding is often the most effective method for removing stubborn thinset layers from concrete.",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.83,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, so it's not strictly *impossible* to leave some, but definitely not recommended for a good bond... and grinding is the way to go for the best result. Ugh, more dust, but I get it. Better to do it right the first time. Thanks for the clarification, I appreciate the detailed guidance on that tricky part.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c4bbd25f",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.58,
+      "benevolence": 4.86,
+      "integrity": 4.72
+    },
+    "engagement_score": 5.45,
+    "emotion_distribution": {
+      "surprise": 1,
+      "joy": 1,
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 4.98,
+    "latency_score": 3.3
+  }
+}

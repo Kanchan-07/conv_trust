@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my smart coffee maker is acting up again. It keeps displaying an error message: \"Heating element failure\". I just bought it last month, this is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try some basic troubleshooting steps. First, please unplug the coffee maker from the wall outlet for about 5 minutes. Then, plug it back in and try to brew a pot of coffee. Does the error message still appear?",
+      "response_time": 0.53,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.26,
+        "integrity": 1.43
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I did that. Unplugged it, waited, plugged it back in. Still the same error. Ugh! What's next?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Have you tried cleaning the heating element? Sometimes mineral buildup can interfere with its function. If you've tried that, or if you'd rather not, the next step is to check the voltage input on the machine compared to the wall socket. I'll need the model number, please.",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.23,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Model number is CM-5000. But wait... how do I *check the voltage input* on the machine? I'm not an electrician! Can you explain that in simpler terms? Or maybe just tell me if I'm better off returning the thing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, the voltage check does require a multimeter and some electrical knowledge. Given the error message and your recent purchase, returning the coffee maker under warranty might be the best option. Please visit our website and locate the warranty claim form, or you can call our customer service line. I am here to help further if needed.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 3.85,
+        "integrity": 3.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_84d32d5e",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.95,
+      "benevolence": 3.11,
+      "integrity": 3.1
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 3.01,
+    "latency_score": 5.01
+  }
+}

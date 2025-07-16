@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a job application. I'm applying for a software engineer position at Google.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with that. To start, what specific areas of the application are you struggling with? Are you working on your resume, cover letter, or perhaps the online application form itself?",
+      "response_time": 4.89,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.57,
+        "benevolence": 5.7,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've updated my resume, but I'm not sure how to tailor it for Google. It seems so generic right now. Can you give me some tips?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! Tailoring your resume for Google involves highlighting relevant skills and experiences that align with the job description. I recommend focusing on their specific requirements, using keywords from the job posting, and quantifying your achievements whenever possible. For example, instead of saying \"Developed software\", try \"Developed software that improved system efficiency by 15%.\" Also, ensure your resume format is clean and easy to read. Consider using a format that is easily parsed by Applicant Tracking Systems (ATS).",
+      "response_time": 4.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.41,
+        "integrity": 5.96
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But how do I know which keywords to use? The job posting is so long, I don't want to miss anything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. You can use a keyword extraction tool or manually go through the job description and identify recurring technical skills, technologies, and buzzwords. Make a list and cross-reference it with your existing resume content. Also, consider that many job postings now have an automated screening process. If you do not include these keywords, you may never even be seen by a human reviewer. Sorry, I am unable to suggest any specific tools at this time.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.3,
+        "benevolence": 1.1,
+        "integrity": 1.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I can try that. But what if I don't have experience with some of the key technologies they mention? It's a senior role, and I'm not sure how to address the gaps.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question and it's a common challenge. If you lack direct experience, emphasize transferable skills and related projects. For example, if they want experience with cloud services, and you've worked with similar technologies, highlight those skills. You can also mention any personal projects or online courses you've taken to demonstrate your willingness to learn and adapt. Be honest about your experience level, but focus on your eagerness to contribute and learn new technologies on the job. Emphasize your problem-solving skills and understanding of fundamental concepts.",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.67,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "This is really helpful! Thank you so much. I feel a lot better prepared to start the application now.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_41ed3119",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.34,
+      "benevolence": 4.47,
+      "integrity": 4.67
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.12,
+    "latency_score": 4.13
+  }
+}

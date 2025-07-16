@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. I have a stack of medical bills here, and I can't even understand half of them. Can you help me process these and figure out what I actually owe?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely assist you with processing your medical bills. Please provide me with the details of each bill, including the provider's name, date of service, the amount billed, and your insurance information. You can either type it out or upload images of the bills if that's easier.",
+      "response_time": 5.28,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.07,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'll start with this one from 'General Hospital'. It's dated 2024-03-15, the amount is $500, and my insurance is Blue Cross Blue Shield, policy number is 12345ABC.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Processing that information. One moment please... Okay, according to Blue Cross Blue Shield, $300 of that $500 is covered. You are responsible for the remaining $200, which should be reflected in your Explanation of Benefits (EOB). Do you have your EOB from Blue Cross Blue Shield for that date of service?",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.44,
+        "integrity": 1.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I think so... Okay, found it. It *does* say $200 patient responsibility. But it's coded as 'coinsurance'. What exactly *is* coinsurance? Is that different from my deductible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Coinsurance is the percentage of the cost of a healthcare service you pay after you've met your deductible. Your deductible is the amount you pay *before* your insurance starts to pay. So, in this case, you've likely already met your deductible, and the $200 represents your 40% coinsurance for the service, while Blue Cross Blue Shield covered the remaining 60%.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes...slightly more sense. What about this bill from 'Dr. Smith's Office'? It says 'balance forward' but doesn't specify what for. It's for $75. How do I figure out what that's for?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For the 'balance forward' from Dr. Smith's office, the best course of action would be to contact their billing department directly. They can provide you with a detailed breakdown of the charges that make up the $75 balance. I recommend calling them and asking for an itemized statement.",
+      "response_time": 3.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.8,
+        "integrity": 5.77
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a815f94a",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.29,
+      "benevolence": 3.33,
+      "integrity": 3.38
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 2.79,
+    "latency_score": 5.06
+  }
+}

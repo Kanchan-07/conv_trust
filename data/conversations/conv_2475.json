@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, I'm looking for some new game recommendations. I'm really into RPGs, especially sci-fi ones. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly, sci-fi RPGs are a great genre. Some popular and highly-regarded titles include the Mass Effect Legendary Edition, The Outer Worlds, and Cyberpunk 2077. Have you played any of those?",
+      "response_time": 5.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.46,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've played all of those! Mass Effect is amazing. But I'm kinda tired of the big open-world or third-person shooter style. I was hoping for something a bit different, maybe more tactical or turn-based? Or even indie? I feel like I've exhausted all the obvious choices, it's frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, I understand. Looking for something off the beaten path within sci-fi and turn-based. Let me think... Have you tried Divinity: Original Sin 2? Or perhaps FTL: Faster Than Light?",
+      "response_time": 2.09,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.56,
+        "benevolence": 2.96,
+        "integrity": 2.32
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Divinity? That's fantasy though, right? And FTL is more of a roguelike strategy... Hmm. I appreciate the attempt, but those aren't quite fitting what I'm looking for. It feels impossible to find that specific niche! Speaking of weird mixes, why do developers even bother combining completely unrelated genres sometimes, like an RPG with a rhythm game, or a strategy game with dating sim elements? What's the point of those bizarre mashups?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_41e892ee",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.87,
+      "benevolence": 4.21,
+      "integrity": 3.85
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.51,
+    "latency_score": 3.77
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! Any good food recommendations nearby? I'm in the mood for something quick and easy.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. Based on your location, I can see a few options. There's a highly-rated pizza place called 'Pizza Palace' and a burger joint called 'Burger Bliss'. Both are about a 5-minute drive away. Would you like me to provide directions or see if they have online ordering?",
+      "response_time": 4.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.44,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Pizza Palace sounds good. But I'm feeling indecisive... What's the *absolute* best pizza on their menu? I don't want to get something that's just 'okay'.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, give me a moment to check their menu and reviews... Alright, according to customer feedback, the 'Supreme Delight' pizza seems to be the most popular and highly-rated option. It includes pepperoni, sausage, peppers, onions, olives, and mushrooms. However, some reviews mention the crust can be a bit inconsistent at times, so that is a factor to consider.",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 4.46,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Inconsistent crust? Ugh, that's annoying. Okay, let's say I'm a vegetarian, what would you suggest instead? And I don't want anything with mushrooms. This is harder than I thought!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, I am experiencing some technical difficulties regarding specialized menu recommendations, but let me suggest the 'Veggie Lovers' pizza; the ingredients are listed as tomatoes, green peppers, onions, and black olives. Would you like me to try to place an order for you?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.71,
+        "integrity": 4.01
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eed64475",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.54,
+      "integrity": 4.54
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.81,
+    "latency_score": 3.61
+  }
+}

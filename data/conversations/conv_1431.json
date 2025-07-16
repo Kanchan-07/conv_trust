@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I want to order some food. Any good recommendations? I'm in the mood for something... different.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. To give you the best recommendations, I need to know your location. Also, what kind of 'different' are we talking? Cuisine, dietary restrictions, or something else?",
+      "response_time": 4.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.71,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm at 123 Main Street, Anytown. And by 'different', I mean not the usual pizza or burgers. Maybe something ethnic? But I'm really indecisive and get overwhelmed by options. What's the absolute *most* interesting thing you can suggest?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, at 123 Main Street, Anytown, I'm showing a few options. However, the data on the most 'interesting' restaurants has some... inconsistencies. Some services are rated as 'interesting' based on price, others on uniqueness of ingredients, and some on local reviews. Given those limitations, I'd suggest trying 'Spice Route' - it's Indian fusion and gets good reviews, but I should warn you, the online menu may be outdated.",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.8,
+        "integrity": 3.83
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_74a4fab6",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.57,
+      "benevolence": 4.75,
+      "integrity": 4.9
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 4.97,
+    "latency_score": 3.31
+  }
+}

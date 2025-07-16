@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help planning my grocery shopping. I'm on a pretty tight budget this week - like $75 total. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! For a $75 budget, focusing on affordable staples is key. Could you tell me what kind of meals you're hoping to make, and any dietary restrictions or preferences you have? This helps me narrow down the recommendations.",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.9,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I hate planning meals. Fine, I guess I could do some chicken and rice bowls, maybe some pasta. I'm not a vegetarian, but I'm trying to eat a little less meat. And I have absolutely no idea how much anything costs these days. I'm so out of touch!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No problem at all. Based on your preferences and budget, here's a potential shopping list: \n\n*   Chicken Breast (2 lbs): $10\n*   Long Grain Rice (5 lbs): $5\n*   Pasta (1 lb): $2\n*   Pasta Sauce (jar): $3\n*   Canned beans (2 cans): $2\n*   Frozen vegetables (mixed): $5\n*   Onions: $2\n*   Garlic: $1\n*   Eggs (dozen): $3\n*   Bread: $3\n*   Apples (bag): $7\n\nThis leaves you with roughly $32 for other items or unexpected price increases. This also only includes staples; consider adding spices. This estimate is based on average national prices. Does this seem reasonable?",
+      "response_time": 3.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.32,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that seems... optimistic? I feel like chicken is always more expensive than that, and apples at $7 for a bag seems high. How can you know what's *actually* available and priced at my local stores? Are these prices just pulled from thin air?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right to question the accuracy. I can access general price data, but the actual prices and availability do vary greatly by location and store. For the most accurate information, I'd need to know your specific location or preferred grocery stores. I can then try to find pricing from those stores. However, direct, real-time integration with store inventory is currently not available. For now, I would recommend checking your store's online flyer for the best deals. Also, consider that prices can and do fluctuate based on season.",
+      "response_time": 3.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.6,
+        "integrity": 4.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e9bfdabe",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.01,
+      "benevolence": 3.94,
+      "integrity": 3.96
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.93,
+    "latency_score": 4.41
+  }
+}

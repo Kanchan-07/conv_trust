@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track an order and I can't seem to find it. The order number is #12345.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. Let me check order #12345 for you. Could you please confirm the email address associated with the order?",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.99,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's sarah.miller@email.com.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, one moment. ...Alright, I see order #12345. It was shipped yesterday and is expected to arrive in 3-5 business days. The tracking number is ABCDEFG1234. You can track it on the carrier's website.",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.93,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great! Thanks. But, actually, I also wanted to ask about your return policy. What if the item doesn't fit? I ordered a shirt.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Our return policy allows for returns within 30 days of purchase, provided the item is unworn and with tags. You can find the full policy details, including instructions on how to initiate a return, on our website under the 'Returns & Exchanges' section.",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.38,
+        "integrity": 1.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see. But what happens if the size I need is out of stock when I try to exchange it? Will I just get store credit?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the desired size is unavailable during an exchange, you will have the option of receiving a full refund to your original payment method or accepting store credit, whichever you prefer. We strive to ensure customer satisfaction with all purchases.",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.1,
+        "integrity": 4.5
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0e9589a4",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.16,
+      "benevolence": 3.35,
+      "integrity": 3.61
+    },
+    "engagement_score": 4.07,
+    "emotion_distribution": {
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 2.96,
+    "latency_score": 5.04
+  }
+}

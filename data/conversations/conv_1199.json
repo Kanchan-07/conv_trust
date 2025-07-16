@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a car accident I was in last week. I already filed a claim online, but I haven't heard anything back yet. The claim number is 12345ABC.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. Please allow me a moment to access claim 12345ABC. Okay, I have it here. I see the claim was submitted five days ago. We are currently reviewing the details of the accident and will contact you within 3-5 business days with an update.",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.91,
+        "integrity": 6.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "3-5 more business days? Seriously? I need my car fixed, and I need to know if it's covered! I'm incredibly frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, sir/madam. I can check if there are any notes regarding the estimated processing time or any preliminary assessments. Please hold.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thank you. I appreciate that.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I am back. It appears your claim is being handled by adjuster John Smith. I don't have access to his direct line, but I can send him an email requesting that he contact you as soon as possible with an update. Would you like me to do that?",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 3.82,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please do. Also, what exactly are you guys reviewing? I provided all the information in the initial claim form, including the police report and photos of the damage.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "We are reviewing the police report, photos, and any witness statements to determine liability and the extent of the damages. In some cases, we may need to obtain additional information, such as repair estimates or medical records, depending on the nature of the accident. I will forward your concerns to Mr. Smith to address when he contacts you. Is there anything else I can help you with today?",
+      "response_time": 5.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.19,
+        "integrity": 5.16
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_84ac2b1e",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.41,
+      "benevolence": 4.23,
+      "integrity": 4.09
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 2,
+      "joy": 1
+    },
+    "response_quality_score": 4.11,
+    "latency_score": 3.71
+  }
+}

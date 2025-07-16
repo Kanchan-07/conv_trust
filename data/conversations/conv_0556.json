@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some good movies? I'm in the mood for something... thrilling.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! When you say 'thrilling,' do you have a specific genre in mind? For example, psychological thriller, action thriller, crime thriller, etc.?",
+      "response_time": 3.47,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.94,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good point. Psychological thriller, definitely. Something that messes with your head.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Based on your preference for psychological thrillers, I'd recommend 'The Silence of the Lambs,' 'Se7en,' and 'Prisoners.' Have you seen any of those?",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.53,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Seen 'Silence of the Lambs' and 'Se7en' a million times. Great movies! 'Prisoners,' though, I haven't. What makes that one so good?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "'Prisoners' is a suspenseful film about two families whose daughters go missing. It explores the lengths parents will go to when the system fails them, raising complex moral questions. It's known for its intense atmosphere and strong performances.",
+      "response_time": 4.39,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.98,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds pretty intense. What if I wanted something similar, but maybe a bit... less mainstream? Are there any lesser-known gems you could suggest in the same vein?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. For a less mainstream psychological thriller, you might enjoy 'Coherence' (2013), a mind-bending film about a dinner party disrupted by a strange cosmic event. Or, consider 'The Machinist' (2004), starring Christian Bale, about a machinist suffering from insomnia and paranoia. Both are highly rated and offer unique twists on the genre.",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.02,
+        "integrity": 4.45
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9d16216b",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.28,
+      "benevolence": 4.37,
+      "integrity": 4.55
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "joy": 1,
+      "fear": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 4.69,
+    "latency_score": 4.22
+  }
+}

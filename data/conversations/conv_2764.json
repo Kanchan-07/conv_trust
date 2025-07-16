@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a delayed package. My tracking number is 987654321. It was supposed to arrive yesterday.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for reaching out. Please provide the tracking number so I can look into the status of your package.",
+      "response_time": 5.38,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I just gave it to you, it's 987654321. Can you please check where it is? The tracking online hasn't updated in over 24 hours and says 'In Transit'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies, I seem to have missed that. Yes, I see tracking number 987654321. It shows the package departed our facility on [Date] and is currently 'In Transit'. There may be a slight delay in the updated scan information appearing online.",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A slight delay? The expected delivery was yesterday! How can it be 'In Transit' for so long without any update? Is it lost? What happens if it doesn't show up at all?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While it is not currently marked as lost, delays can occasionally occur due to various factors. If the package does not show any movement within the next 48 hours or is not delivered by the end of the business day after that, we can initiate a formal trace to locate the package or begin the claim process if necessary.",
+      "response_time": 1.63,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.56,
+        "benevolence": 2.08,
+        "integrity": 2.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, so I just have to wait another couple of days and hope it updates? That seems pretty unhelpful. Can you guarantee it will arrive this week?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While I cannot provide an absolute guarantee on the delivery date due to unforeseen transit variables, based on the current status, the most probable scenario is continued transit and delivery within the coming days. Please monitor the tracking, and if no change occurs in the next 48 hours, please contact us back so we can proceed with the trace and further investigation as mentioned.",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 4.25,
+        "integrity": 3.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e2bfdd31",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 3.58,
+      "integrity": 3.65
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.98,
+    "latency_score": 4.58
+  }
+}

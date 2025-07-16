@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to process some medical claims today and need a little guidance. Where should I start?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. To start, could you tell me which type of claims you are processing? For example, are they for a specific payer like Medicare, Medicaid, or a commercial insurer?",
+      "response_time": 2.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.22,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly commercial insurance, like Blue Cross Blue Shield and Aetna. I keep getting denials for missing information, it's so frustrating! How can I reduce those?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Common reasons for denials related to missing information include incorrect patient demographics, missing or invalid policy numbers, missing referral or authorization numbers, or incomplete diagnosis/procedure codes. Double-checking these fields before submission is crucial.",
+      "response_time": 0.64,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.39,
+        "benevolence": 1.23,
+        "integrity": 1.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what about more complex cases? Like, how do I correctly bill for a procedure that required multiple modifiers (like 25, 59, 76) on the same date of service, and the payer *still* denies one of them saying it was bundled or incidental? How do I appeal that effectively?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Billing with multiple modifiers can be complex. Modifiers 25, 59, and 76 are used in specific scenarios to indicate distinct services or procedures. If a claim is denied as bundled despite correct modifiers, you would typically initiate an appeal. This involves submitting supporting documentation like operative reports or progress notes that clearly demonstrate the services were separate and distinct or represented a repeat procedure by the same physician on the same day. Following the payer's specific appeal process is essential.",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 4.32,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So I just send the notes? Do I need to write a letter too? It feels like they just ignore it sometimes.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, sending the clinical notes or operative reports is necessary to support the claim's medical necessity and distinct nature. It is also highly recommended to include a well-written appeal letter. This letter should clearly state the denial reason, explain why the service should be paid (referencing CPT codes, modifiers, and why the documentation supports their use), and request a review. Providing specific details helps the reviewer understand the case.",
+      "response_time": 5.38,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's much clearer. I'll make sure to include a detailed letter and relevant documentation. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_91882daf",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 4.19,
+      "integrity": 3.97
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.94,
+    "latency_score": 4.76
+  }
+}

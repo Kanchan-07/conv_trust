@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I desperately need to book a hotel in New York City for next weekend, like Friday to Sunday. I'm totally overwhelmed by all the options, can you help me find something decent? My budget is around $200-$300 per night.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can definitely help you find a hotel in NYC for next weekend, Friday to Sunday. Just to confirm, are you looking for one room, and for how many guests?",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.98,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, one room for two guests. And you missed my budget! $200-$300 per night. The tricky part is, I have a really important meeting on Sunday afternoon, so I absolutely *need* a late checkout, like 3 PM or even 4 PM. Can you find a hotel that *guarantees* that specific late checkout time?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies for missing the budget information earlier. I'll prioritize options in the $200-$300 range for one room, two guests, Friday to Sunday. Regarding the late checkout, guaranteeing a specific time like 3 PM or 4 PM is challenging as it's usually subject to the hotel's availability on the departure day. I can search for hotels known to be more flexible with late checkouts or filter for properties where you can request a later time, but a guaranteed checkout that late is rare without booking an extra night or paying a significant fee. Would you like me to look for hotels that are generally accommodating with late checkout requests, or perhaps focus on options near your meeting location?",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.28,
+        "integrity": 4.03
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0ee71a44",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 4.13,
+      "integrity": 3.89
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.12,
+    "latency_score": 4.75
+  }
+}

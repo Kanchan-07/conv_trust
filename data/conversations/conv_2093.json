@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hello, my smart thermostat isn't working. The screen is completely blank. I've tried pressing the power button, but nothing happens.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thanks for contacting support. I understand your thermostat isn't displaying anything. Let's troubleshoot this. First, could you please check the circuit breaker that controls the thermostat? Sometimes, a tripped breaker can cause this issue.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.19,
+        "benevolence": 1.0,
+        "integrity": 1.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I checked the breaker, and it wasn't tripped. I even flipped it off and on again, just in case. Still nothing. I'm starting to get really frustrated; it's freezing in here!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try a hard reset. Remove the thermostat from the wall. There should be a small reset button on the back; press it with a paperclip or similar object for about 10 seconds. After you put it back on the wall, see if it comes back on.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I tried that, and still no luck. The screen is still completely dead. Hmm, I have a question. Do you think a power surge could have damaged it even though it's behind a surge protector? I can't remember if we had one recently.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a possibility. While surge protectors offer protection, they're not always foolproof, and a strong enough surge could still potentially damage the thermostat. It's also possible there was a failure in the thermostat itself, unrelated to a surge. Unfortunately, based on the troubleshooting we've done, it seems like a hardware issue. To get a replacement, could you please provide the model number of your thermostat, as well as the date of purchase? We'll check your warranty coverage.",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 3.87,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, sounds good. Thanks for your help! The model number is TH-2000, and I bought it on January 15th of last year.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7f484553",
+    "average_trust_score": 2.0,
+    "trust_category_averages": {
+      "competence": 2.02,
+      "benevolence": 1.96,
+      "integrity": 2.13
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 2,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 1.66,
+    "latency_score": 6.06
+  }
+}

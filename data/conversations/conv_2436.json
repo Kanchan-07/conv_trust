@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a delayed package. My tracking number is 987654321. It was supposed to be delivered two days ago, and the tracking hasn't updated since.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for providing your tracking number. I see the shipment 987654321 is showing a 'Delayed' status with the last scan on [Date two days ago] at our regional facility. We apologize for the inconvenience this delay may be causing.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.42,
+        "benevolence": 1.44,
+        "integrity": 1.45
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know it says delayed. But *why* is it delayed? It's urgent! Did it get lost? Is the facility closed? What exactly is going on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on the current information, the delay is due to an operational adjustment within our network. We are actively working to reroute the shipment and get it back on schedule. The system doesn't specify the exact nature of the adjustment at this node.",
+      "response_time": 1.37,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.96,
+        "benevolence": 2.77,
+        "integrity": 2.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "An 'operational adjustment'? That's frustratingly vague. So you don't know where it is or when I'll get it? What are the next steps then? Will someone actually look for it, or do I just wait indefinitely?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with the lack of specific detail. Currently, the package is still considered in transit within our system and is being prioritized for movement. We are monitoring its status closely. I have flagged your case for review by the facility management team for a more precise update. You should see updated tracking information within the next 24-48 hours, and I will also set a reminder to follow up if no update appears by then.",
+      "response_time": 3.04,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 4.01,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 24-48 hours is still a long time when it's already late, but flagging it sounds better than just waiting. Please make sure someone actually looks into it. I really need this package.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Absolutely, I have ensured your concern is escalated and highlighted the urgency you expressed. We will do our best to expedite the resolution and provide you with an update as soon as possible. Is there anything else I can assist you with regarding this shipment today?",
+      "response_time": 5.21,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.97
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, that's all for now. Just please, actually follow up like you said. Thanks.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You are welcome. I have set the follow-up for [Date 48 hours from now]. You will be notified via the contact method on file once the tracking updates or we receive further information. Thank you for your patience.",
+      "response_time": 5.4,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.62,
+        "integrity": 6.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8ae36740",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.45,
+      "benevolence": 4.37,
+      "integrity": 4.35
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "sadness": 2,
+      "surprise": 1,
+      "neutral": 5,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.06,
+    "latency_score": 4.4
+  }
+}

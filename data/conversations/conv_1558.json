@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I need to order some food. Any good recommendations for dinner?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me your current location and what kind of cuisine you're in the mood for?",
+      "response_time": 5.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.82,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm in downtown and... honestly, I don't really know. Something quick and easy, but not just plain fast food. Maybe Italian? I'm open to suggestions!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see you are in downtown and prefer Italian. Based on popularity and reviews, I recommend 'Luigi's Pizzeria'. They have excellent reviews on their pizza, pasta, and salads. Would you like me to place an order for you?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.65,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've had Luigi's before and it was alright, nothing special. Are there any other Italian places with a better rating or a wider variety of dishes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are correct, Luigi's is not the top rated. Other Italian restaurants near you with high ratings are 'Bella Notte' and 'Pasta Paradise'. Bella Notte is slightly more expensive but offers a broad menu. Unfortunately, I do not have access to real-time reviews. Would you like to view their menus?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 4.43,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Actually, how do Bella Notte's vegetarian options compare to Pasta Paradise's? I have a friend with dietary restrictions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d1a3fd18",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.63,
+      "integrity": 4.36
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.07,
+    "latency_score": 3.7
+  }
+}

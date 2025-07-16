@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to update my resume, but honestly, I have no idea where to even start. It's been years!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be daunting! Let's start with the basics. Do you have an existing resume you can share, or are we starting from scratch? Also, what kind of role are you targeting?",
+      "response_time": 2.3,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.72,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I have an old one, but it's probably completely outdated. I'm aiming for a Project Management role, ideally in the tech industry. My current resume is mostly focused on my previous marketing roles... which is kind of useless now. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, no problem. We can definitely tailor your experience to highlight relevant skills for project management. Let's focus on transferable skills. Could you list some of your key accomplishments from your marketing roles that demonstrate leadership, organization, or problem-solving abilities? Even if they seem unrelated at first glance, we can probably frame them effectively.",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.93,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay, that's helpful. But how do I quantify my accomplishments? I always struggle with that. Like, I managed social media campaigns...but what numbers do I even put down? Follower growth? Engagement? I just feel like those are such vague metrics.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good question. It depends on the campaign goals. Ideally, you want metrics that tie directly to business outcomes. For example, 'Increased lead generation by 15% through targeted social media campaign resulting in $X in revenue.' Or 'Improved brand awareness by X% as measured by Y metric, leading to Z outcome.' If you don't have precise numbers, even estimations based on available data are better than nothing. Can you recall any specific targets or results from those campaigns?",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 4.39,
+        "integrity": 4.16
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_176db870",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.07,
+      "benevolence": 4.01,
+      "integrity": 4.12
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 3.92,
+    "latency_score": 4.29
+  }
+}

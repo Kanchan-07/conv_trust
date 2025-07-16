@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to book a table for 4 at that Italian place, Bella Notte, for tomorrow night. I've been trying to call them all day, but no one picks up! So frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check Bella Notte's availability for tomorrow night for a party of 4. What time were you hoping to dine?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.22,
+        "benevolence": 1.27,
+        "integrity": 1.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Around 7:30 PM, if possible. If not, anything between 7 and 8 PM would work. Also, do they have any outdoor seating? It's a nice night, and we'd prefer to be outside if they have it. How can you know for sure? The reviews online are conflicting.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've checked. Bella Notte has availability for 4 people at 7:45 PM tomorrow night. I am unable to confirm if the outdoor seating is available, but I can add a note to the reservation requesting outdoor seating; however, the restaurant might not be able to fulfill the request. Should I proceed with the booking for 7:45 with the outdoor seating request?",
+      "response_time": 4.08,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 3.86,
+        "integrity": 4.06
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2587fbef",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.75,
+      "benevolence": 2.56,
+      "integrity": 2.66
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 2.52,
+    "latency_score": 5.21
+  }
+}

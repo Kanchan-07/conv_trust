@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to process a batch of claims and getting rejections for CPT 99213. The denial code is CO-18. This is driving me crazy, it should be a standard covered service!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration with rejections. CO-18 typically indicates duplicate claims. Have you already submitted these claims previously for the same date of service and patient?",
+      "response_time": 0.52,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No, that's the weird part. These are new claims that haven't been sent before. Could there be a system glitch? Or maybe something else is causing the system to *think* they are duplicates, like maybe a mismatch in patient information?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "A system glitch is unlikely, but not impossible. Mismatched patient information, like an incorrect date of birth or policy number, could potentially cause issues during processing that might be interpreted as a duplicate. Please double-check the patient demographics against their insurance card.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 3.56,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I checked, and the demographics match perfectly. Policy number, DOB, everything. What *else* could make it look like a duplicate if the claim hasn't been submitted before? Is it possible the *payer* has a record of something similar that's causing the hiccup, even if *our* system hasn't sent it? Like maybe they merged files or something? This is really confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good point. While CO-18 usually means a duplicate submission from your end, it *can* sometimes occur if the payer's system has received a claim with very similar key identifiers recently, even if it wasn't an exact match or from your system. This could happen due to processing errors on their end or if there was a prior related submission under a different ID. In this specific scenario, if you've verified your submission is unique and the patient data is correct, the next step would be to contact the payer directly with the specific claim details to investigate the reason for the CO-18 denial on their end. They can clarify what their system flagged as a duplicate.",
+      "response_time": 2.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 3.91,
+        "integrity": 4.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e9c3c17b",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.15,
+      "benevolence": 2.82,
+      "integrity": 2.92
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "anger": 2,
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 3.15,
+    "latency_score": 5.24
+  }
+}

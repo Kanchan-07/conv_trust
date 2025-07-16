@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to schedule a check-up appointment with Dr. Smith. I've been calling the office for an hour and can't get through! Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration. I can certainly help schedule an appointment for you with Dr. Smith. Could you please provide your full name and date of birth so I can access your patient information?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's John Doe, born January 1, 1980. But, since you're handling this, how do I know if the available slots you have are *actually* available and haven't been taken by someone else calling in?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a valid concern, Mr. Doe. The system I'm using is directly linked to Dr. Smith's scheduling software, so the times I offer are the most up-to-date availability. I am showing openings on Tuesday at 10:00 AM, and Wednesday at 2:00 PM. Would either of those work for you?",
+      "response_time": 1.68,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.89,
+        "benevolence": 2.42,
+        "integrity": 2.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_218240f1",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.95,
+      "benevolence": 1.71,
+      "integrity": 1.54
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 1.55,
+    "latency_score": 6.41
+  }
+}

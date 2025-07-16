@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new games to play. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, what genres do you enjoy?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.81,
+        "benevolence": 6.86,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I mostly like RPGs and strategy games. Something with a good story is a bonus.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on that, have you played the Witcher 3: Wild Hunt or Divinity: Original Sin 2? Both are highly regarded RPGs with strong narratives.",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 4.43,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've played both! Witcher 3 was amazing, and I liked Divinity, but it was a little overwhelming at times. Something a bit easier to pick up and play, maybe?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Understood. Perhaps try 'Pathfinder: Kingmaker' or 'Pillars of Eternity'. They offer deep RPG experiences but are arguably a bit less complex than Divinity. For strategy, have you played 'Civilization VI'?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.22,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I've tried Civilization, but I'm terrible at it! I always get invaded and wiped out early. Any suggestions for a strategy game that's a little more... forgiving to new players?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a tough one. The strategy genre is often unforgiving! For a gentler introduction, consider 'Into the Breach', a turn-based strategy game with a focus on short, contained battles. Alternatively, you could look into 'Northgard', which focuses more on resource management and clan growth than direct military conflict, which can be easier to handle.",
+      "response_time": 3.58,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.91,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Into the Breach sounds interesting. I'll give that a try. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8595dde6",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.85,
+      "integrity": 4.65
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "joy": 4,
+      "neutral": 2,
+      "surprise": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.59,
+    "latency_score": 3.14
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to check my account balance and recent transactions. This bank's website is always down when I need it!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To access your account information, could you please verify your identity? What is the last four digits of your social security number and your date of birth?",
+      "response_time": 0.59,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.44,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's #### and my birthday is MM/DD/YYYY. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for verifying your identity. One moment while I retrieve your account information. Okay, your current balance is $1,257.32. Your most recent transactions are: a debit card purchase at 'Joe's Coffee' for $5.50 on 10/26, and a deposit of $2,000.00 on 10/25 from 'Acme Corp'.",
+      "response_time": 0.62,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.14,
+        "benevolence": 1.43,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks! That deposit from Acme Corp. is way lower than usual, what's going on? I'm supposed to get $3,000, not $2,000!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I understand your concern. Unfortunately, I don't have access to the specifics of why the deposit was a different amount than expected. I recommend contacting Acme Corp. directly to inquire about the discrepancy. Is there anything else?",
+      "response_time": 4.2,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 4.44,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, I was hoping you could tell me. Fine, I'll call them. Thanks for your help anyway.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1168589f",
+    "average_trust_score": 2.0,
+    "trust_category_averages": {
+      "competence": 2.16,
+      "benevolence": 2.29,
+      "integrity": 1.98
+    },
+    "engagement_score": 4.4,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "joy": 2,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 2.25,
+    "latency_score": 5.7
+  }
+}

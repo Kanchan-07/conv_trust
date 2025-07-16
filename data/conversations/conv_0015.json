@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to go grocery shopping, but I'm really trying to stick to a budget of $50 this week. Can you give me some recommendations for meals and groceries that would fit that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To help me give you the best recommendations, could you tell me how many people you're cooking for and if you have any dietary restrictions or preferences (vegetarian, gluten-free, etc.)?",
+      "response_time": 5.25,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.65,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, good point. It's just for me, and I don't really have any dietary restrictions. I'm pretty open to anything, honestly, just trying to save some money. It's getting ridiculous how expensive everything is!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Based on a single serving and a $50 budget, I recommend focusing on versatile and affordable staples like rice, beans, pasta, and seasonal vegetables. A meal plan could include lentil soup, pasta with a simple tomato sauce, and rice with stir-fried vegetables. I can provide specific recipes and estimate costs based on average grocery prices in your area if you provide your zip code.",
+      "response_time": 5.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.21,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds alright... Zip code is 90210. But honestly, lentils and rice are kinda boring. Is there *anything* I can get that's a little more exciting within that budget? Like, maybe some chicken or even a cheaper cut of beef?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While chicken and beef can be incorporated, sticking to a $50 budget requires careful planning. In your zip code, a pound of chicken breast averages around $4-6, and cheaper cuts of beef like ground beef are similar. To make it work, you could consider a smaller portion of meat, about half a pound, used strategically across two meals. For example, you could make chicken stir-fry with lots of vegetables or a ground beef chili with plenty of beans. To stretch the budget further, buy frozen chicken or ground beef, which is often cheaper than fresh, and plan your meals around sales and promotions offered by your local grocery stores. Look for discounted produce, too, as that can vary wildly.",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 3.64,
+        "integrity": 3.59
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_34379137",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.52,
+      "benevolence": 5.17,
+      "integrity": 5.42
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 5.25,
+    "latency_score": 2.56
+  }
+}

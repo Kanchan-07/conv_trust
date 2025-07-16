@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with a general practitioner. I'm a new patient, so I don't have any existing records.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To get started, could you please provide your full name, date of birth, and the reason for your visit?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.87,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, alright. My name is John Smith, born on 05/12/1980. The reason for the visit is a persistent cough that I've had for about two weeks now. And I'm constantly exhausted.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Smith. I've found a few available slots with Dr. Emily Carter. She has openings on Tuesday at 10:00 AM and Thursday at 2:30 PM. Which time works best for you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.74,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, neither of those times are ideal. I work during the week. Is there anything available on the weekend or perhaps an evening appointment? And are there any other doctors available?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, but I am currently unable to search for appointments outside of the specified time frames. However, I can check if Dr. Davis, another GP, has any evening appointments available. Would you like me to do that?",
+      "response_time": 2.93,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 4.05,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. Let's see if Dr. Davis has anything available in the evening. If not, I suppose I'll have to figure out how to take time off. ",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8b0e4a49",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.16,
+      "benevolence": 4.89,
+      "integrity": 5.11
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 2
+    },
+    "response_quality_score": 4.8,
+    "latency_score": 3.34
+  }
+}

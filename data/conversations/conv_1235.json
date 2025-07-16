@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to stick to a tight budget this week. Can you give me some grocery recommendations? I'm trying to spend under $75.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To provide the best recommendations, could you tell me a bit more about your preferences? Do you have any dietary restrictions or favorite cuisines? Also, how many people are you shopping for?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Just me! And I'm trying to eat healthier, so lots of veggies. No red meat, please. This is harder than I thought! I'm overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Based on your preferences and budget, here\u2019s a possible grocery list:\n\n*   **Vegetables:** Broccoli, carrots, spinach, bell peppers ($20)\n*   **Protein:** Chicken breast, eggs, lentils ($25)\n*   **Grains:** Brown rice, whole wheat bread ($10)\n*   **Fruits:** Apples, bananas, oranges ($10)\n*   **Other:** Olive oil, spices ($10)\n\nThis list should come in around $75. Prices may vary based on your location and specific store. Would you like me to provide more specific quantities for each item?",
+      "response_time": 4.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.33,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a good start! But how do you know the prices? Can you factor in sales or store-specific pricing? I usually shop at Trader Joe's.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am still under development and do not yet have real-time access to sales data or store-specific pricing for Trader Joe's. The prices I provided are estimations based on average market prices. For the most accurate results, I recommend checking Trader Joe's weekly ads or using their app for current pricing. I apologize for this limitation, but I am constantly learning and improving!",
+      "response_time": 4.26,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.07,
+        "integrity": 5.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f31e8e4f",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.76,
+      "benevolence": 5.8,
+      "integrity": 5.96
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 5.58,
+    "latency_score": 2.47
+  }
+}

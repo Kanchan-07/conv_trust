@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help finding flights for a family trip. We're looking for a round trip from Chicago (ORD) to Orlando (MCO) departing on December 20th and returning on December 27th. We need four adult tickets. Hoping to find something reasonably priced, it's for Christmas after all!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can certainly assist with that! Searching for round trip flights for 4 adults from Chicago O'Hare (ORD) to Orlando (MCO), departing on December 20th, 2024, and returning on December 27th, 2024. Please hold on while I check the available options.",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.6,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Great, thanks. We're flexible by a day or two on either end if it makes a big difference in price. Any non-stop options would be fantastic, but I'm not optimistic for this time of year. Just please don't give me anything with super early departures, like before 7 AM, or really late arrivals.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I've found some results. For the requested dates, December 20th to December 27th, non-stop options are available primarily through United and American Airlines, with prices per ticket starting around $450-$500. These flights generally depart mid-morning or early afternoon. There are also options with one stop starting from around $380, but these often have less convenient schedules.",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.14,
+        "integrity": 3.86
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $450 is quite steep per person, that's $1800 just for flights! And that's for mid-morning, which is good, but is there *any* chance of finding *anything* non-stop below $400, even if we leave on the 19th or return on the 28th? It just seems incredibly high, almost like the system is only showing the most expensive fares. How can I be sure I'm seeing the absolute best non-stop price available, not just what's easiest to book?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_37cc7a16",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.23,
+      "benevolence": 3.87,
+      "integrity": 3.73
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.01,
+    "latency_score": 4.62
+  }
+}

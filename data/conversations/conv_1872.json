@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with my physics homework. Can you help me understand projectile motion?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! Projectile motion involves objects moving through the air, subject to gravity. To start, what specific concepts are you finding challenging?",
+      "response_time": 4.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.15,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the horizontal and vertical components of velocity are confusing me. How do they relate to each other?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great question! The horizontal and vertical components of a projectile's motion are independent of each other. The horizontal velocity remains constant (assuming negligible air resistance), while the vertical velocity changes due to gravity (accelerating downwards at approximately 9.8 m/s\u00b2). Let's work through an example. Imagine a ball thrown horizontally. What happens to its horizontal and vertical motion?",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.34,
+        "integrity": 2.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I think I understand the basics now. But, how do you calculate the range of a projectile, especially when the launch angle is not 0 degrees? That's where I'm really stuck.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, calculating the range with a non-zero launch angle requires a few steps. First, calculate the time the projectile spends in the air. This depends on the initial vertical velocity and the acceleration due to gravity. Second, multiply the time in the air by the horizontal velocity. The formula is as follows: Range = (Initial velocity^2 * sin(2 * launch angle)) / gravity. Does that make sense?",
+      "response_time": 3.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 4.08,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Um, not really. The formula is a bit confusing. Can you break that down a little more, and maybe provide an example? And also, what about air resistance? Does it affect the calculation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, I will explain in more detail. Lets say, we are going to calculate the range. First, you need to break down the initial velocity into vertical and horizontal components using sine and cosine functions with the launch angle. From the vertical component, we can determine the time of flight. The time of flight is affected by gravity, so take the vertical component, divide it by the gravity (9.8 m/s^2) and multiply it by 2. Then you can calculate the range. For example: If the initial velocity is 20 m/s and the launch angle is 30 degrees, time of flight is 2.04 seconds, and then use the formula (Initial velocity^2 * sin(2 * launch angle)) / gravity. The range would be approximately 35.35 meters. Yes, air resistance does affect it, usually reducing the range. Air resistance is more complex to calculate, and it is beyond my expertise for now.",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.31,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes a lot more sense now. Thank you for the clarification and the example. I think I can tackle the rest of the problems. I appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d65b0bb3",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.89,
+      "benevolence": 3.97,
+      "integrity": 4.19
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.23,
+    "latency_score": 3.91
+  }
+}

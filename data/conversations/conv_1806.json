@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from Chicago to London, preferably non-stop, around the end of July. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Please provide the specific dates you're looking to travel, and I'll search for flights for you.  Also, for what year are you planning to travel?",
+      "response_time": 4.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.88,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, sorry! I knew I forgot something. I'm looking for July 28th to August 5th, 2024. And I definitely want non-stop flights. I hope this isn't going to be too expensive!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've searched for non-stop flights from Chicago to London departing July 28th, 2024 and returning August 5th, 2024. I'm showing several options, but I'm not sure what kind of budget you are working with. Do you have a preferred airline or a price range you'd like me to consider?",
+      "response_time": 2.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.67,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wow, that's a lot of choices. Okay, I'll bite... what's the most environmentally friendly flight option out of all of them? It's important to me.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2d28e37c",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.78,
+      "integrity": 4.89
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 3.7
+  }
+}

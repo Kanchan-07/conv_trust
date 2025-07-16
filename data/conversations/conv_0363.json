@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some grocery recommendations, but I'm on a tight budget this week. Like, REALLY tight.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. To give you the best recommendations, what's your budget for groceries this week, and how many people are you feeding?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.84,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, only $50. And it's just me. This is going to be rough.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, $50 for one person. I can definitely work with that. I recommend focusing on staples like rice, beans, and pasta. Also, check for in-season produce for better prices. Would you like me to suggest some specific meal ideas based on these guidelines?",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.65,
+        "integrity": 5.66
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, meal ideas would be great. But I'm so tired of rice and beans! Is there anything else I can do to add some variety without blowing the budget?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Of course! Consider adding eggs \u2013 they're a great source of protein and relatively inexpensive. Also, frozen vegetables can be cheaper than fresh, especially if certain vegetables are out of season. I can also generate meal ideas that center around rice and beans but use different spices and sauces to make them more exciting.",
+      "response_time": 5.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.75,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, frozen veggies and eggs, noted. But how do I know what's actually the cheapest option at the store? Like, is the generic brand always cheaper, or are there exceptions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! Generally, generic brands are cheaper, but it's always wise to compare the unit price (price per ounce or pound) on the shelf tag. Sometimes, store sales or bulk discounts on name-brand items can make them cheaper than the generic option per unit. Also, keep an eye out for manager's specials on items nearing their expiration date \u2013 those can be a steal! I don't have real-time access to prices at your local stores, so it's best to check in-store or online before heading to the checkout.",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.41,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Thanks! So, give me three meal ideas based on all of this that are hopefully somewhat healthy and definitely under budget.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Sure! Here are three budget-friendly and relatively healthy meal ideas: 1) Lentil soup with a side of whole-wheat bread. Lentils are very affordable and packed with protein and fiber. 2) Scrambled eggs with spinach and a slice of toast. A quick, easy, and nutritious meal. 3) Pasta with a simple tomato sauce made from canned tomatoes and seasoned with herbs. Consider adding a can of chickpeas for extra protein. These are just suggestions, feel free to substitute ingredients based on what's on sale or what you have on hand!",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.6,
+        "integrity": 5.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_79265f57",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.18,
+      "benevolence": 5.25,
+      "integrity": 5.27
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.07,
+    "latency_score": 3.24
+  }
+}

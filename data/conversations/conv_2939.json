@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some shoe recommendations. I'm trying to build a more 'business casual' wardrobe.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Business casual is a great style to focus on. To give you the best recommendations, could you tell me a bit more about your typical workplace environment? Is it very traditional, or more relaxed? And are you leaning towards loafers, lace-ups, or even perhaps a stylish sneaker?",
+      "response_time": 5.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.81,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's more relaxed, definitely not super traditional. I usually wear chinos or dark wash jeans, button-downs, maybe a blazer sometimes. I'm open to loafers or lace-ups, but honestly, finding comfortable ones that still look sharp is frustrating.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, relaxed business casual, pairing with chinos/jeans and button-downs. For comfort and style, you might consider a quality pair of suede or leather loafers (like penny loafers or bit loafers), or perhaps desert boots or chukka boots in suede. Derby shoes in a slightly less formal finish, like burnished leather, can also work well.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 3.95,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, desert boots sound interesting. But how do you decide between, say, a leather Derby and a suede desert boot for the exact same outfit? Like, is there a rule? It just feels like guesswork sometimes and I end up feeling awkward.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very common point of confusion, as the lines can be subtle! Generally, a leather Derby is considered slightly more formal than a suede desert boot. For your relaxed business casual look, both can work, but the suede desert boot often complements the texture of chinos or dark jeans a bit more casually. Think of suede as leaning weekend casual, while polished leather leans more office/evening. It's less about a strict rule and more about the overall vibe you want \u2013 suede is relaxed, leather is a touch sharper.",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.94,
+        "integrity": 3.75
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ca311c12",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.61,
+      "benevolence": 4.57,
+      "integrity": 4.51
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 4.57,
+    "latency_score": 3.22
+  }
+}

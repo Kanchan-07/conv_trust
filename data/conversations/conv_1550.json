@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help writing a resume. I haven't updated mine in years and it's a mess. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help with that. The best place to start is usually a summary or objective statement, followed by your work experience, education, and skills. To tailor it, do you have a specific job in mind you're applying for?",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.87,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'm applying for a few different project management roles, so I'm not sure if I should write a specific objective or a general summary. Also, my last job was a total disaster. It's hard to know how to phrase it without sounding like a failure.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. For a situation like that, a summary focusing on your transferable skills might be best. For the 'disaster' job, focus on the positive aspects and achievements. For example, instead of saying 'failed to meet deadlines,' try 'managed projects under pressure, ensuring key deliverables were completed.' Do you have any specific accomplishments you'd like to highlight? Also, let's discuss what a 'project manager' does...",
+      "response_time": 2.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.17,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait, so you're saying I should lie? Because I definitely *didn't* ensure key deliverables were completed! Honestly, this is more frustrating than I thought. I'm starting to think I'm unemployable.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize; I did not mean for you to lie. The idea is to phrase things in a positive and professional way. Even if a project didn't go perfectly, there are likely skills you can pull from the experience. For example, you can highlight problem-solving or your ability to work under pressure. Perhaps providing context could help me provide more relevant suggestions. Could you briefly describe the situation at that previous job?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.34,
+        "benevolence": 2.79,
+        "integrity": 2.38
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes more sense. I guess I can focus on what I *did* learn, even if things didn't go as planned. I can also list specific tools and systems I used. Thanks, this is actually starting to feel less overwhelming.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_027e60be",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.95,
+      "benevolence": 4.28,
+      "integrity": 3.78
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 4.76
+  }
+}

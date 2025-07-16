@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! Can you recommend some good food options nearby?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me your current location or zip code?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.97,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm at 90210. And I'm really craving something... well, not too heavy. Maybe something with vegetables?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great. Based on your location and preference for something lighter with vegetables, I recommend checking out \"Green Garden Cafe\" and \"Zen Bowl.\" Both are nearby and offer a variety of salads, wraps, and veggie-focused dishes. Which sounds more appealing?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.01,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Zen Bowl sounds vaguely familiar. What are their most popular dishes, and are they healthy? I'm trying to be good.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Zen Bowl is known for its customizable rice and noodle bowls with fresh ingredients. Their most popular items include the Spicy Tofu Bowl and the Teriyaki Chicken Bowl (though that has meat). As for healthiness, it depends on your choices. You can easily make a healthy bowl by selecting a whole grain base, lean protein, and lots of veggies. I'd recommend focusing on the options with a lot of fresh vegetables. You can customize the bowls to be as healthy as you like!",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.55,
+        "benevolence": 5.99,
+        "integrity": 5.2
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful. But I see so many options and customizations that I'm getting overwhelmed. Is there a pre-designed bowl at Zen Bowl that is considered the absolute healthiest? Like, the *most* optimized for health?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! I don't have direct access to specific nutritional information for every bowl to definitively say *the* most healthy. However, based on typical menu offerings and general health principles, I would recommend building your own bowl: Start with a quinoa or brown rice base, add a generous portion of steamed or roasted vegetables (like broccoli, carrots, and bell peppers), choose a plant-based protein (tofu or edamame), and opt for a light dressing on the side, such as a lemon vinaigrette. This allows you to control the ingredients and portion sizes to maximize health benefits.",
+      "response_time": 5.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.2,
+        "integrity": 5.6
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I'll try that. Thanks! Can you place an order for me to pick up in, say, 20 minutes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I can't directly place the order for you. However, I can provide a direct link to Zen Bowl's online ordering system or their phone number. This will allow you to place your order in the way that best suits your preferences and to customize it exactly as you wish. I hope you enjoy your healthy meal!",
+      "response_time": 5.96,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.01,
+        "integrity": 5.42
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef802d78",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.66,
+      "benevolence": 5.44,
+      "integrity": 5.38
+    },
+    "engagement_score": 5.82,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.43,
+    "latency_score": 2.46
+  }
+}

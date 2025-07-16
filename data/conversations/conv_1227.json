@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really run down lately. Tired all the time, and I seem to be getting sick more often than usual. Any ideas what could be causing this?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand. Several factors could be contributing to your fatigue and increased susceptibility to illness. These could include stress, poor sleep, nutritional deficiencies, or even an underlying medical condition. To give you more specific advice, could you tell me a bit more about your daily routine and diet?",
+      "response_time": 2.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.99,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I knew you'd ask about that! Okay, well, I work long hours, usually 10-12 hours a day. I grab whatever's convenient for food, so it's not always the healthiest. Sleep is a struggle; I usually get around 6 hours a night, if I'm lucky. I'm also pretty stressed out about work.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It sounds like you are dealing with some stressors that could potentially be the main factor. Given your long work hours, inconsistent diet, and lack of sufficient sleep, it is not surprising that you're experiencing fatigue and increased illness. I would suggest, whenever possible, prioritizing 7-9 hours of sleep per night, eating a more balanced diet with plenty of fruits and vegetables, and finding ways to manage your stress, maybe through exercise or mindfulness. However, I'm not a medical professional, so I strongly recommend consulting with your doctor.",
+      "response_time": 5.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.44,
+        "integrity": 5.32
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I understand. But realistically, how am I supposed to get 7-9 hours of sleep with my schedule? Any tips or tricks you could suggest? I'm not sure I can do everything at once. Feeling pretty overwhelmed right now.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. That's a valid concern. Here are a few tips that might help: 1) Try to establish a regular sleep schedule, even on weekends. 2) Create a relaxing bedtime routine, such as taking a warm bath or reading a book. 3) Avoid screen time (phones, tablets, computers) for at least an hour before bed. 4) Make sure your bedroom is dark, quiet, and cool. 5) You could also consider a short nap during the day if you feel tired, but keep it brief (20-30 minutes) to avoid disrupting your nighttime sleep. But again, consult with your doctor if it persists.",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 4.02,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful, thank you. I'll try to implement those tips. I appreciate the advice. I'll also make an appointment with my doctor, just to be safe. Thanks again!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d34b7c79",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.48,
+      "integrity": 4.6
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.01,
+    "latency_score": 4.01
+  }
+}

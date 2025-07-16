@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some book recommendations. I really enjoy reading fantasy.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. For fantasy, would you prefer epic fantasy, high fantasy, or something else? Knowing your preferred subgenre will help me narrow down the suggestions.",
+      "response_time": 5.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.46,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm not really sure. I like books like 'The Name of the Wind' and 'Mistborn'. So I guess high fantasy?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, great! Based on your preferences, I recommend checking out 'The Way of Kings' by Brandon Sanderson (The Stormlight Archive), 'The Lies of Locke Lamora' by Scott Lynch (Gentleman Bastards), and 'The Priory of the Orange Tree' by Samantha Shannon. They all share similar world-building and magic systems. Let me know if you'd like a brief synopsis of each.",
+      "response_time": 4.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.44,
+        "integrity": 5.74
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wow, that's a lot. Okay, give me a synopsis of 'The Lies of Locke Lamora' and 'The Priory of the Orange Tree', please. I think I've heard of 'The Way of Kings' before, so I probably don't need a summary for that one.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. 'The Lies of Locke Lamora' is a story about a group of con artists in a fantasy city, with a strong focus on cunning and intricate schemes. 'The Priory of the Orange Tree' is set in a world where the threat of dragons looms, and the balance of power between various kingdoms is at stake, with multiple protagonists. Which one sounds more interesting?",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.4,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "They both sound good, but I'm a bit overwhelmed. How would you compare the writing styles and pacing of those two books? And which one is generally considered *better*, according to literary critics?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a tricky question, as 'better' is subjective! Generally, critics praise both. 'The Lies of Locke Lamora' has a faster pace and a more witty, dialogue-driven style, while 'The Priory of the Orange Tree' has a slower pace, with more detailed world-building and character development. Some critics have found elements of 'The Priory of the Orange Tree' to be dense, and some have found elements of 'The Lies of Locke Lamora' to be too reliant on plot twists, but both are considered excellent. It's a matter of preference!",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.16,
+        "integrity": 5.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5d09a17a",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.24,
+      "benevolence": 5.12,
+      "integrity": 5.32
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 5,
+      "surprise": 2
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 3.29
+  }
+}

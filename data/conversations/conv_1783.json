@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some legal advice. I'm a bit overwhelmed, to be honest.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand. I am designed to assist with legal inquiries. To best assist you, could you please provide some information regarding the nature of your situation? The more detail you provide, the better I can understand your needs and provide helpful guidance. I can help with things like contract review, understanding legal concepts, and finding relevant resources. However, please be aware I cannot provide legal advice, only information.",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.36,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I signed a contract with a company a few months ago, and now they're saying I owe them a significant amount of money. I don't think I do, but the contract is really confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see. That's a common situation. I can certainly help you understand some aspects of the contract. To help me assist you more effectively, could you please provide a brief overview of the contract, specifically the sections pertaining to payment obligations, and any clauses related to termination or disputes? I can also help you define some basic legal terms, such as breach of contract.",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 4.14,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, it's so dense. Okay, there's a section on 'service fees' that's vague, and a 'penalty' clause if I don't meet certain milestones. Honestly, the milestones are also poorly defined. What does 'vague' legally mean in this context? And, how enforceable is a penalty based on vague criteria? This is frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Regarding the legal definition of \"vague\", it generally refers to terms that are not clear or precise, leaving room for multiple interpretations. As for the enforceability of a penalty based on vague criteria, it can be challenging. Courts often scrutinize such clauses and may deem them unenforceable if they are not sufficiently clear and unambiguous. However, I recommend consulting with a legal professional for a case-specific assessment, as enforcement depends heavily on jurisdiction and specifics within the contract. I can provide links to legal dictionaries if you'd like to see a legal definition of terms like 'unambiguous'.",
+      "response_time": 3.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.33,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But, here's a tricky one: the contract states the governing law is from a different state. I live in another state. How does that work? Can I still sue them in my state if they breach the contract?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very good question. The governing law clause in a contract specifies which state's laws will be used to interpret the contract. Whether you can sue in your state depends on several factors, including the specifics of the contract, the location of the breach, and the laws of both states. Generally, you may be able to file a lawsuit in your state if the court has jurisdiction over the other party. I strongly advise you to seek advice from an attorney who specializes in contract law. They can provide informed advice and guidance tailored to your location and the specifics of your situation.",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.17,
+        "integrity": 5.41
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e5ea39a9",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.69,
+      "benevolence": 4.75,
+      "integrity": 4.67
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 5.07,
+    "latency_score": 3.66
+  }
+}

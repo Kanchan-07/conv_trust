@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice regarding a potential breach of contract. I signed a lease for an apartment, but when I went to move in, the landlord said it wasn't ready and is now trying to put me in a smaller, less desirable unit. I'm pretty frustrated about this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. A landlord's failure to provide the agreed-upon premises as per the lease agreement can indeed constitute a breach of contract. To advise you properly, I need more information. Can you provide me with a copy of the lease agreement? Also, what communication have you had with the landlord since this issue arose?",
+      "response_time": 0.57,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I can provide the lease. I've emailed it to support@legalai.com. As for communication, it's been mostly over the phone, but I have a couple of text messages where he admits the original unit isn't available. He's offering a rent reduction for the smaller unit, but it's still more than I wanted to pay based on the original apartment's size.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've received the lease. The text messages are also useful as evidence. Generally, a breach of contract allows you to seek remedies such as specific performance (forcing the landlord to provide the original unit, if possible) or monetary damages to compensate for your losses (e.g., the difference in rent, moving expenses, temporary housing costs). However, this is general information and not a substitute for personalized advice.",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.08,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Specific performance sounds great, but what if the original unit really *isn't* available, say it's undergoing major repairs or something? Is that even an option then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid point. If the original unit is genuinely uninhabitable or undergoing extensive repairs that prevent its use, specific performance becomes less likely. A court might be hesitant to order something impossible or unsafe. In such cases, the focus shifts to monetary damages. These could cover the difference in rent between what you're now paying and what you *would* have paid for a comparable unit, plus any reasonable expenses incurred due to the breach.",
+      "response_time": 2.05,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.44,
+        "benevolence": 2.14,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. So, what are my next steps? Should I try to negotiate with the landlord, or should I go straight to filing a lawsuit? Honestly, I'm a bit overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Negotiation is generally a good first step. It can save you time and legal fees. I can help you draft a demand letter outlining your rights, the landlord's breach, and your desired resolution (e.g., monetary compensation). This letter can serve as a starting point for negotiations. If negotiations fail, then you can consider filing a lawsuit, but consulting with a qualified attorney in your jurisdiction is always recommended before taking legal action.",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.11,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's really helpful. Thank you for clarifying things. I feel much better informed now. I'd like to proceed with drafting that demand letter.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7d60e5d6",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.61,
+      "benevolence": 3.33,
+      "integrity": 3.72
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 5,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.41,
+    "latency_score": 4.91
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally trying to get serious about financial planning. I'm 35, have a decent job, but honestly, I have no idea where to even start. It's all so overwhelming!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can definitely feel overwhelming at first. Let's break it down. A good starting point is to assess your current financial situation. This involves looking at your income, expenses, assets (like savings and investments), and liabilities (like debts). Do you have a general idea of these, or would you like help categorizing them?",
+      "response_time": 2.23,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.68,
+        "benevolence": 2.74,
+        "integrity": 2.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I have a *general* idea, yes. I know I spend way too much on eating out. But investments? I have a 401k through work, and that's about it. Honestly, I'm probably not saving enough. How much *should* I be saving?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "A common recommendation is to save at least 15% of your gross income for retirement. However, this can vary depending on your individual circumstances and retirement goals. Given that you're 35 and only have a 401k, aiming for closer to 20% might be beneficial to catch up. Have you considered opening a Roth IRA or a brokerage account in addition to your 401k?",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 3.6,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A Roth IRA... I've heard of those. But honestly, it's just another thing to research and try to understand! Is it *really* that much better than just putting extra money into my 401k? What are the actual advantages, because frankly, I don't have the time to wade through all the jargon online.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The main advantage of a Roth IRA lies in its tax treatment. While contributions aren't tax-deductible, qualified withdrawals in retirement are tax-free. This can be very beneficial if you anticipate being in a higher tax bracket in retirement. Also, Roth IRAs typically offer a wider range of investment options compared to a 401k. So it can give you more control.",
+      "response_time": 5.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.49,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's\u2026 actually helpful. Tax-free withdrawals sound pretty good. So, next step: figure out how to actually *open* one of these things, I guess. Thanks! I feel slightly less lost now.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2b955d73",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.11,
+      "benevolence": 3.94,
+      "integrity": 3.88
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 3.83
+  }
+}

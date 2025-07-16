@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a hotel room in New York City for next week.  I'm so overwhelmed with options, can you help?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To get started, can you please tell me the dates you'll be staying and the number of guests?",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.73,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay.  Let's say check-in is Monday, October 28th, and check-out is Friday, November 1st.  Two adults.  And something not super expensive, maybe around $200-$300 a night, ideally.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've got some options for you. I found three hotels in your price range: The Jane Hotel, The Pod Times Square, and The Evelyn Hotel. All of these have decent reviews. However, to provide you with the best recommendation, I'd need to know which part of the city you prefer to stay in, and any other requirements such as having free Wi-Fi or breakfast included.",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.75,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful! But... can you guarantee the room will be available if I go with one of those hotels? I've had issues in the past where the website says there's a room, but when I go to book, there isn't one. That's super frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_acb0d9b7",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.4,
+      "benevolence": 4.74,
+      "integrity": 4.86
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "sadness": 2
+    },
+    "response_quality_score": 4.81,
+    "latency_score": 3.64
+  }
+}

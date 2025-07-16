@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Ramirez. How can I do that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To schedule an appointment with Dr. Ramirez, please provide your full name and date of birth.",
+      "response_time": 4.4,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.74,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's John Smith, and my birthday is May 15, 1980. But honestly, this is the third time I've had to schedule this appointment. Is there a way to just automatically book it next year?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Smith. I'm sorry for the repeated scheduling issues. While we don't have an automated yearly booking system, I can definitely help get you set up for next year. Let me find an available appointment for you.",
+      "response_time": 6.0,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.93,
+        "benevolence": 6.51,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, thanks. Any time in the next two weeks would work. What days/times are available?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check Dr. Ramirez's schedule... Okay, we have availability on Tuesday at 2:00 PM or Thursday at 10:00 AM. Which works best for you?",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.18,
+        "integrity": 3.86
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, neither of those are ideal, but I guess Thursday at 10:00 AM is okay. Can you confirm that's Thursday, October 26th?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, Mr. Smith, that's correct. Thursday, October 26th at 10:00 AM. The appointment is confirmed. You will receive a confirmation email shortly. Is there anything else I can help you with?",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.33,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, that's all, thank you. And thanks for dealing with my frustration!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b85cf95b",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.5,
+      "benevolence": 5.44,
+      "integrity": 5.58
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "neutral": 6,
+      "surprise": 1,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 5.44,
+    "latency_score": 3.05
+  }
+}

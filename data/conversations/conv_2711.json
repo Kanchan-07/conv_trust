@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a follow-up appointment.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. To get started, please tell me who the appointment is for, which doctor you need to see, and the general reason for the follow-up.",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.55,
+        "integrity": 5.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for me, Emily Carter. I need to see Dr. Rodriguez in Cardiology for my post-op check-up.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Emily. Let me check Dr. Rodriguez's availability for a cardiology follow-up. The earliest I see is Friday, November 10th at 2:30 PM.",
+      "response_time": 5.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.96,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "November 10th? That's over three weeks away! My surgeon said I should be seen within two weeks of discharge. That timing doesn't work at all. Why is it taking so long? Can't I get in sooner or see someone else in the practice?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about the timing, Emily. Dr. Rodriguez is quite busy. The November 10th slot is the very first available opening his schedule shows for follow-ups. Unfortunately, our system prioritizes seeing the original physician. Seeing someone else would typically require a new referral, which can sometimes take longer.",
+      "response_time": 3.27,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.4,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That seems ridiculous. So my only option is over three weeks out with him, or start a whole new referral process which might take even longer? There are no cancellation lists or other doctors with any earlier openings at all for a simple follow-up?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d9bf3f27",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.14,
+      "benevolence": 5.3,
+      "integrity": 5.14
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1,
+      "surprise": 1,
+      "fear": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.87,
+    "latency_score": 3.22
+  }
+}

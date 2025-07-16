@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with a job application. I'm applying for a software engineer position at Google.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. What specific areas of the application are you struggling with? Resume review, cover letter, interview prep, etc.?",
+      "response_time": 5.0,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.42,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, all of it. I'm mostly stuck on the cover letter. I have a basic template, but I don't know how to tailor it to Google and this specific role.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To tailor your cover letter, you should research the specific role's requirements and Google's values. Then, highlight relevant skills and experiences and show how they align. What are some of the core responsibilities of the role?",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.44,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, the job description is pretty generic. It just says things like \"develop and maintain software,\" and \"collaborate with a team.\" I'm not sure how to make that sound impressive.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. It's often frustrating when job descriptions lack specifics. Let's try to find some clues. Can you provide the link to the job posting? Also, what programming languages and technologies are you most proficient in? With this, I can provide more tailored advice.",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.2,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, here's the link: [insert-fake-google-job-link.com]. I'm really strong in Python, Java, and I have experience with cloud technologies like AWS. But... how do I even *prove* I'm proficient? I could list all the projects I've done, but that's a lot to fit in a cover letter...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! Instead of listing every project, choose 2-3 of your most relevant projects and briefly describe them. Focus on the impact you made using Python, Java, and AWS. Quantify your accomplishments whenever possible (e.g., 'Reduced latency by 15%'). Then, connect these accomplishments to the job description's keywords. What's a key skill you possess based on your experience that aligns with their description?",
+      "response_time": 5.98,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.86
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "This is actually really helpful! I feel much better about writing this cover letter now. Thanks for the advice, I'll give it a shot! ",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c782fe1f",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.11,
+      "benevolence": 5.26,
+      "integrity": 5.13
+    },
+    "engagement_score": 4.55,
+    "emotion_distribution": {
+      "fear": 1,
+      "sadness": 1,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 5.04,
+    "latency_score": 3.54
+  }
+}

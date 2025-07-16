@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. Can you recommend some good alternative rock bands?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Alternative rock is a broad and exciting genre. Here are a few highly-regarded bands you might enjoy: Nirvana, Radiohead, The Smashing Pumpkins, Foo Fighters, and Arctic Monkeys. Have you listened to any of these before?",
+      "response_time": 4.32,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.92,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know all those bands. They're great, but I was hoping for something a bit less obvious, maybe something newer or more indie? Like, not the bands everyone already knows. It's frustrating sometimes, like recommendations just cycle through the same big names. How do you even find bands that aren't mainstream?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with hearing the same popular suggestions. My recommendations are typically based on popularity within a genre, critical acclaim, and associations derived from large datasets of listener behavior. For more niche or newer indie alternative rock, I can try to dig deeper. Have you heard of bands like The 1975, Vampire Weekend, or perhaps Portugal. The Man? They are established but often considered more on the indie side.",
+      "response_time": 2.13,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.11,
+        "benevolence": 2.47,
+        "integrity": 2.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Portugal. The Man is okay, but The 1975 and Vampire Weekend still feel pretty big. I was thinking even smaller, maybe something with a bit more grit or experimental edge, like early Modest Mouse or Built to Spill? Something critically loved but not necessarily charting high. Ugh, finding that sweet spot is tough!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, you're looking for that specific late 90s/early 00s indie sound with grit and an experimental bent, like Modest Mouse or Built to Spill. That helps clarify! Considering that, you might enjoy bands such as Car Seat Headrest (modern indie with a lo-fi influence), Pavement (classic slacker rock, influential to that era), or maybe even less known acts like Archers of Loaf or Superchunk from the Merge Records catalog. While Pavement and the latter two are older, they fit that specific sound profile well. Car Seat Headrest is more contemporary but shares some characteristics. Let me know what you think!",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.0,
+        "integrity": 5.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e2554225",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 4.82,
+      "integrity": 4.74
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.8,
+    "latency_score": 4.08
+  }
+}

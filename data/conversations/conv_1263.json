@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to install a new kitchen faucet, but I'm completely lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. First, can you tell me the make and model of your new faucet, and the current type of sink you have? This will help me provide more specific instructions. Also, are you comfortable with basic plumbing tasks?",
+      "response_time": 4.47,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.91,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, the make is Grohe, but I threw away the box and don't remember the model! It's a standard double-basin stainless steel sink. I've done some basic plumbing before - replaced a toilet flapper valve, that kind of thing. So, not a pro.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, a Grohe faucet and a stainless steel sink. Without the model, specific instructions are tough, but generally, you'll need to disconnect the old faucet's water supply lines (turn off the water first!), unscrew the mounting hardware, and then remove the old faucet.  For the new faucet, you'll reverse the process. The most challenging part often is accessing the connections under the sink. What's the biggest problem you are facing right now?",
+      "response_time": 2.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.9,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The biggest problem is actually the quick connect fittings on the Grohe faucet. I can't figure out how to get them to connect to the existing supply lines! They look totally different. How do I do this?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0bb5821f",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.91,
+      "integrity": 4.82
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 3.87
+  }
+}

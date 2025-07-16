@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking at my latest bill and it's almost double what I usually pay! I'm really frustrated, I don't understand why it's so high.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely help look into that for you. Could you please provide your account number or the phone number associated with your account so I can pull up your information?",
+      "response_time": 1.67,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.76,
+        "benevolence": 2.55,
+        "integrity": 2.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. And can you also explain how these charges are calculated? I've heard that the rates can change without notice and it feels like that's what's happening here.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I have your account pulled up. I see a charge for international calls made on the 15th and 22nd of last month. Would you like me to show you the number and duration for these calls? Regarding the rates, our terms of service state we may modify rates with 30 days' notice by posting changes to our website.",
+      "response_time": 2.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.99,
+        "integrity": 4.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2222166b",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.28,
+      "benevolence": 3.27,
+      "integrity": 3.65
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 2.89,
+    "latency_score": 5.32
+  }
+}

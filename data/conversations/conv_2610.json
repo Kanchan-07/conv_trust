@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm completely lost when it comes to investing. Everyone says I should start, but the stock market feels like gambling, and honestly, the thought of losing money I've worked hard for makes me feel really anxious. Where do I even begin without feeling totally overwhelmed?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! It's completely understandable to feel anxious when starting with investing, especially with so much information out there. We can break it down together. A good starting point is understanding your investment goals, your time horizon (how long you plan to invest), and your risk tolerance. Would you like to start by discussing what you hope to achieve through investing, like retirement or a down payment?",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.68,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, mostly retirement, probably in 20-25 years. Risk tolerance... I guess low to medium? I really, really don't want to lose a huge chunk. But okay, even with that, how do you actually *do* it? Do I need a broker? What's an ETF versus a mutual fund? And honestly, how can I possibly pick specific stocks when even the 'experts' get it wrong? Isn't there a way to just... invest in 'the market' without needing a finance degree? Because this feels impossible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For a 20-25 year horizon with low to medium risk tolerance, diversified index funds or ETFs are often recommended as they offer broad market exposure and generally lower fees than actively managed funds. Yes, you would typically open an investment account with a brokerage firm. ETFs (Exchange Traded Funds) trade like stocks throughout the day, while mutual funds are bought and sold based on their end-of-day price. Many platforms offer simple ways to buy these diversified funds, often through fractional shares or automated investment plans, so you don't necessarily need to pick individual stocks. We can explore setting up a basic diversified portfolio using low-cost index funds.",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.03,
+        "integrity": 5.84
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cfdae073",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.1,
+      "benevolence": 6.02,
+      "integrity": 6.42
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 6.19,
+    "latency_score": 2.74
+  }
+}

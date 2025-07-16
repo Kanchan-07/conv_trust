@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to book a table for dinner tomorrow night, but it's proving impossible! Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can assist you with that. Could you please tell me what city you are looking to dine in, what time you would like to book the table for, and how many people will be in your party?",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.36,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for tomorrow night, let's say around 7:30 PM, in Chicago. And we'll be a group of 4. Ideally, something Italian, but I'm open to suggestions, something not too fancy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for Italian restaurants in Chicago for tomorrow at 7:30 PM for a party of 4. I see a few options. There's 'Pasta Paradise', which has good reviews and is moderately priced. Would you like to know more, or shall I keep searching?",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.62,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me more about Pasta Paradise. Also, a bit of a curveball - how would you guarantee I actually get a good table there? I've had issues with online bookings before where they stick you in a terrible spot.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Pasta Paradise is a highly-rated Italian restaurant known for its classic pasta dishes and cozy atmosphere. It has an average rating of 4.5 stars based on 500+ reviews. As for guaranteeing a good table, I unfortunately cannot directly guarantee a specific table location. Restaurant table allocation is typically determined by the restaurant's management based on availability and reservation priority. However, I can add a note to your reservation requesting a preferred seating location, such as away from the kitchen or near a window. Would you like me to proceed with booking a table at Pasta Paradise with that request?",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.26,
+        "integrity": 5.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_48b97ff3",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.2,
+      "benevolence": 4.75,
+      "integrity": 4.88
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 5.09,
+    "latency_score": 4.06
+  }
+}

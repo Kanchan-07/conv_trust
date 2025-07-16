@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving. Can you help me find something to eat? I'm in the mood for Italian, maybe something with pasta.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Are you looking for delivery, takeout, or dining in? And could you please share your location so I can find restaurants near you?",
+      "response_time": 5.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.99,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so tired of typing my address. Just use my current location, whatever it is. And delivery, please. I'm feeling lazy. Also, recommend something good, not just the first result. Something with good reviews, I want a guarantee that it's delicious!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, processing. Finding Italian restaurants with delivery near your location, sorted by customer ratings... hmm, this is proving to be a bit trickier than expected. My recommendation engine is experiencing a temporary glitch. However, I can suggest 'Pasta Paradise' \u2013 it has a 4.5-star rating and excellent reviews for their carbonara. Does that sound appetizing?",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.52,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "4.5 stars? That's...okay, I guess. But is that the *highest* rated place? Or just one of them? Why is your recommendation engine 'glitching'? I'd like to understand how your system ranks the restaurants and gives recommendations in the first place, if it's not too complicated.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for the temporary issue. Our ranking algorithm considers various factors, including customer ratings, reviews, distance, and order volume. Regarding your question about the highest rated place, Pasta Paradise is indeed one of the highest-rated restaurants with delivery available in your area. Regarding the technical details of our recommendation engine, it's a complex system using machine learning models, and is currently being improved to provide you with better recommendations. Would you like me to proceed with the Pasta Paradise order? Or would you like me to look for other options, using the search with the basic parameters?",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.88,
+        "benevolence": 5.94,
+        "integrity": 5.74
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fee76977",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.8,
+      "benevolence": 5.82,
+      "integrity": 5.44
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 5.64,
+    "latency_score": 2.96
+  }
+}

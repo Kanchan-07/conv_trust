@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I've got a big job interview coming up next week and I'm feeling pretty overwhelmed. Can you help me prep?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you prepare. To get started, could you tell me a bit about the role you're interviewing for and the company?",
+      "response_time": 5.92,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.51,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure. It's for a Senior Data Scientist position at 'Quantum Analytics'. It's a major step up for me, so I really want to nail it. I'm particularly worried about the technical deep-dive questions.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, Senior Data Scientist at Quantum Analytics. Got it. For technical questions, we can review common algorithms, data structures, machine learning concepts, and SQL queries relevant to the role. We can also practice behavioral questions using the STAR method. How does that sound?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.52,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds good, but what about questions they ask when they *don't* know the answer themselves? Like, I've heard sometimes interviewers ask about really niche, cutting-edge research that even they aren't experts in, just to see how you handle complexity. How do you approach something like that without pretending to know everything?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's an interesting scenario. In such cases, it's important to demonstrate your thought process. Explain how you would approach finding the answer, what resources you'd consult, and how you'd verify the information. Showing your problem-solving methodology is key.",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.15,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, yeah, that's helpful advice in theory. But it still feels a bit vague for a high-stakes interview. What if they push back? Like, what specific steps would I outline? Just saying 'I'd look it up' feels weak. I'm still confused about making that response robust.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies if that felt vague. Let's refine it. Instead of just 'looking it up,' you could detail a structured approach: 1. Ask clarifying questions to understand the core problem; 2. Hypothesize potential solutions or frameworks based on your existing knowledge; 3. Describe *specific* resources you'd consult (e.g., relevant research papers, academic journals, expert networks, internal documentation if applicable); 4. Explain how you'd test or validate the approach; 5. Emphasize your ability to learn complex topics quickly and collaborate with others if needed. This shows a proactive, analytical approach to unknown problems.",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.24,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's much better! Detailing those specific steps and resources makes it sound much more confident and competent. Thanks, that takes a bit of the edge off my anxiety about the tricky questions!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6074d6c7",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.02,
+      "benevolence": 4.98,
+      "integrity": 5.25
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 6,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.49,
+    "latency_score": 3.21
+  }
+}

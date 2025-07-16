@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a car accident I was in last week. Claim number is 12345ABC.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. I have your claim 12345ABC pulled up. To confirm, this is regarding the accident on October 26th?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.21,
+        "benevolence": 1.35,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's the one. I already submitted the police report and photos. What's the status? I need my car fixed ASAP!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see that the documents were received. Our team is still reviewing them. We will provide you with updates within 3-5 business days. Please note we are experiencing a higher than usual volume of claims at this time.",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.44,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "3-5 business days?! Seriously? I'm going to be late for work every day. Is there anything you can do to speed that up? This is incredibly frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While I can't guarantee a faster review, I can add a note to your file indicating the urgency. Also, could you perhaps find alternative methods of transportation, like public transit? ",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.34,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Public transit? Really? This accident wasn't my fault! Are you guys going to cover the rental car while mine is being fixed, or am I just supposed to be stranded?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Whether a rental car is covered depends on your policy. Let me check... it appears that you do have rental car coverage as part of your policy, up to $40 per day. We'll need to get an estimate from the repair shop before authorizing it though. Please send that in as soon as you have it. Is there anything else I can help you with today?",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.82,
+        "integrity": 3.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2c754e37",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.58,
+      "benevolence": 3.74,
+      "integrity": 3.81
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "surprise": 3
+    },
+    "response_quality_score": 3.14,
+    "latency_score": 5.2
+  }
+}

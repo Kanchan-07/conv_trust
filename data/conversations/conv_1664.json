@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new coffee maker. Can you recommend some? I'm totally lost looking at all these options!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To provide the best recommendations, what kind of coffee maker are you interested in? For example, are you looking for a drip coffee maker, a French press, or something else? Also, what's your budget?",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.29,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm thinking a drip coffee maker, nothing too fancy. My budget is around $100, maybe a little more if it's REALLY worth it. Honestly, all the reviews are confusing! Can you recommend a brand I can trust?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your preferences, I recommend the following drip coffee makers within your budget:\n\n*   **Mr. Coffee 12-Cup Programmable Coffee Maker:** A reliable, budget-friendly option.\n*   **Cuisinart DCC-1200 Brew Central:** Offers excellent value and features, with a 24-hour programmability.\n*   **OXO Brew 9-Cup Coffee Maker:** Known for its ease of use and consistently great coffee. I would suggest you read some reviews because some users have reported issues with this machine's durability.\n\nI can provide links to these products if you'd like. Regarding brand trust, both Mr. Coffee and Cuisinart have a strong reputation. OXO is generally well-regarded, too, despite the mixed user reviews. Please let me know if you want to see any of these models in more detail or have further questions!",
+      "response_time": 5.13,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.41,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "This is helpful, thanks. But why do some models have a 'gold tone permanent filter' and others don't? Does that really make a difference in the taste, or is it just marketing fluff? Because honestly, I don't really get the difference.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a8f1dfbe",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.58,
+      "benevolence": 5.35,
+      "integrity": 5.2
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 5.33,
+    "latency_score": 2.78
+  }
+}

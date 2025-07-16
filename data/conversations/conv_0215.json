@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. My old one finally died. I really need something for work and personal use, but I'm on a tight budget. Can you recommend something under $500?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of under $500 and needs for both work and personal use, I can recommend a few options. The Lenovo Chromebook Duet is a great 2-in-1 option that offers portability and decent performance for everyday tasks. Alternatively, the Acer Aspire 3 often has configurations within that price range that offer a bit more processing power. Would you like me to provide more details on either of those, or are you looking for something specific like screen size or battery life?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.66,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Chromebooks make me nervous. I need to run some software that's Windows-only. The Acer Aspire 3 sounds more like what I'm thinking. What kind of processor and RAM does that usually have at that price point?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. At the under $500 price point, the Acer Aspire 3 typically comes with an AMD Ryzen 3 or an Intel Core i3 processor. You can usually expect 4GB to 8GB of RAM and a 128GB to 256GB SSD. However, configurations can vary depending on current sales and availability.",
+      "response_time": 2.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 3.51,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, 4GB of RAM? That sounds really slow. Is there anything, *anything* at all, even if it's used or refurbished, that would give me 8GB of RAM and maybe a slightly better processor for around the same price? I really don't want to deal with a sluggish computer.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see... yes, a good option could be to look at refurbished models. A refurbished Lenovo ThinkPad T480 or T490 often falls within that budget. These business-grade laptops are known for their durability and performance, and you can usually find configurations with 8GB of RAM and an Intel Core i5 processor within your price range on sites like Amazon Renewed or similar marketplaces. Do you want me to search some of those for current listings?",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.7,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's...actually a really good idea! I hadn't thought of that. How much better is the i5 compared to the i3 you mentioned earlier? Is it a big difference?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The Core i5 is generally a noticeable upgrade from the Core i3, especially for multitasking and more demanding applications. You'll likely see faster processing speeds, better handling of multiple browser tabs, and smoother performance overall. It is not a massive difference, but for the same price or a little bit more, it would be worth it.",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.64,
+        "integrity": 5.21
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_23698e19",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.68,
+      "benevolence": 4.63,
+      "integrity": 4.69
+    },
+    "engagement_score": 5.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "fear": 1,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.72,
+    "latency_score": 4.22
+  }
+}

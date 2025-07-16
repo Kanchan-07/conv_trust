@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need help finding a gift for my brother. He's really into gaming. My budget is around $100.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. For a $100 budget and a gamer brother, I'd recommend a new gaming mouse, a decent gaming headset, or a selection of new games. Would you prefer any of those options, or something else?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.0,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, he already has a good mouse and headset. I think new games would be great. Could you show me some options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget and interest in new games, here are some popular options, along with their price points:\n\n*   **Cyberpunk 2077:** $60\n*   **Elden Ring:** $60\n*   **Marvel's Spider-Man Remastered:** $60\n\nThese are all great titles that are highly rated. Are any of these interesting, or should I search for something else?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.82,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, all of those are on the high end! Cyberpunk 2077 and Elden Ring are great but they are both $60! I was hoping for something a bit more affordable, closer to $30-$40 per game so I can get him multiple titles. How do I filter for that?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies! Let me refine the search. Unfortunately, the current system doesn't allow for specific price filtering within this interface. However, I can suggest a few more options within your desired price range, or you could browse online retailers yourself and search for games with the specific price point.",
+      "response_time": 2.42,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.57,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks for the help. Suggest a few, and I'll do some more digging. I appreciate it!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8763fa3e",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.93,
+      "benevolence": 4.8,
+      "integrity": 5.05
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1,
+      "sadness": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 3.36
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up with my primary care physician, Dr. Ramirez. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that. I can access Dr. Ramirez's appointment schedule. To get started, can you please provide your date of birth and the reason for your visit?",
+      "response_time": 4.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.44,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my date of birth is 03/15/1985. The reason for the visit is a general check-up.  I'd prefer a morning appointment if possible. And can you tell me, how far out are appointments typically scheduled?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you.  Currently, Dr. Ramirez's earliest availability for a general check-up is in about three weeks. There's an opening on the 20th of next month at 9:00 AM. Would that work for you? Also, do you need any vaccinations during this check-up?",
+      "response_time": 5.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.05,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Three weeks out? Seriously? That's frustrating! I guess I'll take it. The 20th at 9 am is fine.  And no, I don't need any vaccinations. Also, what's the clinic's policy on late arrivals?  I'm terrible at being on time.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, your appointment is confirmed for the 20th at 9:00 AM with Dr. Ramirez. Regarding the late arrival policy, I am unable to provide you with that information at this time, but I can provide the clinic's phone number so you can inquire directly. The number is 555-1212. Is there anything else I can assist you with?",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.05,
+        "integrity": 3.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5726cac4",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.36,
+      "benevolence": 4.85,
+      "integrity": 4.9
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.75,
+    "latency_score": 3.14
+  }
+}

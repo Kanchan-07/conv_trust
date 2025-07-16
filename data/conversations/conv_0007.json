@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle painting my living room. I'm thinking of a light grey, but there are SO many shades! How do I even begin to choose?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Choosing the right paint color can be overwhelming! A good starting point is to consider the lighting in your living room. Is it mostly natural light, or do you rely more on artificial lighting? Also, what other colors are already present in the room (furniture, flooring)? Knowing this will help narrow down the best grey for your space. We can also talk about undertones - some grays lean cool (blue/green undertones) while others are warmer (yellow/brown undertones).",
+      "response_time": 2.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.47,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's mostly natural light during the day, but in the evenings it's all lamps. The furniture is mostly dark brown leather, and the rug is a kind of muted blue and cream pattern. Undertones... oh boy, this is getting complicated!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, with dark brown furniture and a blue/cream rug, a warmer grey might complement the space nicely and prevent it from feeling too cold. Consider sampling grays with beige or greige undertones. I recommend getting several paint samples and painting them in different areas of the room to see how they look at different times of day.",
+      "response_time": 2.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 3.7,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Good idea about the samples. But what kind of paint should I use? There's flat, eggshell, satin, semi-gloss... it's a nightmare!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "For a living room, eggshell or satin are generally good choices. Eggshell provides a soft, subtle sheen and is fairly easy to clean. Satin is slightly more durable and easier to clean than eggshell, so it's a good option if you have kids or pets. Flat paint is generally not recommended for living rooms as it's difficult to clean. Semi-gloss is best suited for trim and doors.",
+      "response_time": 4.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.35,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, eggshell sounds good. Now, here's a tricky one: The walls have some minor imperfections \u2013 small dents and dings. Will the paint just make those look worse? Is there anything I can do about that *before* painting?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Minor imperfections can become more noticeable after painting, especially with higher sheen paints. Before painting, you can use a patching compound (like spackle or drywall mud) to fill in the dents and dings. Sand the patched areas smooth once the compound is dry. For deeper imperfections, you may need to apply multiple layers of patching compound, allowing each layer to dry completely before sanding. Priming after patching and sanding is also a great idea to ensure uniform paint adhesion and hide the repairs.",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.41,
+        "benevolence": 3.66,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, more steps! But I guess it's worth it for a smooth finish. So, primer... is that *really* necessary if I'm painting a similar color?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "While not *always* strictly necessary when painting a similar color, primer is highly recommended, especially when dealing with patched areas. Primer helps ensure uniform color coverage, improves paint adhesion, and can even help block stains. Think of it as insurance against a patchy or uneven finish. If you skip it, you might need to apply extra coats of paint, which can end up costing you more in the long run.",
+      "response_time": 5.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.67,
+        "integrity": 5.82
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f8ae5ea",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.74,
+      "benevolence": 4.57,
+      "integrity": 4.57
+    },
+    "engagement_score": 5.03,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 4
+    },
+    "response_quality_score": 4.15,
+    "latency_score": 3.67
+  }
+}

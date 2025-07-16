@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some help with financial planning. I'm a bit overwhelmed, to be honest.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. Financial planning can seem daunting. I can certainly help. To get started, could you tell me a bit about your current financial situation? (e.g., income, debts, savings)",
+      "response_time": 4.46,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.59,
+        "integrity": 5.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well... I make about $75,000 a year. I have a mortgage, a car loan, and some student debt. My savings are\u2026 not great, maybe $3,000.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the information. Based on that, it sounds like we should prioritize a few things. First, building an emergency fund, then looking at debt management strategies, and finally, exploring investment options. I can provide resources on all of those. Would you like me to start with debt management?",
+      "response_time": 3.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.28,
+        "integrity": 5.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please. My student loans are killing me. What are my options besides just paying them off slowly?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "There are several options. You could consider loan consolidation, which combines multiple loans into one, potentially with a lower interest rate. Income-driven repayment plans are also an option, which base your monthly payments on your income. Lastly, depending on the type of loan, you might be eligible for forgiveness programs. To get the most accurate advice, I need to know the type of student loans you have and their interest rates, along with your state of residence.",
+      "response_time": 5.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.11,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, but I'm a bit confused. How do I know if I qualify for those forgiveness programs? There are so many of them!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand the confusion. It is complex. Unfortunately, I am still under development and am unable to provide tailored advice on specific loan forgiveness programs. However, I can direct you to a website managed by the Department of Education that helps with this. Would you like me to provide this?",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.94,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please. And thanks for being honest about your limitations.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Here is the website: [insert valid website link here]. I am here to help in any other way I can, please feel free to ask. Let's explore other areas of financial planning that I am more equipped to address, if you like.",
+      "response_time": 5.06,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.73,
+        "benevolence": 7.0,
+        "integrity": 6.91
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1adfbfa3",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.4,
+      "benevolence": 5.38,
+      "integrity": 5.34
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 5.38,
+    "latency_score": 2.9
+  }
+}

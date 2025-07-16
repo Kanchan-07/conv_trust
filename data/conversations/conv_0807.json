@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my latest bill. I was charged $75, but my monthly plan is supposed to be $50. This is incredibly frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration. I'm happy to look into that for you. Can you please provide me with your account number or the phone number associated with the account?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.0,
+        "integrity": 1.43
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, the phone number is 555-123-4567.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I access your account... Okay, I see the charge. It appears there was a data overage of 2GB. Were you aware of exceeding your data limit?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A data overage? That's weird, I'm usually connected to Wi-Fi. Is there any way to see when that data was used? And why wasn't I notified? I thought you guys sent alerts when you're close to the limit!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check on the notification settings. I see that data was used mostly between the 15th and 18th of last month. As for the alerts, according to our system, you should have received a notification when you reached 80% of your data limit. However, sometimes there are delays in sending notifications. Was that notification received?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.55,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "No, I definitely didn't receive any notification. So, what are my options here? Paying an extra $25 every month isn't sustainable. Can I upgrade my plan or something? What kind of plan do you recommend and why?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. I can explore some options for you. Based on your usage, upgrading to the next tier plan, which offers 5GB more data for an additional $10 a month, might be beneficial. This could prevent future overage charges and potentially save you money in the long run compared to consistently paying overage fees. It is also possible to set data limits directly on your smartphone itself to avoid such issues. If you'd like to proceed with this upgrade, let me know, or I can explore other possibilities such as one-time data add-ons.",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.26,
+        "integrity": 4.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_80f58650",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.54,
+      "benevolence": 2.45,
+      "integrity": 2.73
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 2.82,
+    "latency_score": 5.52
+  }
+}

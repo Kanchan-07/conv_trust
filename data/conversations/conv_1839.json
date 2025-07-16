@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I really enjoy listening to blues, but I'm tired of the same old stuff. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your preference for blues, I can recommend some artists. How about you check out artists like Gary Clark Jr., The Black Keys (early stuff), and maybe some more modern interpretations like Fantastic Negrito? Would you like me to provide more?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.38,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I know The Black Keys, but the others are new to me. Hmm, how would you recommend blues artists who *don't* sound like those three, as in, who are more innovative or experimental within the genre? That's a tough one, I know.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question, and a challenging one! It really depends on what you consider experimental, but here are a few options. Try checking out the album 'How Blue Can You Get' by Buddy Guy, as it features collaborations across multiple genres. Also, consider the work of artists like R.L. Burnside, who incorporated elements of punk. Finally, there are a lot of artists using blues as a base for fusion, incorporating genres like electronic music. I could compile some more options for you if you'd like, but some more info on what you're looking for would also help! ",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.9,
+        "integrity": 5.31
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2bdf36df",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.82,
+      "benevolence": 5.64,
+      "integrity": 5.28
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.11,
+    "latency_score": 2.5
+  }
+}

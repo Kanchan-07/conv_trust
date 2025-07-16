@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with my new smart speaker. It won't connect to the Wi-Fi. I've tried everything!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your frustration. Let's troubleshoot this. First, can you please tell me the model number of your smart speaker? You can usually find it on the bottom or back of the device.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.11,
+        "benevolence": 1.01,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's the 'SoundWave X500'. I've checked the Wi-Fi password multiple times, and it's definitely correct. I'm starting to get really annoyed.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. Have you tried restarting your speaker and your Wi-Fi router? Sometimes that resolves the issue. Unplug both devices for a minute, then plug them back in and try connecting again.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.76,
+        "benevolence": 7.0,
+        "integrity": 6.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I have. Multiple times. Still nothing. The speaker just keeps saying 'Unable to connect.' Is there anything else I can try? I even tried factory resetting it, and that didn't work either! Why would you guys sell something that doesn't even work?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. That's certainly unusual. Since the factory reset didn't work, it's possible there's a hardware issue. Could you provide the MAC address of your speaker? I'll need it to check the device's registration status and diagnostic logs. This might help us determine what the problem is.",
+      "response_time": 1.96,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.99,
+        "benevolence": 2.99,
+        "integrity": 2.56
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, fine. Where do I even find the MAC address? And what exactly are you going to do with it? This is getting ridiculous.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1608799a",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.62,
+      "benevolence": 3.67,
+      "integrity": 3.48
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 3,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 3.85,
+    "latency_score": 4.68
+  }
+}

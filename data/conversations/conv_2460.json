@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, my smart plug is totally unresponsive! It won't turn on or off, and the light on it is just a solid red. I've tried unplugging it and plugging it back in, but nothing changes. What's going on?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're having trouble with your smart plug. A solid red light typically indicates a connection issue or a fault. Since you've already tried unplugging and replugging, could you please try restarting your home router? Sometimes network issues can prevent the plug from communicating properly. Please restart your router and then try the smart plug again. Let me know if the light changes.",
+      "response_time": 2.41,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.14,
+        "integrity": 2.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Restarting the router? Really? It's just this *one* plug that's not working, everything else on my network is fine. And the manual says solid red means 'device error', not network! Are you sure restarting my entire network is necessary just for one smart plug? That seems excessive and didn't fix it last time I had a different issue.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While a solid red light can indicate a 'device error', network fluctuations can sometimes trigger this state if the plug loses its connection unexpectedly. Restarting the router is a common step to refresh the network and allow devices to re-establish connections cleanly. However, if you've already tried that and it didn't resolve the issue, it may indicate a more specific device problem or a persistent network configuration conflict. Let's try a factory reset on the smart plug itself. This will clear its settings and allow you to set it up again as new. Are you comfortable trying a factory reset?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 4.14,
+        "integrity": 3.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4313fdc2",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 2.9,
+      "benevolence": 3.14,
+      "integrity": 3.3
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "disgust": 1,
+      "sadness": 1,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 3.57,
+    "latency_score": 4.65
+  }
+}

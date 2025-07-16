@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to arrive three days ago. The tracking number is 1Z999AA1234567890.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the tracking number. One moment while I look into that for you. ... Okay, I see that your package is currently in transit and experiencing a slight delay due to unforeseen circumstances at our regional distribution center. It is now expected to arrive tomorrow.",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.9,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Tomorrow?! Seriously? That's what you said yesterday! What 'unforeseen circumstances'? Is this some kind of excuse? I needed this package for a very important event, and now it's ruined. Why does your website say 'in transit' if it's just sitting in a warehouse somewhere?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, and I apologize for the repeated delays. While I don't have specific details regarding the nature of the disruption at the distribution center, I can assure you that we are working to get your package delivered as quickly as possible. 'In transit' indicates that the package is within our delivery network, even if it's temporarily held at a facility. To compensate for the inconvenience, I can offer you a 10% discount on your next shipment. Would that be acceptable?",
+      "response_time": 2.26,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.52,
+        "benevolence": 2.33,
+        "integrity": 2.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0b6293b0",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.85,
+      "benevolence": 4.12,
+      "integrity": 3.96
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 3.57,
+    "latency_score": 3.58
+  }
+}

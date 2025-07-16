@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a movie to watch tonight. I'm in the mood for something... thrilling?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, great! Do you have any preferred genres within the 'thriller' category? For example, psychological thriller, action thriller, or perhaps something with a supernatural element?",
+      "response_time": 5.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.01,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. Maybe psychological thriller? Something that messes with your head, you know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. I can recommend \"The Sixth Sense\" - a classic psychological thriller. Or, for something more recent, how about \"The Invisible Man\" (2020)?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.1,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've seen The Sixth Sense already, but The Invisible Man sounds interesting. Is it really scary, though? I'm not a huge fan of jump scares.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "\"The Invisible Man\" relies more on suspense and atmosphere than jump scares, though there are a few moments that might make you jump. Would you prefer something else?",
+      "response_time": 3.24,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 4.39,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, fine. What else you got? I am open to suggestions...as long as its not sci-fi.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright, how about \"Prisoners\"? It's a gripping psychological thriller with a strong cast and a complex plot, or perhaps \"Gone Girl\"?",
+      "response_time": 3.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.88,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, \"Prisoners\" sounds good. Quick question, though \u2013 how do you decide what counts as a 'psychological' thriller versus just a regular thriller? What's the actual difference?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! While the lines can be blurry, psychological thrillers generally focus on the mental and emotional states of the characters, building suspense through their perceptions, anxieties, and inner conflicts, rather than relying solely on action or external threats. They often explore themes like manipulation, paranoia, and identity. 'Regular' thrillers, while still suspenseful, tend to prioritize plot-driven action and external dangers.",
+      "response_time": 5.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.43,
+        "integrity": 5.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dba25329",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.46,
+      "benevolence": 4.56,
+      "integrity": 4.77
+    },
+    "engagement_score": 5.8,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 6,
+      "fear": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.87,
+    "latency_score": 3.23
+  }
+}

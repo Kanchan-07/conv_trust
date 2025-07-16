@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm so frustrated. My neighbor is constantly playing loud music late at night. I've asked him to stop several times, but he just ignores me. What can I even do legally?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Noise complaints are a common issue. Depending on your local ordinances, you could file a noise complaint with your city or county. They often have specific decibel level limits and time restrictions. If this doesn't work, you may have grounds for a private nuisance claim. This would require showing that the noise substantially and unreasonably interferes with your use and enjoyment of your property. You should also try keeping detailed records of the disturbances, including dates, times, and the impact on you. This will be very important.",
+      "response_time": 1.83,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.5,
+        "benevolence": 2.17,
+        "integrity": 2.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, thank you. But what if the noise isn't *that* loud, it's just persistent. Like, a low hum that vibrates through the walls at 3 AM. Would a nuisance claim still apply in that case? And how would I even prove that it's 'unreasonable'?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a tricky one. A low, persistent hum *could* still be considered a nuisance, even if not extremely loud. The standard is whether it interferes with your ordinary comfort. Proof would be key. Consider recording the noise to document it, and gathering testimony from neighbors who may also be affected. Showing sleep disruption or other negative impacts on your well-being will also strengthen your case. Unfortunately, proving 'unreasonableness' will require a careful weighing of factors, and I recommend you consult an attorney who can make a judgement after taking all the facts into consideration. I am only an AI, and cannot give you advice.",
+      "response_time": 1.62,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.96,
+        "integrity": 2.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_01800c75",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.6,
+      "benevolence": 2.56,
+      "integrity": 2.68
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 2.7,
+    "latency_score": 5.78
+  }
+}

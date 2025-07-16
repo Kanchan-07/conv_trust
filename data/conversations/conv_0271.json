@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with my SmartBrew coffee maker. It keeps displaying an error message: 'Grinder Fault 003'. I've tried turning it off and on again, but it's still happening. I'm really frustrated; I need my coffee!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you're experiencing an issue with your SmartBrew coffee maker. The 'Grinder Fault 003' error indicates a problem with the grinder motor. To start, could you please confirm the model number of your SmartBrew, which is usually located on the bottom of the unit?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay, one second... It's SB-720X. Is this a common problem? I've only had it for six months!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for confirming, SB-720X. While not widespread, Grinder Fault 003 can occur. Let's try a few troubleshooting steps. First, ensure there are no coffee beans obstructing the grinder. Completely empty the bean hopper and check for any blockages. Power cycle the device again afterwards.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.53,
+        "integrity": 5.96
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I emptied the hopper and didn't see anything stuck. I turned it off and on again like you said, but the same error is still showing up. This is ridiculous. What if the grinder motor is actually broken, like the error suggests? Is it even possible to replace just the motor, or will I need a whole new unit? And if so, is it covered under warranty?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question. The grinder motor *can* be replaced in some instances. Given the error persists after troubleshooting, a replacement motor is a likely solution. As your unit is only six months old, it should be covered under our standard one-year warranty. I'll initiate a warranty claim for you and send you a prepaid shipping label to return the unit for repair. The repair process usually takes 7-10 business days. Would you prefer this option?",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.13,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds good. A repair is better than nothing. Yes, please send me the shipping label. Thanks for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7f478746",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.62,
+      "benevolence": 3.55,
+      "integrity": 3.56
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.92,
+    "latency_score": 4.62
+  }
+}

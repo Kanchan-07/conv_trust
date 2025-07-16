@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm in the mood for something, uh... thrilling? But not too scary, you know?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! When you say 'thrilling but not too scary,' are you thinking more action-thriller, psychological thriller, or perhaps a suspenseful mystery?",
+      "response_time": 3.9,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.83,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I guess more like a suspenseful mystery. Something with twists and turns. I always enjoy those! But please no gore, I'm not into that.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Based on your preferences, I would recommend 'Knives Out' (2019). It's a modern whodunit with a great cast and plenty of twists. Alternatively, 'Prisoners' (2013) offers a more intense, character-driven mystery, although it does deal with some darker themes. Which of these sounds more appealing?",
+      "response_time": 2.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.12,
+        "integrity": 3.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those both sound interesting. Why do you think 'Knives Out' is a better recommendation *specifically* over other movies in the same genre released around the same time?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d8c3e8e3",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.15,
+      "benevolence": 3.98,
+      "integrity": 4.03
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.83,
+    "latency_score": 4.29
+  }
+}

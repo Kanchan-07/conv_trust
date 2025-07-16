@@ -1,0 +1,107 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Miller. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help you with that. Please provide your full name and date of birth to confirm your identity.",
+      "response_time": 4.72,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.79,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's John Smith, and my birthday is May 10, 1980. Honestly, I wish there was a simpler way to do this.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Smith. I've confirmed your information. Now, let me check Dr. Miller's availability. Are you flexible with your appointment time, or do you have any preferences?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ideally, I'd like to see him sometime next week, preferably in the morning. I work during the afternoon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright, I have an opening on Tuesday at 9:00 AM and another on Thursday at 10:30 AM. Which one works better for you? Also, can you clarify the clinic's cancellation policy? I've been charged before for cancelling last minute.",
+      "response_time": 1.58,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.8,
+        "benevolence": 2.26,
+        "integrity": 2.22
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, I'll take the Thursday at 10:30 AM appointment. Regarding the cancellation policy, it states that cancellations made less than 24 hours before the appointment will incur a $50 fee. You can find more information on our website.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, Mr. Smith, your appointment with Dr. Miller is scheduled for Thursday at 10:30 AM. You will receive a confirmation email shortly. Is there anything else I can assist you with?",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.68,
+        "integrity": 4.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_400a1bc1",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.28,
+      "benevolence": 4.93,
+      "integrity": 5.08
+    },
+    "engagement_score": 3.79,
+    "emotion_distribution": {
+      "neutral": 8
+    },
+    "response_quality_score": 5.42,
+    "latency_score": 3.55
+  }
+}

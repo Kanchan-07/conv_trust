@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I've been really into indie rock lately. Anything you can recommend?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your preference for indie rock, I recommend checking out bands like The Strokes, Arctic Monkeys, and Tame Impala. Are you looking for something similar to those, or perhaps something a little different within the indie rock genre?",
+      "response_time": 5.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.09,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I know those bands pretty well already. Something a little different, maybe a bit more obscure? This is always harder than I think it'll be!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, how about 'alt-J' or 'Glass Animals'? They are a bit more experimental but still fall under the indie rock umbrella. Or, if you're open to it, I can suggest something adjacent to indie rock like dream pop, which often shares similar vibes. What are your thoughts?",
+      "response_time": 2.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.83,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Dream pop sounds interesting! But actually, on second thought, I'm curious... how *exactly* do you define a genre anyway? It feels like everything is cross-genre these days.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Defining a genre is complex and often subjective. My definitions are based on a combination of factors including instrumentation, lyrical themes, song structure, and historical context as determined by music databases and expert analyses. I also consider how frequently a piece of music is associated with a particular genre by listeners. It's not a perfect system, especially with cross-genre artists, but it aims to provide the most relevant recommendations based on available data. For dream pop, I'd suggest Mazzy Star or Beach House.",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.67,
+        "benevolence": 5.33,
+        "integrity": 5.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_96448d21",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.98,
+      "benevolence": 4.75,
+      "integrity": 4.82
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.87,
+    "latency_score": 3.27
+  }
+}

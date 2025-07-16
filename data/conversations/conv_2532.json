@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I've had this persistent, dull ache in my lower back for about a week now. It's not terrible, but it's really annoying and makes sitting uncomfortable. I haven't done anything strenuous. Any ideas what could be causing it?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand that back pain can be quite frustrating, even if it's not severe. Lower back pain can stem from many different causes, including muscle strain, poor posture, prolonged sitting, or even stress. Since this has been ongoing for a week, it would be wise to consult with a healthcare professional. They can properly assess your situation and determine the specific cause. I am an AI and cannot provide medical diagnoses or treatment plans.",
+      "response_time": 2.35,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.16,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I get that you're not a doctor. But 'muscle strain or poor posture'... I mean, how do I know if it's *just* that or something else? It's confusing! Are there specific symptoms that would point *away* from something simple? Like, when should I be *really* worried?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Differentiating between causes based solely on a description can be difficult. However, certain signs can indicate a more serious underlying issue. You should seek immediate medical attention if your back pain is accompanied by fever, unexplained weight loss, numbness or tingling in the legs or feet, loss of bladder or bowel control, or if the pain is severe and constant, not improving with rest. Persistent pain, even without these red flags, should still be evaluated by a doctor.",
+      "response_time": 3.9,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.25,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, none of those scary things are happening, thankfully. But it's still there, you know? Just this constant nagging ache. Is there *anything* I can try at home to get some relief while I think about making that appointment? I'm getting a bit desperate for it to just stop.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While waiting to see a doctor, there are some general self-care measures that *might* provide temporary relief for mild back pain. These include applying heat or cold packs, taking over-the-counter pain relievers like ibuprofen or acetaminophen (follow package instructions carefully), ensuring you are using good posture when sitting or standing, and trying some gentle stretching exercises, but be cautious not to aggravate the pain. Avoid heavy lifting or twisting movements. Remember, these are only temporary measures and do not replace professional medical advice or diagnosis for persistent pain.",
+      "response_time": 3.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.38,
+        "integrity": 3.99
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b951d539",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.86,
+      "benevolence": 4.26,
+      "integrity": 3.91
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "disgust": 1,
+      "sadness": 2,
+      "fear": 2,
+      "neutral": 1
+    },
+    "response_quality_score": 3.87,
+    "latency_score": 4.41
+  }
+}

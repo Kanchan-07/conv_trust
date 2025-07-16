@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to check my current balance and see the last few transactions on my checking account. Can you help with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Please confirm your identity by providing your account number and the last four digits of your social security number. Once verified, I can access your checking account information and provide you with the balance and recent transactions.",
+      "response_time": 5.92,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.64,
+        "benevolence": 6.66,
+        "integrity": 6.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've confirmed my identity. I see the balance and recent transactions, but one of them is confusing me. There's a charge from 'XYZ Corp' for $75, and I don't recognize it. What can you tell me about that transaction?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I can provide you with the transaction details, including the date, time, and the merchant's contact information if available. However, the specifics of the transaction details beyond this are limited by my access permissions. If you're still unsure, I recommend contacting XYZ Corp directly using the information provided to get more details, or contacting our fraud department to report this charge. Would you like me to proceed with retrieving the limited transaction details or transfer you to our fraud department?",
+      "response_time": 3.5,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.42,
+        "integrity": 3.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_97f4b8b8",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 5.54,
+      "integrity": 5.2
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "fear": 1
+    },
+    "response_quality_score": 5.2,
+    "latency_score": 2.79
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to process a batch of medical claims, but I'm seeing a lot of rejections for invalid ICD-10 codes. Is there a way to quickly check these before submitting?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, you can use our ICD-10 validation tool. Just upload the batch file or enter the codes manually, and it will flag any invalid or outdated codes. Would you like me to guide you through the upload process?",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.51,
+        "benevolence": 6.6,
+        "integrity": 6.86
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Please. I swear these codes change every other month. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Constant updates are challenging. To upload your batch file, click the 'Validate Claims' button on the main dashboard. Then select 'Upload File' and choose your file. Be sure the format is .csv or .xlsx.",
+      "response_time": 1.92,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.66,
+        "benevolence": 2.88,
+        "integrity": 2.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, it's uploaded. It says 'processing'. How long does this usually take? I have a hard stop at 5 pm.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Processing time depends on the size of the file, but typically it takes between 5 to 10 minutes for a batch of approximately 500 claims. You'll receive a notification once it's complete.",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 3.98,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Great! So, what happens if a claim *still* gets rejected even after the ICD-10 code is validated through your tool? What other factors could be at play? This happens way too often.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That is a valid question. Even with a valid ICD-10 code, rejections can still occur due to issues like incorrect patient demographics, missing information (e.g., referring physician NPI), coding errors that relate to CPT or HCPCS codes and/or modifiers not being linked properly, or non-covered services. Also, make sure to verify the patient's insurance eligibility. You can also use the \"Claim Scrubbing\" feature to catch these issues.",
+      "response_time": 5.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.45,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Claim scrubbing, got it. Thanks for the tip! I think I can manage from here. Appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Please don't hesitate to reach out if you have any further questions or require additional assistance. Have a great day!",
+      "response_time": 5.07,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8024bdf2",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.06,
+      "benevolence": 5.18,
+      "integrity": 5.18
+    },
+    "engagement_score": 5.48,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1,
+      "anger": 1,
+      "joy": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.35,
+    "latency_score": 3.29
+  }
+}

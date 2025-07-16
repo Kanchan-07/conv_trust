@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm in the mood for a movie. Can you recommend something?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, what genre are you interested in?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.17,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm thinking something in the sci-fi genre. I really like movies with cool tech and space stuff.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay! Based on that, have you seen 'Interstellar' or 'Arrival'? Both are critically acclaimed and feature great visuals and thought-provoking themes. I can provide more details if you'd like.",
+      "response_time": 2.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.44,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen both of those. They were great! Anything a little less mainstream? Maybe something older?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Finding less mainstream, older sci-fi is a bit tricky. How about 'Gattaca'? It explores genetic determinism. Or perhaps 'Blade Runner'? It's a classic.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.73,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Blade Runner is a good suggestion, I've seen that too. 'Gattaca' sounds familiar, but I can't quite remember it. Okay, what's the most scientifically accurate sci-fi movie you know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a tough one to definitively answer, as scientific accuracy is often debated. However, films like 'Apollo 13' are praised for their commitment to portraying real-world events and challenges, even if they aren't strictly 'sci-fi' in the traditional sense. It depends what's 'accurate' in what you want. Do you want the laws of physics to be obeyed, or is it about future technology?",
+      "response_time": 2.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.62,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Hmm, good point. I guess I was thinking more about the plausibility of the future tech. Like, are the aliens actually doing realistic things. Can you give me two sci-fi recommendations that are relatively plausible based on existing science?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Okay, given that, I'd suggest 'Contact' (with the caveat that it has some speculative elements regarding first contact) or maybe 'The Martian', focusing on the issues of survival and exploration. Both movies strive for a level of grounded realism.  Let me know if you'd like more detail on those, or if you have other preferences.",
+      "response_time": 2.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.01,
+        "integrity": 3.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_667f1a88",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.27,
+      "benevolence": 4.19,
+      "integrity": 4.11
+    },
+    "engagement_score": 5.03,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 8
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 4.55
+  }
+}

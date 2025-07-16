@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for dinner ideas tonight. Something maybe Asian, but not too heavy?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. How about trying 'Wok Master'? They have a wide range of stir-fries and noodle dishes that are generally lighter options. They are located at 123 Main St.",
+      "response_time": 3.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 4.34,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, Wok Master again? I've had it twice this week already! And Main St is kinda far from me right now. Is there anything closer, maybe something Thai or Vietnamese? I'm really craving something different.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Apologies, I missed that you wanted something new and closer. Let me check... 'Spice Island Thai Cuisine' at 456 Oak Ave is highly rated and closer to the downtown area. They offer classic Thai dishes and some fresh salad options that fit the 'not too heavy' request.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.51,
+        "integrity": 6.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Spice Island sounds promising. But honestly, how accurate are your estimated delivery times, *especially* for a Friday night rush like tonight? Like, can you really predict it better than just checking the restaurant's own app or calling them directly?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question. Our delivery time estimates are based on historical data, current restaurant order volume information provided by our partners, and typical traffic patterns. While we strive for accuracy, predicting exact times during peak rush periods like Friday dinner can be challenging due to unforeseen variables. For the most real-time and precise estimate, checking the specific delivery platform you plan to use or the restaurant's direct ordering system at the time of order might provide the most current status, but our estimate gives you a good general idea.",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.65,
+        "integrity": 5.68
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b58f77fc",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.7,
+      "benevolence": 5.5,
+      "integrity": 5.47
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 5.78,
+    "latency_score": 3.01
+  }
+}

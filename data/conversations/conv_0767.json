@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. My SmartHome Hub keeps disconnecting from the internet. I've tried resetting it like five times already!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try to get this sorted out for you. Could you please tell me the model number of your SmartHome Hub?",
+      "response_time": 2.39,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.95,
+        "benevolence": 2.46,
+        "integrity": 2.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's the SHH-2000. And before you ask, yes, all the cables are plugged in correctly. I even bought a new ethernet cable just to be sure!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Have you checked the status lights on the hub? Are they flashing a specific pattern, or are they all solid?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, let me see... The power light is solid, the internet light is flashing orange, and the service light is off. What does that even *mean*? Also, why does this thing need three different lights anyway?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The flashing orange internet light indicates that the hub is attempting to connect to the internet but is not receiving a signal. The lack of service light could mean several things. Let's try this: Unplug the hub, wait 30 seconds, and then plug it back in. While it's rebooting, also restart your modem and router. This ensures a fresh connection point for all devices.",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.6,
+        "integrity": 5.4
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5b4c452f",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.1,
+      "benevolence": 5.02,
+      "integrity": 4.97
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.43,
+    "latency_score": 3.42
+  }
+}

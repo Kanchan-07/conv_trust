@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in Chicago for next weekend, from Friday to Sunday. Something near downtown, if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Just to confirm, that's Friday to Sunday *next* weekend in Chicago, near downtown. How many guests will there be?",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.58,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's right. Two guests. And what's the parking situation usually like in that area? Is it going to cost me a fortune to park my car?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for hotels near downtown Chicago, Friday to Sunday, for two guests. Regarding parking, many hotels downtown do charge for parking, typically between $30-$60 per night. I can filter for hotels with free parking, if you'd prefer. Would you like me to do that?",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.33,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! Free parking would be amazing. Ugh, everything is so expensive these days! Also, is it possible to find something with a pool? That would be ideal.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, filtering for hotels near downtown Chicago with free parking and a pool for your dates. I found three options: The River Hotel, Comfort Suites Chicago, and The Ruby Hotel. The River Hotel is $250 per night, Comfort Suites is $180, and The Ruby Hotel is $310. Would you like more details on any of these?",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 4.28,
+        "integrity": 3.87
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_63b45165",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.95,
+      "benevolence": 4.06,
+      "integrity": 3.82
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 4.07
+  }
+}

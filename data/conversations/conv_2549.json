@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm planning to repaint my living room this weekend. What are the most important things I need to do *before* I even open a paint can?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "That's a great project! Before painting, it's crucial to prep the room properly. This includes clearing the area, cleaning the walls to remove dust and grime, taping off trim and ceilings, and patching any holes or cracks in the drywall. Don't forget to cover your floors!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.99,
+        "benevolence": 6.86,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, patching holes... that sounds like a pain. What if there are larger dents or even some spots where the drywall paper is a bit torn? It feels overwhelming to get the walls perfectly smooth.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Dealing with imperfections is part of the process. For dents and small holes, use spackle and a putty knife, sanding lightly when dry. For larger areas or torn paper, you might need drywall compound. Just apply thin layers and sand in between coats. It takes patience, but it's worth it for a smooth finish.",
+      "response_time": 5.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.65,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I can manage the patching. But I also have some really old, glossy trim that I want to repaint white. Do I absolutely *have* to sand every inch of that glossy surface before I prime it, or is there some kind of primer that lets you skip sanding?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "For painting over glossy surfaces like old trim, sanding provides the best adhesion for the primer, which is essential for a durable finish. While there are primers marketed for difficult surfaces or bonding, proper surface prep, including at least a light scuff sand, is generally recommended to ensure the paint adheres well and doesn't chip or peel later.",
+      "response_time": 5.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.69,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So... you *can* use a special primer, but you *should* sand anyway? That's confusing. Isn't there a primer specifically designed for glossy surfaces that *really* works without hours of sanding? Like, a bonding primer or something?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies for the confusion. Yes, you are correct. There are specialized bonding primers specifically formulated for challenging surfaces like glossy paint or varnish. While a quick clean and degrease is always necessary, these high-adhesion primers (often labeled as 'bonding' or 'extreme adhesion') are designed to grip without requiring extensive sanding, unlike standard primers. They significantly reduce the amount of surface prep needed on glossy surfaces.",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.95,
+        "integrity": 4.06
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_468b0848",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.71,
+      "benevolence": 5.54,
+      "integrity": 5.54
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.66,
+    "latency_score": 2.33
+  }
+}

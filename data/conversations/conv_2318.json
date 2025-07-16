@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Miller. I'm a new patient.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To start, can you please provide your full name, date of birth, and insurance provider?",
+      "response_time": 2.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 4.19,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, born 03/15/1985, and my insurance is Blue Cross Blue Shield.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me just pull up your information... Okay, I see you in the system. Dr. Miller has availability next Tuesday at 2 PM or Thursday at 10 AM. Which works best for you?",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.32,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, neither of those times really work. Is there anything available later in the week, maybe Friday afternoon?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check... Unfortunately, Friday is completely booked. There is a slot available the following Monday at 1 PM. Would that work?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.13,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, Monday at 1 PM is also difficult. I have a pretty inflexible work schedule. This is getting frustrating! What if I need to see someone sooner because I'm concerned about a symptom? Can I get a same-day appointment if needed?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, sir. For immediate needs, we typically have same-day urgent care appointments available, which can be scheduled by calling the office directly. For a regular check-up, if none of the provided times suit you, I recommend checking back as appointments can sometimes open up due to cancellations. However, I can put you on a waiting list for a cancellation. Would you like me to do that?",
+      "response_time": 1.74,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.56,
+        "integrity": 2.64
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please put me on the waiting list. And if I don't hear anything by Friday, I'll take the Monday appointment. Can you confirm that appointment for me now?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly. I've added you to the waiting list and provisionally booked you for the Monday at 1 PM appointment. You'll receive a confirmation email shortly. Is there anything else I can help you with today, Mr. Smith?",
+      "response_time": 2.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 3.73,
+        "integrity": 3.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_305bd472",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.27,
+      "benevolence": 3.36,
+      "integrity": 3.36
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 2,
+      "anger": 1
+    },
+    "response_quality_score": 3.39,
+    "latency_score": 5.09
+  }
+}

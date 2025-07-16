@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a table for dinner tonight. I'm really stressed, can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can certainly help with that! To get started, could you please provide the following information: the desired date, time, number of people, and the city or area where you'd like to dine?",
+      "response_time": 5.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.63,
+        "integrity": 5.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I need a table for 2 people, tonight, around 7:30 PM, in downtown Chicago. But here's the tricky part: I want a place with live jazz music and a good wine list. Any recommendations, or am I asking too much?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me check for you... Hmm, it appears options with *both* live jazz and a great wine list for tonight at 7:30 PM are limited. I can get you a reservation at 'The Green Mill Cocktail Lounge', but their wine selection is decent, not outstanding. Alternatively, 'Andy's Jazz Club' is an option, they might have a waitlist. Should I check availability at those venues, or perhaps broaden the search parameters, like the time?",
+      "response_time": 3.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.48,
+        "integrity": 4.43
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c3cfe374",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.88,
+      "benevolence": 5.05,
+      "integrity": 4.71
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.37,
+    "latency_score": 2.97
+  }
+}

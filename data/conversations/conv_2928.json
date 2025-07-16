@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm having a terrible problem with my landlord. They're refusing to make essential repairs, and it's been weeks! I'm so frustrated, I don't know what my rights are or what I can even do.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand this is a very frustrating situation for you. Please be aware that I am an AI and cannot provide legal advice. However, I can offer general information about tenant rights regarding repairs. To help me provide relevant information, could you tell me which state or jurisdiction you are in? This can significantly affect the applicable laws.",
+      "response_time": 2.24,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.29,
+        "integrity": 2.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm in California. Specifically, San Francisco. So you can't tell me what to *do*, but you can tell me about the laws? I'm confused about what the difference is.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good question. Providing legal *advice* means applying specific laws to your unique situation and recommending a course of action. I cannot do that because I am not a licensed attorney and don't have all the specific facts of your case. Providing legal *information* means explaining general concepts, relevant statutes, or typical procedures based on jurisdiction. For instance, I can tell you about California's \"repair and deduct\" or \"abandonment\" options in a general sense, but I cannot advise you on whether or how to apply them in your specific circumstance.",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.4,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I guess I understand the distinction, but it's annoying when you're in a tough spot. Okay, here's a challenging one then. If my landlord hasn't fixed the broken heater for over 30 days after written notice, and it's winter, can I just stop paying rent until they fix it? What happens *exactly* if I do that in San Francisco?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That specific question crosses the line into legal advice because it asks about the precise legal consequences of a particular action in your situation. I absolutely cannot tell you what will happen *exactly* if you stop paying rent. Withholding rent can have serious legal repercussions, including potential eviction proceedings, even if your landlord is in violation of repair obligations. The rules around remedies like 'repair and deduct' or rent withholding in California and San Francisco are complex, have specific procedural requirements, and depend heavily on the exact facts of your case. I strongly advise consulting with a qualified attorney or a tenant rights organization in San Francisco for advice specific to your situation before taking any action.",
+      "response_time": 3.51,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.79,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, okay, okay, I hear you. It's just frustrating not getting a direct answer when I feel like the law should be clear. So, fine. If you can't tell me what to do, can you at least point me towards resources? Like, where would I find information or actual human help in San Francisco for this kind of tenant issue?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely. That's something I can help with. For tenant issues in San Francisco, excellent resources include: the San Francisco Rent Board (for information and mediation services), tenant advocacy non-profits like the Tenant Union or Legal Assistance to the Elderly (if applicable), and the State Bar of California or the Bar Association of San Francisco for lawyer referral services. Looking for 'tenant rights San Francisco' online will also yield relevant government and non-profit websites that provide detailed information on local ordinances and procedures. These resources can help you understand your rights and connect you with potential legal assistance.",
+      "response_time": 5.72,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.92,
+        "benevolence": 6.52,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eb41173d",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.53,
+      "benevolence": 4.75,
+      "integrity": 4.56
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "fear": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.33,
+    "latency_score": 4.01
+  }
+}

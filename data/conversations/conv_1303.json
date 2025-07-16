@@ -1,0 +1,89 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, my smart coffee maker isn't working. The screen is frozen, and it won't respond to any buttons. I've tried unplugging it and plugging it back in, but nothing changed. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's troubleshoot this. Could you please tell me the model number of your smart coffee maker? You can usually find it on a sticker on the bottom or back of the device.",
+      "response_time": 0.62,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.08,
+        "integrity": 1.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's model number CM-5000. I've had it for about six months. Is there anything else I can try before I have to send it back? This is the second time this has happened!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. For the CM-5000, a common issue is sometimes a firmware glitch. Can you try this? Unplug the coffee maker, then press and hold the 'Brew' and 'Timer' buttons simultaneously for 10 seconds while it's unplugged. Then plug it back in and see if the screen is working.",
+      "response_time": 5.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.76,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I did that. The screen came back on! It's working! Wow, thank you so much! But, can you explain why that worked? I'm kind of curious about the technical aspect of it.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're welcome! The button combination initiates a hard reset of the device's internal processor, clearing out any temporary software errors or corrupted data that might have caused the screen to freeze. Think of it like restarting your computer. It forces the system to reload the operating firmware, restoring functionality. I am happy to hear that it worked for you!",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.99,
+        "integrity": 6.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_28fbb964",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.61,
+      "integrity": 4.48
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.33,
+    "latency_score": 3.3
+  }
+}

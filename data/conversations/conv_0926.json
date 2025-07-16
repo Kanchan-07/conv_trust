@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I've been having this persistent cough for almost three weeks now, and it's really starting to get to me. I'm also feeling incredibly fatigued. Is it just a cold, or should I be worried? I'm getting so frustrated!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. A persistent cough and fatigue could indicate several possibilities, ranging from a prolonged cold to something else. To provide the best possible advice, I need a little more information. Are you experiencing any other symptoms like fever, sore throat, chest pain, shortness of breath, or loss of taste or smell? Also, have you been around anyone who has been sick recently?",
+      "response_time": 1.4,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.09,
+        "benevolence": 2.5,
+        "integrity": 2.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, no fever, no sore throat. But, yes, I have noticed a slight tightness in my chest and sometimes feel a bit breathless when I climb stairs. I haven't knowingly been around anyone sick, but it's hard to be sure, you know? And, honestly, how reliable are those home oxygen saturation monitors? My friend told me to get one, but I don't really trust it.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing those details. Given the chest tightness and shortness of breath, it's best to consult with a healthcare professional for a proper diagnosis. While home oxygen saturation monitors can provide a general indication of your oxygen levels, they are not always completely accurate and should not replace a professional medical evaluation. I recommend scheduling an appointment with your doctor or visiting a walk-in clinic as soon as possible to get checked out. They can perform the necessary tests to determine the cause of your symptoms and recommend the appropriate treatment. Is there anything else I can help you with today?",
+      "response_time": 5.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.71,
+        "integrity": 5.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1b6c9c5a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 4.11,
+      "integrity": 3.85
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "fear": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.04,
+    "latency_score": 3.84
+  }
+}

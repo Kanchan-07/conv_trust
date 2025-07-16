@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel in London for a week, starting July 10th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To get started, do you have any preferences regarding the hotel, like a specific area, budget, or star rating?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.8,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'd like to be near the city center, preferably a 4-star hotel, and my budget is around $250 per night, ideally less. Also, are there any hotels with good breakfast options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me check... (pauses) ...I found a few hotels that might fit. The 'Grand Plaza Hotel' looks promising, it's a 4-star with breakfast, but it's closer to $300 per night. There is also 'The Regent Inn', which is slightly outside the city center, but it does have breakfast and is within your budget, at about $220. Do either of those sound interesting?",
+      "response_time": 3.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.55,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, $300 is a bit too much. And I really wanted to be in the city center. What about availability for family rooms, and do any of them have a pool?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see... (processing)... Okay, availability for family rooms is limited during that period. The Grand Plaza, however, does seem to have some family suites open, and yes, they do have a pool. However, they are even more expensive for the family suites. For the other hotels, I'm not seeing those amenities. The Regent Inn does not have them.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.21,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a tough one. What's the actual difference in walking time to major attractions like the Tower of London between the Grand Plaza and the Regent Inn?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize, but I cannot definitively state the walking time difference. That information relies on external data sources, and I'm unable to access that specific information to provide that level of detail in a direct comparison. However, I can provide links to both hotels on Google Maps, which can show you the locations and distances. From there, you can assess the walking times more directly, or compare public transport options from each hotel. Would you like the links?",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.81,
+        "benevolence": 3.62,
+        "integrity": 3.84
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_817cdf8c",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.21,
+      "benevolence": 4.29,
+      "integrity": 4.28
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 4.34,
+    "latency_score": 4.29
+  }
+}

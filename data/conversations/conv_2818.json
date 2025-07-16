@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help booking a trip for my family.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist with that. To get started, could you please tell me your desired destination, travel dates, and how many people will be traveling?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.98,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for Paris in October. From the 15th to the 22nd. There are 4 of us - 2 adults, 2 kids. We need flights and a hotel. We'd really like a hotel near the Eiffel Tower, something family-friendly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great, Paris in October for 4 people. Searching for flights and hotels near the Eiffel Tower. I've found several options across various price points and airlines. For flights, I'm seeing options primarily with one or two layovers. Hotel options near the Eiffel Tower include Hotel Le Littr\u00e9, Pullman Paris Tour Eiffel, and Mercure Paris Centre Tour Eiffel, among others. Prices vary significantly. Would you like me to provide detailed flight schedules or hotel amenities for these options?",
+      "response_time": 5.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.61,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's a lot to take in. And some of those hotels seem really expensive or maybe not right for kids? Can you narrow down the hotel search to just family-friendly ones, maybe with breakfast included? Also, this is a bit confusing... if I book the flights you find and a different hotel through another site, is there any risk with connecting flights? Like if the first flight is delayed and we miss the second?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies if that was overwhelming. Let me refine the hotel search for family-friendly options with breakfast included. Regarding your question about separate bookings and connecting flights: If flights are booked on separate tickets, the airlines involved are typically not responsible for delays on one ticket causing you to miss a flight on the other. For a single journey with connections, it's generally safer to book on one ticket with the same airline or alliance partners, as they are responsible for rebooking you in case of delays. Travel insurance can sometimes help mitigate risks with separate bookings, but it's complex. Does that clarify the risk?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 3.72,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense about the flights, I guess. Still a bit annoying that it's complicated. Can you focus on flight options that are direct or have only *one* layover? And please, *only* the family-friendly hotels near the tower with breakfast this time. The first list was too broad.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Understood. Let's refine the search. Focusing on flights with at most one layover for 4 people during your dates, and family-friendly hotels near the Eiffel Tower that include breakfast. [Searching...] Okay, I've found a couple of promising hotel options like Novotel Paris Centre Tour Eiffel which is often recommended for families and typically includes breakfast options, and Pullman Paris Tour Eiffel, which is very close and sometimes has family packages that include breakfast. For flights with one stop, I'm seeing options primarily via airlines like Air France or KLM. Would you like to compare the prices and schedules for these specific hotel and flight combinations?",
+      "response_time": 3.26,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.57,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes! Those hotels sound much better, especially the Novotel. Can you give me the current prices for the flight options with one stop and the Novotel for those dates? And what are the payment options if we decide to book?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Excellent. For flights with one stop during your dates for 4 people, prices are currently ranging from approximately $850 to $1100 per person depending on the exact times and airline. The Novotel Paris Centre Tour Eiffel for those dates in a family room with breakfast is approximately $450 per night. To book, you can typically pay with major credit cards like Visa, Mastercard, or American Express. Once you confirm your preferred options, I can guide you through the booking process securely. Would you like to proceed with booking the flights and the Novotel?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.73,
+        "benevolence": 7.0,
+        "integrity": 6.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef8ad82f",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.28,
+      "benevolence": 5.18,
+      "integrity": 5.36
+    },
+    "engagement_score": 4.73,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 9
+    },
+    "response_quality_score": 5.39,
+    "latency_score": 3.13
+  }
+}

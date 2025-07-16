@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I ordered a pair of shoes last week, order number is 12345, and the tracking hasn't updated in three days. I'm getting a little worried!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I understand your concern about order 12345. I'm looking into the tracking information for you now. One moment please.",
+      "response_time": 4.63,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.7,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I really need them by next week, I'm going on vacation.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see that your package is currently in transit at a regional sorting facility. There seems to be a slight delay, but it is still estimated to arrive within the original delivery window. However, I can't guarantee it'll arrive before your vacation. Would you like me to initiate a trace on the package, or explore other options such as issuing a refund and you can reorder?",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.16,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's annoying! If I reorder, will it actually get here faster? What if the same thing happens? I'm leaving next Friday - if it can get here by then I'm happy, but I don't want to risk it. Tell you what, initiate the trace, and if it's not showing progress by Tuesday, I'll contact you guys again to discuss a refund. Sound good?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_999e5631",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.73,
+      "benevolence": 5.43,
+      "integrity": 5.75
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.13,
+    "latency_score": 4.04
+  }
+}

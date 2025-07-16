@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some movies? I'm in the mood for something specific but not sure what to watch.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, can you tell me what genre you're interested in?",
+      "response_time": 4.03,
+      "emotion_detected": "surprise",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.4,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, how about... Sci-fi? But something that's not too cheesy, if possible. I'm tired of bad special effects.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. For sci-fi that avoids excessive cheesiness, I recommend \"Arrival\" for a thought-provoking drama, or \"Blade Runner 2049\" for stunning visuals and a compelling story. Would either of those interest you?",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.03,
+        "integrity": 5.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen Blade Runner 2049. Arrival sounds interesting... but is it *really* good? I've been burned by 'critically acclaimed' movies before.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "\"Arrival\" generally receives very positive reviews for its unique approach to alien contact and its emotional depth. Many find it quite impactful. However, taste is subjective! Another option, still within Sci-Fi but perhaps a bit more action-oriented, is \"Edge of Tomorrow.\"",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.14,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'Edge of Tomorrow' sounds promising. But a serious question: how do you *actually* determine what movies are 'good'? Is it just aggregate reviews, or is there some deeper AI analysis happening?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! My recommendations are primarily based on a combination of factors, including aggregate reviews from multiple sources (like Rotten Tomatoes, IMDb, and Metacritic), genre classifications, keyword analysis of plot summaries, and popularity trends. I also consider user feedback on previous recommendations, allowing me to refine my suggestions over time. While I can analyze these data points, 'good' is ultimately a subjective assessment.",
+      "response_time": 5.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.89,
+        "benevolence": 5.71,
+        "integrity": 5.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a8483af8",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.75,
+      "benevolence": 5.32,
+      "integrity": 5.57
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 6,
+      "surprise": 2
+    },
+    "response_quality_score": 5.27,
+    "latency_score": 2.76
+  }
+}

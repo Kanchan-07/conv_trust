@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm starving but I have no idea what I want for dinner. I'm feeling kind of stressed and just need something easy and comforting. Any suggestions for delivery near me?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand! When you're stressed, sometimes comfort food is exactly what you need. To give you the best recommendations, could you please confirm your general location or zip code? Once I have that, I can look up popular comfort food options like pizza, pasta, or perhaps some hearty soup and sandwiches available for delivery in your area.",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.44,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my zip code is 90210. I was thinking maybe Italian, but I'm so tired of the usual spaghetti and meatballs. I want something comforting but... *different*. Also, I need it to be delivered within 30 minutes because I'm starving *right now*. Is there even anything out there that fits that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the zip code! Finding something Italian, comforting, and 'different' that can also be delivered within 30 minutes can be a bit tricky as delivery times depend on current restaurant volume and driver availability. I can certainly look for Italian restaurants in 90210 that have unique dishes or perhaps highly-rated options that aren't the typical spaghetti. However, I cannot guarantee a 30-minute delivery window as those estimates can change rapidly. Would you like me to show you some highly-rated Italian options with potentially faster delivery estimates?",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.91,
+        "integrity": 5.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b23b0902",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.65,
+      "benevolence": 5.68,
+      "integrity": 5.5
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.6,
+    "latency_score": 3.66
+  }
+}

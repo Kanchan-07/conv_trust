@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm participating in a hackathon this weekend and I'm feeling completely overwhelmed. Any advice?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's exciting! Hackathons can definitely be intense. First, I recommend you define a clear scope for your project. What specific problem are you trying to solve? Also, a solid team is crucial. Are you working solo or with others?",
+      "response_time": 5.6,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.26,
+        "integrity": 5.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm with a team, thankfully! We have a vague idea about building an app to help people manage their finances, but we're not sure where to start. We're all pretty new to this. Ugh, I'm already frustrated.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let's break it down. Since you're a team, decide on a few core features for your app. What are the absolute must-haves? Consider user-friendliness as a high priority. Maybe track income/expenses, set budgets, and offer basic financial insights. Have you considered using any existing APIs for financial data?",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.1,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "APIs... I'm not even sure where to find financial data APIs. Are there any popular and, ideally, free ones? This is the part that stresses me out the most.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, there are! A few options include: **Plaid**, **Finicity**, and **Yodlee**. These provide access to various financial data. However, be aware that using these APIs may require creating accounts and navigating their terms of service. The specifics vary widely, I recommend you research each option thoroughly before making a decision, looking at cost, available features, and the security of the services. Unfortunately I am unable to give personalized financial advice.",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.2,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that helps a lot! Thanks! What's the best way to structure our app's front-end? We're thinking of using React, but are there any good component libraries to save time? I'm feeling a bit more confident now!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For React, I highly recommend checking out **Material UI**, **Ant Design**, or **Chakra UI**. They provide pre-built, customizable components that will drastically speed up your development. They also offer good documentation and examples. Good luck with the hackathon! Remember to document your code well and celebrate the learning experience, regardless of the outcome!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.63,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_86609ba7",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.09,
+      "benevolence": 5.05,
+      "integrity": 5.06
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "surprise": 1,
+      "joy": 2,
+      "sadness": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 5.18,
+    "latency_score": 2.83
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I need some help with a new wardrobe. I'm on a pretty tight budget, maybe around $200-$300 total.  Can you help me find some decent outfits?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help!  To give you the best recommendations, could you tell me a little more about your style and what you're looking for? For example, are you aiming for casual, business casual, or something else? Also, what kind of items do you need (e.g., tops, pants, shoes)?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.19,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I need mostly casual stuff, maybe a few business casual pieces would be good. I need tops, pants, and maybe a jacket or two. Ugh, this is harder than I thought! Oh, and I'm a woman, if that wasn't obvious.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Given your budget and style preferences, I can offer some suggestions. But before I do, could you please clarify something? How important is it that all the items are new, or are you open to including some second-hand options? This will significantly impact the range and quality of items I can suggest. Also, do you have any preferred brands or stores?",
+      "response_time": 5.1,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.86,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm... that's a good question. I'd PREFER all new, but I guess if I want more for my money, I'm open to some second-hand pieces. Okay, fine. So, mix of new and used, casual and business casual. And no, I don't have any specific stores or brands in mind... I'm already overwhelmed! Just surprise me, I guess?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8f7ba9d3",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.5,
+      "benevolence": 5.53,
+      "integrity": 5.63
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.33,
+    "latency_score": 1.95
+  }
+}

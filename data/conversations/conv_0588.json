@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I'm really into sci-fi, but I'm kind of bored with the usual space operas. Something a bit different, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. You're looking for science fiction recommendations outside of the typical space opera genre. How about considering some cyberpunk or dystopian sci-fi? I could suggest \"Neuromancer\" by William Gibson or \"Do Androids Dream of Electric Sheep?\" by Philip K. Dick.",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.58,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've read both of those. Anything a little more\u2026 recent? I'm also interested in hard science fiction - stuff that really dives into the science aspect. Getting a bit frustrated, I feel like I've read everything good!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, how about \"Project Hail Mary\" by Andy Weir? It's a more recent novel that focuses heavily on scientific problem-solving in a unique interstellar setting. Or, if you're looking for something a bit more challenging, consider \"Blindsight\" by Peter Watts. It's known for its complex and somewhat bleak exploration of consciousness and first contact, and is considered 'hard sci-fi'.",
+      "response_time": 3.84,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.65,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, \"Project Hail Mary\" sounds interesting. I've heard good things about Weir's writing. But, this Watts book... does 'hard sci-fi' *have* to be bleak and depressing to be considered hard? Is there some inherent reason why optimistic science can't be considered rigorous?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_134f9b8e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.92,
+      "benevolence": 3.62,
+      "integrity": 4.12
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 2,
+      "anger": 1,
+      "sadness": 2
+    },
+    "response_quality_score": 3.66,
+    "latency_score": 3.9
+  }
+}

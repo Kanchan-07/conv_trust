@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my bank account. I think I have some suspicious transactions.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your account number and the dates of the transactions you are concerned about? We will then review your account activity.",
+      "response_time": 5.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.82,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my account number is 1234567890. The suspicious transactions happened on the 15th and 16th of this month. I don't have access to my recent statements at the moment, but they were around $50 and $75.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I have reviewed your account. I see two transactions matching the dates and amounts you mentioned. One was a purchase at 'OnlineRetailer.com' for $50 and the other was a payment to 'SubscriptionServiceX' for $75. Are these familiar to you? If not, we can start a fraud investigation.",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.38,
+        "benevolence": 1.14,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 'OnlineRetailer.com' is probably legitimate. But I definitely don't subscribe to 'SubscriptionServiceX'. What's the bank's policy on fraudulent charges, and how long will it take to resolve this? I'm a little frustrated; this has never happened before.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Our policy is to investigate all claims of fraudulent activity. We will issue a provisional credit to your account while we investigate, which typically takes 7-10 business days. You'll need to fill out a fraud affidavit, which I can email you now. Please note, however, that if the investigation determines the charge was valid, the provisional credit will be reversed. Would you like me to send you the form?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.24,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3f6bf683",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.7,
+      "benevolence": 2.73,
+      "integrity": 2.41
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2,
+      "anger": 2
+    },
+    "response_quality_score": 2.98,
+    "latency_score": 5.24
+  }
+}

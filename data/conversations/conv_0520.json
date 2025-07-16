@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. It's about my ongoing back pain, which has gotten worse lately. I'm really struggling!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. I can help you with that. To schedule an appointment with Dr. Ramirez, can you please provide me with your full name and date of birth?",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.96,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, and my birthday is 05/15/1988. Ugh, this back pain is just killing me. What's the soonest I can get in? And, realistically, is there any way to expedite things? This is becoming unbearable.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks, Jane. Let me check Dr. Ramirez's availability. The soonest appointment is currently scheduled for July 18th at 2:00 PM. Unfortunately, I am unable to expedite appointments beyond what is already scheduled. Is that time suitable, or would you like to see other available times?",
+      "response_time": 1.49,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.66,
+        "benevolence": 2.39,
+        "integrity": 2.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "July 18th?! That's weeks away! Is there *really* nothing sooner? Like, a cancellation list or anything? I'm so frustrated. I can't wait that long in this much pain. I suppose I'll take the July 18th appointment if there's absolutely nothing else. Please just book it for me.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_060e728d",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.48,
+      "benevolence": 3.17,
+      "integrity": 3.22
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.72,
+    "latency_score": 5.02
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new hiking gear. I'm mainly interested in backpacks right now. Can you recommend some?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on the 'backpacks' category, I recommend the Osprey Atmos AG 65 for longer trips and the Gregory Zulu 30 for day hikes. Both have excellent reviews. Are you looking for anything specific in terms of size or features?",
+      "response_time": 5.96,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.89,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I saw the Atmos, but 65 liters is way too big. I'm mostly doing day hikes, or maybe overnight trips at most. What else you got? I feel like the Zulu is too small.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, understood. How about the Deuter Trail 30? It sits comfortably in the middle at 30 liters, has great ventilation, and is designed for day and shorter overnight hikes. Alternatively, the REI Co-op Flash 45 is another popular choice known for its lightweight design and adjustability.",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.01,
+        "integrity": 4.26
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The REI one sounds interesting... But how do you decide what to recommend anyway? Is it just popularity, or are you actually considering, like, reviews and stuff?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great question! Our recommendation engine uses a combination of factors, including sales data, customer reviews (both positive and negative), product specifications, and even comparisons to similar products. We also factor in current promotions and inventory levels. Basically, we are trying to find the best 'fit' for your specified category and hopefully your needs. Let me know if you have more questions about it.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.92,
+        "benevolence": 6.68,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes more sense. I'll check out the REI one, thanks! That was actually pretty helpful.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_251d7a18",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.85,
+      "benevolence": 5.9,
+      "integrity": 6.09
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 5.73,
+    "latency_score": 2.7
+  }
+}

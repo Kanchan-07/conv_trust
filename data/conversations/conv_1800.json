@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. My budget is around $800. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your budget of $800, I can recommend a few laptops. Considering performance, storage, and display, here are a few popular options:\n\n1.  **Acer Aspire 5:** Generally a good all-around laptop, often available within your budget. \n2.  **Lenovo IdeaPad Flex 5:** A 2-in-1 convertible laptop, offering more versatility. \n\nWould you like me to provide more specific details, such as the exact models or compare them side-by-side?",
+      "response_time": 5.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.5,
+        "integrity": 5.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "That's helpful, but I'm a bit confused. The Lenovo Flex 5 has a lot of different configurations. How do I know which one is best for gaming if they all fall within the $800 range? I don't want to accidentally buy one that can't handle the games I want to play.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, the Flex 5 has varying configurations! Choosing one for gaming within your budget requires looking at the processor (CPU) and graphics card (GPU). For around $800, look for models with:\n\n*   An AMD Ryzen 5 or Intel Core i5 processor (or better).\n*   Integrated graphics (like AMD Radeon Graphics) might suffice for less demanding games, but dedicated graphics (like NVIDIA GeForce MX series or better, if possible within budget) will significantly improve performance. Check the specific game's recommended system requirements. Consider looking for slightly used laptops if budget is a constraint to get the best gaming performance. I can help you narrow down specific models once you provide me with a few games you plan on playing!",
+      "response_time": 5.58,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.99,
+        "integrity": 5.69
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_efe3a50f",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.51,
+      "benevolence": 5.75,
+      "integrity": 5.38
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 5.61,
+    "latency_score": 2.03
+  }
+}

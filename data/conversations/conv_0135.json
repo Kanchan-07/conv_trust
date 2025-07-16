@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm pulling my hair out over here! I've got a stack of AR denials, and I can't figure out why they're happening. Claim number 12345 was denied for patient John Smith.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's investigate claim 12345 for John Smith. Can you please provide the denial code and the payer information?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.26,
+        "benevolence": 1.16,
+        "integrity": 1.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the denial code is CO-97 and the payer is Blue Cross Blue Shield of Illinois.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "CO-97 generally indicates that the benefit for this service is included in the payment/allowance for another service or procedure that has already been adjudicated. This usually means it was bundled. Were there any other procedures billed on the same date of service?",
+      "response_time": 2.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 4.26,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, we billed 99214 and 71045 on the same date. So, the E/M visit is getting bundled into the radiology? That's annoying.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's possible. Review the payer's bundling guidelines for 99214 and 71045. Modifiers may be required to unbundle the services. Modifier 25 might be appropriate for the E/M, assuming it was a significant, separately identifiable service.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 4.01,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I see. But what if the documentation *doesn't* clearly support the 25 modifier? What's the best course of action then? Should we just eat the cost, or is there another approach?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the documentation doesn't support the 25 modifier, accurately reflecting the services provided is paramount. You have a few options: 1. Review the documentation thoroughly and query the physician for clarification or addendum if necessary. 2. If the E/M service truly wasn't distinct, consider writing off the charge. 3. You could appeal the denial with detailed documentation supporting the medical necessity of both services, but be prepared for a potentially lengthy process. A write off might be the more practical solution in some cases. ",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.54,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that's helpful. So basically, documentation is key. I'll review the notes with the doctor. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Accurate documentation is indeed crucial for successful claim processing. If you have further denials or questions, don't hesitate to reach out.",
+      "response_time": 4.37,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_babf8ed5",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.12,
+      "benevolence": 3.99,
+      "integrity": 3.93
+    },
+    "engagement_score": 5.18,
+    "emotion_distribution": {
+      "surprise": 1,
+      "anger": 1,
+      "neutral": 6,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.27,
+    "latency_score": 4.46
+  }
+}

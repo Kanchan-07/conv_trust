@@ -1,0 +1,134 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with my algebra homework. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'd be glad to assist you. What specific topics are you working on? And what problems are you having difficulty with?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 6.92,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to understand the concept of factoring quadratic equations. I just don't get it!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Factoring can be tricky! Let's start with a simple example. Consider x\u00b2 + 5x + 6 = 0. Do you know what the first step is to find the factors?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.61,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I think so... You need to find two numbers that add up to 5 and multiply to 6, right?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Exactly! Those two numbers are 2 and 3. Therefore, the factored form is (x + 2)(x + 3) = 0. Now, can you tell me the solutions for x?",
+      "response_time": 0.51,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.17,
+        "benevolence": 1.45,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So... x = -2 and x = -3? I think I'm getting it! That was a pretty easy one though. What about something like,  3x\u00b2 + 7x - 6 = 0? This one seems much harder!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're right, that's a bit more complex. For that one, you can use the AC method, or the quadratic formula. Let me help you with the AC method. First, we multiply the coefficient of x\u00b2 (which is 3) by the constant term (-6), which gives us -18. Then we look for factors of -18 that add up to 7. These are 9 and -2... (the response was cut off for brevity). ...Then you rewrite the middle term, and factor by grouping. This will give you the solutions.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.76,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "I think I understand. That explanation was a bit confusing, but I'll try to apply that to other problems. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Practice is key. If you need further assistance or have more questions, don't hesitate to ask! Good luck with your homework!",
+      "response_time": 5.62,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.9,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1a28d072",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.53,
+      "integrity": 4.58
+    },
+    "engagement_score": 5.56,
+    "emotion_distribution": {
+      "fear": 2,
+      "joy": 1,
+      "anger": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.98,
+    "latency_score": 4.02
+  }
+}

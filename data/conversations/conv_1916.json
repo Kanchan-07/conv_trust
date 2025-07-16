@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling because I think I was overcharged on my last bill. The amount seems much higher than usual.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear that. I can certainly help you with that. Could you please provide your account number so I can look into this for you?",
+      "response_time": 4.54,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.65,
+        "integrity": 6.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 1234567890. I've checked my usage, and it doesn't seem like I used that much extra data or anything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I access your account information... Okay, I see the bill in question. It looks like there's a charge for premium services. Did you, or someone on your account, subscribe to any such services?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Premium services? No! I never signed up for anything like that. This is ridiculous! How could this happen?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Sometimes these charges can occur due to accidental clicks or promotions. Let me investigate the details of that charge to see where it originated from. Please hold one moment...",
+      "response_time": 0.55,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'm holding. But seriously, if I didn't authorize this, I expect the charges to be removed. What if there's some sort of fraudulent activity on my account? How can I be sure this won't happen again?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright, I've reviewed the charge. It appears it was a subscription to a third-party gaming service. It looks like it was initiated from a mobile device associated with your account. As for security, we can apply a block on all premium subscriptions. Furthermore, I've initiated a refund for this charge. You should see the credit reflected in your next bill. Does that address your concern?",
+      "response_time": 0.56,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.01,
+        "benevolence": 1.25,
+        "integrity": 1.4
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, that's perfect. Thank you so much for your help and the quick resolution. I appreciate it!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_17ba1e5b",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.5,
+      "benevolence": 2.48,
+      "integrity": 2.51
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "anger": 3,
+      "joy": 1
+    },
+    "response_quality_score": 2.35,
+    "latency_score": 5.96
+  }
+}

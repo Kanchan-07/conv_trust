@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from London to New York for next week. I'm flexible on dates, but ideally arriving on the 26th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me just check... Are you looking to fly on the 26th of October or a different month? Also, how many passengers and what class (economy, business, etc.)?",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 3.84,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, sorry, I should have specified. October 26th. One adult, economy class. And... actually, could you tell me which airlines offer the best legroom on that route? That's really important to me.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I can certainly find flights for you. Finding legroom information is sometimes tricky, as it depends on the specific aircraft and seat map. I'll prioritize searching for airlines known for good legroom. Give me a moment to search, and I'll present the flight options that best meet your criteria.",
+      "response_time": 5.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.66,
+        "benevolence": 5.18,
+        "integrity": 5.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c59c9c8f",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.58,
+      "benevolence": 4.51,
+      "integrity": 4.67
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 2.58
+  }
+}

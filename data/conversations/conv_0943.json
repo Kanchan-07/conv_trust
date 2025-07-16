@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm starting a small online business selling handmade crafts, and I'm trying to figure out what legal stuff I need to consider. I'm completely lost. Where do I even begin?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Starting a business can feel overwhelming. Let's break it down. Some key legal considerations for your online craft business include business structure (sole proprietorship, LLC, etc.), intellectual property (copyrighting your designs), sales tax regulations for your state and any states you plan to sell to, and website terms and conditions/privacy policies. Which of these are you most concerned about at the moment?",
+      "response_time": 1.87,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.86,
+        "benevolence": 2.11,
+        "integrity": 2.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sales tax, definitely. It's so confusing! I've heard horror stories about people getting fined because they didn't collect the right amount. Is there a simple way to figure out what I owe and where?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Sales tax can be tricky. Generally, you're required to collect sales tax from buyers in states where you have a 'nexus,' which usually means a physical presence like an office, warehouse, or employee. However, many states now have 'economic nexus' laws based on a certain sales volume or number of transactions. I can provide you with general information regarding the economic nexus thresholds for each state. However, I am not authorized to give tax advice, I would recommend a tax professional for your specific situation.",
+      "response_time": 2.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 3.86,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I see. So, hypothetically, if I designed a really popular character and started selling it on T-shirts, what's stopping someone else from just copying my design and doing the same thing? I'm worried about protecting my creative work.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. Copyright law protects original works of authorship, including designs. If you created the character, you automatically have copyright protection. To strengthen your protection, you can register your design with the U.S. Copyright Office. Registration creates a public record of your ownership and allows you to sue for infringement. I recommend seeking counsel from an intellectual property attorney to explore the appropriate method for protecting your work.",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b5e818d7",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.58,
+      "benevolence": 2.32,
+      "integrity": 2.53
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "fear": 3,
+      "neutral": 2
+    },
+    "response_quality_score": 2.67,
+    "latency_score": 5.77
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in Chicago for the weekend of October 27th. I need something near downtown, preferably with free breakfast.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can certainly help with that. Searching for hotels in downtown Chicago for the weekend of October 27th with free breakfast... One moment. I have a few options. Let me get back to you with the list.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 4.31,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, I'm waiting. But honestly, I need this done *quickly*. I have had a terrible experience with hotel booking websites lately, always showing me hotels that are either unavailable or don't have the amenities I searched for.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on your criteria, and taking into account real-time availability, I've found three hotels that match your requirements: The Thompson Hotel, The Kinzie Hotel, and The Freehand Chicago. Would you like me to show you these?",
+      "response_time": 2.05,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.04,
+        "benevolence": 2.13,
+        "integrity": 2.94
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0c79065d",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 2.97,
+      "benevolence": 3.22,
+      "integrity": 3.42
+    },
+    "engagement_score": 3.58,
+    "emotion_distribution": {
+      "neutral": 2,
+      "fear": 1,
+      "anger": 1
+    },
+    "response_quality_score": 2.89,
+    "latency_score": 4.54
+  }
+}

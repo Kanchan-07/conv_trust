@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! Can you recommend some good takeout options near me?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you please share your current location? Alternatively, I can use your last known location if you'd prefer.",
+      "response_time": 4.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.51,
+        "benevolence": 5.0,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Use my current location. I'm really in the mood for something... not too heavy. Maybe something with vegetables?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for takeout with vegetables near you... I found a highly-rated Thai restaurant called 'Thai Delight' with excellent reviews. They have a variety of vegetarian options. Would you like to see the menu?",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.36,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thai Delight sounds good! But I just had Thai last week. Is there anything else? Something... more unique?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see... Okay, I found a new Indian place called 'Spice Route'. It doesn't have many reviews yet, but the menu looks intriguing, with a lot of regional dishes I haven't seen before. It *might* be good. Or it might not. Do you want to see the menu anyway? Otherwise, the only other close-by option with lots of veg is a rather generic salad place.",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.8,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, a restaurant with few reviews... that's a gamble. But I'm feeling adventurous! Show me the menu for Spice Route. Also, is there a way to filter by 'spicy' options?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright, here's the Spice Route menu. And yes, you can filter by spice level. It looks like they use a 1-5 scale. I'll apply that filter for you. Do you want me to place an order, or just show you the dishes?",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.43,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Just show me the dishes for now, thanks. Oh, and one final, tricky question: can you suggest something from the menu that is both spicy and good for a beginner to Indian food?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9053349e",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.44,
+      "benevolence": 4.4,
+      "integrity": 4.51
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.55,
+    "latency_score": 3.69
+  }
+}

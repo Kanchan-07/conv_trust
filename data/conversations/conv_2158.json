@@ -1,0 +1,72 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from London to New York, ideally on the 15th of November. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Let me just check the availability for flights from London to New York on November 15th... One moment please.\n\nOkay, I see several flights available. Do you have any preferences for airlines, time of day, or budget?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.19,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'd prefer a direct flight if possible, and ideally in the morning. My budget is flexible, but I'd like to keep it under \u00a3800, if that's possible. I'm not too fussy about the airline.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Finding direct flights from London to New York on November 15th, leaving in the morning and under \u00a3800... Hmm, that's proving a little tricky. Most direct flights are significantly over that budget for that date. I can see one flight with British Airways that departs at 9:30 AM for \u00a3850. Would you be interested in that, or would you like me to explore some options with layovers, maybe with a slightly lower price?",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 4.06,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, \u00a3850 is more than I'd like. Let's see those layover options. I'd prefer something with a reasonable connection time... not too long, I don't want to be stuck in an airport all day. Can you show me the total travel time, including layovers, for each of those?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_da4953c2",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.62,
+      "integrity": 4.92
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "neutral": 5
+    },
+    "response_quality_score": 4.42,
+    "latency_score": 3.83
+  }
+}

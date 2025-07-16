@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help tracking my order.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist with that. Could you please provide me with your order number?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.87,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, it's #EC123456789. I placed it last week, it was supposed to arrive yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the order number. Let me check... According to our system, your order #EC123456789 is currently showing a status of 'In Transit'. The last update was on [Date 2 days ago] in [Previous City].",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 'In Transit' two days ago in [Previous City]? But I live in [My City] and it was supposed to be here yesterday! Why hasn't the status updated and where is my package *really*? This is really frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. 'In Transit' means the package is on its way. Sometimes, there can be delays in scanning or updates within the carrier's system. It should still be moving towards you.",
+      "response_time": 1.65,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.39,
+        "benevolence": 2.39,
+        "integrity": 2.87
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "But that doesn't explain the lack of updates! Two days is a long time for no scan. Is it lost? Can you actually find out its *current* location or is 'In Transit' the only info you have? What happens if it just... doesn't show up?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I see. My apologies, the real-time tracking details are managed by the shipping carrier. Our system only reflects the information they provide. If the status hasn't updated for an extended period and the delivery date has passed, we can initiate an inquiry with the carrier on your behalf, but this process can take 2-3 business days.",
+      "response_time": 1.72,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.98,
+        "benevolence": 2.98,
+        "integrity": 2.66
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, so you can't tell me where it is now, but you can ask them? Sigh. Alright, please start that inquiry then. How long until I hear back after you start it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I will initiate the carrier inquiry for you right away. We typically receive an initial response or update within 2-3 business days. We will contact you as soon as we have information regarding your package's status and location. Thank you for your patience.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bc2a7b2a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.07,
+      "benevolence": 4.05,
+      "integrity": 4.11
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.07,
+    "latency_score": 4.69
+  }
+}

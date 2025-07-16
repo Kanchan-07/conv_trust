@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm so stressed! I need to book a flight and hotel to Cancun for 5 days sometime in November. I'm flexible on the exact dates, but I'd prefer to go earlier in the month. My budget is around $1500 total. Can you help me find something?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To clarify, you're looking for a 5-day trip to Cancun in early November, with a budget of $1500 for both flight and hotel. Do you have any preferences regarding the airport you'd be flying from, or the type of hotel you prefer (e.g., all-inclusive, boutique, etc.)?",
+      "response_time": 4.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.11,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, sorry! Flying from Chicago O'Hare (ORD) and I'd really prefer an all-inclusive resort if possible. It's just so much easier. Thanks!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for all-inclusive resorts in Cancun with roundtrip flights from Chicago O'Hare (ORD) for a 5-day trip in early November, within a $1500 budget. Please wait while I compile some options... Okay, I found a few possibilities. Option 1: Dates Nov 2nd-6th, flight on United, staying at the Oasis Palm resort. Total cost: $1480. Option 2: Dates Nov 7th-11th, flight on American, staying at the Crown Paradise Club Cancun. Total Cost: $1520. Option 3: Dates Nov 4th-8th, flight on Frontier, staying at the Sunset Royal Beach Resort. Total Cost: $1350. Would you like to know more about any of these options?",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.23,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those Frontier flights make me nervous. I've heard they have a lot of delays. Can you tell me if there are any hidden fees or extra costs with the Oasis Palm option? Like, does the 'all-inclusive' *really* include everything, or will I get nickel-and-dimed for things like premium drinks or specific restaurants? I'm trying to avoid surprises!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Regarding the Oasis Palm option, the listed price includes standard all-inclusive amenities: all meals, snacks, non-alcoholic beverages, and select alcoholic beverages at certain bars and restaurants. Premium drinks, specialty restaurants, and certain activities (like motorized water sports) may incur additional fees. It's always recommended to check the resort's specific policy upon arrival. To give you the most accurate information on potential extra costs, I would recommend visiting the resort's website directly and looking at their all-inclusive details, or checking recent reviews from travelers that mention extra costs. Is there anything else I can help you with?",
+      "response_time": 4.14,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.12,
+        "integrity": 4.24
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d7191df7",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.44,
+      "benevolence": 4.49,
+      "integrity": 4.58
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 2,
+      "sadness": 1,
+      "fear": 2
+    },
+    "response_quality_score": 4.1,
+    "latency_score": 3.86
+  }
+}

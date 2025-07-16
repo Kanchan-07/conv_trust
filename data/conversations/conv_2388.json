@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of running shoes. Can you recommend some?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your request, I can offer some recommendations from our 'Running Shoes' category. To give you the best suggestions, could you tell me a bit more about what you're looking for? For instance, do you prefer road running or trail running shoes? What's your budget?",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.87,
+        "benevolence": 5.62,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, road running. Budget, ideally under $150, but I'm flexible. The problem is I have wide feet, which is always a struggle. Can you filter by that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Finding shoes that fit well can be tricky. Unfortunately, I can't filter directly for 'wide feet' as a specific attribute. I can show you our most popular road running shoes under $150. However, if you browse the product pages of those models, look for details about width, sizing charts, or customer reviews that mention wide feet. Would you like me to provide those recommendations, or would you like me to search across multiple brands for shoes specifically marketed for wide feet?",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 3.62,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's a bit annoying. Okay, I'll look at the sizing charts myself. Just give me the recommendations under $150. Hopefully, there's something there.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aa31532c",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.83,
+      "benevolence": 4.62,
+      "integrity": 4.51
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 3.62
+  }
+}

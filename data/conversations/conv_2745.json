@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a follow-up appointment with Dr. Ramirez.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can assist you with scheduling an appointment with Dr. Ramirez. For what reason are you scheduling this follow-up?",
+      "response_time": 5.89,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.86,
+        "benevolence": 7.0,
+        "integrity": 6.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for my annual check-up, a routine visit. I need something preferably next month, maybe in the first two weeks. And I can only do Tuesdays or Thursdays in the afternoon, like after 1 PM.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for that information. Let me check Dr. Ramirez's availability for a routine annual check-up on Tuesdays or Thursdays after 1 PM in the first two weeks of next month.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay... it's taking a while. Are there *any* options at all? It feels like it's always impossible to get an appointment that works for me. If there's nothing in those first two weeks, what's the absolute earliest Tuesday or Thursday afternoon spot available with him, even if it's later in the month?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the delay and your frustration. I am retrieving the available slots. It appears that Dr. Ramirez is quite booked. In the first two weeks of next month, there are no available appointments fitting your criteria (Tuesday/Thursday afternoon after 1 PM). The earliest available Tuesday or Thursday afternoon appointment I see with Dr. Ramirez is on the 27th of next month at 2:30 PM. Would you like to book that one?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.5,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, the 27th is much later than I hoped, but I guess that's the best I'll get. Yes, go ahead and book the appointment for the 27th at 2:30 PM. Please confirm it once it's done.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bf151e79",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.04,
+      "benevolence": 5.17,
+      "integrity": 4.71
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 2
+    },
+    "response_quality_score": 4.81,
+    "latency_score": 3.37
+  }
+}

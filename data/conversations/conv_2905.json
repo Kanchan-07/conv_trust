@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my checking account balance and see the last few transactions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. Please provide your account number or confirm the last four digits of your checking account.",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 3.55,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the last four are 7890. What's the current balance and my last five transactions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for confirming. Your current checking account balance is $875.32. Your last five transactions are: $50.00 debit on [Date X], $125.50 credit on [Date Y], $30.00 debit on [Date Z], $200.00 debit on [Date A], and $75.00 credit on [Date B].",
+      "response_time": 0.63,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.04,
+        "benevolence": 1.0,
+        "integrity": 1.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hold on. That $200 debit on [Date A]? I don't remember making a transaction for exactly $200 on that date. That feels wrong and I'm a bit worried. Can you tell me *who* that payment went to?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. My system shows the transaction on [Date A] as a general online payment debit for $200. Specific payee details for security reasons are sometimes not fully displayed in this interface. It is listed as type 'Online Payment'.",
+      "response_time": 2.75,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.54,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "An 'Online Payment'? That's not very helpful! I need to know if it's legitimate. Can I see more details or do I have to call someone? This is frustrating.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d611750c",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.97,
+      "benevolence": 2.7,
+      "integrity": 3.39
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "neutral": 5,
+      "fear": 2
+    },
+    "response_quality_score": 2.84,
+    "latency_score": 5.01
+  }
+}

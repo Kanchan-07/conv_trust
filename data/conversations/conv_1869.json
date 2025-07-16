@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from New York to London. I'm looking for a flight in early July.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can certainly help you with that. Can you give me the specific dates you're looking to travel in July? Also, are you flexible with your dates?",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 3.97,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need to fly out on July 5th and return on July 12th. I'd prefer non-stop flights, if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, let me check the availability for non-stop flights from New York to London on those dates... Okay, I've found a few options. One moment while I pull them up and sort by price.",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.46,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks! I've been looking online, and it's a bit overwhelming. I'm hoping you can find me something reasonable.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Here are some options, sorted by price. I have flights from British Airways, Virgin Atlantic, and United. British Airways has the cheapest, but with a layover in Dublin. The non-stop Virgin Atlantic flights are a bit more expensive, but they depart from JFK at a convenient time. United is the most expensive with an early morning departure. Would you like me to show you the detailed prices and flight times for each option?",
+      "response_time": 2.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 4.39,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, the British Airways flight with the layover isn't ideal. Tell me, what's the baggage allowance for the Virgin Atlantic non-stop flight?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "One moment... Okay, according to my information, Virgin Atlantic allows one checked bag and one carry-on bag for the flight you are considering. However, please note that baggage allowance can vary depending on the specific fare class and any potential promotional offers. To confirm the exact details, I recommend checking the Virgin Atlantic website directly or contacting their customer service. ",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 3.62,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that sounds good. And also, can you tell me what the carbon footprint is for the Virgin Atlantic flight, compared to the British Airways flight? I am trying to be mindful of my carbon emissions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I am sorry, I am unable to provide you with that information at this time. You might try using a carbon calculator, like the one on the IATA website to determine those figures based on the flight details.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_91e35d76",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.5,
+      "benevolence": 3.49,
+      "integrity": 3.54
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "neutral": 8,
+      "joy": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 3.66,
+    "latency_score": 4.97
+  }
+}

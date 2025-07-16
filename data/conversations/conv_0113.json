@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a table for dinner this Saturday.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. What city are you looking to dine in and how many people will be in your party?",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 3.77,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oops, sorry. It's for Toronto, and we'll be a group of four.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. And what kind of cuisine are you interested in, or do you have a specific restaurant in mind?",
+      "response_time": 5.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.06,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, good question. Maybe Italian? We're looking for something moderately priced, not too fancy. Ideally, somewhere with good reviews.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, searching for moderately priced Italian restaurants in Toronto with good reviews... I found a few options. There's 'Pasta Paradise' which has 4.5 stars and 'Luigi's Trattoria' rated at 4 stars. Both seem quite popular. Which one would you prefer, or would you like me to provide more details?",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.93,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Luigi's Trattoria sounds good. Can you check availability for Saturday at, say, 7:30 PM? And also, what's their policy on splitting the bill? We're all paying separately, which can sometimes be a hassle.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Checking availability at Luigi's Trattoria for Saturday at 7:30 PM for a party of four... Great news, they do have availability! Regarding splitting the bill, I don't have that specific information readily available, but I would recommend calling them directly to confirm their policy. Shall I proceed with the booking?",
+      "response_time": 5.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.01,
+        "integrity": 5.19
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2f2f7150",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.59,
+      "benevolence": 4.44,
+      "integrity": 4.53
+    },
+    "engagement_score": 4.59,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 4.5,
+    "latency_score": 3.15
+  }
+}

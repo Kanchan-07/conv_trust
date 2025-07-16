@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a new laptop. My budget is, let's say, around $700. I mostly need it for writing and browsing, nothing too fancy. I've been searching for hours, and it's just overwhelming. Help!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand! It can definitely be overwhelming with so many options. Based on your needs and budget of $700, I can recommend a few models. The Acer Aspire 5 is a solid choice for writing and browsing, and it usually falls within that price range. The Lenovo IdeaPad 3 is another popular option. Both have good battery life and comfortable keyboards. Would you like me to provide links to their product pages or perhaps compare their specs side-by-side?",
+      "response_time": 2.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.95,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Specs would be great! But, realistically, how long will either of those last me before they become completely obsolete? I don't want to buy something that's useless in a year or two. That's my biggest fear.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a valid concern! While it's impossible to predict the future with complete accuracy, generally, a laptop in that price range, used primarily for writing and browsing, should remain functional for at least 3-5 years with proper care. The lifespan also depends on software updates and the evolving demands of websites and applications. Let me pull up a comparison of the core specs, focusing on processor, RAM, and storage, which are the key factors influencing longevity for your use case. The Acer Aspire 5 typically comes with an AMD Ryzen 5 or Intel Core i5 processor, 8GB of RAM, and a 256GB SSD, while the Lenovo IdeaPad 3 often has similar specs, though sometimes with a slightly less powerful processor variant. Both are upgradable to 16GB of RAM which could extend their usability a bit further. Is this information helpful?",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.64,
+        "integrity": 3.92
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1870d38e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.77,
+      "benevolence": 3.79,
+      "integrity": 3.91
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 4.38,
+    "latency_score": 5.03
+  }
+}

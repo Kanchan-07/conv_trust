@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel room. I'm traveling to Chicago from October 26th to 29th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To start, what's your budget and preferred area in Chicago?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 4.23,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd prefer something in downtown, and my budget is around $250-$300 per night. Is that realistic?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, that budget is generally realistic for downtown Chicago. Let me check availability for those dates. Please wait a moment...",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.22,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'm waiting... I'm also looking for hotels with a good view, if possible. What are my options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright, based on your criteria, I found several hotels with rooms available between October 26th and 29th, within your budget. These hotels are The Kinzie Hotel, Thompson Hotel, and The Hotel Lincoln. All of them have very good ratings and reviews. Do you want me to filter for hotels with good views?",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 4.41,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please filter for good views. Also, I'm looking at the reviews, and it seems like some of them have extra fees. Can you give me the final price, including all fees, for those hotels?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, I cannot provide you with the final price, including all fees. Please check on the official website or contact the hotels directly.",
+      "response_time": 0.52,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, okay, that's not very helpful. I'll have to do that myself then. Thanks anyway.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_28933957",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.0,
+      "benevolence": 3.46,
+      "integrity": 3.17
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 2.86,
+    "latency_score": 4.81
+  }
+}

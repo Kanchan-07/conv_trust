@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Diego for next weekend, October 27th to 29th. It's for two adults.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for hotels in San Diego for October 27th to 29th, for two adults. Do you have any specific preferences, such as budget, preferred area, or desired amenities?",
+      "response_time": 2.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.48,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, ideally something near the Gaslamp Quarter, and under $250 a night. A pool would be great, but not essential. This is so stressful planning this last minute!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm filtering for hotels in or near the Gaslamp Quarter, under $250 per night, with a pool. I found three options: The Bristol Hotel, the Andaz San Diego, and the Solamar San Diego. The Bristol is $210 per night, the Andaz is $240, and the Solamar is $260. Unfortunately the Solamar is slightly above your stated budget.",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.52,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, interesting. Why is the Andaz listed if it's also above my budget? And, more importantly, could you tell me about the cancellation policies for the Bristol Hotel?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, there seems to have been an error in listing the Andaz. As for the Bristol Hotel's cancellation policy, you can cancel free of charge up to 48 hours before your arrival date. Cancellations within 48 hours will incur a charge equal to one night's stay. Does that help?",
+      "response_time": 0.61,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.2,
+        "benevolence": 1.12,
+        "integrity": 1.38
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_544a4a61",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.97,
+      "benevolence": 3.04,
+      "integrity": 3.05
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 3,
+      "surprise": 2,
+      "sadness": 1
+    },
+    "response_quality_score": 2.96,
+    "latency_score": 5.47
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some new running shoes. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me a little more about what you're looking for? For example, what kind of running do you do (road, trail, etc.), how often do you run, and what's your budget?",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.83,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I run mostly on the road, about 3 times a week, and I'd prefer to stay under $150. I have pretty flat feet, if that matters.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks! Based on that, I recommend looking at the Brooks Adrenaline GTS series or the ASICS GT-2000. Both are well-regarded for road running and offer good support for flat feet. They generally fall within your budget, too. Here's a link to a search on our site: [link to shoes]",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.11,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, the reviews are a little mixed on the Brooks. And the ASICS look a bit, well, ugly. Is there anything else? I'm not particularly thrilled with either option.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Finding the perfect shoe can be tricky! Perhaps you'd consider the Saucony Guide series. They are known for stability and comfort. I'll also check for other options with better style ratings and similar support for flat feet, but the options are somewhat limited within your price range. One moment... [thinking sound effect]. Okay, I've found the New Balance Fresh Foam 860. They offer stability and are generally well-reviewed, but they may be slightly over your budget. What do you think of that? I am still refining my abilities in matching shoe aesthetics with user preferences, though. ",
+      "response_time": 5.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.56,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Interesting! How can I be sure the New Balance will fit my flat feet well, especially since I can't try them on in a store right now? That's a pretty important thing to get right...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. The New Balance Fresh Foam 860 is designed with a medial post for overpronation, which is beneficial for flat feet. While I can't guarantee a perfect fit without trying them on, I recommend reading reviews specifically mentioning flat feet. Also, our site has a generous return policy, so you can return them if they don't work out. Additionally, you could check if New Balance has a virtual foot scanner on their website or check reviews for users with similar foot profiles as yourself. ",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.77,
+        "integrity": 3.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_65ca0e6a",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.18,
+      "benevolence": 5.07,
+      "integrity": 4.76
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.25,
+    "latency_score": 2.84
+  }
+}

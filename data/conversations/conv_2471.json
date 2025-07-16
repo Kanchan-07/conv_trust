@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to book a table for dinner tonight. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely, I can help you with that. To find the right restaurant, could you please tell me: What city and area are you interested in? Approximately what time would you like the reservation for, and how many people will be dining?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for tonight in downtown Austin, around 7:30 PM for three people. Ugh, finding places with availability last minute is always a nightmare! And just a thought, do you actually check live availability or are you just guessing based on typical booking patterns?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand the frustration with last-minute bookings, I'll do my best to find options for you. Regarding availability, I connect to various restaurant booking platforms and systems which provide near real-time availability data. So, I'm checking actual current openings, not just predicting. Searching for downtown Austin, tonight around 7:30 PM for three... Found a few options. 'The Peppercorn Grill' has a reservation available at 7:45 PM tonight. Would that work?",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 3.92,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, 7:45 PM is okay, but 'The Peppercorn Grill'... I was hoping for something with a bit more of a lively atmosphere, maybe live music? Is that place really just a grill? I was thinking more along the lines of a bar & grill or gastropub. Can you find something else, preferably with some energy?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_48015601",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.72,
+      "benevolence": 5.46,
+      "integrity": 5.3
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.36,
+    "latency_score": 2.96
+  }
+}

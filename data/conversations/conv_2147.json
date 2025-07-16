@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it should have been delivered yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your tracking number?",
+      "response_time": 4.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.34,
+        "integrity": 5.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 98765432101234567890. I'm getting a little worried because it contains some important medication, and I really need it.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I look that up... Okay, I see the package is currently at our distribution center and experienced a delay due to weather conditions. We expect delivery within 2 business days.",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.29,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Weather? Seriously? It's sunny here! This is so frustrating. Why wasn't it sent out earlier then?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. Unfortunately, I do not have specific information on the routing of packages. However, I can assure you that the team is working to get your package to you as quickly as possible. Do you have any other questions for me?",
+      "response_time": 3.95,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.33,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, I do. How can I be sure it actually *will* arrive in 2 business days? It's important that I have the medication by the end of the week.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While I can't provide guarantees, I can see that your package has been prioritized for delivery. You'll also receive a notification when it is out for delivery. I recommend keeping an eye on the tracking information, which will update with any changes. Is there anything else I can assist you with?",
+      "response_time": 4.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.95,
+        "integrity": 5.05
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "No, I think that's all. Thank you for your help, even if it wasn't exactly what I wanted to hear.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_798e5d8e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.98,
+      "integrity": 4.69
+    },
+    "engagement_score": 4.78,
+    "emotion_distribution": {
+      "neutral": 6,
+      "fear": 1,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 5.03,
+    "latency_score": 3.4
+  }
+}

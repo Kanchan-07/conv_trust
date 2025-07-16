@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new games to play. I really enjoy RPGs and strategy games. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preferences for RPGs and strategy games, I can suggest a few titles. For RPGs, have you tried 'Divinity: Original Sin 2'? It's critically acclaimed. For strategy, 'Civilization VI' is a classic. Would you like more suggestions or perhaps something else?",
+      "response_time": 4.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.39,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Divinity: Original Sin 2, I've heard of that one. I'm not sure about Civ VI, though. My computer is pretty old, so I am not sure it would be able to run it. Are there any strategy games that are less graphically demanding, maybe something older?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Finding games compatible with older hardware can be tricky. Let me look into some less demanding strategy titles. Hmm, for something older, perhaps 'Age of Empires II: Definitive Edition'? It has updated graphics, but the core gameplay is still the same. It should run well on most systems. Another option is 'StarCraft: Brood War' if you're into real-time strategy. I also found 'XCOM: Enemy Unknown', which is a turn based strategy game with lower requirements. Sorry for the delay on that one!",
+      "response_time": 3.41,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.93,
+        "integrity": 4.49
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Age of Empires II sounds promising, and I do like turn-based strategy too! Thanks for the help - you really did the trick there. I might need to try out XCOM, but it looks a bit complicated... But overall, I'm satisfied. Thanks again!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d244f8de",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 4.66,
+      "integrity": 4.83
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 2,
+      "sadness": 1
+    },
+    "response_quality_score": 4.71,
+    "latency_score": 3.46
+  }
+}

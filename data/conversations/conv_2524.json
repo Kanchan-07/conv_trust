@@ -1,0 +1,100 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have a situation with my former landlord and my security deposit. They're trying to keep most of it for things I don't think are fair, like painting a wall that was already a little scuffed when I moved in.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can provide general information, but please be aware that I am an AI and cannot provide legal advice. Laws regarding security deposits and landlord-tenant disputes vary significantly depending on your location. Could you please tell me which state or country this is happening in?",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.32,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. This is happening in New York State. It's just so annoying because I took pictures when I moved out, and the place was cleaner than when I got it! They're also charging me for 'deep cleaning' the carpets even though they weren't dirty.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Under New York law, landlords must return your security deposit within 14 days after you move out. If they make deductions, they must provide an itemized list of deductions. They can only deduct for damages beyond normal wear and tear or unpaid rent. Charging for cleaning beyond what's necessary to return the unit to its move-in condition, or for pre-existing issues, would generally be improper.",
+      "response_time": 0.56,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, 14 days... It's been 20 days now, and I haven't received *anything* from them, no deposit back, no list, nothing. What does it mean if they missed that 14-day deadline in NY? Does that automatically mean they lose the right to keep *any* of the deposit, or can they still try to claim damages later even though they didn't send the list on time? I'm really confused about this part.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "In New York, if a landlord fails to return the deposit or provide a written, itemized list of deductions within the 14-day timeframe, they forfeit any right to keep *any* portion of the deposit. This means they generally must return the *entire* deposit to the tenant. However, this is based on typical legal interpretations and outcomes can sometimes depend on the specifics of the case and how it's pursued.",
+      "response_time": 0.51,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.34,
+        "benevolence": 1.09,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "agent",
+      "utterance": "Given the complexity and the specific details involved, especially regarding missed deadlines and potential forfeiture of rights, I strongly recommend consulting with a qualified attorney or a tenant advocacy group in New York State. They can provide tailored legal advice based on your exact situation and help you understand your options for recovering your deposit.",
+      "response_time": 4.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.81,
+        "integrity": 5.86
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3b42e8be",
+    "average_trust_score": 2.12,
+    "trust_category_averages": {
+      "competence": 2.4,
+      "benevolence": 2.3,
+      "integrity": 2.21
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 2.13,
+    "latency_score": 5.88
+  }
+}

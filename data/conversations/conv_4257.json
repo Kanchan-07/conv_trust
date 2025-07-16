@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some legal advice. I'm being sued for breach of contract, and I'm not sure what to do.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I am an AI and cannot provide legal advice, but I can offer information and resources. Could you please provide some more details about the contract and the nature of the alleged breach? For example, what was the contract about, and what specific actions are they claiming violated it?",
+      "response_time": 4.07,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.27,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, it was a contract with a supplier. They said I didn't pay them on time, but I swear I did! I have proof of the payment... I think. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It's important to gather all documentation related to the contract, including the contract itself, invoices, payment records, and any communication you had with the supplier. If you have proof of payment, that's a crucial piece of evidence. I can suggest some basic steps for gathering your documents and preparing for this, but I strongly advise you to contact a legal professional for assistance with your specific case as the information here is for educational purposes only.",
+      "response_time": 2.05,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.59,
+        "benevolence": 2.51,
+        "integrity": 2.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Right, I get that. But what if the contract has a clause saying disputes must be settled via arbitration? Does that mean I *can't* go to court? Because that seems unfair if I did pay!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very good question. Yes, if the contract has a valid arbitration clause, you may be required to resolve the dispute through arbitration rather than going to court. Arbitration is a process where a neutral third party hears the case and makes a decision. The enforceability of an arbitration clause depends on several factors, including the wording of the clause, the laws of the jurisdiction, and whether both parties agreed to it freely. I strongly recommend consulting with an attorney about your specific clause and the legal implications based on your local jurisdiction. They can advise you on how to proceed.",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.16,
+        "integrity": 5.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that actually makes a lot of sense. Thanks for explaining that in a way I could understand. Where can I find a lawyer that specializes in contract disputes, though? I'm not sure where to start.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You're welcome! I'm glad I could help. There are a few places to start your search for a lawyer specializing in contract disputes. You can use online legal directories like Avvo, FindLaw, or Martindale-Hubbell. These sites allow you to search for attorneys by specialty and location, and they often provide ratings and reviews from other clients. Additionally, your local or state bar association will typically have a referral service that can connect you with qualified attorneys in your area. Good luck!",
+      "response_time": 5.17,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.8,
+        "benevolence": 6.78,
+        "integrity": 6.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e1fd5a04",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.24,
+      "benevolence": 4.93,
+      "integrity": 5.21
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "anger": 3,
+      "joy": 1
+    },
+    "response_quality_score": 5.48,
+    "latency_score": 3.51
+  }
+}

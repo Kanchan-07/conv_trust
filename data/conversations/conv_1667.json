@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm flying from Chicago to Paris sometime in September.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To get started, could you please provide the exact dates you'd like to travel in September? Also, are you flexible with your travel dates?",
+      "response_time": 4.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.52,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd like to fly out on September 15th and return on September 22nd. I'm flexible by a day or two on either end, but I'd really prefer those dates.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for flights from Chicago (ORD) to Paris (any airport) between September 13th and September 24th. Please wait a moment while I check availability and prices...",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.39,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "This is taking forever! And I need to go to the bathroom. Is there a faster way to do this?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies for the delay! I am still processing that request. In the meantime, I am able to check flights using different airports. Are there any other airports near Paris that you would be able to fly into? Also, would you like me to search for any specific airlines?",
+      "response_time": 5.1,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.88,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, fine. What's the cheapest flight you can find, regardless of airline or airport, as long as it's still in Paris?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, the cheapest roundtrip flight I've found is with [Airline Name] arriving at Charles de Gaulle Airport (CDG) in Paris. The departing flight from Chicago (ORD) on September 15th is $780 and the returning flight on September 22nd is $810. These prices are subject to change. Would you like me to proceed with this booking?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.6,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Actually, yes. That sounds great. Go ahead and book it for me.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_256b9c92",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.99,
+      "benevolence": 4.85,
+      "integrity": 4.67
+    },
+    "engagement_score": 4.62,
+    "emotion_distribution": {
+      "neutral": 5,
+      "joy": 2,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 3.56
+  }
+}

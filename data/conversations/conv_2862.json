@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with my job application. Can you please review my resume and give me some feedback? I've attached it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'd be happy to help with your resume review. Please upload the file, and I will analyze it for formatting, keywords, clarity, and overall structure. I'll provide suggestions for improvement.",
+      "response_time": 5.86,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 6.55,
+        "integrity": 6.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks! It's uploaded now. I'm applying for a Marketing Specialist role at 'Innovate Solutions'. The job description emphasizes creativity and data analysis. I feel pretty overwhelmed trying to make it perfect.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the resume. I've reviewed it. Your experience section is strong, but the summary could be more tailored. Ensure you highlight keywords like 'marketing strategy,' 'data analysis,' and potentially 'creative campaigns.' Your formatting is clean overall. Now, regarding your cover letter for Innovate Solutions, I can help draft one highlighting your relevant skills and enthusiasm for creativity and data. What key achievements related to these areas do you want to emphasize?",
+      "response_time": 4.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.16,
+        "integrity": 5.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful feedback on the resume, thanks! For the cover letter... I feel like most drafts I try sound generic. How can I make it sound *truly* authentic to me while still hitting all their requirements like 'innovative solutions' and 'creativity' mentioned in the job ad? It feels impossible to balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a common challenge. To make it sound authentic while hitting keywords, you need to integrate your genuine experiences and personality. Instead of just listing skills, describe *how* you used creativity or data analysis in a specific project. Research Innovate Solutions' values and mission \u2013 weaving in language that resonates with their culture can also make it feel more personal and targeted. Focus on telling a brief story or providing a concrete example for each key requirement.",
+      "response_time": 3.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 4.46,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, I understand the concept... but I'm still a bit confused. Can you give me a concrete example? Like, how would I phrase a sentence or two about using data analysis creatively? I struggle to make it sound natural and not just like I'm keyword-stuffing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. Instead of saying 'I used data analysis and was creative,' you could say something like: 'Leveraging advanced data analysis techniques, I identified a previously unseen customer segment, which inspired a highly creative campaign that resulted in a 15% increase in engagement.' This connects the skill (data analysis) with a specific action (identified segment), a personal contribution (inspired campaign), and a measurable result, using relevant keywords ('creative,' potentially implying 'innovative solutions').",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.35,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ah, okay! That example makes it much clearer how to actually *phrase* it. Thank you, that's really helpful! I think I can work with that approach now. Feeling much better about tackling this cover letter.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6c6de9d7",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.26,
+      "benevolence": 5.38,
+      "integrity": 5.34
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.86,
+    "latency_score": 3.01
+  }
+}

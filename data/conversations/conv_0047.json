@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to revamp my resume. It's been, like, five years since I last updated it, and I'm pretty sure it's a mess. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can help with that! A good starting point is to list out all your previous jobs, educational qualifications, and any relevant skills or certifications. Don't worry about formatting yet, just get the information down.",
+      "response_time": 5.53,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.21,
+        "benevolence": 5.49,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, okay. That sounds like a lot of work. But I guess it's gotta be done. What about the order? Should I put my skills before my experience, or the other way around?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Generally, if you have substantial work experience that is directly relevant to the jobs you're applying for, experience should come first. If you're changing careers or have limited experience, highlighting your skills might be better.",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 3.69,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, experience first it is. So, for each job, what exactly am I supposed to write? Just the dates and title? I feel like I always struggle with making it sound impressive without lying.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "For each job, include the job title, company name, and dates of employment. Then, write 3-5 bullet points describing your responsibilities and accomplishments. Use action verbs to start each bullet point (e.g., 'Managed', 'Developed', 'Implemented'). Quantify your accomplishments whenever possible (e.g., 'Increased sales by 15%').",
+      "response_time": 5.83,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.77,
+        "benevolence": 6.84,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, quantify... Got it. What if I don't have numbers? Like, what if my role was mostly administrative? How do I make *that* sound impressive?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Even in administrative roles, you can quantify achievements. Think about how you improved efficiency, reduced errors, or supported the team. For example, 'Streamlined office procedures, resulting in a 10% reduction in processing time' or 'Managed and organized files, ensuring 100% compliance with company record-keeping policies'.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.82,
+        "benevolence": 7.0,
+        "integrity": 6.88
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks! One last thing - should I include a photo of myself on my resume? I've seen conflicting advice online.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "In most cases, it's best to avoid including a photo on your resume, especially in the US, Canada, and the UK. It can open the door to unconscious bias. Only include a photo if it is explicitly requested in the job description or if you're in a country where it's standard practice.",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.88,
+        "integrity": 4.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5d1f4077",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.47,
+      "benevolence": 5.38,
+      "integrity": 5.51
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "disgust": 2,
+      "fear": 1,
+      "neutral": 7
+    },
+    "response_quality_score": 6.0,
+    "latency_score": 2.48
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated! I placed an order yesterday, and I haven't received any shipping updates. The order number is #12345. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're experiencing issues with your order. I've looked up order #12345 and see that it's currently being processed. You should receive a tracking number within 24-48 hours. Is there anything else I can assist you with at the moment?",
+      "response_time": 0.55,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.48,
+        "benevolence": 1.0,
+        "integrity": 1.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that's somewhat reassuring. But, I'm also wondering about the return policy for a specific item. Let's say I bought a pair of shoes, and they don't fit. I'm looking at the website and it is not clear at all! How long do I have to return them and do I have to pay for shipping?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the lack of clarity. Our general return policy allows for returns within 30 days of delivery. For shoes, as long as they are unworn and in their original condition, you're eligible for a full refund. Regarding return shipping costs, a prepaid shipping label will be provided.  However, please note that policies can vary slightly based on the vendor. For more information, visit our specific return policy at our website.",
+      "response_time": 1.74,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.36,
+        "benevolence": 2.48,
+        "integrity": 2.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9d2db241",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.92,
+      "benevolence": 1.74,
+      "integrity": 1.94
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "anger": 1,
+      "sadness": 1,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 1.76,
+    "latency_score": 6.36
+  }
+}

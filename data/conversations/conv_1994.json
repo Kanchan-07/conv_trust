@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help finding some new clothes. I'm on a pretty tight budget, so I'm hoping you can help me find some affordable options.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely assist with that. To get started, what's your approximate budget for this shopping trip?  Also, are you looking for any specific types of clothing, or just a general wardrobe refresh?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.01,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I'm thinking around $150 total. I need some basics like a few shirts, maybe a pair of jeans, and possibly a light jacket. I'm a bit frustrated because I feel like everything is so expensive these days!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Inflation can be a challenge. Let's see... For $150, you could potentially get a couple of basic t-shirts, a pair of jeans from a value retailer, and maybe a lightweight jacket. I can provide some links to stores known for affordable clothing, such as H&M, ASOS, and Old Navy. Would you like me to start there?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.45,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please do! But before you do, how do you account for shipping costs when providing recommendations? They can sometimes make the 'affordable' options not so affordable.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great point! I can factor in estimated shipping costs, though it's difficult to be perfectly accurate without knowing your location and the specific items. I will primarily suggest retailers with reasonable shipping fees or free shipping thresholds. In general, free shipping is offered by many retailers for orders over $50. Let me generate some search results now...",
+      "response_time": 4.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.15,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those look pretty good! The jeans are exactly what I was looking for, and the shirts are within budget. Thanks! I'm actually quite satisfied with the recommendations.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Great! I'm glad I could help. If you need any more assistance or have other questions in the future, feel free to ask. Happy shopping!",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.68,
+        "benevolence": 6.94,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8255fef7",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.19,
+      "benevolence": 5.39,
+      "integrity": 5.68
+    },
+    "engagement_score": 4.29,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1,
+      "joy": 2
+    },
+    "response_quality_score": 5.52,
+    "latency_score": 3.25
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some product recommendations on your website. I have a budget of around $100.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To get started, what kind of product are you interested in?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.59,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm thinking about getting a new pair of headphones. My old ones broke. Ideally wireless and good quality for listening to music.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, wireless headphones with good sound quality for under $100. Let me check our current stock... I recommend the 'AudioTech Pro X500' which are on sale for $89. They frequently get great reviews. What do you think?",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 3.77,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've never heard of that brand. Are there other options? I'm a bit hesitant about unknown brands.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Unfortunately, other well-known brands in that price range tend to compromise on sound quality or features. Alternatively, we have the 'SoundSurge 60' which are very popular. However, they are listed at $119. I cannot recommend products outside of the given budget.",
+      "response_time": 1.47,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.14,
+        "benevolence": 2.15,
+        "integrity": 2.59
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's frustrating! I guess I'll have to increase my budget, then. Let me ask you, how do you determine the 'good quality' of a product? Is it based on customer reviews, technical specifications, or something else?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question. We use a combination of factors to determine product quality. These include customer reviews (analyzing sentiment and rating scores), technical specifications (frequency response, impedance, etc.), and expert ratings where available. We also consider the brand's reputation and warranty information.",
+      "response_time": 5.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.57,
+        "benevolence": 5.94,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. Thanks for explaining. I think I'll check out those SoundSurge 60s, despite going slightly over budget.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_12032844",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.66,
+      "benevolence": 4.61,
+      "integrity": 4.74
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 2,
+      "fear": 1
+    },
+    "response_quality_score": 5.21,
+    "latency_score": 3.35
+  }
+}

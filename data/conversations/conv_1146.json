@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I've got a claim denial here, reason code CO-97. 'The benefit for this service is included in the payment/allowance for another service/procedure that has already been adjudicated.' I don't understand. They're saying it's bundled, but it shouldn't be!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. CO-97 does indicate bundling. To clarify, can you provide the CPT codes for both the denied service and the service they claim it's bundled with? Also, what date of service are we looking at?",
+      "response_time": 2.13,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.28,
+        "benevolence": 2.75,
+        "integrity": 2.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the denied service is 99214, and the service they say it's bundled with is 90670, both on 2024-03-15. I've never had this problem before with these codes!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me quickly check the CCI edits for that date of service. One moment... Okay, according to the CCI edits, 99214 is indeed bundled into 90670. However, a modifier might be appropriate if the services were distinct and separately identifiable. Was the E/M service (99214) truly separate and significant from the vaccine administration?",
+      "response_time": 5.47,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.63,
+        "integrity": 5.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, the patient came in specifically for the vaccine, but I did a brief review of their current medications and allergies, and updated their problem list. It wasn't just a quick shot; it was a more comprehensive visit.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, it sounds like a modifier might be warranted. You would want to append a modifier to the 99214 code. Common modifiers used to indicate a distinct procedural service are 25 or 59. Modifier 25, 'Significant, separately identifiable evaluation and management service by the same physician or other qualified health care professional on the same day of the procedure or other service' is likely the most appropriate in this scenario.",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 4.24,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, resubmit the claim with 99214-25? Is that right? What if they deny it again?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, resubmit the claim with 99214-25 and 90670. If they deny it again, you will need to appeal the decision. Include a copy of the patient's medical record highlighting the distinct nature of the E/M service. Document specifically why the E/M was beyond the typical pre- or post-service work associated with the vaccine administration. Now, is there anything else?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.47,
+        "integrity": 1.36
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Thanks for your help! I appreciate you walking me through that. That's all I need for now.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8224dbb8",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.23,
+      "benevolence": 3.52,
+      "integrity": 3.3
+    },
+    "engagement_score": 4.3,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 3.42,
+    "latency_score": 4.44
+  }
+}

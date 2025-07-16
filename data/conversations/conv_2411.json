@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my checking account balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Please confirm your identity by providing the last four digits of your Social Security number and your date of birth.",
+      "response_time": 5.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.15,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the last four are 1234 and my birthday is 01/01/1990. Now, what's my balance?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Your checking account balance is $1,234.56. Is there anything else I can help you with?",
+      "response_time": 0.52,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.08,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, actually. I need to transfer $500 to my savings account. How do I do that?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I am unable to process that request right now. Please try again later or contact our customer service.",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.42,
+        "integrity": 1.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Seriously? That's frustrating. Okay, then, can you at least tell me the interest rate on my savings account? I can't seem to find it anywhere.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The current interest rate on your savings account is 0.05% APY. Is there anything else I can help you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8801794c",
+    "average_trust_score": 2.12,
+    "trust_category_averages": {
+      "competence": 2.16,
+      "benevolence": 2.14,
+      "integrity": 2.25
+    },
+    "engagement_score": 4.64,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 2,
+      "sadness": 1
+    },
+    "response_quality_score": 1.91,
+    "latency_score": 5.86
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check the status of a claim submitted last month, around October 25th, for patient Jane Doe.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To find the claim status, I need either the claim number or the patient's full name and date of birth. Can you provide that information?",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.02,
+        "benevolence": 4.32,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Her name is Jane Doe, date of birth 11/15/1980. The date of service was October 25th, 2023. I saw something in the portal that said 'denied'. Why was it denied? This is incredibly frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the details. I have located a claim matching that information. It is indeed marked as 'denied'. Denials can occur for various reasons, such as incorrect patient demographics, missing pre-authorization, or coding issues. The specific reason for denial is usually detailed on the Explanation of Benefits (EOB) received from the payer.",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I *read* the EOB! It just says 'Non-covered service'. How can an office visit with labs be non-covered? This makes no sense and is causing so many headaches trying to sort it out!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. 'Non-covered service' could indicate that the specific service provided is not a benefit under the patient's plan, or perhaps it requires a specific diagnosis code to be covered. Have you verified the patient's eligibility and benefits for the date of service?",
+      "response_time": 1.44,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.77,
+        "benevolence": 2.92,
+        "integrity": 2.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, eligibility was checked. This is a standard office visit (CPT 99214) with routine labs (CPT 80053). How could *that* be non-covered? What if the payer is misinterpreting something? How do I formally dispute a 'non-covered' denial when I believe it *should* be covered based on the plan details we have?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "To dispute this, you would typically need to file an appeal with the payer. This often involves submitting a letter explaining why you believe the service is covered, along with supporting documentation like the patient's medical records, the EOB, and possibly a copy of the patient's benefit plan details if you have access to it showing coverage for such services.",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.33,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, but is there a *specific* format or list of required documents for appealing a 'non-covered' denial versus, say, a 'medical necessity' denial? The EOB and their website are vague, and I don't want the appeal rejected on a technicality. This process is so confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "While the core requirement is clear documentation supporting coverage, the exact format can vary slightly by payer. Generally, an appeal for 'non-covered' focuses on demonstrating the service *is* a benefit under the plan, whereas a 'medical necessity' appeal focuses on clinical documentation. It is often best to contact the payer's provider appeals department directly to request their specific guidelines or required forms for 'non-covered' service appeals for this type of claim. This can help avoid technical rejections.",
+      "response_time": 2.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 3.7,
+        "integrity": 3.93
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_975b71b0",
+    "average_trust_score": 3.1,
+    "trust_category_averages": {
+      "competence": 3.19,
+      "benevolence": 3.25,
+      "integrity": 3.27
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 2.83,
+    "latency_score": 5.21
+  }
+}

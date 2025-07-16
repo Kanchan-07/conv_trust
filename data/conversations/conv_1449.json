@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately and have a constant headache. Any ideas what might be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I am an AI and cannot provide medical advice. However, based on your symptoms, it's possible you could be experiencing several things, such as stress, dehydration, or even something more serious. It's important to see a doctor. Have you been experiencing any other symptoms?",
+      "response_time": 3.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.55,
+        "integrity": 3.61
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, yeah, I've also been having trouble sleeping and I'm irritable. Ugh, this is so frustrating! What kind of doctor should I see?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Given your symptoms of fatigue, headaches, sleep issues, and irritability, it would be best to start with your primary care physician. They can perform a basic checkup and possibly run some tests, like blood tests, to rule out potential causes, or refer you to a specialist if needed. A neurologist or sleep specialist may also be helpful. Are you taking any medications?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.96,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful. Thanks. Okay, here's a tricky one: Could these symptoms be related to something I ate, maybe a food allergy? And if so, how could I even figure that out?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It is possible. Food allergies and intolerances can sometimes manifest in varied ways, including fatigue and headaches. Determining if this is the case would involve careful observation. You could try keeping a detailed food diary, noting everything you eat and any symptoms you experience, or consult with a doctor about allergy testing. This can help to identify potential trigger foods. Good luck with your health journey!",
+      "response_time": 4.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.62,
+        "integrity": 5.99
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a2dcff46",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.67,
+      "benevolence": 4.38,
+      "integrity": 4.46
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.81,
+    "latency_score": 3.94
+  }
+}

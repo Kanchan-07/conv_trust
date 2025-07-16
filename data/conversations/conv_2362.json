@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to figure out a charge on my bill. It's showing up as 'Premium Service' and I have no idea what that is!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Can you please provide your account number so I can look into this for you?",
+      "response_time": 5.56,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.51,
+        "benevolence": 7.0,
+        "integrity": 6.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 1234567890. Honestly, I'm a bit frustrated. I've been a customer for years and this is the first time I've seen something like this.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've located your account. Let me check on the 'Premium Service' charge. One moment... Okay, it appears this charge is for an add-on service you subscribed to on May 15th. It's a subscription for premium streaming content.",
+      "response_time": 3.19,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.8,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "May 15th? I don't remember signing up for anything like that. Is there any way to tell me exactly when and how I signed up? Like, what device was used, or the IP address?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Unfortunately, that level of detail isn't readily available. Our records only show the date of the subscription. However, I can certainly cancel the subscription for you right away and issue a refund for the current month's charge. Would you like me to do that?",
+      "response_time": 1.47,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.41,
+        "benevolence": 2.33,
+        "integrity": 2.37
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. Cancel it and refund the charge. Thanks for your help, I appreciate it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3ba39bed",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.41,
+      "benevolence": 4.38,
+      "integrity": 4.48
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 4,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.83,
+    "latency_score": 4.09
+  }
+}

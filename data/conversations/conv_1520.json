@@ -1,0 +1,72 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from Chicago to Miami on December 20th and returning on December 27th. Can you help me with that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that. Just to confirm, you want a round trip flight from Chicago (ORD) to Miami (MIA) departing on December 20th and returning on December 27th. Is that correct? Also, are you flexible with the dates, and do you have any preferred airlines or budget in mind?",
+      "response_time": 4.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 3.58,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's all correct. I'd prefer a direct flight if possible. Budget-wise, I'm hoping to spend under $400 per person. There will be two of us flying. I am a little flexible on the return date, maybe the 28th, but definitely not earlier than the 27th. And, is there any way to guarantee that the prices shown won't change by the time I book? I've had that happen before, and it's really frustrating.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Finding a direct flight within your budget for two people is a bit tricky, especially around the holidays. I've found some options that are close, but unfortunately, I cannot guarantee that the prices won't change. Airline prices fluctuate constantly. The best way to secure a price is to book as soon as you're ready. Regarding a price lock, you might consider a third-party travel agency which sometimes offer a price guarantee, but it's not always available. Would you like me to proceed with searching for flights matching your criteria, or would you like me to look for direct flights only for a different budget?",
+      "response_time": 3.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.42,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, let's see what you've got. Search for the flights matching my criteria. I'm ready to book once I find something good.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_19399fa4",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.19,
+      "benevolence": 4.0,
+      "integrity": 3.85
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "neutral": 5
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 3.59
+  }
+}

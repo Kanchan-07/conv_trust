@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so tired and hungry. Any dinner ideas tonight? Nothing too complicated.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Are you in the mood for a specific type of cuisine, like Italian, Mexican, or something else? Or perhaps something quick and easy?",
+      "response_time": 4.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.96,
+        "integrity": 5.86
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, not really sure. Italian sounds okay, but I had pasta yesterday. Maybe something comforting but not *too* heavy? And I need delivery pretty soon, I'm starving!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, comforting but not too heavy, and available for quick delivery. How about exploring some soup and sandwich options, or maybe some lighter Asian dishes? I can show you restaurants near you that fit.",
+      "response_time": 2.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.64,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Soup and a sandwich... that sounds good actually! There's that place 'The Daily Bread' that does great soup. Or maybe a poke bowl? Which one would be faster right now, do you think? The Daily Bread or Sushi Garden down the street?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Both 'The Daily Bread' and 'Sushi Garden' are popular options for delivery. Delivery times can vary greatly based on current order volume and driver availability. While I can't give you a precise minute-by-minute comparison right now, generally, sandwich and soup orders might have slightly faster prep times than sushi or poke bowls which involve more intricate assembly. Would you like me to check their estimated delivery windows in the app?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.14,
+        "integrity": 5.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, I guess that makes sense. It's annoying you can't just *tell* me which is faster! But fine, let's check Daily Bread. Show me their menu please.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, I understand that would be helpful! Checking 'The Daily Bread' menu for you now... Found it! You can browse their soups, sandwiches, and other items here [link/display menu]. Let me know if you see something you like or need help choosing!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.59,
+        "benevolence": 6.58,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yep, okay, the tomato soup and a grilled cheese. Classic comfort. Add that to my order please. And what's the estimated delivery time looking like *now* for that place?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Got it, Tomato Soup and a Grilled Cheese from 'The Daily Bread' added to your cart. Let me quickly check the current estimated delivery time for that order... It's currently showing an estimate of 30-45 minutes. Shall we proceed to checkout?",
+      "response_time": 4.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.16,
+        "integrity": 5.13
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c6af685c",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.42,
+      "benevolence": 5.3,
+      "integrity": 5.65
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 8,
+      "anger": 1
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 3.17
+  }
+}

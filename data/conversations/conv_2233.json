@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday, but it hasn't arrived yet. I'm getting pretty frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I am very sorry to hear that your package has not arrived. I will check on this for you right away. Can you please provide me with your tracking number so I can look into this?",
+      "response_time": 0.58,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.27
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 9876543210. Okay, I see it was last scanned in a city 50 miles away, but why hasn't it been delivered? The tracking information isn't very helpful. What are the chances it's been lost?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that information. I've checked the status of your package, and it appears there may have been a delay due to a logistical issue at the distribution center. It's still within the delivery window, which is actually today. I'm not able to definitively say whether or not it is lost at this time, but I will monitor the status and provide updates. I can set up a notification to let you know if there are further delays, would you like me to do that?",
+      "response_time": 4.61,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.88,
+        "benevolence": 5.07,
+        "integrity": 5.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dc401305",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.44,
+      "benevolence": 3.04,
+      "integrity": 3.17
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 1,
+      "sadness": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.15,
+    "latency_score": 4.9
+  }
+}

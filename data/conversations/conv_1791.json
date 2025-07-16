@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with a medical bill. Can you help me understand it?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly try. To get started, could you provide me with the bill number and the date of service?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.41,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the bill number is ABC12345 and the date of service was July 15th. I'm looking at it, and it says I owe $250, but I thought my insurance was supposed to cover most of that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. I am accessing your insurance information now... It appears there was a coding error on the claim. Let me correct that for you. Please stand by.",
+      "response_time": 0.57,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great! So, what does this mean? Is the $250 still correct?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "After the correction, your patient responsibility should be reduced to $50. The insurance provider should pay the remaining $200. Let me generate a revised bill for you, please confirm the best email address.",
+      "response_time": 0.63,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.45,
+        "benevolence": 1.16,
+        "integrity": 1.4
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's much better. My email is example@email.com. But what if the insurance company still denies the claim? What's my recourse then? I am feeling very frustrated with this whole process!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. If the claim is denied, you have the right to appeal the decision with the insurance company. We can help you prepare the necessary documentation. I can also provide you with the contact information for the insurance company's appeals department and guidance on how to file an appeal.",
+      "response_time": 5.72,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.59,
+        "benevolence": 5.11,
+        "integrity": 5.22
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's good to know. Let's just see what happens with the corrected claim first. Thanks for your help!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9071aa0d",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 3.11,
+      "benevolence": 2.92,
+      "integrity": 2.86
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "joy": 1,
+      "anger": 2
+    },
+    "response_quality_score": 2.61,
+    "latency_score": 4.86
+  }
+}

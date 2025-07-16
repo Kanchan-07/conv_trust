@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm still struggling with this physics problem. It involves calculating the kinetic energy of a rotating object, and I just keep getting the wrong answer.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright, let's break it down. Can you tell me the problem statement and what you've tried so far? This will help me understand where you're getting stuck.",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.57,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so it says: A solid sphere with a mass of 5 kg and a radius of 0.2 m is rotating at 10 rad/s. What is its kinetic energy? I used the formula KE = 1/2 * I * \u03c9^2, where I is the moment of inertia and \u03c9 is the angular velocity. I calculated I as 2/5 * m * r^2, but the final KE is wrong!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Good start! Your formula for kinetic energy and moment of inertia are correct. Can you show me the exact values you plugged in and the answer you obtained?",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.53,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I calculated I = 2/5 * 5 kg * (0.2 m)^2 = 0.08 kg*m^2. Then KE = 1/2 * 0.08 kg*m^2 * (10 rad/s)^2 = 4 Joules. But the textbook says it should be 8 Joules. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I see. Your calculations are perfect. Perhaps there is an error in the textbook? Let's verify by double checking online resources.",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.6,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, one website also confirms it's 4 Joules... but wait... another website is showing the formula as KE = (1/2)*I*omega... so i think 4 joules is still right... but what if the sphere isn't solid? how would that change things?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Good question! If the sphere weren't solid, its mass would be distributed differently. This would affect the moment of inertia, I. Specifically, the moment of inertia for a hollow sphere is different (I = 2/3 * m * r^2). Therefore, the kinetic energy would also change. Does this clarification help?",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 4.23,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, that makes sense! So the distribution of mass really matters. I think I understand it better now. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! I'm glad I could help. Feel free to reach out if you have more questions.",
+      "response_time": 4.21,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.62,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1816bf3b",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.07,
+      "benevolence": 5.19,
+      "integrity": 5.08
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "neutral": 7,
+      "anger": 1,
+      "joy": 2
+    },
+    "response_quality_score": 4.75,
+    "latency_score": 3.92
+  }
+}

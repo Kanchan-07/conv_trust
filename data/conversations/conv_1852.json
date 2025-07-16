@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm applying for a Project Manager role at Acme Corp and my resume feels...lacking. Can you help me improve it?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help with that! To get started, could you please upload your current resume and the job description for the Project Manager role at Acme Corp? I can then analyze them and provide suggestions.",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.35,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded both. I'm a bit worried though because my experience is mostly in Agile methodologies, and the job description emphasizes Waterfall. How can I even address that discrepancy?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question. You'll want to highlight transferable skills. For instance, if you've managed projects in Agile, identify specific tasks and responsibilities that are relevant to Waterfall. Examples include scope management, risk mitigation, and stakeholder communication. Frame your experience to show you understand the core principles of project management, regardless of the methodology. You can also explain your willingness to adapt and learn Waterfall methodologies. Consider mentioning specific tools (like MS Project) you're familiar with or willing to learn, if the job description mentions any.",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.82,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's actually really helpful! Thanks. One last thing: The job description asks for 'proficient' experience with a particular software that I've only used a few times. What would you advise in that scenario... without being dishonest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_201279d7",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.58,
+      "integrity": 4.94
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "fear": 1
+    },
+    "response_quality_score": 4.52,
+    "latency_score": 3.41
+  }
+}

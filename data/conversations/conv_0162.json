@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to repaint my living room, but I'm completely overwhelmed. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Repainting can seem daunting, but it's manageable. First, you'll want to prepare the room. This involves moving furniture, covering floors, and cleaning the walls. Then, you'll need to choose your paint and gather your supplies like brushes, rollers, and painter's tape.",
+      "response_time": 4.28,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.67,
+        "integrity": 5.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what kind of paint should I use? There are so many options - matte, eggshell, satin... it's confusing!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For a living room, eggshell or satin finishes are generally recommended. Eggshell is durable and easy to clean, while satin offers a slightly higher sheen and is also durable. Matte is good for hiding imperfections, but it's not as washable. Consider how much traffic the room gets and how often you anticipate needing to clean the walls.",
+      "response_time": 5.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.72,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, eggshell sounds good. Now, about the walls...they're textured. Do I need to do anything special before painting them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Textured walls can be a bit tricky. You should prime the walls before painting. Use a good quality primer, and consider using a thicker nap roller to get into all the nooks and crannies of the texture.",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.91,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, priming. I was hoping to skip that step. Is it *really* necessary? It's going to add so much time to the project.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While you *could* skip priming, it's highly recommended, especially with textured walls. Primer helps the paint adhere better, provides a more uniform finish, and can prevent the old color from bleeding through. Skipping it might mean you need more coats of paint, ultimately costing you more time and money in the long run.",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.65,
+        "integrity": 5.96
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, alright, you've convinced me. Primer it is. But here's a tough one: My walls have some pretty deep scratches from the previous owners\u2019 cat. What's the best way to fix those before priming?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "For deep scratches, you'll want to use a patching compound, also known as spackle or drywall mud. Apply the compound to the scratches, making sure to fill them completely. Let it dry thoroughly according to the manufacturer's instructions, then sand it smooth to be level with the existing wall surface before priming. For very deep or wide scratches, multiple thin layers of compound are better than one thick layer to prevent cracking. Remember to use a sanding sponge or fine-grit sandpaper to avoid damaging the surrounding texture.",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.63,
+        "integrity": 5.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e3d5e22a",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.37,
+      "benevolence": 5.72,
+      "integrity": 5.58
+    },
+    "engagement_score": 5.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "disgust": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 5.86,
+    "latency_score": 2.86
+  }
+}

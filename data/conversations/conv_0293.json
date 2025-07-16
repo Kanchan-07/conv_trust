@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm dealing with a really frustrating situation. My landlord is trying to evict me, and I think it's completely unjustified. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand this is a stressful situation. To give you the best advice, I need some more information. Could you please tell me why your landlord is trying to evict you, and what state/city do you reside in?",
+      "response_time": 1.33,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.32,
+        "benevolence": 2.09,
+        "integrity": 2.35
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "He says I haven't paid rent, but that's a lie! I have proof of payment for every month. I live in Austin, Texas. Honestly, I'm really worried about this. What are my rights?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "In Texas, a landlord must provide a written notice to vacate at least three days before filing an eviction lawsuit. If you have proof of payment, that's very important. You should gather all your documentation and be prepared to present it in court. Have you received a formal eviction notice?",
+      "response_time": 0.63,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.19,
+        "benevolence": 1.03,
+        "integrity": 1.45
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I did receive a notice. It was slipped under my door last week. So, if I show them my bank statements and copies of the money orders, that should be enough, right? I'm hoping this is just a big misunderstanding.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Providing bank statements and money order receipts is certainly strong evidence. However, the landlord may attempt to argue that the payments were for a different period. Do the receipts clearly indicate which month's rent they cover? If not, you should prepare an affidavit stating that the payments were for the rent in question. Also, it's important to respond to the eviction lawsuit in a timely manner. Failure to do so could result in a default judgment against you.",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.85,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "An affidavit? Okay, now I'm really confused. What exactly is that, and how do I get one? This is getting complicated.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "An affidavit is a written statement confirmed by oath or affirmation, for use as evidence in court. I suggest seeking legal counsel from an attorney in Austin, Texas who can assist you in drafting this document and defend you in court. Would you like me to help you find some local attorneys?",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 3.76,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, please! That would be incredibly helpful. Thank you. I feel a little better knowing I have some options. This whole process has been so stressful.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3026c7a7",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.68,
+      "benevolence": 2.68,
+      "integrity": 2.75
+    },
+    "engagement_score": 5.7,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 5,
+      "fear": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.9,
+    "latency_score": 5.34
+  }
+}

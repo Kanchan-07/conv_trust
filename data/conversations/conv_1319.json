@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need help. I'm trying to stick to a tight grocery budget this month. Can you give me some meal recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me what your weekly grocery budget is, and how many people you're cooking for?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my budget is $75 a week, and I'm cooking for two adults.  This is already stressing me out, by the way!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No worries! Based on that, here's a sample meal plan: \n\n*   **Monday:** Lentil Soup (very affordable!) \n*   **Tuesday:** Chicken stir-fry with rice (buy frozen veggies)\n*   **Wednesday:** Pasta with marinara and salad\n*   **Thursday:** Leftovers\n*   **Friday:** Homemade pizza (use store-brand ingredients)\n*   **Saturday:** Eggs and toast for breakfast/dinner\n*   **Sunday:** Roast Chicken (can be stretched for leftovers)\n\nI can provide specific recipes and shopping lists if you'd like.  How does that sound?",
+      "response_time": 4.76,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.72,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds... okay, I guess.  But how do I know those meals *actually* fit in my budget?  I don't want to end up buying a bunch of ingredients and then realizing I've already blown it.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair point. To be completely accurate, I would need real-time pricing from your local grocery stores, which I don't have access to. However, I can provide a rough estimate. For each meal, I can research average ingredient costs and create a preliminary shopping list to help you get started and see if those meals seem feasible. Would that be helpful?",
+      "response_time": 3.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.46,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that would be fantastic! Let's start with the lentil soup and chicken stir-fry. See what ingredients I'd need and estimate the cost for those.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dbfcdf60",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.74,
+      "benevolence": 6.15,
+      "integrity": 5.83
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "joy": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 6.36,
+    "latency_score": 3.2
+  }
+}

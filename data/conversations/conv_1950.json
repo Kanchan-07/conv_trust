@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel room. I need something near the airport, ideally with a free shuttle.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. What dates are you looking at, and what airport are you flying into?",
+      "response_time": 4.16,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.16,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need a room for the night of October 26th. I'm flying into JFK in New York.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me see... I'm finding several hotels near JFK with free shuttle services. Could you give me a price range you're hoping to stay within? And are there any other amenities you'd prefer, like a pool or complimentary breakfast?",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.21,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, a pool would be nice. And I'd like to keep it under $200 if possible. Actually... wait, what's the difference between a 'complimentary breakfast' and a 'continental breakfast'? Sounds like the same thing to me, and I'm getting confused.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies for any confusion. A 'complimentary breakfast' is a more general term and can include a full hot breakfast, a continental breakfast, or something in between. A 'continental breakfast' usually includes items like pastries, toast, cereal, and juice. Based on your preferences, I have three hotels that fit your criteria: The Hampton Inn JFK, The Courtyard by Marriott JFK, and the Hilton Garden Inn JFK. All offer free shuttle services, a pool, and fall within your budget on the date you specified.",
+      "response_time": 5.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.83,
+        "integrity": 5.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Great! That's exactly what I needed. Thanks for the help. I'll check those out. You were very helpful!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f6510c28",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.91,
+      "benevolence": 5.07,
+      "integrity": 4.66
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 4.67,
+    "latency_score": 2.89
+  }
+}

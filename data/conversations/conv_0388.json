@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a project manager position. I'm feeling pretty nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help you prepare. Let's start with some common interview questions. How would you describe your project management style?",
+      "response_time": 5.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.86,
+        "integrity": 5.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's the kind of question I always stumble on! I guess I'd say I'm collaborative, but also results-oriented? Is that too generic?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good starting point! To make it less generic, try adding specific examples of how you've demonstrated collaboration and achieved results in past projects. Can you think of a project where you successfully collaborated with a difficult team member to meet a tight deadline?",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.38,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But here's a tough one: How do I answer the question, 'Tell me about a time you failed?' without totally tanking my chances? That feels like a trap!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0b16bdef",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.91,
+      "benevolence": 5.12,
+      "integrity": 4.39
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "disgust": 2
+    },
+    "response_quality_score": 4.53,
+    "latency_score": 3.62
+  }
+}

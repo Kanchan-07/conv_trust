@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop, but I'm on a pretty tight budget. I'd like to spend under $700. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of under $700, I can recommend a few options. I'm seeing some great deals on laptops from brands like Acer, ASUS, and HP. Would you be interested in any specific features like screen size, storage capacity, or intended use (e.g., work, gaming)?",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.08,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. I'll mostly be using it for work - documents, spreadsheets, and some light web browsing. I'd really prefer something with a decent-sized screen, maybe at least 14 inches. Storage isn't a huge deal, 256GB SSD would probably be fine. But honestly, the options feel overwhelming, and I'm not sure where to start. Can you narrow it down a bit, maybe show me a few specific models?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely! Based on your needs and budget, I would recommend looking at the Acer Aspire 5 (14-inch, 256GB SSD) or the ASUS Vivobook 14 (also with similar specs). Both usually fall within your price range. However, the exact price can fluctuate. To give you the most accurate current recommendations, I would need to know your preferred retailer or location. Also, what if the price of the recommended models goes above the budget due to tax or shipping? How would you like me to address this?",
+      "response_time": 4.26,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.81,
+        "benevolence": 6.95,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's a good point about the price. Let's assume I'm in the US and prefer to buy from Amazon. And if the prices slightly go over my $700 limit due to taxes or a small shipping fee, that's fine. But ideally, keep the before-tax cost under $700. I'm hoping for a good deal overall, I'm starting to get pretty frustrated with my current clunky old laptop! So, what actual models would you suggest, taking Amazon prices into account?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2d2dee53",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.11,
+      "benevolence": 6.02,
+      "integrity": 6.04
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 6.41,
+    "latency_score": 3.73
+  }
+}

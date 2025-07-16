@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from New York to London for sometime next month. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can! What dates are you looking at, and are you flexible? Also, how many passengers will be traveling?",
+      "response_time": 4.57,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.98,
+        "benevolence": 7.0,
+        "integrity": 6.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need to fly out on the 15th of next month, and return on the 22nd. Just for one person. And I'm not really flexible, those dates are pretty important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. I'm searching for flights from New York (JFK, LGA, or EWR?) to London (LHR, LGW, or STN?) departing on the 15th and returning on the 22nd for one adult. Just one moment... Alright, I'm seeing a range of options. The cheapest seems to be a flight on Norwegian Air, but that's going into Gatwick (LGW). Would you like to see details of that, or would you prefer to stick to Heathrow (LHR)?",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.04,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Norwegian Air? Ugh, I've heard mixed things. And Gatwick is further away from the city center, right? Okay, show me the Heathrow options first. And, uh, tell me what the layover situation is like. I really don't want a super long one.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, looking at flights into Heathrow. The best options are: British Airways (direct, $850), Virgin Atlantic (direct, $900), and a United flight with a layover in Dublin (one hour layover, $700). However, keep in mind, flight prices change rapidly. Should I book one of these, or would you like to see other options? Also, could you explain why prices have gone up so drastically since last week when I checked?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.88,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, the United one is tempting, but I'd prefer a direct flight to avoid the layover hassle. British Airways at $850 sounds good. Book that one, please. And... what about baggage allowance? And can I select my seat?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright, booking the British Airways flight for you! That includes one free checked bag. Seat selection is available, and I can guide you through that process after the booking is confirmed. Should I go ahead with the booking, or would you like me to find out more about seat selection options first?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.28,
+        "benevolence": 5.08,
+        "integrity": 5.94
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fd37923f",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.11,
+      "benevolence": 5.0,
+      "integrity": 5.31
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 5.3,
+    "latency_score": 3.87
+  }
+}

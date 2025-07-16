@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, this smart toaster oven is driving me crazy! It keeps burning my toast, even when I set it to the lightest setting. I've only had it for two months!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm sorry you're having trouble with your smart toaster oven. To help me troubleshoot, could you please provide the model number? It's usually located on a sticker on the back or bottom of the unit.",
+      "response_time": 1.7,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.25,
+        "benevolence": 2.97,
+        "integrity": 2.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's Model TO-5000. Also, I've tried resetting it to factory settings like the manual said, but it didn't change anything. Is there some kind of known issue with the heating element or something? Seems like it's way too powerful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for that information. While there isn't a widespread known issue with the heating element in the TO-5000, we can definitely look into this further. I'd recommend trying to use the 'Bagel' setting and see if that provides a better toasting level while we look for other solutions. Would you be open to sending us a short video of the settings you're using and the result so our engineers can better understand what's happening?",
+      "response_time": 4.84,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.07,
+        "integrity": 5.33
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d65e32b1",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.95,
+      "benevolence": 4.02,
+      "integrity": 3.81
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "disgust": 1,
+      "sadness": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.93,
+    "latency_score": 4.23
+  }
+}

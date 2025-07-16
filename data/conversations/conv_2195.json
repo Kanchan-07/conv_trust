@@ -1,0 +1,134 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need help. I'm trying to stick to a $75 budget for groceries this week. Can you give me some meal ideas and a shopping list?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To best assist you, what meals do you typically enjoy? Are there any dietary restrictions or preferences I should be aware of (e.g., vegetarian, gluten-free)? Also, what types of stores do you usually shop at (e.g., Aldi, Whole Foods, etc.)?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.62,
+        "benevolence": 7.0,
+        "integrity": 6.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I like pretty much everything, but I'm trying to eat healthier. I'm not vegetarian or anything. I usually go to Kroger, but sometimes Trader Joe's if I'm feeling fancy. And I absolutely hate cooking, so the easier the better!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Based on that, here's a sample meal plan for the week focusing on Kroger and easy-to-prepare meals, aiming for under $75:\n\n*   **Monday:** Chicken Stir-fry with frozen veggies and pre-cooked rice.\n*   **Tuesday:** Lentil Soup (canned or pre-made, plus some crusty bread).\n*   **Wednesday:** Tacos (ground beef, taco seasoning, hard or soft shells, lettuce, tomato).\n*   **Thursday:** Leftovers.\n*   **Friday:** Pizza night (frozen pizza or make your own with store-bought dough - budget friendly).\n\nI can generate a detailed shopping list if you'd like, including estimated prices based on Kroger's usual prices.",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.69,
+        "integrity": 4.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that all sounds pretty good. But how do you know what things cost at Kroger? And how are you estimating the prices? I feel like grocery prices are changing all the time!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are absolutely right! Grocery prices fluctuate. I use a combination of sources. I have access to some historical price data from grocery stores, general market trends, and I will cross-reference that with publicly available price information. I can also check the Kroger website for current prices of common items. Keep in mind that prices can still vary slightly depending on your specific location and store sales. Can I proceed with a shopping list based on this estimated pricing?",
+      "response_time": 5.51,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.97,
+        "benevolence": 6.95,
+        "integrity": 6.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, fine, give it a shot. But if I go over budget, I'm blaming you! Also, could you make the taco night a little more exciting? Maybe add some guac?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Understood. I will do my best! Here's a revised shopping list, with estimated prices, adding guacamole ingredients and a few minor adjustments. \n\n(Lists ingredients and estimated prices for each item) \n\nThis list keeps you within the $75 budget (before taxes). Note: prices are estimates and can vary. Do you want to add anything else?",
+      "response_time": 5.42,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.75,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wait... are you *sure* this will be under $75? This seems like a lot of food! I'm skeptical. And I don't see any snacks on the list. I always need snacks.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You are right to be skeptical, it's always wise to double-check! I've adjusted the list to include some budget-friendly snack options like apples, bananas, and a bag of tortilla chips. I've also slightly reduced the quantities of some items to account for the snacks and to ensure we stay under your budget. I would highly recommend checking prices in-store for the most accurate results.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.7,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1bf0aa2f",
+    "average_trust_score": 6.4,
+    "trust_category_averages": {
+      "competence": 6.28,
+      "benevolence": 6.22,
+      "integrity": 6.28
+    },
+    "engagement_score": 6.03,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "joy": 1,
+      "surprise": 1,
+      "anger": 1,
+      "fear": 1
+    },
+    "response_quality_score": 6.04,
+    "latency_score": 2.46
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally tackling that bathroom remodel. I'm ripping out the old tile and want to put in some new stuff. But I'm so overwhelmed by the options! Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Remodeling can be daunting! To help me narrow down the suggestions, could you tell me a bit about your style preferences? Are you leaning towards modern, traditional, or something else entirely? Also, what's your budget for the tile itself?",
+      "response_time": 2.31,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.69,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I guess I'd say modern, but not too cold. And I'm hoping to spend no more than $8 per square foot. Is that even realistic?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, $8 per square foot is definitely achievable! You'll find plenty of ceramic and some porcelain options in that range. Consider looking at subway tile, which is a classic modern choice, or potentially some larger format tiles to minimize grout lines. Home Depot and Lowe's have good online catalogs you can browse to get an idea. Would you like links to those sites?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.22,
+        "benevolence": 5.61,
+        "integrity": 5.66
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Sure, links would be great. But here's my bigger worry: I've watched a few videos, and laying the tile looks *really* hard, especially around the toilet. Is it actually as difficult as it seems, or am I just psyching myself out?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Laying tile can be tricky, especially for beginners. Cutting tiles accurately, maintaining consistent grout lines, and ensuring a level surface are all challenges. The area around the toilet is particularly difficult due to the curved shape. Here are some links to Home Depot and Lowe's. [Links to Home Depot and Lowe's]",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.62,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks for the links. But seriously, if I mess up laying the tile and it's uneven, can I just... rip it up and start over? Or am I going to ruin my subfloor?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, you can usually remove incorrectly laid tiles, but it requires some care. Use a grout saw to carefully remove the grout around the problem tiles, then use a chisel and hammer to gently pry them up. You'll likely need to scrape off any remaining thin-set mortar from the subfloor. In most cases, removing the tile won't damage the subfloor if done carefully. However, excessive force could cause damage, so proceed slowly and cautiously. If you are working with drywall or plaster walls, you should score a line into the wall with a utility knife along the edge of the tile to ensure you don't tear off paper facing when removing the tile. If you are truly unsure, you may want to call a professional. ",
+      "response_time": 5.91,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.58,
+        "integrity": 5.2
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_112d9127",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.75,
+      "benevolence": 4.62,
+      "integrity": 4.63
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 3,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 3.57
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help finding a new laptop. Mine is getting really slow.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you find a new laptop. To get started, could you tell me what you typically use your laptop for? (e.g., work, school, gaming, general browsing, video editing) and what your approximate budget is?",
+      "response_time": 5.01,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly just general stuff, like browsing, email, streaming videos, maybe some light office work. Nothing too heavy. My budget is ideally under $700. I'm kind of frustrated with how slow my current one is, so I really want something reliable that won't lag.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, reliability and speed within a $700 budget for general use are key. Based on that, here are a few models that often receive good reviews for performance and value in that price range: [Lists 2-3 popular mid-range models, perhaps one that is just slightly over budget or has a specific limitation not mentioned by user]. These typically offer a good balance of processing power and RAM for everyday tasks.",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 4.29,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, thanks. The [mention one of the recommended models, e.g., Dell Inspiron] looks okay, but I'm seeing some reviews that mention the battery life isn't great. Also, how does the system actually *know* what's 'reliable' or 'good value'? Are these just the most popular ones, or is there something more specific it looks at? I'm a bit confused why that one with bad battery life was recommended when I mentioned frustration with my current slow one.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair point about the battery life reviews for the [mention specific model]. My recommendations are based on a combination of factors including sales data, overall performance benchmarks for typical tasks, user ratings, and current pricing relative to specifications. While I strive to factor in all details like battery life, the system primarily weights performance and user satisfaction scores within your budget and stated use case. Let me refine the list further, prioritizing models with better reported battery life based on user feedback.",
+      "response_time": 2.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 4.27,
+        "integrity": 3.63
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c216ac56",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.0,
+      "benevolence": 5.19,
+      "integrity": 4.91
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 5.37,
+    "latency_score": 3.64
+  }
+}

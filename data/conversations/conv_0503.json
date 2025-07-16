@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into indie rock lately. Got any good recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! If you like indie rock, I'd suggest checking out bands like The Strokes, Arctic Monkeys, and Tame Impala. Are you looking for something similar to a specific band within that genre?",
+      "response_time": 4.37,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.1,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I like Tame Impala, but I'm looking for something a bit less psychedelic. Something with more energy, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Have you listened to Foals or Two Door Cinema Club? They both have pretty energetic indie rock sounds.",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.98,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Two Door Cinema Club, yeah, I know them. Not quite what I had in mind. This is harder than I thought! What about something a little more obscure, maybe a band that's up-and-coming?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see. How about 'Wet Leg'? They've been gaining popularity recently and fit that indie rock vibe. Or maybe 'Lime Garden'? I'm still learning about newer bands though, so let me know what you think.",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 4.35,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll check those out. So, out of curiosity, how do you actually *find* these lesser-known bands? Are you just searching blogs or something? I'm always curious about how AI works behind the scenes.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! I utilize a few methods. I analyze music databases, track mentions on music blogs and social media, and use algorithms that identify musical similarities to bands you already like. It's a combination of data analysis and pattern recognition, constantly being updated with new information.",
+      "response_time": 5.53,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.88,
+        "benevolence": 6.94,
+        "integrity": 6.79
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6886d153",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.23,
+      "benevolence": 5.09,
+      "integrity": 4.98
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 6,
+      "surprise": 1
+    },
+    "response_quality_score": 5.21,
+    "latency_score": 3.37
+  }
+}

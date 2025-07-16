@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having these really annoying headaches for the past few weeks. They're mostly in the afternoon and feel like a tight band around my head. Any ideas what could be causing them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you've been experiencing headaches. Based on your description, it sounds like you might be experiencing tension headaches. Common causes include stress, poor posture, dehydration, and eye strain. However, I am an AI and cannot provide medical diagnoses. It's always best to consult with a healthcare professional for accurate diagnosis and treatment.",
+      "response_time": 1.82,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.11,
+        "benevolence": 2.03,
+        "integrity": 2.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I figured as much. But are there any simple things I can try at home *before* I go to the doctor? I really hate going to the doctor for something that might just be a minor thing.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. You could try over-the-counter pain relievers like ibuprofen or acetaminophen, but be sure to follow the dosage instructions carefully. Additionally, practicing relaxation techniques such as deep breathing or meditation, ensuring you're adequately hydrated, and taking breaks from screen time can sometimes alleviate tension headaches. Applying a warm compress to your forehead or neck might also provide relief.",
+      "response_time": 5.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.61,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, I've tried the pain relievers, they help a little, but the headaches keep coming back. This is so frustrating! I heard something about certain foods triggering headaches. Is that a real thing, and if so, which foods should I avoid? I have a pretty varied diet.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, some foods can indeed trigger headaches in susceptible individuals. Common culprits include aged cheeses, processed meats containing nitrates/nitrites, chocolate, caffeine (both withdrawal and excess), and alcoholic beverages, especially red wine. It might be helpful to keep a food diary to track what you eat and when your headaches occur to see if you can identify any patterns. I can also search the internet for more information on headache triggers if you would like me to.",
+      "response_time": 2.99,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.25,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But if it's not one of those common triggers, how can I possibly figure out what's causing *my* headaches? Is there some kind of test or something a doctor can do to pinpoint the exact food causing them, or is it just guesswork?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c81e879",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.7,
+      "benevolence": 3.96,
+      "integrity": 4.12
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 3.81,
+    "latency_score": 4.08
+  }
+}

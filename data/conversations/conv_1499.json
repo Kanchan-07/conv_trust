@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from New York to London for next month. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help you with that. To get started, could you please provide me with the exact dates you'd like to travel and the number of passengers?",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.87,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need to fly out on the 15th of next month and return on the 22nd. There will be two adults and one child (age 5).",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for flights from New York to London departing on the 15th and returning on the 22nd of next month, for two adults and one child. Please give me a moment to find the best options... Okay, I've found a few options. The cheapest one is with United Airlines, but it has a layover. There is a direct flight with British Airways for a bit more.  Do you prefer the direct flight?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.52,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, a layover is the worst!  What's the price difference between the direct flight and the cheapest one, and how long is the layover?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The direct flight with British Airways is $850 per person, so $2550 total, including taxes and fees. The layover flight is $600 per person, or $1800 total. The layover is for 4 hours in Chicago. Please note that prices can change rapidly, so I recommend securing your flights soon.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.61,
+        "integrity": 5.57
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, that's a big price difference. Okay, I'm leaning towards the direct flight. But, the British Airways website is terrible. Can you book the direct flight for me, and can you guarantee that the seats will be together? My child is only 5, so we need to be sure.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, I cannot guarantee the seats, but I can request that the airline seat the family together. Unfortunately, I'm not able to book flights directly. However, I can provide a link to the British Airways website with the correct flight details pre-filled, making booking much easier. Would you like me to do that?",
+      "response_time": 1.89,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.16,
+        "integrity": 2.16
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_298a5b4d",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.31,
+      "benevolence": 4.29,
+      "integrity": 4.43
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "fear": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 4.14,
+    "latency_score": 4.25
+  }
+}

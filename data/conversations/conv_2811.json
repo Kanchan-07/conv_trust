@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated with my resume. It feels like it's not getting me any interviews, and I don't even know where to start fixing it. Can you help me review it and maybe suggest improvements?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely, I can help you with that. It's common to feel that way. To start, could you share your current resume? We can go through it section by section, focusing on clarity, impact, and tailoring it to the types of jobs you're applying for. We can also discuss effective summary statements and bullet point structures.",
+      "response_time": 5.11,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'll upload it now. *user uploads file* Alright, it's there. My main problem is how to describe my past jobs, especially the ones that weren't a perfect match for what I want now. How do I make *that* experience sound relevant and impactful without sounding like I'm making things up? It's confusing!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see the file. Thank you. Describing past roles strategically is key. Focus on transferable skills that are relevant to your target roles, such as project management, communication, problem-solving, or specific software proficiencies. Frame your bullet points around achievements and responsibilities that demonstrate these skills, using action verbs. We can identify which skills from your history align best with the jobs you're interested in.",
+      "response_time": 5.39,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 6.64,
+        "integrity": 6.86
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a18b5a5a",
+    "average_trust_score": 7.0,
+    "trust_category_averages": {
+      "competence": 6.97,
+      "benevolence": 6.82,
+      "integrity": 6.79
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 7,
+    "latency_score": 2.25
+  }
+}

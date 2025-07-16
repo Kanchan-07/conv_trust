@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some career advice. I'm feeling pretty lost about what I want to do.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To start, could you tell me a little bit about your current situation? What kind of work have you done before, what are your interests, and what are your goals?",
+      "response_time": 5.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.41,
+        "integrity": 5.61
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I have a degree in history, but I haven't been able to find a job in that field. I've been working retail for the last few years, which I don't exactly *hate*, but it's not fulfilling. Honestly, I don't even know what my goals are anymore. Everything seems so complicated.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel that way. Given your background and current experience, have you considered roles that utilize your historical knowledge, such as research, archiving, or museum work? Also, have you thought about exploring related fields like education or journalism?",
+      "response_time": 2.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.72,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've looked into those, but they all seem to require more experience than I have, or they don't pay very well. How can I realistically transition into a well-paying career without going back to school for another degree? That seems impossible!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair point. Without a specific degree, it can be challenging. However, consider looking into apprenticeships, certifications, or even online courses to boost your skills. Networking is key, too; connecting with people in the industries you're interested in can open doors. It will likely take some effort to start, but focusing on skill development will likely be the most effective approach.",
+      "response_time": 2.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.22,
+        "integrity": 4.28
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_92ad6dc9",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.22,
+      "benevolence": 4.45,
+      "integrity": 4.68
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3,
+      "surprise": 1
+    },
+    "response_quality_score": 4.65,
+    "latency_score": 3.83
+  }
+}

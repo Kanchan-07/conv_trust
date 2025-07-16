@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to book a restaurant for dinner tonight. Somewhere Italian, preferably not too expensive.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Do you have a preferred location or any specific price range in mind?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 3.56,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Uhm, near downtown would be great. And when I say not too expensive, I mean like, under $30 a person?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, let me see... I found 'Bella Notte Trattoria' downtown. They have great reviews and their average price is around $25 per person. Would you like me to check availability for tonight?",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.5,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! For 4 people, around 7:30 PM. Also, do they have any vegan options? My friend is vegan and it's always a hassle to find something suitable.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I'm checking availability for Bella Notte Trattoria for 4 people at 7:30 PM. As for vegan options, I don't have that specific menu information readily available. However, many Italian restaurants offer pasta primavera or other vegetable-based dishes. You might want to call them directly to confirm. I do see a 7:30 slot available, shall I book it for you?",
+      "response_time": 3.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.2,
+        "integrity": 4.17
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8d34a966",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 3.75,
+      "integrity": 4.03
+    },
+    "engagement_score": 4.24,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 4.21,
+    "latency_score": 4.24
+  }
+}

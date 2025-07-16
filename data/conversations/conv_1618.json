@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hello, my SmartFridge is acting up. The ice maker isn't working, and the temperature inside seems off.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear that you're experiencing issues with your SmartFridge. Let's troubleshoot this. Can you please provide the model number of your fridge? You can usually find this on a sticker inside the refrigerator compartment or on the side of the door.",
+      "response_time": 0.54,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's model number SF7000. I looked, and it seems the temperature in the fridge is fluctuating a lot more than usual, and the freezer is way too cold. I've tried turning it off and on again, but nothing has changed.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. For the ice maker issue, have you checked if the water line is properly connected and not frozen? Also, please confirm the current temperature settings for both the refrigerator and freezer compartments. As for the temperature fluctuations, this can be caused by several factors, including a faulty thermostat or a problem with the compressor. Let's try some simple troubleshooting first. Have you checked for error codes on the fridge's display panel?",
+      "response_time": 4.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.62,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I did check the water line, and it doesn't seem frozen. The display doesn't show any error codes, which is frustrating. The fridge is set to 37 degrees Fahrenheit, and the freezer is set to 0 degrees, but it feels much colder than that, especially the freezer. Is there any way to remotely reset it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Unfortunately, there isn't a remote reset function for this model. However, please try this: Unplug the refrigerator from the power outlet for at least 30 minutes. This will perform a hard reset of the internal systems. After 30 minutes, plug it back in and monitor the temperature over the next few hours. If the problem persists, it could indicate a hardware issue.",
+      "response_time": 2.22,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.92,
+        "benevolence": 2.94,
+        "integrity": 2.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I've unplugged it. This is a real pain, though. If it's a hardware issue, what's the typical repair process, and how much would it cost? This is my first time with this brand, and I'm worried about getting scammed.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "If the issue persists after the hard reset, it will likely require a service visit. Please contact our customer support line directly for a quote as prices can vary based on the specific part and labor costs in your area. We'll need to schedule a technician to diagnose the problem. The cost of repair depends on the parts and labor needed, but we will provide an estimate before any work is done. We want to assure you that we aim to provide transparent and fair pricing. Please call 1-800-SMARTFRIDGE to schedule a visit, and we'll get you sorted!",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.23,
+        "integrity": 4.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9c88af44",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.24,
+      "benevolence": 3.45,
+      "integrity": 3.38
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "fear": 1
+    },
+    "response_quality_score": 3.44,
+    "latency_score": 4.7
+  }
+}

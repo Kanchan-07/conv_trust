@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some product recommendations. Can you help me find a new coffee maker?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help you with that. Coffee makers come in many types. Are you interested in a drip coffee maker, espresso machine, French press, or something else?",
+      "response_time": 5.4,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.87,
+        "integrity": 6.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm open to suggestions. Mostly looking for something easy to use and makes a decent cup. Maybe a drip machine or a pod system? I'm not an espresso snob.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for ease of use and a decent cup, both drip and pod systems are popular choices. Pod systems are very convenient for single servings. For drip, you get more control over quantity. What's your budget like?",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 4.36,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Budget is flexible, but I don't want to spend a fortune. Let's say under $150? But honestly, I'm feeling a bit overwhelmed by all the options. It's frustrating trying to figure out what's actually good.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand, it can be overwhelming. Let's narrow it down. For under $150, here are a couple of well-regarded drip coffee makers known for reliability: the Cuisinart DCC-3200 (about $100) and the Bonavita Connoisseur (about $140). For pod systems, the Keurig K-Classic (around $90) is a popular choice for simplicity.",
+      "response_time": 2.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.01,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those sound like solid options. But why *those* specific models? What makes them 'well-regarded'? And can you tell me which one brews the *hottest* coffee? My old one was always lukewarm, which drove me crazy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Those models are frequently recommended for their balance of price, durability, and consistent performance based on user reviews and expert testing. Regarding temperature, achieving an optimal brewing temperature between 195\u00b0F and 205\u00b0F is key for flavor extraction. The Bonavita Connoisseur is specifically designed to maintain a consistent brewing temperature within this range throughout the brew cycle, often resulting in a hotter cup compared to more basic models. The Cuisinart and Keurig models also brew hot coffee, but the Bonavita is often cited for its temperature control.",
+      "response_time": 4.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.84,
+        "integrity": 5.96
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ah, okay, the temperature control is a key point for me. That Bonavita one sounds promising. Is there anything similar to the Bonavita but maybe slightly cheaper, or another brand known for hot coffee?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Searching for similar options known for hot brewing under $150... Another model often praised for its temperature is the Technivorm Moccamaster, but that's usually well above your budget. Within the under $150 range focused on temperature, the Bonavita Connoisseur is often considered a top pick. Alternatively, some users find adding a simple mug warmer helps keep their coffee hot after brewing with other machines. Would you like me to find more options in the drip category or explore pod systems further?",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 4.4,
+        "integrity": 3.94
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d03b6845",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.94,
+      "benevolence": 5.1,
+      "integrity": 4.9
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "neutral": 9,
+      "surprise": 1
+    },
+    "response_quality_score": 5.03,
+    "latency_score": 3.56
+  }
+}

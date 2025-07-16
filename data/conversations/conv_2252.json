@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey AI, I'm trying to install a new light fixture in my kitchen, but I'm completely lost. Any tips?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Installing a light fixture can be tricky, but I can guide you through it. First, make sure you turn off the power to the circuit at the breaker box. Then, can you tell me what kind of light fixture you have and if you have any experience with electrical wiring?",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.69,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I already turned the power off. I think. I *think* I know which breaker it is. It's a basic pendant light, and I've never done anything like this before.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, since you're new to this, safety first! Double-check the power is off by using a non-contact voltage tester on the wires in the ceiling. Once you've done that, you can proceed with the following steps: disconnect the old fixture (after taking a photo of the wiring!), connect the new fixture's wires to the existing wires using wire connectors (usually twist-on caps), and then mount the fixture to the ceiling.  Does that sound clear so far?",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 3.89,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The photo of the wiring is a good idea! Ok, I get most of that. What if the new fixture has different colored wires than the old one? The old one was pretty old...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Generally, black or brown wires are hot (power), white or gray are neutral, and green or bare copper are ground. Match the colors accordingly: black to black, white to white, and ground to ground. If the new fixture has a different wiring configuration or if you are unsure, it's best to consult with a qualified electrician. We would not want to give out unsafe electrical advice.",
+      "response_time": 5.16,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.69,
+        "integrity": 5.26
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ok, that makes sense. I'm feeling a little more confident now, thanks! What if the wires in the ceiling are all the same color? I'm pretty sure I've seen that before.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Hmm, that's an unusual situation but not unheard of, it depends on the age of the wiring. If the wires are all the same color, and you cannot tell which is the hot (power) wire, you'll need to use a multimeter to test the wires. Set the multimeter to AC voltage and touch the probes to each wire in turn. The hot wire will show a voltage reading, while the neutral wire will not (when the breaker is on). Be very careful doing this. It might be best to call an electrician at this point.",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.22,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I think I'll just call an electrician then. Thanks for the help, though! I appreciate the guidance. I feel better prepared for the call now.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Glad I could help a little. Better safe than sorry when it comes to electrical work. Good luck with the light fixture, and have a great day!",
+      "response_time": 4.84,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 6.9,
+        "integrity": 6.8
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_34e5a187",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.04,
+      "benevolence": 5.28,
+      "integrity": 5.21
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "joy": 3
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 3.73
+  }
+}

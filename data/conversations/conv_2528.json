@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I just checked my checking account and there's a withdrawal labeled 'ONLINE TRANSFER' for $350 that I don't remember making. I'm really confused and a little worried. Can you tell me where that transfer went?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can assist you with looking into that transaction. To ensure your security, I can only provide limited details via this chat. The 'ONLINE TRANSFER' label typically indicates a transfer initiated from your online banking or mobile app. Could you please confirm the date of this specific transfer you are concerned about?",
+      "response_time": 4.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.58,
+        "integrity": 5.43
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the date was yesterday, November 20th. But that doesn't really help me! I *know* it's an online transfer, that's what the label says! What I need to know is *which* account it went to. Was it one of my own accounts, or did it go somewhere else? I'm starting to get really frustrated if you can't tell me that much.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the date. I apologize for the confusion. While I cannot disclose the destination account number directly in this chat for security reasons, I can tell you whether the transfer was to an internal account you own, or to an external account. I can also see if it was a scheduled transfer. Based on the transaction details for November 20th, this $350 transfer was indeed sent to an external account you have previously linked. You can view the last few digits of the destination account and institution name by logging into your online banking portal and reviewing the detailed transaction history for that specific entry. If you still don't recognize it or suspect unauthorized activity, you can contact our fraud department immediately.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.49,
+        "benevolence": 1.2,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_61bd332a",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.46,
+      "benevolence": 3.39,
+      "integrity": 3.21
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 2.77,
+    "latency_score": 4.92
+  }
+}

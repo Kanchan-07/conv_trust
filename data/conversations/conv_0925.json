@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I've been trying to get this medical bill processed for weeks. The Explanation of Benefits (EOB) doesn't make any sense. Can you help me understand what I'm actually supposed to owe?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely help with that. Please provide me with the patient's name, date of birth, insurance information, and the account number or reference number from the bill. Once I have that, I can access the details and explain the EOB to you.",
+      "response_time": 5.22,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 6.0,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here it is: Patient name is Jane Doe, DOB is 01/15/1988. Insurance is Blue Cross Blue Shield, policy number is XYZ12345. The account number on the bill is 987654321.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, I am retrieving that information now. ... Okay, I see the bill for Jane Doe. According to the EOB, the initial charge was $500 for the office visit. Your insurance covered $350, and $50 was applied to your deductible. This leaves a patient responsibility of $100. Does that make sense?",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.59,
+        "benevolence": 3.96,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's... somewhat clearer. But why was so much applied to the deductible? My deductible is supposed to be $250, and I haven't had any other medical expenses this year, as far as I know.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question. It's possible there was a previous claim applied towards your deductible that hasn't reflected accurately on your record yet. Or the deductible amount we have on file might be incorrect. Could you please double check with your insurance provider, Blue Cross Blue Shield, to confirm your remaining deductible balance? Their contact number is usually on the back of your insurance card.",
+      "response_time": 2.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.78,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, fine. I guess I'll call them. Thanks for at least pointing me in the right direction. I appreciate you explaining what the initial bill covered. At least I know *that* part is right now.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b2236312",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.17,
+      "benevolence": 4.58,
+      "integrity": 4.61
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 4.12,
+    "latency_score": 3.54
+  }
+}

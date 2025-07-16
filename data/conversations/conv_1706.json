@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview next week for a software engineering role at Google. I'm super nervous! Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help with that. We can focus on several key areas: common interview questions, technical concepts relevant to software engineering, and behavioral questions. To start, what aspects are you most concerned about?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.86,
+        "benevolence": 7.0,
+        "integrity": 6.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, I'm terrible at the 'tell me about a time when...' questions. I always freeze up! Any tips on how to structure my answers for those behavioral questions, and maybe some examples?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, of course. The STAR method (Situation, Task, Action, Result) is a widely used framework. For example: 'Tell me about a time you failed.'\n\n**S**ituation: Describe the context of the failure.\n**T**ask: What was your objective?\n**A**ction: What did you do?\n**R**esult: What was the outcome, and what did you learn?\n\n*User Question*: How can you handle if the interviewer changes the questions in middle of your answer?\n\nIt also is helpful to rehearse this method in advance by writing examples for each job requirement that are related with experience",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.07,
+        "benevolence": 3.94,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's... helpful, I think. The STAR method I've seen before, but I'm still not sure how to make my answers sound compelling and not just like I'm reciting a formula. The interviewer seems to be trying to gauge my teamwork and other soft skills. Any advice on that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_af867f23",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.46,
+      "benevolence": 5.47,
+      "integrity": 5.36
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 5.29,
+    "latency_score": 2.88
+  }
+}

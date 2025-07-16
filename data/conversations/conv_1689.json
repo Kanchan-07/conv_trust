@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving. Can you recommend a good place to order food from? Something quick and easy, preferably.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me your location? Also, what kind of food are you in the mood for?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.26,
+        "integrity": 5.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm at 123 Main Street, Anytown. I'm open to anything, but maybe not sushi. I'm feeling something\u2026comforting. Like, maybe pizza or burgers, I guess.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on your location and preferences, I recommend 'Burger Bliss' and 'Pizza Palace'. Burger Bliss has great reviews for their gourmet burgers, and Pizza Palace offers a wide variety of pizzas with fast delivery.  Would you like me to pull up their menus and estimated delivery times?",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.13,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Pizza Palace, huh? Their reviews seem mixed. Are there any other pizza places nearby with consistently good reviews? I'm a bit hesitant after my last pizza experience...",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see... Searching for pizza restaurants near you with excellent reviews. Hmm... Okay, it looks like 'Tony's Pizzeria' also delivers to your location. They have a 4.8-star rating on most platforms and are known for their classic, authentic Italian pizzas. However, I don't see any open reviews currently. Should I include them in your search?",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.81,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, Tony's Pizzeria sounds good. But here's a tricky question: Can you tell me if their pizzas are made with high-fructose corn syrup? I have an allergy.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand. While I don't have that specific ingredient information available for Tony's Pizzeria at the moment, I can suggest contacting them directly to inquire about their ingredients. I can provide you with their phone number, or you could also try looking on their website if they have one. Would you like me to do that?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.73,
+        "integrity": 4.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2b46df44",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.52,
+      "benevolence": 4.23,
+      "integrity": 4.64
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.62,
+    "latency_score": 3.79
+  }
+}

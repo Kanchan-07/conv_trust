@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a doctor's appointment for myself.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I can assist with that. Could you please provide your full name and date of birth so I can access your profile?",
+      "response_time": 4.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.14,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my name is Sarah Johnson, and my date of birth is 05/15/1988.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Sarah. I have located your profile. What is the reason for your visit today, and do you have a specific doctor or specialty you need to see?",
+      "response_time": 5.32,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.94,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's for a follow-up on some blood work. I need to see Dr. Adams, my primary care physician. This is getting a bit tedious, can't your system just know I usually see him?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience, Sarah. While I can see your previous appointments, confirming your preferred doctor each time helps ensure accuracy, especially if you might need to see a specialist for this issue. Thank you for confirming Dr. Adams. Searching for available appointments with Dr. Adams... I see he has openings on Tuesday, November 12th at 11:00 AM and Thursday, November 14th at 3:30 PM. Do either of these work for you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.79,
+        "benevolence": 6.7,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, neither of those times are great. Why isn't there anything available next week? I thought follow-ups were supposed to be quick.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern, Sarah. Dr. Adams' schedule is quite full, and availability depends on cancellations and pre-booked appointments. I have only listed the standard openings I see in the system for the next two weeks. I cannot provide specific reasons why certain days are booked.",
+      "response_time": 3.0,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.34,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's frustrating. Fine, I guess I'll take the Tuesday, November 12th at 11:00 AM one then. Please book that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9419fe16",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.83,
+      "benevolence": 5.78,
+      "integrity": 5.79
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "fear": 1
+    },
+    "response_quality_score": 5.47,
+    "latency_score": 2.83
+  }
+}

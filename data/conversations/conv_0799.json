@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! Claim #487291 was denied again. The reason code is CO-45, 'Charges exceed our fee schedule.' But we're billing the contracted rate! What's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. CO-45 indicates the billed amount is higher than the allowed amount per the payer's fee schedule. To investigate claim #487291, can you please confirm the date of service and the CPT code billed?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.05
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, the date of service was 2024-03-15 and the CPT code was 99214. We billed $120, which is exactly what our contract says we should bill. Is there any chance the contract isn't loaded correctly in their system? This has happened before with this payer. Actually, how often does your system flag contract issues, and what kind of error rate do you typically see?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I have reviewed claim #487291 for date of service 2024-03-15, CPT 99214. According to our records, the expected contracted rate for this provider for that service is indeed $120. It is possible that there is a discrepancy in the payer's system. My sincere apologies, but I don't have specific data regarding the frequency of contract loading errors or overall error rates. I can escalate this claim for manual review and include a note to investigate potential contract discrepancies with the payer. Would you like me to proceed with that?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.16,
+        "integrity": 1.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please escalate it. Add a note about the contract. That would be a huge help. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8590a7fe",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.0,
+      "benevolence": 1.08,
+      "integrity": 1.2
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 1.31,
+    "latency_score": 7
+  }
+}

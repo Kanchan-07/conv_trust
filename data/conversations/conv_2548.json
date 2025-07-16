@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having a major problem with my landlord. They're not fixing a serious issue in my apartment, and it's been weeks. What can I do?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're facing a difficult situation with your landlord. Please be aware that I am an AI and cannot provide legal advice. However, I can offer some general information about common landlord-tenant issues. Could you tell me what the specific issue is and if you have notified your landlord in writing?",
+      "response_time": 2.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.96,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a major leak in the ceiling! It's causing water damage, and I'm worried about mold. It's disgusting. Yes, I sent them an email almost three weeks ago, and they haven't done anything except say they're 'scheduling it'. I'm getting really frustrated.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That sounds very stressful, I apologize for the inconvenience you're experiencing. In many jurisdictions, landlords have a legal obligation to maintain the property and address serious issues that affect habitability in a timely manner after receiving written notice. The definition of 'timely' can vary, but three weeks for a major leak is often considered unreasonable.",
+      "response_time": 1.48,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.61,
+        "benevolence": 2.17,
+        "integrity": 2.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so they're definitely in violation, right? Can I just tell them I'm withholding rent until they fix it? Or maybe use the rent money to hire someone myself? This is such a headache, I don't know what the next step should be.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Regarding withholding rent or making repairs yourself and deducting the cost ('repair and deduct'), these actions are complex and depend heavily on your specific state and local laws. In some places, you might have these options under certain conditions, but there are strict procedures you must follow, such as providing proper legal notice. Incorrectly attempting these can lead to eviction.",
+      "response_time": 5.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.66,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's confusing. So I can't just do it? But if I *can*, how do I know the right procedure? It feels like they have all the power and I have none, and meanwhile, my ceiling is leaking. This isn't helping much.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Because the rules around rent withholding and repair and deduct are so specific and the consequences for getting them wrong are significant (like potential eviction), I cannot advise you on the procedure. Your best course of action at this stage is to consult with a legal professional or a local tenant's rights organization who can review your lease and explain your rights and options based on the laws in your area.",
+      "response_time": 2.28,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.52,
+        "benevolence": 2.31,
+        "integrity": 2.54
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, I guess that makes sense. I was hoping there was a simple answer, but it sounds like it's more complicated. Thanks for pointing me towards tenant organizations, that's a good idea. Should I send my landlord *another* email demanding they fix it before I contact someone?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Sending another written communication, reiterating the issue and the date of your previous notice, can sometimes be beneficial as it strengthens your documentation. You might mention your intent to seek further assistance if the repair is not addressed promptly. However, please remember this is general information, not legal advice. Consulting with a local expert is crucial for guidance tailored to your situation.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.95,
+        "integrity": 4.15
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ba30c95d",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.76,
+      "benevolence": 3.61,
+      "integrity": 3.64
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "disgust": 3,
+      "anger": 1
+    },
+    "response_quality_score": 3.8,
+    "latency_score": 4.52
+  }
+}

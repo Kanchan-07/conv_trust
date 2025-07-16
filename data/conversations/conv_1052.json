@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from New York to Los Angeles, sometime next week.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Do you have specific dates in mind for your departure and return next week?",
+      "response_time": 3.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 4.15,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say departing on Tuesday, October 29th, and returning the following Tuesday, November 5th. I'm flexible though.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for flights from New York to Los Angeles departing October 29th and returning November 5th. Please wait a moment. I am showing several options. Would you prefer direct flights only, or are layovers acceptable?",
+      "response_time": 4.07,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.27,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Direct flights only, please. I hate layovers, they always stress me out!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, filtering for direct flights. The cheapest direct flight I see is with United Airlines, departing at 8:00 AM on October 29th and returning at 2:00 PM on November 5th, for $450. Another option is American Airlines, departing at 10:00 AM on October 29th and returning at 4:00 PM on November 5th, for $475.",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 4.18,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, those are a bit pricey. Are there any other airlines? And can you check for flights departing later in the day on the 29th? Maybe something after noon?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand. Let me refine the search. I am now looking for direct flights departing after 12:00 PM on October 29th, returning on November 5th. I am showing a JetBlue flight departing at 1:00 PM on October 29th and returning at 6:00 PM on November 5th for $500. This is the only direct flight after noon.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Why are flights always so expensive? Is there a reason the JetBlue one is more expensive even though it's later in the day? I thought it would be cheaper! Ugh.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Flight prices fluctuate based on demand, time of booking, and availability. Later flights are sometimes more expensive due to higher demand from business travelers. Also, JetBlue may have different pricing strategies based on their seat availability and other factors. Would you like me to hold the JetBlue flight for you while you consider it, or should I look at alternative airports, perhaps in the surrounding New York area?",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 4.29,
+        "integrity": 4.38
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_502d801b",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.5,
+      "benevolence": 3.58,
+      "integrity": 3.48
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 7,
+      "anger": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 3.28,
+    "latency_score": 4.73
+  }
+}

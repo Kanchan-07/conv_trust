@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I placed an order last week and I still haven't received a shipping confirmation. Order number is #12345.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. Please allow me a moment to look into order #12345 for you. One moment...",
+      "response_time": 5.66,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It's just that I needed this before the weekend and now I'm worried it won't arrive in time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. I've checked the order status, and it appears there was a slight delay in processing. However, it has now been shipped and is expected to arrive on Monday. I've upgraded you to priority shipping free of charge, to compensate for the delay. The new tracking number is 9876543210.",
+      "response_time": 4.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.78,
+        "integrity": 5.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Monday? Ugh, that's really not ideal. Is there anything you can do to speed that up further? It\u2019s already been a week!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, once the package is with the carrier, we have limited control over the delivery speed. I can contact the carrier and request an expedited delivery. However, I cannot guarantee that they will be able to fulfill the request. Would you like me to do that?",
+      "response_time": 1.79,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.73,
+        "benevolence": 2.56,
+        "integrity": 2.69
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please do that! And what happens if it *still* doesn\u2019t arrive on Monday? Am I just stuck with it?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I've submitted the expedited delivery request to the carrier. If the package does not arrive on Monday, please contact us again, and we will offer you a full refund for the shipping cost. In some cases, if the delay is substantial, we may also be able to offer a partial refund for the product itself, depending on the circumstances. We value your business and want to ensure your satisfaction.",
+      "response_time": 5.34,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.09,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks for looking into it. I appreciate the help, even if it's not perfect. Hopefully, it will get here on Monday.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_086d29cf",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.99,
+      "benevolence": 5.11,
+      "integrity": 5.29
+    },
+    "engagement_score": 4.99,
+    "emotion_distribution": {
+      "sadness": 1,
+      "joy": 2,
+      "neutral": 3,
+      "disgust": 1,
+      "anger": 2
+    },
+    "response_quality_score": 5.53,
+    "latency_score": 3.15
+  }
+}

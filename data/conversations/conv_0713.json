@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why my account balance is lower than I expected. I thought I had more money in there.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To start, could you please verify your account number or the last four digits of your social security number?",
+      "response_time": 3.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.45,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, the last four of my social are 1234. Okay, I've done that. Now, can you just tell me what's going on with my account?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm accessing your account now. Okay, I see a few recent transactions. There was a debit card transaction for $75 at 'The Gadget Store' on the 15th and an automatic payment to 'Netflix' for $15 on the 18th. Could either of those be the cause of the discrepancy?",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.9,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, the Netflix one makes sense, but I definitely didn't make any purchase at 'The Gadget Store'! Could someone have stolen my card information? How secure is my account, really? I'm getting worried now.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. We take security very seriously. I've flagged that 'Gadget Store' transaction as potentially fraudulent. I will immediately freeze your card and issue you a new one with a different number. It should arrive within 5-7 business days. Also, I will initiate a fraud investigation regarding the unauthorized transaction. Is there anything else I can help you with today?",
+      "response_time": 0.5,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2d6d2cfb",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.43,
+      "benevolence": 3.78,
+      "integrity": 3.43
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3,
+      "fear": 2
+    },
+    "response_quality_score": 3.49,
+    "latency_score": 5.18
+  }
+}

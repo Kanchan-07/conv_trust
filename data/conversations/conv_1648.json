@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help writing a resume. I'm applying for a Software Engineer role.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To get started, can you tell me a bit about your work experience and the kind of projects you've worked on?  Also, do you have a current resume I can review, or are we starting from scratch?",
+      "response_time": 5.62,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.69,
+        "integrity": 5.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, starting from scratch. I have some experience, but my previous resume was really out of date. I've been working on some personal projects, and I'm not sure how to phrase them professionally.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No problem! I can help you structure the personal projects section effectively. To begin, could you list those projects, providing a brief description of each, including technologies used, and your specific contributions?",
+      "response_time": 4.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.94,
+        "integrity": 5.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay... one project was a web app using React and Node.js. I handled the front-end and back-end authentication. I also used a MongoDB database. I'm not sure how much detail to include, though, and I'm worried it sounds amateurish.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great start! Based on that information, here's a possible bullet point for your resume:\n\n*   Developed a web application using React and Node.js, managing both front-end and back-end authentication and database operations with MongoDB. This bullet point highlights your skills. We can refine it further. Do you have any specific metrics you can add, like how many users, what was the impact, or improvements?",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.58,
+        "integrity": 5.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's... pretty good. I'm impressed. But what if the job description asks for experience with a framework I don't have? Do I just leave it off my resume?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That is a good question! If a job description requires experience with a framework you lack, carefully evaluate the job description. If it is a core requirement, and you have *no* related experience, then yes, you may need to accept that you are not a fit. However, if it is not core, consider these options: 1) highlight *transferrable* skills; 2) in the *skills* section, add the framework, but be honest in the interview about your level. Consider what kind of work you want to do - it might be worth studying that framework, and then mentioning it in the resume! ",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.7,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Thanks for the help! I feel much more confident now.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1d66d71f",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.23,
+      "benevolence": 5.23,
+      "integrity": 5.29
+    },
+    "engagement_score": 4.8,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "fear": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.95,
+    "latency_score": 3.13
+  }
+}

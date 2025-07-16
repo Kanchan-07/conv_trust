@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm in the mood for a good thriller.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Thrillers are always exciting. Some highly-rated thrillers include *Parasite*, *The Silence of the Lambs*, *Get Out*, and *Knives Out*. Have you seen any of these?",
+      "response_time": 3.91,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.07,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen all of those, except *Knives Out* which I heard is more of a mystery comedy? I was thinking something maybe more suspenseful or psychological. Less focus on the 'whodunit' and more on the tension. Ugh, sometimes it's hard to explain what I'm looking for.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Ah, I understand. You're looking for thrillers that build suspense and psychological tension, rather than classic mysteries. In that case, you might enjoy *Prisoners*, *Enemy*, or *Cach\u00e9* (Hidden). These lean heavily into psychological dread and suspense.",
+      "response_time": 2.26,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.81,
+        "benevolence": 2.96,
+        "integrity": 2.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I haven't heard of *Cach\u00e9*. What's that one about? Also, this is a bit of a weird question, but is there any thriller out there that manages to be genuinely scary without relying on jump scares *at all*? Like, purely atmospheric or psychological dread? Seems impossible.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very specific request! Finding a thriller with absolutely zero jump scares is quite challenging, as they are a common tool for creating sudden tension. *Cach\u00e9* is a French film about a family receiving surveillance tapes that reveal unsettling secrets. For psychological dread without relying heavily on jump scares, you could explore films like *Hereditary* (though it has *some* intense moments, the dread is pervasive) or perhaps more subtle psychological horrors that border on thrillers, like *The Babadook*. Achieving zero jump scares while still being 'scary' is a tough balance to recommend directly within the thriller genre alone.",
+      "response_time": 5.43,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.71,
+        "integrity": 5.63
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b28029fe",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.45,
+      "benevolence": 4.58,
+      "integrity": 4.51
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "joy": 2,
+      "fear": 4
+    },
+    "response_quality_score": 4.48,
+    "latency_score": 3.63
+  }
+}

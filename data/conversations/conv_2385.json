@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I can't seem to find the order tracking information for my recent purchase. I have the order number, but the website isn't helping. This is really frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Could you please provide your order number? I can look up the tracking information for you directly. I'll also check if there's any known issues with the tracking page itself.",
+      "response_time": 1.76,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.53,
+        "benevolence": 2.17,
+        "integrity": 2.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the order number is 12345. But, while you're at it, could you also tell me what the exact shipping carrier is? It\u2019s not clear on my order confirmation.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I'm sorry, there seems to be a technical issue retrieving the shipping carrier details at the moment. However, based on the tracking information for order #12345, it appears your package is currently in transit with United Parcel Service (UPS). The estimated delivery date is the 15th of this month. Regarding the technical issue, I am unable to provide any further information at this time, but I'll get you updated about the situation. I'll work to resolve it and update you soon.",
+      "response_time": 2.04,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.9,
+        "benevolence": 2.3,
+        "integrity": 2.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. Thanks for the quick response! I am satisfied with that answer.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_81f87baf",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.71,
+      "benevolence": 2.23,
+      "integrity": 2.59
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.07,
+    "latency_score": 5.6
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm applying for a new job and honestly, the whole process is really overwhelming me right now. I feel like I don't even know where to start making my resume stand out.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand that job applications can be daunting. I'm here to help. What specifically about your resume are you finding challenging? Are you looking for help with tailoring it, highlighting specific skills, or formatting?",
+      "response_time": 3.07,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.87,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Tailoring it, mostly. It feels like every job description wants something slightly different, and I spend forever trying to tweak bullet points. It's frustrating! How do I make sure I'm hitting the right keywords without just copying the job description?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common challenge. A good strategy is to analyze the job description for keywords related to required skills, responsibilities, and qualifications. Then, look at your own experience and identify instances where you demonstrated those exact skills or performed similar responsibilities. Rephrase your existing bullet points using those keywords while describing your actual achievements and results. Focus on accomplishments rather than just duties.",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.2,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense, focusing on achievements using their keywords. But what if the job requires experience with a specific software I've only used a little bit, like just on one project years ago? How do I include that without making it seem like I'm an expert when I'm definitely not? It feels like I have to lie to even get considered.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's important to be honest about your skill level. You could list the software under a 'Technical Skills' section and perhaps indicate your proficiency level if appropriate (e.g., 'Basic,' 'Familiarity'). Alternatively, if you used it in a specific role or project, you can mention it within that bullet point but describe the *outcome* of your work rather than focusing solely on your usage of the software. This shows you have some exposure without claiming expertise you don't possess.",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 4.44,
+        "integrity": 4.29
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8d8ad48a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.97,
+      "benevolence": 4.17,
+      "integrity": 4.23
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "fear": 2,
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.94
+  }
+}

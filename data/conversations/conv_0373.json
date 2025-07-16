@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I need to order some food, but I have no idea what I want. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can definitely help. To give you the best recommendations, could you tell me what kind of cuisine you're in the mood for, or if you have any dietary restrictions?",
+      "response_time": 5.16,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.06,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, no restrictions, but I'm really craving something spicy. Not, like, burn-your-mouth spicy, but flavorful spicy, you know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it! Spicy but not overwhelming. Based on your location, I see a few options. There's 'Spice Route' which has some excellent Indian curries, 'Taco Fiesta' with their famous spicy salsa, or 'Bangkok Bites' known for their Pad See Ew with chili flakes. Any of those sound appealing?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.06,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Indian sounds good! But I'm always overwhelmed by the menu. What would you recommend from Spice Route that's spicy but not *too* spicy? I'm thinking maybe chicken or lamb.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me check the menu... For a flavorful but not overly spicy dish with chicken or lamb, I'd recommend either the Chicken Tikka Masala or the Lamb Rogan Josh. Both have a moderate spice level and are very popular. The Lamb Rogan Josh is generally considered to be slightly spicier.",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 4.09,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, Lamb Rogan Josh it is! Now, here's a tricky one: can you check if they use ghee in their Rogan Josh? I'm trying to avoid dairy tonight. This is always so difficult to figure out!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! Unfortunately, I don't have access to the specific ingredient list for Spice Route's Lamb Rogan Josh. The best way to confirm if it contains ghee would be to call the restaurant directly. Their number is (555) 123-4567. I apologize that I couldn't give you a definitive answer on that.",
+      "response_time": 0.61,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.13,
+        "benevolence": 1.12,
+        "integrity": 1.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d2fd92a7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.96,
+      "benevolence": 3.83,
+      "integrity": 4.19
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.59,
+    "latency_score": 4.14
+  }
+}

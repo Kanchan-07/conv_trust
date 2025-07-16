@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'd like to schedule an appointment with Dr. Emily Carter, please. I'm a new patient.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Let me check Dr. Carter's availability for new patients. Could you please provide your full name and date of birth?",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.03,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's John Smith, and my birthday is June 10th, 1988. Ugh, this is always such a pain.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Mr. Smith. Okay, it looks like Dr. Carter has some availability next month. Would you prefer a morning or afternoon appointment?",
+      "response_time": 3.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.95,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Afternoon would be great. And preferably not on a Wednesday. Is there any way to see *why* I need to provide so much information just to book an appointment?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. The information helps us verify your identity and ensure we have accurate records for your medical history. Let me check for afternoon appointments, not on Wednesdays. How does July 18th at 2:00 PM sound?",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 4.07,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "July 18th at 2 PM works. That's great, thank you!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Excellent! Your appointment with Dr. Emily Carter is scheduled for July 18th at 2:00 PM. You will receive a confirmation email with further instructions. Is there anything else I can assist you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.95,
+        "integrity": 6.76
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_182a515a",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 4.75,
+      "integrity": 4.52
+    },
+    "engagement_score": 3.98,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.08,
+    "latency_score": 4.02
+  }
+}

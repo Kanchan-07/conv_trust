@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I mostly enjoy fantasy novels. Got any suggestions?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. For fantasy, have you read any of the classics like 'The Lord of the Rings' or 'The Chronicles of Narnia'?  If so, and you're looking for something newer, I can suggest some more recent titles. Or perhaps you prefer a specific subgenre like high fantasy, urban fantasy, or epic fantasy?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.01,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've read all the classics, and I'm really tired of the typical 'chosen one' trope. Do you have any recommendations that *aren't* about that? Also, I'm not a huge fan of anything too 'grimdark'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, that's a bit trickier, but I think I have some ideas. How about 'The Goblin Emperor' by Katherine Addison? It avoids the chosen one trope and is a more gentle fantasy. Also, 'Piranesi' by Susanna Clarke has a unique setting.  It's not strictly fantasy in the traditional sense, but it has fantasy elements and is well-regarded. For something outside of those, I'll have to look further into my database.  Please give me a moment...",
+      "response_time": 3.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 4.35,
+        "integrity": 3.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3c69882a",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 4.68,
+      "integrity": 4.72
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.11,
+    "latency_score": 3.71
+  }
+}

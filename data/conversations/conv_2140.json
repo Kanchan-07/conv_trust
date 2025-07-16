@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling really run down lately. I'm tired all the time and have a headache almost every day. Any ideas what might be going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I'm sorry to hear you're feeling unwell. Those symptoms could be related to a number of things, including stress, lack of sleep, dehydration, or even a vitamin deficiency. To give you more specific advice, I'd need a bit more information. Can you tell me more about your diet and sleep habits?",
+      "response_time": 1.9,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.89,
+        "benevolence": 2.86,
+        "integrity": 2.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I knew it would be a question of lifestyle. My diet is probably not the best, I admit. Lots of takeout. And sleep? What's that? But even when I DO get a full night's sleep, I still feel exhausted. Could there be something else, like, I don't know, a serious illness?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's understandable to be concerned, and it's definitely possible there could be other contributing factors to your fatigue beyond lifestyle. It is difficult for me to say definitively, however, if you are concerned about a serious illness, it would be best to consult with a medical professional for a proper diagnosis and treatment plan. They can perform tests and assess your condition more accurately than I can.",
+      "response_time": 5.48,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.12,
+        "benevolence": 5.77,
+        "integrity": 5.63
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_be910ccd",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.0,
+      "benevolence": 4.31,
+      "integrity": 3.89
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 3,
+      "fear": 1
+    },
+    "response_quality_score": 3.81,
+    "latency_score": 3.81
+  }
+}

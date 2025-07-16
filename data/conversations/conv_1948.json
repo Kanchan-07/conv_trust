@@ -1,0 +1,98 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track an order I placed a few days ago, but the tracking link isn't working. It just says 'Invalid tracking number'.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're having trouble tracking your order. Could you please provide your order number so I can look into this for you?",
+      "response_time": 0.62,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.1,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #1234567890. I'm getting a little frustrated, I really need this package by Friday.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've checked order #1234567890. It appears your order has shipped and is currently with USPS. The tracking link should be working. Could you try clearing your browser's cache and cookies and trying the link again? If the issue persists, please let me know.",
+      "response_time": 3.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.74,
+        "integrity": 5.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I did that, and the tracking still isn't working. It's really odd. The USPS site says it's not a valid tracking number either. Is there a way to escalate this? I really need this order and am worried it's lost.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Sometimes, there's a delay between when a tracking number is generated and when it becomes active in the carrier's system. I am able to escalate this to our shipping department. However, can you explain to me why the tracking number could be invalid even if the shipping label was created on our system? Can you also provide me with your order details?",
+      "response_time": 3.96,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 4.46,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I'm not sure why it would be invalid. I just know the USPS site is saying that. The order details include the item I ordered (a widget), my name, my shipping address, and my payment information, which I can provide if needed.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1de60645",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.37,
+      "benevolence": 3.77,
+      "integrity": 3.37
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 2,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 3.13,
+    "latency_score": 4.73
+  }
+}

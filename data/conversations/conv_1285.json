@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I really enjoy Sci-Fi movies, anything good out there I should check out?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preference for Sci-Fi, I can suggest a few. Have you seen 'Dune' (2021) or 'Arrival' (2016)? Both are critically acclaimed and visually stunning.",
+      "response_time": 5.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.03,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've seen both of those, and loved them! Anything a little more... obscure? Maybe something not so mainstream?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let me delve a little deeper. Have you heard of 'Primer' (2004)? It's a low-budget, complex time travel film. Also, 'Coherence' (2013) is a mind-bending film that relies more on dialogue and suspense than visual effects. It's quite intriguing, but be warned, it can be confusing. Are those suggestions helpful? ",
+      "response_time": 3.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.65,
+        "benevolence": 3.72,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmmm, I've heard of Primer. But, and this is a tough one, how do you determine what is considered 'obscure'? Is there a metric you use? It's a subjective term, right?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question. The term 'obscure' is indeed subjective. My understanding of it is based on a few factors: box office performance, the film's availability on major streaming platforms, and the amount of critical and public discussion surrounding it. I also consider the film's age, with older films often being considered less mainstream. I then cross-reference this data with other users' viewing habits. It's a complex algorithm, and I'm always learning to better define and understand these nuances to improve my suggestions.",
+      "response_time": 3.26,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.79,
+        "integrity": 4.2
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6b7c242e",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.36,
+      "benevolence": 4.18,
+      "integrity": 4.8
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.38,
+    "latency_score": 3.18
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, updating my resume is such a headache. I haven't touched it in years and now I need to apply for new jobs. I don't even know where to start cleaning it up.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand, tackling a resume after a long time can feel overwhelming. I can definitely help you. Let's break it down. To begin, could you share the type of roles you're targeting, or perhaps tell me about your most recent work experience so we can start building from there?",
+      "response_time": 3.02,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.11,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm looking at project management roles. My background is mostly in software development, and while I've *done* project lead tasks, my job title wasn't 'Project Manager'. How do I make that leap credible on paper without sounding like I'm just making things up? It feels like I'm stuck because of my title.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common situation. The key is to focus on the *responsibilities and accomplishments* within your previous roles that align with project management, rather than solely relying on the job title. In your bullet points under your software development roles, quantify and describe instances where you managed timelines, coordinated teams, communicated with stakeholders, handled budgets, or mitigated risks. Create a 'Summary' or 'Professional Experience' section at the top that highlights your project leadership skills and experience explicitly. For example, you could say something like 'Proven ability to lead cross-functional teams and manage full project lifecycle from conception to delivery, demonstrated within X years of software development roles.' You might also consider adding a 'Skills' section listing specific project management methodologies or tools you're familiar with.",
+      "response_time": 5.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.36,
+        "integrity": 5.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2f3fc491",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.21,
+      "benevolence": 4.74,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "disgust": 1,
+      "surprise": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.68,
+    "latency_score": 3.12
+  }
+}

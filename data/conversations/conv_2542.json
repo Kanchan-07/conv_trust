@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a follow-up appointment with Dr. Anya Sharma. I've been trying to call the clinic all morning and just keep getting put on hold, it's really frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you've had trouble getting through on the phone. I can assist you with scheduling that follow-up appointment with Dr. Sharma. Could you please confirm her specialty, for example, Cardiology or Dermatology, and your preferred days or times for the appointment?",
+      "response_time": 5.45,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.74,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "She's in Dermatology. I really need to get in soon, preferably sometime next week in the afternoon. Is there any way you can check for cancellations or openings that aren't usually listed online? The website always seems to show limited availability, even when I know slots might open up.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for confirming Dr. Sharma's specialty and your preference for next week, afternoons. I can search for available appointments within that timeframe. Regarding cancellations or unlisted slots, my access is generally limited to the same real-time schedule displayed online. I can search for the earliest available appointments based on your criteria, but I cannot guarantee finding openings beyond what is typically shown. Shall I proceed with searching for appointments next week?",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.72,
+        "integrity": 5.12
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2714a4e7",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.66,
+      "benevolence": 5.73,
+      "integrity": 5.48
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 5.68,
+    "latency_score": 3.15
+  }
+}

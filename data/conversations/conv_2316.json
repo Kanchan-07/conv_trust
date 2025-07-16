@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some career advice. I feel completely lost.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand. It's common to feel lost when considering career paths. To help me assist you, could you tell me a little about your background? Education, previous jobs, and any fields you're interested in would be helpful.",
+      "response_time": 3.92,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.6,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I have a degree in English Literature. I worked as a barista for five years, and then did some freelance editing. Honestly, I'm not passionate about anything anymore. I just want a job that pays well and isn't mind-numbingly boring. Is that too much to ask?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Not at all! Finding a job that meets those criteria is achievable. Given your background, we could explore options that leverage your writing and communication skills. Some potential career paths include technical writing, content creation, or project management (which often involves strong communication). Let's start with some assessments. Do you have any experience with aptitude or personality tests?",
+      "response_time": 0.6,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.47,
+        "benevolence": 1.0,
+        "integrity": 1.49
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've taken a few personality tests, but they always seem vague and don't give me any real direction. They're usually just describing things I already know about myself. Isn't there a better way to figure out what I should do, based on my skills and experience?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You raise a good point. While personality tests are useful, they aren't the only tool. To explore your skills and experience directly, we could try a skills-based assessment. There are online tools that assess your proficiency in various areas (writing, editing, project coordination, etc.) and match them to relevant job postings. We could also analyze your resume and cover letter to highlight your strongest skills and tailor them to specific job requirements. Let me find a few useful tools for you...",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 4.48,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising. Let's start there. I'm willing to try anything at this point. Thanks for your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2deef100",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.01,
+      "benevolence": 3.03,
+      "integrity": 3.42
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 2.78,
+    "latency_score": 5.01
+  }
+}

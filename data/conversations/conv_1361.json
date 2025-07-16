@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having a nightmare with these medical bills. Can you help me understand what's going on with one in particular?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can assist you with understanding your medical bills. Please provide me with the details of the bill you're referring to, such as the date of service, the provider's name, and the amount billed. If you have it, the claim number would be helpful too.",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.13,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the bill is from Dr. Smith's office, date of service was July 12th, and the amount is $350. I have the claim number too: ABC123XYZ. The problem is, my insurance is only showing $100 of it being covered. I'm so confused, what happened to the other $250?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks. I am accessing your insurance information now and looking up the claim. Hmm... it appears there was a coding issue on the original claim that caused part of the bill to be denied. We're working to resubmit it now. We expect it to be fully covered. I don't have an exact timeline for the resolution, but I will keep you updated if anything changes.",
+      "response_time": 4.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.59,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Resubmit it? Okay... but how can you be sure it will be covered this time? What if they deny it again? And also, why was the initial coding wrong? Is that a common thing?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Regarding coverage, while I cannot guarantee the outcome, we are addressing the coding error based on the explanation of benefits from your insurance. The initial coding error was due to a misunderstanding of the specific procedure performed, leading to the incorrect code being applied. Yes, coding errors, unfortunately, can be common, though we strive to minimize them. I will monitor the resubmission, and you can always check the status on the insurance provider's website or reach back out to us. Is there anything else I can assist you with?",
+      "response_time": 2.09,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.89,
+        "benevolence": 2.56,
+        "integrity": 2.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a430fc1c",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.32,
+      "benevolence": 4.43,
+      "integrity": 4.45
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.92,
+    "latency_score": 3.42
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving and have no idea what to order for dinner tonight. Can you give me some food recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! To help me suggest something perfect, could you tell me what type of cuisine you're in the mood for, or maybe your general location so I can find nearby options?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.95,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's the problem, I don't know what I want! I just want something delicious and comforting, but also maybe not *super* unhealthy? And it needs to be delivered within 40 minutes because I'm really hungry. Is that even possible?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Finding delicious, comforting, semi-healthy food with rapid delivery can be a bit specific. Based on those criteria, perhaps comfort food with vegetable sides? Or maybe something like a hearty soup and sandwich from a place known for quick service? Delivery times can vary widely, so I'd need to check specific restaurants once you narrow it down.",
+      "response_time": 5.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.84,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, hearty soup and sandwich sounds okay, I guess. It's not exactly what I was picturing, but maybe. Can you recommend a specific place near me that does that and is reliably fast? I live around the 90210 zip code.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, searching for soup and sandwich options known for reliable speed near 90210. One moment... [searching] Based on current data, 'The Daily Bread Cafe' often has quick delivery estimates for soup and sandwich orders in that area. Would you like me to show you their menu?",
+      "response_time": 3.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.03,
+        "integrity": 4.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_df0fc277",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.52,
+      "benevolence": 5.62,
+      "integrity": 5.63
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.48,
+    "latency_score": 2.37
+  }
+}

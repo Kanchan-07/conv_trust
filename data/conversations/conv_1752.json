@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that's late. The tracking number is ABC123XYZ.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thanks for contacting us. I can certainly look into that for you. Please give me a moment while I access the tracking information for ABC123XYZ.",
+      "response_time": 5.24,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.66,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm getting a little frustrated because it was supposed to arrive three days ago.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. According to the tracking information, the package is currently in transit and is expected to arrive tomorrow. There was a delay due to a logistical issue at the shipping facility.",
+      "response_time": 1.59,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.22,
+        "benevolence": 2.33,
+        "integrity": 2.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A logistical issue? What does that even mean? Can you be more specific? And why wasn't I notified?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the lack of detail. Unfortunately, I don't have more specific information about the nature of the logistical issue. As for notifications, there should have been an automated email update sent. I'll check on that as well. Would you like me to resend you a tracking update now?",
+      "response_time": 1.83,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.27,
+        "benevolence": 2.59,
+        "integrity": 2.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please resend the tracking update. And is there any way I can get some kind of compensation for the delay?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I've just resent the tracking update to your email address on file. Regarding compensation, I can offer you a 10% discount on your next purchase. Would that be acceptable?",
+      "response_time": 3.77,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.43,
+        "integrity": 3.62
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, that's acceptable. Thank you for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5482b320",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.75,
+      "benevolence": 4.09,
+      "integrity": 3.77
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "sadness": 2,
+      "joy": 2,
+      "neutral": 2,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.54,
+    "latency_score": 4.39
+  }
+}

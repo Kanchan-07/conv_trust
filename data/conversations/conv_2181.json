@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a checkup with my doctor. Dr. Anya Sharma.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me access Dr. Sharma's availability. Could you please confirm your date of birth and the reason for your checkup?",
+      "response_time": 2.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.22,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "My birthday is December 10th, 1985. And the reason is just a routine physical. But I'm really busy, so I need an appointment next week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I have access to Dr. Sharma's schedule. Unfortunately, next week is fully booked. How about the week after? There are openings on Tuesday and Thursday.",
+      "response_time": 1.75,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.4,
+        "benevolence": 2.99,
+        "integrity": 2.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's frustrating. Okay, let me see. Tuesday the 19th works. What times are available then?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check. On Tuesday the 19th, the available times are 9:00 AM, 10:30 AM, and 2:00 PM. Which time suits you best?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 2 PM works perfectly. But, can I be certain the appointment will be in-person? I had a virtual appointment last time and wasn't thrilled with the experience, and it was a billing nightmare.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, the 2:00 PM appointment on Tuesday, December 19th, will be in-person. I've confirmed this with the office. I will also send you a confirmation email that includes the details and information about your copay and payment options. Is there anything else I can help you with today?",
+      "response_time": 5.58,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5685ba13",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.48,
+      "benevolence": 3.8,
+      "integrity": 3.67
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 3,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.27,
+    "latency_score": 4.83
+  }
+}

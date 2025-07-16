@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hello, my new smart toaster oven isn't working. I plugged it in, and the display just flickers on and off. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's troubleshoot this. First, can you confirm the power outlet is working? Have you tried plugging another device into the same outlet to see if it functions properly?",
+      "response_time": 0.51,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.37,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I tried another device, and the outlet is fine. I even tried a different outlet in my kitchen. The oven still flickers! This is ridiculous. Is there a fuse or something I can check?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Regarding a fuse, yes, there is typically a fuse in these types of appliances. However, accessing it often requires removing the back panel, which could void your warranty. Before you do that, could you tell me the exact model number of your toaster oven? I will check for any common issues associated with this specific model, including potential fuse problems and how to resolve them safely.",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.86,
+        "integrity": 3.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The model number is TO780X-Pro. But honestly, what makes you think I haven't already tried the troubleshooting steps listed on the manufacturer's website? I've gone through those, and none of them worked. Aren't there any more advanced diagnostic procedures you can suggest?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are right to ask. Thank you for providing the model number. Based on the TO780X-Pro, I see that a common issue is a faulty power supply unit, which might explain the flickering display. Before suggesting any advanced steps, since you've already tried the standard troubleshooting, I'd recommend contacting our warranty department. We can arrange a repair or replacement depending on your warranty coverage. Please provide the original purchase date, and I can initiate the process for you.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.41,
+        "integrity": 5.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fcf9de05",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.41,
+      "benevolence": 3.55,
+      "integrity": 3.31
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.6,
+    "latency_score": 4.31
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I ordered a product last week and it still hasn't arrived. The tracking information hasn't updated in days either. I'm starting to get really frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm sorry to hear that your order hasn't arrived yet. Could you please provide your order number so I can look into this for you? Also, can you confirm the email address associated with your order?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.17,
+        "benevolence": 1.0,
+        "integrity": 1.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the order number is #12345 and the email is example@email.com. Hmm...while you're at it, I also wanted to ask about your return policy. Let's say the item *does* arrive, but it's damaged. What are my options then? I'm curious about how you handle those situations, especially the cost of returning the item.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the information. Regarding the damaged item, if the item is damaged, you're eligible for a full refund or a replacement. The return shipping is covered by us. You will receive a prepaid shipping label to return the damaged product, and we'll process your refund or ship the replacement item once we've received the return. As for your order #12345, it seems to be stuck in transit. I'm going to escalate this to our shipping department and you should receive an update within 24-48 hours. We apologize for the inconvenience. ",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.48,
+        "benevolence": 1.21,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_793c41a3",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.32,
+      "benevolence": 1.1,
+      "integrity": 1.09
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "anger": 1,
+      "sadness": 1,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 1.38,
+    "latency_score": 7
+  }
+}

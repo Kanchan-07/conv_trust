@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm really struggling with quadratic equations right now. Can you help me understand how to solve them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. Quadratic equations are typically in the form ax^2 + bx + c = 0. We can explore methods like factoring, completing the square, or using the quadratic formula. Where would you like to start?",
+      "response_time": 5.92,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.89,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's start with the formula, please. It seems like the one that works for everything, even if it looks a bit scary.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. The quadratic formula is indeed very powerful. It is: x = [-b \u00b1 sqrt(b^2 - 4ac)] / 2a. The part under the square root, b^2 - 4ac, is called the discriminant. It tells us about the nature of the solutions.",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.11,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I remember seeing that! It's the 'discriminant'. Cool. Can we try a practice problem using the formula? How would I solve x^2 - 4x + 4 = 0?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. For the equation x^2 - 4x + 4 = 0, we have a=1, b=-4, and c=4. Substitute these values into the quadratic formula. Can you first calculate the value of the discriminant, b^2 - 4ac?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.07,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, okay. b^2 is (-4)^2 which is 16. Then 4ac is 4 * 1 * 4, which is also 16. So the discriminant is 16 - 16 = 0? That seems... too easy. Am I doing something wrong?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "No, you've calculated it perfectly! The discriminant is indeed 0. This means the equation has exactly one real solution (sometimes called a repeated root). Now, substitute the values a=1, b=-4, c=4, and the discriminant (0) back into the full quadratic formula: x = [-(-4) \u00b1 sqrt(0)] / (2*1).",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.07,
+        "benevolence": 1.39,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Phew, okay, glad I got that part right. So, x = [4 \u00b1 0] / 2. That just simplifies to 4 / 2 = 2. So the solution is x=2. Wow, that wasn't as bad as I thought! So, if the discriminant is zero, there's only one answer? What if it's negative? My teacher mentioned something about imaginary roots, and I just zoned out.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a54db41b",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.67,
+      "benevolence": 3.62,
+      "integrity": 3.54
+    },
+    "engagement_score": 5.45,
+    "emotion_distribution": {
+      "neutral": 6,
+      "fear": 1,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.08,
+    "latency_score": 4.78
+  }
+}

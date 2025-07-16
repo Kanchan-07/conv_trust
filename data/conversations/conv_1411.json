@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, my smart coffee maker isn't working. It won't turn on at all. I've tried plugging it into different outlets.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thanks for contacting support. I'm sorry to hear your coffee maker isn't turning on. Let's troubleshoot this. First, could you please confirm the model number? You can usually find it on the bottom or back of the device.",
+      "response_time": 0.54,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the model number is CM-5000. I've had this thing for like, a year. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks for the model number. CM-5000 is a common model. Have you checked the power cord for any visible damage? Also, please ensure the power switch on the coffee maker itself is turned on. Sometimes it's a small switch that gets overlooked.",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.01,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I've checked the cord. It looks fine. And yes, the power switch is on. It's not like I'm a complete idiot, you know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I didn't mean to imply that. Okay, next step. Could you try a different power cord if you have one available? Sometimes the cord itself can be the issue, even if it looks intact.",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.09,
+        "benevolence": 4.26,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I don't have a spare cord, unfortunately. Okay, well, what if the internal fuse blew? Is that a possibility? And if so, how would I check it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very insightful question. Yes, a blown fuse is a distinct possibility. Unfortunately, accessing the fuse in the CM-5000 model requires disassembling the unit, which voids the warranty and is not something we can readily provide instructions for. In that case, I'd recommend either contacting a local appliance repair shop, or if it's within the warranty period, reaching out to us about a replacement.",
+      "response_time": 2.19,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.99,
+        "benevolence": 2.54,
+        "integrity": 2.76
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, great. I guess it's out of warranty. Fine. Thanks for your help anyway.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. I'm sorry we couldn't resolve the issue. Is there anything else I can assist you with today?",
+      "response_time": 4.02,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.46,
+        "benevolence": 4.15,
+        "integrity": 4.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1ff2a015",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.67,
+      "benevolence": 3.39,
+      "integrity": 3.49
+    },
+    "engagement_score": 4.8,
+    "emotion_distribution": {
+      "sadness": 3,
+      "anger": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 3.25,
+    "latency_score": 4.87
+  }
+}

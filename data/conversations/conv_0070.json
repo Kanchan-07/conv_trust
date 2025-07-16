@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to get serious about financial planning. I'm 35, have a decent job, but honestly, I have no idea where my money is going. Can you help me figure out a budget and maybe some investment options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can assist you with that. To start, let's work on creating a budget. Could you please provide me with a general overview of your monthly income and expenses? Don't worry about being exact, estimates are fine for now. Also, do you have any existing debts like student loans or credit card balances?",
+      "response_time": 4.08,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.91,
+        "integrity": 5.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, gross monthly income is around $6,000. Expenses...rent is $1,800, utilities maybe $200, groceries probably $500 (yikes!), and then... a bunch of random subscriptions and eating out. Let's say another $500 there. Plus, I have about $20,000 in student loans and a $3,000 credit card balance. It's all so overwhelming!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for that information. Based on these figures, it appears you have approximately $3,000 remaining after accounting for your estimated expenses. A good first step would be to allocate a portion of that towards debt repayment. Would you like me to create a sample budget breakdown highlighting potential savings in certain categories?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.43,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! That would be great. But also, about those subscriptions... I've heard that some of those financial advisors are sponsored by certain companies, so would you recommend any particular investment products or services based on potential commissions you might receive?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am programmed to provide unbiased financial advice. My recommendations are based on your individual needs and financial goals, not on any potential commissions. I don't receive commissions. A sample budget breakdown is being prepared. In the meantime, I suggest documenting all of your subscriptions for the past 3 months to determine which are unnecessary.",
+      "response_time": 1.31,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.55,
+        "benevolence": 2.33,
+        "integrity": 2.71
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a relief to hear! Documenting subscriptions... ugh, sounds tedious, but I guess you're right. Looking forward to seeing that sample budget. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c4004681",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.15,
+      "benevolence": 3.22,
+      "integrity": 2.93
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 4,
+      "fear": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.92,
+    "latency_score": 5.54
+  }
+}

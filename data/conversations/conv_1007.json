@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm bored and looking for a new game. I'm really in the mood for something with a good story. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! To give you the best recommendations, what genre of story are you most interested in? For example, fantasy, sci-fi, mystery, etc.",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 3.91,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I don't know... something not too complicated. Maybe like... a fantasy RPG, but nothing too grindy? I hate grinding.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. How about 'Divinity: Original Sin 2'? It's a well-regarded fantasy RPG with a strong emphasis on player choice and a compelling story. The combat is turn-based, so it's tactical but not necessarily grindy if you manage your resources well. Alternatively, 'Disco Elysium' is very story heavy, but less traditional RPG. Let me know if either of those sound interesting!",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.75,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Divinity sounds promising. But quick question: how does it handle character progression? Is it more stat-based or skill-based? Because I always get overwhelmed when there are a million stats to manage.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7fdc1a1d",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.83,
+      "integrity": 4.85
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.02,
+    "latency_score": 3.47
+  }
+}

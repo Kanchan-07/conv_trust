@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some information about small claims court. My former landlord won't return my security deposit, and it's been way past the time limit specified in my state's law. I want to sue him.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand you're dealing with a frustrating situation regarding your security deposit. I can provide general information about pursuing a small claims case, but please remember I am an AI and cannot provide legal advice. Laws vary significantly by state and specific circumstances.",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.23,
+        "benevolence": 2.22,
+        "integrity": 2.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, yeah, I get you're not a lawyer. But how do I actually *start* the process? Do I just fill out a form? And what if he claims the damages cost more than the deposit, even though that's totally false? I'm worried he'll just lie and I'll lose my money anyway!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "To start a small claims case, you typically need to file a complaint or statement of claim with the court clerk in the appropriate jurisdiction. You'll need the landlord's correct legal name and address. Regarding potential defenses like claiming damages, the court will hear evidence from both sides. You would present your evidence (photos, correspondence, move-out checklist, etc.) to counter his claims. It's a civil process focused on presenting evidence for your case.",
+      "response_time": 5.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.55,
+        "benevolence": 5.57,
+        "integrity": 5.77
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Evidence... okay, I have pictures from when I moved out. But how do I *prove* he's lying about damages he might have caused *after* I left? This feels so unfair! He can just make things up, and I'm supposed to somehow prove a negative? It's infuriating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It is understandable to feel frustrated in this situation. In court, the burden of proof usually rests on the party making a claim. If the landlord claims damages that exceed the deposit, they would typically need to provide evidence to support those claims, such as itemized repair bills or before-and-after photos. Your evidence of the property's condition upon your departure would be key in disputing any such claims. While challenging, presenting clear evidence of the state you left the property in is your best approach. For tailored strategy and legal guidance, consulting with a local attorney or legal aid society would be highly beneficial.",
+      "response_time": 1.71,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.1,
+        "benevolence": 2.47,
+        "integrity": 2.97
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d7a69c58",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.29,
+      "benevolence": 3.42,
+      "integrity": 3.69
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 2,
+      "fear": 1
+    },
+    "response_quality_score": 3.36,
+    "latency_score": 4.31
+  }
+}

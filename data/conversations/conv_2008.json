@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'd like to book a table for dinner tonight.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To help me with this, could you please provide me with the following information: \n\n*   The date and time you'd like to book for\n*   The number of people in your party\n*   The desired location or area (city, etc.)\n*   Any specific preferences or dietary restrictions?",
+      "response_time": 4.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.82,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Tonight, which is October 26th, around 7:30 PM for 2 people. Preferably in downtown Chicago, and no dietary restrictions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for restaurants in downtown Chicago for tonight, October 26th, at 7:30 PM for a party of two. Please wait a moment while I retrieve some options. ...\n\nOkay, I found a few options. How about 'RPM Italian' or 'The Purple Pig'? Both are highly-rated and have availability.",
+      "response_time": 2.89,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 3.73,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "RPM Italian sounds good. Let's try to book there. Do they have outdoor seating?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me quickly check on that. Yes, RPM Italian does have outdoor seating available, though it's dependent on the weather. I am able to book a table for you. However, the only available time slot is 7:15 PM. Would that work?",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 4.35,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, 7:15 is a bit early. What's the latest time slot they have available?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies, that information isn't available. The reservation platform doesn't provide the specific availability past a certain point. However, looking at the current availability, I'm seeing a few open slots before 7:15, and then nothing until after 9 PM. Would you like me to book either of those?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.08
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, 9 PM works. Book it for two at RPM Italian. Outdoor seating, if possible. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b9be8ce8",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.58,
+      "benevolence": 3.73,
+      "integrity": 3.72
+    },
+    "engagement_score": 4.12,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 3.32,
+    "latency_score": 4.44
+  }
+}

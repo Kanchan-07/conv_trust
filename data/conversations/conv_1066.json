@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm really struggling with understanding the concept of standard deviation. Can you help me break it down?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Standard deviation essentially measures the spread of data points around the mean (average). A low standard deviation indicates that the data points tend to be close to the mean, while a high standard deviation indicates that the data points are spread out over a wider range. Does that initial definition make sense?",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.05,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I think so. But the formula... it's just a mess of symbols. Square roots and summations, oh my! How do I actually *calculate* it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's break down the formula step-by-step. First, you calculate the mean of your data set. Then, for each data point, you subtract the mean and square the result. Next, you find the average of those squared differences. Finally, you take the square root of that average. That final value is the standard deviation. We can work through an example if that helps.",
+      "response_time": 2.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 4.27,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "An example would be great! But what if my data set is huge? Is there a faster way to calculate standard deviation with, like, a computer or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely! For large datasets, using software like Excel, Python (with libraries like NumPy), or dedicated statistical software is highly recommended. These tools have built-in functions to calculate standard deviation very quickly. For example, in Excel, you would use the 'STDEV' function. Let's stick with our hand-calculation example first though, just to ensure you fully understand the underlying concept. Data Set: [2, 4, 4, 4, 5, 5, 7, 9]",
+      "response_time": 5.08,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 6.59,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I followed the example, and I got a standard deviation of 2.06... but how does the standard deviation *relate* to things like, confidence intervals or statistical significance? That's where I really get lost.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's an excellent question! The standard deviation plays a crucial role. In essence, the standard deviation helps determine the margin of error for estimating population parameters. Smaller standard deviations in sample distributions result in narrower confidence intervals and are therefore more likely to produce statistically significant results. Is there a particular type of example related to statistical significance that I can show you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.51,
+        "benevolence": 6.97,
+        "integrity": 6.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_df19d066",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.45,
+      "benevolence": 5.47,
+      "integrity": 5.28
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 5.69,
+    "latency_score": 3.27
+  }
+}

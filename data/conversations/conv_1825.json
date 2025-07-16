@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to buy a new pair of noise-canceling headphones. My budget is around $150. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget of $150, I recommend the following noise-canceling headphones:\n\n*   **Sony WH-CH720N:** Often found within your budget and offer excellent noise cancellation for the price.\n*   **Anker Soundcore Space Q45:** A great value pick with solid performance.\n*   **Technics EAH-AZ80:** If you can stretch your budget just a bit, these are excellent.\n\nWould you like to know more about any of these?",
+      "response_time": 4.54,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.95,
+        "benevolence": 7.0,
+        "integrity": 6.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "The Sony ones sound good, but I've heard conflicting reviews about their sound quality compared to other headphones. Can you explain what makes those better than the Anker Soundcore Q45s, specifically in terms of sound quality, even if the Ankers are a bit cheaper?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! Generally, the Sony WH-CH720N offers a more balanced sound profile with slightly better clarity in the mid-range frequencies, which can make vocals and instruments sound more natural. The Anker Soundcore Q45 may have a bit more emphasis on bass, which some users prefer, but the Sony headphones often have a wider soundstage. The Sony's sound quality is better on average. However, sound quality is subjective, and it depends on your listening preferences. The Anker Q45 has active noise cancelling, a long battery life, and is easier on the wallet.",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 4.09,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'm leaning toward the Sony ones then. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_56ebfe44",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.54,
+      "integrity": 5.06
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 5.22,
+    "latency_score": 4.03
+  }
+}

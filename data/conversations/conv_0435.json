@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into indie rock right now. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, great! For indie rock, I'd suggest checking out bands like The Strokes, Arctic Monkeys, and Tame Impala. Are you familiar with any of those?",
+      "response_time": 2.74,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.11,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I know Arctic Monkeys and Tame Impala. Something a little less mainstream, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, how about some recommendations from bands like Pavement, Built to Spill, or Car Seat Headrest? These are well-regarded indie rock acts, but perhaps slightly less commercially known.",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 4.34,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, not really what I was looking for. Maybe something with a bit more energy? This is getting frustrating...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Let's try this: could you describe the *kind* of energy you're looking for? Are you looking for something danceable, something aggressive, or something else entirely? It will help me refine my search.",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.81,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Good point. Something danceable, definitely. But still indie, you know? Is there a name for that kind of indie rock anyway?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You might be interested in bands that are sometimes classified as 'indie pop' or 'dance-punk.' Try bands like Franz Ferdinand, Bloc Party, or LCD Soundsystem. They often combine indie sensibilities with danceable rhythms. Let me know what you think!",
+      "response_time": 4.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.72,
+        "integrity": 5.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ae82ce9a",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.58,
+      "benevolence": 4.5,
+      "integrity": 4.65
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 4.45,
+    "latency_score": 3.92
+  }
+}

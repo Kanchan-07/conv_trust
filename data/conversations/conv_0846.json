@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm starving. I want to order some food, but I have no idea what's good around here. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can help with that! To give you the best recommendations, could you please share your current location and any cuisine preferences you might have?",
+      "response_time": 4.24,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm at 123 Main Street, Anytown, USA. And hmm... I'm in the mood for something spicy, maybe Thai or Indian?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Based on your location and preference for spicy Thai or Indian food, I see a few options nearby. There's 'Thai Delight' with 4.5 stars and 'Curry House' with 4 stars. Thai Delight is known for its Pad See Ew, and Curry House has a fantastic Chicken Tikka Masala. Which sounds better to you?",
+      "response_time": 3.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.64,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Chicken Tikka Masala sounds good. But 4 stars? Are there any other options with higher ratings? I'm feeling picky today.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me re-scan. 'Spice Route' is a bit further away, about 15 minutes, but they have 4.7 stars and excellent reviews for their Butter Chicken. Is that something you'd be willing to travel a little further for?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.07,
+        "benevolence": 5.72,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, 15 minutes is a bit much. Okay, fine, tell me more about Curry House. What else do they have besides Chicken Tikka Masala, and are there any vegetarian options?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Curry House also has a popular Lamb Rogan Josh and several vegetarian options like Saag Paneer and Vegetable Biryani. You can view their full menu and customer photos at curryhouse.example.com. Would you like me to read some of the reviews?",
+      "response_time": 4.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.11,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But here's a tricky question: How does Curry House ensure the ethical sourcing of its ingredients, especially its meat products? I'm trying to be more conscious about that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f92db7be",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.68,
+      "benevolence": 5.87,
+      "integrity": 5.83
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 6.13,
+    "latency_score": 3.35
+  }
+}

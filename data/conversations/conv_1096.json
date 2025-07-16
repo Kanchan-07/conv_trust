@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm starving and need to book a table for dinner tonight. Somewhere Italian, preferably in the West Village. And it needs to be relatively quiet, I want to actually hear my date. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Searching for Italian restaurants in the West Village with a reputation for being relatively quiet. How many people and what time were you thinking of?",
+      "response_time": 2.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 3.86,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Just two of us, around 7:30 PM. But honestly, I've tried booking a few places myself and they're all booked solid. What are the chances you can actually find something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While availability can be limited, I'm connected to several booking systems and can often find openings that aren't immediately visible online. I see a table for two available at 'Via Carota' at 7:45 PM. It's consistently rated highly for both food and ambiance. Would you like me to book that for you?",
+      "response_time": 1.71,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.94,
+        "benevolence": 2.92,
+        "integrity": 2.67
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ffe0de75",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 3.39,
+      "integrity": 3.2
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 1
+    },
+    "response_quality_score": 3.49,
+    "latency_score": 5.29
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from New York to London for a trip in September. I'd prefer a direct flight if possible.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. Just to confirm, you want a direct flight from New York to London sometime in September. Could you give me the specific dates you're looking at, or a date range?",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 3.58,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm flexible, but ideally, I'd like to leave around the 10th of September and return around the 20th. I looked online and saw some flights, but I'm getting overwhelmed with all the options.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Let me check for direct flights departing from New York (JFK, LGA, or EWR?) around September 10th and returning around September 20th. I will need your preferred departure airport. Please be patient while I search... Okay, I've found some options. The first is a direct flight from JFK to Heathrow on September 10th, returning September 19th for $850. There's also a flight from EWR with a layover that is $600, and a flight from JFK that connects through Iceland for $700.",
+      "response_time": 2.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.31,
+        "benevolence": 3.97,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $850 is more than I was hoping to pay. The connection through Iceland seems interesting, and I might even like to explore Iceland on the way back. But I have a question: if there's a layover in Iceland, will I need a visa to enter the country, even if I'm just changing planes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question! Let me look into that... Generally, for a layover without leaving the airport's international transit area, you don't need a visa. However, I highly recommend confirming your specific travel details (airline, duration of layover) with the Icelandic embassy or consulate in your country or on their official immigration website. I don't want to give you any incorrect information. I can provide links if you'd like.",
+      "response_time": 4.54,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.12,
+        "integrity": 5.78
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a667e7ec",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.68,
+      "benevolence": 4.22,
+      "integrity": 4.45
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.97,
+    "latency_score": 4.0
+  }
+}

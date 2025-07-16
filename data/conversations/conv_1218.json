@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order, but the tracking link isn't working. It just takes me to a blank page.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I am sorry to hear that you are experiencing difficulties with the tracking link. Could you please provide your order number so I can look into this for you?",
+      "response_time": 0.59,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.38,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #12345. This is so frustrating, I need to know when it's going to arrive!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing your order number. I've checked the tracking information and it appears the package is currently in transit with the carrier. The tracking link should be updated within 24 hours. In the meantime, you can try tracking directly on the carrier's website using the tracking number XYZ123.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.91,
+        "benevolence": 6.93,
+        "integrity": 6.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'll try that. But what if the package gets lost? What's your policy on lost packages?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Our policy on lost packages is as follows: If the carrier confirms that the package is lost, we will either resend the order at no additional cost or issue a full refund. Please allow 14 business days for the carrier to investigate a lost package claim before we can proceed with a replacement or refund. More information can be found on our website under 'Shipping and Returns'.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.45
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's good to know. But if I order multiple items, and *one* of them is lost, do you refund the full order or just the missing item?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "In the event of a partial loss, you would receive a refund or replacement specifically for the missing item. We'd assess the individual value of the missing item and process accordingly. We strive to resolve these situations fairly. Is there anything else I can assist you with today?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.07,
+        "integrity": 4.06
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_139c40bb",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.42,
+      "benevolence": 3.25,
+      "integrity": 3.35
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 5
+    },
+    "response_quality_score": 3.34,
+    "latency_score": 4.69
+  }
+}

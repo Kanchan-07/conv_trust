@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm still really struggling with these physics problems involving projectile motion. Specifically, I'm not sure when to use which equation. It's frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration! Projectile motion can be tricky. Let's break it down. The key is to identify what information you're given and what you're trying to find. Do you have a specific problem we can work through together? That often helps to clarify things. Also, remember we're dealing with both horizontal and vertical components of motion, which need to be analyzed separately. What is the problem?",
+      "response_time": 1.73,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.81,
+        "benevolence": 2.7,
+        "integrity": 2.67
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, here's one: A ball is thrown from a 20-meter high building with an initial velocity of 15 m/s at an angle of 30 degrees above the horizontal. How far from the base of the building will the ball land? This is especially confusing since the ball is launched from a building...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's tackle that. First, we need to break down the initial velocity into its horizontal (vx) and vertical (vy) components. vx = 15 * cos(30) \u2248 12.99 m/s, and vy = 15 * sin(30) = 7.5 m/s. Next, we need to find the time it takes for the ball to hit the ground. We can use the following kinematic equation for the vertical motion: \u0394y = vy*t + (1/2)*a*t^2, where \u0394y = -20 m (since the ball is going down), a = -9.8 m/s^2 (acceleration due to gravity). Solving for t, you'll get a quadratic equation. The positive value of t is the time of flight. Finally, once you have the time of flight, you can calculate the horizontal distance (range) using x = vx * t. That should give you the answer! Let me know what value you get for t.",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.25,
+        "integrity": 4.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a6907e86",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.65,
+      "benevolence": 3.48,
+      "integrity": 3.39
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.3,
+    "latency_score": 4.77
+  }
+}

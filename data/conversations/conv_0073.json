@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm finally trying to get my finances in order. I'm feeling overwhelmed. Where do I even start with financial planning?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand it can be daunting! Let's break it down. First, we need to assess your current financial situation. This includes understanding your income, expenses, assets (like savings and investments), and liabilities (like debts).",
+      "response_time": 2.32,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 4.22,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, I figured that. I have a rough idea, but tracking everything precisely sounds like a nightmare. Is there an easier way than meticulously logging every single coffee I buy?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Several apps can help! Mint, Personal Capital, and YNAB (You Need A Budget) are popular options. They can automatically track your spending by linking to your bank accounts and credit cards, giving you a clear overview without manual entry.",
+      "response_time": 5.11,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'll check those out. But what about investing? Everyone says I should invest, but it feels like gambling. How do I know what's safe and won't lose all my money?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Investing always involves risk, but it's not gambling. The key is diversification and understanding your risk tolerance. Low-risk options include bonds or index funds that track the overall market. Higher-risk options include individual stocks, but these also have the potential for higher returns. Consider consulting a financial advisor to determine the right mix for you.",
+      "response_time": 4.4,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.02,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, let's say I want to retire in 30 years and want to maintain my current lifestyle. How much should I be saving *now* to make that happen, accounting for inflation and potential market fluctuations? Give me a concrete number.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Calculating that requires a detailed financial model that considers your current income, expenses, desired retirement income, expected inflation rate, and projected investment returns. These projections depend on numerous unpredictable factors. While I can't provide an exact number without that information, using online retirement calculators from reputable sources like Fidelity or Vanguard can give you a personalized estimate after you input your specific details. I strongly recommend this step.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.94,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ca090083",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.87,
+      "benevolence": 5.81,
+      "integrity": 5.83
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 5.87,
+    "latency_score": 3.04
+  }
+}

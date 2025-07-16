@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help writing a resume. I'm applying for a Software Engineer position.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To get started, could you tell me a little about your work experience and education? Please provide details like company names, job titles, dates of employment, and a brief description of your responsibilities.",
+      "response_time": 4.63,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.67,
+        "benevolence": 6.51,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here's a summary. I have a Bachelor's in Computer Science from Stanford (2018-2022). I worked as a Software Engineer at Google (2022-2024), and then at a small startup, CodeSpark, as a Senior Engineer (2024-present).",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks! That's a solid background. I can help you structure the resume. For your Google role, what specific projects did you work on, and what were your key accomplishments? Providing specific numbers or metrics is always helpful.",
+      "response_time": 5.28,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.54,
+        "integrity": 5.56
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, this is harder than I thought. Let me see... At Google, I worked on the search algorithm team. I increased search query processing speed by 15%... And I also mentored junior engineers. Anything else?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good start! Yes, more details are always better. For example, what specific technologies did you use at Google? Also, for CodeSpark, what are your key responsibilities and achievements? Did you lead any projects? Use quantifiable metrics whenever possible.",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.29,
+        "benevolence": 5.87,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, okay. At Google, I used Python, Java, and C++. At CodeSpark, I lead the development of a new AI-powered feature. We increased user engagement by 20%. I also mentored a team of 5 engineers.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Excellent! Based on this, I can draft the content for the experience section. However, writing a complete resume also involves a strong skills section. Can you give me a list of your technical skills, and any other relevant skills? For example, leadership, project management, communication, etc.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.56,
+        "benevolence": 7.0,
+        "integrity": 6.76
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, I'm starting to get a good feeling about this. I've got all those skills. But... How can I make my resume stand out if lots of other candidates have similar qualifications?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! Focus on tailoring your resume to each specific job description. Highlight the skills and experiences that directly match their requirements. Quantify your accomplishments whenever possible, and use action verbs to showcase your contributions. Consider adding a 'Projects' section with links to your GitHub or personal projects. Finally, proofread meticulously!",
+      "response_time": 4.73,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.91,
+        "benevolence": 6.94,
+        "integrity": 6.76
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1fd85f74",
+    "average_trust_score": 6.4,
+    "trust_category_averages": {
+      "competence": 6.16,
+      "benevolence": 6.37,
+      "integrity": 6.34
+    },
+    "engagement_score": 4.43,
+    "emotion_distribution": {
+      "neutral": 9,
+      "disgust": 1
+    },
+    "response_quality_score": 5.95,
+    "latency_score": 2.7
+  }
+}

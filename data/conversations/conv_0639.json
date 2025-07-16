@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I ordered a new coffee maker last week, order number is #482917, and it still hasn't shipped! The website said 3-5 business days. What's going on?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. I understand your frustration. Let me check the status of order #482917 for you. One moment...",
+      "response_time": 0.63,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.0,
+        "integrity": 1.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I'm really hoping it arrives soon. I'm almost out of coffee, and going without my morning cup is... not fun.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see that your order is currently being processed in our warehouse and is scheduled to ship out tomorrow. You should receive a tracking number via email once it ships. Is there anything else I can help you with today?",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.6,
+        "integrity": 4.37
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ec21ce1f",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.39,
+      "benevolence": 2.3,
+      "integrity": 2.85
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "surprise": 1,
+      "anger": 1,
+      "sadness": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 2.91,
+    "latency_score": 5.99
+  }
+}

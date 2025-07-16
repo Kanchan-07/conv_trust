@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm in the mood for something\u2026 thrilling, I guess? Like a really good suspense movie.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. For suspense movies, I can recommend 'Prisoners,' 'Parasite,' or 'The Silence of the Lambs.' Are any of those appealing, or would you like other options?",
+      "response_time": 3.93,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.85,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen 'Silence of the Lambs,' great movie! 'Prisoners' sounds interesting. But actually, can you give me recommendations for something that also has a sci-fi element mixed in with the suspense? Is that even a thing?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely! Combining suspense and sci-fi, I'd suggest 'Arrival,' 'Blade Runner 2049,' or 'Ex Machina.' These films blend suspenseful plots with thought-provoking science fiction themes. Does that help?",
+      "response_time": 5.22,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.62,
+        "integrity": 6.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_48d83cb2",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.24,
+      "integrity": 5.47
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "joy": 1,
+      "fear": 3
+    },
+    "response_quality_score": 5.02,
+    "latency_score": 2.92
+  }
+}

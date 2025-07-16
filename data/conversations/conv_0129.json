@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated with this medical billing process! I have a stack of claims here, and I can't even tell which ones have been paid and which haven't. Can you help me figure this out?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly help you sort through your medical claims. To start, could you tell me which insurance provider these claims are for, and if you have any claim numbers readily available?",
+      "response_time": 3.88,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.27,
+        "integrity": 5.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, they're mostly for Blue Cross Blue Shield. And let me see... here's one: Claim number is 12345ABC.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I am checking the status of claim 12345ABC with Blue Cross Blue Shield. Please wait one moment.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.43,
+        "benevolence": 1.38,
+        "integrity": 1.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thanks, I appreciate it. I'm also curious, how does the system actually determine which claims get approved versus denied? Is there some secret formula?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Claim 12345ABC has been processed and paid on 2024-01-15. The payment was for $75. Regarding your question, claim approval depends on factors such as coverage details of your specific plan, medical necessity documentation provided by your healthcare provider, and adherence to Blue Cross Blue Shield's coding guidelines and contractual agreements. I do not have detailed information on the specifics.",
+      "response_time": 0.6,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.4,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, $75, good to know! What about this other claim, number XYZ9876? And what if the doctor's office and the insurance company disagree on medical necessity? How does that get resolved?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Claim XYZ9876 is currently in the 'pending review' status. These cases often require further investigation by the insurance company. Disputes regarding medical necessity usually involve a peer-to-peer review between the healthcare provider and the insurance company's medical director. If a resolution isn't reached, an external review by an independent third party might be requested.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.26,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Peer-to-peer review, huh? Sounds complicated. So basically, I just have to wait for claim XYZ9876. Thanks for checking on these for me, that's a huge help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! Yes, for claim XYZ9876, waiting is the best course of action at this time. Is there anything else I can assist you with today regarding your medical billing?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.54
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bfc00ee2",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.79,
+      "benevolence": 3.86,
+      "integrity": 3.72
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 4.05,
+    "latency_score": 4.56
+  }
+}

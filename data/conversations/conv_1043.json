@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to schedule an appointment with Dr. Ramirez, but the online portal is giving me a headache. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can assist you with that. To confirm, you'd like to schedule an appointment with Dr. Ramirez. Do you have a preferred date or time frame in mind?",
+      "response_time": 4.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.65,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, this is so frustrating. I need to see her sometime next week, preferably in the afternoon. But honestly, anything works as long as it's not Monday.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see. Let me check Dr. Ramirez's availability for next week, excluding Monday, in the afternoon. One moment... It appears she has an opening on Tuesday at 2:30 PM, Wednesday at 3:00 PM, and Thursday at 1:00 PM. Would any of those work for you?",
+      "response_time": 4.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.58,
+        "integrity": 3.86
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Thursday at 1:00 PM sounds good. Quick question - will I need a referral for this visit, considering I haven't seen her in about two years? I\u2019m not sure what my insurance requires anymore.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d7384589",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.81,
+      "benevolence": 4.62,
+      "integrity": 4.67
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.15,
+    "latency_score": 3.18
+  }
+}

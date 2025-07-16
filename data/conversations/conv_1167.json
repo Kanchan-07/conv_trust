@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York (JFK) to Los Angeles (LAX) sometime in the middle of November. I'm flexible on the exact dates, but I'd like to be back before Thanksgiving.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please specify a date range within November for your departure? Knowing your preferred class of service (economy, business, first class) and if you have any airline preferences would also help narrow down the search.",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.17,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, this is always so complicated. Okay, let's say departure between November 10th and November 15th. Returning by the 20th at the latest. Economy is fine. I don't really care about the airline as long as it's not Spirit. And ideally non-stop, but I'm willing to consider one connection if the price is right.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Searching for non-stop and one-stop flights from JFK to LAX between November 10th and November 15th, returning by November 20th, in economy class, excluding Spirit Airlines. Please wait a moment while I retrieve the results...",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great! While we're waiting, can you tell me what kind of carbon offsetting programs the available airlines offer? I'm trying to be more environmentally conscious about my travel.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question! I am still under development and do not currently have the ability to provide information on airline-specific carbon offsetting programs. I recommend checking each airline's website directly for their sustainability initiatives. Regarding your flight search, I've found several options. A United Airlines non-stop flight departing November 12th and returning November 19th is the cheapest at $350. American Airlines has a similar option for $375.",
+      "response_time": 4.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.04,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, $350 sounds pretty good. Are there any hidden fees I should be aware of? Like, will they suddenly add $50 for a carry-on or something sneaky like that?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The $350 price includes taxes and carrier-imposed fees. However, it is for a basic economy ticket. United's basic economy tickets typically allow one personal item that fits under the seat. A standard carry-on bag would likely incur an additional fee, usually around $30-$40 each way. I can double check the exact baggage policy for that specific flight if you'd like.",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.31,
+        "integrity": 4.37
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6109e814",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.55,
+      "benevolence": 3.63,
+      "integrity": 3.69
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "joy": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.99,
+    "latency_score": 4.55
+  }
+}

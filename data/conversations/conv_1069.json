@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to figure out why my account balance is lower than I expected. I made a deposit yesterday, and it's still not showing up.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. To look into your account, could you please provide your account number and the date and amount of the deposit?",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.04,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, the account number is 1234567890, and I deposited $500 yesterday, October 26th. It's just frustrating because I need that money to pay a bill today.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I see the transaction is currently listed as 'pending'. It can sometimes take up to 24-48 hours for deposits to fully clear, especially if made after business hours. Is there anything else I can help you with?",
+      "response_time": 2.16,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.78,
+        "benevolence": 2.41,
+        "integrity": 2.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but is there *anything* that can be done to expedite that? I mean, 48 hours seems excessive in this day and age. Why does it take so long?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have the ability to expedite the clearing process. The delay is due to standard banking procedures involving verification and security protocols. While some banks offer faster clearing times, our current system adheres to these established protocols to ensure the safety and accuracy of all transactions. I apologize for any inconvenience this may cause.",
+      "response_time": 1.43,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.6,
+        "benevolence": 2.44,
+        "integrity": 2.74
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2da17d35",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.19,
+      "benevolence": 2.96,
+      "integrity": 3.11
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 3
+    },
+    "response_quality_score": 2.61,
+    "latency_score": 5.41
+  }
+}

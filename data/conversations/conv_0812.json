@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really stuck on this physics problem. It says: A 2.0 kg block is pushed against a spring with a force constant of 500 N/m, compressing it by 20 cm. When released, the block leaves the spring and slides across a horizontal surface with a coefficient of kinetic friction of 0.15. How far does the block travel before coming to rest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright, let's break this down. First, we need to find the elastic potential energy stored in the spring. Do you remember the formula for that?",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.48,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I think it's something like 1/2 * k * x squared? Where k is the spring constant and x is the compression?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Exactly! So, plug in the values we have: k = 500 N/m and x = 0.2 m. What do you get?",
+      "response_time": 4.83,
+      "emotion_detected": "surprise",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 6.83,
+        "integrity": 6.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 1/2 * 500 * (0.2)^2... that's 10 Joules. So the initial energy is 10 Joules?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Correct. Now, this energy will be dissipated by friction as the block slides. We need to find the work done by friction. Remember, work is force times distance. The force of friction is the coefficient of kinetic friction times the normal force. What's the normal force in this case?",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.22,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the normal force is just the weight of the block, right? So that's 2.0 kg * 9.8 m/s^2 = 19.6 N. Then the friction force is 0.15 * 19.6 = 2.94 N. So... 10 Joules = 2.94 N * distance... distance = 3.4 meters. Did I do that right? This stuff still feels so confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, that's perfect! You've got it. The block travels approximately 3.4 meters before coming to rest. It's all about breaking it down into smaller steps and identifying the relevant formulas. Do you want to try another problem, maybe with a ramp involved?",
+      "response_time": 5.36,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.86,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, let's stick with horizontal surfaces for now, but yeah, another problem would be great. Maybe one that doesn't involve springs this time, haha.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_aa86d2f2",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.54,
+      "benevolence": 5.6,
+      "integrity": 5.47
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.62,
+    "latency_score": 3.05
+  }
+}

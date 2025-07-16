@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really frustrated. My package was supposed to be delivered yesterday and the tracking hasn't updated since early this morning. It just says 'In Transit'. The tracking number is 9405511899510112345678.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your concern about the package status. Let me look up that tracking number for you... Yes, I see the tracking shows 'In Transit' as of 6:00 AM yesterday in [City, State]. There hasn't been a subsequent scan yet. We apologize for the delay.",
+      "response_time": 0.51,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.35,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, but that's not helpful. I already know it's 'In Transit'. Why hasn't it moved? Is it lost? Can you tell me *specifically* what's causing the delay or when I can actually expect it? Just saying 'In Transit' and 'apologize for the delay' doesn't tell me anything about where it is or if it will ever arrive. What should I do now?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand you need more specific information, and I apologize that the tracking details are not providing that level of clarity. Unfortunately, the system doesn't always log the specific reason for a lack of updates or a delay. 'In Transit' generally means it's still moving through the network, though a lack of scans can occur for various reasons. At this point, we recommend allowing another 1-2 business days for the status to update. If there's still no movement by then, we can initiate a formal missing mail search request for you. Does that sound like a suitable next step?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.73,
+        "integrity": 4.12
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5c4e2bf9",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.63,
+      "benevolence": 2.54,
+      "integrity": 2.56
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "anger": 1,
+      "fear": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 2.99,
+    "latency_score": 5.38
+  }
+}

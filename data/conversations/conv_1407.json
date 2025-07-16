@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track a package. The tracking number is ABC123XYZ and it's supposed to have been delivered yesterday. Where is it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the tracking number. Let me check that for you. According to our system, the package is currently in transit and is expected to arrive tomorrow. There seems to be a slight delay due to unforeseen circumstances.",
+      "response_time": 5.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.3,
+        "integrity": 5.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "A slight delay? It was supposed to be delivered yesterday! And what are these \"unforeseen circumstances\"? Seriously, what's going on? I need this package.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, I don't have specific details about the delay. However, I can contact the delivery team to investigate. I will also provide you with a reference number for the inquiry. Can I have your email address so I can send you updates?",
+      "response_time": 2.32,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.43,
+        "benevolence": 3.57,
+        "integrity": 4.31
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b27e052a",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 4.43,
+      "integrity": 5.03
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.56,
+    "latency_score": 3.46
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, I'm trying to install a new light fixture in my kitchen, but I'm completely lost. Any chance you can walk me through it?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely provide guidance. First, could you tell me a bit about your current setup? Do you have an existing fixture? What type of wiring do you see (e.g., wires with different colors)? Providing as much detail as possible will help me guide you effectively.",
+      "response_time": 5.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.72,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, yeah, there's an old fixture. I took it down. There are three wires coming out of the ceiling - black, white, and copper. But the new fixture has a black wire, a white wire, and then a green wire...and I'm already confused. What do I do?!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No problem, it's a common point of confusion. Generally, the black wire is for power (hot), white is neutral, and copper or bare is ground. You will typically connect black to black, white to white, and the green wire on your new fixture to the copper (ground) wire or ground screw on the mounting bracket. However, always turn off the power at the breaker box before starting any electrical work! Make sure to use wire connectors (wire nuts) to secure the connections properly.",
+      "response_time": 3.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.01,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if there's no ground screw on the mounting bracket of the new fixture? The instructions are terrible and don't cover this!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, that's a good question. In that case, and if the fixture itself is made of non-conductive materials, you might not have a grounding connection on the fixture itself. If your electrical box is metal and you have a grounding wire present, you can attach the fixture's green wire to the grounding screw on the electrical box. Otherwise, ensure a solid connection for the ground wire, even if it involves a pigtail to connect to a grounding point in the box. I recommend, if you are unsure, that you call a qualified electrician as this can be dangerous.",
+      "response_time": 3.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 4.09,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Thanks, that helps a lot! I'll try that and if I get stuck, I'll call a professional. I really appreciate your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c35d418c",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.54,
+      "benevolence": 4.61,
+      "integrity": 4.64
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "surprise": 2,
+      "neutral": 3,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.88,
+    "latency_score": 3.42
+  }
+}

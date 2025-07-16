@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help writing a resume. I'm applying for a software engineering position. I have a lot of experience but I'm not sure how to format it all.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with that. To get started, I can offer you a few different resume templates tailored for software engineering roles. Would you like to see them? I can also help you format your experience into the standard sections: Summary/Objective, Skills, Experience, Education, and Projects.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.56,
+        "benevolence": 6.73,
+        "integrity": 6.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, please show me some templates. And the section headings are good. The thing is, I have a very specific skill - using cloud-based ML models in production - and I'm not sure where that fits best. I don't want it to get lost in the shuffle.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let me generate a few template options for you now. (Generating...). Regarding your specific skill, consider creating a separate 'Skills' section where you can list those keywords prominently. Then, in your 'Experience' section, you can expand on how you utilized cloud-based ML models in each project or role. Make sure to quantify your accomplishments whenever possible.  Here are some template previews (Note: Some formatting might be lost in this text-based output, but the templates can be adapted): *Template A, Template B, Template C*. Which one do you like best?",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.21,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Template B looks good. But quantifying accomplishments is easier said than done. I had one project where I increased prediction accuracy by 10%. How should I phrase that? And what if my other accomplishments aren't as concrete?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, it can be tricky. For the 10% accuracy increase, you could phrase it as: 'Improved prediction accuracy by 10%, resulting in [positive business outcome - e.g., reduced customer churn by X% or increased revenue by Y$]'. For less concrete accomplishments, focus on the impact you had. Instead of just saying 'Improved code quality,' try 'Implemented code reviews, leading to a measurable reduction in bugs and improved team efficiency.' If you really struggle with this, and want more specific feedback, I can help you rewrite some of your descriptions given further context.",
+      "response_time": 5.26,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.89,
+        "benevolence": 5.14,
+        "integrity": 5.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a26cef5d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.46,
+      "benevolence": 5.36,
+      "integrity": 5.71
+    },
+    "engagement_score": 3.75,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 5.0,
+    "latency_score": 2.88
+  }
+}

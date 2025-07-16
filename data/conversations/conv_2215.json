@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview coming up for a software engineer position at Google. I need help preparing!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you prepare for your interview. To get started, what specific areas would you like to focus on? We can cover technical questions, behavioral questions, or even general interview advice.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.76,
+        "integrity": 6.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm most worried about the technical questions, especially the coding challenges. I'm not the best at those, honestly.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. We can practice some common coding problems. Would you prefer to start with data structures and algorithms, or perhaps system design? We can also tailor it to specific topics often covered in Google interviews, such as trees and graphs.",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.22,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Let's start with data structures and algorithms. Maybe start with something easy? I haven't done these in a while, and I'm already feeling overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let's start with a problem involving arrays. Consider this: \"Given an array of integers, return indices of the two numbers such that they add up to a specific target.\" Do you want a sample input and output?",
+      "response_time": 3.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.29,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please provide an example. And also... wait, how does this help with the interview process? I'm confused about the connection to the actual interview setting.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a fair question. This type of problem is frequently used to assess your understanding of basic data structures and problem-solving skills. The interviewer is looking at your ability to devise an efficient solution. Here's an example: For the input `nums = [2, 7, 11, 15]`, `target = 9`, the output would be `[0, 1]` because `nums[0] + nums[1] == 9`. Does that clarify things? Now, would you like to try implementing a solution, or perhaps discuss common approaches (e.g., brute force, hash maps)?",
+      "response_time": 2.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.28,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that makes more sense now. Hmm... Let's discuss the hash map approach. I remember vaguely that's a faster solution, but I need a refresher on how it works for this specific problem.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Excellent choice. Using a hash map, you can achieve a time complexity of O(n). The core idea is to iterate through the array and for each number, check if the complement (target - number) is already present in the hash map. If it is, you've found your pair. If not, you add the current number and its index to the hash map. Would you like me to elaborate with a code example, or would you like to discuss potential edge cases?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.89,
+        "benevolence": 7.0,
+        "integrity": 6.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0f934987",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.57,
+      "benevolence": 5.51,
+      "integrity": 5.34
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "neutral": 8,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.66,
+    "latency_score": 3.12
+  }
+}

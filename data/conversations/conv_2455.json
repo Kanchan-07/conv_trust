@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have a job interview coming up next week and I'm really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can help you prepare for your interview. To get started, could you please tell me what position you're interviewing for and at what company? Knowing the role and industry will help me provide more specific and relevant advice.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.79,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for a Data Scientist position at a company called Innovate Solutions. I'm particularly worried about the technical questions and also behavioral ones like 'Tell me about a time you failed'.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great, Data Scientist at Innovate Solutions. For technical questions, you should review concepts like machine learning algorithms, statistical modeling, data manipulation techniques (SQL, Python/R), and perhaps a bit on big data technologies depending on their stack. For behavioral questions, preparing answers using the STAR method (Situation, Task, Action, Result) is very effective.",
+      "response_time": 4.83,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.89,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yeah, the STAR method makes sense for most behavioral questions, but the 'time you failed' one is tricky. Honestly, I feel like I haven't had a massive, project-derailing failure. How am I supposed to answer that without exaggerating or sounding like I've never made mistakes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "For the 'time you failed' question, interviewers are looking to see how you handle setbacks and learn from mistakes. Focus on a situation where something didn't go as planned. Describe the Situation and Task, what Action you took, and the Result. Ensure you highlight the lessons learned and how you've applied that learning since.",
+      "response_time": 4.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.31,
+        "benevolence": 5.3,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I hear you on the STAR method and learning from it. But my point was about not having a *big* failure. So, should I just pick a really small mistake and blow it up? That feels disingenuous. I'm still a bit confused on how to frame something less dramatic as a 'failure' that still satisfies what they're looking for.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_483d4ba9",
+    "average_trust_score": 6.5,
+    "trust_category_averages": {
+      "competence": 6.33,
+      "benevolence": 6.33,
+      "integrity": 6.56
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 6.28,
+    "latency_score": 2.49
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I think my former employer wrongly terminated me.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can offer some general information. To clarify, are you looking for information regarding wrongful termination laws in your state? Please specify your state for a more accurate response.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.6,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, California. They said it was for performance, but I suspect it's because I complained about unsafe working conditions. It just feels really unfair.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Under California law, you may have a case for wrongful termination if you were terminated in retaliation for reporting unsafe working conditions. This falls under whistleblower protection. However, demonstrating a causal link between your complaint and the termination is crucial. Documentation is key. Do you have any evidence to support your claim?",
+      "response_time": 3.66,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.86,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, I have emails where I reported the issues to my supervisor and HR. I also have a witness, a coworker who heard my supervisor make a snide remark about me being a 'troublemaker' after I filed the complaint. Is that enough?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The emails are excellent. A witness statement could also be very helpful. It\u2019s impossible to say definitively if it's 'enough' without reviewing all the specifics, but it certainly strengthens your position. I would recommend consulting with a qualified attorney. Would you like me to provide resources on finding an attorney in your area?",
+      "response_time": 4.25,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.61
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. But here's the tricky part... They're claiming I signed a waiver releasing them from liability when I was terminated. I barely glanced at the paperwork; I was so upset. Can they really get away with that?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Whether that waiver is enforceable depends on several factors, including the specific language of the waiver, whether you were given adequate time to review it, and whether you received adequate consideration (something of value) in exchange for signing it. California law has specific requirements for waivers of employment claims. I will look into the most common causes waivers are invalidated.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 4.47,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's...somewhat helpful. This is all so complicated. I'm just overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand. Legal matters can be complex. Just to reiterate, consulting with a legal professional is crucial to assess your specific situation. I can provide those attorney resources now, or is there anything else I can assist you with at this time?",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 3.69,
+        "integrity": 4.12
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_95d2cb37",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.51,
+      "benevolence": 4.52,
+      "integrity": 4.53
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 5,
+      "surprise": 2
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 4.16
+  }
+}

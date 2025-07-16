@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help planning my groceries for the week. I'm on a really tight budget right now.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To get started, what is your total budget for groceries this week, and how many people are you shopping for?",
+      "response_time": 5.38,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.74,
+        "benevolence": 6.85,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. It's just for me, and I only have about $40 total for the whole week. It feels impossible to buy anything with that money, honestly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand that can feel challenging, but it's definitely doable! With a $40 budget for one person, focusing on staples like rice, pasta, beans (dried or canned), lentils, eggs, and seasonal or frozen vegetables can be very cost-effective. Buying in bulk for things like rice or beans can also save money in the long run.",
+      "response_time": 1.75,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.96,
+        "benevolence": 2.94,
+        "integrity": 2.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those are the basics. But how do I make actual meals out of that stuff that don't taste bland? And what about some form of protein besides just beans? Chicken is so expensive, I don't even look at it anymore. It's so frustrating trying to figure this out!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Finding creative recipes is key! You can find many budget-friendly recipes online using these ingredients. For protein options beyond beans, consider eggs, which are versatile and relatively inexpensive, or maybe look for sales on chicken thighs or legs, which are typically cheaper cuts than breasts. Lentils are also a great protein source for soups or stews. Meal prepping can help you use ingredients efficiently.",
+      "response_time": 5.98,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.65,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Recipes, okay. I guess I'll look. But still, just finding *any* kind of meat or even fresh veggies feels like it eats up half the budget instantly. How do people afford groceries and rent? Seriously, it feels impossible to eat healthy when money is this tight. It's confusing.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "It's a common struggle, and prioritizing is essential. To make your budget stretch for produce, look for sales flyers from local stores, consider buying frozen vegetables and fruits (they are often cheaper and retain nutrients), or visit farmers markets towards the end of the day for potential deals. Focusing on versatile, filling items like potatoes, carrots, and cabbage can also help. Combining inexpensive staples with just a few fresh items can build satisfying meals.",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.0,
+        "integrity": 5.69
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cdd5d711",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.62,
+      "benevolence": 5.36,
+      "integrity": 5.63
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 2
+    },
+    "response_quality_score": 5.52,
+    "latency_score": 3.25
+  }
+}

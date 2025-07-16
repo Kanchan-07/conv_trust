@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help understanding a recent claim rejection. It's for a patient seen last week. The code billed was 99214, and it was rejected by Medicare.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with that. Claim rejections can be tricky. To start, could you please provide the specific rejection code or message you received from Medicare? Knowing the exact reason will help us troubleshoot.",
+      "response_time": 0.61,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.27,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, yes, it's so frustrating. The rejection code is CO-24. The description just says 'Payment for charges submitted is not allowed. The patient is responsible for charges for these services.' This doesn't make any sense! The patient has active Medicare coverage. Did Medicare stop covering established patient visits? That seems impossible.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the code CO-24. While that code often indicates a patient responsibility or coverage issue, Medicare absolutely covers medically necessary established patient visits like 99214. This rejection could be due to several reasons, potentially including incorrect patient demographic information submitted, a coordination of benefits issue if they have other insurance, or perhaps an issue with eligibility verification on the date of service. Have you double-checked the patient's eligibility and demographics against what was submitted on the claim?",
+      "response_time": 0.52,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.49,
+        "benevolence": 1.0,
+        "integrity": 1.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, demographics looked fine, and eligibility checked out active for that date. Could this rejection be related to the Place of Service (POS) code? We used POS 11 (Office), but the visit followed a telehealth visit a few days prior. Is there some weird rule where consecutive visits need a different POS or modifier?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bd28bf48",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.38,
+      "benevolence": 1.0,
+      "integrity": 1.07
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 1.42,
+    "latency_score": 6.94
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some gift ideas. My friend really likes hiking and camping. Do you have any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your friend's interests, I can recommend several items. How about a portable camping stove, a high-quality backpack, or a durable water filter? We also have a wide selection of hiking boots. To give you more tailored suggestions, can you tell me your budget?",
+      "response_time": 4.97,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.7,
+        "benevolence": 5.38,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, the backpack sounds good. What makes a backpack 'high-quality' in this context? I don't want to end up buying something that falls apart after a few uses. Also, my budget is around $150.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "High-quality backpacks generally feature durable materials, comfortable designs, and multiple compartments for organization. They often have reinforced stitching and adjustable features. Based on your budget, I recommend looking at the Osprey Stratos 24 or the Gregory Nano 24. Both are highly rated and fall within your price range. Would you like me to provide links to those products?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.6,
+        "benevolence": 6.72,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, the Osprey sounds good. But what if my friend already has a backpack? Could you suggest something else besides the backpack, the stove and the water filter? Something... unexpected? This is getting difficult!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright, I understand! Considering your friend may already have those items, and wanting something unexpected, I recommend checking out our selection of survival kits, camping hammocks, or a subscription box tailored for outdoor adventures. For a more unique gift, how about a personalized compass engraved with their initials? I'll provide links to some of these items in a moment. Please give me a moment to pull up the exact product details for the compass.",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 3.75,
+        "integrity": 4.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d66c4875",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.48,
+      "benevolence": 5.28,
+      "integrity": 5.65
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 5.63,
+    "latency_score": 2.86
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of running shoes. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, could you tell me what kind of running you do? (e.g., road, trail, distance) And what's your budget?",
+      "response_time": 3.97,
+      "emotion_detected": "surprise",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.74,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I mostly run on the road, usually about 5-10 miles a week. My budget is flexible, but I'd prefer to stay under $150. Honestly, I'm a bit overwhelmed by all the options.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, based on that, I can recommend a few popular road running shoes under $150. How about the Brooks Ghost 14, Saucony Kinvara 13, and New Balance Fresh Foam 880v12? They are all well-regarded for road running. Do any of those brands or models interest you?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.55,
+        "integrity": 3.76
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Brooks Ghost 14 sounds good. But, how do I know which one is the *best* for *me*? Are there any differences between them, or will all fit the same?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! While I can provide product recommendations based on category, the best fit is based on your foot type and running style. Features like arch support, cushioning, and overall fit vary, and they differ based on your foot. I recommend reading detailed reviews and preferably trying them on at a store, if possible, before purchasing. Or, if you provide me with details on your foot type, I can offer a more tailored response.",
+      "response_time": 5.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.96,
+        "integrity": 5.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7a28e2a0",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.77,
+      "benevolence": 5.08,
+      "integrity": 4.79
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 2
+    },
+    "response_quality_score": 4.77,
+    "latency_score": 3.01
+  }
+}

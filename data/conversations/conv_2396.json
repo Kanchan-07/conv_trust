@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order, but the link in the email isn't working. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm sorry to hear that the tracking link isn't working. Could you please provide your order number so I can look into this for you?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.28,
+        "integrity": 1.24
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #12345. And while you're at it, can you tell me if the estimated delivery date is still accurate? It's supposed to arrive tomorrow, and I really need it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check on order #12345. Okay, the tracking information shows the order is currently in transit and is expected to be delivered tomorrow, as scheduled. However, I am also seeing some potential delays due to weather conditions in your area. I recommend checking the tracking link again in a few hours for the most up-to-date information. Can I assist you with anything else?",
+      "response_time": 3.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.6,
+        "integrity": 5.24
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Hmm, the tracking still doesn't work. And what happens if it *doesn't* arrive tomorrow? What's your policy on that? Is it automatically considered a lost package?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Regarding your package's potential delay, our policy states that if a package doesn't arrive within 5 business days of the estimated delivery date, you are eligible for a full refund or a replacement. We will need you to formally request either the refund or replacement. If the tracking link isn't working, it is possible there may be a problem with our system, or it may be a transient issue that we are already aware of. I recommend checking back on the link later. In the meantime, you can try to access tracking information through the courier's website directly, using the tracking number I can provide to you directly if you would like. Would you like me to do that?",
+      "response_time": 2.25,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.02,
+        "integrity": 2.77
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_924700a3",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.96,
+      "benevolence": 2.97,
+      "integrity": 3.08
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4
+    },
+    "response_quality_score": 2.97,
+    "latency_score": 5.34
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I want to order some food, but I'm not sure what I'm in the mood for. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can help with that. To give you the best recommendations, could you tell me what kind of cuisine you're generally interested in? For example, Italian, Mexican, Asian, etc.",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.11,
+        "integrity": 5.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I guess something... not too heavy? Maybe Asian, but I'm kind of tired of the usual Chinese takeout. Anything else in that realm?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. How about Vietnamese or Thai? Both are generally lighter than Chinese. Popular choices include Pho, Pad Thai, or Green Curry. Are any of those appealing?",
+      "response_time": 2.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 4.03,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thai sounds pretty good. Green Curry, you say? Is there a place nearby that has really good Green Curry? I tried it once and it was awful, so I'm a bit wary.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, there are a few options! Based on recent reviews, 'Thai Spice' seems to have the highest ratings for their Green Curry. However, 'Bangkok Bistro' offers a spicier version if you prefer that. I'd recommend checking online reviews yourself, as taste is subjective. I don't have access to real-time customer reviews directly, though.",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.96,
+        "integrity": 4.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's fair. Thai Spice it is, then! Thanks for the recommendation. I'm gonna check their menu now. What factors do you consider when recommending restaurants, besides online reviews? I'm curious how you 'think'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e733fb20",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.28,
+      "benevolence": 4.37,
+      "integrity": 4.38
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "fear": 1
+    },
+    "response_quality_score": 4.13,
+    "latency_score": 4.03
+  }
+}

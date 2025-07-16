@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately and have a persistent headache. What could be causing this?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. Those symptoms can be caused by a variety of things. It's difficult to say without further information. Some possibilities include stress, dehydration, lack of sleep, or even underlying medical conditions like anemia or a thyroid issue. To give you a better idea, can you tell me more about your lifestyle? For example, what is your diet like, and how much sleep do you typically get?",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.4,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I knew it wouldn't be a simple answer. Okay, well, I eat pretty poorly, lots of fast food. I probably get around 6 hours of sleep on average. And I'm really stressed at work.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on that, the most likely culprit is a combination of poor diet, insufficient sleep, and stress. Improving your diet and sleep hygiene would be a good first step. You could try increasing your water intake, aiming for at least 7-8 hours of sleep per night, and incorporating some stress-reducing activities like meditation or exercise. Could these changes cause you to need a doctor? Potentially, but it depends. If symptoms persist despite those changes, then, yes, it might be a good idea. But I am just an AI, so I cannot give medical advice. Can I provide you with a link to some reputable health resources?",
+      "response_time": 1.69,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.08,
+        "benevolence": 2.2,
+        "integrity": 2.34
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. That's helpful. But wait... if my symptoms *are* from, say, a serious undiagnosed condition, and I follow your advice and it doesn't help... won't that delay me getting proper treatment and make things worse?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_86c3d020",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 2.91,
+      "benevolence": 3.3,
+      "integrity": 3.38
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 3.27,
+    "latency_score": 5.0
+  }
+}

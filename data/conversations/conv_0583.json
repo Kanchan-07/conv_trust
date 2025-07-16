@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my bill. I was charged $75 for something called 'Premium Content Package' but I never signed up for that. This is really frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand your frustration. I'm sorry you were charged for a service you didn't request. Can I get your account number or phone number associated with the account, please?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567. And can you tell me how this even happened? I'm usually very careful about what I click on.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I access your account... Okay, I see the charge here. It looks like the 'Premium Content Package' was added on 2024-01-15. I can remove that charge for you right away. As for how it happened, it is possible someone with access to your television remote accidentally subscribed through the on-screen prompts.",
+      "response_time": 0.65,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.11,
+        "benevolence": 1.22,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, removing the charge is good, thank you. But what about for the rest of the month? If it was activated on the 15th, am I going to get charged again in a couple weeks when the next bill comes around? And what measures are in place to prevent this sort of thing from happening again? Frankly, I'm not very confident this won't just happen again next month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, I understand your concern. I have removed the 'Premium Content Package' entirely from your account so you will not be charged going forward. I can also add a PIN to all on-demand purchases and subscriptions to prevent accidental enrollments. Would you like me to set that up for you now? It will require you to enter a PIN before any new subscription is added to the account.",
+      "response_time": 0.5,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8c63e648",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.13,
+      "benevolence": 1.07,
+      "integrity": 1.01
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 3,
+      "fear": 1
+    },
+    "response_quality_score": 1,
+    "latency_score": 6.95
+  }
+}

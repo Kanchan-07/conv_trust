@@ -1,0 +1,107 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you help me find some product recommendations? I'm looking for a new laptop.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Looking for a new laptop, I see. We have a wide range. Are you interested in Windows, Mac, or perhaps a Chromebook? Any specific use in mind, like gaming, work, or general use?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.09,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Yeah, I need it for work, mostly. Lots of documents, browsing, maybe some light photo editing. Definitely Windows. And frankly, the really expensive ones you showed me aren't in my budget. Can you recommend something more mid-range, maybe under $800?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it, a mid-range Windows laptop under $800 for work purposes. Let me look for some options. How about the Dell Inspiron 15, the HP Pavilion Aero, or perhaps the Acer Aspire 5? These are popular models in that price range and are suitable for productivity tasks. Some configurations might slightly exceed $800 depending on current availability.",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.89,
+        "benevolence": 5.92,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay. I was actually hoping for something maybe a bit lighter? The Inspiron sounds heavy. Also, why did it show me gaming laptops earlier when I just asked for 'laptop'? That was confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies for the initial broadness. When you first mentioned 'laptop', the system casts a wide net to understand the general category before narrowing down. As you provide more details like budget and use case, the recommendations become more refined. Regarding weight, the HP Pavilion Aero is known for being quite portable. Let me focus on lighter options under $800.",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.94,
+        "benevolence": 5.59,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I guess that makes sense how it works, but it was slightly annoying to see irrelevant stuff. Anyway, yes, please focus on lighter ones. I heard good things about the Lenovo IdeaPad series, do you have anything similar that fits?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Understood. Focusing on lightweight Windows laptops under $800 suitable for work, similar to the Lenovo IdeaPad line. We have the Lenovo IdeaPad Flex 5, which is a versatile 2-in-1 model often available in that range and is quite portable. Another option could be the ASUS Zenbook 14 if you find it within your budget, though configurations can vary. Both are good contenders for lightweight work laptops.",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.31,
+        "integrity": 5.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_56906227",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.73,
+      "benevolence": 5.48,
+      "integrity": 5.38
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 8
+    },
+    "response_quality_score": 5.11,
+    "latency_score": 3.88
+  }
+}

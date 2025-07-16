@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! Any good food recommendations near me? I'm in downtown right now.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Just a moment while I check for restaurants around you in downtown. ...Alright, I've got a few options. There's 'The Cozy Bistro' which has great reviews and is known for its pasta dishes, or 'Spice Route', which is a popular Indian restaurant. There's also a pizza place, 'Pizza Planet', if you're in the mood for something casual.",
+      "response_time": 2.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.1,
+        "benevolence": 3.54,
+        "integrity": 3.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Pizza Planet sounds tempting, but I had pizza last night. What's the cuisine like at The Cozy Bistro? And is Spice Route good for vegetarians?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "The Cozy Bistro serves Italian-American cuisine. It has a wide range of pasta, salads, and sandwiches. As for Spice Route, yes, they have a very good vegetarian selection and are generally known to cater well for dietary requirements. I'd recommend checking their online menu though as this data isn't always perfect. Would you like me to pull up their menu for you?",
+      "response_time": 4.69,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.93,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, great. But how can I be sure that the online menu is current? Restaurants are always changing their menus, and I don't want to waste a trip. Is there a better way to check availability of vegetarian dishes?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f9b4da6c",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.57,
+      "benevolence": 4.73,
+      "integrity": 4.42
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 5.14,
+    "latency_score": 3.69
+  }
+}

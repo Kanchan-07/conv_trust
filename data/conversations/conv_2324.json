@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. I've been browsing for a while, but I'm overwhelmed. Can you recommend anything?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me a little more about your needs? For example: What type of running do you do (road, trail, etc.)? What's your budget? Do you have any preferred brands or features? Also, what shoes have you used previously, and have you liked them?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.62,
+        "benevolence": 7.0,
+        "integrity": 6.56
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that helps. I mostly run on roads, usually 5-10 miles per run. My budget is around $150, and I've always liked Brooks. I've tried a few different models over the years, but I'm not sure of the specific names. It's hard to remember. Is there a way to figure out what Brooks models I've liked in the past, even if I don't know the exact names?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question. While I do not have access to your order history on the Brooks website, if you have an account with them, you might be able to view your past purchases and thus find the models you preferred. Alternatively, you could describe the features you remember from your past shoes. For example, the type of cushioning, the feel, or the overall fit of the shoe. This information could help me make better recommendations. Based on your road running and budget, I can recommend looking at the Brooks Ghost or Glycerin series, both of which typically fall within your price range. The Ghost offers a balance of cushioning and responsiveness, while the Glycerin provides more plush cushioning. Both are popular models, and should be a good starting point.",
+      "response_time": 3.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.84,
+        "integrity": 5.03
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5676b5a1",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.09,
+      "benevolence": 6.42,
+      "integrity": 5.79
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 6.07,
+    "latency_score": 2.52
+  }
+}

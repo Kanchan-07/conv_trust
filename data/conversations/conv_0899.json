@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some good movies? I'm in the mood for something specific but not sure what.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help with that. To give you the best recommendations, what genre are you interested in today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.78,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, okay. How about a good sci-fi movie, but something that's not too heavy? I don't want something super depressing.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Sure! Based on your preference for lighter sci-fi, I'd suggest 'Guardians of the Galaxy'. It's action-packed, funny, and has a great soundtrack.",
+      "response_time": 3.85,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.9,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've seen that one already! Anything else? I feel like I've seen all the popular ones.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me dig a bit deeper. How about 'Arrival'? It's sci-fi, but more focused on communication and mystery than action. It does have some emotional moments, but it's not overwhelmingly depressing.",
+      "response_time": 3.2,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.06,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "I've heard of it, but I'm not sure. It looks kind of slow. Can you give me something that's sci-fi but also has a strong female lead?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You might enjoy 'Annihilation'. It's a visually stunning and thought-provoking sci-fi film with a team of female scientists exploring a mysterious zone. It's a bit darker than 'Guardians', but the focus is on the exploration and characters. Alternatively, there's 'Edge of Tomorrow' starring Emily Blunt, a Sci-fi Action movie.",
+      "response_time": 3.16,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.35,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, 'Annihilation' sounds interesting. But a question, how do you *actually* determine which movies I'll like? Do you just look at keywords, or is there some kind of deeper analysis?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a great question! We use a combination of methods. We analyze movie plots, user reviews, cast and crew information, and genre classifications. We also look at your past preferences, if you've provided any. Then, we use algorithms to find movies with similar attributes to what you've liked before, while also considering any constraints you've mentioned, like avoiding depressing themes. It's a complex process, but our goal is to give you the most relevant recommendations!",
+      "response_time": 5.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.49,
+        "benevolence": 5.26,
+        "integrity": 5.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_44147df7",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.32,
+      "benevolence": 5.27,
+      "integrity": 5.33
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 2,
+      "joy": 2
+    },
+    "response_quality_score": 5.27,
+    "latency_score": 3.12
+  }
+}

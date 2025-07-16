@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help finding a hotel for a trip next month. I'm looking for something in downtown Chicago for two nights, checking in on October 15th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can help with that. So, you're looking for a hotel in downtown Chicago for a two-night stay, checking in on October 15th. Could you please confirm the checkout date? Also, do you have a specific budget or any preferences for amenities like a pool or free breakfast?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.26,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Oh, right, checking out on October 17th then. And yes, a budget is crucial! I really need to find something under $200 per night before taxes. And if possible, somewhere with a nice view, but the budget is non-negotiable.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. Finding hotels in downtown Chicago under $200 per night with a view for those dates can be challenging, as rates can be higher in October. I can show you options within your budget. While I can filter for hotels that *might* have rooms with views, I cannot guarantee a view from every room at that price point. Shall I proceed with the search focusing strictly on the under $200 budget?",
+      "response_time": 4.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.22,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's annoying but okay, I get it. Yes, definitely prioritize the budget. Just show me what's available under $200, forget the view for now. I just need something clean and safe in a good location downtown.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I will search for hotels in downtown Chicago for your dates (Oct 15-17) that are priced under $200 per night. Please give me a moment while I find the best options for you. I will focus on location and guest ratings for cleanliness and safety.",
+      "response_time": 2.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 4.24,
+        "integrity": 4.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_65483465",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.37,
+      "benevolence": 4.57,
+      "integrity": 4.55
+    },
+    "engagement_score": 3.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 4.38,
+    "latency_score": 4.12
+  }
+}

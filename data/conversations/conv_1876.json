@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from Chicago to London, ideally sometime next month.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. What dates are you looking at specifically? And do you have any preferred airlines or budget in mind?",
+      "response_time": 3.67,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.27,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so disorganized. Let's say...I'd like to leave Chicago on the 15th of next month and return on the 22nd. My budget is around $800, and I'd prefer a direct flight if possible. Is that doable?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me check... (pauses). Okay, I've found a few options that *could* work. Direct flights are a bit tricky within your budget, especially on those dates. However, I've found a connecting flight with United for $820. It's slightly over budget but avoids extra costs for baggage. There is also a direct flight on British Airways for $1100. Would you like me to elaborate on these options? I am unable to provide pricing for checked baggage. I recommend checking the airlines website.",
+      "response_time": 3.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 4.09,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, but are there any cheaper options, even with connections? And can you tell me, is the $820 flight with United guaranteed, or could the price change? This is making my head spin!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me look again. Ah, yes, I see a flight with a longer layover in Dublin for $750 with Aer Lingus. The price for the United flight is subject to change until you book. Prices fluctuate based on availability. To confirm pricing and book, you will need to select a flight.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.31,
+        "integrity": 4.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0965fc3e",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.82,
+      "benevolence": 4.22,
+      "integrity": 4.32
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.1,
+    "latency_score": 3.9
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking for a new pair of running shoes. I've been using the same brand for years, but they're not comfortable anymore. I need something with good cushioning and support for my knees.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your needs, I'd recommend looking at shoes from brands like Brooks, Hoka, or ASICS. They are generally known for their cushioning and support. Are you looking for shoes specifically for road running or trail running?",
+      "response_time": 3.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.29,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Road running, mostly. I've tried searching on the website, but there are so many options! It's overwhelming. Can you narrow it down a bit more? I'm kind of frustrated with the search results so far.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the overwhelming search results. I can definitely help narrow it down. Considering road running and your need for cushioning and support, I recommend the Brooks Glycerin 20, the Hoka Clifton 9, or the ASICS GEL-Nimbus 25. These are all highly rated for their comfort and ability to absorb impact. Would you like me to provide links to each product page?",
+      "response_time": 5.82,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.87,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! And, out of curiosity, how does the AI actually *decide* which shoes to recommend? Is it just based on popularity, or is there some kind of knee-impact analysis involved, too? Because that would be awesome, but I suspect it's not that sophisticated.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Here are the links you requested: [Links to Brooks Glycerin 20, Hoka Clifton 9, and ASICS GEL-Nimbus 25]. Regarding your question about how the recommendations are generated: Our AI considers a combination of factors, including customer reviews mentioning cushioning and support, expert ratings from running publications, product specifications (like midsole material and heel-to-toe drop), and your specific search terms and stated needs. While we don't currently have knee-impact analysis, we are continuously working on improving our algorithms with more sophisticated data analysis, so that is something we may explore in the future. We hope this helps!",
+      "response_time": 5.16,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.57,
+        "benevolence": 5.74,
+        "integrity": 5.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1e9ac72c",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.43,
+      "benevolence": 5.63,
+      "integrity": 5.48
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 5.64,
+    "latency_score": 2.71
+  }
+}

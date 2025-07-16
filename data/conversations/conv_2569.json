@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there, can you tell me my current checking account balance?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Please confirm the last four digits of the checking account you'd like to inquire about.",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.96,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 1234. Also, while you're looking, I'm pretty annoyed because I saw a charge yesterday I don't recognize. Can you see it and tell me what it is? It's a pretty large amount.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the account details. Your current checking account balance for account ending in 1234 is $785.30. Regarding the charge, I see a transaction on [Date of Charge] for $[Amount of Charge] from 'Online Service Provider'. It appears to be a valid transaction posted to the account.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.24,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "A valid transaction? I've never heard of 'Online Service Provider' and I certainly didn't authorize a charge for that amount! That doesn't explain anything and frankly, it's frustrating. What do I do now if I don't recognize the charge?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While the transaction details appear complete on our end, if you genuinely do not recognize it, it may be an unauthorized charge. To proceed, you will need to formally dispute the transaction. I can guide you through that process or provide a link to the dispute form.",
+      "response_time": 1.35,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.71,
+        "benevolence": 2.43,
+        "integrity": 2.88
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, yes, guide me through the process. What's the first step?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. The first step is to complete and submit a transaction dispute form. This form collects details about the charge and why you believe it is incorrect. You can typically find this form in the online banking portal under 'Account Services' or 'Disputes'. Alternatively, I can initiate sending one via email if you prefer.",
+      "response_time": 4.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.83,
+        "integrity": 5.33
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, I'll look for it online. Thanks for the help with that, even though the first response about the charge wasn't very helpful. Is there anything else I should do right away?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. I apologize for the initial lack of clarity. It's always a good idea to review your statements regularly for any unfamiliar activity. For this specific charge, completing the dispute form promptly is the most crucial next step. Is there anything else I can assist you with regarding your accounts today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2489cdf3",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.31,
+      "benevolence": 4.49,
+      "integrity": 4.29
+    },
+    "engagement_score": 5.58,
+    "emotion_distribution": {
+      "neutral": 7,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.16,
+    "latency_score": 4.33
+  }
+}

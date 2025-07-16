@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new coffee maker. I'm so tired of my current one breaking down every few months!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand the frustration! To give you the best recommendations, could you tell me a bit about what you're looking for? For example, what's your budget, how many cups do you typically brew, and are there any specific features you'd like (e.g., programmable timer, built-in grinder, etc.)?",
+      "response_time": 2.23,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.23,
+        "benevolence": 2.82,
+        "integrity": 2.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, budget is around $100, I usually make 4-6 cups, and a programmable timer would be amazing. A built-in grinder would be nice, but not essential given my budget, I think.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Based on your preferences, I recommend the Mr. Coffee 12-Cup Programmable Coffee Maker. It's generally well-reviewed, falls within your budget, and has the programmable timer you're looking for. Alternatively, if you're willing to stretch your budget slightly, the Cuisinart DCC-1200 Brew Central 12-Cup Programmable Coffeemaker is also a solid option known for its durability.",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.42,
+        "benevolence": 5.42,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard mixed things about Mr. Coffee's durability. What makes the Cuisinart worth the extra money? Like, really worth it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The Cuisinart DCC-1200 typically features a more robust heating element and overall build quality, leading to a longer lifespan. Many users also report better temperature consistency and flavor extraction compared to the Mr. Coffee model. However, user experience can vary. I can show you a comparison table of customer reviews if you'd like.",
+      "response_time": 3.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.6,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A comparison table would be great, thanks! But I'm also curious, how do you ensure your recommendations are unbiased? Are you just pushing whatever products give you the highest commission?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. My recommendations are based on a combination of factors, including customer reviews, product specifications, and expert opinions, all weighted according to your stated preferences. While affiliate commissions are a factor in our business model, we prioritize providing helpful and relevant recommendations to maintain user trust. The comparison table is loading now. It pulls data from multiple sources to give you a balanced overview.",
+      "response_time": 4.28,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_464b2c27",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.65,
+      "benevolence": 4.71,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "surprise": 2,
+      "anger": 1,
+      "neutral": 4,
+      "fear": 1
+    },
+    "response_quality_score": 5.15,
+    "latency_score": 4.04
+  }
+}

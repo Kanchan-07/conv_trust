@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from New York to Los Angeles, sometime in mid-October. Ideally, non-stop. And I'm on a bit of a budget, so... cheap is good! Help!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please provide the specific dates you're interested in during mid-October? Knowing your preferred dates will allow me to find the best deals. Also, what is your budget?",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.29,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I hate this part. I'm flexible! Say, October 15th to the 20th, something like that? As for budget...under $400 would be amazing. Is that even possible these days?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, checking flights from New York to Los Angeles between October 15th and 20th, aiming for non-stop and under $400. One moment... Okay, I'm seeing a few options with JetBlue and American Airlines that fit your criteria. JetBlue has a non-stop flight on October 16th for $385. American Airlines has one on October 18th for $392. Would you like me to check baggage fees or alternative dates?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 3.58,
+        "integrity": 4.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6fc9d18a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.88,
+      "benevolence": 3.94,
+      "integrity": 4.26
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 3.74,
+    "latency_score": 4.11
+  }
+}

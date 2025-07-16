@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I've got a dripping faucet in my bathroom. It's driving me crazy. Can you give me some basic steps on how to fix it?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! A dripping faucet can definitely be annoying. Fixing it often involves replacing a worn-out part, like a washer, O-ring, or cartridge. First, turn off the water supply to the faucet, usually under the sink. Then, remove the handle and trim to access the internal components. You'll likely need a screwdriver and possibly an adjustable wrench.",
+      "response_time": 2.17,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.78,
+        "benevolence": 2.14,
+        "integrity": 2.45
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I found the shut-off valves and turned them off. I got the handle off with a screwdriver, but I'm stuck now. There's like a metal cap or nut under the handle and I can't figure out how to get it off without scratching everything. It feels really tight.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Right, accessing the cartridge or stem requires removing that cap or bonnet nut. It's typically threaded. Try using a wrench to unscrew it, but wrap the wrench jaws with cloth or tape first to help prevent scratching the finish. Make sure you are turning in the correct direction, usually counter-clockwise.",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.96,
+        "benevolence": 4.11,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, I tried that with a wrench and cloth, but it is *really* stuck. I even used a little force but it won't budge at all. I'm worried I'll break something if I push it harder. Is there some trick to getting these super-stuck nuts off? It's a single handle Delta faucet, if that matters.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Stuck components can be challenging due to mineral buildup or corrosion. For Delta faucets, removing that cap, often called the bonnet nut, requires a bit of force. Ensure the water is completely off. Sometimes, tapping the wrench lightly with a hammer can help vibrate it loose. You could also try a small amount of penetrating oil, being very careful not to get it on visible finishes, though this is less common for faucet repair.",
+      "response_time": 2.01,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 3.0,
+        "benevolence": 2.42,
+        "integrity": 2.83
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Tapping with a hammer? That sounds risky! Penetrating oil? I don't have any. I have channel locks and a pipe wrench besides the adjustable one. Would either of those be better for grip on a stuck nut like this, or should I just keep trying with the adjustable wrench?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Using channel locks might give you a better grip than a standard adjustable wrench, but you run a higher risk of deforming the nut if you apply too much pressure unevenly. A pipe wrench is likely too aggressive and will definitely damage the finish. Given it's a Delta single handle, they use a specific cartridge. Sometimes the correct approach requires a specific tool. Have you checked the faucet model online to see if a specialized Delta tool is recommended for cartridge removal?",
+      "response_time": 1.86,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.02,
+        "benevolence": 2.48,
+        "integrity": 2.99
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "A specialized tool? Of course! More tools to buy. I haven't looked up the exact model, no. This is getting way more complicated than I thought it would be just to stop a drip. Is buying a special tool even worth it compared to just calling a plumber at this point?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "The cost-effectiveness of buying a specialized tool versus hiring a plumber really depends on the tool's price, the plumber's rates in your area, and your willingness to tackle future faucet repairs. Specialized tools for common faucets like Delta are often relatively inexpensive and can be a worthwhile investment if you plan on doing more DIY. However, if you're uncomfortable or concerned about causing damage, calling a professional plumber is always a safe and reliable option to ensure the repair is done correctly.",
+      "response_time": 5.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.81,
+        "integrity": 5.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_40f638b6",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.36,
+      "benevolence": 3.39,
+      "integrity": 3.46
+    },
+    "engagement_score": 5.78,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 6,
+      "disgust": 1,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.12,
+    "latency_score": 4.51
+  }
+}

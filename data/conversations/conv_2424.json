@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to file a claim. I had a car accident last week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Can you please provide your policy number and the date of the accident?",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.69,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, my policy number is ABC123XYZ and the accident happened on October 26th. I'm so frustrated, it was a terrible day.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. I've located your policy. Please provide a brief description of what happened. Also, do you have any photos or a police report?",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.02,
+        "integrity": 3.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I have both. The police report number is 12345 and I have several photos. The other driver ran a red light and hit me. How do I submit the photos?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You can upload the photos via the link I have just sent you via a secure message within our platform. We will also need a written statement from you detailing the accident and any injuries sustained.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.99,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll do that. But, can you explain why the deductible is so high? My friend has a similar policy and a much lower deductible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can certainly provide you with the information regarding your deductible. Please allow me a few moments to check. The deductible is determined by the policy options you selected at the time of enrollment. However, these options may have changed during the policy renewal. Your current policy has a deductible of $1000, but I can provide you with a quote for a different deductible if you wish, which could adjust your monthly premium.",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.12,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, thanks. I'll look into that after I submit the claim. So, I can upload the photos and provide a statement, and then what happens?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6cad4065",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.84,
+      "benevolence": 4.71,
+      "integrity": 4.72
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 4.76,
+    "latency_score": 3.87
+  }
+}

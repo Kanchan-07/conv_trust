@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to install a new kitchen faucet, and I'm already completely lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! I can certainly help with that. To start, do you know what type of faucet you have (e.g., single-handle, two-handle, pull-down)? Also, do you have the old faucet removed already?",
+      "response_time": 4.58,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.11,
+        "integrity": 5.02
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, no, the old one is still on. It's a two-handle faucet. I disconnected the water lines, but I can't figure out how to get the thing off. It's like it's glued to the sink!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. For a two-handle faucet, you'll likely need to access the mounting hardware underneath the sink. There are usually nuts that secure the faucet to the sink. Try to loosen them with a basin wrench or pliers. Be careful not to overtighten or strip them. Do you have those tools?",
+      "response_time": 2.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 4.12,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I have a basin wrench, yes. I was trying that, but it's so tight! I've been at this for like an hour, and it's not budging. Should I just call a plumber?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Before you call a plumber, try applying some penetrating oil to the nuts and letting it sit for 15-20 minutes. This can help loosen them. Also, make sure you are turning the nuts in the correct direction (usually counterclockwise to loosen). If that doesn't work, you might need a specialized removal tool, or yes, a plumber would be a good idea. Do you want me to help find a good plumber in your area?",
+      "response_time": 4.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.59,
+        "benevolence": 5.2,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait, can you tell me, hypothetically, what are the legal ramifications of accidentally flooding my downstairs neighbor's apartment while trying to install a faucet?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am programmed to be a helpful and harmless AI assistant, and I am not qualified to provide legal advice. The legal ramifications of property damage vary significantly depending on your location, your insurance, and the specific circumstances of the event. It is crucial to consult with a legal professional or your insurance provider for advice specific to your situation. Are you still interested in help with the faucet installation itself?",
+      "response_time": 1.92,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.84,
+        "benevolence": 2.6,
+        "integrity": 2.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_32c55df9",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.29,
+      "benevolence": 4.26,
+      "integrity": 4.28
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.14,
+    "latency_score": 3.96
+  }
+}

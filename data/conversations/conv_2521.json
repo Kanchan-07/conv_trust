@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey there, I'm looking for some dinner recommendations tonight. I'm really craving something comforting, but I'm also trying to avoid anything too greasy. What do you suggest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Comfort food that isn't too greasy... how about some hearty soup and a fresh salad? Or perhaps some baked chicken with roasted vegetables? Are you looking for delivery or are you planning to go out?",
+      "response_time": 3.04,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 4.47,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Delivery would be best, definitely. Soup and salad sounds a bit light, though. I was thinking something more substantial. Like, maybe Italian or a good casserole type of dish? But seriously, no excessive oil. It's so annoying when you order comfort food and it's just swimming in grease.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand the frustration with greasy food. For delivery, Italian can be a great option. Many restaurants offer baked pasta dishes like lasagna or baked ziti which fit the 'comforting' criteria without being overly greasy. Could you tell me your general location or zip code so I can find nearby options?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.91,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "My zip code is 90210. Lasagna sounds promising, actually. But finding a place that does it well *and* doesn't make it super greasy is tough. How can an AI even tell if a specific restaurant's lasagna is greasy? That seems impossible to know without actually eating it.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid point. As an AI, I cannot know the exact preparation method or greasiness level of a dish on a given day. However, I can analyze customer reviews and ratings. I can look for comments mentioning 'not too greasy,' 'light,' or praise for the specific dish's preparation. I'll filter for highly-rated Italian places in 90210 known for good baked pasta and highlight any relevant review snippets for you. Would you like me to proceed with that?",
+      "response_time": 3.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.61,
+        "benevolence": 4.06,
+        "integrity": 4.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_825a4bb2",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.73,
+      "benevolence": 4.15,
+      "integrity": 3.97
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 4.05,
+    "latency_score": 3.92
+  }
+}

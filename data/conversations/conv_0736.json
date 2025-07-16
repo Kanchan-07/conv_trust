@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to book a restaurant for dinner tonight. Somewhere Italian, preferably in the downtown area. This is proving surprisingly difficult!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Searching for Italian restaurants in downtown. For what time and how many people?",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 4.02,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Around 7:30 PM, for 4 people. And ideally, somewhere with outdoor seating, weather permitting of course.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, checking availability for Italian restaurants with outdoor seating downtown for 4 people at 7:30 PM... I see 'Bella Notte' has a table. Would you like me to book that for you?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.73,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Bella Notte... hmm, never heard of it. What's their price range like? And what kind of reviews do they have? I don't want to end up at some tourist trap.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Bella Notte is in the mid-range price category, approximately $30-$50 per person. Reviews are generally positive, with an average of 4.2 stars. People praise their pasta dishes and ambiance. However, some reviewers mention that service can be slow during peak hours. Would you like to see some example reviews?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.18,
+        "integrity": 5.61
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising! But before I commit, could you check if 'Pasta Paradise' has anything available around the same time? I know it's a long shot, but it's my favorite.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Checking Pasta Paradise... Unfortunately, they are fully booked this evening. Bella Notte is still available. Would you like me to proceed with the booking there, or shall I look at other options for you?",
+      "response_time": 4.03,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.88,
+        "integrity": 3.65
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1acff0ef",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.33,
+      "benevolence": 4.2,
+      "integrity": 4.45
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 3.82
+  }
+}

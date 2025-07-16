@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up and I'm super nervous. Can you help me prepare? Specifically, I'm worried about those 'tell me about yourself' questions.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely assist you with interview preparation. Let's start with the 'tell me about yourself' question. A good approach is to structure your response using the 'present, past, future' framework. Briefly describe your current role (present), touch upon relevant past experiences (past), and then explain your career aspirations and how this role aligns with them (future). Would you like me to elaborate on any of these points?",
+      "response_time": 4.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.56,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, elaborate on the 'past' part. I've had a few different jobs, and I'm not sure which ones to focus on. I don't want to bore them!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Focus on experiences that are most relevant to the job description. Highlight skills and achievements from those roles that directly address the requirements of the position you're interviewing for. Quantify your achievements whenever possible. For instance, instead of saying 'Managed a team', say 'Managed a team of 5, increasing productivity by 15%'. Should I list some example questions that might come up, so we can work through answering them?",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.34,
+        "benevolence": 5.23,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, behavioral questions are the worst! Like, 'tell me about a time you failed'. How am I supposed to answer that without sounding completely incompetent? Seriously, I always blank on these.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The key to answering behavioral questions effectively is using the STAR method (Situation, Task, Action, Result). Briefly describe the Situation, outline the Task you were assigned, explain the Action you took, and most importantly, detail the Result of your actions and what you learned from the experience. Even in failure, demonstrating learning and growth is crucial. Acknowledge the mistake without dwelling excessively on negativity. Do you want an example?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.9,
+        "benevolence": 6.91,
+        "integrity": 6.98
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that STAR method is helpful, I guess. But what if they ask me something *really* difficult, like... what are my weaknesses? Everyone says to turn it into a positive, but that feels so fake! Is there a good way to answer that honestly without killing my chances?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ba6b0ea8",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.95,
+      "benevolence": 5.9,
+      "integrity": 6.11
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "anger": 1,
+      "disgust": 2
+    },
+    "response_quality_score": 5.94,
+    "latency_score": 2.35
+  }
+}

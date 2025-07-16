@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some movie recommendations. I'm really in the mood for a good thriller tonight.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Based on your preference for thrillers, I recommend \"Se7en\", \"The Silence of the Lambs\", or \"Prisoners\". Have you seen any of those?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 3.97,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've seen Silence of the Lambs, classic! But the other two sound interesting. Which one is more twisty and suspenseful, Se7en or Prisoners? I hate predictable plots.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "\"Se7en\" is generally considered to have a more shocking and unpredictable ending, focusing on a dark and twisted mystery. \"Prisoners\" is more of a slow-burn suspense film with complex character motivations, though both have suspenseful elements. If you dislike predictable plots, \"Se7en\" might be the better choice.",
+      "response_time": 2.37,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.85,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Se7en it is. Now, a slightly tougher question... Can you recommend something *similar* to Se7en, but maybe less... mainstream? I'm trying to find something really obscure and disturbing. I've already seen stuff like 'Zodiac' and 'Memories of Murder'.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a tricky one! Given your interest in obscure and disturbing thrillers similar to 'Se7en', you might appreciate 'Cure' (1997), a Japanese psychological thriller. It explores similar themes of societal decay and features a detective investigating a series of bizarre murders. Be warned, it is pretty unsettling. Another possibility, although tonally different, is 'The Skin I Live In'. It's a Pedro Almod\u00f3var film, so more stylish and less gritty than 'Se7en', but still deals with dark subject matter and has significant twists.",
+      "response_time": 3.49,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.36,
+        "benevolence": 5.32,
+        "integrity": 5.41
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6bf0c6f5",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.38,
+      "integrity": 4.47
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 1,
+      "fear": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.8,
+    "latency_score": 4.33
+  }
+}

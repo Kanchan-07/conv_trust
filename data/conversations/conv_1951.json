@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with an order. I haven't received it yet and it was supposed to be delivered last week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I am sorry to hear that. Could you please provide your order number so I can look into this for you?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.04
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's #12345. I've already checked the tracking, and it just says 'In Transit', which isn't very helpful. I'm starting to get really frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I've checked the tracking information for order #12345. It appears there might be a slight delay with the shipping carrier. According to their system, the package is currently at a distribution center. I'll reach out to the carrier and request an update. Please allow 24-48 hours for a response. In the meantime, is there anything else I can help you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. But what if it's lost? And what's the actual difference between 'in transit' and 'delayed' in the carrier's system? I always see 'in transit' on every package even if it is late, so what does it actually mean in a practical sense?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If the package doesn't update within a reasonable timeframe, we can certainly look at filing a claim. Regarding the status updates from the carrier, 'In Transit' generally means the package is moving between facilities. 'Delayed' is a more specific status, usually indicating the carrier is experiencing issues that will result in a later delivery date, such as weather or local delivery problems. I'll follow up with the carrier and provide you with the most up-to-date information. Is there anything else I can assist with?",
+      "response_time": 3.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.49,
+        "integrity": 4.02
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_81f22f6e",
+    "average_trust_score": 2.0,
+    "trust_category_averages": {
+      "competence": 1.85,
+      "benevolence": 2.16,
+      "integrity": 2.02
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 2,
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 1.66,
+    "latency_score": 6.11
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help regarding a legal issue. My landlord hasn't returned my security deposit after I moved out, and it's been over 45 days. What can I do?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you're dealing with a security deposit issue. Laws regarding security deposits vary significantly by location. Could you please tell me which state or jurisdiction this is in?",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.64,
+        "benevolence": 2.77,
+        "integrity": 2.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's in California. Specifically, I lived in Los Angeles. My lease ended on June 30th, and I got nothing back, not even an itemized list of deductions! This is so frustrating, it was a big deposit.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the location. In California, landlords generally have 21 days after a tenant moves out to return the security deposit or provide an itemized statement of deductions with receipts for any repairs or cleaning costs exceeding a certain amount. Failure to do so within this timeframe is a violation of state law.",
+      "response_time": 0.59,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.22,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 21 days, not 45. So he's way past that. What exactly are my *next* steps? Do I need to send a certified letter, or can I just file something in small claims court? What forms would I even use?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While I can provide general legal information, I cannot give specific legal advice, recommend a course of action, or suggest specific forms for filing. My purpose is to provide information, not legal strategy or representation. Your next steps would typically involve formally demanding the deposit back, often via a written letter (a certified letter is a common method to have proof of delivery), and potentially pursuing action in small claims court if the landlord still refuses. For specific procedures, form names, and personalized advice tailored to your situation, you should consult with a qualified attorney or a local tenant's rights organization.",
+      "response_time": 2.55,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.53,
+        "benevolence": 3.73,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, I was hoping to avoid getting a lawyer involved just for this. It feels like such a hassle. But okay, I understand you can't tell me exactly what to file. Should I at least make sure I have records of all our communications about the deposit so far?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9976bfc8",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.46,
+      "benevolence": 2.5,
+      "integrity": 2.5
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 2.42,
+    "latency_score": 5.65
+  }
+}

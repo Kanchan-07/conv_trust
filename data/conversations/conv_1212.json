@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new coffee maker. I'm a bit overwhelmed by all the choices!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I understand. To help me narrow it down, what's your budget and what kind of coffee do you usually drink? Drip, espresso, something else?",
+      "response_time": 1.9,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.28,
+        "benevolence": 2.46,
+        "integrity": 2.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, budget is around $100, maybe a little more if it's really worth it. And I mostly drink drip coffee, but sometimes I like to make a latte.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Based on that, I'd recommend the Mr. Coffee 12-Cup Coffee Maker with a built-in milk frother. It's generally well-reviewed and fits your needs. Alternatively, if you're willing to stretch your budget a bit, the Breville BDC450 Precision Brewer is excellent for drip and has some advanced features.",
+      "response_time": 5.49,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.74,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard mixed things about Mr. Coffee's reliability. Is there anything else around that price point that's known for being more durable?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, reliability can be a concern. In the same price range, consider the OXO Brew 8-Cup Coffee Maker. It's a bit simpler but has a reputation for lasting a long time. It doesn't have a milk frother though. Or you could search for 'durable drip coffee maker under $100' and check customer reviews.",
+      "response_time": 3.89,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.54,
+        "benevolence": 5.95,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll check out the OXO. One question though, why is it that more expensive coffee makers always seem to break down faster? It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a common perception! Often, more expensive appliances have more complex features and components, which can unfortunately increase the potential points of failure. Also, sometimes cheaper brands will only be bought by those who need that price point, whereas a more expensive brand could be bought by those who don't really need it and don't take care of it as well.",
+      "response_time": 1.47,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 3.0,
+        "benevolence": 2.94,
+        "integrity": 2.85
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That makes sense, actually. Thanks for the advice! I think I'll go with the OXO. Hopefully, it lasts!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! I hope you enjoy it. Let me know if you need anything else in the future.",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.63,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8671740b",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 5.02,
+      "integrity": 5.07
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 6,
+      "sadness": 1,
+      "joy": 2
+    },
+    "response_quality_score": 4.56,
+    "latency_score": 3.75
+  }
+}

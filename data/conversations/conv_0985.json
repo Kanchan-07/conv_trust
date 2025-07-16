@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for a flight from New York (JFK) to Los Angeles (LAX) sometime in mid-October. I'm flexible with the exact dates.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To clarify, you're looking for a one-way or roundtrip flight from New York (JFK) to Los Angeles (LAX) in mid-October? Could you give me a date range, say between October 10th and October 20th?",
+      "response_time": 3.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.5,
+        "benevolence": 4.27,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Roundtrip, please. And yes, October 10th to 20th is perfect. I'd prefer to return before the 25th, latest. Oh, and preferably non-stop if possible. All these options are making my head spin!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for roundtrip, non-stop flights from JFK to LAX between October 10th and October 20th, returning before October 25th... The cheapest option is a flight with JetBlue departing on October 12th and returning on October 22nd, priced at $385. Another option is with American Airlines departing on October 15th and returning on October 24th for $410.",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 3.79,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those dates are okay, but is there any way to see flights that arrive in LAX before noon? I have a meeting I need to attend to. And honestly, why are flight prices so volatile?!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me refine the search to prioritize flights arriving in LAX before 12 PM. Please give me one moment... Okay, I found a United flight departing JFK on October 16th at 7:00 AM and arriving in LAX at 9:58 AM, returning on October 23rd. This flight is priced at $450. As for flight price volatility, prices fluctuate based on demand, availability, time of year, and even the day of the week you're searching. Airlines use complex algorithms to adjust prices dynamically.",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.49,
+        "integrity": 4.12
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cb32fdd7",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.26,
+      "benevolence": 4.18,
+      "integrity": 4.19
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.87,
+    "latency_score": 3.92
+  }
+}

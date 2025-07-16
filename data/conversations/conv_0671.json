@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some fashion advice. I'm going on a date next weekend, and I have absolutely nothing to wear. My budget is, like, super tight right now \u2013 under $100 if possible. Help!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Alright, I can definitely help with that! To give you the best recommendations, could you tell me a little more about the date? Is it casual, fancy, indoors, outdoors, what kind of vibe are you going for?",
+      "response_time": 3.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.7,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's... kind of in-between? We're going to a brewery, so not super formal, but I still want to look nice. Something that says 'I put in effort' without looking like I'm trying too hard, you know? Ugh, this is harder than I thought.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand! For a brewery date with that 'effortless chic' vibe and a budget of under $100, I recommend exploring options like a nice pair of dark-wash jeans (you might already own some!), a stylish blouse or sweater (check sales at stores like H&M or Target), and some comfortable but fashionable shoes like ankle boots or clean sneakers. Alternatively, a simple but flattering midi dress can also work. Accessorize with a simple necklace or earrings to complete the look.",
+      "response_time": 2.31,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 3.58,
+        "integrity": 3.86
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds doable. But how can I make sure the clothes I buy are ethically sourced and won't fall apart after one wash, given my limited budget? Isn't that basically impossible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a6e150c9",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.71,
+      "benevolence": 4.64,
+      "integrity": 4.54
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 4.57
+  }
+}

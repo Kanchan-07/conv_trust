@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! I want to order some food but I have no idea what I want. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me what kind of cuisine you're in the mood for? Anything you're definitely *not* in the mood for?",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.76,
+        "benevolence": 5.99,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, not Italian. I had pasta last night. Maybe something spicy? I'm also trying to be somewhat healthy, which is always a challenge when ordering out...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, spicy and healthy! How about Thai or Vietnamese? Both offer flavorful dishes with plenty of vegetables. I can also filter options based on calorie count if you'd like.",
+      "response_time": 5.24,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.58,
+        "benevolence": 5.4,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Vietnamese sounds good! But here's a tricky one: I'm allergic to peanuts. Is there any easy way to know if a Vietnamese restaurant near me is peanut-free, or at least has dishes that are easily made without peanuts?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question, and safety is our top priority. Unfortunately, I cannot guarantee a completely peanut-free environment at any restaurant. However, I can filter restaurants near you that have 'allergy information' listed on their websites or menus. I also recommend calling the restaurant directly to confirm that they can accommodate your allergy. Would you like me to filter for restaurants with allergy information available?",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.99,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please! That would be very helpful. Thanks, I appreciate it!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a1c4507c",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.52,
+      "benevolence": 5.79,
+      "integrity": 5.65
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 5.76,
+    "latency_score": 2.78
+  }
+}

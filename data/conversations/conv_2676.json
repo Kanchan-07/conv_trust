@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm staring at my resume again and I just feel like it's not strong enough for the jobs I'm applying for. Can you take a look and give me some pointers?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can certainly help you optimize your resume. Please share the document with me, and if possible, also mention the types of roles or specific job descriptions you are targeting. This will help me provide more tailored feedback.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.95,
+        "benevolence": 6.78,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's part of the problem. I'm applying for two *very* different types of jobs \u2013 one is a project management role and the other is more creative marketing. How on earth do I make one resume work for both without it looking totally schizophrenic? It feels impossible to highlight relevant experience for both effectively.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common challenge when targeting diverse roles. While a single resume can be difficult to tailor perfectly, you can focus on emphasizing transferable skills like communication, problem-solving, and organization. You might also consider having a flexible summary or objective section that you tweak slightly for each application.",
+      "response_time": 3.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.06,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I guess... but 'transferable skills' feels a bit generic, you know? Like, how do I show concrete achievements for both without making it three pages long? It's still confusing. Maybe focusing on tailoring the *cover letter* heavily is the better approach instead of trying to cram everything into the resume?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_bbb85278",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.57,
+      "benevolence": 5.42,
+      "integrity": 5.53
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.72,
+    "latency_score": 2.68
+  }
+}

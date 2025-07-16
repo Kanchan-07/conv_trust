@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm dealing with a really frustrating situation. My landlord is refusing to return my security deposit, claiming damages that weren't there when I moved out. I have photos from move-in day proving it. What are my rights?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Generally, landlords are required to return security deposits within a certain timeframe (this varies by state) and can only withhold funds for legitimate damages beyond normal wear and tear. Your photos are excellent evidence. You have the right to dispute these charges. I recommend sending a certified letter demanding the full deposit back, citing the move-in photos as proof. If that doesn't work, you may need to pursue a small claims court case.",
+      "response_time": 0.61,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.25,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. So, what constitutes 'normal wear and tear'? He's saying the minor scratches on the hardwood floor are damage, but they were barely noticeable!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Normal wear and tear generally refers to the expected deterioration of the property from normal use. Examples include fading paint, worn carpets, or minor scratches on floors. Significant damage, like large holes or broken appliances, is generally considered beyond normal wear and tear. Each state has different definitions though, so I'd advise checking your local housing regulations. The specific legal definition of 'normal wear and tear' might vary.",
+      "response_time": 2.36,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.95,
+        "benevolence": 2.24,
+        "integrity": 2.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. But here's the thing \u2013 he's also claiming I violated the lease by having a pet, even though it doesn't say anything about pets being prohibited in the lease agreement. How can he claim a violation when it's not even in the contract? Can he just make stuff up as he goes along? This whole thing is ridiculous!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "If the lease agreement doesn't prohibit pets, it would be difficult for him to enforce a pet-related violation unless there's a valid addendum or separate agreement. Generally, lease agreements are interpreted strictly, and any ambiguity is usually resolved in favor of the tenant. However, there may be local ordinances regarding pets that could apply even if not stated in the lease. He can't just retroactively add terms. It's still a good idea to check with a local attorney for specifics regarding your particular area.",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.72,
+        "integrity": 4.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9e2503a9",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.77,
+      "benevolence": 2.32,
+      "integrity": 2.48
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 2.83,
+    "latency_score": 5.72
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued by a former business partner, and I'm not sure what to do.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can provide general information about legal processes, but I am not a substitute for a lawyer. To help me guide you, could you please provide some details about the nature of the lawsuit, and what the claims are based on?",
+      "response_time": 3.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.36,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, it's a bit complicated. Basically, we had a disagreement about the ownership of the company's intellectual property after we dissolved the partnership. He's claiming I stole it, which is completely false! I'm so frustrated right now.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see. That sounds stressful. Generally, in intellectual property disputes, courts will look at documentation such as partnership agreements, invention assignments, and any evidence of who created or used the intellectual property. Are you able to locate the partnership agreement, or any other relevant documents?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.84,
+        "benevolence": 2.5,
+        "integrity": 2.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've got the partnership agreement, but it's kind of vague about the intellectual property ownership after dissolution. What happens if the agreement doesn't fully cover this? This is a really challenging question, isn't it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That is a very good question, and an area where the legal specifics can get complex. In the absence of clear language in the partnership agreement, a court would likely consider state and federal laws, prior practices of the partnership, and any evidence of who created the intellectual property. In most cases, this would include the consideration of written records as well as any available witness testimony. I highly recommend consulting with an attorney experienced in intellectual property and business law. They can assess the specific details of your situation and advise you on the best course of action.",
+      "response_time": 5.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.47,
+        "integrity": 5.63
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. Thanks, that's actually quite helpful. I'll definitely look into finding a lawyer.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3331b44d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.06,
+      "benevolence": 4.11,
+      "integrity": 4.04
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.95,
+    "latency_score": 3.68
+  }
+}

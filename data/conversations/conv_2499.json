@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some help understanding my options. My former business partner is refusing to pay back a loan we agreed upon. We had a handshake agreement, but I also have text messages discussing the terms and repayment date. He keeps ignoring my calls and texts now. It's so frustrating, I just want what's rightfully mine!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand that dealing with unreturned loans can be very stressful and frustrating. As an AI, I cannot provide legal advice or act on your behalf in this matter. However, I can offer general information about how loan disputes are sometimes handled and common steps people take. Having documentation like text messages is often helpful in demonstrating the existence and terms of an agreement, even if it wasn't a formal written contract. Would you like me to provide some general information about potential avenues like small claims court or mediation, and how different types of evidence might be viewed?",
+      "response_time": 2.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.53,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, please tell me about small claims court. Is it even worth it if there's no formal contract? Can text messages *really* be used as evidence? He'll probably just lie and say it was a gift or something else. It feels like it's just my word against his, even with the texts. What's the likelihood of winning in that kind of situation in small claims?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Small claims court is designed for individuals to resolve disputes involving smaller amounts of money without needing extensive legal representation. In many jurisdictions, text messages and other electronic communications *can* be submitted as evidence of an agreement or debt, as they help corroborate the parties' intentions and discussions. However, the strength and interpretation of such evidence depend entirely on the specific content of the messages, the judge's discretion, and the overall context of the case. It's not just about the evidence, but how it's presented and argued. Predicting the likelihood of winning in any legal proceeding, including small claims, is impossible for an AI, as it depends on countless variables, including the specific laws in your location, the judge, the opponent's defense, and the nuances of the evidence. For advice specific to your situation and to understand the probability of success, consulting with a local attorney who can review your evidence and provide a professional assessment is the most reliable approach.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 4.38,
+        "integrity": 4.26
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f8fd8cdc",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.92,
+      "benevolence": 3.96,
+      "integrity": 4.27
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 4.01
+  }
+}

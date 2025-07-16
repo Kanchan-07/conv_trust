@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. I usually run about 5 miles, three times a week.  Can you recommend anything?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your running frequency and distance, I can recommend a few options.  First, the Nike ZoomX Invincible Run Flyknit 3 is a good choice for cushioning and comfort. Then there's the Brooks Glycerin 20, also known for its cushioning. Finally, the Hoka Clifton 9 is a great option as well, known for its lightweight feel.  Would you like me to tell you about the key features of each shoe?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.04,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, those all sound good. The problem is, I have really wide feet. Do any of those come in a wide size? I get so frustrated when I have to order shoes online and then return them because they don't fit.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "My apologies, I did not filter by width. The Brooks Glycerin 20 and Hoka Clifton 9 both come in wide sizes. The Nike ZoomX Invincible Run Flyknit 3 *may* be available in wide sizes, but it's a bit difficult to verify the current availability. You would need to check on the specific retailer's website to confirm. To be absolutely certain about the fit, I would recommend checking out a local running store where you can get fitted.",
+      "response_time": 4.14,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.94,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks! I'm leaning towards the Brooks then, since both size options are readily available.  What's the main difference between the Glycerin 20 and the Hoka Clifton 9, from a runner's perspective?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c4171b25",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.49,
+      "integrity": 4.72
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.48,
+    "latency_score": 3.47
+  }
+}

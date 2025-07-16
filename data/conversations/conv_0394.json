@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having this persistent cough for about three weeks now and I'm starting to get worried. It's mostly dry, but sometimes I cough up a little phlegm. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand you've been experiencing a cough for three weeks. To better understand your situation, could you tell me if you have any other symptoms like fever, shortness of breath, chest pain, or fatigue?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.22,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I've been feeling a bit tired, yeah, but I assumed that was just from not sleeping well because of the coughing. No fever or chest pain, though, and my breathing is fine. Honestly, this is so annoying!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. A cough lasting three weeks with fatigue could indicate several possibilities, such as a post-viral cough, allergies, or even, less commonly, something else. Have you recently had a cold or flu?",
+      "response_time": 3.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.04,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I had a bit of a sniffle a month ago, but nothing major. Allergies? I've never had allergies before, so I doubt it. Is there anything I can do to make it stop? This constant coughing is driving me nuts!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You could try over-the-counter cough suppressants or expectorants to ease the symptoms. Increasing your fluid intake and using a humidifier might also help. If symptoms worsen or don't improve within a week, consult a doctor.",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.82,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A week?! Seriously? Is there *anything* that works faster? What about honey and lemon? My grandma always swore by that.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Honey and lemon can be soothing for a sore throat and may provide some relief from the cough as well. It's a safe and often effective home remedy. However, it won't necessarily cure the underlying cause of the cough, just alleviate the symptoms. Also, avoid giving honey to children under one year of age.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.34,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks. So, just to be clear, you can't actually tell me *what* is causing the cough, just ways to deal with it? What's the point of this then? Sorry, I'm just frustrated.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. As an AI, I cannot provide a diagnosis. My purpose is to offer general information and potential remedies based on the symptoms you've described. The best course of action for a definitive diagnosis and treatment plan is to consult with a qualified healthcare professional. I hope you feel better soon.",
+      "response_time": 1.4,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.02,
+        "benevolence": 2.46,
+        "integrity": 2.22
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_418ea7df",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.39,
+      "benevolence": 3.53,
+      "integrity": 3.49
+    },
+    "engagement_score": 5.78,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "disgust": 2,
+      "surprise": 1,
+      "anger": 2
+    },
+    "response_quality_score": 3.16,
+    "latency_score": 5.04
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help finding a hotel for my next trip.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To get started, could you please tell me the destination, your desired check-in and check-out dates, and how many adults will be staying?",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 6.0,
+        "benevolence": 5.19,
+        "integrity": 5.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's for New York City. I'm looking for dates from October 15th to October 19th this year, just for one adult. I'd ideally like something in Midtown.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, New York City, Midtown, from October 15th to 19th for one adult. Let me search for options. I've found a few hotels in the area. There's the [Hotel Name 1] with rooms starting at $350/night, the [Hotel Name 2] around $400/night, and the [Hotel Name 3] starting at $300/night. Would any of these interest you?",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.62,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, those prices are a bit higher than I hoped. And I really need a hotel that has free breakfast and is within, like, a 10-minute walk of Times Square. Can you filter for hotels under $300 a night that meet *both* those requirements? This is getting frustrating.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration with the prices. Finding hotels under $300 a night in Midtown Manhattan with free breakfast and very close proximity to Times Square for those dates can be challenging. My search results indicate limited availability meeting *all* those specific criteria simultaneously within that budget. However, I can show you options that are either slightly over $300 with free breakfast and close to Times Square, or under $300 but might require a slightly longer walk or not include free breakfast. Which compromise would you prefer to explore?",
+      "response_time": 3.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.62,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait, really? No options under $300 with free breakfast *and* near Times Square at all? That doesn't seem right. Can we just forget the free breakfast for a second? Just show me hotels under $300 within a 15-minute walk of Times Square. Maybe broadening the walking distance helps?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, let's adjust the criteria. Searching for hotels under $300 per night within a 15-minute walk of Times Square from October 15th to 19th for one adult. Yes, expanding the walking distance does yield more results. I found the [Hotel Name 4] (approx. 12-min walk, around $280/night), and the [Hotel Name 5] (approx. 15-min walk, around $295/night). These are within your budget and walking distance preference. Would you like to know more about either of these?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.56,
+        "integrity": 4.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d4c10f1e",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 4.5,
+      "integrity": 4.94
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.79,
+    "latency_score": 3.97
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm feeling really lost about my career. I graduated with a degree in History, and I've been working odd jobs ever since. I have no idea what I want to do!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel that way, especially after graduation. Many people find their path takes unexpected turns. To help me guide you, could you tell me a little more about what you enjoy doing, what skills you think you have, and what kind of work environment you prefer?",
+      "response_time": 4.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.43,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I enjoy research and writing, obviously, given my degree. I'm also pretty good at problem-solving and I'm detail-oriented. I guess I'd prefer a job where I'm not stuck at a desk all day. I hate feeling confined. Honestly, I've looked at so many job postings, I'm just overwhelmed and confused.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, research, writing, problem-solving, detail-oriented, and a preference for not being confined to a desk. Considering your History degree, perhaps roles like Archivist, Historian (though that often requires further education), or even a Researcher for a non-profit organization might be worth exploring. Have you considered anything in the museum field?",
+      "response_time": 3.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.58,
+        "integrity": 3.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Museum work? I hadn't really thought about it. But isn't it incredibly competitive? And don't most of those jobs require specific museum studies degrees? It just feels like I'm already behind the curve. I'm just so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It's true that museum jobs can be competitive, and some roles require specialized degrees. However, your History background provides a solid foundation. There are various roles, such as education outreach, collections management (depending on specific requirements), or even grant writing, where your skills would be valuable. Let's look at some entry-level museum positions and see what their specific requirements are. Would you like me to search for those in your general geographic area?",
+      "response_time": 3.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.58,
+        "benevolence": 5.38,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please! That would be incredibly helpful. Even just knowing what to *search* for is a big step. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f89daa4",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.89,
+      "benevolence": 4.8,
+      "integrity": 5.12
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "fear": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.79,
+    "latency_score": 3.49
+  }
+}

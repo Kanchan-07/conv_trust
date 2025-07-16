@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from New York to Los Angeles, sometime next week. I'm flexible, but ideally leaving after Monday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To clarify, you're looking for a one-way or roundtrip flight from New York to Los Angeles, departing sometime after Monday next week? Do you have any specific dates or times in mind, or any preferred airlines?",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.27,
+        "integrity": 3.85
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Roundtrip, please. And no, no specific dates, just sometime after Monday. As for airlines, I generally prefer United or Delta, but I'm open to others if the price is right. And I'd like to return the following week, before the weekend.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I am searching for roundtrip flights from New York to Los Angeles departing between Monday, October 30th, and Tuesday, October 31st, returning before Saturday, November 4th, with a preference for United or Delta. Let me see what I can find.",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.66,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks! This booking process is always so stressful. I appreciate the help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I have found several options. One option is a United flight departing Tuesday, October 31st at 10:00 AM, and returning Friday, November 3rd at 2:00 PM. The total cost is $450. Would you like to see other options?",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 4.33,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. $450 seems a bit high. Are there any flights leaving on Wednesday instead, perhaps a bit later in the day? And could you check Southwest as well? I know they don't always show up on these searches.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, searching for flights departing Wednesday, November 1st, later in the day, and including Southwest as an option. I will be right back.",
+      "response_time": 3.23,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.98,
+        "benevolence": 3.82,
+        "integrity": 3.82
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Perfect. While you're at it, what is the carbon footprint of those flights you just showed me, compared to taking the train? I'm trying to be a little more environmentally conscious.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ae104298",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.96,
+      "benevolence": 4.02,
+      "integrity": 3.93
+    },
+    "engagement_score": 4.35,
+    "emotion_distribution": {
+      "neutral": 8,
+      "joy": 1
+    },
+    "response_quality_score": 3.99,
+    "latency_score": 4.14
+  }
+}

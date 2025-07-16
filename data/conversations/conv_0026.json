@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having really bad headaches for the past week, almost every day. They're really affecting my ability to concentrate at work.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand you're experiencing frequent headaches that are impacting your concentration. To help me understand the situation better, could you describe the nature of the headaches? For example, where do you feel the pain, what does it feel like (throbbing, constant pressure, etc.), and what seems to trigger them?",
+      "response_time": 3.63,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.8,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, it's mostly behind my eyes and in my temples. It feels like a throbbing pressure, and honestly, I don't know what triggers them. I've tried drinking more water, but it doesn't seem to help. Maybe it's stress? I'm just so frustrated; I can't get anything done.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Throbbing pressure behind the eyes and in the temples can certainly be related to stress or tension headaches. Since hydration isn't helping, other factors could be involved. Are you getting enough sleep? Are you spending long hours looking at screens? Have you tried any over-the-counter pain relievers?",
+      "response_time": 1.53,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.91,
+        "benevolence": 2.42,
+        "integrity": 2.55
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Sleep has been awful, maybe 6 hours a night. And yes, I'm staring at a screen all day for work. I've taken ibuprofen, but it only helps for a couple of hours. Is it possible this could be something serious, like a tumor? I read something online about that, and now I'm worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "While it's understandable to be concerned about serious possibilities, frequent headaches are rarely caused by tumors. However, given your symptoms and the limited relief from ibuprofen, I strongly recommend scheduling an appointment with your primary care physician. They can conduct a thorough examination and determine the underlying cause of your headaches. They may also suggest other treatments or further testing if needed.",
+      "response_time": 5.55,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.22,
+        "benevolence": 5.46,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I guess that makes sense. I was hoping you could just tell me what to do, but I understand. Before I go, is there anything *else* I can try in the meantime, just to help with the pain until I see a doctor?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, of course. Until you see your doctor, try to prioritize getting more sleep \u2013 aim for 7-8 hours. Take breaks from screens every 20 minutes using the 20-20-20 rule (look at something 20 feet away for 20 seconds). Gentle neck stretches and relaxation techniques like deep breathing or meditation might also provide some relief. Avoid caffeine and alcohol, as these can sometimes trigger headaches. However, it is crucial to follow up with your doctor for a proper diagnosis and treatment plan.",
+      "response_time": 4.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.18,
+        "integrity": 5.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f04485fb",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.47,
+      "benevolence": 4.21,
+      "integrity": 4.31
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "sadness": 1,
+      "fear": 3,
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.46,
+    "latency_score": 3.7
+  }
+}

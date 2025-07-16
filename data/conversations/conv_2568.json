@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help with a package delay. My tracking number is 987654321. It was supposed to arrive yesterday, but the status hasn't updated in three days.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand you're concerned about the delay with tracking number 987654321. Let me look into that for you. [simulates lookup] Thank you for waiting. Our system shows the last scan for this package was on [Date] in [Location], status: In Transit.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.39,
+        "benevolence": 1.19,
+        "integrity": 1.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, 'In Transit' is what it's said for three days. That's not helpful. It's already a day late. *Why* hasn't it updated, and when will it *actually* get here? I really need this item.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the lack of recent updates and the inconvenience this delay is causing. While the 'In Transit' status usually indicates the package is moving through the network, delays can occur due to various factors like weather, volume, or operational issues. We don't have specific details on the cause for each individual package. Based on the current information, we cannot provide a new estimated delivery date at this moment, as it depends on when the package receives its next scan.",
+      "response_time": 2.06,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.03,
+        "benevolence": 2.82,
+        "integrity": 2.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "So you're saying there's nothing you can do or tell me right now? That's pretty frustrating. How long do I have to wait before you *can* do something, like investigate or reship it? I can't just wait indefinitely.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_db0f47b9",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.71,
+      "benevolence": 2.0,
+      "integrity": 1.94
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 1.29,
+    "latency_score": 6.22
+  }
+}

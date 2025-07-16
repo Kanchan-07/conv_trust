@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand a charge on my recent bill. It seems higher than usual.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your account number so I can look into the details?",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.9,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 1234567890. I'm looking at the bill now, and there's a charge for 'Premium Service' that I don't recognize. I didn't sign up for anything like that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I've located your account and the charge in question. It appears the Premium Service was added on the 15th of last month. I can see the date and time. Can you confirm if someone in your household might have added it?",
+      "response_time": 5.44,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.65,
+        "benevolence": 6.83,
+        "integrity": 6.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, absolutely not. I'm the only one who uses the account. This is ridiculous! How can I get this removed and get a refund?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I've reviewed the details and it looks like it was added through the website. I can certainly remove the charge and issue a refund for the current month. Regarding the previous month, I would need to confirm a few things. Can I get the email and IP address associated with the addition?",
+      "response_time": 0.61,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.1,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's great. I'm happy that you can help with the current month, but I want the previous month's refund too. You said it was added through the website... Is there a record of the IP address and email address used for the 'add' event? How do I know someone wasn't just hacking into my account?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly provide that information. The IP address associated with the change is [REDACTED] and the associated email is [REDACTED]. We take account security seriously and are happy to review and see if there was any malicious activity associated with the addition. I will need to create a security ticket, and it may take up to 48 hours to review, and then get back to you.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.66,
+        "integrity": 6.99
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that sounds good. Please let me know the results of the security ticket review. I appreciate the help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b15d7a2e",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.96,
+      "benevolence": 5.12,
+      "integrity": 5.11
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 2,
+      "joy": 2
+    },
+    "response_quality_score": 5.54,
+    "latency_score": 3.58
+  }
+}

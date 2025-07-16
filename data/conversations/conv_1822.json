@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from Chicago to Miami on the 27th of this month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Can you confirm the departure month and year? Also, do you have a preferred airline or time of day you'd like to fly?",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 4.42,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, sorry, it's the 27th of *this year*, so the 27th of October. And no, no preferred airline or time. Just the cheapest option, please!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for the cheapest flights from Chicago (ORD) to Miami (MIA) on October 27th. One moment... Okay, I see several options. The cheapest is a Spirit Airlines flight departing at 6:00 AM for $79. Then there's United at 9:00 AM for $119. Any of these sound good?",
+      "response_time": 3.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 4.41,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Spirit at 6 am? Seriously? Okay, I guess the price is right... but what's the baggage allowance? And can I even *trust* Spirit to get me there on time?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The baggage allowance is quite limited with Spirit, I'd have to look that up. As for reliability, there have been some reports of delays. I am not able to give you advice about airlines. I suggest you look at other sites for customer reviews before making a decision. Would you like me to proceed with booking this flight or would you like to explore other options? ",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.78,
+        "integrity": 4.33
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I think I'll look at other options. Show me what United has available, please. And I'd like to see some other airlines too.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0b86ec9b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.64,
+      "benevolence": 4.2,
+      "integrity": 3.99
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.87,
+    "latency_score": 3.97
+  }
+}

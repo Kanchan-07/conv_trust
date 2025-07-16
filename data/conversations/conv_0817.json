@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm starving. I want to order some food, but I have absolutely no idea what I want. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, could you tell me what kind of cuisine you're in the mood for? Or any dietary restrictions you might have?",
+      "response_time": 3.26,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.29,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good point. I'm not feeling anything too heavy. Something relatively healthy, and I guess Asian? But not specifically Chinese, I had that last night. This is harder than I thought!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on that, I recommend checking out Vietnamese or Thai. Both cuisines offer many delicious and relatively healthy options. Do you have a preference between those two, or would you like me to suggest specific dishes?",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 3.73,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, Thai sounds good. But here's a tough one: what's the most *authentic* Thai dish I can get delivered in my area? I'm tired of the watered-down stuff.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Authenticity can be subjective, but based on user reviews and menu descriptions that highlight traditional ingredients, I'd recommend looking for Gaeng Keow Wan Gai (Green Curry Chicken) or Pad See Ew from restaurants with a high rating for their Thai chefs and positive feedback on spice levels. I can filter restaurants by those criteria for you. Would you like me to do that?",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.18,
+        "benevolence": 5.32,
+        "integrity": 5.02
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_02d08fd4",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.12,
+      "benevolence": 4.78,
+      "integrity": 4.87
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.94,
+    "latency_score": 3.74
+  }
+}

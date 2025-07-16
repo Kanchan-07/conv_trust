@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Smith. I'm free anytime next week.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check Dr. Smith's availability for next week. Unfortunately, her schedule is quite full. The earliest available appointment is on Thursday at 2:30 PM. Would that work for you?",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.87,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, Thursday at 2:30 PM is not ideal. I have a meeting then. What other times are available that week, or perhaps the following week?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me check the following week... Okay, I see openings on the following Tuesday and Wednesday. Tuesday at 10:00 AM or Wednesday at 3:00 PM. Also, please note: If you are a new patient, this is scheduled for a 45-minute appointment. If you are an existing patient, this appointment is scheduled for 30 minutes. Which would you prefer?",
+      "response_time": 3.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.15,
+        "integrity": 4.2
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm a returning patient. Wednesday at 3:00 PM sounds good. One more question: How do I access my medical records after the appointment? Do I need a patient portal, or is there another way?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f55812af",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 4.01,
+      "integrity": 4.25
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 3.59,
+    "latency_score": 3.59
+  }
+}

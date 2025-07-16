@@ -1,0 +1,121 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some legal advice. I think I was wrongly terminated from my job.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can provide general information, but I am not a substitute for an attorney. To best assist you, could you please tell me a bit more about the situation? Specifically, what was your job, and when did the termination occur?",
+      "response_time": 3.11,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.25,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I was a software engineer, and I was fired last week. They said it was due to 'restructuring', but I think it was because I complained about some illegal business practices.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That sounds potentially like a wrongful termination case. Generally speaking, employers are not allowed to fire employees in retaliation for reporting illegal activities. In some jurisdictions, this is known as 'whistleblower protection.' To assess your case better, can you provide evidence of your report to the management?",
+      "response_time": 0.6,
+      "emotion_detected": "disgust",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.33,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I emailed my concerns to my manager, but I don't have any hard evidence. I also heard from a coworker that they destroyed my email. What are my options now? This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While the absence of concrete evidence weakens your case, it doesn't necessarily eliminate it. Depending on your jurisdiction, there might be options. For example, you could still try to subpoena records or depose your former manager and coworkers. However, these actions would require a lawyer. I suggest that you speak to an attorney to discuss these options further.",
+      "response_time": 2.25,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.82,
+        "benevolence": 2.72,
+        "integrity": 2.61
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Subpoena? Depose? Okay, this is getting a bit confusing. What are the potential financial outcomes if I were to win this case? I'm mostly worried about the money.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a good question. Financial outcomes vary significantly depending on the specifics of your case and the jurisdiction. Generally, you could potentially recover lost wages, benefits, emotional distress damages, and sometimes even punitive damages. However, I can't provide an estimate without knowing the specifics of your employment contract, the laws in your location, and the evidence available. The amount could range from a few thousand to hundreds of thousands of dollars. It's crucial to discuss this with an attorney.",
+      "response_time": 3.16,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.43,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that's helpful. Thank you for clarifying things. I'll definitely consult with a lawyer. I feel much better now that I have a clearer idea of my options.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_48444f22",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 3.02,
+      "benevolence": 3.18,
+      "integrity": 3.04
+    },
+    "engagement_score": 5.35,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 2,
+      "disgust": 1,
+      "sadness": 1,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.68,
+    "latency_score": 5.22
+  }
+}

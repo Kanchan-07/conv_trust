@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My new wireless earbuds aren't charging properly. I've left them in the case overnight, and they're still dead. I just got these yesterday, this is so annoying!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I'm sorry to hear you're having trouble with your new earbuds. That must be frustrating. Let's try a couple of simple things. Can you confirm the charging case itself has power? Is the indicator light on the case illuminated or blinking when plugged in?",
+      "response_time": 1.54,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.23,
+        "benevolence": 2.97,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, the case lights up blue when I plug it in, and it says it's fully charged. The problem is the earbuds inside. I've tried taking them out and putting them back in multiple times, making sure they're seated correctly. I read online that sometimes the charging contacts get dirty or have a manufacturing defect, is that a common issue with this model, and what can I do about it myself?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing that detail. While it's less common with brand new units, issues with charging contacts can occur. For troubleshooting, ensure the contacts on both the earbuds and inside the case are clean and free of debris. You can gently wipe them with a dry, soft cloth or a cotton swab. If cleaning doesn't resolve the issue, and given you just received them, it's possible there's a defect. In that case, we would need to proceed with a warranty replacement. Have you tried cleaning the contacts?",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.46,
+        "integrity": 5.23
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8fa827a9",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.73,
+      "benevolence": 4.21,
+      "integrity": 3.93
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "surprise": 1,
+      "sadness": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 4.14,
+    "latency_score": 4.77
+  }
+}

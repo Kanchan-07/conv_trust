@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm feeling so lost! I've been working in marketing for 5 years, but I'm just not passionate about it anymore. I don't even know where to start looking for something else.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel that way after a few years in a role. Let's start by identifying your strengths and interests. What are some things you genuinely enjoy doing, both inside and outside of work? Think about activities where you lose track of time.",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.21,
+        "integrity": 5.02
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay... I like problem-solving, I'm pretty good at analyzing data, and I enjoy teaching others. But how do I turn that into a career? I mean, it feels like everything requires specific qualifications that I don't have. I'm starting to feel overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your interests, roles like data analyst, business intelligence analyst, or even instructional designer could be a good fit. Many companies offer on-the-job training or are willing to invest in employees who demonstrate a strong aptitude and willingness to learn. Would you like me to help you research common qualifications for these roles and identify any skills gaps we can address with online courses or workshops?",
+      "response_time": 3.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.59,
+        "integrity": 6.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8c53ab92",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.4,
+      "integrity": 5.51
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.24,
+    "latency_score": 3.71
+  }
+}

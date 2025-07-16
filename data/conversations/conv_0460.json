@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some good movies? I'm in the mood for something, but I'm not sure what.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, what genre are you interested in? Comedy, action, drama, sci-fi, horror...?",
+      "response_time": 4.96,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.01,
+        "benevolence": 5.6,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm leaning towards sci-fi. But not something too cheesy, you know? Something thought-provoking.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. For thought-provoking sci-fi, I would recommend 'Arrival' or 'Blade Runner 2049'. Both are visually stunning and explore complex themes.",
+      "response_time": 3.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.63,
+        "benevolence": 3.58,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I've seen Blade Runner 2049, loved it! Arrival sounds interesting, but are there any others that are maybe a little less mainstream? I always feel like I've missed something good that isn't super popular.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me see. How about 'Coherence'? It's a lower-budget indie sci-fi film that deals with alternate realities and quantum mechanics. It's known for being quite mind-bending.",
+      "response_time": 3.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.01,
+        "benevolence": 4.33,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising! But how do you actually *know* which movies are 'thought-provoking' and 'mind-bending'? Is it just based on reviews, or is there some deeper analysis you can do?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! My recommendations are based on a combination of factors, including user reviews, critical acclaim, thematic analysis using natural language processing to identify keywords associated with philosophical or complex concepts, and collaborative filtering based on viewing patterns of users with similar preferences. Essentially, I learn from a vast dataset of movie information and viewer feedback to identify films that are likely to resonate with your specific criteria. Does that make sense?",
+      "response_time": 5.43,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.9,
+        "integrity": 6.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_130989ec",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.91,
+      "benevolence": 5.1,
+      "integrity": 5.14
+    },
+    "engagement_score": 5.67,
+    "emotion_distribution": {
+      "neutral": 5,
+      "fear": 1,
+      "joy": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 5.39,
+    "latency_score": 3.16
+  }
+}

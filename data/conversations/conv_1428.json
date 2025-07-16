@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help with my resume. I'm applying for software engineering roles and I haven't updated my resume in a while.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with that. To start, could you please provide me with the current version of your resume? Also, what kind of software engineering roles are you targeting (e.g., front-end, back-end, full-stack)?",
+      "response_time": 5.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.36,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded my current resume. I'm mostly looking at full-stack positions. Honestly, I'm a little frustrated because I've been applying to jobs for weeks and haven't gotten any callbacks.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks! I've reviewed your resume. It looks like there are a few areas we can improve to make it more appealing to recruiters and hiring managers. Specifically, we can focus on quantifying your accomplishments with numbers whenever possible, tailoring your skills section to match the job descriptions, and strengthening your project descriptions by highlighting technologies used. Would you like me to start by suggesting some improvements to the skills section?",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.24,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! I'm not sure how to quantify my accomplishments, though. Can you give me some examples?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly! Instead of just saying you 'Improved website performance', you could say 'Improved website loading speed by 30% by optimizing code and implementing caching strategies.'  For project descriptions, show me an example of your strongest project and I'll show you how it could be improved.",
+      "response_time": 4.4,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. What if I worked on a project where I didn't personally implement any new features, but my work was mainly debugging and fixing bugs? How do I show value there?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! In that scenario, you can highlight the impact of your debugging efforts. For example, instead of just saying 'Fixed bugs', you could say, 'Identified and resolved critical bugs, resulting in a 15% reduction in reported errors and improved user satisfaction scores by 10%.' Quantify the improvements. Also, mention the tools and methods you used for debugging (e.g., 'Utilized debugging tools like X and Y to identify and resolve...').",
+      "response_time": 5.09,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.35,
+        "integrity": 5.42
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3988c645",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.75,
+      "benevolence": 5.74,
+      "integrity": 5.87
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 1
+    },
+    "response_quality_score": 6.02,
+    "latency_score": 2.8
+  }
+}

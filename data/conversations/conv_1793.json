@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from Chicago to London, preferably sometime next month.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Could you please specify the dates you'd like to travel? And are you flexible with the dates?",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.05,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'd like to fly out around October 15th and return around October 25th. I'm flexible by a day or two on either side, but no more.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. One moment while I check for flights. Okay, I've found a few options. There's a direct flight on the 15th with United for $850, and another with British Airways on the 16th for $900. For the return, there are several on the 25th, starting at $780. Would you like me to proceed with booking?",
+      "response_time": 2.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 4.05,
+        "integrity": 3.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wait, $850 and $900? That seems really expensive! Are there any cheaper options? And what are the baggage fees like?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, I am unable to provide real-time baggage fee information. However, I can tell you that prices fluctuate based on availability and time of booking. Let me check for alternative options. Unfortunately, the cheapest flights I can find on those dates are still around the prices I quoted. You could consider flying on the 14th instead of the 15th, as that's a bit cheaper.",
+      "response_time": 3.67,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.83,
+        "integrity": 3.86
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, this is frustrating. Okay, what about flights on the 14th? And can you tell me which airlines offer the best in-flight entertainment options? I'm going to be on that plane for a while.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. The flights on the 14th are slightly cheaper, around $790-$830. Regarding in-flight entertainment, that information varies significantly. I recommend checking the airline's website directly for that information. However, I can tell you that British Airways and United generally offer a decent selection.",
+      "response_time": 2.75,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.87,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. Thanks! I think I'll look at those British Airways flights on the 14th. Can you send me a link to their website?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e3277b29",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.85,
+      "benevolence": 3.95,
+      "integrity": 3.94
+    },
+    "engagement_score": 5.4,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "surprise": 1,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.01,
+    "latency_score": 4.58
+  }
+}

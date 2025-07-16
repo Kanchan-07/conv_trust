@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #749205. It was supposed to arrive three days ago and I haven't received it yet. I'm getting a bit worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. I understand your concern regarding order #749205. Please allow me a moment to access the tracking information.",
+      "response_time": 5.93,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.7,
+        "benevolence": 6.84,
+        "integrity": 6.68
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I tried tracking it myself but the last update was from four days ago saying it was in transit. That's not very helpful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see that the package is currently delayed due to unforeseen circumstances at our regional sorting facility. It appears to be experiencing higher than usual volume. I'm very sorry for the inconvenience.",
+      "response_time": 2.19,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.47,
+        "benevolence": 2.45,
+        "integrity": 2.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? Seriously? That's all you can tell me? Can you at least give me an estimate of when I can expect it? I needed those items for a presentation tomorrow!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me see... I can't provide an exact delivery date at this moment. However, I can escalate this to our shipping department for priority handling. Would you like me to do that?",
+      "response_time": 1.51,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.53,
+        "benevolence": 2.84,
+        "integrity": 2.62
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please! And what does 'priority handling' even mean in this case? Will someone actually look for my package or is that just a fancy term for doing nothing?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Of course. 'Priority handling' means that a team member will manually check on the status of your package and attempt to expedite the shipping process. They will also provide me with updates within 24-48 hours, which I will then relay to you via email. Does that sound acceptable?",
+      "response_time": 3.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.83,
+        "integrity": 3.54
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_16c7f66d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.92,
+      "benevolence": 3.99,
+      "integrity": 3.87
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 2,
+      "sadness": 1,
+      "surprise": 1,
+      "anger": 2
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 4.3
+  }
+}

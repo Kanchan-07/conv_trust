@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle painting my living room. I'm thinking a light grey, but there are like a million different shades. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Choosing the right grey can be tricky! To give you the best recommendation, could you describe the lighting in your living room? Is it mostly natural light, artificial light, or a mix? Also, what's the general style of the room - modern, traditional, etc.?",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.41,
+        "integrity": 5.02
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's mostly natural light, but it's a north-facing room, so it's not super bright. And the style is kind of modern-ish, I guess? I have a lot of plants.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for a north-facing room with modern elements, I would suggest a warm light grey like Benjamin Moore's \"Revere Pewter\" or Sherwin-Williams' \"Agreeable Grey.\" These have subtle warm undertones that will prevent the room from feeling too cold. I recommend getting samples and testing them on your walls before committing.",
+      "response_time": 2.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.5,
+        "integrity": 3.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But what about the trim? Should I just go with plain white, or try something different? I'm so indecisive!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "A crisp white trim is always a safe bet and will complement a light grey wall nicely. Consider using a semi-gloss or gloss finish for the trim for durability and to create a subtle contrast. Popular choices include Sherwin-Williams' \"Pure White\" or Benjamin Moore's \"White Dove.\"",
+      "response_time": 4.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.53,
+        "integrity": 5.97
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, great. Now, here's the real challenge. My walls have this slightly textured finish. Should I try to sand it down before painting, or just paint over it? I'm worried sanding will be a huge pain.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Whether to sand down the textured finish depends on the type of texture and your desired outcome. Light textures can often be painted over with a high-quality primer and paint, but heavier textures may require sanding or skimming with joint compound for a smoother finish. Sanding can be messy, but it's often necessary for optimal results. Consult a professional painter for a definitive answer based on your specific wall texture.",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 4.4,
+        "integrity": 4.17
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_892107e3",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.94,
+      "benevolence": 4.96,
+      "integrity": 4.78
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "neutral": 6,
+      "fear": 2
+    },
+    "response_quality_score": 4.46,
+    "latency_score": 3.94
+  }
+}

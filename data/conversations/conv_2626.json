@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need a new vacuum cleaner, but my budget is pretty tight. Can you show me some options under $150?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Finding a good vacuum under $150 is definitely possible. Here are a few highly-rated models that fit within that price range: Bissell CleanView Swivel, Dirt Devil Simpli-Stik, and VonHaus 2-in-1 Stick Vacuum. These are popular choices for general cleaning.",
+      "response_time": 5.65,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.61,
+        "integrity": 6.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, Simpli-Stik? Isn't that just for tiny apartments? I have a small house, mostly hardwood floors but a couple of rugs. I'm worried those cheap ones won't actually pick anything up. What about suction power? How do I know if any of these actually *work* on a rug without just pushing dirt around? This is frustrating.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern about performance, especially on different floor types. While the Simpli-Stik is more basic, models like the Bissell CleanView Swivel are specifically designed with multi-surface capabilities and stronger suction for carpets and rugs, despite being in the lower price range. Suction power isn't always listed directly in standard specs, but we can look at customer reviews which often mention effectiveness on carpets. The VonHaus 2-in-1 is better suited for hard floors. We can narrow down the recommendations if you'd like to prioritize performance on rugs.",
+      "response_time": 2.97,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.9,
+        "integrity": 4.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_010511a4",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.42,
+      "benevolence": 5.25,
+      "integrity": 5.56
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.3,
+    "latency_score": 3.19
+  }
+}

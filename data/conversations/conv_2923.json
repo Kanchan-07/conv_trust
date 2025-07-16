@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I feel totally lost when it comes to financial planning. There's so much information out there, and I don't even know where to start. It's really overwhelming.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "It's completely understandable to feel overwhelmed by financial planning. We can break it down together. To get started, what are your main financial goals or concerns right now?",
+      "response_time": 1.37,
+      "emotion_detected": "surprise",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.37,
+        "benevolence": 2.05,
+        "integrity": 2.57
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I want to save for retirement, but I also have some credit card debt and student loans. I'm confused about what I should focus on first. Do I prioritize paying off debt or saving for retirement?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a common dilemma. Generally, it's often recommended to tackle high-interest debt, like credit cards, first because the interest rates can outweigh investment returns. However, it's also important to contribute enough to your retirement plan, especially if your employer offers a match, as that's free money. A balanced approach often involves focusing on high-interest debt while contributing at least enough to get the full employer match on retirement savings.",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 4.24,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes some sense. But what about investing for retirement *beyond* the match? And how do I even choose *how* to invest? There are stocks, bonds, funds... it's so confusing. And I keep seeing conflicting advice online - some say pay off *all* debt before investing, others say invest aggressively young. I'm just frustrated by all the noise!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Navigating investment options can indeed be complex, and different strategies suit different individuals based on their age, risk tolerance, and overall financial situation. Choosing specific investments involves understanding concepts like diversification, asset allocation, and your personal comfort level with risk. While paying off debt is crucial, especially high-interest debt, starting to invest early can benefit from compounding. For detailed investment advice and help tailoring a strategy specifically to your circumstances, consulting with a qualified financial advisor is highly recommended.",
+      "response_time": 4.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.82,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So you can't really tell me *how* to invest or if I should definitely pay off all debt before putting more into retirement than the match? It sounds like I still need to figure out a lot or talk to a person. It's just hard to know who to trust and where to get specific, actionable steps for *my* situation.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_35a3b28d",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.05,
+      "benevolence": 4.04,
+      "integrity": 3.77
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "sadness": 1,
+      "surprise": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.23,
+    "latency_score": 4.12
+  }
+}

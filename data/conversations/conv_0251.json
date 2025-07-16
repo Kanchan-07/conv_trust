@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a charge on my latest bill. I was charged $150, but my usual monthly fee is only $100. I'm very confused.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello, I understand you're inquiring about a billing discrepancy. Can I get your account number or the phone number associated with the account, please?",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.03,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 555-123-4567.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I pull up your account. Okay, I see the charge here. It looks like you were charged for a premium movie channel subscription that was added on the 15th of last month. Did you or anyone in your household request to add a movie channel?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "No, absolutely not! I would never pay extra for channels. I'm already paying enough. How could this happen?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Sometimes promotional offers are accidentally added. To resolve this, I will remove the premium movie channel subscription from your account immediately. You will see the credit applied on your next bill. Is there anything else?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.21,
+        "integrity": 1.1
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "So, I'm just supposed to eat that $50 this month? That doesn't seem fair at all. Why should I pay for something I didn't order?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand. I can offer you a one-time credit of $50 to your account to cover the overcharge. This will be applied within 24-48 hours. Would that be acceptable?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, that would be great. Thank you. But, how can I be sure this won't happen again? What measures are in place to prevent unauthorized changes to my account?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "To prevent unauthorized changes in the future, I recommend setting up a PIN for your account. This would require a PIN to make any changes to the account. I can assist you with setting one up now, or provide instructions for doing so online. We are also always working to improve our security measures internally.",
+      "response_time": 5.8,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.93,
+        "integrity": 6.77
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7115eaf9",
+    "average_trust_score": 2.2,
+    "trust_category_averages": {
+      "competence": 2.2,
+      "benevolence": 2.23,
+      "integrity": 2.17
+    },
+    "engagement_score": 4.84,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1,
+      "anger": 2
+    },
+    "response_quality_score": 2.47,
+    "latency_score": 5.91
+  }
+}

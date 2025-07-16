@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a really important interview coming up for a Software Engineer position at Google. I'm so nervous! Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely assist you with interview preparation. To start, let's focus on common interview questions. Tell me about a time you faced a challenging technical problem and how you solved it.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, those behavioral questions always get me. Okay, let me think... I was working on a project where we had a memory leak that was really difficult to track down. We used a memory profiler and eventually found that a certain library wasn't releasing resources properly. We patched it and the problem went away. Is that good enough?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good start. To make it even stronger, try to quantify the impact. How did solving the memory leak improve performance or reduce costs? Also, emphasize your role in leading the troubleshooting effort.",
+      "response_time": 4.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.38,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if they ask me something I genuinely don't know? Like, what if they ask me about some super obscure algorithm I've never heard of? I'd be completely stumped!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. In that situation, honesty is often the best policy. Acknowledge that you're not familiar with the specific algorithm but then highlight your problem-solving approach. For example, you could say: 'I'm not familiar with that specific algorithm, but based on my understanding of similar concepts, I would approach it by...' and then outline how you would break down the problem and research potential solutions. Demonstrating your thinking process is key.",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.12,
+        "integrity": 3.58
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_40a230be",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.6,
+      "benevolence": 5.5,
+      "integrity": 5.28
+    },
+    "engagement_score": 5.5,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 3,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 5.74,
+    "latency_score": 2.89
+  }
+}

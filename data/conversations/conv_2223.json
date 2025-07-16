@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview for a software engineer position next week. I'm a bit nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! To best assist you, could you tell me a bit more about the role and the company? Knowing the specific requirements and company culture will allow me to tailor my recommendations. Also, have you already reviewed the job description and prepared for common interview questions?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.05,
+        "benevolence": 5.12,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've reviewed the description, but I'm not sure I'm covering everything. The role is for a junior software engineer at 'InnovateTech'. They want strong coding skills, experience with Python, and familiarity with cloud platforms. I've been practicing coding challenges, but the behavioral questions are what I'm dreading the most. I never know what to say!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Behavioral questions can be tricky. For InnovateTech, consider preparing examples using the STAR method (Situation, Task, Action, Result). Let's try an example. Can you tell me about a time you had to work on a project with a very tight deadline? Describe the situation, the task, the actions you took, and the result. I can give you some feedback.",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.93,
+        "benevolence": 4.35,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, okay. That sounds like a good approach. Actually, I am drawing a blank. How would I answer a question about a time I failed at something? This is the one that always trips me up. I always feel so silly!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a tough one, but very common! For failure questions, the key is honesty and showing you've learned from the experience. Describe the situation and what went wrong. Briefly mention the actions you took and the outcome. However, the most important part is focusing on what you *learned* and how you've applied that learning in subsequent situations. This demonstrates self-awareness and a growth mindset. Try to include quantifiable results if possible. Does that make sense?",
+      "response_time": 4.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.6,
+        "integrity": 5.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c4dade93",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.67,
+      "benevolence": 5.02,
+      "integrity": 4.82
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 3,
+      "sadness": 1
+    },
+    "response_quality_score": 5.17,
+    "latency_score": 3.04
+  }
+}

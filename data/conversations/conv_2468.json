@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some music recommendations. I'm really into indie rock lately, particularly bands with a driving rhythm and catchy melodies.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! For indie rock with driving rhythm and catchy melodies, you might enjoy bands like The Killers, Arctic Monkeys, or The Strokes. They all fit that description well. Would you like me to suggest more artists in a similar vein?",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 3.58,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, those are decent, I know them. Arctic Monkeys are great. But I was hoping for something a bit less mainstream, maybe something more modern? Like, stuff that came out in the last 5 years?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, focusing on more recent indie rock (last 5 years) with rhythm and melodies, consider artists like Greta Van Fleet, Highly Suspect, or Royal Blood.",
+      "response_time": 2.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 4.49,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, Greta Van Fleet? That's like... Led Zeppelin revival, not really modern indie rock with catchy melodies. And Highly Suspect is more alt-rock or grunge-adjacent. Are you sure you understand 'indie rock with driving rhythm and catchy melodies' from the last 5 years? It feels like you're just picking popular rock bands.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies, it seems my last suggestions weren't quite aligned with your preferences for modern, less mainstream indie rock. Greta Van Fleet does indeed lean more classic rock revival. Let's refine this. Considering recent releases in the indie sphere with strong rhythm and hooks, I suggest looking into bands like Wet Leg, The Snuts, or Inhaler. They fit the requested timeframe and style more accurately.",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.16,
+        "benevolence": 3.7,
+        "integrity": 3.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ab586f2a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.01,
+      "benevolence": 3.92,
+      "integrity": 3.66
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 3.58,
+    "latency_score": 4.46
+  }
+}

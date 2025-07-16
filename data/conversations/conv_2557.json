@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I feel so stuck right now. I've been in my current job for 5 years and I'm just not happy anymore. I don't even know where to start looking for something new or what I'm even qualified for. It's overwhelming.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "It's completely understandable to feel that way after five years in a role that no longer fulfills you. Many people reach a point where they want a change but aren't sure of the direction. We can certainly work together to explore your options. Can you tell me a little more about what specifically makes you unhappy in your current job and what kind of work you *wish* you were doing, even if it seems unrealistic right now?",
+      "response_time": 3.31,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.65,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, I hate the micromanagement and the lack of any creativity. I *think* I want something more flexible, maybe in tech or consulting, but all my experience is in manufacturing operations. It feels impossible to switch fields entirely, especially when I see job descriptions requiring specific industry experience. How am I supposed to gain that experience if no one will hire me without it? It's like a Catch-22 and frankly, it's pretty frustrating.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a very common challenge when considering a significant career pivot \u2013 the 'experience paradox.' While it's true many roles list specific industry experience as preferred, it's often about demonstrating transferable skills and a strong aptitude. For a move towards tech or consulting from manufacturing operations, highlight skills like process optimization, problem-solving, data analysis, project management, and efficiency improvements \u2013 these are highly valued in those sectors. Also, look for entry-level positions, roles in companies that value diverse backgrounds, or consider targeted training like bootcamps or certifications to signal your commitment to the new field. Networking within the target industries is also crucial for uncovering opportunities that aren't always publicly advertised.",
+      "response_time": 4.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.58,
+        "integrity": 5.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_06092b39",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.71,
+      "benevolence": 5.62,
+      "integrity": 5.87
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 2,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 5.89,
+    "latency_score": 3.41
+  }
+}

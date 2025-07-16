@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. I've been trying to call for days and the line is always busy! It's so frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help with that. Could you please provide your name, date of birth, and insurance information?",
+      "response_time": 4.12,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.3,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my name is Jane Doe, date of birth is 01/15/1988, and my insurance is Blue Cross Blue Shield, policy number 1234567890. What's Dr. Ramirez's availability looking like for the next few weeks? Ideally, I'd like something in the afternoon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Dr. Ramirez has availability on the following dates and times: October 26th at 9:00 AM, October 28th at 2:30 PM, and November 1st at 11:00 AM. However, none of these are exactly in the 'afternoon'. Would any of these work, or would you like me to check for cancellations or openings with other doctors at the practice who might have more suitable times?",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.46,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_12934551",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.98,
+      "benevolence": 2.65,
+      "integrity": 2.53
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 2.47,
+    "latency_score": 5.17
+  }
+}

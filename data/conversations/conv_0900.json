@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. I've been trying to call for two days and keep getting put on hold!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help with that. To schedule an appointment with Dr. Ramirez, could you please provide your name, date of birth, and insurance information?",
+      "response_time": 3.69,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 4.33,
+        "integrity": 4.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, my name is Jane Doe, my date of birth is January 1, 1980, and my insurance is Blue Cross Blue Shield, member ID is 123456789. What's her next available appointment?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. Let me check Dr. Ramirez's availability. It looks like she has an opening on October 27th at 2:00 PM. Would that time work for you?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "October 27th at 2 PM works, but what kind of appointment is it? Is it telehealth or in-person? Because frankly, I need to be seen in person for this issue.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7fdd3a39",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.34,
+      "benevolence": 2.67,
+      "integrity": 2.56
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 3
+    },
+    "response_quality_score": 2.78,
+    "latency_score": 5.41
+  }
+}

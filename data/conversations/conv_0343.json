@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I'm starving. Any recommendations for dinner tonight?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! I can definitely help with that. To give you the best recommendations, could you tell me what kind of cuisine you're in the mood for and what your general location is?",
+      "response_time": 4.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.69,
+        "benevolence": 5.79,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm in downtown Chicago, and I'm craving something spicy... maybe Thai or Indian?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! I see a few highly-rated options near you. There's 'Siam Paragon' for Thai, which has 4.5 stars and is known for its Pad See Ew. Or, for Indian, there's 'Bombay Bliss', which is 4 stars and their butter chicken is a popular choice. Does either of those sound good?",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.3,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Bombay Bliss sounds good. But 4 stars? Are there any other Indian places with maybe a bit higher rating?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly! 'Maharaja' is a bit further, about a 15-minute drive, but it boasts a 4.8-star rating. Their biryani is highly recommended.",
+      "response_time": 4.96,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.31,
+        "integrity": 5.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 15 minutes is a bit much. I guess Bombay Bliss it is. Can I order through you, or do I have to go to another app?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I can't place the order directly. You'll need to use a food delivery app like Grubhub or DoorDash, or you can call them directly. I can provide their phone number if you'd like!",
+      "response_time": 1.77,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.97,
+        "benevolence": 2.15,
+        "integrity": 2.93
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Ugh, okay, thanks I guess. Why can't you just order it for me? That would be so much easier. Is that something you'll be able to do in the future?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_870a014b",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.93,
+      "benevolence": 4.64,
+      "integrity": 4.77
+    },
+    "engagement_score": 5.55,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.33,
+    "latency_score": 3.3
+  }
+}

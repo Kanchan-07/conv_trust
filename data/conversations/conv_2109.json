@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my order. I have the order number, but the tracking link isn't working. It just keeps saying 'invalid order number'.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Please provide your order number, and I'll look into the tracking issue for you. Also, could you please confirm the email address associated with the order?",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.88,
+        "benevolence": 5.87,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the order number is #1234567890 and the email is example@email.com. I've been trying all day, and I'm starting to get really frustrated. I need to know when this package will arrive!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize for the inconvenience. I am checking the order status now. It seems there might be a slight delay in the tracking information update from the shipping carrier. The order is currently 'In Transit' and is expected to arrive by the end of the week. I can provide more specific information when I get it, but unfortunately, it might be a bit delayed. Could you confirm if you've received a shipping confirmation email with a different tracking number? I am also looking into a potential issue with the tracking link and will let you know when that has been resolved.",
+      "response_time": 3.23,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 4.07,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, that's better than nothing, I guess. But... how do I know it's 'In Transit'? The tracking link *should* tell me that! Also, why is it taking so long to update? I ordered this item a week ago, and it's still 'In Transit'. And now, I've thought about it. I'm moving next week. Can I change the delivery address if it's already shipped?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Regarding the 'In Transit' status and tracking link issue: I have checked the carrier's website, and the information provided by the system seems to be correct, but I understand your concern. Regarding the address change, since the order has shipped, it may be more challenging, but I can try to help. Please give me the new address, and I'll contact the shipping carrier directly to see if they can reroute the package. However, please note that there might be a small fee, and it's not always guaranteed, depending on the stage of the delivery process and the carrier's policies. We will do our best to resolve this for you.",
+      "response_time": 2.42,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.55,
+        "integrity": 4.09
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_afdd7c77",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.59,
+      "benevolence": 4.5,
+      "integrity": 4.64
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 2,
+      "anger": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 4.19,
+    "latency_score": 4.39
+  }
+}

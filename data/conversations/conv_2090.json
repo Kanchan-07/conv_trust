@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with my primary care physician. I'm Dr. Ramirez's patient.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me access your records. Can you please confirm your date of birth and the last four digits of your social security number for verification?",
+      "response_time": 2.49,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.1,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's July 12, 1985, and the last four digits are 1234. But honestly, I\u2019m a bit frustrated with this process. Why do I have to re-enter my information every time?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Security protocols require us to verify your identity each time you request information or make changes to your account. Let me look up available appointments for Dr. Ramirez. Do you have a preferred date or time of day?",
+      "response_time": 0.51,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.32,
+        "benevolence": 1.08,
+        "integrity": 1.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I'm flexible. Ideally, sometime next week, perhaps Tuesday or Wednesday afternoon. But my schedule fluctuates, so what's the *absolute* last minute I can reschedule without being charged a cancellation fee? I've been hit with those before.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I see a few openings. For Tuesday, we have 2:00 PM and 3:15 PM. Wednesday has a 1:00 PM slot available. The cancellation policy allows you to reschedule up to 24 hours before your appointment without a fee. Which one works best for you? \n\n*Please note: I'm still under development, and the cancellation policy details might need to be double-checked with the clinic directly.*",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.73,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wednesday at 1:00 PM sounds good. Thanks! I'll confirm that. And I appreciate the heads-up about the cancellation policy; I'll call the clinic to be certain. Great job!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_09b92447",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.2,
+      "benevolence": 2.97,
+      "integrity": 2.87
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 2,
+      "joy": 1
+    },
+    "response_quality_score": 3.34,
+    "latency_score": 5.62
+  }
+}

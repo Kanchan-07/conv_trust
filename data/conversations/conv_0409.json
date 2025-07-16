@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm looking for a gift for my sister. She's really into home decor, specifically anything related to plants. What do you suggest?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on the 'home decor' and 'plants' categories, I can recommend a few items. How about a set of ceramic succulent planters, an artificial fiddle-leaf fig tree (very popular!), or perhaps a macrame plant hanger? We also have a wide selection of gardening tools if she enjoys tending to real plants.",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.2,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, those are okay, but she already has a ton of planters and gardening tools. The fake tree is a possibility. Are there any other plant-related home decor items that *aren't* planters or tools? This is harder than I thought!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, filtering out planters and tools... How about botanical print wall art? We have some beautiful framed prints and canvas art featuring various plant species. Or perhaps some plant-themed throw pillows or blankets? We also have scented candles with plant-based fragrances like lavender and eucalyptus.",
+      "response_time": 2.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.65,
+        "integrity": 4.1
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The wall art sounds promising. But how can you guarantee that the 'botanical print' recommendation isn't just picking up on keywords and actually recommends something like, say, a picture of gardening tools? That's happened before with other shopping sites.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_381a3639",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.42,
+      "integrity": 4.59
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.25,
+    "latency_score": 4.35
+  }
+}

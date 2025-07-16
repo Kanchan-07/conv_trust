@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for a restaurant reservation for tomorrow night.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. What kind of cuisine are you interested in, and how many people will be in your party?",
+      "response_time": 3.12,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 4.13,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Italian, please. And it'll be 4 of us. Oh, and somewhere not too noisy, if possible. Last time we went somewhere, we couldn't even hear each other!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Italian, party of four, and a quieter atmosphere. Let me see what's available for tomorrow evening. What time were you thinking?",
+      "response_time": 4.53,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.03,
+        "benevolence": 5.09,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Around 7:30 PM would be ideal. If not, anything between 7 and 8 is fine. This is proving more difficult than I thought!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I am showing availability at 'Bella Notte' at 7:45 PM and 'Pasta Paradise' at 7:15 PM. Both are generally rated as having a moderate noise level. Which one sounds better?",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 4.26,
+        "integrity": 3.84
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, Pasta Paradise sounds good. Could you actually tell me *how* you assess the noise level? Is it based on decibel readings, customer reviews, or something else entirely? Just curious.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! The noise level assessment is a combination of factors, including natural language processing of customer reviews that mention noise, aggregated sound level data from smart devices where available, and in some cases, direct feedback from restaurants. I'll go ahead and book Pasta Paradise for 7:15 PM for 4 people. Does that sound right?",
+      "response_time": 0.59,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.41,
+        "benevolence": 1.0,
+        "integrity": 1.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6b5c8782",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.67,
+      "benevolence": 3.62,
+      "integrity": 3.72
+    },
+    "engagement_score": 4.04,
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 1
+    },
+    "response_quality_score": 3.28,
+    "latency_score": 4.55
+  }
+}

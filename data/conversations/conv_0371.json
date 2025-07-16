@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I received an AR denial for claim number 12345. It says 'invalid procedure code.' I don't understand why. We've used this code for years!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me pull up claim 12345. Can you please provide the patient's name and date of service?",
+      "response_time": 0.53,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, date of service was 01/15/2024.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, one moment. ... Alright, I see the claim. The denial is indeed for 'invalid procedure code'. I'm checking the payer's guidelines for that date of service.",
+      "response_time": 3.46,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.36,
+        "benevolence": 3.57,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "This is ridiculous! What could possibly have changed? Is it possible there's an updated code or something?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "It appears that procedure code 99213 *was* valid on the date of service. However, I do see a note indicating that for dates of service after January 1st, 2024, this payer requires modifier 25 if it's billed with a preventive service on the same day. Was a preventive service also billed?",
+      "response_time": 0.57,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.36
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes! We did a flu shot that day. So, we need to add modifier 25 to the E/M code? Why wasn't this communicated to us?!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, adding modifier 25 to 99213 should resolve the denial. Unfortunately, payers don't always communicate these changes proactively. I can provide you with a link to the payer's website where they published the updated guidelines.",
+      "response_time": 1.49,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.46,
+        "benevolence": 2.87,
+        "integrity": 2.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that would be great, thank you! But out of curiosity, why would they suddenly require a modifier for something that's been standard practice for years? What's the logic behind that?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a challenging question, and unfortunately, I don't have access to the specific reasoning behind the payer's decision. These types of changes are often related to internal policy adjustments or clarifications in billing practices to ensure proper payment. However, I am glad we could resolve this issue for you. Is there anything else I can help you with today?",
+      "response_time": 3.58,
+      "emotion_detected": "joy",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.06,
+        "integrity": 4.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_28b39277",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.53,
+      "benevolence": 2.5,
+      "integrity": 2.66
+    },
+    "engagement_score": 5.23,
+    "emotion_distribution": {
+      "surprise": 3,
+      "anger": 2,
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 2.34,
+    "latency_score": 5.57
+  }
+}

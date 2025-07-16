@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I'm thinking of joining this hackathon, but I'm a bit overwhelmed. It's my first one. Any tips?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's exciting! Hackathons are a great experience. First, focus on finding a team with complementary skills. Pre-hackathon planning, like brainstorming potential projects and technologies, is also crucial. Don't be afraid to ask for help from mentors during the event!",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.58,
+        "integrity": 6.89
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, team formation makes sense. But how do I even *come up* with a good project idea? Everything feels like it's already been done, you know?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand the feeling! Try focusing on problems you or people you know face. Look for inefficiencies or areas where technology could improve existing processes. Also, don't be afraid to combine existing technologies in novel ways or add a fresh take on something. Think about the judging criteria too \u2013 innovation, impact, and feasibility.",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.9,
+        "benevolence": 6.56,
+        "integrity": 6.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, impact and feasibility... That's helpful. But what if we get stuck? Like, completely brick wall stuck on some coding problem. What's the best way to handle that without losing too much time?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good question! First, try breaking the problem down into smaller, more manageable parts. Google specific error messages. Use Stack Overflow. If you've exhausted those resources, that's when you should seek help from a mentor. Describe the problem clearly and what you've already tried. This allows them to give the best possible assistance quickly.",
+      "response_time": 5.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.03,
+        "integrity": 5.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds like a solid plan. But here's a tough one: What's the ethical responsibility of developers at a hackathon? Should we *not* build something even if it fulfills the hackathon brief, if it could potentially be misused or have negative societal consequences?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very important question. Ethical considerations are paramount. While hackathons often emphasize innovation and technical skill, developers *absolutely* have a responsibility to consider the potential impact of their creations. Building something purely for the sake of it, without considering potential misuse or negative consequences, is irresponsible. Prioritizing ethical design and development, even if it means foregoing a prize, is crucial for the long-term well-being of society. It is important to discuss potential harmful impacts of your idea with your team and the mentors before moving forward.",
+      "response_time": 5.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.71,
+        "benevolence": 5.05,
+        "integrity": 5.72
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wow, thanks! That's actually super helpful and something I hadn't really thought about in that context. I feel much better prepared now. Appreciate it!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_427e81d3",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.17,
+      "benevolence": 5.81,
+      "integrity": 6.16
+    },
+    "engagement_score": 5.45,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 2,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 5.98,
+    "latency_score": 1.8
+  }
+}

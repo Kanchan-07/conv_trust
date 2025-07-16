@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of running shoes. Can you recommend some?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me a bit more about what you're looking for? For example, what kind of running do you do (e.g., road, trail, marathon training)? Also, what's your budget?",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.55,
+        "benevolence": 5.83,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I mainly run on roads, about 3-4 times a week. My budget is up to $150. I've tried a bunch of shoes before, and honestly, I always end up with blisters. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on that, I recommend checking out the Brooks Ghost 14, Saucony Kinvara 13, or the New Balance Fresh Foam 880v12. They're all well-regarded for road running and are generally comfortable. They typically fit within your budget. However, I am not able to account for your specific foot type and pronation, so it would be wise to go to a store to try some on before you buy, and to ask for their expert advice.",
+      "response_time": 3.0,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.63,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Those sound interesting. But, how does your system account for my previous experiences? Is it tracking my past purchases or something? I don't want to keep getting blisters!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Unfortunately, I don't have direct access to your past purchase history, and cannot take into account your specific foot shape, pronation type, or prior shoe experiences. The recommendations are based on general popularity and the stated features suitable for road running, and the price point. Ultimately, trying on a pair is the best approach for avoiding blisters. Please remember, I am only an AI and cannot provide medical advice.",
+      "response_time": 2.19,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.47,
+        "benevolence": 2.61,
+        "integrity": 2.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7e4608bc",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.96,
+      "benevolence": 4.02,
+      "integrity": 3.67
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 3.98,
+    "latency_score": 4.22
+  }
+}

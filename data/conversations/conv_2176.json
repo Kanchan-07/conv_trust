@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to buy a new laptop. I need some recommendations, but I don't want to spend a fortune. My budget is around $800.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Based on your budget of $800, I can recommend a few laptops. Would you prefer something for general use, gaming, or something else? Also, are there any specific brands you prefer, or features you're looking for (e.g., long battery life, specific screen size)?",
+      "response_time": 3.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.78,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly general use and some light video editing. Battery life is important since I'll be using it on the go, and I don't care about gaming features. I'm not brand loyal, but I've heard good things about the latest ASUS laptops. This is harder than I thought, though. I'm already confused...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. Considering your needs and budget, I'd recommend looking at the ASUS Vivobook series or the Acer Aspire series. Both offer good performance for general use and should have options within your price range with decent battery life. The exact models available may vary based on current sales and stock, so I'd recommend checking retailers like Best Buy, Amazon, or Newegg. You may also find refurbished options within your budget that can give you more performance for your money. One thing to consider is the processor: for video editing, look for an Intel i5 or AMD Ryzen 5 processor or better. Refurbished models usually have a shorter warranty, but are thoroughly tested by the seller.",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.2,
+        "benevolence": 4.33,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. But, how can I make sure the 'decent battery life' is actually 'decent'? Is there a consistent way to compare battery performance across different models, or are those estimates on the product pages just made up? This is the most challenging part!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a364b197",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.88,
+      "benevolence": 4.05,
+      "integrity": 3.87
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 3.77
+  }
+}

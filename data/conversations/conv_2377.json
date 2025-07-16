@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm trying to brainstorm some project ideas for a hackathon this weekend. Any suggestions for a beginner?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Certainly. Given that you're a beginner, I'd recommend focusing on projects that leverage existing APIs or frameworks. Some popular themes include: a simple to-do list app, a weather app using a weather API, or a basic game. Would you like me to elaborate on any of these?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.49,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I've seen those suggestions everywhere! I was hoping for something a bit more original. Is there any emerging technology I could potentially use, even if it's complex? I am a quick learner, and I want to impress the judges.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great goal! Utilizing emerging tech is a good way to stand out. Here are a few ideas that might fit your description: Leveraging a no-code/low-code platform to build something quick, experimenting with a basic AI model (like image recognition) through a service like Google Cloud AI, or building a project for a specific emerging market. However, given that this is a weekend-long hackathon, it's crucial to balance novelty with practicality. You could also consider a more niche approach. Do any of those interest you?",
+      "response_time": 3.87,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.3,
+        "integrity": 5.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The AI model one is interesting. But honestly, I have no idea how to even start with that. Are there any tutorials that might give me a head start? I'm getting a little overwhelmed...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_256833c7",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.79,
+      "benevolence": 4.89,
+      "integrity": 4.98
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 4.58,
+    "latency_score": 3.9
+  }
+}

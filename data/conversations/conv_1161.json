@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a big interview coming up for a data scientist position and I'm super nervous. Can you help me prepare? I'm mostly worried about the technical questions.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely assist you with that. To best prepare you, could you tell me what specific areas of data science you're most concerned about? For example, are you more worried about statistics, machine learning algorithms, coding in Python, or something else?",
+      "response_time": 5.97,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, all of it! But if I had to pick, probably the machine learning algorithms. There are just so many, and I always blank when I'm asked to explain them in detail. It's like my brain just freezes. What's the best way to practice explaining them concisely?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "One effective method is the 'Feynman Technique'. Choose an algorithm, try to explain it in simple terms, as if you were teaching it to someone with no technical background. Identify where you struggle, and then go back to the source material to fill in the gaps. Repeat this process until you can explain the algorithm clearly and confidently. Another good technique is to create flashcards with the algorithm name on one side and its key concepts, advantages, disadvantages, and use cases on the other. Does this help?",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.63,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's a start. But what if they ask me something really obscure, like to describe the inner workings of a specific type of autoencoder that's only used in one very niche application? Should I just admit I don't know? I feel like that makes me look bad, even if it's a completely reasonable thing not to know. What would be a good way to respond to something like that?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f80c3dba",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.25,
+      "benevolence": 6.31,
+      "integrity": 6.35
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "fear": 2,
+      "disgust": 2,
+      "neutral": 1
+    },
+    "response_quality_score": 6.28,
+    "latency_score": 2.36
+  }
+}

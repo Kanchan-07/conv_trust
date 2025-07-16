@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel in San Francisco for a few nights. Something near Fisherman's Wharf would be great.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. What dates are you looking at, and how many guests will there be?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.26,
+        "benevolence": 3.7,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say from October 27th to October 29th, two adults. Ideally, the hotel would have free breakfast.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for hotels near Fisherman's Wharf in San Francisco for October 27th to 29th, two adults, with free breakfast. One moment... Okay, I found a few options. Pier 2620 Hotel and Hotel Zephyr San Francisco both have good reviews and offer free breakfast. Would you like me to tell you more about either of those?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.66,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I think I've heard of Hotel Zephyr. What's the average nightly rate there around those dates?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The average nightly rate for Hotel Zephyr San Francisco from October 27th to 29th is approximately $350, excluding taxes and fees. This is based on current availability and may be subject to change.",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 3.98,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, that's a bit more than I was hoping to spend. Are there any hotels with similar amenities closer to $250 a night? What am I even paying for at that price?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me refine the search. Hotels in that area tend to be pricier. Considering your budget, I can look for hotels slightly further from Fisherman's Wharf, which might offer better rates while still being accessible by public transport or a short ride share. Would that be acceptable? It's the location, of course, that affects pricing, alongside the specific amenities like the pool or a gym. As well as the brand.",
+      "response_time": 4.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.51,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, yeah, try widening the search area a bit. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3c9dc463",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.03,
+      "benevolence": 3.71,
+      "integrity": 3.87
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 4.12
+  }
+}

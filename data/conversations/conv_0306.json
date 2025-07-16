@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #789456. It was supposed to arrive three days ago, and the tracking hasn't updated since then. I'm getting a little worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. Let me look into order #789456 for you. One moment, please.",
+      "response_time": 4.96,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.62,
+        "benevolence": 6.51,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I really needed it for this weekend.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see that your order is currently showing as 'in transit' at our regional distribution center. There appears to be a slight delay due to unforeseen circumstances. I apologize for any inconvenience this may cause.",
+      "response_time": 3.16,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.76,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? What does that even mean? Is it lost or what? I'm getting really frustrated now.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I don't have specific details about the cause of the delay, I can assure you the package is not lost. It's more likely a backlog at the distribution center. I can escalate this issue and request a more detailed update from the shipping team. Would you like me to do that?",
+      "response_time": 1.34,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.17,
+        "benevolence": 2.63,
+        "integrity": 2.83
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. And can you guarantee it will arrive sometime next week? What's the latest it would arrive by?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I cannot provide a definite guarantee, but escalating this should get it moving. Based on current estimates, and factoring in the escalation, I expect it should arrive by Wednesday of next week at the latest. I will also email you updates as they become available. Is that alright?",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.81,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Wednesday at the latest... okay. I guess that's better than nothing. What if it doesn't arrive by Wednesday? What recourse do I have then?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "If it does not arrive by Wednesday, please contact us again. At that point, we can initiate a formal investigation with the shipping carrier and discuss options such as a refund or reshipment, depending on the outcome of the investigation. Is there anything else I can help you with today?",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.78,
+        "integrity": 3.81
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3998e7eb",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.16,
+      "benevolence": 4.1,
+      "integrity": 4.33
+    },
+    "engagement_score": 5.37,
+    "emotion_distribution": {
+      "fear": 1,
+      "joy": 1,
+      "neutral": 5,
+      "sadness": 1,
+      "anger": 2
+    },
+    "response_quality_score": 3.87,
+    "latency_score": 4.11
+  }
+}

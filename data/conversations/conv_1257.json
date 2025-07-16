@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm really stressed about my finances. I feel like I'm barely keeping my head above water. Can you help me figure out a budget?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely assist with that. To start, could you provide some information about your income and expenses? Knowing your monthly income, rent/mortgage, utilities, and other regular costs would be helpful.",
+      "response_time": 4.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.04,
+        "benevolence": 5.35,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, my income varies because I'm a freelancer. But let's say on average, it's about $4,500 a month. My rent is $1,800, utilities are roughly $300, and I have about $500 in student loan payments. It's the variable stuff that kills me... like groceries, gas, and eating out.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks, that's a good start. To help with those variable expenses, we can try tracking them for a month. There are many budgeting apps that can help with this. Also, consider setting a weekly or monthly limit for eating out and entertainment, and allocating funds in your budget for those categories. Would you like some app recommendations? I can also suggest how to track these expenses.",
+      "response_time": 4.81,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.71,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, app recommendations would be great. But honestly, I'm so overwhelmed. I have no idea how I'm going to get out of this hole. I keep telling myself I need to save, but I just can't seem to do it.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. It can feel overwhelming, but small steps can make a big difference. For app recommendations, try Mint or Personal Capital. They can connect to your accounts and automatically track spending. Let's also look at your student loans - are you on an income-driven repayment plan? That could potentially lower your payments if you qualify. Additionally, we could explore strategies for building an emergency fund, even if it's a small amount initially. Also, what is your total outstanding student loan debt?",
+      "response_time": 2.62,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 4.14,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll look into those apps. The student loan thing... honestly, it's a mess. I *think* I'm on an income-driven plan, but I'm not sure. The total is over $60,000. Is there any way to lower the interest rate, because I feel like it's just compounding and compounding?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That is a significant amount, but don't worry, there are steps you can take. The first step is to confirm your current repayment plan. Check your loan servicer's website or call them. Regarding interest rates, federal student loans usually have fixed interest rates. However, if your credit is strong, you could explore refinancing with a private lender to potentially secure a lower rate. The best choice depends on your specific situation. I recommend researching this carefully. I can provide you with some resources, such as the Department of Education's website, to help you understand your options, if you'd like.",
+      "response_time": 3.74,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.36,
+        "integrity": 5.95
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f4edbd59",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 4.97,
+      "benevolence": 5.14,
+      "integrity": 5.32
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "surprise": 2
+    },
+    "response_quality_score": 5.12,
+    "latency_score": 3.49
+  }
+}

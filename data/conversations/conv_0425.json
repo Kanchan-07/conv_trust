@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new laptop. My old one finally died. Ugh.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand the frustration! Losing a laptop is never fun. To help me recommend the best options for you, what's your budget?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.33,
+        "benevolence": 1.0,
+        "integrity": 1.07
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm hoping to stay under $800, preferably closer to $600 if possible. What can I get for that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your budget, I can suggest a few models. For around $600, you might consider a Lenovo IdeaPad or an Acer Aspire. Both offer decent performance for everyday tasks. For under $800, you could look at some entry-level HP Envy models or a slightly better equipped Acer Aspire. Would you like me to provide more details on any of these?",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.77,
+        "benevolence": 5.39,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful. What about the Acer Aspire for under $800? What are the trade-offs I should expect at that price point? Like, what am I *not* getting compared to a more expensive laptop?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Good question! With an Acer Aspire under $800, you'll likely be making compromises in a few areas. The build quality might not be as premium as higher-end laptops, potentially using more plastic. You might also see a less powerful processor, like an AMD Ryzen 5 or Intel Core i5, which is fine for general use but might struggle with demanding tasks like video editing or gaming. The screen resolution and brightness could also be lower. Battery life might be adequate but not exceptional. Finally, the storage could be a smaller SSD or even a traditional hard drive, which is slower. However, for everyday browsing, office work, and streaming, it should be perfectly adequate.",
+      "response_time": 4.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.61,
+        "benevolence": 5.55,
+        "integrity": 5.01
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, that makes sense. What about Chromebooks? Are those even worth considering? I mainly use my laptop for browsing and writing, nothing too intense.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, Chromebooks are definitely worth considering, especially for your use case! They are generally more affordable and offer excellent performance for browsing and writing. They are cloud-based and have less local storage, but that's not an issue if you primarily use online services. I can find some Chromebook models that fall well within your budget.",
+      "response_time": 5.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.22,
+        "benevolence": 5.11,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's great! Can you show me some Chromebook options? I'm getting a little overwhelmed, but this is helping. Thanks!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! I'm glad I can help. Let me generate a list of Chromebook options for you within your budget. One moment... Okay, I recommend the Lenovo Chromebook Duet, the Acer Chromebook Spin 713, and the HP Chromebook x360 14c. Each has different strengths, but all are within your budget and great for browsing and writing. Would you like a detailed comparison of these models?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ce250017",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.99,
+      "benevolence": 4.81,
+      "integrity": 4.71
+    },
+    "engagement_score": 5.78,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 6,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.5,
+    "latency_score": 3.37
+  }
+}

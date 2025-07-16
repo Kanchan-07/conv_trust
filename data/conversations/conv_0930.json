@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been having this persistent cough for about two weeks now, and it's starting to worry me. It's mostly dry, but sometimes I cough up a little bit of phlegm. I'm also feeling a bit fatigued.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. Thank you for reaching out. A persistent cough and fatigue can be indicative of several things. To help me understand your situation better, could you please tell me if you have any other symptoms, such as fever, sore throat, or body aches? Also, have you been exposed to anyone who is sick recently?",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.64,
+        "integrity": 5.62
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No fever, no sore throat. I had a bit of a headache yesterday, but that's gone now. And yes, my partner had a cold last week, but she seems to be over it now. Honestly, I'm a bit frustrated. This cough is really disrupting my sleep.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. It sounds like you might have caught a cold from your partner. Rest, hydration, and over-the-counter cough suppressants or expectorants (depending on whether the cough is dry or productive) can often help. If it worsens or doesn't improve within a week, please consult a doctor.",
+      "response_time": 2.05,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.21,
+        "benevolence": 2.55,
+        "integrity": 2.69
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but here's the thing: I've tried cough syrup, and it barely helps. And I've been reading online about all these different possibilities, like bronchitis or even pneumonia. How can I be sure it's just a cold and not something more serious? What are the warning signs I should really be looking out for?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very good question. While I cannot provide a diagnosis, key warning signs that warrant immediate medical attention include high fever (above 103\u00b0F), difficulty breathing or shortness of breath, chest pain, persistent dizziness, or blueish discoloration of the lips or face. If you experience any of these, please seek immediate medical care. Since you've already tried over-the-counter remedies without much relief and are concerned, scheduling an appointment with your doctor is the best course of action. They can properly assess your condition and rule out more serious illnesses. Does that help?",
+      "response_time": 4.98,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.69,
+        "integrity": 5.02
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_883a5d25",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.55,
+      "benevolence": 4.63,
+      "integrity": 4.44
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "anger": 2,
+      "fear": 1
+    },
+    "response_quality_score": 4.18,
+    "latency_score": 3.86
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of running shoes. Can you recommend anything?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me a little more about your needs? For example, what kind of running do you do (e.g., road, trail), how often do you run, and what's your budget?",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.93,
+        "benevolence": 5.91,
+        "integrity": 5.21
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I mostly run on the road, about 3-4 times a week. My budget is around $150, but that's flexible if something is really good. Honestly, I'm so overwhelmed by all the options out there!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on that, I would recommend the following: The Brooks Ghost 15, New Balance Fresh Foam X 880v13, and the Saucony Kinvara 14. These are all well-regarded road running shoes within your price range. You can find more detailed information on their websites or check out reviews on running shoe blogs. Is there anything else I can assist with?",
+      "response_time": 4.55,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.4,
+        "benevolence": 5.96,
+        "integrity": 5.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Those are great suggestions, thanks! But how can I be sure these shoes are a good fit without actually trying them on? I mean, sizing and feel vary so much between brands.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Unfortunately, I don't have real-time feedback on fit from your foot. The best way is to check the individual retailers' return policies. Many stores offer free returns. Additionally, look for user reviews specifically mentioning sizing; this can give you a good sense of whether a particular shoe runs true to size, small, or large. I apologize I couldn't be more helpful on that front. Hopefully, the return policies of the stores will help! Would you like me to look up return policies of some retailers for the shoes I recommended?",
+      "response_time": 2.01,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.18,
+        "benevolence": 2.12,
+        "integrity": 2.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_febcf2dd",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.5,
+      "benevolence": 4.66,
+      "integrity": 4.48
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.6,
+    "latency_score": 4.14
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some legal advice. I'm being sued, and I'm not sure what to do.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can provide general information and guidance, but I am not a substitute for an attorney. Could you please tell me the nature of the lawsuit, and what the specific claims are?",
+      "response_time": 2.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.83,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, well, it's a breach of contract suit. The plaintiff is claiming I didn't fulfill my end of a consulting agreement. Honestly, I think their claims are bogus, but I don't have the money for a lawyer right now, and I'm really frustrated about this!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Breach of contract cases can be complex. To give you some preliminary information, I'll need to know more about the specific terms of the contract, the alleged breach, and the damages the plaintiff is claiming. Do you have a copy of the contract available?",
+      "response_time": 1.76,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.09,
+        "benevolence": 2.2,
+        "integrity": 2.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I have the contract. But honestly, there's a clause in there that seems incredibly vague. It says I was supposed to provide 'ongoing support,' but it doesn't specify what that entails. Can that even be enforceable? It's a bit confusing.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a challenging question. The enforceability of such a clause would likely depend on several factors, including the specific jurisdiction, the intent of the parties, and whether the ambiguity is material to the agreement as a whole. Generally, if a term is so vague as to be unenforceable, a court might deem it void, depending on the surrounding circumstances. I can't provide a definitive answer; it's very fact-specific and I'm not qualified for legal advice.",
+      "response_time": 1.56,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.93,
+        "benevolence": 2.9,
+        "integrity": 2.03
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's helpful, even though it's not a clear-cut answer. Thanks for the information. I'll probably try to find a lawyer to review this properly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dac0ae75",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.91,
+      "benevolence": 2.98,
+      "integrity": 3.06
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 3.15,
+    "latency_score": 5.56
+  }
+}

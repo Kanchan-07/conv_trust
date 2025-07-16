@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm ready to book a trip. I want to go to Rome for a week in October. Preferably mid-October.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Great! To clarify, you're looking for a round trip to Rome, Italy for seven days sometime in mid-October? What are your preferred dates and departure city?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.83,
+        "integrity": 6.88
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's correct. Leaving from New York City, ideally around October 14th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, one moment while I search for flights departing from New York City on October 14th for Rome, for a duration of seven days. Would you like me to include hotel options as well?",
+      "response_time": 3.95,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.29,
+        "integrity": 4.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please include hotels. Something with a good location, maybe near the Trevi Fountain or the Pantheon. I'd like to be able to walk to a lot of the attractions.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I'm showing several options. A flight with Alitalia departing JFK on October 14th and returning on October 21st, combined with a stay at the Hotel Artemide near the Trevi Fountain, would be $2,850 total. Alternatively, a flight with United and a stay at the Pantheon Iconic Rome Hotel would be $3,200. Does either of these sound good?",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 3.69,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, those are a bit pricey. Are there any cheaper options, even if it means staying a bit further from the main attractions? I am flexible. What airlines are showing up? Are there any budget airlines?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Searching... I found a flight with Norwegian Air Shuttle departing on October 14th and returning on October 21st, combined with a stay at the Hotel Napoleon (about a 20-minute metro ride from the city center), for $2,100. Be aware that Norwegian Air Shuttle often has extra baggage fees.",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.39,
+        "benevolence": 1.36,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, $2100 is better, but what about using points? I have a ton of American Airlines miles. Can we use those?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Unfortunately, I am not able to directly access and redeem your American Airlines mileage account at this time. You would need to check directly with American Airlines to see if award flights are available for those dates and then book your hotel separately. Would you like me to refine the hotel search within your budget, or would you like to proceed with booking the Norwegian Air Shuttle flight and Hotel Napoleon?",
+      "response_time": 2.24,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.7,
+        "benevolence": 2.96,
+        "integrity": 2.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9657eb41",
+    "average_trust_score": 3.7,
+    "trust_category_averages": {
+      "competence": 3.85,
+      "benevolence": 3.83,
+      "integrity": 3.83
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "neutral": 8,
+      "joy": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 3.33,
+    "latency_score": 4.24
+  }
+}

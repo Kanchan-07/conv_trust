@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi! I'm looking for a gift for my brother. He's really into hiking and camping. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on the 'hiking and camping' category, I can recommend some popular items. How about a high-quality backpacking tent, a durable hiking backpack, or a portable water filter? Are any of those of interest?",
+      "response_time": 3.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.19,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, he already has a good tent and backpack. The water filter sounds interesting, but he's kind of a gear snob. Are there any high-end options? Like, something really impressive?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let me check our premium water filter selection. We have the 'HydroPure X5000' with advanced filtration technology and a lifetime warranty. It's priced at $250. Alternatively, there's the 'AquaShield Pro' made from aerospace-grade titanium, costing $300. Would you like more details on either of those?",
+      "response_time": 3.21,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.96,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wow, those are pricey! What makes the AquaShield Pro so special, other than the titanium? Does it actually filter water better or is it just for show? I'm kind of skeptical... especially at that price point.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a fair question! While both filters meet the same rigorous safety standards, the AquaShield Pro's titanium construction offers superior durability and longevity. It's also lighter than comparable filters and resists corrosion far better. The advanced design allows for slightly faster flow rates and easier cleaning in the field, but it's true a significant portion of the cost comes from the premium materials and construction. Customer reviews often highlight its build quality and aesthetic appeal as much as its functionality. I can also show you some customer reviews to help you decide.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.13,
+        "integrity": 5.08
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_24e68fac",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 4.81,
+      "benevolence": 4.76,
+      "integrity": 4.82
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3,
+      "surprise": 2
+    },
+    "response_quality_score": 4.78,
+    "latency_score": 3.88
+  }
+}

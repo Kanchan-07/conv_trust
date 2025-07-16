@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey! I need some help with my wardrobe. I'm going to a wedding next month and have no idea what to wear. My budget is pretty tight though. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. To give you the best recommendations, could you tell me a bit more about the wedding? Specifically, what's the dress code (e.g., black tie, cocktail, casual) and what's your total budget for the outfit, including shoes and accessories?",
+      "response_time": 4.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.2,
+        "benevolence": 5.01,
+        "integrity": 5.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's a semi-formal wedding, so cocktail attire is appropriate. I'd really like to keep the whole outfit under $200, including shoes and a bag. Is that even possible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, that's definitely possible! Based on your budget and the semi-formal dress code, I recommend looking at online retailers like ASOS, Boohoo, or even Nordstrom Rack. You can often find great cocktail dresses and separates within your price range. For shoes, consider checking out DSW or even Target, where you can find stylish options. I can search for specific items for you if you give me a few details like your size and preferred colors.",
+      "response_time": 4.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.59,
+        "benevolence": 5.38,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, that's helpful! I'm a size 8, and I tend to lean towards jewel tones like emerald green or sapphire blue. I'm also not super comfortable in heels, so maybe a nice pair of dressy flats or low block heels? But honestly, it feels impossible to find a good dress that fits AND is under budget. It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration! Finding the perfect fit and staying within budget can be challenging. Based on your preferences, I found a few options: a knee-length emerald green dress from ASOS for $60 (currently on sale), a pair of navy blue block heels from DSW for $40, and a simple clutch from Target for $20. This leaves you with about $80 for accessories like earrings or a bracelet. Do these recommendations seem appealing, or would you like me to refine the search based on different criteria?",
+      "response_time": 2.42,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.69,
+        "benevolence": 2.49,
+        "integrity": 2.05
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Those sound pretty good! But... how are you accounting for the fact that prices change? Are you just looking at the price *now* or how will I know that those options will still be available in two weeks when I actually make the purchase? That's a bit of a flaw in this whole thing...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e852f6b7",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.49,
+      "benevolence": 4.29,
+      "integrity": 4.07
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 4.77,
+    "latency_score": 3.73
+  }
+}

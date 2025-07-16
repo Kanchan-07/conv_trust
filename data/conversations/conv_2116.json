@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm drowning in medical billing paperwork! Can you help me understand why a claim for patient John Smith was rejected?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can access the claim details for John Smith. Please provide the claim number or the date of service.  I will then check the denial reason and provide you with the details. There are usually a few common reasons, such as missing information, incorrect coding, or pre-authorization issues.",
+      "response_time": 3.41,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.19,
+        "integrity": 5.84
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the claim number is 1234567890 and the date of service was 2024-03-08. The rejection code says 'Incorrect Modifier.' I'm a bit confused, what specific modifier should I be using for this procedure code 99214? And how does this relate to the patient's insurance plan (BCBS)?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Analyzing claim 1234567890... Okay, the procedure code 99214 is for an established patient office or other outpatient visit. Based on the information I have, and the lack of supplemental information such as the patient's co-existing conditions I am unable to provide any definitive suggestions on the specific modifier to use. However, I can state that some common modifiers used with 99214 might include -25 (Significant, Separately Identifiable Evaluation and Management Service by the Same Physician on the Same Day of the Procedure or Other Service) or -57 (Decision for Surgery). I suggest checking your documentation to see if these modifiers appropriately apply and then referencing the BCBS policy for specific modifier requirements. I am working on improving my ability to provide more specific billing code suggestions.  Do you have any other questions?",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.2,
+        "integrity": 3.68
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a05e73f0",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.17,
+      "benevolence": 4.7,
+      "integrity": 4.76
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.46,
+    "latency_score": 3.75
+  }
+}

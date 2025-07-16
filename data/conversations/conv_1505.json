@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need help with my resume. It's been years since I've updated it, and frankly, I'm terrified. I'm applying for a Senior Project Manager role.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand! Updating your resume can be daunting. I can help. To get started, could you please provide me with your current resume? Alternatively, we can begin with a list of your past roles, responsibilities, and accomplishments. Then, we can tailor your resume to a Senior Project Manager position. Let's focus on keywords and quantifying your achievements. ",
+      "response_time": 5.48,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.02,
+        "integrity": 5.15
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I don't really *have* a resume in a good format right now. I have something cobbled together from various old documents, but it's a mess. Also, what's the deal with all these resume templates? Are they all the same, or are some better than others? Which one should I use? I'm so confused!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Don't worry, we can certainly build a resume from scratch. Regarding templates, they do vary in terms of design and formatting. Some are more ATS-friendly (Applicant Tracking System), meaning they're easier for automated systems to read. Generally, a simple, clean design is best. Avoid excessive graphics or unusual formatting. I can help you pick one once we have the content ready. For now, let's focus on gathering your work history. Can you give me a brief overview of your most recent project management role, including the company, dates of employment, and key responsibilities?",
+      "response_time": 5.17,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.18,
+        "integrity": 5.61
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_edd6c013",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.55,
+      "benevolence": 5.1,
+      "integrity": 5.38
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "fear": 2,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 5.72,
+    "latency_score": 2.17
+  }
+}

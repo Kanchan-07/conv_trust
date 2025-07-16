@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some recommendations. I need a new pair of running shoes.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! Based on the 'running shoes' category, I can suggest a few popular models. Are you looking for shoes for road running, trail running, or something else?",
+      "response_time": 2.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.62,
+        "benevolence": 3.58,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Road running, definitely. I've been using the same brand for years, but I'm open to trying something new. What's trending?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "For road running shoes, the Brooks Glycerin 20 and the Hoka Clifton 9 are very popular right now, known for their cushioning and comfort. We also have the Saucony Kinvara 14, which is lighter and more responsive. Would you like to see more details about any of those?",
+      "response_time": 5.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.75,
+        "integrity": 5.64
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, interesting. So, what makes one shoe better than the other for *me* specifically? I'm a heavier runner, and I tend to overpronate a bit. It's frustrating trying to figure this out!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! For a heavier runner who overpronates, the Brooks Glycerin 20 might be a good starting point due to its neutral support and high cushioning which helps with impact. However, for overpronation specifically, you might benefit more from shoes in the 'stability' category, which offer more medial support. Would you like me to show you options from the 'stability running shoes' category instead? I can also filter by cushioning level.",
+      "response_time": 5.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.7,
+        "benevolence": 5.27,
+        "integrity": 5.49
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_65e1eeb3",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.03,
+      "benevolence": 4.87,
+      "integrity": 5.06
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 5.39,
+    "latency_score": 2.58
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I ordered a pair of shoes last week, order number is #12345, and the tracking hasn't updated in 3 days. What's going on? I need them by Friday.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for contacting us. Let me check on order #12345 for you. One moment, please.\n\nOkay, I see that your order is currently in transit and experiencing a slight delay due to inclement weather in your region. The updated estimated delivery date is now Saturday. I apologize for any inconvenience this may cause.",
+      "response_time": 6.0,
+      "emotion_detected": "sadness",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Saturday?! That's not going to work at all! I need them for an event on Friday. Is there anything you can do to expedite the shipping? This is really frustrating.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Unfortunately, once a package is with the carrier, we have limited control over the delivery speed. However, I can contact the shipping company and request that they prioritize the delivery. There is no guarantee, but I will do my best. Is there anything else I can help you with?",
+      "response_time": 1.73,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.29,
+        "benevolence": 2.67,
+        "integrity": 2.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, yes, please contact the shipping company and see if they can prioritize it. But what happens if they still don't arrive by Friday? What's your return policy if I just want to return them then, since I won't need them anymore?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You are eligible for a full refund within 30 days of receiving the shoes, provided they are unworn and in their original packaging. You can initiate a return through your order history on our website. I will also add a note to your account regarding the potential return due to the shipping delay, just in case. Please note that return shipping costs are the responsiblity of the customer.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.1,
+        "integrity": 1.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that's... somewhat helpful, I guess. But why wasn't I notified about this weather delay sooner? It seems like something I should have been informed about proactively. Thanks for looking into the shipping though. I'll keep an eye out for any updates.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4cb52cb1",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.43,
+      "benevolence": 3.59,
+      "integrity": 3.49
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "surprise": 2,
+      "sadness": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 3.03,
+    "latency_score": 4.76
+  }
+}

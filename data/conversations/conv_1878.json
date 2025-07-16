@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to understand why a patient's insurance claim was rejected. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly assist with that. To get started, please provide the patient's name, date of service, and the claim number.",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.37,
+        "integrity": 5.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the patient's name is John Smith, date of service was 2024-03-10, and the claim number is 12345ABC.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm accessing the information now. The claim was denied due to 'Lack of Medical Necessity'. Do you need more info?",
+      "response_time": 0.58,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.16,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's the explanation *every* time. What does 'Lack of Medical Necessity' specifically mean in *this* case? It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Looking into the specific code (CPT code 99213), the insurer states that the documentation did not adequately support the need for an established patient office visit. More specific information is not immediately available, though I recommend you check the claim's detailed explanation of benefits (EOB) document.",
+      "response_time": 2.04,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.3,
+        "benevolence": 2.37,
+        "integrity": 2.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, I'll look into the EOB. But, hypothetically, if the documentation *was* sufficient, and the claim *still* got rejected, what's the next step for appealing this denial?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! The appeal process varies depending on the insurance provider, but typically involves submitting a written appeal with supporting documentation such as medical records, progress notes, and any other information that supports the medical necessity. You may also need to include the denial letter. The appeal should be submitted within the timeframe specified by the insurance company. You can often find details on their website or through a phone call.",
+      "response_time": 5.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.76,
+        "integrity": 5.43
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's actually really helpful. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4a832eaf",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.51,
+      "benevolence": 3.67,
+      "integrity": 3.7
+    },
+    "engagement_score": 5.28,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "disgust": 1,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.98,
+    "latency_score": 4.55
+  }
+}

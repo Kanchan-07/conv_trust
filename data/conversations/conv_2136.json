@@ -1,0 +1,72 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my checking account balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. Please provide the last four digits of your account number and your date of birth to verify your identity.",
+      "response_time": 2.87,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.56,
+        "benevolence": 3.74,
+        "integrity": 3.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, last four are 1234 and my birthday is 01/01/1990. What's my balance, and also, when did that $50 transaction to 'Groceries R Us' clear?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Your current balance is $1,234.56. The $50 transaction to Groceries R Us cleared on 03/15/2024. Is there anything else I can help you with? By the way, the fees applied in the last month totalled $5.00, but I am not sure about their particularities. Could you please clarify which fees you'd like to know more about?",
+      "response_time": 0.51,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.11,
+        "benevolence": 1.09,
+        "integrity": 1.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's all helpful, thank you. However, this is a bit of a challenging question. How can I see all fees I've paid in the last year, and how were they determined, and what are my rights in case of a dispute? I mean, where can I get a full detailed list with all fees, terms and regulations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_092337f5",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.33,
+      "benevolence": 2.42,
+      "integrity": 2.46
+    },
+    "engagement_score": 4.17,
+    "emotion_distribution": {
+      "neutral": 5
+    },
+    "response_quality_score": 2.48,
+    "latency_score": 5.81
+  }
+}

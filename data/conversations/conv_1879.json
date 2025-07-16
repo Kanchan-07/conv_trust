@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm starving! Can you recommend some restaurants nearby?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! I can help with that. To give you the best recommendations, could you tell me your current location, or if you prefer, I can access your location using the app's permissions?",
+      "response_time": 5.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.09,
+        "benevolence": 5.93,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, use my location. I'm craving something... maybe Italian or something with good reviews.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've found several Italian restaurants near you with high ratings. \"Luigi's Pasta Palace\" has a 4.5-star rating and great reviews for their lasagna, and \"Bella Roma\" has a 4-star rating with good reviews on their pizza. Would you like me to provide more details or see other cuisine options?",
+      "response_time": 2.94,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.39,
+        "integrity": 3.72
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Luigi's sounds good. Tell me more about their lasagna and can I order delivery from them?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Luigi's lasagna is highly reviewed for its rich meat sauce and creamy cheese. Yes, they offer delivery through GrubHub and DoorDash. Would you like me to start an order for you? Also, if you have any allergies or dietary restrictions, please let me know.",
+      "response_time": 5.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.16,
+        "benevolence": 5.83,
+        "integrity": 5.87
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait, how can you guarantee the reviews are trustworthy? I've heard some are fake these days, and I don't want to order from a place with bogus reviews!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While I can't guarantee the absolute authenticity of every review, I utilize a combination of data sources, including established review platforms like Yelp, Google Reviews, and customer feedback aggregation services, which include some verification features. These platforms use algorithms to identify and filter out potentially fraudulent reviews, and I cross-reference the reviews from different sources. However, I recommend you check the reviews yourself on the mentioned platforms. Would you like me to proceed with setting up the order?",
+      "response_time": 4.2,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.61,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that sounds like a good approach. Let's try it. Order the lasagna for delivery. And, can you add garlic bread and a Coke?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Excellent! I've placed the order for lasagna, garlic bread, and a Coke from Luigi's Pasta Palace, and it's being delivered. The estimated delivery time is 45 minutes. You should receive a confirmation from DoorDash shortly. Enjoy your meal!",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.8,
+        "integrity": 6.62
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_72688d4f",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.09,
+      "benevolence": 5.31,
+      "integrity": 5.25
+    },
+    "engagement_score": 5.6,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 1,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.35,
+    "latency_score": 2.73
+  }
+}

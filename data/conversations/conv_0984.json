@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some fashion advice! I'm trying to revamp my wardrobe, but I'm on a super tight budget. Like, REALLY tight. Let's say I have a monthly clothing budget of $100. What are some versatile pieces I can buy?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Understood! For a $100 monthly budget, focusing on versatile basics is key. I recommend starting with these: A pair of well-fitting dark wash jeans (around $25-$30 at stores like Old Navy or Target), a neutral-colored t-shirt ($10-$15), a basic button-down shirt ($20-$25), and a comfortable cardigan or light jacket ($30-$40). These can be mixed and matched for various looks. Consider thrifting for even greater savings.",
+      "response_time": 4.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.78,
+        "benevolence": 5.56,
+        "integrity": 5.91
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thrifting... yeah, I guess. I'm just always worried about the quality and finding something that actually fits well. But okay, let's say I do thrift. What if I find a really cool, but statement piece like a vintage sequin jacket for $40. Should I sacrifice one of the basics for it, or is that just a terrible idea?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good question! It depends on how much you value having a unique piece versus a functional wardrobe. Given your limited budget, prioritizing versatile basics is generally recommended. However, if you believe the sequin jacket would bring you significant joy and can be styled with at least 3 existing items in your closet, it might be worth the splurge. But carefully consider if foregoing one of the other items will leave a gap in your wardrobe. Perhaps look for ways to save on the other items (e.g., waiting for sales) before committing to the jacket.",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.64,
+        "integrity": 4.32
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that actually makes a lot of sense. So basically, prioritize what I can wear the most, but if I find something amazing and I can make it work, then go for it. I think I can do that! Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5835cbc5",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.78,
+      "benevolence": 4.6,
+      "integrity": 5.12
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.5,
+    "latency_score": 3.29
+  }
+}

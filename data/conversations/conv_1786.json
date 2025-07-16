@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a package that was supposed to be delivered yesterday. The tracking information hasn't updated, and I'm starting to get worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello. I understand your concern. Can I get your tracking number, please?",
+      "response_time": 0.61,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 98765432101234567890. I'm really frustrated because it contains medication I need, and I'm running low.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. One moment while I check on this for you... Okay, it seems the package is currently at a distribution center about 50 miles from your address. There's a delay due to weather conditions, which is affecting many deliveries in your area.",
+      "response_time": 2.41,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.75,
+        "benevolence": 3.8,
+        "integrity": 3.58
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Weather? But the weather has been fine. And why isn't the tracking updated? That's a pretty crucial detail for me to know, and it's the first thing I checked.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the lack of tracking updates. Sometimes, there can be a lag in the system. Regarding the weather, there was a brief period of heavy rain at the distribution center, which caused the delay. I understand your need for the medication. The package is expected to be delivered by end of day tomorrow. I will be able to provide you with an update then.",
+      "response_time": 3.06,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.03,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I guess I'll have to wait. Thanks for the information. I will check back tomorrow then.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4286d055",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.81,
+      "benevolence": 2.94,
+      "integrity": 2.74
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "fear": 2,
+      "anger": 1,
+      "neutral": 3,
+      "sadness": 1
+    },
+    "response_quality_score": 2.84,
+    "latency_score": 5.47
+  }
+}

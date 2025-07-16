@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have a big interview coming up for a software engineering role at Google. I'm incredibly nervous! Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can definitely help you prepare. I can assist with common interview questions, technical skills practice, and even behavioral questions. Let's start with the basics. What areas do you feel you need the most help with?",
+      "response_time": 4.84,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, I'm most worried about the technical questions. I've been practicing coding, but I still get stumped sometimes. Especially with algorithm design questions... it's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Algorithm design can be tricky. To help you, I can provide you with practice questions, hints, and even step-by-step explanations. Would you like to start with a question related to data structures, such as linked lists or trees, or perhaps something about search algorithms?",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.22,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, let's try a tree-related question. But I'm going to try and stump you. Can you explain the time and space complexity implications of using a self-balancing tree, such as a red-black tree, to implement a priority queue compared to using a binary heap? I've seen some conflicting information online.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great, and challenging question! Implementing a priority queue with a self-balancing tree like a red-black tree generally offers O(log n) time complexity for insertion, deletion, and retrieval of the highest priority element, as well as O(n) space complexity to store the tree. Binary heaps, on the other hand, typically provide O(log n) insertion and deletion, but retrieving the highest priority element (the root) is O(1).  Space complexity is also usually O(n) for a heap. However, the constant factors can matter, and a binary heap often performs better in practice for the *operations themselves* due to its simpler structure. Red-black trees can have higher overhead due to the balancing operations. Does that help?",
+      "response_time": 5.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.87,
+        "integrity": 5.61
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, that's helpful! It clears up some of the confusion I had. Thanks! I feel a little more prepared now. Maybe we can work on some behavioral questions next?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fe2e60b1",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.63,
+      "benevolence": 6.03,
+      "integrity": 5.91
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 6.29,
+    "latency_score": 2.7
+  }
+}

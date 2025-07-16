@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to schedule an appointment with Dr. Ramirez, but the online system is a nightmare. Can you help?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. I can assist you with that. To begin, can you please provide your full name, date of birth, and insurance provider?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.2,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's Jane Doe, January 15th, 1988. And my insurance is with Blue Cross Blue Shield. Ugh, this is already easier than that website!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. And what is the reason for your visit with Dr. Ramirez?",
+      "response_time": 4.45,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.52,
+        "benevolence": 6.78,
+        "integrity": 6.7
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It's for my annual check-up. I'm also a bit concerned about some persistent headaches I've been having.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. Let me check Dr. Ramirez's availability. One moment... It looks like he has an opening on October 26th at 10:00 AM. Would that work for you?",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 3.53,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "October 26th... Hmm, that's a Wednesday, right? I think I can make that work. But, hypothetically, what happens if the doctor is running late that day? I can't afford to be late for a meeting afterwards.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While I cannot guarantee the doctor will be perfectly on time, we do our best to stay on schedule. If there are significant delays, the office staff will notify you. You can also call ahead that morning to inquire. Should I go ahead and book the appointment for you on October 26th at 10:00 AM?",
+      "response_time": 4.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.22,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's fair. Yes, please book the appointment for me. Thanks for the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_82943fb4",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.53,
+      "benevolence": 5.18,
+      "integrity": 5.21
+    },
+    "engagement_score": 4.85,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 5,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.47,
+    "latency_score": 3.22
+  }
+}

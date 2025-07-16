@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm starving. Can you help me order some food? I'm in the mood for something comforting.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To get started, could you tell me your current location, please? Also, what kind of comforting food are you thinking of? Like, pizza, pasta, or something else?",
+      "response_time": 3.69,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.78,
+        "integrity": 5.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm at 123 Main St, Anytown. And...hmm, maybe some good old mac and cheese? But not just any mac and cheese. I want the *good* stuff.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, 123 Main St, Anytown, and craving gourmet mac and cheese! Let me see what's available. Give me a moment... Okay, I found three places nearby that offer mac and cheese. One is 'The Cheesy Corner' with a five-star rating and several options.  Another is 'Pasta Paradise', a bit further, but with decent reviews. And the third is 'Quick Bites', which is the closest, but the reviews are mixed. What do you think?",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.9,
+        "integrity": 3.91
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Five stars at 'The Cheesy Corner' sounds promising! But I've had bad experiences with online ratings before. What's the average price range, and what specifically do people love about it?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright. 'The Cheesy Corner' is considered moderately priced, around $15-$20 per entree, according to recent data. Customers rave about their truffle mac and cheese and the generous portion sizes. They also get high marks for delivery speed. I can pull up specific reviews if you'd like.",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 4.14,
+        "integrity": 3.57
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the truffle mac and cheese sounds divine! But here's a tricky question: I have a severe gluten intolerance. Does 'The Cheesy Corner' offer any gluten-free options, and if so, how can I be sure it's prepared safely to avoid cross-contamination?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Let me check the details... Hmm, their online menu doesn't explicitly list gluten-free options, but I can see that they do offer a 'build your own mac and cheese' option. I strongly recommend that you call them directly at (555) 123-4567 to confirm whether they can accommodate your allergy and the steps they take to prevent cross-contamination. I apologize that I can't provide an immediate, definitive answer on that.",
+      "response_time": 3.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.53,
+        "integrity": 4.19
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's fair enough. Thanks for your help. I'll give them a call. I appreciate you pointing me in the right direction. Now that I think about it, maybe some bread wouldn't hurt. Thanks again!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_15a57b8f",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.37,
+      "benevolence": 4.34,
+      "integrity": 4.38
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 7,
+      "joy": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 4.53
+  }
+}

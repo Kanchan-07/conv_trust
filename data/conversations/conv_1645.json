@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need to plan my groceries for the week, but I'm on a tight budget. Can you help me with some recommendations?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! To give you the best recommendations, could you tell me your budget for the week and any dietary restrictions or preferences you have?",
+      "response_time": 6.0,
+      "emotion_detected": "surprise",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.79,
+        "benevolence": 6.63,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "My budget is $75. I'm trying to eat healthy, so mostly fruits, vegetables, and lean proteins. I'm not a huge fan of seafood, though.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, $75 for the week, focusing on fruits, vegetables, and lean proteins, avoiding seafood. Based on that, here's a possible shopping list:\n\n*   **Vegetables:** Broccoli, carrots, spinach\n*   **Fruits:** Apples, bananas, oranges\n*   **Protein:** Chicken breast, eggs, lentils\n*   **Other:** Whole wheat bread, oatmeal\n\nThis should give you a good start. I can provide estimated prices if you'd like.",
+      "response_time": 2.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.62,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That list is pretty generic. I was hoping for some more specific meal ideas. Also, how is that list within budget, even with estimated prices?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I'm still under development. I will provide more tailored meal suggestions. I can also attempt to estimate prices at popular supermarkets, but it requires more information on your specific location. For instance:\n\n*   **Monday:** Chicken breast with roasted broccoli and quinoa.\n*   **Tuesday:** Lentil soup with whole wheat bread and a side of carrots.\n*   **Wednesday:** Scrambled eggs with spinach and a banana.\n*   **Thursday:** Chicken salad sandwich on whole wheat bread.\n\nThis should be within your budget.",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 3.7,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those meal ideas are much better! But how am I supposed to know the price of the ingredients without going to the store? Can you somehow find those prices, even if they aren't perfect?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can access some publicly available pricing information to estimate prices from online sources. However, prices vary based on location. To estimate a price breakdown for each meal, you must provide your location details or a nearby zip code. This will help me estimate more accurately. Do you want to provide your location?",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.32,
+        "benevolence": 4.48,
+        "integrity": 3.5
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, I'm in the 90210 area. Let's see what the price breakdown looks like for the Monday meal: chicken breast, broccoli, and quinoa.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3212c269",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.72,
+      "benevolence": 4.61,
+      "integrity": 4.71
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "sadness": 1,
+      "surprise": 1,
+      "neutral": 7
+    },
+    "response_quality_score": 4.52,
+    "latency_score": 3.58
+  }
+}

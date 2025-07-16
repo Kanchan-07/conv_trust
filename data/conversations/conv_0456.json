@@ -1,0 +1,88 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to tackle this. I need to start planning for retirement, but honestly, I have no idea where to even begin. I'm feeling pretty overwhelmed.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Retirement planning can seem daunting, but we can break it down into manageable steps. First, let's gather some basic information. What is your current age, and what age would you ideally like to retire?",
+      "response_time": 3.76,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.04,
+        "integrity": 3.87
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm 35 now, and I'd love to retire around 60, maybe 62 if I'm being realistic. What kind of return on investment should I be aiming for, generally speaking? Is there some golden number everyone uses?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question. A common rule of thumb is to aim for an average annual return of around 7-10% over the long term, but this is heavily dependent on your risk tolerance and the specific investments you choose. It's important to remember that higher returns usually come with higher risk. Keep in mind that past performance is not indicative of future results. For personalized guidance, consider consulting a financial advisor.",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 3.61,
+        "integrity": 4.05
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, 7-10%... Got it. So, what about inflation? Everyone keeps talking about it, and it seems like everything is getting more expensive. How do I factor that into my calculations? I'm worried my savings won't be worth anything by the time I retire!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very valid concern. Inflation erodes the purchasing power of your savings over time. When projecting your retirement needs, you need to estimate future inflation rates. A common approach is to use a historical average inflation rate, which has been around 3% historically. Financial planning tools often have inflation adjustments built in. We can try calculating some rough estimates based on a few different inflation scenarios if you like.",
+      "response_time": 2.6,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 3.98,
+        "integrity": 4.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3765fdbd",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.04,
+      "benevolence": 3.88,
+      "integrity": 4.01
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "surprise": 1,
+      "fear": 1,
+      "neutral": 3,
+      "anger": 1
+    },
+    "response_quality_score": 4.24,
+    "latency_score": 4.21
+  }
+}

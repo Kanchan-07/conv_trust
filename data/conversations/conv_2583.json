@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm feeling overwhelmed by my finances. I want to start saving for retirement, but I also have some credit card debt. Where should I even begin?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! It's completely understandable to feel overwhelmed, but taking the first step is key. A good starting point is to get a clear picture of your current financial situation. This involves listing all your income, expenses, assets (like savings), and liabilities (like debts).",
+      "response_time": 3.56,
+      "emotion_detected": "surprise",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.86,
+        "integrity": 5.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've done a rough breakdown, and honestly, the debt is higher than I thought. It's frustrating. Should I focus *all* my energy on paying off the credit cards before thinking about retirement savings at all?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Addressing high-interest debt like credit cards is generally a good idea for financial health. There are different methods you can use.",
+      "response_time": 5.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.95,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, but what does 'generally a good idea' mean in my specific case? My credit card interest is around 20%, but my employer offers a 4% match on my retirement contributions. If I put everything towards debt, I lose that free money. If I do both, progress feels slow everywhere. What's the mathematically best approach here? It feels like a trap!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very common and challenging trade-off! Given the 20% credit card interest rate versus a 4% employer match, the mathematically optimal approach is usually to prioritize paying off the high-interest debt first. Avoiding 20% interest offers a higher 'return' than the guaranteed 4% match. However, many people choose a hybrid approach: contribute just enough to get the full employer match (securing that 'free money'), and then put any extra funds towards aggressively paying down the high-interest debt. This balances capturing the match while still making significant progress on the debt. Once the high-interest debt is gone, you can significantly increase your retirement contributions.",
+      "response_time": 5.89,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.48,
+        "integrity": 5.49
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, contributing just enough for the match and then hammering the debt makes a lot of sense. It feels less overwhelming to have a clear path now. Thanks for explaining that trade-off so clearly.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0885b890",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.66,
+      "benevolence": 5.76,
+      "integrity": 5.27
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "surprise": 3,
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.32,
+    "latency_score": 2.64
+  }
+}

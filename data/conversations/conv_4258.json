@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling because I've been charged twice this month, and I don't understand why. My account number is 1234567890.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thanks for reaching out. I'm sorry to hear about the double charge. Let me look into this for you. Please give me a moment while I access your account information... Okay, I see two charges on your account, both for the same amount. One was on the 1st, and the other was on the 15th.  Can you confirm that you did not make any extra purchases during that time?",
+      "response_time": 0.51,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.04,
+        "benevolence": 1.25,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No, I definitely didn't. That's the problem!  I only have a single subscription. What's the deal?  And, if I am being honest, why does this always happen with your service? What's going on with your billing system?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, and I sincerely apologize for the inconvenience. Our investigation shows that there was a temporary error that caused the duplicate charge. I have already processed a full refund for the second charge, which should reflect in your account within 5-7 business days. I can also provide you with a detailed breakdown of the charges if you'd like. We are reviewing our billing system to prevent future issues. Is there anything else I can help you with today?",
+      "response_time": 0.53,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.16,
+        "integrity": 1.45
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b3b2bbda",
+    "average_trust_score": 1.0,
+    "trust_category_averages": {
+      "competence": 1.02,
+      "benevolence": 1.21,
+      "integrity": 1.23
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 1,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 1.31,
+    "latency_score": 6.98
+  }
+}

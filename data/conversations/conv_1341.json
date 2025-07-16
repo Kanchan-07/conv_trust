@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to install a new kitchen faucet, but I'm completely lost. Any advice?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help with that. To start, can you tell me the make and model of your new faucet and what kind of existing plumbing you have (e.g., number of holes in the sink, supply line type)?",
+      "response_time": 4.03,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.06,
+        "benevolence": 5.87,
+        "integrity": 5.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I already threw out the box! And I have NO idea about the plumbing. I just know there's a hot and cold water line. This is more complicated than I thought!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No worries, it happens! Let's start with the basics. Can you describe your current faucet setup? How many handles does it have? Do you have a sprayer? Take a photo if that helps. Also, check under your sink for the water shut-off valves \u2013 are there two, one for hot and one for cold?",
+      "response_time": 5.03,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.91,
+        "benevolence": 6.8,
+        "integrity": 6.67
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I took some pictures. There are two handles, a sprayer, and yeah, two shut-off valves. But... how do I know if my old faucet is compatible with the new one? They look totally different.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Compatibility depends on the number of holes in your sink and the connections. Since you mentioned a sprayer, you likely have a sink with 3 or 4 holes. The new faucet will either fit directly, or you might need an escutcheon plate (a decorative cover) to fill any unused holes. Unfortunately, I am unable to definitively determine if they are compatible based on the picture alone. You would need to measure the distance between the holes on your sink and compare them with the dimensions of your new faucet. Would you like me to give some instructions on how to measure your sink?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.04,
+        "benevolence": 3.59,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please! Measuring sounds less daunting than ripping out pipes. Thanks for the help so far!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b66408da",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.34,
+      "benevolence": 5.42,
+      "integrity": 5.37
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "disgust": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.3,
+    "latency_score": 3.26
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. Can you recommend some based on what's popular right now?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! Based on the 'Running Shoes' category, and current popularity, here are a few recommendations:\n\n1.  **Nike ZoomX Vaporfly NEXT% 2:** Highly rated for marathon runners and known for its energy return.\n2.  **Brooks Glycerin 20:** Popular for its cushioning and comfort, good for everyday training.\n3.  **Hoka Clifton 9:** Known for its lightweight feel and soft cushioning, a good all-around choice.\n\nWould you like me to filter these down based on specific needs like pronation or distance?",
+      "response_time": 4.49,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.05,
+        "integrity": 5.9
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Those all sound great, but how do you determine 'popularity'? Is it based on sales numbers, reviews, or something else? I'm asking because I am very cautious about buying products based solely on popularity.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! Our 'popularity' metric is a combination of factors: recent sales volume, average customer review scores (factoring in the number of reviews), and current trends on social media platforms where our products are discussed. We try to provide a balanced view, but you're right to be cautious. For more in-depth product analysis and personalized recommendations, you might find it beneficial to filter your preferences to narrow down the choices that truly match your specific needs.",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.56,
+        "integrity": 5.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_90f9a8db",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.89,
+      "benevolence": 5.3,
+      "integrity": 5.51
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 3,
+      "fear": 1
+    },
+    "response_quality_score": 5.26,
+    "latency_score": 3.43
+  }
+}

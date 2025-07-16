@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of participating in this hackathon, but I'm feeling a bit overwhelmed. It's my first one. Any tips?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! Participating in your first hackathon can be a bit daunting, but it's also a great learning experience. Here are a few tips: First, choose a project that aligns with your skills and interests. Don't try to overreach. Second, focus on building a Minimum Viable Product (MVP) - a functional core. Third, collaborate effectively with your team (if you have one). And finally, don't forget to have fun!",
+      "response_time": 3.96,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.3,
+        "benevolence": 5.61,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, MVP makes sense. But what if my team's idea is really ambitious? Like, we want to use some cutting-edge AI that we barely understand. Should we scale back? I'm kinda excited about it, but also worried we'll crash and burn.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a valid concern. While aiming high is good, it's generally better to have a functional, simpler project than an incomplete, complex one. Consider breaking down the AI part into smaller, manageable components. Could you implement a simplified version of the AI or focus on using it for a specific, achievable task within the hackathon timeframe? Demonstrating progress and a working prototype is often more impressive than a grand, unfinished concept. It might also be good to assess what each team member's actual skillset is, and divide the work accordingly.",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 4.19,
+        "integrity": 3.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful. One last question: The hackathon rules say something about intellectual property. Does the hackathon organization own the code we create during the event? That seems a bit unfair, doesn't it? I'm suddenly less enthusiastic...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a crucial point to clarify. The intellectual property (IP) rules can vary significantly between hackathons. Typically, hackathons either grant ownership of the IP to the team/participants, or they might have clauses where they have the right to use your submission for promotional purposes. Rarely do they outright claim ownership. **However, you should always read the specific terms and conditions of the hackathon regarding IP before participating.** Look for sections on 'Intellectual Property,' 'Ownership,' or 'Rights to Submission.' If the rules are unclear or seem overly restrictive, it's perfectly reasonable to contact the organizers and ask for clarification. It's much better to understand the IP implications upfront.",
+      "response_time": 3.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.29,
+        "integrity": 4.41
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_21beb366",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.27,
+      "benevolence": 4.7,
+      "integrity": 4.5
+    },
+    "engagement_score": 5.25,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 4.96,
+    "latency_score": 3.71
+  }
+}

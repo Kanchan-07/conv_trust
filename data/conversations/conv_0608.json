@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I keep getting these AR denials, specifically for 'missing information'. I've double and triple-checked the claims, and I can't find anything missing!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. AR denials related to 'missing information' can be tricky. To help me investigate, could you please provide the claim numbers and patient names associated with a few of these denials?",
+      "response_time": 1.96,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.51,
+        "benevolence": 2.23,
+        "integrity": 2.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here are three: Claim #12345 for patient John Smith, Claim #67890 for Jane Doe, and Claim #13579 for Robert Jones. All three denied for 'missing information'.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'm checking the claim details now. For John Smith's claim #12345, it appears the referring physician's NPI was missing from the claim form. For Jane Doe's claim #67890, the diagnosis code was not specific enough. For Robert Jones, claim #13579 was missing the place of service code.",
+      "response_time": 2.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 3.89,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I see about the NPI and place of service code. But the diagnosis code for Jane Doe *was* specific! I used ICD-10 code E11.9, which is diabetes mellitus type 2 without complications. How much more specific can I get?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You raise a valid point. E11.9 can sometimes trigger denials depending on the payer's specific requirements. While E11.9 indicates diabetes mellitus type 2 without complications, some payers might require additional codes to specify associated manifestations, even if those manifestations are absent. I'd recommend checking the payer's specific guidelines for diabetes coding, and potentially adding a Z code indicating 'no complications'.",
+      "response_time": 2.62,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.37,
+        "benevolence": 3.93,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A Z code for 'no complications'? Seriously? That seems ridiculous. Is there any way to automate checks for these payer-specific nuances? I can't keep going through this for every claim!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a very good question. We are currently developing advanced claim scrubbing tools that incorporate payer-specific rules and guidelines to proactively identify potential coding issues before submission. These tools aim to minimize denials like the ones you're experiencing. In the meantime, I can provide you with links to the payer policies for these specific denials.",
+      "response_time": 4.11,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.14,
+        "benevolence": 5.18,
+        "integrity": 5.38
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, links to the payer policies would be great. Thanks. I'm looking forward to those advanced scrubbing tools, though. This is a huge time-waster.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c727f0ab",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.95,
+      "benevolence": 3.81,
+      "integrity": 3.99
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.15,
+    "latency_score": 4.67
+  }
+}

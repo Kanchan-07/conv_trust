@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued by my neighbor, and I'm not sure what to do.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can provide some general information, but I am not a substitute for a licensed attorney. Can you tell me the nature of the lawsuit and what specifically your neighbor is claiming?",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.9,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "They're claiming I damaged their fence and want me to pay for repairs. The fence *was* old, and frankly, I think it was their responsibility to maintain it in the first place. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I see. This sounds like a property dispute. In many jurisdictions, property owners are responsible for maintaining their portion of a shared fence, unless there is a prior agreement specifying otherwise. Do you have any documentation, like property deeds or previous correspondence, related to the fence?",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.0,
+        "integrity": 1.03
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I have the property deed, but it doesn't mention the fence specifically. What if the fence damage was caused by a storm and not me? Does that change anything? This is all so confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That is an excellent question. The responsibility for damage caused by a storm can vary based on local ordinances and the nature of the damage. Generally, if the damage was a result of an 'act of God,' liability may be less clear-cut. However, it is likely that the initial responsible party bears responsibility for repairs. I would recommend investigating local ordinances and checking your home insurance policy, to see what coverage is provided for fence damage from storms.",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.5,
+        "benevolence": 5.14,
+        "integrity": 5.19
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that helps clarify things a little. What's the best way to find out about local ordinances? Do I have to go to the city hall or is there another way?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "You can usually find local ordinances on the city or county government's website. You can often search for relevant ordinances by keyword (e.g., \"fence regulations\" or \"property line disputes\"). Alternatively, you may contact the city hall directly to get information on the issue at hand. I hope this helps, and I recommend you consult with a lawyer to see if your case is viable. Best of luck!",
+      "response_time": 4.01,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.45,
+        "benevolence": 5.66,
+        "integrity": 5.86
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b7518ab2",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.14,
+      "benevolence": 3.92,
+      "integrity": 3.93
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 1
+    },
+    "response_quality_score": 4.29,
+    "latency_score": 4.48
+  }
+}

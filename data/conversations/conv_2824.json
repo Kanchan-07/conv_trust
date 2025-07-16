@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to track my package. The tracking number is [TRACKING123]. It was supposed to be here yesterday and the status hasn't updated in two days. I'm getting a bit frustrated, honestly. Can you tell me what's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I understand your concern about the delay with tracking number [TRACKING123]. Let me check the latest information for you. *[simulates checking]* According to our system, the package is currently listed as 'In Transit, delayed'. We are investigating the cause of the hold-up. While we don't have a new estimated delivery date just yet, the team is working to resolve the issue. Is there anything else I can look into regarding this specific shipment?",
+      "response_time": 0.5,
+      "emotion_detected": "fear",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "'In Transit, delayed' isn't very helpful. What does 'investigating the cause' even mean? Is it lost? Was it damaged? How can you not have *any* idea when it will arrive? I really need this item soon!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I apologize that the status is not more detailed at this moment. We don't have specific information on the exact cause of the delay or the package's current condition beyond it being held at a facility during transit. We are not able to provide a precise delivery date until the investigation is complete. The best estimate I can give based on typical resolution times for such issues is within the next 2-4 business days. We will update the tracking information as soon as we have more details or a new estimate.",
+      "response_time": 1.59,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.59,
+        "benevolence": 2.59,
+        "integrity": 2.39
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_cb5a3337",
+    "average_trust_score": 1.75,
+    "trust_category_averages": {
+      "competence": 1.79,
+      "benevolence": 1.79,
+      "integrity": 1.7
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "anger": 1,
+      "fear": 1,
+      "surprise": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 2.08,
+    "latency_score": 6.46
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some new books to read. Can you give me some recommendations based on genre?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. Which genre are you interested in exploring?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 6.74,
+        "integrity": 6.54
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's start with fantasy. I like epic fantasy, maybe something with dragons or a complex magic system. Nothing too grimdark, though.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, for epic fantasy with complex magic systems and dragons, but avoiding grimdark, I recommend *The Way of Kings* by Brandon Sanderson (part of the Stormlight Archive series), *Priory of the Orange Tree* by Samantha Shannon, and perhaps *Mistborn: The Final Empire* by Brandon Sanderson as well. *Eragon* by Christopher Paolini features dragons prominently and is lighter in tone.",
+      "response_time": 3.24,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.9,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I've read Sanderson, loved Mistborn! Priory sounds interesting. Eragon... feels a bit young adult for me now.  Ugh, finding the *perfect* book is so hard sometimes. Anyway, what if I like fantasy *but also* sci-fi? Like, a mix? How do you even suggest something for *that*?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Ah, blending genres can be tricky but also rewarding! For a mix of fantasy and sci-fi, you might look into Science Fantasy or Planetary Romance subgenres. Titles like *Dune* by Frank Herbert (often considered sci-fi but with strong mystical/epic fantasy elements) or *The Dark Tower* series by Stephen King (which blends many genres including fantasy and sci-fi) could fit. Exploring authors known for crossing genre lines is also a good strategy.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.17,
+        "integrity": 5.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, Dune is classic, but I've read it. Dark Tower is... a lot. That's still kind of vague, to be honest. It feels like you just listed big names that *touch* on both. Okay, let's simplify. Just give me a *great* sci-fi recommendation, something published in the last five years, maybe a standalone if possible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Apologies if the previous suggestions weren't quite right. Focusing on recent, standalone sci-fi: I recommend *Project Hail Mary* by Andy Weir (published 2021). It's a very popular, engaging, and critically acclaimed standalone sci-fi novel.",
+      "response_time": 3.78,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.56,
+        "integrity": 5.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_091e7a46",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.35,
+      "benevolence": 5.34,
+      "integrity": 5.44
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.45,
+    "latency_score": 3.23
+  }
+}

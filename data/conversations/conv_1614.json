@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I've been feeling really tired lately, even after getting what seems like enough sleep. Any ideas what might be causing this?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I'm sorry to hear you're feeling fatigued. There are several potential causes for persistent tiredness. To give you the best advice, could you tell me a bit more about your sleep habits? How many hours do you typically sleep, and do you have any trouble falling asleep or staying asleep?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.0,
+        "integrity": 1.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I usually get around 7-8 hours of sleep a night. I fall asleep pretty easily, but sometimes I wake up in the middle of the night and can't get back to sleep. I also feel stressed out a lot, which probably doesn't help.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, thanks for the information. Stress and interrupted sleep are definitely factors that can contribute to fatigue. Other possibilities include iron deficiency, thyroid issues, or even an underlying medical condition. Have you noticed any other symptoms, such as changes in appetite or mood?",
+      "response_time": 2.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 3.68,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I think I've been more irritable lately. And my appetite is kind of all over the place - sometimes I'm starving, other times I have no interest in eating at all. I'm starting to get frustrated because I just want to feel normal again!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on what you've described, it would be best to consult with a healthcare professional to get a proper diagnosis. They can run tests to rule out any underlying medical conditions. In the meantime, consider practicing stress-reduction techniques such as meditation or deep breathing exercises. Also, ensure you're maintaining a balanced diet and regular exercise.",
+      "response_time": 1.91,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.82,
+        "benevolence": 2.9,
+        "integrity": 2.75
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I will. But, what if I can't afford to see a doctor right now? Are there any over-the-counter supplements I could take to help with fatigue?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While I can't provide medical advice, I can offer some general information. Some people find that certain supplements, like Vitamin B12 or iron, can help with fatigue if they have a deficiency. However, it's crucial to consult with a healthcare provider before taking any supplements, as they can sometimes interfere with other medications or have side effects. Unfortunately, I can't recommend a specific supplement without knowing your individual medical history. Do you know of any community health clinics in your area?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 4.21,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Thanks, that's helpful. I'll look into those options. I appreciate your help.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0185fd6e",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 3.22,
+      "benevolence": 2.95,
+      "integrity": 3.12
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 4,
+      "anger": 2
+    },
+    "response_quality_score": 3.1,
+    "latency_score": 5.57
+  }
+}

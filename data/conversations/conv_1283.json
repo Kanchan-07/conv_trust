@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel room in Paris for next week. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help with that. To get started, could you please provide me with the dates you're looking for, the number of guests, and any preferences you have, such as the desired price range, star rating, or specific amenities (e.g., a pool, free breakfast)?",
+      "response_time": 5.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.38,
+        "benevolence": 5.22,
+        "integrity": 5.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I need a room for two adults from the 15th to the 19th of November. Ideally, something with a good location, near the Eiffel Tower would be great. Budget is flexible, but nothing crazy expensive. Maybe 4 or 5 stars?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I've got that. Searching for hotels near the Eiffel Tower, 4-5 stars, for two adults from November 15th to 19th. I'm finding a few options. One moment while I filter based on average user reviews and price. Okay, I found the 'Hotel Plaza Ath\u00e9n\u00e9e'. It's a 5-star hotel and has excellent reviews, but it may be outside of your budget. There is also 'Shangri-La Hotel, Paris' available. I am unsure if that location is ideal for you, however.",
+      "response_time": 2.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.48,
+        "benevolence": 4.41,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Wow, the Plaza Ath\u00e9n\u00e9e is way out of my budget, I expected that. The Shangri-La sounds good. But I am concerned about how far it is from the Eiffel Tower - what's the actual walking distance? And what's the cancellation policy?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me see... the Shangri-La is approximately a 15-minute walk from the Eiffel Tower. Regarding the cancellation policy, it depends on the rate you choose. Generally, you can cancel without a penalty up to a certain date, but some non-refundable rates are available at a lower price. I can show you the specific cancellation policy for each rate offered if you'd like. I'll gather those details.",
+      "response_time": 2.38,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.47,
+        "benevolence": 4.38,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, show me the options at the Shangri-La and the cancellation policies. Let's see what we can do. I'm feeling more optimistic now, thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9de361d1",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.78,
+      "benevolence": 4.67,
+      "integrity": 4.46
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.32,
+    "latency_score": 3.9
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview coming up for a software engineer position at Google. I'm pretty nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can definitely help! I can assist with various aspects of interview preparation. To start, what areas are you most concerned about? For example, are you worried about technical questions, behavioral questions, or something else?",
+      "response_time": 3.49,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.97,
+        "benevolence": 5.46,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, all of the above! I'm especially worried about the technical questions. I've been practicing coding, but I'm still a bit rusty on data structures and algorithms. Any advice?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's focus on technical questions then. Here's a suggestion: I can provide you with a list of common data structures and algorithms questions. Would you like to try solving a few, perhaps related to arrays and linked lists?",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.42,
+        "integrity": 3.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please! Give me a question related to linked lists. I'll try my best, but I might be a little slow. I have been studying, though. ",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright, here is a question for you: \"Given a linked list, determine if it has a cycle in it.\" Take your time; I'm here to assist. Please share your approach and then your code (if applicable). This is a classic one, good luck!",
+      "response_time": 5.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.37,
+        "benevolence": 5.79,
+        "integrity": 5.15
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, let me think... I think I'd use the 'fast and slow pointer' approach. One pointer moves two steps at a time, and the other moves one step. If there's a cycle, they'll eventually meet. Wait... How do I code that in Java? I'm blanking... can you give me a hint, or the code snippet?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "My apologies, I am unable to provide code snippets at this time. However, I can guide you. You're on the right track with the fast and slow pointers. For Java, consider the `ListNode` class (if you're using one). Here are some key steps for you to think about: 1) Initialize two pointers, `slow` and `fast`, to the head of the list. 2) Iterate through the list while `fast` and `fast.next` are not null. 3) In each iteration, move `slow` one step forward and `fast` two steps forward. 4) If `slow` and `fast` meet at any point, there is a cycle. Otherwise, if fast reaches null, there is no cycle. Give that a shot and tell me what you come up with!",
+      "response_time": 4.23,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.7,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's really helpful. Thank you! I understand now. I'll take some time to write the code and then test it to ensure it works. I feel much more confident now! Thanks for all your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_db488f99",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.18,
+      "benevolence": 5.34,
+      "integrity": 4.99
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "fear": 4,
+      "neutral": 4,
+      "joy": 1
+    },
+    "response_quality_score": 5.25,
+    "latency_score": 3.37
+  }
+}

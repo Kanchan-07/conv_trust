@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm looking at another batch of denials for 'service not authorized'. It's so frustrating! We had authorizations for these patients. What am I missing?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. 'Service not authorized' denials are common but can be complex. To help you troubleshoot, could you provide the claim number or patient account number and the payer involved for one of these denials? I can then check if I can access any related information or denial details.",
+      "response_time": 1.65,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.25,
+        "benevolence": 2.65,
+        "integrity": 2.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's look at claim number 1234567 for patient Jane Doe, with Payer X. The denial reason says 'Authorization Missing/Invalid'. But I'm telling you, we triple-checked the auth was active and covered the dates of service and CPT codes. Why does this keep happening even when we have the auth? Is the system glitching or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing the details. While I can't directly diagnose a system glitch, 'Authorization Missing/Invalid' denials can occur for several reasons even with a valid authorization: the authorization wasn't linked correctly to the claim, the specific CPT code on the claim wasn't *explicitly* included on the authorization, the date range on the claim didn't perfectly match the authorization period, or there might be a lag in the payer's system updating. Sometimes submitting the authorization number on the claim isn't enough; the payer's system needs to see it linked internally.",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 3.86,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those are possibilities, I guess, but it feels like we covered that. It's still confusing why it would say 'missing' if it was provided. What are the best next steps I should take right now for *this specific* denial (1234567) to get it paid? Just resubmit?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ca0e9a2b",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.31,
+      "benevolence": 3.25,
+      "integrity": 3.08
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "disgust": 1,
+      "anger": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 3.03,
+    "latency_score": 5.41
+  }
+}

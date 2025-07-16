@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to book a table for dinner tomorrow night. Somewhere nice, maybe Italian?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. For how many people and what time are you thinking?",
+      "response_time": 3.39,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.05,
+        "benevolence": 4.28,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Two people, around 7:30 PM. And ideally not too loud. Last time I went to an Italian place I couldn't hear myself think!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. I'm showing a few options. There's 'Bella Notte' with a rating of 4.5 stars, and 'Pasta Paradise' rated at 4 stars. Both have availability around 7:30. Bella Notte is known for its quieter atmosphere.",
+      "response_time": 4.67,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.53,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, Bella Notte sounds good. Can you tell me a bit more about it? Specifically, what kind of food do they specialize in beyond just 'Italian'?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Bella Notte specializes in Northern Italian cuisine, with a focus on fresh pasta and seafood dishes. They also have a highly-rated wine list.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.87,
+        "benevolence": 6.95,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds promising. Book it for two at 7:30 PM tomorrow then. Oh, and is there parking nearby, or is it mostly street parking?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Confirmed! A table for two at Bella Notte for tomorrow at 7:30 PM. Regarding parking, Bella Notte primarily offers street parking, which can be limited. However, there's a paid parking garage about two blocks away at 123 Main Street. I can send you directions to the garage if you'd like?",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.08,
+        "benevolence": 5.7,
+        "integrity": 5.04
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Perfect, thanks! Now, a more challenging question: if their advertised 'fresh pasta' isn't actually made in-house, what recourse do I have? Just curious.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "That's a good question. While I can't guarantee the accuracy of their claims, if you suspect false advertising, you could consider leaving a review online detailing your experience, or contacting the restaurant directly to express your concerns. Consumer protection laws may also apply depending on your location.",
+      "response_time": 2.56,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 3.76,
+        "integrity": 3.64
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ed813a27",
+    "average_trust_score": 5.2,
+    "trust_category_averages": {
+      "competence": 5.12,
+      "benevolence": 5.24,
+      "integrity": 5.09
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "neutral": 7,
+      "anger": 1,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 5.32,
+    "latency_score": 2.99
+  }
+}

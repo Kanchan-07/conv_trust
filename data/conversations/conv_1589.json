@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a hotel room in Chicago for next weekend, from Friday to Sunday. Can you help me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, certainly! I can help with that. To start, could you please provide the dates you're looking for? And do you have any preferences, such as a specific hotel, price range, or desired amenities like a pool or free breakfast?",
+      "response_time": 5.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.75,
+        "benevolence": 5.06,
+        "integrity": 5.29
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I already told you! Next weekend, Friday to Sunday. I'd prefer something near the Magnificent Mile, with a pool if possible, and under $300 a night if possible.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "My apologies, I am still under development and sometimes miss details. Okay, searching for hotels near the Magnificent Mile, with a pool, from Friday to Sunday next weekend, budget under $300 per night. I've found a few options. One is the Thompson Hotel, which seems to fit the criteria. However, the price is slightly above your budget at $320 per night. Another is the Hampton Inn, it has a pool and falls within your budget. Would you like me to look at other options?",
+      "response_time": 2.63,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.21,
+        "benevolence": 3.83,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The Thompson Hotel is too expensive. Hampton Inn sounds okay, but what's the catch? Is the Hampton Inn really that good of a deal? And can you show me the reviews?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me pull up the reviews for the Hampton Inn on the Magnificent Mile... Hmmm, I am experiencing some issues accessing recent reviews at the moment. However, according to my database, the Hampton Inn scores a solid 4.2 out of 5 based on previous guest experiences. I can provide you with more specific information if you wish. The price point is in your budget because they currently have special promotions. Would you like to book this hotel?",
+      "response_time": 5.7,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.46,
+        "benevolence": 5.41,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll book the Hampton Inn. Can you send me the confirmation details?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a63e132d",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.14,
+      "benevolence": 4.77,
+      "integrity": 4.7
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.76,
+    "latency_score": 2.79
+  }
+}

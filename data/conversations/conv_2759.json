@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule a doctor's appointment for next week.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Which doctor or specialty are you looking for, and what is the reason for your visit?",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 3.75,
+        "integrity": 4.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I need to see a cardiologist. Dr. Emily Carter is my usual doctor, but I'm flexible if she's completely booked. It's for a follow-up on my blood pressure medication.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I'll check for availability with Dr. Carter and other cardiologists for a blood pressure follow-up next week. Do you have any preferred days or times?",
+      "response_time": 5.76,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Preferably early in the week, like Monday or Tuesday morning. But really, anything next week works. Just want to get it done. I'm getting frustrated trying to call the office.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the difficulty reaching the office directly. Checking the schedule now... For next week, Dr. Carter's first available appointment is on Thursday at 11:00 AM. We also have an opening with Dr. David Lee, another cardiologist, on Tuesday at 9:30 AM.",
+      "response_time": 4.88,
+      "emotion_detected": "sadness",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.65,
+        "benevolence": 5.37,
+        "integrity": 5.33
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, Thursday is later than I hoped. Tuesday at 9:30 with Dr. Lee sounds okay. But will he have access to all my past records from Dr. Carter, or do I need to do something to transfer them? This feels confusing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Within our network, typically the doctors share access to patient records. However, I cannot definitively guarantee seamless access without verifying your specific profile and the timing of recent updates. It is generally advisable to confirm this with the front desk upon arrival or if you have particularly sensitive or recent outside records.",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.15,
+        "integrity": 4.03
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That answer isn't very clear. So you're saying maybe he will, maybe he won't? That's not helpful. How am I supposed to know? Can you at least tell me which option is more likely to have all my history available without issues?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, and I apologize for the ambiguity. My system cannot predict the real-time state of record synchronization. However, scheduling with a doctor within the same practice, like Dr. Lee, significantly increases the likelihood that standard records will be readily available compared to seeing a doctor outside the network. If comprehensive access is critical without taking extra steps, rescheduling with Dr. Carter might be the most certain path, but the earliest is Thursday. Otherwise, the Tuesday appointment with Dr. Lee for the blood pressure follow-up is available.",
+      "response_time": 2.09,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.73,
+        "benevolence": 2.1,
+        "integrity": 2.55
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d54c21ac",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.56,
+      "benevolence": 4.47,
+      "integrity": 4.63
+    },
+    "engagement_score": 4.68,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 4.39,
+    "latency_score": 3.91
+  }
+}

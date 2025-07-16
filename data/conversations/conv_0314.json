@@ -1,0 +1,130 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you check my current account balance for the account ending in 4567?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. One moment. Your account ending in 4567 has a current balance of $2,345.89.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.16,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Also, could you list my most recent five transactions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, here are the last five transactions on the account ending in 4567:\n\n* 03/15/2024 - Withdrawal - ATM - $50.00\n* 03/14/2024 - Deposit - Check - $500.00\n* 03/12/2024 - Payment - Netflix - $15.99\n* 03/11/2024 - Payment - Grocery Store - $78.42\n* 03/10/2024 - Deposit - Salary - $1,500.00",
+      "response_time": 2.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.45,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great. That deposit looks a little low, though. Is that really my salary for this pay period?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. I do not have the details about the exact amount of your salary. The information I am showing you is the amount that was deposited into your account. If you feel this is incorrect, I recommend you contact your HR department to confirm if there are any discrepancies.",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 4.41,
+        "integrity": 4.29
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I'll do that. One more thing: can I transfer $300 from my checking (4567) to my savings account (9876)?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, I can help with that. Before I proceed, is the savings account ending in 9876 also under your name and associated with your profile?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.21,
+        "integrity": 3.51
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, it is. Go ahead and make the transfer. Thanks for your help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome! The transfer of $300 from checking (4567) to savings (9876) has been completed. Is there anything else I can assist you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.68,
+        "integrity": 6.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c85d3f52",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.2,
+      "benevolence": 4.15,
+      "integrity": 3.89
+    },
+    "engagement_score": 4.56,
+    "emotion_distribution": {
+      "neutral": 8,
+      "joy": 2
+    },
+    "response_quality_score": 3.88,
+    "latency_score": 4.42
+  }
+}

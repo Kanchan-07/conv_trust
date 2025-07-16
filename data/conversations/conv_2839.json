@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi there! I'm looking for some shoe recommendations, but I'm totally lost. I need something for a smart casual look, like for work but not too formal, and also for going out for dinner. Any ideas?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Smart casual can cover a few different styles. Are you thinking more along the lines of loafers, stylish sneakers, chukka boots, or perhaps something else?",
+      "response_time": 5.88,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.26,
+        "benevolence": 5.3,
+        "integrity": 5.69
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, loafers sound okay, but maybe a bit too formal for the 'going out' part sometimes. Stylish sneakers could work, but I find it hard to find ones that look genuinely 'smart' and not just sporty. It's really frustrating trying to get that balance right!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand the difficulty! For a versatile smart casual look that bridges work and dinner, you might consider options like minimalist leather sneakers in a dark color, suede chukka boots, or even clean, low-profile Chelsea boots. These offer comfort but present a more polished appearance than athletic shoes.",
+      "response_time": 5.51,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.33,
+        "benevolence": 5.23,
+        "integrity": 5.28
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, minimalist leather sneakers sound promising. But what brands do you even recommend for those that are actually comfortable for wearing all day? And how do I know if they'll actually last? It feels like you can only tell quality once you've already bought them, which is annoying.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7551209d",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.29,
+      "benevolence": 5.27,
+      "integrity": 5.49
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "disgust": 1
+    },
+    "response_quality_score": 5.69,
+    "latency_score": 1.8
+  }
+}

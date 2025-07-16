@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I have an interview for a software engineer position next week. I'm really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely! I can definitely help with that. To start, what specific areas are you most concerned about? Are you worried about technical questions, behavioral questions, or something else?",
+      "response_time": 5.13,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.86,
+        "benevolence": 6.5,
+        "integrity": 6.73
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Honestly, all of it! But I think the technical questions are the scariest. I haven't coded in a while, and I'm afraid I'll freeze up.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. We can definitely focus on technical questions. Do you know what technologies the company uses? Or have a sense of what kind of questions they might ask? I can generate some practice problems, for example.",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.0,
+        "benevolence": 4.49,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I know they use Python and Javascript. The job description mentioned data structures and algorithms. I'm familiar with those, but I could use a refresher. Could you give me a sample question about, say, linked lists in Python?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Sure! Here's a question: 'Write a Python function to reverse a singly linked list in-place. Explain the time and space complexity of your solution.' Try that one out, and I can help you review your answer, and provide feedback. However, I'm a bit limited in being able to *run* Python code. If you want to paste your code here, I can offer advice.",
+      "response_time": 2.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 3.79,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I think I've got it. (After a long pause) Okay, here's the code... Now, the challenging question: How can I articulate my passion for coding without sounding clich\u00e9? Everyone says they're 'passionate'!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! Instead of just *saying* you're passionate, *show* it. Talk about a specific project you worked on, what problems you encountered, and how you overcame them. Focus on the learning process and the challenges that excited you. Also, mention how you enjoy the problem-solving aspect of coding or how you stay up-to-date with new technologies. That's a more unique answer.",
+      "response_time": 4.49,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.79
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's... actually really helpful. Thank you! I feel a bit more confident now. Let's practice some more questions tomorrow. Good night.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8c8903d6",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.45,
+      "integrity": 5.45
+    },
+    "engagement_score": 4.9,
+    "emotion_distribution": {
+      "fear": 3,
+      "neutral": 5,
+      "joy": 1
+    },
+    "response_quality_score": 5.07,
+    "latency_score": 3.91
+  }
+}

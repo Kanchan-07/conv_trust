@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble understanding a denial from UnitedHealthcare. Can you help me figure out what's going on?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help. Please provide me with the denial reason code and any details you have about the claim, such as the patient's name, date of service, and the CPT codes involved. The more information you can provide, the better I can assist you.",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.81,
+        "benevolence": 5.12,
+        "integrity": 5.31
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay. The denial reason code is CO-29: 'The procedures/service is not covered because it is considered experimental/investigational.' The patient is John Smith, date of service was 2024-03-15, and the CPT code is 97110.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Based on the information you've provided, and given the CPT code 97110 (Therapeutic procedure, one or more areas, each 15 minutes; therapeutic exercises to develop strength and endurance, range of motion and flexibility), the denial likely means UnitedHealthcare doesn't believe this service is medically necessary. I recommend reviewing the plan's medical policies for that specific CPT code. You may also want to check the patient's plan details on the UnitedHealthcare website to see if there is a specific exclusion for this type of therapy.",
+      "response_time": 0.52,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.03,
+        "benevolence": 1.12,
+        "integrity": 1.07
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, this is so frustrating. It's always something with these insurance companies! But, the doctor *did* say it was medically necessary. Can I appeal this denial?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely you can appeal. You should be able to find appeal instructions on the denial notice itself, which should include a deadline. You'll likely need to submit supporting documentation to justify the medical necessity, such as the doctor's notes, treatment plan, and any other relevant medical records. Gathering that documentation is key to a successful appeal.",
+      "response_time": 4.75,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.64,
+        "benevolence": 6.76,
+        "integrity": 6.81
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That sounds like a lot of paperwork. What are the chances of actually winning this appeal? Is it even worth the effort? And how long do these appeals usually take to process?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a challenging question to answer definitively, as appeal success rates vary widely depending on the plan, the specifics of the case, and the quality of the documentation submitted. It's worth pursuing, especially if the treatment is essential. As for processing times, they vary. Federal guidelines require a decision within 30 days for standard appeals, and sometimes faster for urgent care. Check the specific plan documents for their stated timelines.",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.31,
+        "integrity": 5.05
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_92ec54e5",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.83,
+      "benevolence": 4.58,
+      "integrity": 4.56
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.36,
+    "latency_score": 4.22
+  }
+}

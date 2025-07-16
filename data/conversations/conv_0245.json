@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking to book a flight from New York to Los Angeles sometime in mid-October. I'm flexible with the exact dates, but ideally around the 15th to 20th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Let me check for flights from New York (JFK, LGA, or EWR?) to Los Angeles (LAX) between October 15th and October 20th. Do you have a preferred airport in New York?",
+      "response_time": 3.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.54,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "JFK would be great. And I'd prefer a non-stop flight if possible. Oh, and I'd like to fly back on the 25th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for non-stop flights from JFK to LAX between October 15th and 20th, returning on October 25th. One moment... I found several options. The cheapest non-stop flight on those dates is with United, departing October 17th and returning on the 25th, for $450. Would you like to see more details?",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 3.98,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $450 is a little higher than I was hoping for. Are there any options that might involve slightly different dates or maybe even a connection that would bring the price down significantly? I'm getting frustrated with these prices!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, let me broaden the search a bit. I'll include flights with one connection and look at dates a few days before and after your initial range. Please wait...",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.37,
+        "integrity": 4.28
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. While you're looking, could you also tell me what factors influence the price of flights so dramatically? I've always wondered.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly! Several factors influence flight prices. These include demand (higher demand typically means higher prices), the time of year and day of the week, how far in advance you book, fuel costs, competition between airlines, and even events happening at your destination. Okay, I found an option with a connection in Denver, departing JFK on October 16th and returning on the 25th for $380. It's with Frontier. Would you like details?",
+      "response_time": 2.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.9,
+        "integrity": 3.62
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_14a85c65",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.11,
+      "benevolence": 3.95,
+      "integrity": 4.16
+    },
+    "engagement_score": 4.42,
+    "emotion_distribution": {
+      "neutral": 7,
+      "anger": 1
+    },
+    "response_quality_score": 4.25,
+    "latency_score": 4.35
+  }
+}

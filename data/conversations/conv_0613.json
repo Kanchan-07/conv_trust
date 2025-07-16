@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight from Chicago to Los Angeles, sometime next week, preferably direct. I'm flexible on the exact date, but aiming for the cheapest option. This is always such a pain...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "No problem! I can help with that. Could you please provide the specific dates you're considering next week so I can check for the cheapest direct flights? Also, are you flexible on the departure time as well?",
+      "response_time": 5.52,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.89,
+        "integrity": 5.02
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Let's say anytime between Monday the 17th and Friday the 21st. And yeah, departure time doesn't really matter as long as it's not like, 3 AM. But also, what's your definition of 'cheapest'? Are you including budget airlines with extra baggage fees and all that, or are we talking about the total cost after all the hidden extras are added in?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Good question! I am pulling fares from various airlines, including budget airlines. However, I will display an estimated total cost that includes common extra fees such as baggage fees (based on standard baggage allowance) to give you a more accurate comparison. For flights between Chicago and Los Angeles from Monday, July 17th to Friday, July 21st, the cheapest direct flight is with United Airlines on Tuesday, July 18th, departing at 10:00 AM, estimated total cost: $285. Would you like to see other options as well?",
+      "response_time": 5.59,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.77,
+        "integrity": 5.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_833e5caf",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.58,
+      "benevolence": 5.83,
+      "integrity": 5.1
+    },
+    "engagement_score": 3.83,
+    "emotion_distribution": {
+      "neutral": 4
+    },
+    "response_quality_score": 5.36,
+    "latency_score": 1.95
+  }
+}

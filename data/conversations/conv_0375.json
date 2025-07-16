@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to book a hotel in Chicago for next weekend, October 27th to 29th.  I need something with parking, and it has to be pet-friendly. This is already a headache!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Understood. I'm searching for hotels in Chicago for October 27th to 29th that offer parking and are pet-friendly. Could you provide your preferred price range per night?",
+      "response_time": 2.59,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 3.82,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Uh, ideally under $200 a night. But honestly, just show me what's available. I'm flexible if needed. I'm mostly concerned with the location, I want to be near downtown Chicago.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I have found three hotels matching your criteria. The Hotel Lincoln is $189 a night. The Thompson Hotel is $249 a night, and the Kinzie Hotel is $219 a night. All have parking and allow pets. Would you like more information on any of these?",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.87,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tell me more about the Hotel Lincoln. What's their pet policy, specifically?  And is the parking included, or is there an extra fee?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly. The Hotel Lincoln charges a $75 non-refundable pet fee. Valet parking is available for $55 per night. Do you want more information regarding their amenities?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.24,
+        "benevolence": 1.11,
+        "integrity": 1.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, $55 a night for parking? That's insane! Okay, new question. Can you search for hotels *outside* of downtown, maybe within a 15-minute drive, that are pet-friendly, have free parking, and are under $150? I know, I'm asking for a lot, sorry.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, I'm adjusting the search criteria to include hotels within a 15-minute drive of downtown Chicago, prioritizing pet-friendly options with free parking under $150. One moment... I am sorry, I am unable to locate any hotels that fit those specific requirements. Would you like me to extend the distance from downtown, or perhaps increase the budget?",
+      "response_time": 3.05,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.55,
+        "integrity": 3.7
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4314f2b4",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.07,
+      "benevolence": 3.09,
+      "integrity": 3.3
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 3.14,
+    "latency_score": 5.4
+  }
+}

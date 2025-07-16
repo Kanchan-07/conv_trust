@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm really struggling with understanding chemical equilibrium. Can you help me go through some of the basics?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! Chemical equilibrium is a dynamic state where the rate of the forward reaction equals the rate of the reverse reaction. This means the net change in concentrations of reactants and products is zero. Are you familiar with the concept of reaction rates?",
+      "response_time": 0.61,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.11,
+        "benevolence": 1.0,
+        "integrity": 1.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I think I get reaction rates. It's just... when they're equal, but the reaction is still happening, that's what throws me off. It feels like nothing should be happening!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand why that's confusing. Think of it like this: Imagine a crowded room where people are constantly entering and leaving. If, on average, 5 people enter every minute and 5 people leave every minute, the overall number of people in the room stays relatively constant. The entering and leaving are still happening (the reaction is still occurring), but the net change is zero (equilibrium). Does that analogy help at all?",
+      "response_time": 2.18,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.47,
+        "benevolence": 2.1,
+        "integrity": 2.61
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that makes *slightly* more sense. But what about Keq? I can calculate it, but I don't really understand what it *means* in terms of what's actually happening in the reaction.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Keq, the equilibrium constant, tells you the relative amounts of reactants and products at equilibrium. A large Keq (much greater than 1) indicates that the products are favored at equilibrium; a small Keq (much less than 1) indicates that the reactants are favored. A Keq close to 1 means that significant amounts of both reactants and products are present at equilibrium. Basically, it's a snapshot of the reaction's composition when it's reached that stable state. Is that clear?",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.5,
+        "benevolence": 4.36,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, that's helpful! So, a high Keq means more products. Makes sense. Okay, but here's a tricky one: If you have a complex reaction with multiple steps, how does the Keq of the overall reaction relate to the Keq values of the individual steps? Is there a general rule, or does it depend on the specific reaction mechanism?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! For a multi-step reaction, the overall Keq is the product of the Keq values for each individual step. In other words, Keq(overall) = Keq1 * Keq2 * Keq3, and so on. This is because each step contributes to the overall equilibrium, and their equilibrium constants are multiplied to reflect the combined effect. This applies as long as the steps are elementary reactions. Does that answer your question?",
+      "response_time": 5.35,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.09,
+        "integrity": 5.07
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4c04ee54",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.1,
+      "benevolence": 3.14,
+      "integrity": 3.3
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1
+    },
+    "response_quality_score": 3.7,
+    "latency_score": 4.74
+  }
+}

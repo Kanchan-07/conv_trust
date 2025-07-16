@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to book a flight from New York to London for next month, around the 15th. Can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly assist you with that. Just to confirm, you're looking for a one-way or round-trip flight? And what dates are you flexible with, specifically for your return if it's a round trip?",
+      "response_time": 5.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.23,
+        "benevolence": 5.46,
+        "integrity": 5.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I don't know yet. Let's just do round trip. I'd like to return, say, a week later. So, departing around the 15th of next month and returning around the 22nd. Can you give me some options? It's really frustrating searching for flights!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for round-trip flights from New York (NYC) to London (all airports) departing around the 15th of next month and returning around the 22nd. Please give me a moment while I retrieve those flight options...",
+      "response_time": 3.8,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 4.23,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright... Now, I'm seeing a bunch of flights. Some are super cheap but have like, four layovers. Is there a way to filter by the number of stops and maybe, the airline? I really prefer direct flights. Also, and maybe it's a dumb question, but why are some flights so much more expensive even if they're not that different?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, you can definitely filter by stops and airline. I can help with that, and I can also show you why there's price variation. Prices can fluctuate due to many factors, like demand, time of booking, and the specific class of service. Let me show you how to filter, and then I will explain the main reasons for price variance! Give me a moment to fetch the options with those filters applied.",
+      "response_time": 5.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.19,
+        "integrity": 5.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3fca4885",
+    "average_trust_score": 5.0,
+    "trust_category_averages": {
+      "competence": 5.01,
+      "benevolence": 4.96,
+      "integrity": 5.11
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 4.86,
+    "latency_score": 2.45
+  }
+}

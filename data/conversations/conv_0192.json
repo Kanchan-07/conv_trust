@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for a new laptop, but I'm on a pretty tight budget. Something for general use, nothing fancy. Maybe around $400 max?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. I can certainly help you find a laptop in that price range. Based on your needs (general use) and budget of $400, I can recommend a few options. Are you open to Chromebooks or would you prefer a Windows-based laptop?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 4.36,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I really don't like Chromebooks. They feel too limited. Windows, please! It's just so frustrating trying to find something decent that isn't going to break the bank.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, Windows it is. I understand the frustration. Let me see... The Lenovo IdeaPad 1 14\" is often available around that price point, or perhaps the Acer Aspire 1. Performance may be basic but they are good for everyday tasks like browsing and word processing. Would you like me to check current prices and availability for you?",
+      "response_time": 2.89,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.91,
+        "benevolence": 4.43,
+        "integrity": 3.78
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please do check the current prices! But also, how much RAM would those usually have? I need to be able to open at least a few browser tabs without it completely freezing up.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, both usually come with 4GB of RAM, which might be limiting for multiple browser tabs. For the Lenovo IdeaPad 1, I'm seeing it listed for $379 at Best Buy and $399 on Amazon. The Acer Aspire 1 is currently $349 at Walmart. Is it possible to increase your budget slightly to get 8GB of RAM, which would noticeably improve performance? Unfortunately, the current RAM prices are elevated.",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.27,
+        "benevolence": 3.97,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm, okay, those prices aren't too bad. So if I bumped up the budget to maybe $500, what would be a good option with 8GB of RAM? What brand would you recommend that gives you the most for your money?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_180f8f91",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.08,
+      "benevolence": 4.25,
+      "integrity": 3.89
+    },
+    "engagement_score": 4.96,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.4,
+    "latency_score": 4.59
+  }
+}

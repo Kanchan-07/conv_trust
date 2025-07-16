@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new running shoes. Can you recommend some?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me a bit about your running style? For example, do you run on the road or trails? What's your typical mileage, and do you have any preferences regarding cushioning or support?",
+      "response_time": 5.8,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.15,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, good questions. I mostly run on roads, about 20-30 miles a week. I prefer good cushioning, I've had some knee problems in the past. And I don't want anything too heavy. Oh, and I'm a pronator, if that matters.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thanks! Based on that, I'd recommend looking at the Hoka Bondi, the Brooks Glycerin, or the Saucony Triumph. All offer excellent cushioning and are generally well-regarded for road running. They also offer varying levels of stability for pronation, so you can narrow down your options.",
+      "response_time": 5.15,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I looked up those shoes, but the reviews are all over the place. Some say the Hoka Bondi is great, others say it's too clunky. How do you account for the variability in user experience? Does your recommendation engine factor in things like foot shape or running gait beyond what I've provided?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! The variability in user reviews is something we're constantly working to improve our recommendations for. Our engine currently analyzes user feedback and product specifications, and we are developing features to incorporate gait analysis and foot shape. For now, I'd still recommend the shoes I mentioned based on your criteria, but be sure to read reviews focusing on fit and stability. Consider visiting a local running store where they can assess your gait for a more personalized recommendation, if possible.",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.1,
+        "benevolence": 5.33,
+        "integrity": 5.18
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1f4965c9",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 6.03,
+      "benevolence": 5.83,
+      "integrity": 5.76
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 6.35,
+    "latency_score": 2.66
+  }
+}

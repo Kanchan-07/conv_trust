@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flying from New York to Los Angeles sometime in the next month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To get started, could you please provide the exact dates you'd like to travel, or a range of dates you're considering?",
+      "response_time": 5.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.27,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm flexible, but ideally, I'd like to fly out around the 20th of October and return around the 27th of October. I'm seeing a bunch of options, but honestly, it's a bit overwhelming.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. I can search for flights departing from New York (JFK, LGA, or EWR?) to Los Angeles (LAX or other?) around October 20th, returning around October 27th. Please specify your preferred departure airport, arrival airport, and I can begin generating results. Also, are you looking for round-trip or one-way?",
+      "response_time": 2.43,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.89,
+        "integrity": 4.35
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Let's do JFK to LAX, round trip. And, uh, can you show me only flights that have a layover of less than 2 hours? This is starting to feel like a lot of steps.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, but I am unable to filter for a layover duration. Please let me know if you want me to continue searching for your flight.",
+      "response_time": 2.3,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.26,
+        "benevolence": 2.91,
+        "integrity": 2.24
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Seriously? Okay, fine. Show me the cheapest round-trip flights, JFK to LAX, around October 20th-27th. It's really disappointing you can't do layover filtering.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, searching for the cheapest round-trip flights from JFK to LAX, departing around October 20th and returning around October 27th. Please wait a moment while I compile the results... [Processing]. Here are some options. The cheapest flight is with United Airlines for $350, with a layover in Denver. Do you want to see other flight options?",
+      "response_time": 2.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 4.5,
+        "integrity": 3.93
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6c81bdf5",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.13,
+      "benevolence": 4.14,
+      "integrity": 3.94
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 2,
+      "sadness": 1
+    },
+    "response_quality_score": 3.85,
+    "latency_score": 4.18
+  }
+}

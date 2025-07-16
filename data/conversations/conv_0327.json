@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some music? I'm in the mood for something... electronic, but not like, EDM. More chill.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. How about trying some downtempo electronica? Artists like Bonobo, Tycho, or maybe some early Moby? Does that sound in the right ballpark?",
+      "response_time": 2.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.67,
+        "integrity": 3.59
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I know Moby, but he's a bit *too* dated. Bonobo sounds interesting though. Anything else similar, but maybe a bit more current?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. You might enjoy artists like Floating Points, Maribou State, or even some of the newer stuff from Tourist. They all have a similar vibe to Bonobo but with a more modern production style.",
+      "response_time": 2.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.36,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Floating Points... I think I've heard that name before! Okay, cool. So, what makes something 'downtempo electronica' versus just regular electronica, anyway? I'm always a little confused by the genre labels.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! Downtempo electronica, at its core, is characterized by a slower tempo, generally between 90 and 110 BPM (beats per minute). It also emphasizes atmospheric soundscapes and melodic elements over aggressive beats or heavy basslines that you might find in genres like techno or drum and bass. Think less dance floor, more chill-out lounge.",
+      "response_time": 1.48,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.99,
+        "benevolence": 2.71,
+        "integrity": 2.99
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eff6263a",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.46,
+      "benevolence": 3.58,
+      "integrity": 3.4
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 5
+    },
+    "response_quality_score": 3.37,
+    "latency_score": 5.39
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule a check-up appointment with Dr. Ramirez. I'm available any day next week, preferably in the afternoon.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help you with that. Let me check Dr. Ramirez's availability for next week. Please wait a moment... Alright, the only available slots next week that fit your criteria are Tuesday at 2:30 PM and Thursday at 3:15 PM. Which one works best for you?",
+      "response_time": 2.37,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 4.15,
+        "integrity": 3.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, Tuesday at 2:30 PM is perfect! Could you please confirm the appointment and send me a reminder?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly! Your appointment with Dr. Ramirez is confirmed for Tuesday at 2:30 PM. A reminder will be sent to your registered email address 24 hours before the appointment. Is there anything else I can assist you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, actually. I need to reschedule my flu shot. I was supposed to get it last month, but I've been so busy. Can I schedule it at the same time as my check-up?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am sorry, I don't have the ability to check on your previous appointments, nor can I schedule a flu shot at the same time as the check-up. I can schedule a separate appointment for the flu shot, but it would have to be on a different day. Would you like me to do that now?",
+      "response_time": 2.0,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.5,
+        "benevolence": 2.12,
+        "integrity": 2.74
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, this is frustrating. Yes, please schedule a separate appointment for the flu shot. Any day the following week, in the morning would be great.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ae8d7078",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.39,
+      "benevolence": 2.42,
+      "integrity": 2.46
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1,
+      "sadness": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 2.74,
+    "latency_score": 5.88
+  }
+}

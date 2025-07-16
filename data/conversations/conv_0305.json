@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend me some music? I'm in the mood for something... different. I usually listen to pop, but I want to explore other genres.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! To give you the best recommendations, what specific genres are you interested in exploring? Or, tell me what you *don't* like, and I can avoid those.",
+      "response_time": 2.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.73,
+        "benevolence": 3.57,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I guess anything but country. I'm not really sure what I want *exactly*. Maybe something with a strong beat, but not too heavy? Is that even a genre? Ugh, this is harder than I thought!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Based on your preferences (strong beat, not too heavy, and excluding country), I suggest checking out some subgenres of electronic music like Deep House or Nu-Disco. Artists like Disclosure or Purple Disco Machine might be a good fit. I can also suggest some Indie Pop bands with prominent beats if you'd prefer something less electronic?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.87,
+        "integrity": 4.04
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, Deep House and Nu-Disco sound interesting. But, what is it about these genres that makes them 'Deep House' or 'Nu-Disco' specifically? What are their defining characteristics and how do they differ from standard house music or just regular disco?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dd3704b3",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.81,
+      "benevolence": 3.72,
+      "integrity": 4.02
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 3.82,
+    "latency_score": 4.08
+  }
+}

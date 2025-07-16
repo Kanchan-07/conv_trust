@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some grocery recommendations, but I'm on a really tight budget this week. Like, *really* tight. Think $50 or less.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! To give you the best recommendations, can you tell me if you have any dietary restrictions or preferences? Are you vegetarian, vegan, gluten-free, etc.?",
+      "response_time": 3.39,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.06,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Nope, no restrictions. I'm pretty much an omnivore. Just looking for the cheapest possible meals that aren't, you know, just ramen every night. I'm so tired of ramen.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. How about focusing on meals with rice, beans, and eggs as staples? Those are generally very affordable. I can suggest a lentil soup recipe, maybe a rice and bean bowl with a fried egg on top, and some simple pasta dishes with canned tomatoes.",
+      "response_time": 5.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.52,
+        "benevolence": 5.85,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, those sound\u2026doable. But how does that actually translate to a grocery list? What *specific* brands or types of things should I be looking for to keep it under budget? Like, are dried beans cheaper than canned, and what's the difference, nutritionally?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Dried beans are almost always cheaper than canned. Nutritionally, they are very similar, but dried beans require soaking and cooking. For example, a one-pound bag of dried lentils is significantly less expensive than several cans of pre-cooked lentils. Store brand pasta and canned tomatoes are usually the most economical options. For eggs, look for the least expensive option \u2013 white or brown usually makes no difference in terms of nutrition, and sometimes the less-expensive eggs are perfectly fine. Avoid organic or specialty eggs if you're trying to save money.",
+      "response_time": 3.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.29,
+        "integrity": 4.23
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, that actually makes a lot of sense. Thanks! I feel a little less stressed now. Hopefully, I can make this work.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_20dab1cd",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.59,
+      "benevolence": 4.73,
+      "integrity": 4.72
+    },
+    "engagement_score": 3.96,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 1
+    },
+    "response_quality_score": 4.54,
+    "latency_score": 3.49
+  }
+}

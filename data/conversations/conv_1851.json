@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued, and I'm completely lost.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I can provide some general legal information, but I am not a substitute for an attorney. To help me assist you, can you tell me what the lawsuit is about?",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.95,
+        "integrity": 3.86
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a breach of contract case. I signed a contract with a company, and they're claiming I didn't fulfill my obligations. The thing is, I *did*! This is so frustrating.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. In a breach of contract case, the plaintiff (the company suing you) must prove that a valid contract existed, that you breached the contract, and that they suffered damages as a result. Do you have a copy of the contract?",
+      "response_time": 2.35,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 4.33,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I have the contract. It's pretty dense legal jargon though. What exactly *constitutes* a breach? Like, what actions are actually considered a violation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "A breach of contract can be a failure to perform any obligation stated in the contract. This can range from not delivering goods on time, failing to pay for services, or violating any other specific terms outlined in the agreement. The specifics depend entirely on the wording of the contract itself. Does the contract specify any timelines or performance metrics?",
+      "response_time": 0.59,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.49,
+        "benevolence": 1.3,
+        "integrity": 1.09
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what if the contract is poorly written, and the obligations aren't clearly defined? Can they still sue me then? And what kind of evidence would I need to prove I *did* fulfill the contract?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a more complex question, requiring a specific analysis of the contract's language. A poorly written contract can be interpreted by a court, potentially in your favor, depending on the ambiguities. To prove you fulfilled the contract, gather any documentation related to your performance, such as emails, invoices, receipts, or witness testimony. I strongly recommend consulting with an attorney in this situation. They can review the specific language in the contract and advise you on the best course of action.",
+      "response_time": 3.57,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.93,
+        "integrity": 5.59
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, thanks. This has been helpful, though it's a lot to take in. I think I'll definitely look for a lawyer. Thanks again.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ee06e109",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.52,
+      "benevolence": 3.88,
+      "integrity": 3.69
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 4
+    },
+    "response_quality_score": 3.68,
+    "latency_score": 5.0
+  }
+}

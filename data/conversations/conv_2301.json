@@ -1,0 +1,85 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm looking for a new pair of running shoes. Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on the category 'running shoes', I can recommend the following popular options: Nike Air Zoom Pegasus 39, Brooks Ghost 14, and Hoka Clifton 8. Would you like to know more about any of these?",
+      "response_time": 4.39,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.62,
+        "benevolence": 5.95,
+        "integrity": 5.6
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of the Pegasus, but I'm not sure what kind of running I'll be doing. Mostly road running, maybe some light trail. How do I know which shoe is best for me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great question! The best way to determine which shoe is right for you is to consider your foot type (neutral, pronated, or supinated), the distance you typically run, and your personal preferences. The Pegasus 39 is a good all-around shoe for road running. The Brooks Ghost 14 is a more cushioned option, good for longer distances, while the Hoka Clifton 8 is also cushioned, but has a unique rocker design. Unfortunately I can't give specific recommendations without a proper gait analysis or more information.  For trail use, you might consider a trail-specific shoe.",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.28,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that helps a little... but my budget is actually pretty tight. Is there a way to filter these recommendations by price? I'm seeing a HUGE range in costs.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I am not currently equipped to filter by price directly within this system. However, you can use the filter feature on the e-commerce platform itself. When you are browsing through running shoes, there should be a filter option on the sidebar or above the search results. You can use it to narrow down your search by price, brand, and other features.",
+      "response_time": 3.73,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.89,
+        "integrity": 4.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_08bc3a14",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.35,
+      "benevolence": 4.71,
+      "integrity": 4.61
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 6
+    },
+    "response_quality_score": 4.74,
+    "latency_score": 3.49
+  }
+}

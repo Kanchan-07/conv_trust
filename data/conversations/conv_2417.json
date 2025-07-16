@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help managing my bank account. I'm trying to figure out why I was charged a $25 overdraft fee.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist with that. Can you please provide the last four digits of your account number so I can look into the overdraft fee?",
+      "response_time": 5.72,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.47,
+        "benevolence": 5.27,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, it's 1234. But honestly, I'm already frustrated because I thought I had enough money. This is the second time this month!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I've reviewed your account and it appears that two transactions posted on the same day, which led to the overdraft. The first transaction was for $50 and the second was for $75, but your available balance was only $10.  Is there anything else I can help you with?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Well, yes! Can you tell me *why* those transactions posted on the same day? I made the $75 purchase first in the morning, so why didn't that one get declined? And why did the $50 purchase go through at all?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a good question.  I am still under development and I don't have all the information about the exact transaction posting order. I can tell you that sometimes the order of transactions can vary based on when the merchant submits the charge to us.  I can see if a human agent can help clarify this. Would you like me to connect you to one?",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.91,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please connect me. Thanks for trying to help, even if you didn't have all the answers.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Absolutely! Please hold while I transfer you to a customer service representative.  Someone will be with you shortly. Thank you for your patience.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.26,
+        "benevolence": 1.24,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1d300074",
+    "average_trust_score": 2.88,
+    "trust_category_averages": {
+      "competence": 2.95,
+      "benevolence": 2.85,
+      "integrity": 2.94
+    },
+    "engagement_score": 4.54,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.19,
+    "latency_score": 5.24
+  }
+}

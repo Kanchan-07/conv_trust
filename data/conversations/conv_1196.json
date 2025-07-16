@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I have this big interview coming up, and I'm really nervous. Can you help me prepare?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely assist you with interview preparation. To start, what type of role are you interviewing for, and what industry is the company in? Knowing this will help me tailor my advice.",
+      "response_time": 5.01,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.89,
+        "benevolence": 5.8,
+        "integrity": 5.5
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a Senior Marketing Manager position at a tech startup. I've done marketing before, but never at this level. Honestly, I'm freaking out a little.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand. Senior Marketing Manager roles can be demanding, especially in the fast-paced environment of a tech startup. Let's start with some common interview questions. How would you describe your marketing style and leadership approach?",
+      "response_time": 2.79,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.58,
+        "integrity": 4.21
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, that's exactly the kind of question I dread. I guess... collaborative and data-driven? Is that even good? I always blank when asked about my 'style'.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, 'collaborative and data-driven' are generally positive attributes! To strengthen your answer, try providing a specific example of a time you demonstrated these qualities. For example, 'In my previous role, I collaborated with the sales team to analyze customer data and develop a more targeted marketing campaign, which resulted in a 15% increase in lead generation.' Now, can you tell me about a time you failed and what you learned from it?",
+      "response_time": 3.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.31,
+        "integrity": 3.55
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that's a good example. That makes sense. But how do I answer that 'failure' question without sounding completely incompetent? I have some doozies...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7c4bbec1",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.7,
+      "benevolence": 4.56,
+      "integrity": 4.42
+    },
+    "engagement_score": 5.21,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "surprise": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 4.22,
+    "latency_score": 3.67
+  }
+}

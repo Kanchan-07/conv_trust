@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so frustrated! I keep getting denials on claim 12345. It's for a standard knee injection, CPT code 20610. What's going on?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me look into claim 12345. Can you please provide the patient's name and date of service?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.07,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's John Smith, date of service 03/15/2024.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I see claim 12345 for John Smith, DOS 03/15/2024. The denial reason is 'Missing or Invalid Modifier'. It appears a modifier is required for CPT code 20610 based on the payer's guidelines. Do you know which modifier is applicable?",
+      "response_time": 3.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.98,
+        "integrity": 3.65
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, modifiers! I always mess those up. Wouldn't the 50 modifier be appropriate since it was a bilateral knee injection?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The 50 modifier signifies a bilateral procedure. However, according to the documentation I have access to, the claim denial appears to be linked to the fact that the provider listed on the claim is not credentialed with this payer. Would you like me to provide information on how to become credentialed with them?",
+      "response_time": 0.52,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.44,
+        "benevolence": 1.0,
+        "integrity": 1.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wait, really? Credentialing? That's a totally different issue! Why didn't it just say that in the denial reason? Seriously, who designs these things?!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While the denial often aims for clarity, the exact reason sometimes requires further investigation. Yes, I can guide you through the credentialing process with this payer. I can provide a link to their credentialing application and a list of required documents.",
+      "response_time": 3.68,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 4.32,
+        "integrity": 4.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2680f24e",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.42,
+      "benevolence": 2.59,
+      "integrity": 2.6
+    },
+    "engagement_score": 5.19,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 3,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 2.85,
+    "latency_score": 5.49
+  }
+}

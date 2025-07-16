@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hello, I'm trying to find out where my package is. The tracking says it was supposed to be delivered yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Could you please provide me with your tracking number?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.64,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, it's 98765432101234567890. I'm getting really frustrated because I need this package ASAP.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check on that for you... Okay, it appears your package is currently at our local distribution center and is expected to be delivered by the end of the day today. I apologize for any inconvenience this delay may cause.",
+      "response_time": 2.4,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.24,
+        "benevolence": 4.47,
+        "integrity": 4.41
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "By the end of the day? The tracking information I see online still says 'delayed'. That's not exactly reassuring. Why the sudden change in the delivery date, and why wasn't I informed?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. Unfortunately, there was a significant backlog at the distribution center due to unforeseen circumstances. Regarding the notification, I am not sure why you did not receive one. I can escalate this and get you a detailed explanation from the shipping team. Would you like me to do that?",
+      "response_time": 2.04,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.44,
+        "benevolence": 2.3,
+        "integrity": 2.77
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please do. And is there any way to ensure it gets delivered today? I really need it. Can I pick it up, or something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I've escalated your inquiry. Unfortunately, we don't offer a pickup option for this type of delivery, as it is already in transit. However, I've placed a priority request to expedite the delivery. You should receive an update via email within the next hour. I will follow up on my end too. ",
+      "response_time": 1.42,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.25,
+        "benevolence": 2.99,
+        "integrity": 2.81
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thank you for your help. I appreciate it.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0f2120c1",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.89,
+      "benevolence": 4.19,
+      "integrity": 4.25
+    },
+    "engagement_score": 5.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "anger": 1,
+      "surprise": 1,
+      "fear": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.08,
+    "latency_score": 4.54
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really in the mood for something upbeat. Can you recommend some songs?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, what genre are you interested in?",
+      "response_time": 5.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.1,
+        "integrity": 5.93
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I guess something in the realm of indie pop? But not too mainstream.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. How about these: 'Tongue Tied' by Grouplove, 'Coming of Age' by Foster the People, and 'Ophelia' by The Lumineers. Are any of those familiar to you?",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.87,
+        "integrity": 3.77
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I know 'Ophelia', it's okay, but the other two are a bit too... typical. Is that all you've got? I'm looking for something a little more unique.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Understood. Let me refine the search. Have you listened to anything by Wallows, or maybe Hippo Campus? Their albums are quite diverse.",
+      "response_time": 3.47,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.52,
+        "integrity": 3.93
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hippo Campus! Yes! I like them a lot. Something along those lines would be perfect. Actually, how does the AI even *learn* what I like? Is it just tracking my listening history, or is there more to it than that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's great to hear! The recommendations are based on a combination of factors, including your listening history where available, collaborative filtering (seeing what people with similar tastes enjoy), and analysis of the music's features like tempo, key, and instrumentation. For Hippo Campus, perhaps try 'Way It Goes' or 'Buttercup'. Let me know if either of those hits the mark!",
+      "response_time": 3.81,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.82,
+        "benevolence": 5.29,
+        "integrity": 5.47
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef12e345",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.86,
+      "benevolence": 4.44,
+      "integrity": 4.77
+    },
+    "engagement_score": 5.17,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 4.61,
+    "latency_score": 3.29
+  }
+}

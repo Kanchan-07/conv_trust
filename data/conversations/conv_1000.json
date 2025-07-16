@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some recommendations. I'm browsing for new furniture.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! To give you the best recommendations, could you tell me what type of furniture you're interested in? For example, are you looking for living room, bedroom, dining room, or something else?",
+      "response_time": 2.91,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.8,
+        "benevolence": 4.28,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, sorry. I'm interested in living room furniture, specifically sofas.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Based on the 'sofas' category within living room furniture, popular choices include sectional sofas, loveseats, and sleeper sofas. Many customers also browse our selection of sofa covers and throw pillows to complement their purchase. Can I help you filter these results further? Perhaps by material or style?",
+      "response_time": 5.56,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.76,
+        "benevolence": 6.98,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I'm not sure about material, but definitely something modern. All this choice is a bit overwhelming.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, filtering for modern sofas, I see some popular choices are minimalist designs with clean lines and neutral colors, or perhaps a mid-century modern style sofa with wooden legs. Would you like to see some examples?",
+      "response_time": 2.53,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.08,
+        "benevolence": 4.12,
+        "integrity": 3.66
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please show me some examples. But also, how does your recommendation algorithm actually *work*? I'm curious about the technical details.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly! Here are some highly-rated modern sofas that are currently trending. [Displays examples]. As for your question about the algorithm, it primarily uses collaborative filtering, analyzing past purchase data and browsing history of users with similar preferences to you. There are also content-based components that analyze the attributes of items, such as style, material, and color. It's quite complex.",
+      "response_time": 3.33,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.55,
+        "benevolence": 5.4,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's... vague, but helpful enough for now. Thanks!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0c355d27",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.05,
+      "benevolence": 5.2,
+      "integrity": 5.15
+    },
+    "engagement_score": 3.68,
+    "emotion_distribution": {
+      "neutral": 8,
+      "sadness": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.92
+  }
+}

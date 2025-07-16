@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm prepping for a software engineer interview at Google. Can you help me with some common interview questions and maybe give me feedback on my answers?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Let's start with a classic: \"Tell me about a time you faced a challenging technical problem and how you solved it.\" Take your time, and then share your response. I will then provide feedback.",
+      "response_time": 5.92,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.17,
+        "benevolence": 5.63,
+        "integrity": 5.82
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, these are always so hard. Okay, um... In my previous role at Acme Corp, we were building a new recommendation engine. The initial implementation was incredibly slow, like taking minutes to generate recommendations for a single user. I spearheaded an effort to profile the code and identified several performance bottlenecks, including inefficient database queries and poorly optimized algorithms. I refactored the queries using indexes and optimized the core algorithm using dynamic programming, which reduced the recommendation generation time to under a second. I also implemented caching to further improve performance. Does that sound like a decent answer?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a good start. To make it even stronger, quantify the impact of your changes more precisely. For example, instead of saying \"incredibly slow\", state the initial time. Also, when you mention 'dynamic programming', briefly explain what that entailed, even at a high level. Interviewers like to see you can communicate technical concepts clearly. Avoid jargon without sufficient context. Finally, what did you learn from the experience?",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.6,
+        "benevolence": 5.71,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I see what you mean. So, something like, 'The initial time was around 5 minutes per user. I reduced it to under a second, a 99% improvement.' And for dynamic programming, maybe just say 'a technique to optimize recursive algorithms by storing intermediate results'? And then add a lessons learned section at the end? What if they ask me something really obscure, like about a specific algorithm I've never even heard of?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_77d24606",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.67,
+      "integrity": 5.79
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.87,
+    "latency_score": 2.72
+  }
+}

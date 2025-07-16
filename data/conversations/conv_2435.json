@@ -1,0 +1,74 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a really important job interview next week and I'm starting to get pretty stressed out about it. Can you help me with some interview preparation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Absolutely! I can definitely help you prepare. Please tell me a bit about the interview. What company is it for? What is the role? And what stage of the interview process is it?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.76,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's for a Project Manager position at Innovate Solutions, and it's the final round - with the hiring manager. I'm feeling the pressure! I'm particularly worried about questions around dealing with difficult stakeholders. It's been a weak point for me in the past, honestly.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Dealing with challenging stakeholders is a common hurdle in project management. To prepare for this, you should think of a specific example where you successfully navigated a difficult situation with a stakeholder. Describe the situation, your actions, and the positive outcome. Highlighting clear communication and finding common ground is key.",
+      "response_time": 4.95,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.29,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I can try that. But what if they ask me something really curveball, like... 'If you were a piece of project management software, which one would you be and why?' How do you even answer something like that? It feels impossible to prepare for!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b234f743",
+    "average_trust_score": 6.25,
+    "trust_category_averages": {
+      "competence": 6.38,
+      "benevolence": 6.14,
+      "integrity": 6.2
+    },
+    "engagement_score": 4.67,
+    "emotion_distribution": {
+      "neutral": 3,
+      "fear": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 6.07,
+    "latency_score": 2.03
+  }
+}

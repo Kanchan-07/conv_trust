@@ -1,0 +1,120 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally getting around to this financial planning thing. I'm completely overwhelmed. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. Financial planning can seem daunting at first. Let's break it down. A good starting point is understanding your current financial situation. Could you tell me about your income, expenses, assets, and debts?",
+      "response_time": 2.79,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.52,
+        "benevolence": 3.55,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, the dreaded budget. I make about $60,000 a year. Expenses... that's harder. I rent, have a car payment, student loans, and the usual bills. I've got maybe $1,000 in savings. I'm terrible at this!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a great start! Don't worry, many people find budgeting challenging. We can work on strategies to track your expenses more easily. Based on your income and debt, a common recommendation is to focus on paying down high-interest debts like credit cards or private student loans. What are the interest rates on those?",
+      "response_time": 4.65,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.41,
+        "integrity": 5.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "My credit card is like 20%, I think. Student loans are around 6%. But here's the thing, I also want to start investing! Is that even realistic with all my debt?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a valid question. Generally, with high-interest debt like that credit card, it's usually best to prioritize paying it down aggressively. The interest you're paying on the card is likely higher than any returns you might see from investing right now. However, it's also important to consider a small amount of investing to build a habit. Perhaps contributing enough to get any employer match on a retirement plan, if available.",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.42,
+        "benevolence": 3.94,
+        "integrity": 4.5
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. But what about all these different investment options? Stocks, bonds, ETFs, mutual funds... it's like alphabet soup! How do I even choose what's right for me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Investment selection depends on your risk tolerance and time horizon. For someone just starting out, a diversified portfolio of low-cost index funds or ETFs is often recommended. These offer broad market exposure and typically have lower fees than actively managed mutual funds. Would you like me to provide a list of popular low-cost ETFs to consider? Always do your own research and consult with a financial advisor before making any investment decisions.",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.11,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yeah, a list would be helpful. Thanks! This is still a lot to take in, but I feel a little less lost now.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c82a6ed8",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.42,
+      "benevolence": 4.25,
+      "integrity": 4.29
+    },
+    "engagement_score": 5.4,
+    "emotion_distribution": {
+      "surprise": 2,
+      "fear": 1,
+      "disgust": 1,
+      "neutral": 4,
+      "sadness": 1
+    },
+    "response_quality_score": 4.15,
+    "latency_score": 4.09
+  }
+}

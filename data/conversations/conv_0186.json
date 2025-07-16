@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm still really confused about the difference between mitosis and meiosis. Can you explain it again, but maybe in simpler terms?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Think of mitosis as cell division for growth and repair. One cell divides into two identical daughter cells, each with the same number of chromosomes as the parent cell. Meiosis, on the other hand, is for sexual reproduction. One cell divides twice to create four genetically different daughter cells, each with half the number of chromosomes. Does that help a bit?",
+      "response_time": 3.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.62,
+        "integrity": 5.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, a little. But what about the different phases? Prophase, metaphase... they all blur together. It's like alphabet soup!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, let's break those down. Prophase is when the chromosomes condense and become visible. Metaphase is when they line up in the middle of the cell. Anaphase is when they separate and move to opposite sides, and Telophase is when the cell divides into two. A handy mnemonic is PMAT: Prophase, Metaphase, Anaphase, Telophase. Does that make it easier to remember the order?",
+      "response_time": 2.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.03,
+        "benevolence": 4.3,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I think I get the *order* now. But why is meiosis so much more complicated? Like, what's the evolutionary advantage of having two divisions instead of just one?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! The two divisions in meiosis are key to genetic diversity. The first division separates homologous chromosomes, and the second separates sister chromatids. This, coupled with crossing over (exchange of genetic material), creates new combinations of genes. This genetic diversity provides populations with a greater ability to adapt to changing environments, making them more resilient to disease and environmental pressures. Think of it as hedging your bets - more variation means a higher chance that some offspring will thrive under new conditions.",
+      "response_time": 5.95,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.95
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, that actually makes a lot of sense! So it's all about adaptability. Thanks! I feel much better about this now. Although, I'm still a bit fuzzy on the details of crossing over...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Great! I'm glad I could help. We can definitely go over crossing over. It's basically when homologous chromosomes exchange genetic material during prophase I of meiosis, creating recombinant chromosomes. Would you like a visual aid or a more detailed explanation of the molecular mechanisms involved?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.69,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ac9ce058",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.72,
+      "benevolence": 5.9,
+      "integrity": 5.88
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 6.16,
+    "latency_score": 2.81
+  }
+}

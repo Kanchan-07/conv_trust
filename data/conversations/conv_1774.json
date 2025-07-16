@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm participating in a hackathon this weekend. I'm feeling a bit overwhelmed \u2013 any tips for staying organized and productive?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Of course! Hackathons can be intense. Here's a general strategy: 1. Define clear goals upfront. 2. Break down tasks into smaller, manageable chunks. 3. Use a project management tool like Trello or Asana. 4. Schedule regular breaks. 5. Prioritize sleep (if possible!). Anything specific you're struggling with?",
+      "response_time": 2.77,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 4.44,
+        "integrity": 4.34
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. I'm trying to decide which project to build. I have like, three ideas, but they all require different tech stacks. One is Python/Flask, one is React/Node, and the last one is something weird that uses WebAssembly. How do I even *begin* to compare those?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a tough one! Okay, consider these factors when comparing project ideas: 1. **Your existing skill set:** Which stack are you most comfortable with? 2. **Time constraints:** How long do you have to build each? 3. **Scope and Complexity:** What features are you planning to include? 4. **Learning curve:** How steep is the learning curve for each technology? 5. **Available Resources**: Are there good tutorials or documentation for the WebAssembly project?  Try to outline the minimum viable product (MVP) for each idea. That'll help you narrow it down and get a clearer comparison. Good luck!",
+      "response_time": 2.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 3.62,
+        "integrity": 4.04
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d511da8c",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.0,
+      "benevolence": 4.03,
+      "integrity": 4.19
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.02,
+    "latency_score": 4.62
+  }
+}

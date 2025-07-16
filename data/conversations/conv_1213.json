@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated. I can't seem to log into my online banking. I've tried resetting my password like five times!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can help you with that. To ensure security, could you please provide the last four digits of your account number and your date of birth?",
+      "response_time": 3.33,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.13,
+        "benevolence": 4.08,
+        "integrity": 4.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the last four digits are 1234, and my date of birth is January 1st, 1990. Also, why does your system make it so difficult to recover my username? I vaguely remember it, but not exactly.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I have located your account. For security reasons, I am unable to directly provide your username. However, I have sent a secure link to the email address associated with your account. Please check your inbox, including your spam folder, and follow the instructions to recover your username. Regarding the difficulty in username recovery, we prioritize security to prevent unauthorized access. We are constantly working to improve the user experience while maintaining these security measures.",
+      "response_time": 5.84,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Alright, I see the email. Thanks. One last question - is there any way to set up an alert if my account balance drops below a certain amount? Like, say, $100?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely! You can set up low balance alerts through your online banking portal once you're logged in. Go to the 'Alerts' section, usually found under 'Account Services' or 'Settings', and you can customize the alert amount. Alternatively, you can call our customer service line, and a representative can assist you with setting it up over the phone. Is there anything else I can help you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.52,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_766255c3",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 6.04,
+      "benevolence": 5.87,
+      "integrity": 6.12
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 4
+    },
+    "response_quality_score": 5.66,
+    "latency_score": 2.44
+  }
+}

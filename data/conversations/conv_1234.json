@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help reviewing my resume and cover letter for a software engineer position. I've been applying to jobs for months and haven't gotten any interviews. I'm getting really frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can definitely help with that. Please upload your resume and cover letter. I can analyze them for keywords, formatting issues, and overall effectiveness. We can also tailor them specifically to the job description of a position you're interested in. To start, I'll need the documents.",
+      "response_time": 5.07,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.73,
+        "benevolence": 5.82,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I've uploaded both documents. The job I'm targeting is for a Senior Software Engineer at Google. Can you make sure the resume highlights experience with large-scale distributed systems? And, since the job description mentions 'leading a team', how do I even *show* leadership experience in my resume if I've never formally managed anyone?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I've reviewed your documents and the Google job description. I've identified some areas for improvement, particularly in quantifying your achievements with metrics. For the leadership question, you can highlight instances where you've mentored junior engineers, led project initiatives, or taken ownership of critical components. Use action verbs and quantify your impact whenever possible. For example, instead of saying 'Led a team to develop...', try 'Led a team of 5 engineers to develop X, resulting in Y'. I'll provide a revised resume draft shortly. It might take a few minutes to adjust everything to Google's standards. I will also include some tips on what to expect in your interview process.",
+      "response_time": 3.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.67,
+        "benevolence": 4.12,
+        "integrity": 4.46
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_001c00b1",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.7,
+      "benevolence": 4.97,
+      "integrity": 4.96
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 2
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.09
+  }
+}

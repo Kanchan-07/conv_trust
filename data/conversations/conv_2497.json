@@ -1,0 +1,133 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help booking a flight please.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist you with finding flights. To start, could you please tell me your departure and destination cities, and your desired travel dates?",
+      "response_time": 4.94,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.64,
+        "benevolence": 5.37,
+        "integrity": 5.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I want to fly from Los Angeles (LAX) to Paris (CDG). My preferred dates are departing around December 10th and returning around December 17th. One adult passenger.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, searching for a round trip flight from Los Angeles (LAX) to Paris (CDG) for one adult, departing on December 10th and returning on December 17th. Please give me a moment...",
+      "response_time": 3.61,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.87,
+        "benevolence": 3.54,
+        "integrity": 3.53
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Hopefully it's not too expensive. December is peak season, right? Ugh.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, December can be quite popular for travel to Paris. I've found several options. Prices are currently ranging from around $1100 to $1800 for round trips on those dates, mostly with one or two stops. Would you like me to filter by number of stops or perhaps airline preference?",
+      "response_time": 3.65,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.89,
+        "benevolence": 4.39,
+        "integrity": 4.45
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Wow, $1100 is still a lot! Can you show me the cheapest options, maybe with only one stop? And for the absolute cheapest economy fare you find, what is typically included in terms of checked baggage allowance? Like, if it's on Air France or Delta, what's the standard? I always get hit with surprise baggage fees.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Okay, I will filter for options with one stop and list the lowest prices. Regarding baggage, standard economy fares on transatlantic flights often include one checked bag up to 23kg (50 lbs). However, basic economy fares might not include any checked baggage, only a carry-on. Specific rules can vary by airline and the exact ticket type purchased.",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.06,
+        "benevolence": 3.68,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's not super clear though. How do I know *which* fare type the cheapest option is? It's frustrating how complicated baggage is! Will your results tell me explicitly if it's 'basic economy' and what the baggage is?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. While I can show you the price and usually indicate if it's 'basic economy', for precise baggage allowance details, especially for connecting flights involving multiple airlines or specific fare subclasses, it's always recommended to click through to the booking site or the airline's official website. They will provide the definitive baggage policy for that exact ticket. I can now show you the cheapest one-stop options I found.",
+      "response_time": 2.4,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.97,
+        "integrity": 2.34
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8509b64a",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.9,
+      "benevolence": 3.99,
+      "integrity": 3.98
+    },
+    "engagement_score": 5.48,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1,
+      "surprise": 2,
+      "anger": 1
+    },
+    "response_quality_score": 4.01,
+    "latency_score": 4.05
+  }
+}

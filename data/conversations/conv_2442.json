@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I have a job interview coming up next week for a Junior Data Analyst role at Acme Corp, and I'm really nervous. Can you help me prepare? I feel completely overwhelmed by everything I need to cover.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely, I can assist you with preparing for your Junior Data Analyst interview at Acme Corp. Feeling a bit overwhelmed is completely normal, but preparation is key to building confidence. We can go over common interview questions, technical concepts relevant to data analysis, or even behavioral scenarios. What specifically would you like to focus on first to get started?",
+      "response_time": 3.72,
+      "emotion_detected": "surprise",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.73,
+        "integrity": 5.36
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thanks. I guess I should start with common questions. But honestly, I always stumble on that 'What's your greatest weakness?' question. It feels like a total trap! How do you answer that *authentically* without sounding like you're just listing a hidden strength or being completely honest about something damaging? It's so frustrating trying to get it right.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a classic question, and yes, it can feel tricky to navigate authentically. The standard advice is to choose a genuine area for improvement that is relevant to the job but not a critical requirement, and then demonstrate self-awareness and a plan for addressing it. For example, you could mention improving your presentation skills or becoming more efficient with a specific less-used tool, and then explain the steps you are taking to develop in that area. The key is to show self-awareness and a commitment to growth rather than listing a fundamental flaw or a disguised positive. Does discussing a specific example help clarify the approach?",
+      "response_time": 4.08,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.18,
+        "integrity": 3.89
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6ef23cfb",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 5.18,
+      "benevolence": 4.96,
+      "integrity": 4.62
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "fear": 1,
+      "surprise": 1,
+      "disgust": 1,
+      "neutral": 1
+    },
+    "response_quality_score": 4.3,
+    "latency_score": 3.6
+  }
+}

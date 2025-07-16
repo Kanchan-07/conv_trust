@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some new headphones. I'm not sure what to get, can you help?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can certainly help with that. To give you the best recommendations, could you tell me a bit about what you're looking for? For example, what will you primarily be using the headphones for (music, calls, gaming, etc.) and what's your budget?",
+      "response_time": 5.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.79,
+        "benevolence": 5.93,
+        "integrity": 5.41
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Mostly for listening to music and podcasts on my commute. I'd prefer something that's noise-canceling and I'd like to spend under $200.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay! Based on that, I recommend checking out the Sony WH-CH720N. They're known for good noise cancellation and sound quality for the price and generally fall within your budget. Also, the Anker Soundcore Space Q45 is a popular option. I can provide you with links if you'd like.",
+      "response_time": 2.28,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.35,
+        "benevolence": 3.63,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Thanks, that's helpful! But I already looked at those and wasn't really impressed by the reviews. Do you have any other suggestions, maybe something a bit higher-end within the same category?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand. Finding the perfect pair can be tricky. Since you're interested in a higher-end option within the noise-canceling category, have you considered the Bose QuietComfort 45? They offer excellent noise cancellation and are often praised for their comfort, although they might stretch your budget slightly. Alternatively, the Jabra Elite 85h is a great option too. I am still in training and learning some of the nuances of higher-end models, so I may still be limited in my suggestions. I can share some customer reviews of both models if you wish.",
+      "response_time": 4.19,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.8,
+        "benevolence": 5.63,
+        "integrity": 5.53
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "The Bose and Jabra options sound interesting, but I am hesitant. How exactly do you assess which headphones are 'higher-end' beyond just the price? Are there specific sound tests or features you consider?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! My assessments are based on a combination of factors. I analyze customer reviews, expert opinions, and technical specifications (like frequency response and driver size) available from verified sources. 'Higher-end' often translates to superior materials, advanced features (like adaptive noise cancellation), and of course, generally better sound quality as assessed by audio professionals, or based on customer reviews about those factors. For a more precise comparison, I can provide you with links to professional reviews that delve deeper into those factors.",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.71,
+        "integrity": 5.27
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ea0f82ec",
+    "average_trust_score": 5.12,
+    "trust_category_averages": {
+      "competence": 5.41,
+      "benevolence": 5.22,
+      "integrity": 5.02
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 6,
+      "surprise": 1,
+      "fear": 1
+    },
+    "response_quality_score": 4.91,
+    "latency_score": 3.47
+  }
+}

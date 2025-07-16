@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight from London to New York for next month. Looking for a round trip.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide the specific dates you'd like to travel? Also, how many passengers will be flying?",
+      "response_time": 5.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.57,
+        "benevolence": 5.81,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, let's say departing around October 15th and returning around October 25th. It's just for myself, so one passenger. And ideally, I'd prefer non-stop flights if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for the details. Searching for round-trip flights from London (all airports) to New York (all airports) for one passenger, departing on or around October 15th and returning on or around October 25th, prioritizing non-stop options. Please wait a moment while I check available flights.",
+      "response_time": 0.61,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.27,
+        "benevolence": 1.14,
+        "integrity": 1.47
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, thanks. Ugh, I hope the prices aren't crazy. Last time I looked, it was insane. Also, just to be clear, if a flight comes up from, say, British Airways, does that fare *definitely* include a checked bag, or could it be basic economy where I have to pay extra? It's so confusing these days.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern about baggage fees. Generally, the allowance for checked baggage varies depending on the specific fare class you book, even within the same airline like British Airways. My search results primarily show pricing and schedule. To confirm the exact baggage allowance, you would typically need to review the fare details before booking or check the airline's website directly.",
+      "response_time": 3.9,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 3.56,
+        "integrity": 3.99
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Oh, that's not super helpful. So I have to double-check every single option? Great. Can you at least show me the cheapest non-stop options you found first?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_1a9bc481",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 3.5,
+      "integrity": 3.67
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "disgust": 1
+    },
+    "response_quality_score": 3.37,
+    "latency_score": 4.02
+  }
+}

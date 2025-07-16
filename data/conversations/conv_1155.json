@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I've been having this persistent cough for about three weeks now. It's mostly dry, but sometimes I cough up a little phlegm. I'm also feeling really tired, even after a full night's sleep. What could it be? I'm starting to get really worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your concern. A persistent cough and fatigue can be caused by various factors. Possible causes include a lingering cold or flu, bronchitis, allergies, or even acid reflux. Less commonly, it could indicate something more serious. To give you more specific advice, could you tell me if you've had a fever, body aches, or any shortness of breath? Also, are you a smoker, or do you have any known allergies or pre-existing conditions?",
+      "response_time": 2.0,
+      "emotion_detected": "fear",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.05,
+        "benevolence": 2.74,
+        "integrity": 2.33
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No fever, no body aches, but I do get a little winded sometimes walking up the stairs. I don't smoke, but I am allergic to cats. We have one, but I've had him for years and never had a reaction like this before. Why would allergies suddenly cause a cough after all this time? It's so frustrating!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "It's understandable that you're frustrated. Allergies can sometimes develop or worsen over time. While you've had your cat for years, it's possible your sensitivity has increased. However, given the shortness of breath, even if mild, and the persistent nature of your symptoms, I strongly recommend consulting with a doctor for a proper diagnosis. It could still be allergy-related, but it's important to rule out other potential causes like a respiratory infection or even asthma. They will be able to run tests and provide you with the most accurate assessment and treatment plan.",
+      "response_time": 5.85,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.5,
+        "integrity": 5.66
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ce43fbdf",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.94,
+      "benevolence": 4.12,
+      "integrity": 4.0
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "fear": 2,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 3.7,
+    "latency_score": 3.58
+  }
+}

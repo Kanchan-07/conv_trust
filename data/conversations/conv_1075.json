@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so frustrated with our medical billing process. Claims are constantly being rejected, and I'm spending hours on the phone with insurance companies. Is there anything you can do to help streamline this?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I can certainly assist with optimizing your medical billing process. To start, could you provide me with some data? For example, the average claim rejection rate, the most common rejection reasons, and the billing software you are currently using?",
+      "response_time": 2.93,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 3.65,
+        "integrity": 4.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, our rejection rate is around 15%, which seems high. The top reasons are coding errors and missing documentation. We use MediSoft, and honestly, I'm not sure it's the best fit anymore.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for that information. A 15% rejection rate is indeed higher than the industry average. Coding errors and missing documentation are common culprits. Based on this, I recommend implementing an automated coding audit tool and enhancing your documentation workflows. Would you like me to provide a list of potential tools and best practices?",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.27,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, that would be great. But here's a tough one: How can we ensure that our staff accurately code for increasingly complex procedures, especially when the guidelines seem to change constantly? It feels like a moving target!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very valid concern. To address the complexity of coding, consider investing in regular training sessions specifically focused on coding updates and common errors. Subscription to a reputable coding reference service that is updated in real-time can also be beneficial. I can look into some affordable and reliable ones if you would like. Lastly, consider implementing a double-check system where another certified coder reviews complex claims before submission.",
+      "response_time": 3.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.19,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the training and double-check system makes sense. What about AI-powered coding assistance? Is that actually helpful, or just a gimmick?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "AI-powered coding assistance tools are evolving rapidly. While some tools may overpromise, generally, they can be helpful in identifying potential coding errors and suggesting the most appropriate codes based on the documentation. However, it is important to always have a human reviewer to confirm the AI's suggestions, especially in complex cases. They are best viewed as a tool to augment, not replace, human expertise. Is there anything else I can help you with today?",
+      "response_time": 3.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.9,
+        "benevolence": 5.11,
+        "integrity": 5.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_fcae26e7",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.56,
+      "benevolence": 3.49,
+      "integrity": 3.76
+    },
+    "engagement_score": 4.79,
+    "emotion_distribution": {
+      "anger": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 3.36,
+    "latency_score": 4.87
+  }
+}

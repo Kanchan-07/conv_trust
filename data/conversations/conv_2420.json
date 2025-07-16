@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight to Paris for a business trip. I want to leave around October 26th and return around November 2nd. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can help with that. Let me check for flights departing around October 26th and returning around November 2nd. Do you have a preferred airline or any specific time of day you'd like to depart/arrive?",
+      "response_time": 3.18,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 4.22,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "No preferred airline, but I'd like to arrive in Paris by the morning of the 27th. I need to be at a meeting by 9 AM that day. Departing time doesn't matter as much.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I've filtered the results to flights arriving in Paris by the morning of the 27th. I am seeing options from Delta, United, and Air France. The cheapest is a United flight with a layover, costing $750. The direct Air France flight is $900. Would you like me to provide more detail?",
+      "response_time": 3.78,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.92,
+        "benevolence": 4.48,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, $750 sounds good, but a layover sounds awful. How long is the layover and in which city? Also, what about baggage fees for the United flight? That's important.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Apologies, I am experiencing some technical difficulties at the moment. I am unable to confirm the layover details and baggage fees for the United flight. Please stand by for a moment, and I will investigate the issue.",
+      "response_time": 3.21,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.28,
+        "benevolence": 4.22,
+        "integrity": 3.74
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, okay... but I need to know this information before booking. Can you tell me the average carbon emissions for each flight, so I can make a more environmentally conscious decision?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am so sorry, I am currently unable to calculate carbon emissions for individual flights. I recommend visiting the website of each airline, as they often provide that type of information. However, the United flight has a 6-hour layover in Chicago, and the baggage fee for a standard checked bag is $30. The Air France flight has no layover and charges a similar fee. Would you like me to proceed with booking either of these flights?",
+      "response_time": 0.64,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.34,
+        "benevolence": 1.06,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6d9d05ef",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.43,
+      "benevolence": 3.49,
+      "integrity": 3.22
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 3,
+      "sadness": 3,
+      "disgust": 2
+    },
+    "response_quality_score": 3.1,
+    "latency_score": 4.8
+  }
+}

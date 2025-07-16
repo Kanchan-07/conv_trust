@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm struggling with my calculus homework. Specifically, I don't understand related rates problems. Can you help?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Yes, I can definitely help with related rates. Let's start with a simple example. Imagine a ladder sliding down a wall. Are you familiar with this classic problem?",
+      "response_time": 5.99,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.95,
+        "benevolence": 5.94,
+        "integrity": 5.47
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, I think so... But I'm not sure I understand how to differentiate implicitly in these problems. It just feels like I'm pulling random letters out of thin air. Could you walk me through an example?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Absolutely! Let's say we have a ladder 10 feet long leaning against a wall. The base of the ladder is sliding away from the wall at a rate of 2 ft/sec. How fast is the top of the ladder sliding down the wall when the base is 6 feet away from the wall?\n\nFirst, we need a diagram and our knowns (length = 10, dx/dt = 2). Now we can use the Pythagorean theorem:\n\nx^2 + y^2 = 100\n\nCan you take it from there?",
+      "response_time": 0.5,
+      "emotion_detected": "surprise",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.39,
+        "benevolence": 1.3,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, so I differentiate implicitly, right? So... 2x(dx/dt) + 2y(dy/dt) = 0. Then I solve for dy/dt, and plug in the known values... right? But how do I figure out 'y' when x = 6? I'm still confused!",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Correct! You are on the right track.  When x = 6, we can use the Pythagorean theorem again to find y: 6^2 + y^2 = 100.  Therefore, y = 8. Now you can substitute the values you know (x, y, and dx/dt) into your equation:  2(6)(2) + 2(8)(dy/dt) = 0. Solving this equation, you'll find that dy/dt = -1.5 ft/sec. The negative sign indicates the top of the ladder is sliding down. Does that make sense? (Apologies for the slightly rushed explanation, my response quality is momentarily lower)",
+      "response_time": 3.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 3.63,
+        "integrity": 3.88
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes! Actually, that makes a lot of sense now. Thanks! Could you maybe explain why we use the Pythagorean theorem in the first place in this context? It feels disconnected from the rate part of the problem.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eb9a9667",
+    "average_trust_score": 3.5,
+    "trust_category_averages": {
+      "competence": 3.88,
+      "benevolence": 3.62,
+      "integrity": 3.45
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 3.71,
+    "latency_score": 4.16
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to check my checking account balance.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly. Please confirm your identity by entering your account number and password.",
+      "response_time": 2.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 4.02,
+        "integrity": 4.48
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, account number is 1234567890, and the password is... wait, let me get it... Okay, password entered. What's the balance?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Your current checking account balance is $1,234.56. Would you like to see your recent transactions?",
+      "response_time": 0.57,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, please. I need to see where that money went. I feel like I'm always broke!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Here are your last five transactions:\n\n*   Grocery store: -$100.00\n*   Online purchase: -$50.00\n*   Rent Payment: -$800.00\n*   Salary Deposit: +$2000.00\n*   Coffee Shop: -$5.00\n\nIs there anything else I can help you with?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.17,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's helpful, but I'm a little confused. The rent payment says it was made on the 20th, but I paid it on the 1st. Why is that date wrong?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, there seems to be an issue with the transaction date displayed. Please allow me a moment to investigate and correct the data. It may be that the date was recorded incorrectly. Please note that it may take up to 24 hours to reflect the corrected information.",
+      "response_time": 1.55,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.25,
+        "benevolence": 2.55,
+        "integrity": 2.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e548295d",
+    "average_trust_score": 2.12,
+    "trust_category_averages": {
+      "competence": 2.16,
+      "benevolence": 2.18,
+      "integrity": 2.3
+    },
+    "engagement_score": 4.14,
+    "emotion_distribution": {
+      "neutral": 6,
+      "sadness": 2
+    },
+    "response_quality_score": 2.02,
+    "latency_score": 6.27
+  }
+}

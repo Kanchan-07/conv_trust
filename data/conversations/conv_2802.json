@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, job applications are overwhelming. I don't even know where to start. Can you help me organize this mess?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Absolutely, I can help you with that. It's completely normal to feel overwhelmed. Let's break it down. What specific part of the job application process are you currently focusing on, or where do you feel most stuck?",
+      "response_time": 0.62,
+      "emotion_detected": "surprise",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, right now I'm trying to tailor my resume and cover letter for this one specific job listing. It's a bit different from what I've applied for before, and I want to make sure I hit the right keywords. I've attached the job description and my current resume draft.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing those documents. I've received them. I can analyze the job description to identify key skills and requirements and suggest ways to highlight your relevant experience in your resume and cover letter. Please allow me a moment to review them.",
+      "response_time": 4.21,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.84,
+        "benevolence": 6.71,
+        "integrity": 6.83
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Great, thanks. One thing I'm really struggling with is a gap in my work history from 2019-2020. How should I even address that on my resume or cover letter, especially for a competitive role like this where they might be scrutinizing every detail?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Addressing employment gaps can be tricky, but it's manageable. Generally, it's best to focus on your skills and experience that *are* relevant. You can list the dates of your previous roles clearly. If you gained any skills or completed projects during the gap, you could potentially mention those, or briefly explain it in your cover letter if appropriate.",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.94,
+        "benevolence": 3.98,
+        "integrity": 3.68
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay... but that feels a bit vague. 'Briefly explain it if appropriate'? What if it wasn't for something like travel or volunteering, but personal reasons? How do I make sure it doesn't look like I just did nothing for over a year? I'm worried it's going to disqualify me immediately.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I understand your concern. For personal leaves, you are not obligated to disclose details. On your resume, you could simply list the dates of the gap with a neutral description like 'Personal Leave' or omit a descriptor and focus on the dates of your employment before and after. In a cover letter or interview, if asked, you can offer a concise, positive framing focusing on your readiness to return to work and your enthusiasm for this specific role, without oversharing details. Let's look at how we can structure your resume dates effectively and perhaps draft a sentence for a cover letter if you wish.",
+      "response_time": 1.6,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.49,
+        "benevolence": 2.34,
+        "integrity": 2.94
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2f94dbe2",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.57,
+      "benevolence": 3.51,
+      "integrity": 3.61
+    },
+    "engagement_score": 5.29,
+    "emotion_distribution": {
+      "disgust": 1,
+      "surprise": 1,
+      "neutral": 5,
+      "fear": 1
+    },
+    "response_quality_score": 4.1,
+    "latency_score": 4.86
+  }
+}

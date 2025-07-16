@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need an update on the claims submitted last week for Dr. Smith's office. Specifically, are there any rejections I should know about?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly check that for you. Based on the submissions from last week for Dr. Smith's office, most claims are currently in process. There appear to be a few claims flagged for review. Would you like me to list the claim IDs for those?",
+      "response_time": 4.66,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.19,
+        "benevolence": 5.04,
+        "integrity": 5.09
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, please list the flagged claim IDs. And what does 'flagged for review' usually mean? Is it a rejection or just a hold?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, the flagged claim IDs are: [ClaimID1], [ClaimID2], and [ClaimID3]. 'Flagged for review' indicates the system detected something unusual that requires manual inspection before processing further. It's not a definitive rejection yet, but it could lead to one.",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.95,
+        "benevolence": 4.06,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, manually reviewed? Why is that? Especially ClaimID1, that one seemed straightforward. I'm getting frustrated with these hold-ups; it impacts our cash flow. What specifically triggered the flag on ClaimID1? Can you tell me that?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Upon deeper analysis of ClaimID1, the flag was triggered due to a potential CPT code mismatch based on the submitted diagnosis codes. The system suggests reviewing the documentation to ensure the CPT code accurately reflects the service provided for the billed condition.",
+      "response_time": 1.36,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.65,
+        "benevolence": 2.24,
+        "integrity": 2.8
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "A CPT code mismatch? Hmm, okay. So what's the next step? Do I need to manually pull the patient chart and resubmit the whole claim, or can I just update the code through the system?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "For ClaimID1, you should first review the patient's medical record and the coding documentation to confirm the correct CPT and diagnosis codes. If an update is necessary, you can correct and resubmit the claim directly through the billing portal. If the original codes were correct, you may need to add supporting notes or contact the payer for clarification on their specific coding requirements for this scenario.",
+      "response_time": 3.76,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.27,
+        "benevolence": 5.54,
+        "integrity": 5.51
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, that's clearer. I'll review the documentation and proceed with resubmission if needed. Thanks for clarifying the specific reason for the flag and the steps. That's very helpful.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_610183eb",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.27,
+      "benevolence": 4.22,
+      "integrity": 4.25
+    },
+    "engagement_score": 5.2,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.62,
+    "latency_score": 4.2
+  }
+}

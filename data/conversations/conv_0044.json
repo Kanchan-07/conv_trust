@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I need some help planning my grocery list for the week. I'm trying to stick to a really tight budget \u2013 like, $50 max. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! To give you the best recommendations, could you tell me a bit about your dietary preferences or restrictions? Are you vegetarian, vegan, or do you have any allergies I should be aware of? Also, roughly how many meals are you planning for?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.66,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, good point. I'm not vegetarian or anything, and no allergies. I'm just one person, and I'm aiming for about 5 dinners this week. Lunches are usually leftovers, and I don't eat breakfast.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay. Based on a $50 budget for 5 dinners for one person, I would recommend looking at meals focusing on inexpensive staples. Some ideas include: Lentil soup (lentils are very cheap and filling), Pasta with a simple tomato sauce (canned tomatoes are budget-friendly), Chicken and rice (chicken thighs are cheaper than breasts), Black bean burgers, and Vegetable curry with rice. Does that sound good?",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.4,
+        "benevolence": 3.87,
+        "integrity": 3.52
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's... okay. But how can I actually make those meals fit into $50? I feel like buying *all* the ingredients for even just one of those could easily blow my budget! Is there a way to get a specific grocery list with estimated prices? And how do you factor in things like spices, oil, etc. that I already have?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "You're right, it can be tricky! For a more tailored grocery list, I need more information about your current pantry. Can you tell me what spices and staples (like oil, salt, pepper) you already have? Also, which of those suggested meals appeals to you most? Knowing that will allow me to create a sample grocery list using average prices from local stores. Keep in mind that prices can vary.",
+      "response_time": 5.9,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.59,
+        "benevolence": 5.33,
+        "integrity": 5.6
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_535967b3",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.8,
+      "benevolence": 4.29,
+      "integrity": 4.5
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 1
+    },
+    "response_quality_score": 4.13,
+    "latency_score": 3.45
+  }
+}

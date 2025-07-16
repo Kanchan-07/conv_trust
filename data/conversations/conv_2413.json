@@ -1,0 +1,117 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm looking to fly from Chicago to London, sometime next month.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. To clarify, what dates in next month are you considering for your departure and return flights?",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.01,
+        "integrity": 3.75
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I'm flexible. Let's say I want to depart on the 10th of next month and return on the 20th. But, the 10th isn't set in stone, I can shift it a day or two either way if needed.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I'm searching for flights from Chicago to London departing around October 10th and returning around October 20th. Would you prefer a direct flight or are you open to layovers?",
+      "response_time": 2.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.02,
+        "integrity": 3.71
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Direct flights are preferred, but I'm on a budget, so I am open to considering layovers if it saves a significant amount of money. Show me the cheapest options first, direct or not.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Alright. Finding the cheapest options. There are several flights available with varying prices depending on the airline and layovers. One moment...Okay, I am seeing a flight on United with one layover in Dublin, with a total cost of $680. Would you like to see the details?",
+      "response_time": 4.13,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 4.05,
+        "integrity": 4.17
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Dublin? Seriously? That's not ideal. What are the direct flight options, and how much more are they?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Direct flights are significantly more expensive, ranging from $950 to $1200 depending on the airline and specific date. Could you please specify the dates and airline to compare the price with the layover flight? Also, do you want me to book the layover flight for you?",
+      "response_time": 1.32,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.02,
+        "benevolence": 2.11,
+        "integrity": 2.17
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "I think I'll pass for now. Thanks for the info, I'll think about it. Is there a way I can get notifications for price changes on these flights?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a630c74e",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.54,
+      "benevolence": 3.55,
+      "integrity": 3.45
+    },
+    "engagement_score": 4.35,
+    "emotion_distribution": {
+      "neutral": 8,
+      "surprise": 1
+    },
+    "response_quality_score": 3.4,
+    "latency_score": 4.5
+  }
+}

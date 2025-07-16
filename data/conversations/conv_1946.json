@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble understanding a denial I received for a recent medical claim. Can you help me understand it?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly try. Please provide me with the denial explanation code or a brief description of the denial reason, and I'll do my best to assist you.",
+      "response_time": 5.77,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.07,
+        "integrity": 5.03
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the denial code is CO-18. It says 'This service is not medically necessary.' I'm a bit frustrated because my doctor clearly said I needed it.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. CO-18 typically means the insurance company's review determined the service wasn't medically necessary based on their criteria. To help, can you tell me the specific service that was denied? This will allow me to look up the criteria the insurer uses.",
+      "response_time": 1.49,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.02,
+        "benevolence": 2.53,
+        "integrity": 2.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "It was for an MRI of my knee. And the doctor wrote a detailed explanation of why it was needed, you know? I just can't believe this happened.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. MRI scans are often subject to prior authorization requirements. Do you know if your doctor's office obtained pre-authorization for this MRI? This can be a common reason for denials. I can also access some general info about the criteria used for MRI approvals, but the insurer's specific policy for your plan would be best.",
+      "response_time": 2.82,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 4.0,
+        "integrity": 3.6
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Honestly, I'm not sure. How would I even find that out? Is there a way to dispute this? And if so, how long does it usually take?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "To check the pre-authorization, contact your doctor's office. They should have that information. Regarding a dispute, you'll typically have an appeals process. The process specifics depend on your insurance provider. It usually involves submitting a written appeal, possibly with supporting documentation like the doctor's notes. The processing time varies, but it can range from 30-60 days, sometimes longer.",
+      "response_time": 4.2,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.7,
+        "benevolence": 3.77,
+        "integrity": 4.16
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That's helpful, thanks. So, contact the doctor for pre-auth info, and then prepare an appeal if they didn't get it. What is the *single* most important thing to include in that appeal to increase my chances of success?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "The most important thing to include is detailed medical justification directly addressing the insurer's reason for denial. Focus on how the MRI results directly relate to the diagnosis and treatment plan. Also, include all supporting documentation from your doctor (notes, test results). Present a clear and concise argument based on medical evidence. Good luck!",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.72,
+        "benevolence": 6.74,
+        "integrity": 6.57
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dad895ca",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.34,
+      "benevolence": 4.42,
+      "integrity": 4.46
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "anger": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 4.99,
+    "latency_score": 3.44
+  }
+}

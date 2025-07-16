@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking to book a table for dinner tonight. Somewhere Italian, preferably.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. Do you have a preferred location and time, and how many people will be in your party?",
+      "response_time": 3.34,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 4.06,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, let's say downtown, around 7:30 PM. And it'll be for four people. This is proving harder than I thought it would!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for Italian restaurants downtown for four people at 7:30 PM... I see a few options. There's 'Bella Notte', 'Pasta Paradise', and 'Luigi's'. Bella Notte has great reviews, but can be pricier. Pasta Paradise is more mid-range. Luigi's is known for its family-friendly atmosphere.",
+      "response_time": 3.71,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.83,
+        "benevolence": 4.18,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Bella Notte sounds good, but how sustainable are their practices? Do they source locally or anything like that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question! I'm not able to access real-time information about their sustainability practices at this moment. You might want to check their website or call them directly to inquire. I can proceed with the booking at Bella Notte for 7:30 for four people if you'd like?",
+      "response_time": 0.55,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.4
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, fair enough. Let's go with Bella Notte then. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d0bef75e",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.94,
+      "benevolence": 3.08,
+      "integrity": 3.17
+    },
+    "engagement_score": 4.12,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 1,
+      "surprise": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.54,
+    "latency_score": 4.97
+  }
+}

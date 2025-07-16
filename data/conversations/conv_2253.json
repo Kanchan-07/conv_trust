@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really frustrated. I've been trying to process these AR denials, and I just don't understand why this one keeps getting rejected. The code is M54.2, and it's a pretty straightforward diagnosis.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's take a look at the denial for code M54.2. To give you the best assistance, could you provide me with the specific reason code from the denial, as well as the payer in question?",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Right, the denial code is CO 29 - The time limit for filing has expired. And the payer is UnitedHealth. I'm confused because the date of service was only two months ago!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, CO 29 denials for UnitedHealth are common. Given that the date of service was recent, there are a few things to check. First, verify the claim submission date against UnitedHealth's timely filing policy. Second, sometimes there are internal processing delays. Did the claim successfully go through on the first submission? Are you sure the information was accurate?",
+      "response_time": 2.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.3,
+        "benevolence": 4.2,
+        "integrity": 4.01
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I am sure. I submitted it correctly the first time, and I followed all the billing guidelines! How do I even *begin* to figure out what's wrong if the system is wrong? And what if there's an issue with the billing system itself?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a great question, and a potentially serious issue. In that case, you may want to check with the billing department to see if others are experiencing the same problem. Additionally, you can ask them to verify the claim submission history to ensure there weren't any glitches on the initial submission. If they confirm the claim was submitted within the timely filing period and the error continues, you should contact UnitedHealth directly and try to get a denial explanation.",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.09,
+        "benevolence": 1.15,
+        "integrity": 1.13
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d169ef5d",
+    "average_trust_score": 2.0,
+    "trust_category_averages": {
+      "competence": 2.13,
+      "benevolence": 2.12,
+      "integrity": 2.05
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "anger": 2,
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 1.7,
+    "latency_score": 6.27
+  }
+}

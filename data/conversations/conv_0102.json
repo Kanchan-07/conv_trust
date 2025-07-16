@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about order #458792, which was supposed to arrive three days ago. I'm getting really frustrated because I need it for a trip I'm leaving for tomorrow.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check on the status of order #458792 for you. One moment, please.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.42,
+        "benevolence": 1.0,
+        "integrity": 1.1
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, thank you. I checked the tracking number, but it just says 'in transit' still, and it's been saying that for days. Is there any specific information about why it's delayed?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Yes, it appears there was a slight delay due to unforeseen circumstances. It should arrive within the next 24-48 hours. I will email you the same information.",
+      "response_time": 4.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.11,
+        "benevolence": 3.92,
+        "integrity": 3.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "24-48 hours?! That's not good enough! I'm leaving tomorrow morning. Is there any way to expedite the delivery or have it rerouted to my destination address? It's 123 Main St, Anytown, USA.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I see your address. While I can't guarantee rerouting at this stage, let me see what options are available. I can contact the delivery carrier and inquire about expedited delivery. What if the delay is because of a natural disaster or strike?",
+      "response_time": 2.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.85,
+        "benevolence": 4.45,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's a good question. Is there a natural disaster or strike? I haven't seen anything on the news. If that's the case, I understand, but I'd really appreciate knowing the *real* reason for the delay. If it's just sitting in a warehouse somewhere, I'm going to be even more upset.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Thank you for your patience. There isn't a reported natural disaster or strike impacting your delivery route. It seems the package was temporarily misplaced at a regional sorting facility. I have now requested an immediate investigation and expedited delivery. I'll send you an email with updates every six hours. Will that work for you?",
+      "response_time": 0.54,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.31,
+        "benevolence": 1.18,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_ef23c11e",
+    "average_trust_score": 2.5,
+    "trust_category_averages": {
+      "competence": 2.67,
+      "benevolence": 2.64,
+      "integrity": 2.58
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 2.09,
+    "latency_score": 5.52
+  }
+}

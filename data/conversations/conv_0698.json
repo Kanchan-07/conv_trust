@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Ramirez. It's been so hard to get through on the phone lately!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. To schedule an appointment with Dr. Ramirez, could you please provide your full name and date of birth?",
+      "response_time": 2.96,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.2,
+        "integrity": 3.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's Jane Doe, and my birthday is 03/15/1988. I really need something soon; I've been having this awful headache for weeks.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Jane. Let me check Dr. Ramirez's availability. One moment... Okay, I see an opening next Tuesday at 2:00 PM, or the following Thursday at 9:00 AM. Would either of those work for you?",
+      "response_time": 4.22,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 3.53,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Tuesday at 2:00 PM should work. But what if the headache gets worse before then? Is there any way to get seen sooner, even by another doctor?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your concern. While Dr. Ramirez is fully booked until Tuesday, I can check for any cancellations or openings with other physicians in the practice. Please note that seeing another doctor might mean they won't have your full medical history immediately available. Would you like me to check for earlier appointments with other doctors?",
+      "response_time": 2.88,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.78,
+        "benevolence": 4.02,
+        "integrity": 3.9
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_2fba1c22",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.67,
+      "benevolence": 3.92,
+      "integrity": 3.69
+    },
+    "engagement_score": 4.25,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "fear": 2
+    },
+    "response_quality_score": 4.44,
+    "latency_score": 4.15
+  }
+}

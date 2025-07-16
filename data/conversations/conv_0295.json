@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some new music. I'm really into indie rock lately, any recommendations?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! Based on your interest in indie rock, I recommend checking out the band 'The Beths'. Their album 'Jump Rope Gazers' is a good starting point.",
+      "response_time": 4.09,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.9,
+        "benevolence": 3.55,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've heard of them, not really my style though. Anything a bit... edgier? Less poppy?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. How about 'IDLES'? They have a post-punk sound with indie rock elements. Try their album 'Joy as an Act of Resistance.'",
+      "response_time": 3.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.22,
+        "benevolence": 3.67,
+        "integrity": 3.89
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'll give them a listen. So, out of curiosity, how do you actually *know* what music I might like? What's the algorithm behind this?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I analyze your stated preferences, such as 'indie rock,' and compare them to the attributes of millions of songs in my database. These attributes include genre classifications, tempo, instrumentation, lyrical themes, and the listening habits of other users with similar tastes. The more information you provide, the more accurate my recommendations become.",
+      "response_time": 4.1,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.11,
+        "benevolence": 5.32,
+        "integrity": 5.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That makes sense, I guess. Okay, last one. Something completely different, recommend something in the jazz genre but... not too 'smooth'. More like experimental or avant-garde jazz.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Alright, for experimental jazz, I suggest checking out 'The Shape of Jazz to Come' by Ornette Coleman. It's a seminal album in the free jazz movement and might be exactly what you're looking for.",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.77,
+        "benevolence": 3.97,
+        "integrity": 3.56
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_a9a6d58d",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.25,
+      "benevolence": 4.13,
+      "integrity": 4.26
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 6,
+      "disgust": 1
+    },
+    "response_quality_score": 4.41,
+    "latency_score": 3.57
+  }
+}

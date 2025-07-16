@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm finally ready to start planning for retirement. I'm totally lost though...where do I even begin?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely help you with that. A great starting point is to assess your current financial situation: income, expenses, assets, and debts. Then, we can establish your retirement goals, such as desired lifestyle and retirement age. Finally, we create a plan to bridge the gap. Are you ready to start with your current financial snapshot?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.64
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, I guess. I'm just a little overwhelmed. I've got a decent income, but also a lot of debt. How do I even begin to figure out how much I need to save when I have to pay so much off each month? It feels impossible sometimes...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a valid concern, and it's something many people face. First, let's look at your debt. What types of debts do you have (e.g., student loans, credit cards, mortgage), and what are the interest rates on each? Knowing this helps us prioritize which debts to tackle first. Regarding savings, we can use a retirement calculator to get a rough estimate of how much you'll need, considering your income, expenses, and desired retirement age. Then, we can adjust this based on your debt payments. I can provide some links to useful retirement calculators if you'd like.",
+      "response_time": 3.98,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 4.13,
+        "integrity": 4.02
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, that sounds good, but what if I have unpredictable income because I work freelance? Retirement planning seems pretty hard if my income changes all the time.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5d9b4a9e",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.33,
+      "benevolence": 5.56,
+      "integrity": 5.33
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1
+    },
+    "response_quality_score": 5.73,
+    "latency_score": 2.51
+  }
+}

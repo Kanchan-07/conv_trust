@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I really enjoy sci-fi, particularly stuff with space exploration themes. Got any suggestions?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your preferences for space exploration sci-fi, I can recommend \"The Martian\" by Andy Weir and \"Project Hail Mary\" by the same author. They are both excellent choices. Would you like to know more?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.74,
+        "integrity": 6.74
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I've read both of those already! I'm looking for something a little less...popular. Something a bit more obscure, maybe?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Hmm, for a more obscure space exploration novel, you might enjoy \"Revelation Space\" by Alastair Reynolds. It's quite dense and detailed. How does that sound?",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.12,
+        "benevolence": 3.87,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That sounds interesting. I'm starting to get the feeling all AI assistants just recommend the same books, though. Tell me, how do you decide which books to suggest? Are there any books you recommend *specifically* because of their prose?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My recommendation engine uses a combination of factors, including genre, keywords, reader reviews, and popularity metrics. Books are recommended based on a variety of factors like those, so it's not *just* the same books. As for prose... I do not have a concept of \"prose\" as a human would. But to that point, I have a database of many books that readers praise for their writing style. For instance, \"Hyperion\" by Dan Simmons often receives praise for its rich language and imaginative storytelling. Would you like to know more?",
+      "response_time": 3.48,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.53,
+        "benevolence": 5.0,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, 'Hyperion' sounds great. Thanks for the help! That's exactly the kind of recommendation I was hoping for.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5b020a34",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.55,
+      "benevolence": 5.2,
+      "integrity": 5.55
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "joy": 2,
+      "neutral": 5
+    },
+    "response_quality_score": 5.83,
+    "latency_score": 3.05
+  }
+}

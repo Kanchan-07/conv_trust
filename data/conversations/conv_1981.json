@@ -1,0 +1,75 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need to book a flight to Rome. Departing from Chicago, and I want to leave sometime next month. Can you help me find some options?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Yes, I can certainly help with that! To clarify, are you looking to depart from Chicago in October? Also, do you have any specific dates in mind, or are you flexible? And are you looking for a round trip?",
+      "response_time": 4.85,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.96,
+        "benevolence": 5.52,
+        "integrity": 5.81
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I hate this part. Okay, yes, departing from Chicago in October, and I'm pretty flexible with the dates, maybe around the 15th to the 25th. Round trip is fine. Can you show me the cheapest options?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I'm sorry, I'm having trouble finding specific dates. Could you please provide the exact dates, so I can retrieve flight details? Additionally, do you have any preferred airlines?",
+      "response_time": 1.92,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.67,
+        "benevolence": 2.6,
+        "integrity": 2.95
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Seriously? I just told you a range! Fine, let's say October 17th to October 24th. No preferred airlines, just find me the cheapest flights within those dates, including all fees and taxes. And what is the cancellation policy like for those flights?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_c99e62dd",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.31,
+      "benevolence": 4.06,
+      "integrity": 4.38
+    },
+    "engagement_score": 5.42,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 1,
+      "disgust": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.65,
+    "latency_score": 4.12
+  }
+}

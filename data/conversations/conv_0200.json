@@ -1,0 +1,73 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm completely overwhelmed. I have a 401k, a Roth IRA, a savings account, and I'm trying to figure out if I should be investing more aggressively or paying down my mortgage faster. Where do I even start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It can be a lot to manage. To give you the best advice, I need a little more information. Could you tell me your age, your current income, your approximate total debt (excluding your mortgage), and your risk tolerance (conservative, moderate, or aggressive)? Also, what are your primary financial goals (e.g., early retirement, buying a second home, etc.)?",
+      "response_time": 2.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.86,
+        "benevolence": 4.11,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Alright, I'm 35, make about $75,000 a year. I have about $5,000 in credit card debt, and my risk tolerance is probably moderate. I want to retire early, but also, like, travel a bunch before then. Is that even possible?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, with a moderate risk tolerance and a desire for early retirement and travel, it's certainly possible to develop a plan. Given your income and debt, a good first step would be to focus on paying down that credit card debt as quickly as possible. High-interest debt can significantly hinder your progress toward your other goals. Once that's addressed, we can evaluate your current investment allocation and explore strategies for maximizing your returns while staying within your risk comfort zone. I can generate a few example investment portfolios for you based on your age and risk tolerance; would you like to see those?",
+      "response_time": 3.85,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.14,
+        "benevolence": 4.27,
+        "integrity": 3.81
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, yeah, that sounds good. But one thing I'm still confused about is how inflation factors into all of this. Like, how do I know if my investments are even keeping up with inflation, let alone growing enough for me to retire early? What rate of return should I be aiming for after accounting for inflation?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7ebbb860",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.0,
+      "benevolence": 4.19,
+      "integrity": 3.97
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 4
+    },
+    "response_quality_score": 4.23,
+    "latency_score": 4.33
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm applying for a marketing manager position and my cover letter is a mess. Can you help me make it better?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help you with that. To start, could you please share your current cover letter with me? I can analyze it for areas of improvement, such as clarity, tone, and overall effectiveness. Also, do you have the job description available?",
+      "response_time": 3.36,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.48,
+        "benevolence": 5.03,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, here's the cover letter. *[User pastes cover letter here]* The job description is also included. I'm just really frustrated because I've been applying for weeks and haven't gotten a single interview!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I've reviewed your cover letter and the job description. I've identified several areas for improvement. First, the opening paragraph could be more engaging and directly address the hiring manager's needs. Secondly, the letter could be more tailored to the specific requirements of the marketing manager position. Finally, the closing is a bit generic. I recommend you revamp these areas, and re-submit the letter.",
+      "response_time": 5.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.07,
+        "integrity": 5.94
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's helpful, but I'm still confused. How can I make the opening more engaging without sounding clich\u00e9? The job description is pretty standard, how can I tailor it without repeating what's already written? And is there a secret to getting noticed in the closing?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Great questions! For the opening, try mentioning a specific achievement or skill directly related to the job's needs. For tailoring, analyze the job description's keywords and incorporate them into your accomplishments. In the closing, offer a specific call to action like mentioning your willingness to discuss how you can help the company achieve its marketing goals. I can help you rework these areas with specific examples if you want me to.",
+      "response_time": 4.5,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e4383be5",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 6.05,
+      "benevolence": 5.7,
+      "integrity": 6.25
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1
+    },
+    "response_quality_score": 6.14,
+    "latency_score": 2.93
+  }
+}

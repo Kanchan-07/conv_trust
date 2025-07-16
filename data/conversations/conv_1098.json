@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, can you recommend some music? I'm in the mood for something... maybe rock?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Sure! To give you the best recommendations, can you be a little more specific? What kind of rock are you in the mood for? Classic rock, alternative rock, hard rock, etc.?",
+      "response_time": 4.3,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.7,
+        "integrity": 5.25
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I don't know! Something... energetic? Like, stadium rock maybe? Bands like Queen or AC/DC?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your preference for Queen and AC/DC (stadium rock), I'd recommend checking out Def Leppard, Guns N' Roses, and Bon Jovi. Do any of those sound appealing?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.8,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, I know Guns N' Roses, but the others...not really. What if I said I wanted something...instrumental, but still kinda rock-ish? Is that even a thing?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, absolutely! For instrumental rock, I would suggest checking out artists like Joe Satriani, Steve Vai, or bands like Explosions in the Sky (though they lean more post-rock). Would you like me to give you song recommendations for any of those?",
+      "response_time": 5.05,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.74,
+        "benevolence": 6.76,
+        "integrity": 6.68
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Explosions in the Sky sounds interesting... kinda a weird name. How would you even classify their music if you had to? Is it really rock?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_54315189",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.24,
+      "benevolence": 5.42,
+      "integrity": 5.46
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 3,
+      "disgust": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 5.31,
+    "latency_score": 3.54
+  }
+}

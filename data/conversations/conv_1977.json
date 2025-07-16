@@ -1,0 +1,108 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to book a flight. I'm flexible on dates, but I want to fly from New York to London.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can definitely help with that. To give you the best options, could you tell me what time of year you're thinking of traveling? Even a general timeframe will help.",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.19,
+        "benevolence": 4.15,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, sometime in October. I'd prefer to travel during the first half of the month. Ideally, I'd like to fly on the weekend if possible.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Got it. Searching for flights from New York to London in the first two weekends of October. One moment... I'm finding a lot of options. Would you prefer a direct flight, or are you open to layovers?",
+      "response_time": 3.5,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.74,
+        "benevolence": 5.48,
+        "integrity": 5.8
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Direct flights preferred, but honestly, the price is more important than the layover. So, show me the cheapest options, regardless.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, I've found several flights. The cheapest one is on October 7th with Norwegian Air Shuttle. It's a one-stop flight for $450. Does that sound like something you'd be interested in? Note: This is a budget airline.",
+      "response_time": 2.68,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.58,
+        "benevolence": 3.97,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Norwegian Air? Okay, I am not familiar with them. Are they reliable? What's the baggage allowance for that flight, because I'm bringing a decent amount of luggage.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I am sorry, I am unable to find the baggage allowance information. You can find this information on the airline's website or by contacting them directly. I recommend that you check before booking. Additionally, for a fee, you might be able to upgrade your flight. I can look into those options for you. Otherwise, would you like me to search for more options?",
+      "response_time": 2.39,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.25,
+        "benevolence": 2.61,
+        "integrity": 2.36
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_166350cf",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.94,
+      "benevolence": 4.05,
+      "integrity": 3.99
+    },
+    "engagement_score": 4.04,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 6
+    },
+    "response_quality_score": 4.34,
+    "latency_score": 4.78
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help writing a resume. I'm applying for a software engineering position.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can definitely assist you with that. To start, do you have a current resume, or are we starting from scratch? Also, please provide your existing work experience, skills, and education details.  The more information you provide, the better the resume will be.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.74,
+        "benevolence": 6.85,
+        "integrity": 6.63
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I have a really old resume, like from 2010. It's probably useless now. I have a Bachelor's in Computer Science, and I've been a software engineer for five years. My skills are Java, Python, and SQL.  I'm feeling really overwhelmed just thinking about updating all of this!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, no problem! We can definitely build a new one. Let's create a summary section, followed by sections on your work experience, skills, education, and any projects you've worked on.  I'll also suggest phrasing. To start, what would you like your summary to say? Provide a brief overview of your career goals and key skills.",
+      "response_time": 2.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.18,
+        "benevolence": 3.86,
+        "integrity": 4.14
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm... This is harder than I thought.  I'm not very good at summarizing myself. Can you give me some examples for a software engineer with my experience? Something that highlights problem-solving and technical expertise.",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly! Here are a few summary examples you could adapt:\n\n*   'Highly motivated Software Engineer with 5+ years of experience in designing, developing, and implementing software solutions using Java, Python, and SQL. Proven ability to solve complex technical challenges and deliver high-quality code.'\n*   'Results-oriented Software Engineer specializing in the design and implementation of scalable and efficient software systems. Expertise in Java, Python, and SQL, with a strong focus on problem-solving and team collaboration.'\n*   'Experienced Software Engineer with a passion for developing innovative and user-friendly applications. Proficient in Java, Python, and SQL. Dedicated to writing clean, well-documented code.'",
+      "response_time": 3.45,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.24,
+        "benevolence": 5.29,
+        "integrity": 5.39
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, those are helpful. I'm still confused about how to quantify my achievements in my previous roles. Like, how do I show I was successful at my job?  I'm not sure how to phrase anything.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a great question! The best way to quantify your achievements is by using the STAR method (Situation, Task, Action, Result). For each role, describe the situation, the task you were assigned, the action you took, and the quantifiable result you achieved. For example, instead of saying, \"Managed a project,\" you could say, \"Managed a project to implement a new CRM system, resulting in a 15% increase in sales leads within the first quarter.\" Can you provide the details of a project you worked on so I can try to phrase it for you?",
+      "response_time": 4.28,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.78,
+        "benevolence": 6.78,
+        "integrity": 6.97
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "That STAR method seems helpful! I'll try that. Okay, thanks for your help; this is a good start. I think I can work with this. I appreciate it!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d28b74a0",
+    "average_trust_score": 5.88,
+    "trust_category_averages": {
+      "competence": 5.74,
+      "benevolence": 5.7,
+      "integrity": 5.78
+    },
+    "engagement_score": 4.6,
+    "emotion_distribution": {
+      "neutral": 6,
+      "surprise": 2,
+      "joy": 1
+    },
+    "response_quality_score": 5.74,
+    "latency_score": 3.38
+  }
+}

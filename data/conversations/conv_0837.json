@@ -1,0 +1,119 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I have a job interview coming up for a marketing manager position. Can you help me prepare? I'm feeling pretty anxious.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! I can definitely help you prepare. To start, what are some of your biggest concerns about the interview? Knowing that will help me tailor my advice.",
+      "response_time": 4.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.86,
+        "benevolence": 5.24,
+        "integrity": 5.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I guess my biggest worry is the behavioral questions. I always fumble those. Like, 'Tell me about a time you failed.' Ugh!",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Let's work on that. A good approach for behavioral questions is the STAR method: Situation, Task, Action, Result. Can you think of a specific failure, even a small one, that you could use as an example?",
+      "response_time": 3.56,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.11,
+        "integrity": 4.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm... okay, there was that time I launched a social media campaign that completely flopped. We missed the mark on the target audience and engagement was terrible. But how do I spin that into a positive? I don't want to sound incompetent!",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Right, so frame the situation: 'We launched a campaign targeting [audience] to achieve [goal].' Task: 'My role was to oversee content creation and strategy.' Action: 'We used [specific tactics].' Result: 'The campaign underperformed due to [reasons].' Then, crucially, add what you learned. For example, 'This experience taught me the importance of thorough audience research and A/B testing. I've since implemented these strategies successfully in subsequent campaigns.' Does that help?",
+      "response_time": 2.54,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.99,
+        "benevolence": 3.57,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yeah, that's actually really helpful! Thanks! Okay, new question. What if they ask me something really technical that I don't know the answer to? Like, a super specific marketing automation platform feature or something. I feel like I should know everything, but I don't.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "It is best to admit that you do not know the information and follow it up with how you would find the information and learn about it. For example you can state that, 'While I am not familiar with that tool. I am familiar with other similar marketing automation platforms such as X, Y, and Z. I would use my experience to research and learn how to use the tool if given the opportunity.'",
+      "response_time": 3.7,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.45,
+        "benevolence": 3.59,
+        "integrity": 3.67
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, good to know. That makes me feel a lot better. Thanks for the advice!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_9135f247",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.51,
+      "benevolence": 4.13,
+      "integrity": 4.56
+    },
+    "engagement_score": 5.15,
+    "emotion_distribution": {
+      "fear": 2,
+      "neutral": 4,
+      "disgust": 1,
+      "joy": 2
+    },
+    "response_quality_score": 4.87,
+    "latency_score": 3.82
+  }
+}

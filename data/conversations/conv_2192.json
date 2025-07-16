@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some legal advice. I'm being sued by a former business partner and I'm not sure what to do.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. I am an AI and cannot provide legal advice, but I can provide some general information and help you understand the basic steps involved in responding to a lawsuit. Firstly, do you have the legal documents related to the lawsuit in front of you? If so, please provide as much information as possible about the case.",
+      "response_time": 4.25,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.43,
+        "benevolence": 5.38,
+        "integrity": 5.42
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, I have the documents. It's a breach of contract case. They're claiming I didn't fulfill my obligations. The thing is, the contract is vague, and it's not even clear what my obligations *were*. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I can understand your frustration. Based on your description, you should carefully review the contract and identify any ambiguous language. Also, gather any documentation or evidence that supports your position, like emails, witness statements, or any records. Once you have identified this, you'll need to file a formal response to the court. This typically involves an 'Answer' to the complaint.",
+      "response_time": 3.84,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.77,
+        "integrity": 4.06
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Right, the Answer. But what if the contract is REALLY vague? Like, so vague it's almost meaningless. Can they even win if the contract is poorly written? I mean, isn't that their fault?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That is a good question, and the answer can be complex and dependent on various factors. In general, if a contract is so vague that it's unenforceable, it might be difficult for the plaintiff to win. However, this depends heavily on the specific language of the contract and the applicable laws in your jurisdiction. Also, courts can interpret ambiguous language. You could raise this issue of vagueness as a defense in your Answer. It is strongly suggested that you consult with a lawyer for clarification, and to get legal advice tailored to your situation. I am an AI, and can not provide such advice.",
+      "response_time": 3.29,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.15,
+        "benevolence": 4.14,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, thanks. That helps me understand the situation a bit better. I think I should probably find a lawyer, as you suggested. Appreciate the information.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_84bd7380",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.64,
+      "benevolence": 4.43,
+      "integrity": 4.52
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3,
+      "anger": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.79,
+    "latency_score": 3.71
+  }
+}

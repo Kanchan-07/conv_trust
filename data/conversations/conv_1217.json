@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help writing a resume. I've been out of the job market for a while and I'm feeling a bit lost.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I can certainly help with that! To get started, could you tell me a little about the type of role you're looking for and your relevant experience?",
+      "response_time": 4.56,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.87,
+        "benevolence": 5.51,
+        "integrity": 5.2
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I'm applying for Project Manager roles. I have about 8 years of experience, but honestly, my last resume was a disaster. It's really outdated and I'm not sure how to format it now. Ugh, this is frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "No worries, I can help! Let's focus on creating a modern and effective resume. For Project Manager roles, we want to highlight your experience in areas like project planning, execution, stakeholder management, and risk mitigation. Do you have any specific accomplishments or quantifiable results from your previous roles that we can include? It's also important to consider which resume format suits your experience.",
+      "response_time": 5.79,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.64,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a good point. Hmm... I led a project that was completed 15% under budget and 2 weeks ahead of schedule. But how do I actually *phrase* that effectively? I'm terrible at writing these things.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, here's an example of how you could phrase that: 'Led the successful completion of [Project Name], achieving a 15% cost reduction and delivering the project 2 weeks ahead of schedule.' Does that work for you? Also, have you considered incorporating keywords from the job descriptions into your resume?",
+      "response_time": 3.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.64,
+        "benevolence": 4.31,
+        "integrity": 3.96
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's much better! Thanks. Actually, the keyword thing is a bit confusing. How does one even *know* what keywords to use effectively?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_eb32c324",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.5,
+      "benevolence": 5.49,
+      "integrity": 5.39
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 4,
+      "disgust": 1
+    },
+    "response_quality_score": 5.61,
+    "latency_score": 2.94
+  }
+}

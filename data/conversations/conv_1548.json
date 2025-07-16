@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a flight. I'm flying from Chicago to London sometime in August.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that! To get started, could you please provide the exact dates you'd like to travel, or at least a range of dates in August? Also, what are your preferred dates for returning?",
+      "response_time": 3.27,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.72,
+        "benevolence": 4.5,
+        "integrity": 3.98
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, I'm so busy. Okay, let's say I want to leave Chicago on August 10th and return from London on August 20th. Economy class, please. And I'm checking one bag.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright. I've found several flights matching your criteria. There's a British Airways flight leaving on August 10th at 7:00 PM, arriving in London at 8:00 AM on August 11th. The return flight on August 20th is also with British Airways, departing at 10:00 AM and arriving in Chicago at 1:00 PM. The total price is $850 including checked baggage. Do you like this option?",
+      "response_time": 3.66,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 4.22,
+        "integrity": 4.15
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that's a bit more expensive than I was hoping. Plus, I'm a bit concerned about layovers. Can you show me all non-stop flight options on these dates? Also, how do these prices compare to other travel companies?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I am currently unable to compare prices with other travel agencies. However, for non-stop flights, there's a United flight. The departure time is August 10th at 6:30 PM and the arrival time is August 11th at 7:30 AM. The return flight is August 20th with a departure time of 9:00 AM and the arrival time of 11:00 AM. The United flight costs $900. Do you want to book this?",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.28,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_de7541ad",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 2.87,
+      "benevolence": 3.24,
+      "integrity": 3.04
+    },
+    "engagement_score": 4.0,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 1
+    },
+    "response_quality_score": 2.73,
+    "latency_score": 5.02
+  }
+}

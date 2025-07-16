@@ -1,0 +1,97 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm having trouble with my latest bill. It seems higher than usual.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help you with that. Could you please provide your account number so I can look into your billing details?",
+      "response_time": 5.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.84,
+        "benevolence": 5.6,
+        "integrity": 5.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's 1234567890. And honestly, I'm a bit frustrated. I haven't changed my usage, and the bill jumped up by like, $30!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. I am currently reviewing your account activity. Please allow me a few moments to investigate the reason for the increased charges. The system is a little slow at the moment, so please bear with me.",
+      "response_time": 4.98,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.1,
+        "integrity": 5.54
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I'll wait. But, if it's something on your end, like a system error or something, will I be able to get a credit?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I've reviewed your billing statements, and I see a change in your data usage. It appears there was an increase. I see you have the premium plan that has some associated cost savings for you. In your previous billing period, you did not reach the premium level of data usage. We can credit you a portion of this bill, however. Let me just process this.",
+      "response_time": 3.38,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.45,
+        "integrity": 5.71
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, that sounds fair. Thank you for looking into it! I appreciate the help.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_8653275c",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.76,
+      "benevolence": 5.38,
+      "integrity": 5.54
+    },
+    "engagement_score": 4.16,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 4,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 5.4,
+    "latency_score": 3.05
+  }
+}

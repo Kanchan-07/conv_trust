@@ -1,0 +1,111 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm calling about a car accident I was in last week. I already filed a claim, but I'm trying to figure out what's happening with it. The claim number is 12345ABC.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for calling. One moment while I pull up claim 12345ABC. Okay, I see it here. It's related to a collision on October 26th. Can you verify your name and address for security purposes?",
+      "response_time": 0.58,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.29,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, it's Jane Doe, 123 Main Street, Anytown, USA. So, what's the hold up? I need my car fixed! This is incredibly frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration, Ms. Doe. Currently, we are waiting on the police report from the accident. Once we receive that, our claims adjuster will be able to finalize the assessment of damages and determine coverage.",
+      "response_time": 5.96,
+      "emotion_detected": "anger",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.41,
+        "benevolence": 5.87,
+        "integrity": 5.68
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "The police report? Seriously? I thought I gave you guys everything! How long is that going to take? I'm pretty sure the other driver was at fault - can't you just look into that yourselves?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "We do rely on the official police report for an unbiased account of the incident, Ms. Doe. The turnaround time for police reports can vary depending on the police department's workload. I can reach out to the department to inquire about the status, but unfortunately, I cannot give you a definitive timeframe. To answer your second question, while we do investigate the accident ourselves, the police report is a crucial piece of evidence. However, I can flag your claim for expedited review once the report is received.",
+      "response_time": 3.26,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.6,
+        "benevolence": 3.58,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I guess. But what if the police report takes forever? What's the absolute latest I can expect to hear something? And if the other driver was uninsured, would that affect my coverage?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "That's a fair question, Ms. Doe. If we haven't received the police report in two weeks, we'll proceed with our investigation using the information we have, and any witness statements you can provide would be helpful. Regarding uninsured drivers, that would depend on whether you have uninsured motorist coverage as part of your policy. I can check your policy details for you if you like. It usually covers damages caused by an uninsured driver, up to your policy limits.",
+      "response_time": 2.34,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.84,
+        "benevolence": 3.51,
+        "integrity": 4.13
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5be4a4e7",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.54,
+      "benevolence": 3.49,
+      "integrity": 3.77
+    },
+    "engagement_score": 5.54,
+    "emotion_distribution": {
+      "fear": 1,
+      "neutral": 4,
+      "sadness": 1,
+      "anger": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.31,
+    "latency_score": 4.46
+  }
+}

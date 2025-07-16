@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about a billing issue. I think I was overcharged this month.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your account number so I can look into this for you?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.64,
+        "integrity": 6.92
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 1234567890. I looked at the bill and I don't understand why I was charged for extra data usage. I barely used any this month!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me access your account information... Okay, I see the charges. It looks like there were some instances of data overage. Can you confirm what device used the data?",
+      "response_time": 3.83,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.38,
+        "benevolence": 3.58,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I only use my phone for data. The usage shown seems way too high for what I normally do, which is mostly texting and a little bit of browsing. This is so frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check the logs to see what happened. One moment... Okay, I see some of it. Is it possible a background app may have been using data without your knowledge?",
+      "response_time": 1.73,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.94,
+        "benevolence": 2.59,
+        "integrity": 2.51
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Well, maybe. But isn't there a way to tell *which* app was the culprit? Shouldn't your systems be able to pinpoint that for me?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Unfortunately, due to privacy restrictions, our system doesn't show individual app usage. I can see the total amount of data used, but not the specific apps that consumed it. I can, however, offer you a one-time credit to compensate for the unexpected charges.",
+      "response_time": 1.43,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.68,
+        "benevolence": 2.56,
+        "integrity": 2.66
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, a credit would be great. How much are we talking about, and how soon will it appear on my bill?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "I've applied a credit of $25 to your account. This should reflect on your next billing statement, and it will be effective within 3-5 business days. Is there anything else I can assist you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.68,
+        "benevolence": 6.53,
+        "integrity": 6.78
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_88accc3a",
+    "average_trust_score": 4.6,
+    "trust_category_averages": {
+      "competence": 4.74,
+      "benevolence": 4.38,
+      "integrity": 4.63
+    },
+    "engagement_score": 4.93,
+    "emotion_distribution": {
+      "sadness": 3,
+      "neutral": 5,
+      "surprise": 1,
+      "anger": 1
+    },
+    "response_quality_score": 4.51,
+    "latency_score": 3.7
+  }
+}

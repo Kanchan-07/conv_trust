@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm trying to book a table for four at a nice Italian restaurant in the downtown area for Saturday night. I've been trying for hours and everything is booked! It's so frustrating.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let me check availability for Italian restaurants in downtown for Saturday night. Could you please specify a preferred time, or a range of times, and what is the price range that you prefer?",
+      "response_time": 2.23,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.88,
+        "benevolence": 2.46,
+        "integrity": 2.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Around 7:30 or 8 PM would be ideal, and price...I don't know, maybe $30-50 per person? Is it even possible to find something on a Saturday night? What if we expanded the search to include restaurants within, say, a 5-mile radius of downtown?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for Italian restaurants within 5 miles of downtown, with a price range of $30-50 per person, for Saturday between 7:30 PM and 8:00 PM... I found one option: 'Bella Notte' has availability at 7:45 PM. It is located approximately 3 miles from downtown and has a 4.5-star rating. Would you like me to book a table for four there?",
+      "response_time": 3.74,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.76,
+        "benevolence": 4.39,
+        "integrity": 4.24
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_f8dbb192",
+    "average_trust_score": 3.25,
+    "trust_category_averages": {
+      "competence": 3.32,
+      "benevolence": 3.42,
+      "integrity": 3.19
+    },
+    "engagement_score": 4.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "anger": 1,
+      "neutral": 2
+    },
+    "response_quality_score": 3.7,
+    "latency_score": 4.51
+  }
+}

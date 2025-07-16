@@ -1,0 +1,95 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need to schedule an appointment with a dermatologist. I'm a new patient.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can help with that. To get started, can you please provide your full name, date of birth, and insurance information?",
+      "response_time": 5.74,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.59,
+        "benevolence": 6.9,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, do I *have* to give you all that right now? Can't we just find a time first? I'm really busy.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern about saving time, but I need to confirm your insurance coverage and verify your identity before scheduling. This process helps us ensure a smooth visit and minimizes potential issues later. Once I have the details, I can immediately check for available appointment slots.",
+      "response_time": 4.64,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.25,
+        "benevolence": 5.72,
+        "integrity": 5.23
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, fine. My name is John Smith, born on 03/15/1980, and my insurance is UnitedHealthCare. Now, can we see what's available? Specifically, I need an appointment before the end of the week because I have travel plans. Are there any evening slots open?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check... Unfortunately, all evening slots are fully booked for the next two weeks. However, there are some openings on Thursday and Friday mornings. Would either of those work? I can also try to find you an evening slot with a different dermatologist if you'd like, although I'm not sure if there's an opening before your travel.",
+      "response_time": 3.51,
+      "emotion_detected": "sadness",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.75,
+        "integrity": 3.54
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Hmm. Okay, let's go with Friday morning then, if that's the only option. How do I confirm this? Will I receive a reminder and what about any paperwork?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dd1ce4b4",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.17,
+      "benevolence": 5.46,
+      "integrity": 5.26
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 2
+    },
+    "response_quality_score": 5.57,
+    "latency_score": 2.87
+  }
+}

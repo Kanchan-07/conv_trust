@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of running shoes. I've been browsing for a while, but there are just so many options! Can you give me some recommendations?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me a bit about your running style? For example, do you primarily run on roads or trails? What's your usual mileage per week? Also, do you have any preferred brands or features like pronation support in mind?",
+      "response_time": 3.63,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.89,
+        "integrity": 5.55
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, I mostly run on roads, about 20-25 miles a week. I don't know too much about pronation, to be honest. And the brand is not super important, although I had a bad experience with 'Brand X' last year. What shoe would you recommend if I'm training for a marathon, but also need a good shoe for short runs?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Given your road running focus, weekly mileage, and marathon training, I'd recommend considering a shoe that offers a good balance of cushioning and responsiveness. Something like the 'Brooks Glycerin' or the 'New Balance Fresh Foam X 1080v13' could be suitable options. However, providing a single, perfect shoe recommendation is complex and depends on various factors beyond the information provided. If you'd like a more personalized recommendation, I'd suggest a running shoe store visit for a gait analysis. They can identify your pronation and provide tailored advice. I hope this helps!",
+      "response_time": 5.32,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.56,
+        "benevolence": 5.89,
+        "integrity": 5.88
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_6ba9f15e",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.62,
+      "benevolence": 5.89,
+      "integrity": 5.71
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 5.51,
+    "latency_score": 3.03
+  }
+}

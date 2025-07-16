@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to revamp my wardrobe, but I'm on a really tight budget. Like, REALLY tight. Say, under $200 total. Can you give me some outfit ideas? I'm so tired of wearing the same jeans and t-shirt every day!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand! Revamping your wardrobe on a budget can be tricky, but it's definitely possible. For under $200, focusing on versatile pieces is key. How about this: a basic pair of dark wash jeans from a place like Old Navy or Target (around $30-$40), 2-3 neutral colored t-shirts or basic tops (around $10-$15 each, so maybe $45 total), a cardigan or light jacket (around $30-$40), and a simple pair of sneakers or flats (around $40-$50). This gives you a good foundation to mix and match. What do you think?",
+      "response_time": 4.31,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 6.0,
+        "benevolence": 5.45,
+        "integrity": 5.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, that's...okay. But it still sounds kinda boring. Is there any way to add some personality without breaking the bank? And honestly, how ethical ARE those super cheap brands? Isn't there a hidden cost there?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "You're right, adding personality is important! Accessories are your friend here. A colorful scarf (around $10-$15), some statement jewelry from a thrift store (under $10), or even just a fun belt can make a big difference. As for your question about ethics, that's a very valid concern. Unfortunately, it's difficult to guarantee ethical sourcing with extremely low prices. One option is to shop secondhand as much as possible. Thrifting or using apps like Poshmark and Depop lets you find unique items and reduces the demand for new production. You might also look for brands that prioritize ethical practices and have clear supply chain information, although these may be slightly more expensive.",
+      "response_time": 4.82,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.32,
+        "benevolence": 5.52,
+        "integrity": 5.11
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b1d05121",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.66,
+      "benevolence": 5.48,
+      "integrity": 5.11
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.45,
+    "latency_score": 2.94
+  }
+}

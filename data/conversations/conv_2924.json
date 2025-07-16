@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need some help planning my grocery shopping for the week. I'm trying to stick to a pretty tight budget.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly assist with that. What is your budget for groceries this week, and are you shopping for just yourself or more people? Also, do you have any specific dietary needs or preferences?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.87,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, the budget is $60 for two people for the whole week. We try to eat relatively healthy, nothing too complicated to cook.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Understood. $60 for two people for a week is tight but achievable. Here are some budget-friendly suggestions: rice, pasta, dried beans or lentils, eggs, frozen vegetables, potatoes, onions, carrots, bananas, oats, and maybe chicken thighs or ground meat if you find it on sale. Focusing on staples and versatile ingredients helps.",
+      "response_time": 2.48,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.34,
+        "benevolence": 4.21,
+        "integrity": 4.09
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, that list seems... okay, but I'm not sure how to make varied meals out of just that for a whole week for two people. It feels really limited, and honestly, I'm a bit frustrated because food prices just seem impossibly high right now for a budget like that. How can I make that stretch and not get bored?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I completely understand your frustration; rising food costs are a real challenge. To make the list stretch and add variety, focus on bulk items like rice, pasta, and dried beans \u2013 they offer many servings for a low cost. You can create different meals by varying spices and preparations. For example, dried beans can become chili, soup, or bean burgers. Rice can be a base for stir-fries (with frozen veggies and a small amount of meat/beans) or rice and beans. Eggs are versatile for breakfast or dinner. Consider making larger batches of staple meals like lentil soup or bean stew that can be eaten over a couple of days. Buying generic brands often saves money too. Would you like me to give you an example meal plan using these items?",
+      "response_time": 1.49,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.55,
+        "benevolence": 2.45,
+        "integrity": 2.05
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, focusing on bulk and versatile ingredients makes more sense. And yes, a sample meal plan would actually be really helpful to see how to put it all together. Thanks for explaining it like that.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0ed6b32e",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.51,
+      "integrity": 4.38
+    },
+    "engagement_score": 4.21,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 5,
+      "anger": 1
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 4.18
+  }
+}

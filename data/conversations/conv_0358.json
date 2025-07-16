@@ -1,0 +1,66 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, so I'm feeling pretty lost. I graduated with a degree in history, but I honestly have no idea what I want to *do* with it. Everyone keeps asking, and frankly, it's stressing me out. Any suggestions?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. It's common to feel uncertain after graduation. A history degree offers transferable skills like research, analysis, and communication. Let's explore some options. Have you considered roles in archives, museums, libraries, or historical societies? Perhaps something in research or journalism?",
+      "response_time": 3.7,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 4.45,
+        "integrity": 4.13
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yeah, those all sound... fine, I guess. But the job market seems so competitive, and honestly, those don't sound super lucrative. Is there anything *else* I could do? Something that actually pays the bills, maybe even thrives in the current tech-driven world? How can my history degree possibly be relevant for something like that?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "That's a fair point. Skills developed in a history degree can be surprisingly valuable in tech. Consider roles that require critical thinking, problem-solving, and communication - areas where your historical research skills can shine. Examples might include content strategy, UX writing (crafting clear and user-friendly text for interfaces), market research analysis, or even policy analysis within tech companies. Your analytical skills would allow you to understand complex information and present it clearly.",
+      "response_time": 3.2,
+      "emotion_detected": "surprise",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 4.46,
+        "integrity": 4.13
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_7e7da410",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.71,
+      "benevolence": 4.46,
+      "integrity": 4.13
+    },
+    "engagement_score": 5.33,
+    "emotion_distribution": {
+      "sadness": 1,
+      "fear": 1,
+      "neutral": 1,
+      "surprise": 1
+    },
+    "response_quality_score": 3.72,
+    "latency_score": 4.05
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My SmartHome Hub isn't working. The lights are all flashing red, and nothing is responding to voice commands. This is really frustrating!",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm sorry you're experiencing issues with your SmartHome Hub. Let's try to troubleshoot this. Could you please tell me the model number of your hub?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.36,
+        "integrity": 1.49
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Uh, sure. It's SHH-2049.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Okay, the flashing red lights usually indicate a connection problem. Have you tried power cycling the hub? Unplug it from the wall, wait 30 seconds, and then plug it back in.",
+      "response_time": 2.69,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 4.43,
+        "integrity": 4.38
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes, I already tried that! Like, three times. Did you even read my initial description?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies. I missed that. Let's try something else. Could you check if your Wi-Fi is working correctly and if the hub is connected to the network? Perhaps test another device on the same Wi-Fi.",
+      "response_time": 0.52,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.32,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the Wi-Fi is fine. My phone and laptop are both connected and working. So, what now? Is there a way to, like, manually reset the thing? I remember reading something about a pinhole reset button somewhere.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Yes, that's correct. There is a reset button. It's located on the back of the device, near the power cord. Use a paperclip or similar tool to press and hold the button for 15 seconds. This will reset the hub to its factory settings. Please be aware that you'll need to reconfigure your devices after this.",
+      "response_time": 4.15,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.23,
+        "benevolence": 3.93,
+        "integrity": 3.79
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, I did that. It seems to be working now. The lights are blue and I can control the lights again. Thanks!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Great! I'm glad we could resolve the issue. Is there anything else I can assist you with today?",
+      "response_time": 4.49,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_0a6154c4",
+    "average_trust_score": 3.4,
+    "trust_category_averages": {
+      "competence": 3.5,
+      "benevolence": 3.61,
+      "integrity": 3.53
+    },
+    "engagement_score": 4.86,
+    "emotion_distribution": {
+      "sadness": 2,
+      "neutral": 5,
+      "surprise": 1,
+      "joy": 2
+    },
+    "response_quality_score": 3.57,
+    "latency_score": 5.03
+  }
+}

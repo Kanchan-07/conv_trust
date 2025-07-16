@@ -1,0 +1,110 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm so stressed. I think my former employer is trying to screw me over with my severance package. I need some legal advice, like, yesterday.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm here to help. To best assess your situation, could you please provide some details about your employment, the severance package offered, and your concerns? For example, what state were you employed in, what was your role, and what specifically concerns you about the offer?",
+      "response_time": 3.74,
+      "emotion_detected": "anger",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.29,
+        "benevolence": 3.61,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, so I was a marketing manager at TechCorp in California for 5 years. The severance package includes 2 weeks of pay per year of service and continuation of health insurance for 3 months, but they're also asking me to sign a really broad non-disparagement agreement. It basically says I can't say anything negative about the company *ever*, which feels unreasonable, especially since I was laid off!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you for providing those details. In California, non-disparagement agreements are generally enforceable, but their scope must be reasonable. A blanket prohibition against *any* negative statements, especially after a layoff, could be considered overly broad. It might be worth negotiating that specific clause. Also, are you sure the two weeks of pay per year of service is within the norm? What are you seeing online about similar roles?",
+      "response_time": 3.06,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.82,
+        "benevolence": 3.63,
+        "integrity": 4.27
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's what I thought! I've seen some things online saying it should be closer to a month per year, but it's hard to know what's reliable. And frankly, I'm worried they'll just withdraw the offer completely if I push back. Is there any legal precedent about what constitutes 'reasonable' in this context?",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Determining 'reasonable' is fact-specific and depends on case law in California. While I can't provide specific legal advice without a formal attorney-client relationship, I can point you towards resources that discuss relevant cases. A good place to start would be searching California case law related to employment contracts and non-disparagement clauses. You can use keywords such as 'California non-disparagement agreement enforceability' in a legal database. Would you like some links to such databases?",
+      "response_time": 3.93,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.17,
+        "benevolence": 3.76,
+        "integrity": 4.43
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, legal databases. Okay, I guess. But honestly, this is all so confusing. What are the *actual* chances they'd sue me if I said something mildly critical on, like, LinkedIn? Are they really going to monitor everything I say?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "While I cannot predict the likelihood of a lawsuit, generally, companies are more likely to pursue legal action if the disparaging remarks cause demonstrable harm to their business. The breadth of the agreement, the public nature of your statements, and the potential damages to the company would all be factors considered. It's always best to err on the side of caution. I recommend consulting with a qualified attorney to review your specific situation and provide tailored legal advice before signing any agreement.",
+      "response_time": 3.29,
+      "emotion_detected": "fear",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.71,
+        "benevolence": 3.56,
+        "integrity": 3.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b5ae586b",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 4.0,
+      "benevolence": 3.64,
+      "integrity": 4.16
+    },
+    "engagement_score": 4.92,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 2,
+      "fear": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 3.91,
+    "latency_score": 4.0
+  }
+}

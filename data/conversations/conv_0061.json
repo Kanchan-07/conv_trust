@@ -1,0 +1,96 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "My smart thermostat is acting up again! It's constantly setting the temperature to 85 degrees, even when I set it to 70. This is the third time this month!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Let's try to get this resolved. Could you please provide me with the model number of your thermostat and confirm that it's connected to your Wi-Fi network?",
+      "response_time": 1.75,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.98,
+        "benevolence": 2.51,
+        "integrity": 2.58
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a SmartTemp 3000, and yes, it's connected to Wi-Fi. I checked the app, and it says it's online. But it's clearly not listening to my commands. Is there a known issue with this model?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "There have been a few reported instances of similar behavior with the SmartTemp 3000. Let's try a simple reset first. Please locate the small reset button on the side of the thermostat (you may need a paperclip) and hold it down for 10 seconds. Then, allow the device to reboot.",
+      "response_time": 1.6,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.12,
+        "benevolence": 2.91,
+        "integrity": 2.29
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, I did the reset like you said. It rebooted, and I've set it to 70 again. I'll monitor it. But honestly, if this doesn't fix it permanently, I'm going to demand a refund. Why is this happening in the first place? Is it a hardware flaw or a software bug?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "The issue can stem from a number of sources, including software glitches or Wi-Fi signal interference. Monitoring after the reset is the best course of action. If the issue persists, we can explore options like a firmware update or, if necessary, consider a replacement under warranty. We value your business, and are committed to ensuring your satisfaction.",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.58,
+        "benevolence": 7.0,
+        "integrity": 6.58
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Alright, thanks. I hope that fixes it. I'll keep an eye on it and contact you again if the problem comes back.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_74cf0625",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.89,
+      "benevolence": 4.14,
+      "integrity": 3.82
+    },
+    "engagement_score": 4.58,
+    "emotion_distribution": {
+      "surprise": 1,
+      "anger": 2,
+      "neutral": 4
+    },
+    "response_quality_score": 4.01,
+    "latency_score": 4.38
+  }
+}

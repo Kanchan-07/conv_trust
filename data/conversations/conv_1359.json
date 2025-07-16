@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help with an order. I haven't received it yet.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your order number?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.81,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's #12345. I ordered it a week ago. The tracking information hasn't updated in days and I'm starting to get worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check that for you. Okay, order #12345. It appears the package is currently in transit and is expected to arrive within the next two business days. The tracking information may have a slight delay. I apologize for any inconvenience.",
+      "response_time": 2.72,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.75,
+        "integrity": 4.42
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Two days? That's what it said three days ago! I'm getting really frustrated. What's actually going on with it?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Based on the information available, the carrier is experiencing some delays due to high volume. I can contact them and request an update. Would you like me to do that for you?",
+      "response_time": 1.32,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.36,
+        "benevolence": 2.41,
+        "integrity": 2.76
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Yes, please. Also, can you tell me what the company's policy is regarding lost packages? Hypothetically, if it *doesn't* arrive?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Certainly. Our policy for lost packages is that we will reship the item free of charge, or offer a full refund.  I've contacted the carrier for an update on your package. I'll keep you informed as soon as I hear back.  Could you please provide the email address associated with your order? Just so I can notify you when I have information.",
+      "response_time": 0.57,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, it's example@email.com. Thanks for looking into it. Hopefully, I'll actually get this thing.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're welcome. I will keep you updated via email. Thank you for your patience, and I hope you receive your package soon! Is there anything else I can assist you with today?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.89,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_dbc24a1e",
+    "average_trust_score": 4.3,
+    "trust_category_averages": {
+      "competence": 4.2,
+      "benevolence": 4.19,
+      "integrity": 4.44
+    },
+    "engagement_score": 4.71,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 6,
+      "fear": 1,
+      "anger": 2
+    },
+    "response_quality_score": 4.26,
+    "latency_score": 4.18
+  }
+}

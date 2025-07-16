@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a new pair of running shoes. I usually run about 5 miles, 3 times a week. Any recommendations?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! Based on your activity level, I'd recommend looking at shoes with good cushioning and support. Some popular models include the Brooks Glycerin, the Hoka Clifton, and the New Balance Fresh Foam 1080. I can provide links if you'd like. Which brands or features do you usually prefer in your shoes?",
+      "response_time": 4.93,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.35,
+        "benevolence": 5.4,
+        "integrity": 5.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Thanks, that's helpful. But I'm actually a bit overwhelmed. There are so many models for each brand! I'm also a bit flat-footed, so I need something with arch support, but I have no idea which ones have that. Is there a way to filter that on the site?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Filtering for arch support on our site can be tricky. Let me try to find shoes based on the characteristics you've mentioned. Could you tell me your shoe size? I will also try to filter and find the shoes in stock in your size with arch support. Sorry, this function is currently a bit difficult, I am still under development.",
+      "response_time": 2.23,
+      "emotion_detected": "sadness",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.14,
+        "benevolence": 2.2,
+        "integrity": 2.85
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_96c07795",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.75,
+      "benevolence": 3.8,
+      "integrity": 4.0
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "neutral": 2,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 3.65,
+    "latency_score": 3.92
+  }
+}

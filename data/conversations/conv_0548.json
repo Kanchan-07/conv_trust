@@ -1,0 +1,121 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Ugh, this stupid smart thermostat isn't working again! It's constantly setting the temperature to 85 degrees. What's going on?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. I'm sorry you're experiencing issues with your smart thermostat. Let's try to troubleshoot this. Could you please provide me with the model number of your thermostat?",
+      "response_time": 0.63,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.02,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "It's a ThermoSmart 3000. I've had it for like, a year. Is this a common problem? I'm starting to regret buying it.",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. We'll look into that. Have you tried restarting the device?",
+      "response_time": 5.47,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 6.9,
+        "integrity": 6.92
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Yes! Like five times! I even unplugged it and waited a full minute before plugging it back in. Still crazy hot. What else can I do? And more importantly, *why* is this happening?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay. Let's try resetting it to factory settings. To do this, press and hold the small reset button on the side of the thermostat for 10 seconds. This will erase all your settings, so you'll need to reconfigure it afterward.",
+      "response_time": 2.45,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.57,
+        "benevolence": 3.57,
+        "integrity": 4.44
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, I did the factory reset. It seems to be working now...temperature is dropping. Fingers crossed! But seriously, what causes this? Is it a software glitch, a hardware fault, or what? I want to avoid this happening again.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The ThermoSmart 3000 can sometimes experience temperature miscalibration due to fluctuations in voltage from the power grid. Resetting the device typically resolves this. We are constantly working to improve our products and appreciate your feedback. We are currently developing a software patch which we expect to resolve the issue, in case it is a software glitch. We will notify you once the update becomes available.",
+      "response_time": 4.44,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.72,
+        "benevolence": 5.42,
+        "integrity": 5.89
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, thanks for the explanation and the update info. Hopefully, the reset fixed it for good. I appreciate the help!",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_4da7abfd",
+    "average_trust_score": 4.38,
+    "trust_category_averages": {
+      "competence": 4.32,
+      "benevolence": 4.23,
+      "integrity": 4.56
+    },
+    "engagement_score": 5.95,
+    "emotion_distribution": {
+      "disgust": 1,
+      "sadness": 2,
+      "neutral": 3,
+      "surprise": 1,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 4.85,
+    "latency_score": 4.25
+  }
+}

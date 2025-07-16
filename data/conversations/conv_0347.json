@@ -1,0 +1,94 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a gift for my niece. She's really into art, specifically painting. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, for someone interested in painting, I can recommend items from our 'Art Supplies' category. Are you looking for something for a beginner, or is she more advanced?",
+      "response_time": 3.52,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.79,
+        "benevolence": 4.01,
+        "integrity": 4.12
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "She's still pretty new to it, definitely a beginner. Something to help her get started would be great.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Based on beginner-level preferences in the 'Art Supplies' category, I suggest our 'Beginner Acrylic Painting Set'. It includes a variety of brushes, paints, and a small canvas to get started. Would you like me to provide more details or similar options?",
+      "response_time": 6.0,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.51,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, acrylics might be a bit messy for her. She's only 8. Are there any watercolor sets that are popular with kids her age?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Certainly! Considering the 'Art Supplies' category and the age of your niece, the 'Kids Watercolor Paint Set with Brushes and Palette' is a popular choice. It is non-toxic and designed for easy cleanup. Alternatively, how about a set of colored pencils? They are less messy than paint.",
+      "response_time": 5.29,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.83,
+        "benevolence": 5.2,
+        "integrity": 5.65
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, the watercolor set sounds good. But a challenging question: How does your recommendation system actually determine what's 'popular' or 'best' for each age group? Is it just sales numbers, or are there other factors involved?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_01e84e62",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.38,
+      "benevolence": 5.4,
+      "integrity": 5.59
+    },
+    "engagement_score": 4.46,
+    "emotion_distribution": {
+      "neutral": 7
+    },
+    "response_quality_score": 5.1,
+    "latency_score": 2.56
+  }
+}

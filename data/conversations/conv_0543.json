@@ -1,0 +1,118 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I need to schedule an appointment with Dr. Anya Sharma. It's really important.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I can help with that. Do you have a preferred date or time in mind for your appointment with Dr. Sharma?",
+      "response_time": 3.02,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.69,
+        "benevolence": 3.72,
+        "integrity": 4.08
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "I'm pretty flexible. Just sometime next week would be great. Maybe Tuesday or Wednesday?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Let me check Dr. Sharma's availability. On Tuesday, she has openings at 10:00 AM and 2:30 PM. On Wednesday, she is available at 9:00 AM and 1:00 PM.",
+      "response_time": 0.5,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Ugh, those times don't really work. Is there *anything* else, even if it's a little later in the week?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Okay, one moment... On Thursday, she has a slot open at 3:45 PM. Would that time work for you?",
+      "response_time": 2.88,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.33,
+        "benevolence": 3.65,
+        "integrity": 4.4
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "That's perfect! 3:45 PM on Thursday it is. Now, this might be a silly question, but will this be a telehealth appointment or in person?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Good question. Currently, Dr. Sharma is only seeing patients in person. Does that work for you?",
+      "response_time": 4.04,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.98,
+        "benevolence": 5.23,
+        "integrity": 5.56
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Yes, that's fine. Great, thank you so much for your help! I appreciate it.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d94499f2",
+    "average_trust_score": 3.62,
+    "trust_category_averages": {
+      "competence": 3.75,
+      "benevolence": 3.4,
+      "integrity": 3.76
+    },
+    "engagement_score": 4.59,
+    "emotion_distribution": {
+      "neutral": 7,
+      "disgust": 1,
+      "joy": 1
+    },
+    "response_quality_score": 3.49,
+    "latency_score": 4.89
+  }
+}

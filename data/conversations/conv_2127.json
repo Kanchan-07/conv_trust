@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. It was supposed to be delivered yesterday.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. Could you please provide your tracking number?",
+      "response_time": 5.62,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.71,
+        "integrity": 5.14
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Sure, it's 9876543210. I'm getting pretty frustrated, I really needed this by today.",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you. Let me check on that for you... Okay, it looks like your package is currently in transit and experiencing a slight delay. It's now estimated to arrive tomorrow. Unfortunately, there aren't any specific details on the nature of the delay, but our team is working to get it delivered as soon as possible.",
+      "response_time": 5.27,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.63,
+        "benevolence": 5.23,
+        "integrity": 5.13
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's annoying. But, I guess delays happen. What *caused* the delay? It just says 'delay' which isn't very helpful. And will I get any kind of compensation for this?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. The exact cause isn't specified in our system at this time, unfortunately. Regarding compensation, I would need to check our policies. Please allow me a moment. ... Okay, I have checked the policies, and due to the nature of the delay, no compensation will be issued. However, I can offer free expedited shipping on your next order. Would you like me to add that to your account?",
+      "response_time": 2.0,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.34,
+        "benevolence": 2.23,
+        "integrity": 2.71
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5e1d9c03",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.63,
+      "benevolence": 4.39,
+      "integrity": 4.33
+    },
+    "engagement_score": 3.92,
+    "emotion_distribution": {
+      "neutral": 4,
+      "anger": 2
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 3.2
+  }
+}

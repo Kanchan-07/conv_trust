@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm trying to book a flight from New York to Los Angeles for sometime in the middle of next month, but I'm really flexible. I'm also on a tight budget, so the cheaper the better! Ugh, this is always such a pain.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand. To clarify, are you looking for a round-trip flight from New York (any airport) to Los Angeles (any airport) for travel dates in mid-May, with a preference for the lowest possible price? If you can give me a specific date range in May, that would also help narrow down the search.",
+      "response_time": 2.35,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.74,
+        "benevolence": 3.65,
+        "integrity": 3.94
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, that's right. Let's say... anytime between May 12th and May 20th for departure, and returning between May 19th and May 27th. And yes, cheapest is key! Also, what's your policy on including budget airlines? I've heard mixed reviews...",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, searching for round-trip flights matching those dates. Regarding budget airlines, I will include them in the initial search but clearly label them as such, along with any baggage fees that apply. This allows you to compare all available options. Please note that while budget airlines often offer lower base fares, they may have less flexibility with changes/cancellations and charge extra for amenities. I will show you options sorted by price, lowest first. One moment...",
+      "response_time": 2.67,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 3.97,
+        "integrity": 4.32
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_61b7cb84",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.64,
+      "benevolence": 3.81,
+      "integrity": 4.13
+    },
+    "engagement_score": 4.08,
+    "emotion_distribution": {
+      "disgust": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.49,
+    "latency_score": 4.99
+  }
+}

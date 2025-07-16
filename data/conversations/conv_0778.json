@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for a movie to watch tonight. I'm in the mood for something... sci-fi, I think. But not too cheesy, you know?",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Avoiding the cheese! Based on your preference for sci-fi, I can recommend 'Arrival' or 'Blade Runner 2049'. Both are critically acclaimed and generally considered to be sophisticated sci-fi films. Would either of those sound appealing?",
+      "response_time": 3.81,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.51,
+        "benevolence": 4.42,
+        "integrity": 4.22
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen both of those already! Anything a little more obscure? Maybe something with a similar vibe, but not as widely known? This is harder than I thought...",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, let's dig deeper. How about 'Coherence' (2013)? It's an indie sci-fi thriller with a focus on quantum mechanics and alternate realities. It has a lower budget feel but is highly rated for its intriguing plot and complex characters. Another option is 'Primer' (2004), a very low-budget, but intellectually stimulating, time travel movie. Be warned though, 'Primer' can be quite confusing on the first viewing. Any interest in those?",
+      "response_time": 2.84,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 3.75,
+        "integrity": 3.72
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_965fcbec",
+    "average_trust_score": 4.0,
+    "trust_category_averages": {
+      "competence": 3.52,
+      "benevolence": 4.08,
+      "integrity": 3.97
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "joy": 1,
+      "neutral": 2,
+      "surprise": 1
+    },
+    "response_quality_score": 3.59,
+    "latency_score": 4.17
+  }
+}

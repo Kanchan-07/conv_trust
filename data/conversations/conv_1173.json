@@ -1,0 +1,131 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I'm really struggling with this physics problem. It's about calculating the trajectory of a projectile, and I just don't know where to start. I'm so frustrated!",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "I understand your frustration. Projectile motion can be tricky! Let's break it down. First, can you tell me what information the problem gives you? Things like initial velocity, launch angle, and any relevant distances.",
+      "response_time": 1.34,
+      "emotion_detected": "anger",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.37,
+        "benevolence": 2.63,
+        "integrity": 2.83
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Um, okay, it says the initial velocity is 25 m/s, the launch angle is 30 degrees, and we need to find the maximum height reached by the projectile.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! So, to find the maximum height, we need to focus on the vertical component of the initial velocity. Do you remember the formula for calculating the vertical component given the initial velocity and launch angle?",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.73,
+        "benevolence": 6.95,
+        "integrity": 6.62
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "I think it's something with sine... v_y = v_0 * sin(theta)? Is that right?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Yes, that's absolutely correct! v_y = v_0 * sin(theta). Now, what is the vertical velocity at the maximum height?",
+      "response_time": 2.33,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.49,
+        "benevolence": 4.44,
+        "integrity": 4.31
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, at the maximum height, the vertical velocity is zero! Because it stops going up and starts coming down. So, v_y = 0. Now what?",
+      "response_time": null,
+      "emotion_detected": "anger",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "Correct! Now use the following kinematic equation: v_f^2 = v_i^2 + 2*a*d. Remember that 'a' is the acceleration due to gravity (-9.8 m/s^2), and 'd' will be the displacement (maximum height). Plug in the values and solve for d.",
+      "response_time": 4.46,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.85,
+        "benevolence": 5.3,
+        "integrity": 5.79
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, I think I got it! So, 0 = (25*sin(30))^2 + 2*(-9.8)*d. Solving for d, I get d = 1.59 meters. Does that sound right? But wait... what about air resistance? This problem doesn't mention it, but realistically, wouldn't that change the trajectory significantly?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Yes, 1.59 meters is the correct maximum height for an idealized scenario without air resistance. You're right to consider air resistance! Including air resistance makes the calculations much more complex, often requiring numerical methods and knowledge of the projectile's shape and air density. At this introductory level, we generally ignore air resistance to simplify the problem and focus on the core physics principles. Excellent thinking, though!",
+      "response_time": 3.86,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.44,
+        "benevolence": 5.72,
+        "integrity": 5.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_983e61a2",
+    "average_trust_score": 4.9,
+    "trust_category_averages": {
+      "competence": 4.98,
+      "benevolence": 5.01,
+      "integrity": 5.06
+    },
+    "engagement_score": 4.98,
+    "emotion_distribution": {
+      "anger": 3,
+      "neutral": 6,
+      "joy": 1
+    },
+    "response_quality_score": 4.89,
+    "latency_score": 3.9
+  }
+}

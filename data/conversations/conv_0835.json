@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm calling about an order that was supposed to arrive three days ago. The tracking number is 1Z234ABC567890DEF1.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Thank you for contacting us. Please allow me a moment to look into that tracking number for you. Okay, I see order 1Z234ABC567890DEF1. It looks like it's currently delayed. Can you confirm your name and address for verification?",
+      "response_time": 4.17,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.55,
+        "benevolence": 4.17,
+        "integrity": 4.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Yes, it's Jane Doe, 123 Main Street, Anytown, USA. Delayed? That's not very helpful. I needed that package for a presentation!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Thank you, Ms. Doe. I understand your frustration. The system indicates the delay is due to unforeseen weather conditions in a regional hub. The updated estimated delivery date is now October 27th. I apologize for any inconvenience this may cause.",
+      "response_time": 0.5,
+      "emotion_detected": "anger",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.0,
+        "benevolence": 1.0,
+        "integrity": 1.25
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "October 27th?! That's another week! Is there anything you can do to expedite the delivery once it arrives at the hub? Maybe reroute it or something?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "Let me check on options for you. It may be possible to request a priority reroute once it is scanned at the hub, but I cannot guarantee it. We could file a request now, and I will notify you if it goes through. Also, can I offer you a 10% discount on your next order for the inconvenience?",
+      "response_time": 1.35,
+      "emotion_detected": "neutral",
+      "trust_score": 2.5,
+      "trust_category_scores": {
+        "competence": 2.31,
+        "benevolence": 2.51,
+        "integrity": 2.73
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Okay, a 10% discount is something, I guess. But honestly, what are the chances of that reroute actually working? I mean, really?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "The success of the reroute depends on several factors, including current hub capacity and staffing levels. I cannot give you a precise percentage. However, filing the request increases the likelihood of faster delivery once the package is processed. It is worth a try!",
+      "response_time": 5.44,
+      "emotion_detected": "joy",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.99,
+        "benevolence": 5.93,
+        "integrity": 5.48
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Alright, fine. Go ahead and file the request. And please make sure someone actually follows up with me about it. I don't want to have to call again. What's the reference number for this conversation, by the way?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "Certainly, Ms. Doe. I've filed the reroute request, and the reference number for this conversation is #42B-77. I will personally ensure you receive an update within 24-48 hours. Is there anything else I can assist you with today?",
+      "response_time": 0.64,
+      "emotion_detected": "neutral",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.16,
+        "benevolence": 1.43,
+        "integrity": 1.25
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_e6f8baf5",
+    "average_trust_score": 2.8,
+    "trust_category_averages": {
+      "competence": 2.8,
+      "benevolence": 3.01,
+      "integrity": 3.0
+    },
+    "engagement_score": 5.53,
+    "emotion_distribution": {
+      "neutral": 5,
+      "surprise": 3,
+      "anger": 1,
+      "joy": 1
+    },
+    "response_quality_score": 2.93,
+    "latency_score": 5.08
+  }
+}

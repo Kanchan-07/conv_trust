@@ -1,0 +1,109 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm looking for some gift ideas for my friend. Can you help me find something?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! I can certainly help with that. To give you the best recommendations, could you tell me a little about your friend? For example, what are their interests, hobbies, or anything they might need?",
+      "response_time": 4.0,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.87,
+        "benevolence": 5.68,
+        "integrity": 5.95
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, she's really into fitness and cooking healthy meals. She also travels a bit for work.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Great! Based on that, I recommend checking out these items: a high-quality blender [link], a stylish travel yoga mat [link], or maybe a cookbook focused on quick healthy recipes [link]. Would any of those interest you?",
+      "response_time": 4.99,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 6.9
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, those are decent suggestions, but she has a lot of kitchen gadgets already, and I'm not sure about the mat. I was hoping for something a bit more... unique? Like, what's a popular gift right now that someone into *both* fitness *and* travel would actually use and love? It feels like everything is either one or the other.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I understand you're looking for something unique that bridges those interests. While a product specifically designed for 'fitness *during* travel' isn't a major product category, I can suggest items like high-performance compression socks (great for travel and recovery), a portable resistance band set, or perhaps a subscription box related to healthy snacks or travel-sized wellness products? These are quite popular. [Links/Examples - maybe the examples aren't perfect]",
+      "response_time": 4.71,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.68,
+        "benevolence": 5.46,
+        "integrity": 5.7
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, compression socks? Really? That feels a bit... boring. And she's picky about snacks. I thought maybe there was some cool new tech gadget or something clever I hadn't thought of. This is harder than I thought.",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I apologize that those suggestions didn't quite hit the mark. Finding that perfect, unique item can be challenging. Perhaps exploring wearable fitness trackers with advanced travel features, or items in our 'smart travel gear' collection? I can refine the search further if you'd like to focus on a specific type of product, or I can connect you to a human personal shopper for more tailored assistance.",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.44,
+        "benevolence": 4.23,
+        "integrity": 3.88
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_3ce38bc9",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.75,
+      "benevolence": 5.59,
+      "integrity": 5.61
+    },
+    "engagement_score": 5.04,
+    "emotion_distribution": {
+      "neutral": 6,
+      "joy": 1,
+      "disgust": 1
+    },
+    "response_quality_score": 5.98,
+    "latency_score": 3.1
+  }
+}

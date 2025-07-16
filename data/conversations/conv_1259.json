@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I need help booking a hotel. I'm looking for something in downtown Chicago for the weekend of October 27th.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay! I can help with that. To confirm, you're looking for a hotel in downtown Chicago from Friday, October 27th, to Sunday, October 29th. Are there any specific preferences, such as a particular hotel, price range, or amenities you're interested in?",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.68,
+        "benevolence": 3.96,
+        "integrity": 4.11
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Well, I'd like it to be relatively close to Millennium Park. And I'm on a bit of a budget, so nothing too expensive, maybe under $250 a night? Oh, and free breakfast would be a bonus.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, I'm searching for hotels near Millennium Park with a budget of under $250 per night, including free breakfast. Please give me a moment... Okay, I found a few options. The first one is the Hyatt Centric Chicago Magnificent Mile. It's a bit over budget, but is walking distance from the park and has excellent reviews. Another is the Hampton Inn Chicago Downtown/Magnificent Mile Area - it has free breakfast and is generally within your price range. Let me know if you'd like to see other options or want me to filter by specific criteria, like parking availability?",
+      "response_time": 2.32,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.25,
+        "benevolence": 3.87,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Hmm, the Hyatt is a little too expensive. The Hampton Inn sounds good, but can you tell me *exactly* how far it is from Millennium Park? And also, do they have any deals or discounts available? I've seen some websites that show discounts. And I'm getting a little frustrated with the search, I just want to book a hotel!",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize for the trouble! Let me check the exact distance for you and search for any available discounts for the Hampton Inn... Okay, it's about a 15-minute walk to Millennium Park. Regarding deals, I am unable to directly display all discounts at this time, but I recommend checking various booking sites to find the best deals. Would you like me to proceed and book the room for the dates you specified, or do you wish to explore other options?",
+      "response_time": 0.5,
+      "emotion_detected": "sadness",
+      "trust_score": 1.0,
+      "trust_category_scores": {
+        "competence": 1.32,
+        "benevolence": 1.0,
+        "integrity": 1.0
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5b16399f",
+    "average_trust_score": 3.0,
+    "trust_category_averages": {
+      "competence": 3.08,
+      "benevolence": 2.94,
+      "integrity": 3.03
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "neutral": 4,
+      "surprise": 1,
+      "sadness": 1
+    },
+    "response_quality_score": 3.45,
+    "latency_score": 5.41
+  }
+}

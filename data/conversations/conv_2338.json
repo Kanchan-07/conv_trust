@@ -1,0 +1,132 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hi, I'm trying to find out where my package is. The tracking number is 9876543210.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hello! Thank you for providing your tracking number. I can certainly help you with that. Let me just pull up the information. One moment please...",
+      "response_time": 5.1,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.56,
+        "benevolence": 7.0,
+        "integrity": 6.77
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay...I've been waiting a while. The expected delivery date was three days ago, so I'm a bit worried.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "I understand your concern. According to the tracking information, your package is currently in transit and is expected to arrive within the next 24-48 hours. There was a slight delay due to unforeseen circumstances at a sorting facility.",
+      "response_time": 5.24,
+      "emotion_detected": "fear",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.91,
+        "benevolence": 5.05,
+        "integrity": 5.46
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Unforeseen circumstances? What kind of circumstances? Can you be more specific? I need to know what's going on.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "I apologize, but I do not have the specific details regarding the nature of the delay. However, rest assured, the package is on its way and we are working to get it to you as soon as possible. Would you like me to set up email alerts for you to keep you updated?",
+      "response_time": 4.05,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.54,
+        "benevolence": 4.03,
+        "integrity": 4.18
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "user",
+      "utterance": "Ugh, fine. Yes, please set up the email alerts. But seriously, this is the third time this month I've had issues with deliveries. Is there any way to get a refund on shipping costs for this?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 8,
+      "speaker": "agent",
+      "utterance": "I can certainly look into that for you. Let me check the shipping policy. Okay, I can confirm you are eligible for a partial refund on the shipping costs due to the delivery delay. I will initiate that now. You should see the refund reflected in your account within 5-7 business days.",
+      "response_time": 2.64,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 4.49,
+        "integrity": 3.97
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "user",
+      "utterance": "Okay, that's good to hear. Thank you for your help. I appreciate you looking into the refund.",
+      "response_time": null,
+      "emotion_detected": "joy",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 10,
+      "speaker": "agent",
+      "utterance": "You're very welcome! Is there anything else I can assist you with today? We appreciate your patience and understanding.",
+      "response_time": 6.0,
+      "emotion_detected": "joy",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.56,
+        "benevolence": 7.0,
+        "integrity": 6.73
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_987fdd69",
+    "average_trust_score": 5.5,
+    "trust_category_averages": {
+      "competence": 5.39,
+      "benevolence": 5.51,
+      "integrity": 5.42
+    },
+    "engagement_score": 4.88,
+    "emotion_distribution": {
+      "neutral": 4,
+      "joy": 3,
+      "fear": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 5.31,
+    "latency_score": 2.89
+  }
+}

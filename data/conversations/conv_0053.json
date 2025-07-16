@@ -1,0 +1,86 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm looking for some book recommendations. I'm really in the mood for something in the sci-fi genre, but I'm kind of picky.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. To narrow it down, do you prefer space operas, dystopian futures, cyberpunk, or something else entirely?",
+      "response_time": 3.3,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.97,
+        "benevolence": 4.32,
+        "integrity": 4.37
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, good question. I think I'd prefer something with a dystopian feel, but not *too* depressing, you know? Maybe something with a glimmer of hope?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Certainly. How about 'The Road' by Cormac McCarthy?",
+      "response_time": 3.51,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 4.39,
+        "benevolence": 3.66,
+        "integrity": 3.73
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "Okay, wait, that's *definitely* too depressing! I specifically asked for something *not* too depressing. Ugh. Is there anything else you can recommend? Maybe something a bit more recent, too?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "My apologies. I am still learning to fine-tune my recommendations. How about 'Station Eleven' by Emily St. John Mandel? It deals with the aftermath of a flu pandemic but has strong themes of hope, art, and the resilience of humanity. It's also quite popular.",
+      "response_time": 4.83,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.92,
+        "benevolence": 5.15,
+        "integrity": 5.3
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_5d7d0844",
+    "average_trust_score": 4.5,
+    "trust_category_averages": {
+      "competence": 4.76,
+      "benevolence": 4.38,
+      "integrity": 4.47
+    },
+    "engagement_score": 4.5,
+    "emotion_distribution": {
+      "neutral": 4,
+      "sadness": 2
+    },
+    "response_quality_score": 4.58,
+    "latency_score": 3.62
+  }
+}

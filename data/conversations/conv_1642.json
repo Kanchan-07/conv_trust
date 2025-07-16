@@ -1,0 +1,65 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Okay, I need some help. I'm trying to stick to a grocery budget of $75 for the week, and I have no idea what to buy. Can you give me some suggestions?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Certainly! To give you the best recommendations, could you tell me a little more about your preferences? Are there any dietary restrictions, allergies, or foods you particularly enjoy or dislike? Also, what meals are you planning to make this week, if any? Finally, do you have access to a grocery store with specific options like Aldi or Trader Joe's that generally have lower prices?",
+      "response_time": 3.79,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.13,
+        "benevolence": 5.69,
+        "integrity": 5.17
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Ugh, that's a lot of questions. Okay, I'm generally a healthy eater, but I'm not a vegetarian or anything. I love chicken, pasta, and veggies. I shop at Kroger. And, honestly, I haven't even thought about what I'm eating this week - that's why I'm asking YOU! Can you just give me some general ideas based on a budget of $75 at Kroger? Maybe like, what should I even buy in terms of basics?",
+      "response_time": null,
+      "emotion_detected": "disgust",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Okay, I understand. Based on your preferences and a $75 budget at Kroger, here's a potential shopping list focusing on basics and flexibility. Prices may vary. \n\n*   **Protein:** Chicken breast (about 2 lbs) - ~$10, Eggs - ~$4\n*   **Grains:** Pasta (1 box) - ~$2, Rice (1 bag) - ~$3\n*   **Vegetables:** Broccoli (1 head) - ~$3, Carrots (1 bag) - ~$3, Onions (1 bag) - ~$4\n*   **Other:** Canned tomatoes - ~$2, Peanut butter - ~$4, Bread - ~$3, Milk - ~$4, Apples- ~$7, Bananas ~$4\n\nThis leaves you with about $22 left. I would suggest using this for some additional items like cheese for the pasta, or maybe some ground beef to give you more protein options. You could also buy some frozen veggies to save on costs. You could make chicken and veggie stir-fries, pasta with tomato sauce, or quick egg dishes. Remember to check for sales and compare unit prices. This is a basic plan, and you can adapt it based on what's on sale. Is this helpful? I am also able to provide recipes, but based on limited information, these will be very basic.\n",
+      "response_time": 3.92,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.19,
+        "integrity": 4.28
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d649ae15",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.5,
+      "benevolence": 4.94,
+      "integrity": 4.72
+    },
+    "engagement_score": 5.08,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 2,
+      "disgust": 1
+    },
+    "response_quality_score": 4.43,
+    "latency_score": 3.65
+  }
+}

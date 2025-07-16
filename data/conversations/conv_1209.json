@@ -1,0 +1,64 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "I'm really bored and want to watch a movie. I'm in the mood for something... sci-fi, I think. What do you recommend?",
+      "response_time": null,
+      "emotion_detected": "sadness",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Okay, great! Based on your preference for sci-fi, I can suggest a few popular and well-regarded films. Have you seen 'Dune' (2021) or 'Arrival' (2016)? They're both quite different but are modern classics in the genre.",
+      "response_time": 4.12,
+      "emotion_detected": "neutral",
+      "trust_score": 5.5,
+      "trust_category_scores": {
+        "competence": 5.15,
+        "benevolence": 5.81,
+        "integrity": 5.3
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Hmm, I've seen Dune, it was alright. Arrival was pretty good too. What about something a little less mainstream? Maybe something with time travel or alternate realities, but nothing too cheesy, please! I'm so tired of cheesy sci-fi.",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Alright, let me dig a little deeper. How about 'Primer' (2004)? It's a very low-budget but intellectually stimulating time travel film that avoids most of the typical tropes. Or, if you're open to animation, 'Paprika' (2006) explores dream worlds and altered realities in a visually stunning way. Be warned, Primer can be a bit confusing!",
+      "response_time": 3.44,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.88,
+        "benevolence": 4.21,
+        "integrity": 4.1
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_d59d4b15",
+    "average_trust_score": 4.75,
+    "trust_category_averages": {
+      "competence": 4.52,
+      "benevolence": 5.01,
+      "integrity": 4.7
+    },
+    "engagement_score": 4.83,
+    "emotion_distribution": {
+      "sadness": 1,
+      "neutral": 3
+    },
+    "response_quality_score": 4.93,
+    "latency_score": 3.72
+  }
+}

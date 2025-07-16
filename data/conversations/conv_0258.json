@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn_id": 1,
+      "speaker": "user",
+      "utterance": "Hey, I'm thinking of joining a hackathon, but I'm feeling a bit overwhelmed. I've never done one before. Any advice on where to start?",
+      "response_time": null,
+      "emotion_detected": "surprise",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 2,
+      "speaker": "agent",
+      "utterance": "Hi there! That's great! Hackathons are a fantastic learning experience. First, I'd suggest identifying your interests and skills. What kind of projects are you drawn to? What programming languages or tools are you comfortable with? Knowing this will help you choose a hackathon that aligns with your strengths and interests. Also, check out sites like Devpost or Hackathon.io to find upcoming events.",
+      "response_time": 4.28,
+      "emotion_detected": "neutral",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 6.69,
+        "benevolence": 6.83,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "user",
+      "utterance": "Okay, that makes sense. I'm pretty good with Python and a bit of JavaScript, and I'm interested in AI and web development. But honestly, I'm worried about coming up with a good idea. Everyone else seems to have these amazing, innovative projects, and I'm just... stuck.",
+      "response_time": null,
+      "emotion_detected": "fear",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 4,
+      "speaker": "agent",
+      "utterance": "Don't worry about feeling stuck! Brainstorming can be tough. Try focusing on problems you encounter in your daily life or areas where you think technology could make a real difference. Even a small, well-executed idea is better than a complex one that's half-finished. Also, don't be afraid to look at past hackathon projects for inspiration, just don't directly copy them. And remember, the point is to learn and have fun!",
+      "response_time": 6.0,
+      "emotion_detected": "fear",
+      "trust_score": 7.0,
+      "trust_category_scores": {
+        "competence": 7.0,
+        "benevolence": 7.0,
+        "integrity": 7.0
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "user",
+      "utterance": "That's a good point. Okay, last question: What if my team's idea is very similar to a previous project? Is it still worth pursuing, or will the judges automatically dismiss it? What's the best way to frame it so that we aren't just seen as copycats?",
+      "response_time": null,
+      "emotion_detected": "neutral",
+      "trust_score": null,
+      "trust_category_scores": null
+    },
+    {
+      "turn_id": 6,
+      "speaker": "agent",
+      "utterance": "That's a very valid concern. Similarity to existing projects can be tricky. If your idea has substantial overlap, it's generally best to pivot or find a unique angle. Focus on how your implementation differs, what specific problem your version solves that others don't, or any novel features you add. Highlighting these aspects in your presentation and demo will be key to demonstrating originality and justifying your project. Be transparent about your inspiration, acknowledging similar work, but clearly emphasizing what makes yours different and valuable. Judges often appreciate improvements and new perspectives on existing concepts.",
+      "response_time": 3.58,
+      "emotion_detected": "neutral",
+      "trust_score": 4.0,
+      "trust_category_scores": {
+        "competence": 3.66,
+        "benevolence": 3.92,
+        "integrity": 4.14
+      }
+    }
+  ],
+  "data": {
+    "conversation_id": "conv_b6a6db08",
+    "average_trust_score": 6.0,
+    "trust_category_averages": {
+      "competence": 5.78,
+      "benevolence": 5.92,
+      "integrity": 6.05
+    },
+    "engagement_score": 4.75,
+    "emotion_distribution": {
+      "surprise": 1,
+      "neutral": 3,
+      "fear": 2
+    },
+    "response_quality_score": 5.96,
+    "latency_score": 2.88
+  }
+}
