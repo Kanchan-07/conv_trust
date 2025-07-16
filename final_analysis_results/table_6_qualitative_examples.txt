@@ -1,0 +1,48 @@
+--- Table 6: Qualitative Examples of Trust Failures and Successes ---
+
+=== LOW TRUST EXAMPLES ===
+
+--- Conversation ID: conv_0764 (Avg Trust: 1.00) ---
+USER: Okay, I'm looking at this Explanation of Benefits, and it says I owe $300 for a doctor's visit, but I thought my deductible was met last month. This is so frustrating!
+AGENT: I understand your frustration. To investigate this further, could you please provide me with your member ID and the date of service in question? I can then check the status of your deductible and the details of the claim.
+USER: Sure, my member ID is 1234567890, and the date of service was July 15th, 2024. I also had bloodwork done that day. I really thought this would all be covered.
+AGENT: Thank you. Please wait a moment while I access your claim details... Okay, I see the claim for the office visit and bloodwork on July 15th. It appears that while you *did* meet your individual deductible, the claim was processed under your family deductible, which has not yet been met. The $300 is being applied toward the remaining family deductible.
+USER: Ugh, the family deductible. Of course. But how does that even work? Is it based on who uses the insurance first, or is it some other complicated formula?
+AGENT: The family deductible is the total amount your entire family needs to pay before the insurance starts covering eligible expenses for all family members. Each individual's expenses count towards the family deductible. Once the family deductible is met, all covered family members receive in-network benefits, regardless of whether or not an individual has met their *individual* deductible. It is not necessarily based on the order in which people use the insurance.
+USER: Okay, I think I understand. So, all medical expenses by family members get counted towards the family deductible and when the family deductible is met, everyone's claims are then paid normally under our plan? I guess I'll just have to keep track of everything. Thanks for explaining that!
+
+--- Conversation ID: conv_0661 (Avg Trust: 1.00) ---
+USER: I placed an order last week, order number 12345, and it still says 'processing'. I need to know what's going on! This is ridiculous.
+AGENT: Hello! I understand your frustration. Let me check on order 12345 for you. One moment, please... Okay, it appears your order is being held up due to a slight inventory issue with one of the items. We're expecting a shipment tomorrow and your order should ship out within 24-48 hours after that. I apologize for the delay.
+USER: Inventory issue? Why wasn't I notified about this? And what happens if you *don't* get the shipment tomorrow? What's the backup plan? This was supposed to be a gift.
+AGENT: I sincerely apologize for the lack of proactive communication regarding the inventory delay. You are right, we should have informed you sooner. If the shipment is further delayed, we can offer a substitute item of equal or greater value, or issue a full refund. Which would you prefer? To prevent this happening in the future, could you provide your email so I can add you to our proactive notification list?
+
+--- Conversation ID: conv_0672 (Avg Trust: 1.00) ---
+USER: Hi, I'm calling about a package that was supposed to arrive three days ago. The tracking number is 1Z234ABC5678DEF90.
+AGENT: Thank you for providing the tracking number. I'm showing that your package is currently delayed due to unforeseen circumstances. It is now expected to arrive tomorrow. I apologize for the inconvenience.
+USER: Unforeseen circumstances? That's what the tracking website said too, but what does that even *mean*? I needed this package for a business meeting today! Is there anything you can do to expedite it or at least tell me *exactly* what the hold up is?
+AGENT: I understand your frustration. While I don't have specific details regarding the cause of the delay, I can confirm that the package is currently at our regional distribution center and is scheduled to be loaded onto a delivery vehicle first thing tomorrow morning. I can also offer you a 10% discount on your next shipment as compensation for the delay. Would that be acceptable?
+
+=== HIGH TRUST EXAMPLES ===
+
+--- Conversation ID: conv_2794 (Avg Trust: 7.00) ---
+USER: Hey, I need some fashion recommendations for a casual weekend look, but I'm on a pretty tight budget. Like, maybe £50 maximum for the whole outfit?
+AGENT: Absolutely! I can help you find some stylish options within your budget. A £50 budget for a whole casual outfit is definitely achievable. Could you tell me a bit more about what kind of casual look you're going for? Are you thinking jeans and a top, a casual dress, something else?
+USER: Hmm, probably jeans and a top or maybe some chinos. It's for brunch with friends. It's just so frustrating trying to find something that looks good AND is affordable! Can you even suggest things that look much more expensive than they actually are?
+AGENT: Finding items that offer a high-end look on a budget is a popular goal! For your budget and occasion, focus on simple, well-fitting basics from stores known for affordability. Look for structured fabrics, classic silhouettes, and neutral colors like beige, white, black, or grey. Pay attention to details like seams and finishes. Accessorizing smartly with a belt or simple jewelry can also elevate a look.
+USER: Okay, neutral colours and structured fabrics... I guess that makes sense. But like, any specific types of tops or trousers that tend to look more expensive? Saying 'basics' is a bit general when I'm trying to hit that £50 target. Or even brands that do that trick well?
+
+--- Conversation ID: conv_2811 (Avg Trust: 7.00) ---
+USER: Ugh, I'm so frustrated with my resume. It feels like it's not getting me any interviews, and I don't even know where to start fixing it. Can you help me review it and maybe suggest improvements?
+AGENT: Absolutely, I can help you with that. It's common to feel that way. To start, could you share your current resume? We can go through it section by section, focusing on clarity, impact, and tailoring it to the types of jobs you're applying for. We can also discuss effective summary statements and bullet point structures.
+USER: Okay, thanks. I'll upload it now. *user uploads file* Alright, it's there. My main problem is how to describe my past jobs, especially the ones that weren't a perfect match for what I want now. How do I make *that* experience sound relevant and impactful without sounding like I'm making things up? It's confusing!
+AGENT: I see the file. Thank you. Describing past roles strategically is key. Focus on transferable skills that are relevant to your target roles, such as project management, communication, problem-solving, or specific software proficiencies. Frame your bullet points around achievements and responsibilities that demonstrate these skills, using action verbs. We can identify which skills from your history align best with the jobs you're interested in.
+
+--- Conversation ID: conv_1732 (Avg Trust: 7.00) ---
+USER: Hi, I have a job interview next week for a software engineer position. Can you help me prepare?
+AGENT: Yes, I can definitely help! I can provide information on common interview questions, suggest practice coding problems, and offer tips on behavioral interview techniques. To start, what specific areas are you most concerned about?
+USER: I'm most worried about the technical questions. I understand the concepts, but I sometimes struggle to explain them clearly and quickly. Do you have any advice on how to improve that?
+AGENT: Absolutely! One effective technique is the STAR method (Situation, Task, Action, Result) for answering behavioral questions. When explaining technical concepts, try breaking them down into smaller parts and use analogies. For example, explain how a linked list is similar to a train. Additionally, practice explaining these concepts out loud. I can provide some sample technical questions if you'd like. Here's a basic one: "Explain the difference between a stack and a queue."
+USER: Okay, I think I get the STAR method. But, what if they ask a question about a technology I've never used before? Like, what if they asked me about a specific cloud computing platform I've never touched? I'd be completely lost!
+AGENT: That's a great question! In such situations, honesty is key. Acknowledge you haven't worked directly with the platform, but then demonstrate your ability to learn. You could say something like: "While I haven't had hands-on experience with [Platform Name], I'm familiar with cloud computing concepts like [related concepts]. I'm also a quick learner and would be eager to get up to speed. Could you tell me more about how your team utilizes [Platform Name]?" This shows your adaptability and willingness to learn. Also, research the company’s tech stack before the interview.
+USER: That's actually really helpful! Thanks a lot. I feel a bit more confident now. I'll start practicing using the STAR method and reviewing some core CS concepts. I think I'm ready to move forward, thanks again!
