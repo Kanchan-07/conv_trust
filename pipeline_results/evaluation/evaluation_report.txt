@@ -1,0 +1,72 @@
+================================================================================
+TRUST PREDICTION MODEL EVALUATION REPORT
+================================================================================
+Generated on: 2025-09-12 00:47:52.734515
+Dataset: Conversational Trust Dataset
+Total samples: 2514
+Features used: 409
+
+MODEL PERFORMANCE COMPARISON
+----------------------------------------
+        Model       R²     RMSE      MAE  Within 0.5  Within 1.0     MAPE
+     ensemble 0.946025 0.401078 0.243906   82.259348   94.828958 5.448523
+random_forest 0.943682 0.409690 0.227303   82.179793   94.272076 4.661315
+      xgboost 0.938162 0.429299 0.259264   81.503580   93.874304 5.991614
+          svm 0.919884 0.488645 0.346857   73.110581   94.590294 8.860529
+         lstm 0.918111 0.494022 0.334270   74.781225   92.919650 7.935332
+
+BEST PERFORMING MODEL: ensemble
+R² Score: 0.9460
+
+DETAILED MODEL RESULTS
+----------------------------------------
+
+RANDOM_FOREST:
+  mse: 0.1678
+  rmse: 0.4097
+  mae: 0.2273
+  r2: 0.9437
+  mape: 4.6613
+  within_0.5: 82.1798
+  within_1.0: 94.2721
+  correlation: 0.9714
+
+XGBOOST:
+  mse: 0.1843
+  rmse: 0.4293
+  mae: 0.2593
+  r2: 0.9382
+  mape: 5.9916
+  within_0.5: 81.5036
+  within_1.0: 93.8743
+  correlation: 0.9686
+
+SVM:
+  mse: 0.2388
+  rmse: 0.4886
+  mae: 0.3469
+  r2: 0.9199
+  mape: 8.8605
+  within_0.5: 73.1106
+  within_1.0: 94.5903
+  correlation: 0.9591
+
+LSTM:
+  mse: 0.2441
+  rmse: 0.4940
+  mae: 0.3343
+  r2: 0.9181
+  mape: 7.9353
+  within_0.5: 74.7812
+  within_1.0: 92.9196
+  correlation: 0.9584
+
+ENSEMBLE:
+  mse: 0.1609
+  rmse: 0.4011
+  mae: 0.2439
+  r2: 0.9460
+  mape: 5.4485
+  within_0.5: 82.2593
+  within_1.0: 94.8290
+  correlation: 0.9727

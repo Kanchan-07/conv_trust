@@ -1,0 +1,125 @@
+ConTrustModel(
+  (text_model): DistilBertModel(
+    (embeddings): Embeddings(
+      (word_embeddings): Embedding(30522, 768, padding_idx=0)
+      (position_embeddings): Embedding(512, 768)
+      (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (transformer): Transformer(
+      (layer): ModuleList(
+        (0-5): 6 x TransformerBlock(
+          (attention): DistilBertSdpaAttention(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (q_lin): Linear(in_features=768, out_features=768, bias=True)
+            (k_lin): Linear(in_features=768, out_features=768, bias=True)
+            (v_lin): Linear(in_features=768, out_features=768, bias=True)
+            (out_lin): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (ffn): FFN(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (lin1): Linear(in_features=768, out_features=3072, bias=True)
+            (lin2): Linear(in_features=3072, out_features=768, bias=True)
+            (activation): GELUActivation()
+          )
+          (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        )
+      )
+    )
+  )
+  (text_projection): Linear(in_features=768, out_features=768, bias=True)
+  (multimodal_fusion): MultiModalFusionEncoder(
+    (text_encoder): TransformerEncoder(
+      (layers): ModuleList(
+        (0-1): 2 x TransformerEncoderLayer(
+          (self_attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+          )
+          (linear1): Linear(in_features=768, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear2): Linear(in_features=2048, out_features=768, bias=True)
+          (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (dropout1): Dropout(p=0.1, inplace=False)
+          (dropout2): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+    (temporal_encoder): Sequential(
+      (0): Linear(in_features=4, out_features=128, bias=True)
+      (1): ReLU()
+      (2): Dropout(p=0.1, inplace=False)
+      (3): Linear(in_features=128, out_features=256, bias=True)
+      (4): ReLU()
+    )
+    (behavioral_encoder): Sequential(
+      (0): Linear(in_features=8, out_features=256, bias=True)
+      (1): ReLU()
+      (2): Dropout(p=0.1, inplace=False)
+      (3): Linear(in_features=256, out_features=256, bias=True)
+      (4): ReLU()
+    )
+    (text_to_temporal_attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+    )
+    (text_to_behavioral_attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+    )
+    (fusion_transform): Linear(in_features=1280, out_features=768, bias=True)
+    (fusion_gate): Linear(in_features=768, out_features=3, bias=True)
+    (text_proj): Linear(in_features=768, out_features=256, bias=True)
+  )
+  (trust_attention_layers): ModuleList(
+    (0-5): 6 x TrustAwareSelfAttention(
+      (q_linear): Linear(in_features=768, out_features=768, bias=True)
+      (k_linear): Linear(in_features=768, out_features=768, bias=True)
+      (v_linear): Linear(in_features=768, out_features=768, bias=True)
+      (trust_projection): Linear(in_features=1, out_features=64, bias=True)
+      (trust_gate): Linear(in_features=769, out_features=768, bias=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+      (out_linear): Linear(in_features=768, out_features=768, bias=True)
+    )
+  )
+  (conversation_memory): ConversationMemory(
+    (lstm): LSTM(768, 256, num_layers=2, batch_first=True, dropout=0.1, bidirectional=True)
+    (memory_gate): Linear(in_features=1280, out_features=512, bias=True)
+    (memory_transform): Linear(in_features=512, out_features=512, bias=True)
+    (trust_evolution): Linear(in_features=512, out_features=1, bias=True)
+  )
+  (turn_attention): MultiheadAttention(
+    (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+  )
+  (conversation_attention): MultiheadAttention(
+    (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)
+  )
+  (trust_head): Sequential(
+    (0): Linear(in_features=768, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=256, out_features=128, bias=True)
+    (4): ReLU()
+    (5): Linear(in_features=128, out_features=1, bias=True)
+  )
+  (trust_categories_head): Sequential(
+    (0): Linear(in_features=768, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=256, out_features=3, bias=True)
+  )
+  (emotion_head): Sequential(
+    (0): Linear(in_features=768, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=7, bias=True)
+  )
+  (engagement_head): Sequential(
+    (0): Linear(in_features=768, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=1, bias=True)
+  )
+  (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+
+Total parameters: 108,232,596
+Trainable parameters: 108,232,596
